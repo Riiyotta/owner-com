@@ -1,0 +1,10 @@
+{
+  "id": "embed",
+  "purpose": "Embedded third-party frame.",
+  "observedCount": 41,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

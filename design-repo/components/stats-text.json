@@ -1,0 +1,12 @@
+{
+  "id": "stats-text",
+  "name": "stats-text",
+  "occurrences": 288,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

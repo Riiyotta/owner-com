@@ -1,0 +1,15 @@
+{
+  "id": "hs-form-private",
+  "name": "hs-form-private",
+  "occurrences": 6,
+  "composedOf": [
+    "embed",
+    "input",
+    "list",
+    "select"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

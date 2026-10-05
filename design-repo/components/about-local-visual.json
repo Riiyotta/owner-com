@@ -1,0 +1,12 @@
+{
+  "id": "about-local-visual",
+  "name": "about-local_visual",
+  "occurrences": 10,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/our-story"
+  }
+}

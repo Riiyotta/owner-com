@@ -1,0 +1,12 @@
+{
+  "id": "icon-24",
+  "name": "icon-24",
+  "occurrences": 81,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

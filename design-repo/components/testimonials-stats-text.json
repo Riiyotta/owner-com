@@ -1,0 +1,12 @@
+{
+  "id": "testimonials-stats-text",
+  "name": "testimonials-stats_text",
+  "occurrences": 162,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies"
+  }
+}

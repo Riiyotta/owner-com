@@ -1,0 +1,84 @@
+{
+  "id": "hero.section-resource",
+  "category": "HERO",
+  "label": "section_resource",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Get the condensed version of our Pizza Marketing Guide for easy access on the go\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/downloads/pizza-marketing-checklist/index.html:2017-3618",
+      "src/resources/google-business-profile-tps/index.html:2020-3685",
+      "src/resources/menu-engineering/index.html:2020-3684",
+      "src/resources/ottavios-case-study/index.html:2019-3685"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 16
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 11,
+        "maxWords": 27
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 4
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1248,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 1699,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/pages/ResourcesOttaviosCaseStudy.jsx"
+}

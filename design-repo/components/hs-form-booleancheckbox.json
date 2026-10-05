@@ -1,0 +1,12 @@
+{
+  "id": "hs-form-booleancheckbox",
+  "name": "hs-form-booleancheckbox",
+  "occurrences": 27,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

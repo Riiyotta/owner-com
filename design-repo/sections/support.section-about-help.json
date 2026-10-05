@@ -1,0 +1,79 @@
+{
+  "id": "support.section-about-help",
+  "category": "SUPPORT",
+  "label": "section-about_help",
+  "tag": "section",
+  "purpose": "Answers questions or collects a message.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/our-story/index.html:4068-4123"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 21
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 8,
+        "assetRoles": [
+          "background",
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 960,
+      "columns": 5
+    },
+    "mobile": {
+      "heightPx": 485,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "5 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "background",
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/pages/OurStory.jsx"
+}

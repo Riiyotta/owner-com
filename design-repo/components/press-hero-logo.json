@@ -1,0 +1,10 @@
+{
+  "id": "press-hero-logo",
+  "name": "press-hero_logo",
+  "occurrences": 20,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "investors-grid-item",
+  "name": "investors-grid_item",
+  "occurrences": 32,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

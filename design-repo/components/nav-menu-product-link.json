@@ -1,0 +1,13 @@
+{
+  "id": "nav-menu-product-link",
+  "name": "nav-menu_product-link",
+  "occurrences": 2660,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

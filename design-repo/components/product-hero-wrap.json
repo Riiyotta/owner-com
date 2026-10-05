@@ -1,0 +1,17 @@
+{
+  "id": "product-hero-wrap",
+  "name": "product-hero_wrap",
+  "occurrences": 20,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

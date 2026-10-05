@@ -1,0 +1,13 @@
+{
+  "id": "rating-group-item",
+  "name": "rating-group_item",
+  "occurrences": 14,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

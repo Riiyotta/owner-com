@@ -1,0 +1,13 @@
+{
+  "id": "blog-trending-card",
+  "name": "blog-trending_card",
+  "occurrences": 8,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog-category/increase-sales"
+  }
+}

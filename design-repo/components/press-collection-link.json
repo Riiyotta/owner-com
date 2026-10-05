@@ -1,0 +1,14 @@
+{
+  "id": "press-collection-link",
+  "name": "press_collection-link",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

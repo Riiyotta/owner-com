@@ -1,0 +1,13 @@
+{
+  "id": "hiw-steps-item-visual",
+  "name": "hiw-steps_item_visual",
+  "occurrences": 8,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/how-owner-works"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "hs-auto-dq-static",
+  "name": "hs_auto_dq_static",
+  "occurrences": 6,
+  "composedOf": [
+    "input",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

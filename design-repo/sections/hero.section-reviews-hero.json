@@ -1,0 +1,74 @@
+{
+  "id": "hero.section-reviews-hero",
+  "category": "HERO",
+  "label": "section_reviews-hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Owner.com Reviews from Restaurant Owners\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/reviews/index.html:2262-3140"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 22,
+        "maxWords": 13
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 20,
+        "assetRoles": [
+          "avatar",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 801,
+      "columns": 9
+    },
+    "mobile": {
+      "heightPx": 708,
+      "columns": 9,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "avatar",
+    "customer-logo"
+  ],
+  "implementedBy": "src/pages/Reviews.jsx"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hero.section-s-d-hero",
+  "category": "HERO",
+  "label": "section-s-d_hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"An inside look at our $240M Series D.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/d/index.html:2544-2833"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 9,
+        "maxWords": 53
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "canvas-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 750,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 877,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "4 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/D.jsx"
+}

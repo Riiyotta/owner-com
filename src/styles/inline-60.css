@@ -1,0 +1,51 @@
+
+  /* Container to allow horizontal scrolling on mobile */
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+  }
+
+  .custom-restaurant-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: inherit; /* Inherits your Webflow site font */
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+  }
+
+  .custom-restaurant-table th {
+    background-color: #f4f4f4;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 2px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+  }
+
+  .custom-restaurant-table td {
+    padding: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+
+  /* Removes border from the last column */
+  .custom-restaurant-table th:last-child, 
+  .custom-restaurant-table td:last-child {
+    border-right: none;
+  }
+
+  /* Alternating row colors for better readability */
+  .custom-restaurant-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+
+  /* Clean list styling for table cells */
+  .table-list {
+    margin: 0;
+    padding-left: 20px;
+  }

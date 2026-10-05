@@ -1,0 +1,15 @@
+{
+  "id": "nav-menu-dropdown-group",
+  "name": "nav-menu_dropdown-group",
+  "occurrences": 560,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

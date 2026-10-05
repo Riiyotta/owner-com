@@ -1,0 +1,16 @@
+{
+  "id": "section-base-wrap",
+  "name": "section-base-wrap",
+  "occurrences": 320,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

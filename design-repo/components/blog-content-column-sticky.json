@@ -1,0 +1,13 @@
+{
+  "id": "blog-content-column-sticky",
+  "name": "blog-content_column-sticky",
+  "occurrences": 72,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

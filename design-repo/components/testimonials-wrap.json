@@ -1,0 +1,19 @@
+{
+  "id": "testimonials-wrap",
+  "name": "testimonials-wrap",
+  "occurrences": 23,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

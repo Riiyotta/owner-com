@@ -1,0 +1,13 @@
+{
+  "id": "legal-item",
+  "name": "legal-item",
+  "occurrences": 42,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy-policy"
+  }
+}

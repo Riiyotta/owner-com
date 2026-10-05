@@ -1,0 +1,10 @@
+{
+  "id": "owner-table",
+  "name": "owner-table",
+  "occurrences": 123,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

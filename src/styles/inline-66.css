@@ -1,0 +1,28 @@
+
+  .owner-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+  }
+
+  .owner-table th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .owner-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .owner-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }

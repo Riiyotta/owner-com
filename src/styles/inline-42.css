@@ -1,0 +1,10 @@
+
+  .legal-link.w--current:before{
+    content:"";
+    position: relative;
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: var(--green);
+  }

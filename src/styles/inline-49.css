@@ -1,0 +1,22 @@
+
+        .callout-box {
+            border: 2px solid #0b79d0; /* Darker blue border color */
+            background-color: #e6f7ff; /* Light blue background color */
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the text */
+        }
+        .callout-box p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        .formula {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block; /* Make the formula box inline-block to center it properly */
+        }
+    

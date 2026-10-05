@@ -1,0 +1,13 @@
+{
+  "id": "cs-index-meta",
+  "name": "cs-index_meta",
+  "occurrences": 54,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies"
+  }
+}

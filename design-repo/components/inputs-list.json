@@ -1,0 +1,12 @@
+{
+  "id": "inputs-list",
+  "name": "inputs-list",
+  "occurrences": 36,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,732 @@
+{
+  "version": "1",
+  "sections": [
+    "content.block",
+    "content.cs-index-list",
+    "content.eng-lp-figure-wall",
+    "content.eng-maxwdith",
+    "content.pres-cards-header",
+    "content.ps",
+    "content.roles",
+    "content.s-d-summary-list",
+    "content.s-d-video-box",
+    "content.s-d-wrap",
+    "content.section-about-how",
+    "content.section-about-local",
+    "content.section-about-stats",
+    "content.section-about-vision",
+    "content.section-base",
+    "content.section-blog-categories",
+    "content.section-blog-most",
+    "content.section-blog-topics",
+    "content.section-eng-intro",
+    "content.section-eng-row",
+    "content.section-guides",
+    "content.section-owner-stack",
+    "content.section-restaurant",
+    "content.section-s-d-about",
+    "content.section-s-d-competition",
+    "content.section-s-d-future",
+    "content.section-s-d-the-problem",
+    "content.section-s-d-why-now",
+    "content.section-why-sticky",
+    "content.team",
+    "content.u-mb-40",
+    "content.u-mb-64",
+    "cta.section-career-cta",
+    "cta.section-cta",
+    "features.section-eng-steps",
+    "features.section-hiw-steps",
+    "hero.cs-index-head",
+    "hero.demo-control-layout",
+    "hero.eng-section-eng-hero",
+    "hero.page-wrapper",
+    "hero.section-about-hero",
+    "hero.section-blog-content",
+    "hero.section-blog-hero",
+    "hero.section-career-hero",
+    "hero.section-center-hero",
+    "hero.section-cs-hero",
+    "hero.section-hp-hero",
+    "hero.section-leadership-hero",
+    "hero.section-legal",
+    "hero.section-product-hero",
+    "hero.section-resource",
+    "hero.section-reviews-hero",
+    "hero.section-s-d-hero",
+    "proof.press-cards-wrap",
+    "proof.section-beliefs",
+    "proof.section-reviews",
+    "proof.section-stories",
+    "proof.section-testimonials",
+    "shell.demo-control-header",
+    "shell.eng-lp-footer",
+    "shell.nav-wrapper",
+    "shell.section-footer",
+    "showcase.section-s-d-gtm",
+    "support.eng-steps-faq",
+    "support.form",
+    "support.section-about-help",
+    "support.section-leaders-support"
+  ],
+  "components": [
+    "about-help-visual-box",
+    "about-local-visual",
+    "accordion-css",
+    "actions",
+    "arrows-group",
+    "beliefs-item",
+    "blog-author-img",
+    "blog-author-social-list",
+    "blog-author-social-wrap",
+    "blog-author-wrap",
+    "blog-author-wrap-inner",
+    "blog-card",
+    "blog-card-content",
+    "blog-card-content-box",
+    "blog-card-content-item",
+    "blog-card-content-top",
+    "blog-card-visual",
+    "blog-content-column",
+    "blog-content-column-head",
+    "blog-content-column-img",
+    "blog-content-column-link",
+    "blog-content-column-sticky",
+    "blog-content-column-sticky-inner",
+    "blog-content-column-text-box",
+    "blog-content-column-toc",
+    "blog-content-column-toc-inner",
+    "blog-content-column-visual",
+    "blog-content-cta-visual",
+    "blog-content-cta-wrap",
+    "blog-content-cta-wrap-inner",
+    "blog-content-custom-cta",
+    "blog-content-custom-cta-inner",
+    "blog-content-custom-quote-box",
+    "blog-content-custom-quote-line",
+    "blog-content-custom-quote-person",
+    "blog-content-custom-quote-shape",
+    "blog-content-custom-quote-wrap",
+    "blog-content-custom-table",
+    "blog-content-key-wrap",
+    "blog-content-visual",
+    "blog-content-wrap",
+    "blog-content-wrap-inner",
+    "blog-key-rich-text",
+    "blog-list",
+    "blog-social-link",
+    "blog-table",
+    "blog-trending-card",
+    "blog-trending-card-bottom",
+    "blog-trending-card-overlay",
+    "blue-box",
+    "body-l",
+    "body-m",
+    "body-s",
+    "body-xs",
+    "bordered",
+    "btn-text",
+    "bunny-player",
+    "button-group",
+    "caption",
+    "career-hero-visual-box",
+    "careers-testimonial-item",
+    "careers-testimonial-video",
+    "cc-meta-16",
+    "cc-meta-8",
+    "cc-product-hero",
+    "cover-link",
+    "cs-feature-box",
+    "cs-feature-box-item",
+    "cs-feature-visual",
+    "cs-hero-head",
+    "cs-hero-video-wrap",
+    "cs-hero-wrap",
+    "cs-index-item",
+    "cs-index-item-content",
+    "cs-index-meta",
+    "cs-index-stats-list",
+    "cs-index-visual",
+    "cs-item",
+    "cs-list",
+    "cs-stats-card-item",
+    "cs-stats-card-list",
+    "cta-head",
+    "cta-img",
+    "cta-wrap",
+    "current",
+    "custom-restaurant-table",
+    "demo-control-card",
+    "demo-field",
+    "demo-field-wrap",
+    "demo-floating-label",
+    "demo-form-actions",
+    "demo-form-block",
+    "demo-form-box",
+    "demo-form-form",
+    "demo-form-loader-box",
+    "demo-form-loader-lottie",
+    "demo-form-redirect-icon",
+    "demo-form-success-box",
+    "demo-form-wrap",
+    "demo-grid-item",
+    "directors-grid-tem",
+    "directors-item",
+    "directors-item-arrow",
+    "direstors-item-inner",
+    "eng-container-large",
+    "eng-lp-h1",
+    "eng-lp-h3",
+    "eng-lp-text-large",
+    "eng-lp-text-regular",
+    "eng-padding-global",
+    "eng-visual-img",
+    "faq-box",
+    "faq-rich-text",
+    "faqs-line",
+    "footer-bottom-link",
+    "footer-bottom-list",
+    "footer-brand",
+    "footer-link",
+    "footer-logo",
+    "footer-middle-item",
+    "footer-middle-list",
+    "footer-middle-wrap",
+    "footer-wrap",
+    "footer-wrap-bottom",
+    "footer-wrap-top",
+    "form-checkbox",
+    "form-checkbox-icon",
+    "form-field-other-close",
+    "form-field-wrapper",
+    "form-input",
+    "form-input-box",
+    "gudies-card",
+    "gudies-card-inner",
+    "guides-card-overlay",
+    "hbs-form",
+    "hiw-steps-item",
+    "hiw-steps-item-content",
+    "hiw-steps-item-num",
+    "hiw-steps-item-text",
+    "hiw-steps-item-visual",
+    "hs-address",
+    "hs-auto-dq-reason",
+    "hs-auto-dq-static",
+    "hs-auto-enrich-date",
+    "hs-auto-enrich-time",
+    "hs-brizo-id",
+    "hs-button",
+    "hs-city",
+    "hs-dateinput",
+    "hs-datepicker",
+    "hs-fieldtype-date",
+    "hs-fieldtype-number",
+    "hs-fieldtype-phonenumber",
+    "hs-fieldtype-select",
+    "hs-fieldtype-text",
+    "hs-form-booleancheckbox",
+    "hs-form-booleancheckbox-display",
+    "hs-form-checkbox",
+    "hs-form-checkbox-display",
+    "hs-form-private",
+    "hs-form-radio",
+    "hs-form-radio-display",
+    "hs-form-required",
+    "hs-input",
+    "icon-24",
+    "icon-32",
+    "image-caption-wrapper",
+    "img-cover",
+    "input",
+    "inputs-list",
+    "investors-grid-inner",
+    "investors-grid-item",
+    "investors-logos-logo",
+    "leaders-support-list-item",
+    "leadership-item",
+    "leadership-item-logo",
+    "leadership-item-visual",
+    "legal-item",
+    "legal-link",
+    "legal-nav",
+    "legal-nav-wrap",
+    "legal-wrap",
+    "list",
+    "main-wrapper",
+    "nav-ham-line",
+    "nav-menu",
+    "nav-menu-cases-inner",
+    "nav-menu-cases-link",
+    "nav-menu-dropdown",
+    "nav-menu-dropdown-cases",
+    "nav-menu-dropdown-group",
+    "nav-menu-dropdowns",
+    "nav-menu-link-card",
+    "nav-menu-link-cards",
+    "nav-menu-link-item",
+    "nav-menu-link-list",
+    "nav-menu-list",
+    "nav-menu-list-item",
+    "nav-menu-list-item-inner",
+    "nav-menu-product-link",
+    "nav-part",
+    "nav-tag",
+    "nav-wrap",
+    "nav-wrapper",
+    "nice-select",
+    "option",
+    "osano-cm-storage-policy",
+    "osano-cm-window",
+    "owner-table",
+    "owner-table-icon",
+    "page-wrapper",
+    "pattern",
+    "press-collection-action-2",
+    "press-collection-bottom-wrap",
+    "press-collection-link",
+    "press-hero-logo",
+    "press-img-overlay",
+    "press-logo-visual",
+    "press-visual",
+    "pricing-hero-item",
+    "pricing-testimonial-item",
+    "pricing-testimonial-visual",
+    "product-bg-visual",
+    "product-features-wrap",
+    "product-hero-box",
+    "product-hero-box-inner",
+    "product-hero-head",
+    "product-hero-head-inner",
+    "product-hero-wrap",
+    "product-list",
+    "product-list-item",
+    "product-list-wrap",
+    "product-traffict-item",
+    "product-traffict-item-top",
+    "product-traffict-list",
+    "product-traffict-top-content",
+    "product-traffict-visual",
+    "prouct-list-icon-box",
+    "rating-group",
+    "rating-group-item",
+    "rating-group-logo",
+    "related-list",
+    "review-row",
+    "review-row-stars-box",
+    "review-row-stars-reveal",
+    "reviews-cards-rest-avatar-logo",
+    "reviews-grid-card",
+    "reviews-grid-card-rest",
+    "reviews-grid-card-rest-bottom",
+    "reviews-grid-card-rest-inner",
+    "reviews-hero-collection-item",
+    "reviews-wrap-avatar",
+    "reviews-wrap-item",
+    "reviews-wrap-row",
+    "reviews-wrap-wrap",
+    "s-d-team-img",
+    "s-d-team-item",
+    "s-d-wrap",
+    "section-base",
+    "section-base-head",
+    "section-base-row",
+    "section-base-wrap",
+    "section-blog-content",
+    "section-cs-hero",
+    "section-footer",
+    "section-legal",
+    "section-product-hero",
+    "section-testimonials",
+    "slide-w",
+    "slider-arrow",
+    "stats-text",
+    "stories-item-bg",
+    "stories-item-bg-img",
+    "stories-item-content",
+    "stories-list-card",
+    "stories-list-item",
+    "table-container",
+    "table-list",
+    "testimonials-card",
+    "testimonials-card-content",
+    "testimonials-card-content-inner",
+    "testimonials-card-list",
+    "testimonials-card-visual",
+    "testimonials-head",
+    "testimonials-slider",
+    "testimonials-stats-text",
+    "testimonials-wrap",
+    "u-mb-12",
+    "u-mb-16",
+    "u-mb-20",
+    "u-mb-24",
+    "u-mb-32",
+    "u-mb-4",
+    "u-mb-40",
+    "u-mb-48",
+    "u-mb-64",
+    "u-mb-8",
+    "u-mt-16",
+    "u-mt-24",
+    "u-mt-8"
+  ],
+  "primitives": [
+    "button",
+    "canvas",
+    "embed",
+    "form",
+    "heading",
+    "image",
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "picture",
+    "select",
+    "svg",
+    "table",
+    "textarea",
+    "video"
+  ],
+  "nodeProperties": [
+    "type",
+    "content",
+    "motion"
+  ],
+  "contentFields": {
+    "content.block": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.cs-index-list": [
+      "body",
+      "ctas",
+      "images"
+    ],
+    "content.eng-lp-figure-wall": [
+      "images"
+    ],
+    "content.eng-maxwdith": [
+      "heading"
+    ],
+    "content.pres-cards-header": [
+      "heading",
+      "subheading",
+      "body",
+      "images"
+    ],
+    "content.ps": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.roles": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas"
+    ],
+    "content.s-d-summary-list": [
+      "body"
+    ],
+    "content.s-d-video-box": [
+      "body",
+      "images"
+    ],
+    "content.s-d-wrap": [
+      "heading",
+      "body"
+    ],
+    "content.section-about-how": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.section-about-local": [
+      "items",
+      "images"
+    ],
+    "content.section-about-stats": [
+      "heading",
+      "subheading",
+      "body"
+    ],
+    "content.section-about-vision": [
+      "heading",
+      "body"
+    ],
+    "content.section-base": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "content.section-blog-categories": [
+      "ctas",
+      "items",
+      "images"
+    ],
+    "content.section-blog-most": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "content.section-blog-topics": [
+      "heading",
+      "ctas",
+      "images"
+    ],
+    "content.section-eng-intro": [
+      "heading",
+      "body"
+    ],
+    "content.section-eng-row": [
+      "heading",
+      "subheading",
+      "body",
+      "images"
+    ],
+    "content.section-guides": [
+      "heading",
+      "ctas",
+      "images"
+    ],
+    "content.section-owner-stack": [
+      "heading",
+      "body"
+    ],
+    "content.section-restaurant": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.section-s-d-about": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "content.section-s-d-competition": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "content.section-s-d-future": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "content.section-s-d-the-problem": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.section-s-d-why-now": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "content.section-why-sticky": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.team": [
+      "body",
+      "items",
+      "images"
+    ],
+    "content.u-mb-40": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.u-mb-64": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "cta.section-career-cta": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "cta.section-cta": [
+      "heading",
+      "ctas",
+      "images"
+    ],
+    "features.section-eng-steps": [
+      "body"
+    ],
+    "features.section-hiw-steps": [
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.cs-index-head": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.demo-control-layout": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "hero.eng-section-eng-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.page-wrapper": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "hero.section-about-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.section-blog-content": [
+      "heading",
+      "subheading",
+      "body",
+      "ctas",
+      "items",
+      "images"
+    ],
+    "hero.section-blog-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.section-career-hero": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.section-center-hero": [
+      "heading",
+      "body",
+      "ctas"
+    ],
+    "hero.section-cs-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.section-hp-hero": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.section-leadership-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.section-legal": [
+      "heading",
+      "body",
+      "items"
+    ],
+    "hero.section-product-hero": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.section-resource": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.section-reviews-hero": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "hero.section-s-d-hero": [
+      "heading",
+      "body"
+    ],
+    "proof.press-cards-wrap": [
+      "items",
+      "images"
+    ],
+    "proof.section-beliefs": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "proof.section-reviews": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "proof.section-stories": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "proof.section-testimonials": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "shell.demo-control-header": [
+      "images"
+    ],
+    "shell.eng-lp-footer": [
+      "body",
+      "ctas"
+    ],
+    "shell.nav-wrapper": [
+      "body",
+      "ctas",
+      "images"
+    ],
+    "shell.section-footer": [
+      "body",
+      "ctas"
+    ],
+    "showcase.section-s-d-gtm": [
+      "items"
+    ],
+    "support.eng-steps-faq": [
+      "body"
+    ],
+    "support.form": [
+      "heading",
+      "body",
+      "ctas"
+    ],
+    "support.section-about-help": [
+      "body",
+      "ctas",
+      "images"
+    ],
+    "support.section-leaders-support": [
+      "heading",
+      "body",
+      "images"
+    ]
+  }
+}

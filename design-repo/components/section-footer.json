@@ -1,0 +1,15 @@
+{
+  "id": "section-footer",
+  "name": "section-footer",
+  "occurrences": 140,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

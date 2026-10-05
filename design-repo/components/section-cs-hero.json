@@ -1,0 +1,17 @@
+{
+  "id": "section-cs-hero",
+  "name": "section-cs_hero",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "image",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

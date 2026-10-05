@@ -1,0 +1,12 @@
+{
+  "id": "press-img-overlay",
+  "name": "press_img-overlay",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

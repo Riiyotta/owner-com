@@ -1,0 +1,12 @@
+{
+  "id": "cs-index-stats-list",
+  "name": "cs-index_stats-list",
+  "occurrences": 108,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies"
+  }
+}

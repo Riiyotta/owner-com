@@ -1,0 +1,14 @@
+{
+  "id": "reviews-wrap-wrap",
+  "name": "reviews-wrap_wrap",
+  "occurrences": 9,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

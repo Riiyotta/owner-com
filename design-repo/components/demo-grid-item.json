@@ -1,0 +1,14 @@
+{
+  "id": "demo-grid-item",
+  "name": "demo-grid_item",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/partner-request"
+  }
+}

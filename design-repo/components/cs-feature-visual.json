@@ -1,0 +1,12 @@
+{
+  "id": "cs-feature-visual",
+  "name": "cs-feature_visual",
+  "occurrences": 18,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "hs-fieldtype-phonenumber",
+  "name": "hs-fieldtype-phonenumber",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

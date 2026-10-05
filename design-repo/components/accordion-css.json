@@ -1,0 +1,15 @@
+{
+  "id": "accordion-css",
+  "name": "accordion-css",
+  "occurrences": 51,
+  "composedOf": [
+    "heading",
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "table-list",
+  "name": "table-list",
+  "occurrences": 42,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/best-pos-system-for-restaurants"
+  }
+}

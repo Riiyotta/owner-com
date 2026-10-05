@@ -1,0 +1,12 @@
+{
+  "id": "button-group",
+  "name": "button-group",
+  "occurrences": 309,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

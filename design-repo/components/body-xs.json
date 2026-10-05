@@ -1,0 +1,10 @@
+{
+  "id": "body-xs",
+  "name": "body-xs",
+  "occurrences": 205,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

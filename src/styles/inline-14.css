@@ -1,0 +1,40 @@
+
+  .owner-stack-tabs_item {
+    display: none;
+  }
+  .owner-stack-tabs_item[data-tab-state='active'],
+  .owner-stack-tabs_item[data-tab-state='leaving'] {
+    display: flex;
+  }
+
+  .owner-stack-menu_progress {
+    width: 0%;
+  }
+  .owner-stack-menu_item[data-state='active'] .owner-stack-menu_progress {
+    width: calc(var(--tab-progress, 0) * 100%);
+  }
+
+  .owner-stack-menu_item[data-state='active'] {
+    opacity: 1;
+  }
+  .owner-stack-menu_item:not([data-state='active']) {
+    opacity: 0.4;
+  }
+
+  /* Dots */
+  .owner-stack-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25em;
+  }
+  .owner-stack-dot {
+    width: 0.75em;
+    aspect-ratio: 1 / 1;
+    background: var(--divider--10);
+    border-radius: 100%;
+    padding: 0;
+  }
+  .owner-stack-dot[data-active='true'] {
+    background: var(--divider--30);
+  }

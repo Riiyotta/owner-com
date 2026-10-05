@@ -1,0 +1,12 @@
+{
+  "id": "blog-social-link",
+  "name": "blog-social_link",
+  "occurrences": 216,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

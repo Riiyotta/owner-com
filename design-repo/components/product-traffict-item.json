@@ -1,0 +1,12 @@
+{
+  "id": "product-traffict-item",
+  "name": "product-traffict_item",
+  "occurrences": 57,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

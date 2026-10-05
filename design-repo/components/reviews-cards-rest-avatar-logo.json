@@ -1,0 +1,12 @@
+{
+  "id": "reviews-cards-rest-avatar-logo",
+  "name": "reviews-cards_rest-avatar-logo",
+  "occurrences": 23,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/reviews"
+  }
+}

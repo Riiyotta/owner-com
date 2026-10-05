@@ -1,0 +1,15 @@
+{
+  "id": "footer-wrap",
+  "name": "footer-wrap",
+  "occurrences": 140,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

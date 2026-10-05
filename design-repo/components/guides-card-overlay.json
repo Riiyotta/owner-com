@@ -1,0 +1,10 @@
+{
+  "id": "guides-card-overlay",
+  "name": "guides-card_overlay",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

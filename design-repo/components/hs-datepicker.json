@@ -1,0 +1,10 @@
+{
+  "id": "hs-datepicker",
+  "name": "hs-datepicker",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

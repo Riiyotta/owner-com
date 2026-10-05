@@ -1,0 +1,12 @@
+{
+  "id": "nav-menu-link-item",
+  "name": "nav-menu_link-item",
+  "occurrences": 1680,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

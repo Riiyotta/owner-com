@@ -1,0 +1,12 @@
+{
+  "id": "hs-dateinput",
+  "name": "hs-dateinput",
+  "occurrences": 12,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

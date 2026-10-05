@@ -1,0 +1,10 @@
+{
+  "id": "caption",
+  "name": "caption",
+  "occurrences": 10,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/how-to-create-a-restaurant-website"
+  }
+}

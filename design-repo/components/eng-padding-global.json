@@ -1,0 +1,13 @@
+{
+  "id": "eng-padding-global",
+  "name": "eng-padding-global",
+  "occurrences": 10,
+  "composedOf": [
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/builders-wanted"
+  }
+}

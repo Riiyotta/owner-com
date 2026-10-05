@@ -1,0 +1,40 @@
+
+  .owner-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+  }
+
+  .owner-table th {
+    background-color: #000; /* Black header background */
+    color: #fff; /* White text */
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .owner-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666; /* Grey font color */
+  }
+
+  .owner-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .owner-table ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666; /* Matching grey font color */
+  }
+
+  .owner-table ul li {
+    margin-bottom: 5px;
+  }

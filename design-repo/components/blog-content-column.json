@@ -1,0 +1,13 @@
+{
+  "id": "blog-content-column",
+  "name": "blog-content_column",
+  "occurrences": 72,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

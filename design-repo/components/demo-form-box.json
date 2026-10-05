@@ -1,0 +1,19 @@
+{
+  "id": "demo-form-box",
+  "name": "demo-form-box",
+  "occurrences": 6,
+  "composedOf": [
+    "embed",
+    "form",
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "select"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

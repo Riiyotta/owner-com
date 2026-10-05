@@ -1,0 +1,13 @@
+{
+  "id": "demo-form-actions",
+  "name": "demo-form_actions",
+  "occurrences": 6,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

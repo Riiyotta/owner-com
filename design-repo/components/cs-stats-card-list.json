@@ -1,0 +1,13 @@
+{
+  "id": "cs-stats-card-list",
+  "name": "cs-stats_card-list",
+  "occurrences": 36,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

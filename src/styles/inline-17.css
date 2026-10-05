@@ -1,0 +1,10 @@
+
+  .pattern {
+    background: repeating-linear-gradient(
+      to bottom,
+      #E0E0E1,
+      #E0E0E1 7px,
+      transparent 7px,
+      transparent 13px
+    );
+  }

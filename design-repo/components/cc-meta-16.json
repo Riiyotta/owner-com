@@ -1,0 +1,12 @@
+{
+  "id": "cc-meta-16",
+  "name": "cc-meta-16",
+  "occurrences": 40,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

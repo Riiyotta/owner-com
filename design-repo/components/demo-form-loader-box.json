@@ -1,0 +1,13 @@
+{
+  "id": "demo-form-loader-box",
+  "name": "demo-form_loader-box",
+  "occurrences": 6,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "testimonials-head",
+  "name": "testimonials-head",
+  "occurrences": 23,
+  "composedOf": [
+    "button",
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hs-input",
+  "name": "hs-input",
+  "occurrences": 390,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

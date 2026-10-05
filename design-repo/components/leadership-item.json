@@ -1,0 +1,14 @@
+{
+  "id": "leadership-item",
+  "name": "leadership-item",
+  "occurrences": 80,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

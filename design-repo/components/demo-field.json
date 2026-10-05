@@ -1,0 +1,12 @@
+{
+  "id": "demo-field",
+  "name": "demo-field",
+  "occurrences": 12,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pos-demo"
+  }
+}

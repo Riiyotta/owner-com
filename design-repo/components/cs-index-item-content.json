@@ -1,0 +1,15 @@
+{
+  "id": "cs-index-item-content",
+  "name": "cs-index_item-content",
+  "occurrences": 54,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "content.section-base",
+  "category": "CONTENT",
+  "label": "section-base",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"The easiest way to grow your restaurant online\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 163,
+    "routes": 56,
+    "measuredFrom": [
+      "src/accessibility/index.html:2425-2439",
+      "src/blog/index.html:3045-3059",
+      "src/blog-category/increase-sales/index.html:2014-2066",
+      "src/blog-category/increase-sales/index.html:2347-2361",
+      "src/blog-category/industry-trends-data/index.html:2014-2042"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 14
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 30,
+        "maxWords": 42
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 2,
+        "maxWords": 4
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 7,
+        "titleMaxWords": 12,
+        "bodyMaxWords": 95
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 38,
+        "assetRoles": [
+          "avatar",
+          "background",
+          "content-image",
+          "customer-logo",
+          "hero-image",
+          "icon",
+          "logo",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 5
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 891,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 992,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "background",
+    "content-image",
+    "customer-logo",
+    "hero-image",
+    "icon",
+    "logo",
+    "video"
+  ],
+  "implementedBy": "src/pages/Pricing.jsx"
+}

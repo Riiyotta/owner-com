@@ -1,0 +1,12 @@
+{
+  "id": "hs-auto-enrich-date",
+  "name": "hs_auto_enrich_date",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

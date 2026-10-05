@@ -1,0 +1,223 @@
+
+  /* ------------------------- Scaling System by Osmo [https://osmo.supply/] -------------------------  */
+
+  /* Desktop */
+  :root {
+    --size-unit: 16; /* body font-size in design - no px */
+    --size-container-ideal: 1440; /* screen-size in design - no px */
+    --size-container-min: 992px;
+    --size-container-max: 1440px;
+    --size-container: clamp(var(--size-container-min), 100vw, var(--size-container-max));
+    --size-font: calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)));
+  }
+
+  /* Tablet */
+  @media screen and (max-width: 991px) {
+    :root {
+      --size-container-ideal: 834; /* screen-size in design - no px */
+      --size-container-min: 768px;
+      --size-container-max: 991px;
+    }
+  }
+
+  /* Mobile Landscape */
+  @media screen and (max-width: 767px) {
+    :root {
+      --size-container-ideal: 550; /* screen-size in design - no px */
+      --size-container-min: 480px;
+      --size-container-max: 767px;
+    }
+  }
+
+  /* Mobile Portrait */
+  @media screen and (max-width: 479px) {
+    :root {
+      --size-container-ideal: 390; /* screen-size in design - no px */
+      --size-container-min: 390px;
+      --size-container-max: 479px;
+    }
+  }
+
+  html {
+    font-size: var(--size-font);
+  }
+
+  /* _____ CSS Marqueee ____ */
+  /* CSS Keyframe Animation */
+  @keyframes translateX {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes translateXRev {
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  [data-css-marquee-list] {
+    animation: translateX 60s linear infinite;
+    animation-play-state: running; /* Explicit running state */
+  }
+
+  [data-css-marquee]:hover [data-css-marquee-list] {
+    animation-play-state: paused;
+  }
+
+  [data-css-marquee='reverse'] [data-css-marquee-list] {
+    animation: translateXRev 60s linear infinite;
+    animation-play-state: running; /* Explicit running state */
+  }
+
+  [data-css-marquee='reverse']:hover [data-css-marquee-list] {
+    animation-play-state: paused; /* Add this for reverse too */
+  }
+
+  [data-css-marquee-status='scrollable'] {
+    width: 100vw;
+    margin-left: -16px;
+    padding-left: 16px;
+    overflow-x: auto;
+  }
+  [data-css-marquee='reverse'][data-css-marquee-status='scrollable'] {
+    justify-content: flex-start;
+  }
+
+  .wf-design-mode [data-css-marquee] [data-css-marquee-list] {
+    animation-play-state: paused;
+  }
+
+  /* _____ CSS Accordions____ */
+  /* Animate Accordion Bottom Grid */
+  [data-accordion-content] {
+    transition: grid-template-rows 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+
+  [data-accordion-status='active'] [data-accordion-content] {
+    grid-template-rows: 1fr;
+  }
+
+  .accordion-css__item-top {
+    transition: opacity 0.3s;
+  }
+
+  [data-accordion-status='active'] [data-accordion-toggle] {
+    opacity: 1;
+  }
+
+  /* Animate Icon */
+  [data-accordion-icon] {
+    transition: transform 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+
+  [data-accordion-status='active'] [data-accordion-icon] {
+    transform: rotate(180deg);
+  }
+
+  [data-countdown-date] {
+    gap: 0.075em;
+  }
+
+  /* _____ CSS Accordions FAQ____ */
+  .accordion-css__item[data-accordion-status='active'] {
+    background-color: var(--taupe);
+  }
+
+  .accordion-css__item:hover {
+    background-color: var(--taupe);
+  }
+
+  .faqs_line {
+    transition: transform 0.6s cubic-bezier(0.625, 0.05, 0, 1);
+  }
+
+  [data-accordion-status='active'] .faqs_line.is-2 {
+    transform: rotate(0deg);
+  }
+
+  /* Links */
+  [underline-link]::before,
+  [underline-link-alt]::before,
+  [underline-link-alt]::after {
+    content: '';
+    position: absolute;
+    bottom: 0em;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    transition: transform 0.3s cubic-bezier(0.625, 0.05, 0, 1);
+    transform-origin: right;
+    transform: scaleX(0) rotate(0.001deg);
+  }
+
+  [underline-link]:hover::before {
+    transform-origin: left;
+    transform: scaleX(1) rotate(0.001deg);
+  }
+
+  /* Alt */
+  [underline-link-alt]::before {
+    transform-origin: left;
+    transform: scaleX(1) rotate(0.001deg);
+    transition-delay: 0.3s;
+  }
+
+  [underline-link-alt]:hover::before {
+    transform-origin: right;
+    transform: scaleX(0) rotate(0.001deg);
+    transition-delay: 0s;
+  }
+
+  [underline-link-alt]::after {
+    transform-origin: right;
+    transform: scaleX(0) rotate(0.001deg);
+    transition-delay: 0s;
+  }
+
+  [underline-link-alt]:hover::after {
+    transform-origin: left;
+    transform: scaleX(1) rotate(0.001deg);
+    transition-delay: 0.3s;
+  }
+
+  /* Modals */
+  [data-modal-group-status] {
+    transition: all 0.2s linear;
+  }
+
+  [data-modal-group-status='active'] {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  [data-modal-name][data-modal-status='active'] {
+    display: flex;
+  }
+
+  [data-odometer-element] {
+    display: inline-flex;
+    align-items: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Odometer */
+  [data-odometer-part='mask'],
+  [data-odometer-part='static'] {
+    display: inline-block;
+    overflow: clip;
+    padding: 0.05em;
+    margin: -0.05em;
+  }
+
+  [data-odometer-part='roller'] {
+    display: block;
+    white-space: pre;
+    text-align: center;
+    will-change: transform;
+  }
+
+  [data-odometer-part='static'] {
+    display: inline-block;
+  }

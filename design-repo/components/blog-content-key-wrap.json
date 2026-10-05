@@ -1,0 +1,12 @@
+{
+  "id": "blog-content-key-wrap",
+  "name": "blog-content_key-wrap",
+  "occurrences": 72,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

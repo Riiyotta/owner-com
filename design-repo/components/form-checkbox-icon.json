@@ -1,0 +1,10 @@
+{
+  "id": "form-checkbox-icon",
+  "name": "form-checkbox-icon",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,13 @@
+
+  @media only screen and (min-width: 992px){
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 1),
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 3),
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 4),
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 5){
+      grid-area: span 1 / span 5 / span 1 / span 5 !important
+    }
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 2),
+    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 6){
+      grid-area: span 1 / span 7 / span 1 / span 7 !important
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "id": "image-caption-wrapper",
+  "name": "image-caption-wrapper",
+  "occurrences": 10,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "picture"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/how-to-create-a-restaurant-website"
+  }
+}

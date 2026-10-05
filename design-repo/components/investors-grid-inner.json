@@ -1,0 +1,12 @@
+{
+  "id": "investors-grid-inner",
+  "name": "investors-grid_inner",
+  "occurrences": 32,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

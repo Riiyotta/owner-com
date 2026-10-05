@@ -1,0 +1,17 @@
+{
+  "id": "slide-w",
+  "name": "slide-w",
+  "occurrences": 230,
+  "composedOf": [
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

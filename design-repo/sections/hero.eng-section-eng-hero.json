@@ -1,0 +1,73 @@
+{
+  "id": "hero.eng-section-eng-hero",
+  "category": "HERO",
+  "label": "eng-section_eng-hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Builders Wanted.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/builders-wanted/index.html:954-1009"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 25
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "background",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 788,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 663,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "background",
+    "video"
+  ],
+  "implementedBy": "src/sections/EngSectionEngHero.jsx"
+}

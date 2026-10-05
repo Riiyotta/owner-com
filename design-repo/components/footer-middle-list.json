@@ -1,0 +1,12 @@
+{
+  "id": "footer-middle-list",
+  "name": "footer-middle_list",
+  "occurrences": 980,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "form-checkbox",
+  "name": "form-checkbox",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

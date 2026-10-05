@@ -1,0 +1,17 @@
+{
+  "id": "related-list",
+  "name": "related_list",
+  "occurrences": 18,
+  "composedOf": [
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

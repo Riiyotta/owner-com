@@ -1,0 +1,12 @@
+{
+  "id": "demo-form-redirect-icon",
+  "name": "demo-form_redirect-icon",
+  "occurrences": 6,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

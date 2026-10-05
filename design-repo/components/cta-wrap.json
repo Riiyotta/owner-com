@@ -1,0 +1,14 @@
+{
+  "id": "cta-wrap",
+  "name": "cta-wrap",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

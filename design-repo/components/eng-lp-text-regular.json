@@ -1,0 +1,10 @@
+{
+  "id": "eng-lp-text-regular",
+  "name": "eng-lp_text-regular",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/builders-wanted"
+  }
+}

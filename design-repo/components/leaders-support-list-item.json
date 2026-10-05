@@ -1,0 +1,12 @@
+{
+  "id": "leaders-support-list-item",
+  "name": "leaders-support_list-item",
+  "occurrences": 8,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pos"
+  }
+}

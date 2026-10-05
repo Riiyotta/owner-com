@@ -1,0 +1,14 @@
+{
+  "id": "product-features-wrap",
+  "name": "product-features_wrap",
+  "occurrences": 24,
+  "composedOf": [
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

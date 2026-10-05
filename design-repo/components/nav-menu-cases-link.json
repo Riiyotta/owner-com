@@ -1,0 +1,13 @@
+{
+  "id": "nav-menu-cases-link",
+  "name": "nav-menu_cases-link",
+  "occurrences": 280,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

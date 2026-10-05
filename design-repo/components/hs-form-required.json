@@ -1,0 +1,10 @@
+{
+  "id": "hs-form-required",
+  "name": "hs-form-required",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "directors-grid-tem",
+  "name": "directors-grid-tem",
+  "occurrences": 6,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/leadership"
+  }
+}

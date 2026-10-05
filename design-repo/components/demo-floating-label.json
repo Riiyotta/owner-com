@@ -1,0 +1,10 @@
+{
+  "id": "demo-floating-label",
+  "name": "demo-floating-label",
+  "occurrences": 8,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pos-demo"
+  }
+}

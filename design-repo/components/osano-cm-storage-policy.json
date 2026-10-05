@@ -1,0 +1,10 @@
+{
+  "id": "osano-cm-storage-policy",
+  "name": "osano-cm-storage-policy",
+  "occurrences": 27,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

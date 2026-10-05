@@ -1,0 +1,70 @@
+{
+  "id": "content.section-s-d-competition",
+  "category": "CONTENT",
+  "label": "section-s-d_competition",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Owner has two clear, enduring advantages over its competition.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/d/index.html:3742-3839"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 9,
+        "maxWords": 65
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 2,
+        "titleMaxWords": 2,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1564,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 1689,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 6 to 3"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/D.jsx"
+}

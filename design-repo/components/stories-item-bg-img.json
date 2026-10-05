@@ -1,0 +1,10 @@
+{
+  "id": "stories-item-bg-img",
+  "name": "stories-item_bg-img",
+  "occurrences": 32,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

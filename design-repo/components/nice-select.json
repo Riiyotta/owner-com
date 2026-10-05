@@ -1,0 +1,12 @@
+{
+  "id": "nice-select",
+  "name": "nice-select",
+  "occurrences": 13,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

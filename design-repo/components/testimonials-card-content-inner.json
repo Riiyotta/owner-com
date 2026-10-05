@@ -1,0 +1,13 @@
+{
+  "id": "testimonials-card-content-inner",
+  "name": "testimonials-card_content-inner",
+  "occurrences": 248,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

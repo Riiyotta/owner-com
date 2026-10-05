@@ -1,0 +1,12 @@
+{
+  "id": "hs-fieldtype-select",
+  "name": "hs-fieldtype-select",
+  "occurrences": 12,
+  "composedOf": [
+    "select"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

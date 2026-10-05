@@ -1,0 +1,417 @@
+{
+  "gate": 0.8,
+  "average": 0.991,
+  "rows": [
+    {
+      "route": "/",
+      "reference": "original crawl screenshot",
+      "sections": 11,
+      "compared": 11,
+      "sectionsInClone": 11,
+      "mirrorPageHeight": 10663,
+      "clonePageHeight": 10663,
+      "score": 0.968,
+      "below": [
+        "2:GrowSalesLikeThese 75%"
+      ],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "TheAIPlatformRestaurants",
+          "mirrorHeight": 1181,
+          "cloneHeight": 1181,
+          "pixelMatch": 0.966,
+          "score": 0.966
+        },
+        {
+          "idx": 2,
+          "component": "GrowSalesLikeThese",
+          "mirrorHeight": 789,
+          "cloneHeight": 789,
+          "pixelMatch": 0.754,
+          "score": 0.754
+        },
+        {
+          "idx": 3,
+          "component": "WithOwnerYouGet",
+          "mirrorHeight": 1283,
+          "cloneHeight": 1283,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 4,
+          "component": "SeeWhyWeRe",
+          "mirrorHeight": 1131,
+          "cloneHeight": 1131,
+          "pixelMatch": 0.919,
+          "score": 0.919
+        },
+        {
+          "idx": 5,
+          "component": "GiveYourRestaurantThe",
+          "mirrorHeight": 2004,
+          "cloneHeight": 2004,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "component": "TrustedByOwners",
+          "mirrorHeight": 979,
+          "cloneHeight": 979,
+          "pixelMatch": 0.97,
+          "score": 0.97
+        },
+        {
+          "idx": 7,
+          "component": "S3BeliefsThatGuide",
+          "mirrorHeight": 1065,
+          "cloneHeight": 1065,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "SeeOurFreeGuides",
+          "mirrorHeight": 1064,
+          "cloneHeight": 1064,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 9,
+          "component": "TheEasiestWayTo",
+          "mirrorHeight": 534,
+          "cloneHeight": 534,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 10,
+          "component": "Section",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 1,
+          "score": 1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/leadership",
+      "reference": "original crawl screenshot",
+      "sections": 8,
+      "compared": 8,
+      "sectionsInClone": 8,
+      "mirrorPageHeight": 5932,
+      "clonePageHeight": 5932,
+      "score": 0.999,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper25",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "MeetOurLeadershipTeam",
+          "mirrorHeight": 508,
+          "cloneHeight": 508,
+          "pixelMatch": 0.995,
+          "score": 0.995
+        },
+        {
+          "idx": 2,
+          "component": "BgColorBglighter4",
+          "mirrorHeight": 1817,
+          "cloneHeight": 1817,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "BoardOfDirectors",
+          "mirrorHeight": 662,
+          "cloneHeight": 662,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "QuotesFromInvestors",
+          "mirrorHeight": 784,
+          "cloneHeight": 784,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "component": "WeReBackedBy",
+          "mirrorHeight": 992,
+          "cloneHeight": 992,
+          "pixelMatch": 0.997,
+          "score": 0.997
+        },
+        {
+          "idx": 6,
+          "component": "IsProductPage",
+          "mirrorHeight": 408,
+          "cloneHeight": 408,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "component": "Section25",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 1,
+          "score": 1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/case-studies/cyclo-noodles",
+      "reference": "original crawl screenshot",
+      "sections": 8,
+      "compared": 8,
+      "sectionsInClone": 8,
+      "mirrorPageHeight": 6634,
+      "clonePageHeight": 6634,
+      "score": 1,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper37",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "HowCycloNoodlesGrew",
+          "mirrorHeight": 1318,
+          "cloneHeight": 1318,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "HowTheirOnlineExperience7",
+          "mirrorHeight": 1357,
+          "cloneHeight": 1357,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "BgColorTaupe27",
+          "mirrorHeight": 832,
+          "cloneHeight": 832,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "Section45",
+          "mirrorHeight": 891,
+          "cloneHeight": 891,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 5,
+          "component": "BgColorBglighter12",
+          "mirrorHeight": 1067,
+          "cloneHeight": 1067,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "component": "IsProductPage",
+          "mirrorHeight": 408,
+          "cloneHeight": 408,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 7,
+          "component": "Section",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 1,
+          "score": 1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog-category/increase-sales",
+      "reference": "original crawl screenshot",
+      "sections": 5,
+      "compared": 5,
+      "sectionsInClone": 5,
+      "mirrorPageHeight": 4475,
+      "clonePageHeight": 4475,
+      "score": 1,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper36",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "IsHero3",
+          "mirrorHeight": 996,
+          "cloneHeight": 996,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "IsCategoryPage",
+          "mirrorHeight": 2117,
+          "cloneHeight": 2117,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "IsProductPage",
+          "mirrorHeight": 408,
+          "cloneHeight": 408,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "Section",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 1,
+          "score": 1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/restaurant-business-plan",
+      "reference": "original crawl screenshot",
+      "sections": 4,
+      "compared": 3,
+      "sectionsInClone": 4,
+      "mirrorPageHeight": 15131,
+      "clonePageHeight": 15131,
+      "score": 0.999,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper36",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 0.885,
+          "score": 0.885
+        },
+        {
+          "idx": 1,
+          "component": "HowToCreateA2",
+          "mirrorHeight": 13706,
+          "cloneHeight": 13706,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "IsProductPage",
+          "mirrorHeight": 408,
+          "cloneHeight": 408,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "Section",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 0,
+          "score": 0,
+          "skipped": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/restaurant-tech-stack",
+      "reference": "original crawl screenshot",
+      "sections": 4,
+      "compared": 3,
+      "sectionsInClone": 4,
+      "mirrorPageHeight": 13664,
+      "clonePageHeight": 13664,
+      "score": 0.982,
+      "below": [
+        "0:NavWrapper36 65%"
+      ],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "NavWrapper36",
+          "mirrorHeight": 70,
+          "cloneHeight": 70,
+          "pixelMatch": 0.654,
+          "score": 0.654
+        },
+        {
+          "idx": 1,
+          "component": "RestaurantTechStackGuide",
+          "mirrorHeight": 12239,
+          "cloneHeight": 12239,
+          "pixelMatch": 0.983,
+          "score": 0.983
+        },
+        {
+          "idx": 2,
+          "component": "IsProductPage",
+          "mirrorHeight": 408,
+          "cloneHeight": 408,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "Section",
+          "mirrorHeight": 1012,
+          "cloneHeight": 1012,
+          "pixelMatch": 0,
+          "score": 0,
+          "skipped": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

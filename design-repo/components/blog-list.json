@@ -1,0 +1,14 @@
+{
+  "id": "blog-list",
+  "name": "blog_list",
+  "occurrences": 10,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

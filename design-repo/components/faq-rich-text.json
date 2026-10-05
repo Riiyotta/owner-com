@@ -1,0 +1,12 @@
+{
+  "id": "faq-rich-text",
+  "name": "faq-rich-text",
+  "occurrences": 122,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

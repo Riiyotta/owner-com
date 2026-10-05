@@ -1,0 +1,10 @@
+{
+  "id": "current",
+  "name": "current",
+  "occurrences": 13,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

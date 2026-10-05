@@ -1,0 +1,12 @@
+{
+  "id": "hs-city",
+  "name": "hs_city",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

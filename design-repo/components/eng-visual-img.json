@@ -1,0 +1,10 @@
+{
+  "id": "eng-visual-img",
+  "name": "eng-visual_img",
+  "occurrences": 16,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/builders-wanted"
+  }
+}

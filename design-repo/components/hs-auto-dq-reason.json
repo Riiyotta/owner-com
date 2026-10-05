@@ -1,0 +1,12 @@
+{
+  "id": "hs-auto-dq-reason",
+  "name": "hs_auto_dq_reason",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

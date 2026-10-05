@@ -1,0 +1,15 @@
+{
+  "id": "product-hero-box-inner",
+  "name": "product-hero_box-inner",
+  "occurrences": 20,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

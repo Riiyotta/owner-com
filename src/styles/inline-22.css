@@ -1,0 +1,37 @@
+
+  [data-mode="light"]{
+    --eng-lp_bg: #f1f1f2;
+    --eng-lp_fg: #222323;
+    --eng-lp_border: #000000;
+  }
+
+  .eng-hero_label {
+    display: inline;
+    background-color: var(--eng-lp_fg);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+
+  /* Noise */
+  [data-mode="light"] .eng-hero_noise {
+    background-image: url("/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/6929dd6ebe1e841c4c4e7d95_owner-pattern-blue.png");
+  }
+
+  /* Visuals */
+  [data-visual-mode]{
+    display:none;
+  }
+
+  [data-mode="light"] [data-visual-mode="light"]{
+    display:block
+  }
+
+  [data-mode="dark"] [data-visual-mode="dark"]{
+    display:block
+  }
+
+  /* Sticky Animation */
+  [data-sticky-group] p:not(:first-child){
+    position: absolute;
+    visibility: hidden;
+  }

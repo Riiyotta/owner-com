@@ -1,0 +1,10 @@
+{
+  "id": "blog-content-custom-quote-line",
+  "name": "blog-content_custom-quote_line",
+  "occurrences": 72,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

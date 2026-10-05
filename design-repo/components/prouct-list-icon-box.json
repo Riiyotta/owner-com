@@ -1,0 +1,12 @@
+{
+  "id": "prouct-list-icon-box",
+  "name": "prouct-list_icon-box",
+  "occurrences": 72,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

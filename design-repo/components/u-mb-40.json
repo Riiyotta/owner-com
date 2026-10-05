@@ -1,0 +1,12 @@
+{
+  "id": "u-mb-40",
+  "name": "u-mb-40",
+  "occurrences": 25,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/our-story"
+  }
+}

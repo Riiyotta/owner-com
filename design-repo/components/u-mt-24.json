@@ -1,0 +1,12 @@
+{
+  "id": "u-mt-24",
+  "name": "u-mt-24",
+  "occurrences": 25,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

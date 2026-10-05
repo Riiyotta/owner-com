@@ -1,0 +1,13 @@
+{
+  "id": "gudies-card",
+  "name": "gudies-card",
+  "occurrences": 6,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

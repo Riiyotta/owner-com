@@ -1,0 +1,16 @@
+{
+  "id": "legal-wrap",
+  "name": "legal_wrap",
+  "occurrences": 7,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph",
+    "table"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy-policy"
+  }
+}

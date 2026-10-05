@@ -1,0 +1,12 @@
+{
+  "id": "directors-item-arrow",
+  "name": "directors-item_arrow",
+  "occurrences": 6,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/leadership"
+  }
+}

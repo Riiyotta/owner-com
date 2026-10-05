@@ -1,0 +1,14 @@
+{
+  "id": "nav-menu-dropdown-cases",
+  "name": "nav-menu_dropdown-cases",
+  "occurrences": 140,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "proof.press-cards-wrap",
+  "category": "PROOF",
+  "label": "press_cards-wrap",
+  "tag": "div",
+  "purpose": "Builds trust with customers, quotes or logos.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/press/index.html:2337-2574"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 10,
+        "titleMaxWords": 15,
+        "bodyMaxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 22,
+        "assetRoles": [
+          "content-image",
+          "customer-logo",
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2278,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 5541,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "customer-logo",
+    "logo"
+  ],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/pages/Press.jsx"
+}

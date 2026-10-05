@@ -1,0 +1,14 @@
+{
+  "id": "demo-control-card",
+  "name": "demo-control-card",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pos-demo"
+  }
+}

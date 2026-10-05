@@ -1,0 +1,12 @@
+{
+  "id": "form-field-other-close",
+  "name": "form-field-other_close",
+  "occurrences": 6,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

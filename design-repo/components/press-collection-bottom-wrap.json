@@ -1,0 +1,13 @@
+{
+  "id": "press-collection-bottom-wrap",
+  "name": "press_collection_bottom-wrap",
+  "occurrences": 12,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "product-list-wrap",
+  "name": "product-list_wrap",
+  "occurrences": 18,
+  "composedOf": [
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-seo"
+  }
+}

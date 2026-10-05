@@ -1,0 +1,12 @@
+{
+  "id": "s-d-team-item",
+  "name": "s-d_team-item",
+  "occurrences": 30,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/d"
+  }
+}

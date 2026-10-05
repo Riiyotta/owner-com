@@ -1,0 +1,10 @@
+{
+  "id": "hs-button",
+  "name": "hs-button",
+  "occurrences": 6,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "testimonials-slider",
+  "name": "testimonials-slider",
+  "occurrences": 23,
+  "composedOf": [
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

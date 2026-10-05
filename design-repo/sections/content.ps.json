@@ -1,0 +1,71 @@
+{
+  "id": "content.ps",
+  "category": "CONTENT",
+  "label": "ps",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"The job's not finished.\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/d/index.html:4957-5001"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 7,
+        "maxWords": 70
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1271,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 1518,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/pages/D.jsx"
+}

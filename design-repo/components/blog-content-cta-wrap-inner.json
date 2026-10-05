@@ -1,0 +1,12 @@
+{
+  "id": "blog-content-cta-wrap-inner",
+  "name": "blog-content_cta-wrap-inner",
+  "occurrences": 155,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

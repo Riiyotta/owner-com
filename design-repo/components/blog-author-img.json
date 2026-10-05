@@ -1,0 +1,10 @@
+{
+  "id": "blog-author-img",
+  "name": "blog-author_img",
+  "occurrences": 72,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

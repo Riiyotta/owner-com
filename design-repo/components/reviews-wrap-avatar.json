@@ -1,0 +1,10 @@
+{
+  "id": "reviews-wrap-avatar",
+  "name": "reviews-wrap_avatar",
+  "occurrences": 210,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

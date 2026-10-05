@@ -1,0 +1,13 @@
+{
+  "id": "direstors-item-inner",
+  "name": "direstors-item_inner",
+  "occurrences": 6,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/leadership"
+  }
+}

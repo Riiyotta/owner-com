@@ -1,0 +1,79 @@
+{
+  "id": "hero.section-blog-hero",
+  "category": "HERO",
+  "label": "section-blog_hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"The Marketing Menu\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/blog/index.html:2158-2311"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 5,
+        "maxWords": 30
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "background",
+          "content-image",
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1115,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 1500,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 4 to 3",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "background",
+    "content-image",
+    "hero-image"
+  ],
+  "implementedBy": "src/pages/Blog.jsx"
+}

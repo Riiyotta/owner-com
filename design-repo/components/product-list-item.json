@@ -1,0 +1,13 @@
+{
+  "id": "product-list-item",
+  "name": "product-list_item",
+  "occurrences": 72,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

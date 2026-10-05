@@ -1,0 +1,18 @@
+
+  @keyframes slideDown {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes slideUp {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50%); }
+  }
+
+  .eng-visual_row.is-1 {
+    animation: slideDown 30s linear infinite;
+  }
+
+  .eng-visual_row.is-2 {
+    animation: slideUp 30s linear infinite;
+  }

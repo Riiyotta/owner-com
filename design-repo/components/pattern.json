@@ -1,0 +1,10 @@
+{
+  "id": "pattern",
+  "name": "pattern",
+  "occurrences": 8,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/how-owner-works"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "beliefs-item",
+  "name": "beliefs-item",
+  "occurrences": 12,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

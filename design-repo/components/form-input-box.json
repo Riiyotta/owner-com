@@ -1,0 +1,13 @@
+{
+  "id": "form-input-box",
+  "name": "form-input_box",
+  "occurrences": 6,
+  "composedOf": [
+    "input",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

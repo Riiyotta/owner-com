@@ -1,0 +1,15 @@
+{
+  "id": "blog-author-wrap-inner",
+  "name": "blog-author_wrap-inner",
+  "occurrences": 72,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

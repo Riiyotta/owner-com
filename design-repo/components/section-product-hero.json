@@ -1,0 +1,17 @@
+{
+  "id": "section-product-hero",
+  "name": "section-product_hero",
+  "occurrences": 20,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

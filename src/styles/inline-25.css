@@ -1,0 +1,9 @@
+
+  .eng-steps_faq-mask p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--eng-lp_faq-p);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

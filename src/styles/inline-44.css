@@ -1,0 +1,10 @@
+
+  .blog-detail_custom,
+  .n_blog-detail_custom-form,
+  .blog-content_custom-el,
+  .float-cta{
+    display:none;
+  }
+  .w-richtext :is(.blog-detail_custom,.n_blog-detail_custom-form){
+    display:block;
+  }

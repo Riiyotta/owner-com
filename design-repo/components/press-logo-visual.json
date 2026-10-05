@@ -1,0 +1,10 @@
+{
+  "id": "press-logo-visual",
+  "name": "press-logo-visual",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

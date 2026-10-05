@@ -1,0 +1,12 @@
+{
+  "id": "blog-card-visual",
+  "name": "blog-card_visual",
+  "occurrences": 67,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

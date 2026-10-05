@@ -1,0 +1,13 @@
+{
+  "id": "stories-list-item",
+  "name": "stories-list_item",
+  "occurrences": 32,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

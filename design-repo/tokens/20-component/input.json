@@ -1,0 +1,30 @@
+{
+  "$description": "Component tokens for input: the most common measured style (264 instances). Values in {braces} reference semantic/foundation tokens.",
+  "component": "input",
+  "tokens": {
+    "background": {
+      "$value": "{text.inverse}"
+    },
+    "color": {
+      "$value": "{color.neutral.04}"
+    },
+    "radius": {
+      "$value": "0px"
+    },
+    "borderColor": {
+      "$value": "{color.neutral.19}"
+    },
+    "paddingY": {
+      "$value": "{space.1}"
+    },
+    "paddingX": {
+      "$value": "{space.2}"
+    },
+    "fontSize": {
+      "$value": "{radius.16}"
+    }
+  },
+  "unresolvedLiterals": [
+    "radius"
+  ]
+}

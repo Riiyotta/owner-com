@@ -1,0 +1,16 @@
+{
+  "id": "nav-menu-dropdown",
+  "name": "nav-menu_dropdown",
+  "occurrences": 420,
+  "composedOf": [
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

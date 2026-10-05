@@ -1,0 +1,10 @@
+{
+  "id": "cover-link",
+  "name": "cover-link",
+  "occurrences": 75,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

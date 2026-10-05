@@ -1,0 +1,82 @@
+{
+  "id": "proof.section-reviews",
+  "category": "PROOF",
+  "label": "section-reviews",
+  "tag": "section",
+  "purpose": "Builds trust with customers, quotes or logos. Example headline: \"See why we’re rated #1 in restaurant tech\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/index.html:7103-9376",
+      "src/ca/pricing/index.html:2367-4640",
+      "src/pricing/index.html:2367-4640",
+      "src/reviews/index.html:3141-5181"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 21
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 51,
+        "assetRoles": [
+          "avatar",
+          "background",
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "canvas-animation",
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1131,
+      "columns": 12
+    },
+    "mobile": {
+      "heightPx": 929,
+      "columns": 12,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "avatar",
+    "background",
+    "customer-logo"
+  ],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/pages/HomePage.jsx"
+}

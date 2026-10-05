@@ -1,0 +1,12 @@
+{
+  "id": "rating-group-logo",
+  "name": "rating-group_logo",
+  "occurrences": 14,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

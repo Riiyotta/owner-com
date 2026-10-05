@@ -1,0 +1,245 @@
+{
+  "$description": "Foundation typography tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "fontFamily.01": {
+      "$type": "fontFamily",
+      "$value": "STKBureauSans",
+      "usage": 45139
+    },
+    "fontFamily.02": {
+      "$type": "fontFamily",
+      "$value": "Arial",
+      "usage": 1528
+    },
+    "fontFamily.03": {
+      "$type": "fontFamily",
+      "$value": "sans-serif",
+      "usage": 350
+    },
+    "fontFamily.04": {
+      "$type": "fontFamily",
+      "$value": "Helvetica",
+      "usage": 189
+    },
+    "fontFamily.05": {
+      "$type": "fontFamily",
+      "$value": "Fragment Mono",
+      "usage": 22
+    },
+    "fontFamily.06": {
+      "$type": "fontFamily",
+      "$value": "SuisseIntl",
+      "usage": 14
+    },
+    "fontFamily.07": {
+      "$type": "fontFamily",
+      "$value": "ui-sans-serif",
+      "usage": 14
+    },
+    "fontFamily.08": {
+      "$type": "fontFamily",
+      "$value": "Courier New",
+      "usage": 4
+    },
+    "fontSize.9_75": {
+      "$type": "dimension",
+      "$value": "9.75px",
+      "usage": 26
+    },
+    "fontSize.10_5": {
+      "$type": "dimension",
+      "$value": "10.5px",
+      "usage": 274
+    },
+    "fontSize.13": {
+      "$type": "dimension",
+      "$value": "13px",
+      "usage": 3517
+    },
+    "fontSize.14": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": 5901
+    },
+    "fontSize.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 1729
+    },
+    "fontSize.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 14333
+    },
+    "fontSize.17": {
+      "$type": "dimension",
+      "$value": "17px",
+      "usage": 115
+    },
+    "fontSize.17_5": {
+      "$type": "dimension",
+      "$value": "17.5px",
+      "usage": 1608
+    },
+    "fontSize.18": {
+      "$type": "dimension",
+      "$value": "18px",
+      "usage": 8612
+    },
+    "fontSize.19_25": {
+      "$type": "dimension",
+      "$value": "19.25px",
+      "usage": 804
+    },
+    "fontSize.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 4016
+    },
+    "fontSize.22": {
+      "$type": "dimension",
+      "$value": "22px",
+      "usage": 2895
+    },
+    "fontSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 122
+    },
+    "fontSize.30": {
+      "$type": "dimension",
+      "$value": "30px",
+      "usage": 723
+    },
+    "fontSize.32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "usage": 1881
+    },
+    "fontSize.48": {
+      "$type": "dimension",
+      "$value": "48px",
+      "usage": 475
+    },
+    "fontSize.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 30
+    },
+    "fontSize.80": {
+      "$type": "dimension",
+      "$value": "80px",
+      "usage": 80
+    },
+    "fontWeight.300": {
+      "$type": "fontWeight",
+      "$value": "300",
+      "usage": 2
+    },
+    "fontWeight.400": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "usage": 23019
+    },
+    "fontWeight.450": {
+      "$type": "fontWeight",
+      "$value": "450",
+      "usage": 2
+    },
+    "fontWeight.500": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "usage": 5591
+    },
+    "fontWeight.600": {
+      "$type": "fontWeight",
+      "$value": "600",
+      "usage": 13434
+    },
+    "fontWeight.700": {
+      "$type": "fontWeight",
+      "$value": "700",
+      "usage": 5213
+    },
+    "lineHeight.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 990
+    },
+    "lineHeight.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 1160
+    },
+    "lineHeight.16_9": {
+      "$type": "dimension",
+      "$value": "16.9px",
+      "usage": 3274
+    },
+    "lineHeight.18_2": {
+      "$type": "dimension",
+      "$value": "18.2px",
+      "usage": 5626
+    },
+    "lineHeight.18_375": {
+      "$type": "dimension",
+      "$value": "18.375px",
+      "usage": 1608
+    },
+    "lineHeight.19_5": {
+      "$type": "dimension",
+      "$value": "19.5px",
+      "usage": 700
+    },
+    "lineHeight.20_2125": {
+      "$type": "dimension",
+      "$value": "20.2125px",
+      "usage": 804
+    },
+    "lineHeight.20_8": {
+      "$type": "dimension",
+      "$value": "20.8px",
+      "usage": 12681
+    },
+    "lineHeight.23_1": {
+      "$type": "dimension",
+      "$value": "23.1px",
+      "usage": 1829
+    },
+    "lineHeight.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 426
+    },
+    "lineHeight.26": {
+      "$type": "dimension",
+      "$value": "26px",
+      "usage": 3926
+    },
+    "lineHeight.27_94": {
+      "$type": "dimension",
+      "$value": "27.94px",
+      "usage": 1053
+    },
+    "lineHeight.28_44": {
+      "$type": "dimension",
+      "$value": "28.44px",
+      "usage": 8302
+    },
+    "lineHeight.38_4": {
+      "$type": "dimension",
+      "$value": "38.4px",
+      "usage": 1680
+    },
+    "lineHeight.39": {
+      "$type": "dimension",
+      "$value": "39px",
+      "usage": 723
+    },
+    "lineHeight.48": {
+      "$type": "dimension",
+      "$value": "48px",
+      "usage": 474
+    }
+  }
+}

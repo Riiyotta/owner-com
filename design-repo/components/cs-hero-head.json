@@ -1,0 +1,14 @@
+{
+  "id": "cs-hero-head",
+  "name": "cs-hero_head",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

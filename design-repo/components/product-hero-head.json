@@ -1,0 +1,14 @@
+{
+  "id": "product-hero-head",
+  "name": "product-hero_head",
+  "occurrences": 20,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

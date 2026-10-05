@@ -1,0 +1,14 @@
+{
+  "id": "legal-nav-wrap",
+  "name": "legal-nav_wrap",
+  "occurrences": 7,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy-policy"
+  }
+}

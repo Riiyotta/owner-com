@@ -1,0 +1,79 @@
+{
+  "id": "content.block",
+  "category": "CONTENT",
+  "label": "Block",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Our vision stretches far beyond restaurants.\".",
+  "purposeIsInferred": true,
+  "nameSource": "tag",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 2,
+    "measuredFrom": [
+      "src/builders-wanted/index.html:1175-1204",
+      "src/builders-wanted/index.html:3209-3285",
+      "src/d/index.html:2834-2843"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 81
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 16,
+        "assetRoles": [
+          "background",
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 2,
+    "noConsecutive": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 526,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 600,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "background",
+    "content-image"
+  ],
+  "implementedBy": "src/pages/BuildersWanted.jsx"
+}

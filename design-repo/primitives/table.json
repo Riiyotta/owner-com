@@ -1,0 +1,10 @@
+{
+  "id": "table",
+  "purpose": "Tabular data.",
+  "observedCount": 139,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "review-row",
+  "name": "review-row",
+  "occurrences": 8,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

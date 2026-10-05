@@ -1,0 +1,10 @@
+{
+  "id": "blog-card-content-box",
+  "name": "blog-card_content-box",
+  "occurrences": 147,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

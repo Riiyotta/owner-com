@@ -1,0 +1,14 @@
+{
+  "id": "section-base-row",
+  "name": "section-base-row",
+  "occurrences": 20,
+  "composedOf": [
+    "heading",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

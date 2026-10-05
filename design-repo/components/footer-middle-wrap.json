@@ -1,0 +1,14 @@
+{
+  "id": "footer-middle-wrap",
+  "name": "footer-middle_wrap",
+  "occurrences": 280,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

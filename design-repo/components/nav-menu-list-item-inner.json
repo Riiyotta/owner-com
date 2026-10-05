@@ -1,0 +1,13 @@
+{
+  "id": "nav-menu-list-item-inner",
+  "name": "nav-menu_list-item-inner",
+  "occurrences": 700,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

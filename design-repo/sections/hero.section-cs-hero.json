@@ -1,0 +1,78 @@
+{
+  "id": "hero.section-cs-hero",
+  "category": "HERO",
+  "label": "section-cs_hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"How Ashley's Cafe grew monthly sales by $30K with Owner POS\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 18,
+    "routes": 18,
+    "measuredFrom": [
+      "src/case-studies/ashleys-cafe/index.html:2182-2348",
+      "src/case-studies/cyclo-noodles/index.html:2182-2348",
+      "src/case-studies/doo-dah-diner/index.html:2182-2348",
+      "src/case-studies/goi-cuon/index.html:2182-2348",
+      "src/case-studies/gyro-concept/index.html:2182-2349"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 14
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 8,
+        "maxWords": 57
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "background",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1338,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 928,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "background",
+    "video"
+  ],
+  "implementedBy": "src/pages/CaseStudiesTalkinTacos.jsx"
+}

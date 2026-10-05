@@ -1,0 +1,12 @@
+{
+  "id": "blog-key-rich-text",
+  "name": "blog-key_rich-text",
+  "occurrences": 72,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "cs-feature-box",
+  "name": "cs-feature_box",
+  "occurrences": 18,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

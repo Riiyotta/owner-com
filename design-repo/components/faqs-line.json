@@ -1,0 +1,10 @@
+{
+  "id": "faqs-line",
+  "name": "faqs_line",
+  "occurrences": 406,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

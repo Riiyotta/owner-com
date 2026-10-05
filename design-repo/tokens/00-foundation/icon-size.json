@@ -1,0 +1,45 @@
+{
+  "$description": "Foundation icon-size tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "iconSize.12": {
+      "$type": "dimension",
+      "$value": "12px",
+      "usage": 20
+    },
+    "iconSize.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 1028
+    },
+    "iconSize.17": {
+      "$type": "dimension",
+      "$value": "17px",
+      "usage": 330
+    },
+    "iconSize.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 28
+    },
+    "iconSize.21": {
+      "$type": "dimension",
+      "$value": "21px",
+      "usage": 2546
+    },
+    "iconSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 674
+    },
+    "iconSize.28": {
+      "$type": "dimension",
+      "$value": "28px",
+      "usage": 20
+    },
+    "iconSize.32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "usage": 25
+    }
+  }
+}

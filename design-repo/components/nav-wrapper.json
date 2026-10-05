@@ -1,0 +1,17 @@
+{
+  "id": "nav-wrapper",
+  "name": "nav-wrapper",
+  "occurrences": 141,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

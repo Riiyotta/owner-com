@@ -1,0 +1,12 @@
+{
+  "id": "product-bg-visual",
+  "name": "product-bg_visual",
+  "occurrences": 24,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

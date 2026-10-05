@@ -1,0 +1,71 @@
+{
+  "id": "hero.cs-index-head",
+  "category": "HERO",
+  "label": "cs-index_head",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Owner is trusted by thousands of restaurants\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/case-studies/index.html:2161-2217"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 4
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 2,
+        "assetRoles": [
+          "customer-logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 309,
+      "columns": 5
+    },
+    "mobile": {
+      "heightPx": 331,
+      "columns": 5,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "customer-logo"
+  ],
+  "implementedBy": "src/pages/CaseStudies.jsx"
+}

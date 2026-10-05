@@ -1,0 +1,14 @@
+{
+  "id": "reviews-hero-collection-item",
+  "name": "reviews_hero-collection-item",
+  "occurrences": 18,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/reviews"
+  }
+}

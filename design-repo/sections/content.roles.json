@@ -1,0 +1,73 @@
+{
+  "id": "content.roles",
+  "category": "CONTENT",
+  "label": "roles",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Careers at Owner\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/careers/index.html:4302-4355"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 19
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 610,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 658,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/Careers.jsx"
+}

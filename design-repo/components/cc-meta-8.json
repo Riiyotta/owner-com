@@ -1,0 +1,13 @@
+{
+  "id": "cc-meta-8",
+  "name": "cc-meta-8",
+  "occurrences": 210,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

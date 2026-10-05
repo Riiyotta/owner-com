@@ -1,0 +1,22 @@
+
+  :root {
+  }
+
+  [data-transition] {
+    transition-property: background-color, color, opacity, border-color, transform, padding, flex, width;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.38, 0.005, 0.215, 1);
+  }
+
+  @media (hover: hover) {
+    :is([data-card]:hover,a:hover) [data-transition='img-link'] {
+      transform: scale(1.05);
+    }
+
+    :is(a:hover,button:hover,[data-card]:hover) [data-transition='arrow'] {
+      transform: translateX(0.25rem);
+    }
+    :is(a:hover,button:hover,[data-card]:hover) [data-transition='arrow-rev'] {
+      transform: translateX(-0.25rem);
+    }
+  }

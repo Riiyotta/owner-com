@@ -1,0 +1,12 @@
+{
+  "id": "blog-content-custom-table",
+  "name": "blog-content_custom-table",
+  "occurrences": 72,
+  "composedOf": [
+    "table"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

@@ -1,0 +1,35 @@
+
+  :root {
+    --glow-blur-rest: 9px;
+    --glow-opacity-rest: 0.46;
+    --glow-blur-hover: 7.5px;
+    --glow-opacity-hover: 0.76;
+    --glow-blur-focus: 16px;
+    --glow-opacity-focus: 0.7;
+  }
+  [glow-border] {
+    position: relative;
+  }
+  [glow-border]::after {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    height: calc(100% + 2px);
+    width: calc(100% + 2px);
+    border-radius: 20px;
+    z-index: -1;
+    filter: blur(var(--glow-blur-rest));
+    opacity: var(--glow-opacity-rest);
+    transition:
+      filter 0.3s ease,
+      opacity 0.3s ease;
+  }
+  .hp-input_form-block:hover:not(:focus-within) [glow-border]::after {
+    filter: blur(var(--glow-blur-hover));
+    opacity: var(--glow-opacity-hover);
+  }
+  .hp-input_form-block:focus-within [glow-border]::after {
+    filter: blur(var(--glow-blur-focus));
+    opacity: var(--glow-opacity-focus);
+  }

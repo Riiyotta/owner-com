@@ -1,0 +1,17 @@
+{
+  "id": "demo-form-block",
+  "name": "demo-form_block",
+  "occurrences": 6,
+  "composedOf": [
+    "input",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "select"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

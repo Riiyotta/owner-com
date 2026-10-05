@@ -1,0 +1,79 @@
+{
+  "id": "content.cs-index-list",
+  "category": "CONTENT",
+  "label": "cs-index_list",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/case-studies/index.html:2218-5409"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 6
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 36,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 7742,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 14689,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/pages/CaseStudies.jsx"
+}

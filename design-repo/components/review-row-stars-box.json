@@ -1,0 +1,12 @@
+{
+  "id": "review-row-stars-box",
+  "name": "review-row_stars-box",
+  "occurrences": 244,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

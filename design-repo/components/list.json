@@ -1,0 +1,10 @@
+{
+  "id": "list",
+  "name": "list",
+  "occurrences": 13,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

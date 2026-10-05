@@ -1,0 +1,12 @@
+{
+  "id": "press-visual",
+  "name": "press_visual",
+  "occurrences": 12,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/press"
+  }
+}

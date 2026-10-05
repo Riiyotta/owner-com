@@ -1,0 +1,10 @@
+{
+  "id": "img-cover",
+  "name": "img-cover",
+  "occurrences": 1488,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

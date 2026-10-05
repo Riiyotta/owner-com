@@ -1,0 +1,55 @@
+{
+  "id": "content.eng-maxwdith",
+  "category": "CONTENT",
+  "label": "eng-maxwdith",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Without Owner, here's what that takes:\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/builders-wanted/index.html:1156-1158"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 86,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 67,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/EngMaxwdith.jsx"
+}

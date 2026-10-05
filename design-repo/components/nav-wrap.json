@@ -1,0 +1,17 @@
+{
+  "id": "nav-wrap",
+  "name": "nav-wrap",
+  "occurrences": 141,
+  "composedOf": [
+    "button",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

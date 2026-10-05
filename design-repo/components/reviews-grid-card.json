@@ -1,0 +1,14 @@
+{
+  "id": "reviews-grid-card",
+  "name": "reviews_grid-card",
+  "occurrences": 23,
+  "composedOf": [
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/reviews"
+  }
+}

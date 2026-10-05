@@ -1,0 +1,12 @@
+{
+  "id": "custom-restaurant-table",
+  "name": "custom-restaurant-table",
+  "occurrences": 14,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/best-pos-system-for-restaurants"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "investors-logos-logo",
+  "name": "investors-logos_logo",
+  "occurrences": 64,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "select",
+  "purpose": "Dropdown form field.",
+  "observedCount": 33,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

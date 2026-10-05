@@ -1,0 +1,12 @@
+{
+  "id": "blog-content-custom-quote-shape",
+  "name": "blog-content_custom-quote_shape",
+  "occurrences": 72,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

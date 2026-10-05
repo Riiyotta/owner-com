@@ -1,0 +1,10 @@
+{
+  "id": "leadership-item-logo",
+  "name": "leadership-item_logo",
+  "occurrences": 36,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

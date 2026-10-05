@@ -1,0 +1,12 @@
+{
+  "id": "hs-form-checkbox-display",
+  "name": "hs-form-checkbox-display",
+  "occurrences": 54,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

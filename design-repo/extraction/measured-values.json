@@ -1,0 +1,7524 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://www.owner.com/?ref=saaspo.com",
+    "framework": "Webflow+GSAP",
+    "scrapedAt": "2026-10-05T10:30:12Z",
+    "snapshotFolder": "recon/mirror/src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        143241
+      ],
+      [
+        "rgb(44,44,44)",
+        92791
+      ],
+      [
+        "rgb(255,255,255)",
+        38463
+      ],
+      [
+        "rgba(44,44,44,0.85)",
+        16818
+      ],
+      [
+        "rgb(0,0,0)",
+        6148
+      ],
+      [
+        "rgba(44,44,44,0.5)",
+        3324
+      ],
+      [
+        "rgb(8,137,36)",
+        2836
+      ],
+      [
+        "rgba(44,44,44,0)",
+        2660
+      ],
+      [
+        "rgb(10,9,9)",
+        2236
+      ],
+      [
+        "rgb(249,243,237)",
+        2219
+      ],
+      [
+        "rgb(34,35,35)",
+        1596
+      ],
+      [
+        "rgb(9,10,11)",
+        1509
+      ],
+      [
+        "rgba(44,44,44,0.15)",
+        1220
+      ],
+      [
+        "rgb(9,68,19)",
+        894
+      ],
+      [
+        "rgba(255,255,255,0.85)",
+        674
+      ],
+      [
+        "rgb(221,221,221)",
+        477
+      ],
+      [
+        "rgb(102,102,102)",
+        461
+      ],
+      [
+        "rgb(251,248,245)",
+        459
+      ],
+      [
+        "rgba(44,44,44,0.9)",
+        334
+      ],
+      [
+        "rgba(0,0,0,0.33)",
+        332
+      ],
+      [
+        "rgba(255,255,255,0.1)",
+        332
+      ],
+      [
+        "rgb(255,76,36)",
+        330
+      ],
+      [
+        "rgba(255,255,255,0.15)",
+        330
+      ],
+      [
+        "rgb(118,118,118)",
+        303
+      ],
+      [
+        "rgba(44,44,44,0.3)",
+        286
+      ],
+      [
+        "rgb(246,238,229)",
+        258
+      ],
+      [
+        "rgba(44,44,44,0.05)",
+        222
+      ],
+      [
+        "rgb(194,237,206)",
+        194
+      ],
+      [
+        "rgb(51,51,51)",
+        169
+      ],
+      [
+        "rgb(0,123,255)",
+        157
+      ],
+      [
+        "rgb(240,250,255)",
+        155
+      ],
+      [
+        "rgba(44,44,44,0.1)",
+        147
+      ],
+      [
+        "rgb(254,255,252)",
+        144
+      ],
+      [
+        "rgba(0,0,0,0.7)",
+        144
+      ],
+      [
+        "rgba(0,0,0,0.15)",
+        140
+      ],
+      [
+        "rgb(55,205,143)",
+        135
+      ],
+      [
+        "rgb(242,244,241)",
+        129
+      ],
+      [
+        "rgb(238,238,238)",
+        123
+      ],
+      [
+        "rgba(10,9,9,0.1)",
+        123
+      ],
+      [
+        "rgba(100,100,100,0.2)",
+        99
+      ],
+      [
+        "rgb(244,244,244)",
+        75
+      ],
+      [
+        "rgba(255,255,255,0.5)",
+        72
+      ],
+      [
+        "rgb(249,249,249)",
+        70
+      ],
+      [
+        "rgb(9,20,18)",
+        61
+      ],
+      [
+        "rgb(197,190,183)",
+        54
+      ],
+      [
+        "rgb(221,214,206)",
+        40
+      ],
+      [
+        "rgb(36,90,239)",
+        38
+      ],
+      [
+        "rgba(44,44,44,0.16)",
+        38
+      ],
+      [
+        "rgb(8,19,18)",
+        37
+      ],
+      [
+        "rgb(24,31,31)",
+        32
+      ],
+      [
+        "rgba(0,0,0,0.45)",
+        27
+      ],
+      [
+        "rgb(224,224,225)",
+        26
+      ],
+      [
+        "rgb(179,183,193)",
+        24
+      ],
+      [
+        "rgb(216,0,39)",
+        24
+      ],
+      [
+        "rgb(120,122,125)",
+        20
+      ],
+      [
+        "rgb(161,163,165)",
+        20
+      ],
+      [
+        "rgb(1,1,0)",
+        18
+      ],
+      [
+        "rgba(0,0,0,0.16)",
+        17
+      ],
+      [
+        "rgb(0,81,242)",
+        16
+      ],
+      [
+        "rgb(225,225,225)",
+        14
+      ],
+      [
+        "rgb(235,235,236)",
+        14
+      ],
+      [
+        "rgb(24,32,57)",
+        14
+      ],
+      [
+        "rgb(250,250,250)",
+        14
+      ],
+      [
+        "rgba(249,243,237,0.1)",
+        14
+      ],
+      [
+        "rgb(241,241,242)",
+        13
+      ],
+      [
+        "rgb(9,53,77)",
+        12
+      ],
+      [
+        "rgba(255,255,255,0.05)",
+        12
+      ],
+      [
+        "rgb(204,204,204)",
+        9
+      ],
+      [
+        "rgb(24,31,57)",
+        8
+      ],
+      [
+        "rgb(75,85,99)",
+        8
+      ],
+      [
+        "rgba(255,255,255,0.8)",
+        8
+      ],
+      [
+        "rgba(44,44,44,0.8)",
+        8
+      ],
+      [
+        "rgb(235,235,235)",
+        7
+      ],
+      [
+        "rgb(239,239,239)",
+        7
+      ],
+      [
+        "rgb(240,39,98)",
+        7
+      ],
+      [
+        "rgb(252,252,252)",
+        7
+      ],
+      [
+        "rgb(0,82,180)",
+        6
+      ],
+      [
+        "rgb(240,240,240)",
+        6
+      ],
+      [
+        "rgba(255,255,255,0.3)",
+        6
+      ],
+      [
+        "rgb(0,115,230)",
+        5
+      ]
+    ],
+    "radii": [
+      [
+        "16px",
+        3726
+      ],
+      [
+        "3.5px",
+        3151
+      ],
+      [
+        "14px",
+        1764
+      ],
+      [
+        "8.75px",
+        1608
+      ],
+      [
+        "32px",
+        1179
+      ],
+      [
+        "10px",
+        747
+      ],
+      [
+        "24px",
+        654
+      ],
+      [
+        "10.5px",
+        402
+      ],
+      [
+        "8px",
+        376
+      ],
+      [
+        "64px",
+        354
+      ],
+      [
+        "15px",
+        280
+      ],
+      [
+        "12px",
+        242
+      ],
+      [
+        "4px",
+        145
+      ],
+      [
+        "20px",
+        21
+      ],
+      [
+        "30px",
+        20
+      ],
+      [
+        "5px",
+        10
+      ],
+      [
+        "22px",
+        6
+      ],
+      [
+        "2px",
+        6
+      ],
+      [
+        "160px",
+        4
+      ],
+      [
+        "19.2px",
+        4
+      ]
+    ],
+    "spacing": [
+      [
+        "16px",
+        17638
+      ],
+      [
+        "24px",
+        15251
+      ],
+      [
+        "8.75px",
+        11524
+      ],
+      [
+        "8px",
+        8670
+      ],
+      [
+        "7px",
+        8178
+      ],
+      [
+        "10px",
+        6979
+      ],
+      [
+        "3.5px",
+        6302
+      ],
+      [
+        "25.4117px",
+        5556
+      ],
+      [
+        "12px",
+        4778
+      ],
+      [
+        "20px",
+        4514
+      ],
+      [
+        "14px",
+        4326
+      ],
+      [
+        "32px",
+        4185
+      ],
+      [
+        "40px",
+        3146
+      ],
+      [
+        "28px",
+        2912
+      ],
+      [
+        "64px",
+        2166
+      ],
+      [
+        "2px",
+        1592
+      ],
+      [
+        "15px",
+        1418
+      ],
+      [
+        "21px",
+        1340
+      ],
+      [
+        "14.4px",
+        1320
+      ],
+      [
+        "104px",
+        1282
+      ],
+      [
+        "55.9999px",
+        918
+      ],
+      [
+        "1px",
+        826
+      ],
+      [
+        "10.5px",
+        804
+      ],
+      [
+        "35px",
+        804
+      ],
+      [
+        "4px",
+        796
+      ],
+      [
+        "56.0001px",
+        692
+      ],
+      [
+        "80px",
+        680
+      ],
+      [
+        "11.25px",
+        560
+      ],
+      [
+        "7.875px",
+        536
+      ],
+      [
+        "18px",
+        506
+      ],
+      [
+        "164px",
+        450
+      ],
+      [
+        "30px",
+        423
+      ],
+      [
+        "128px",
+        373
+      ],
+      [
+        "91px",
+        270
+      ],
+      [
+        "27px",
+        239
+      ],
+      [
+        "6px",
+        210
+      ],
+      [
+        "48px",
+        204
+      ],
+      [
+        "19.5px",
+        162
+      ],
+      [
+        "13px",
+        106
+      ],
+      [
+        "100px",
+        90
+      ]
+    ],
+    "breakpoints": [
+      [
+        "991px",
+        1000
+      ],
+      [
+        "767px",
+        996
+      ],
+      [
+        "479px",
+        854
+      ],
+      [
+        "768px",
+        297
+      ],
+      [
+        "992px",
+        287
+      ],
+      [
+        "1060px",
+        141
+      ],
+      [
+        "340px",
+        141
+      ],
+      [
+        "1200px",
+        27
+      ],
+      [
+        "376px",
+        27
+      ],
+      [
+        "400px",
+        12
+      ],
+      [
+        "0px",
+        1
+      ],
+      [
+        "1280px",
+        1
+      ],
+      [
+        "1400px",
+        1
+      ],
+      [
+        "360px",
+        1
+      ],
+      [
+        "480px",
+        1
+      ]
+    ],
+    "durations": [
+      [
+        "0.45s",
+        60234
+      ],
+      [
+        "0.35s",
+        10522
+      ],
+      [
+        "0.3s",
+        9289
+      ],
+      [
+        "0.6s",
+        1361
+      ],
+      [
+        "0.15s",
+        379
+      ],
+      [
+        "0.2s",
+        234
+      ],
+      [
+        "0.25s",
+        140
+      ],
+      [
+        "0.4s",
+        81
+      ],
+      [
+        "165.6s",
+        32
+      ],
+      [
+        "126s",
+        4
+      ],
+      [
+        "30s",
+        4
+      ],
+      [
+        "32s",
+        4
+      ],
+      [
+        "46.05s",
+        4
+      ],
+      [
+        "60.4s",
+        4
+      ],
+      [
+        "71.5s",
+        4
+      ],
+      [
+        "72.55s",
+        4
+      ],
+      [
+        "60s",
+        2
+      ]
+    ],
+    "easings": [
+      [
+        "cubic-bezier(0.215, 0.61, 0.355, 1)",
+        70750
+      ],
+      [
+        "cubic-bezier(0.38, 0.005, 0.215, 1)",
+        6430
+      ],
+      [
+        "linear",
+        2727
+      ],
+      [
+        "cubic-bezier(0.625, 0.05, 0, 1)",
+        1361
+      ],
+      [
+        "ease",
+        584
+      ],
+      [
+        "ease-in-out",
+        343
+      ],
+      [
+        "ease-out",
+        94
+      ],
+      [
+        "cubic-bezier(0.5, 0, 0, 1.25)",
+        13
+      ]
+    ],
+    "cssVariables": {
+      "--osano-clear-dialog-background": "rgba(0,0,0,0)",
+      "--osano-button-border-color": "rgb(255,255,255)",
+      "--osano-dialog-type": "bar",
+      "--osano-display-position": "bottom",
+      "--osano-info-dialog-position": "left",
+      "--osano-widget-position": "left",
+      "--osano-opt-out-widget-position": "left",
+      "--osano-button-background-color": "rgb(1,91,248)",
+      "--osano-button-foreground-color": "rgb(255,255,255)",
+      "--osano-dialog-background-color": "rgb(255,255,255)",
+      "--osano-dialog-foreground-color": "rgb(0,0,0)",
+      "--osano-info-dialog-overlay-color": "rgba(0,0,0,0.45)",
+      "--osano-link-color": "rgb(55,205,143)",
+      "--osano-toggle-off-track-color": "rgb(122,63,241)",
+      "--osano-toggle-off-thumb-color": "rgb(255,255,255)",
+      "--osano-toggle-on-track-color": "rgb(1,91,248)",
+      "--osano-toggle-on-thumb-color": "rgb(255,255,255)",
+      "--osano-widget-color": "rgb(55,205,143)",
+      "--osano-widget-outline-color": "rgb(41,36,106)",
+      "--osano-widget-fill-color": "rgb(255,255,255)",
+      "--osano-focus-outline-color": "rgba(128,188,254,0.6)",
+      "--osano-button-close-color": "rgb(0,0,0)",
+      "--osano-button-accept-background-color": "rgb(1,91,248)",
+      "--osano-button-accept-border-color": "rgb(255,255,255)",
+      "--osano-button-accept-foreground-color": "rgb(255,255,255)",
+      "--osano-button-deny-background-color": "rgb(235,234,232)",
+      "--osano-button-deny-border-color": "rgb(255,255,255)",
+      "--osano-button-deny-foreground-color": "rgb(170,170,170)",
+      "--osano-button-reject-all-background-color": "rgb(1,91,248)",
+      "--osano-button-reject-all-background-color-hover": "rgb(21,111,255)",
+      "--osano-button-reject-all-border-color": "rgb(255,255,255)",
+      "--osano-button-reject-all-foreground-color": "rgb(255,255,255)",
+      "--osano-button-manage-background-color": "rgb(1,91,248)",
+      "--osano-button-manage-border-color": "rgb(255,255,255)",
+      "--osano-button-manage-foreground-color": "rgb(255,255,255)",
+      "--osano-info-dialog-link-color": "rgb(55,205,143)",
+      "--osano-info-dialog-button-close-color": "rgb(0,0,0)",
+      "--osano-info-dialog-toggle-off-track-color": "rgb(122,63,241)",
+      "--osano-info-dialog-toggle-off-thumb-color": "rgb(255,255,255)",
+      "--osano-info-dialog-toggle-on-track-color": "rgb(1,91,248)",
+      "--osano-info-dialog-toggle-on-thumb-color": "rgb(255,255,255)",
+      "--osano-info-dialog-button-background-color": "rgb(1,91,248)",
+      "--osano-info-dialog-button-border-color": "rgb(255,255,255)",
+      "--osano-info-dialog-button-foreground-color": "rgb(255,255,255)",
+      "--osano-dialog-gpc-background-color": "rgb(255,255,255)",
+      "--osano-dialog-gpc-border-color": "rgb(0,0,0)",
+      "--osano-dialog-gpc-foreground-color": "rgb(0,0,0)",
+      "--osano-dialog-gpc-color": "rgb(55,205,132)",
+      "--osano-info-dialog-gpc-background-color": "rgb(255,255,255)",
+      "--osano-info-dialog-gpc-border-color": "rgb(0,0,0)",
+      "--osano-info-dialog-gpc-foreground-color": "rgb(0,0,0)",
+      "--osano-info-dialog-gpc-color": "rgb(55,205,132)",
+      "--osano-gpc-background-color": "rgb(255,255,255)",
+      "--osano-gpc-border-color": "rgb(5,138,94)",
+      "--osano-gpc-foreground-color": "rgb(5,138,94)",
+      "--osano-gpc-color": "rgb(55,205,132)",
+      "--osano-gpc-background-color-hover": "rgb(255,255,255)",
+      "--osano-toggle-off-background-color": "rgb(210,207,255)",
+      "--osano-toggle-button-off-color": "rgb(255,255,255)",
+      "--osano-toggle-on-background-color": "rgb(55,205,143)",
+      "--osano-toggle-button-on-color": "rgb(244,244,244)",
+      "--osano-button-background-color-contrast": "rgb(21,111,255)",
+      "--osano-button-foreground-color-contrast": "rgb(235,235,235)",
+      "--osano-button-deny-background-color-contrast": "rgb(215,214,212)",
+      "--osano-button-deny-foreground-color-contrast": "rgb(150,150,150)",
+      "--osano-dialog-background-color-contrast": "rgb(235,235,235)",
+      "--osano-dialog-foreground-color-contrast": "rgb(20,20,20)",
+      "--osano-link-color-contrast": "rgb(35,185,123)",
+      "--osano-toggle-off-track-color-contrast": "rgb(142,83,255)",
+      "--osano-toggle-off-track-color-disabled": "rgb(186,127,255)",
+      "--osano-toggle-off-thumb-color-contrast": "rgb(235,235,235)",
+      "--osano-toggle-off-thumb-color-disabled": "rgb(191,191,191)",
+      "--osano-toggle-on-track-color-contrast": "rgb(21,111,255)",
+      "--osano-toggle-on-track-color-disabled": "rgb(65,155,255)",
+      "--osano-toggle-on-thumb-color-contrast": "rgb(235,235,235)",
+      "--osano-toggle-on-thumb-color-disabled": "rgb(191,191,191)",
+      "--osano-gpc-background-color-contrast": "rgb(235,235,235)",
+      "--osano-button-background-color-hover": "rgb(21,111,255)",
+      "--osano-button-foreground-color-hover": "rgb(235,235,235)",
+      "--osano-button-background-color-focus": "rgb(235,235,235)",
+      "--osano-button-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-toggle-off-track-color-hover": "rgb(142,83,255)",
+      "--osano-toggle-off-thumb-color-hover": "rgb(235,235,235)",
+      "--osano-toggle-off-track-color-focus": "rgb(235,235,235)",
+      "--osano-toggle-off-thumb-color-focus": "rgb(142,83,255)",
+      "--osano-toggle-on-track-color-hover": "rgb(21,111,255)",
+      "--osano-toggle-on-thumb-color-hover": "rgb(235,235,235)",
+      "--osano-toggle-on-track-color-focus": "rgb(235,235,235)",
+      "--osano-toggle-on-thumb-color-focus": "rgb(21,111,255)",
+      "--osano-button-accept-background-color-contrast": "rgb(21,111,255)",
+      "--osano-button-accept-foreground-color-contrast": "rgb(235,235,235)",
+      "--osano-button-accept-background-color-hover": "rgb(21,111,255)",
+      "--osano-button-accept-foreground-color-hover": "rgb(235,235,235)",
+      "--osano-button-accept-background-color-focus": "rgb(235,235,235)",
+      "--osano-button-accept-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-button-deny-background-color-hover": "rgb(21,111,255)",
+      "--osano-button-deny-foreground-color-hover": "rgb(150,150,150)",
+      "--osano-button-deny-background-color-focus": "rgb(150,150,150)",
+      "--osano-button-deny-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-button-reject-all-background-color-contrast": "rgb(21,111,255)",
+      "--osano-button-reject-all-foreground-color-contrast": "rgb(235,235,235)",
+      "--osano-button-reject-all-foreground-color-hover": "rgb(235,235,235)",
+      "--osano-button-reject-all-background-color-focus": "rgb(235,235,235)",
+      "--osano-button-reject-all-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-button-manage-background-color-contrast": "rgb(21,111,255)",
+      "--osano-button-manage-foreground-color-contrast": "rgb(235,235,235)",
+      "--osano-button-manage-background-color-hover": "rgb(21,111,255)",
+      "--osano-button-manage-foreground-color-hover": "rgb(235,235,235)",
+      "--osano-button-manage-background-color-focus": "rgb(235,235,235)",
+      "--osano-button-manage-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-info-dialog-foreground-color": "rgb(0,0,0)",
+      "--osano-info-dialog-background-color": "rgb(255,255,255)",
+      "--osano-info-dialog-button-background-color-contrast": "rgb(21,111,255)",
+      "--osano-info-dialog-button-foreground-color-contrast": "rgb(235,235,235)",
+      "--osano-info-dialog-button-background-color-hover": "rgb(21,111,255)",
+      "--osano-info-dialog-button-foreground-color-hover": "rgb(235,235,235)",
+      "--osano-info-dialog-button-background-color-focus": "rgb(235,235,235)",
+      "--osano-info-dialog-button-foreground-color-focus": "rgb(21,111,255)",
+      "--osano-info-dialog-toggle-off-track-color-contrast": "rgb(142,83,255)",
+      "--osano-info-dialog-toggle-off-thumb-color-contrast": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-off-track-color-hover": "rgb(142,83,255)",
+      "--osano-info-dialog-toggle-off-thumb-color-hover": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-off-track-color-focus": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-off-thumb-color-focus": "rgb(142,83,255)",
+      "--osano-info-dialog-toggle-off-track-color-disabled": "rgb(186,127,255)",
+      "--osano-info-dialog-toggle-off-thumb-color-disabled": "rgb(191,191,191)",
+      "--osano-info-dialog-toggle-on-track-color-contrast": "rgb(21,111,255)",
+      "--osano-info-dialog-toggle-on-thumb-color-contrast": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-on-track-color-hover": "rgb(21,111,255)",
+      "--osano-info-dialog-toggle-on-thumb-color-hover": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-on-track-color-focus": "rgb(235,235,235)",
+      "--osano-info-dialog-toggle-on-thumb-color-focus": "rgb(21,111,255)",
+      "--osano-info-dialog-toggle-on-track-color-disabled": "rgb(65,155,255)",
+      "--osano-info-dialog-toggle-on-thumb-color-disabled": "rgb(191,191,191)",
+      "--osano-info-dialog-link-color-contrast": "rgb(35,185,123)",
+      "--background--primary": "rgb(255,255,255)",
+      "--text--primary": "rgb(44,44,44)",
+      "--content--primary<deleted|variable-dccb7db6>": "rgb(24,31,31)",
+      "--_new---button--primary-bg<deleted|variable-a9db7463-5573-4247-e429-11798982a2dd>": "rgb(9,68,19)",
+      "--_new---button--primary-text<deleted|variable-054fb34c-7319-7e7d-ddfe-51842ff42fce>": "rgb(249,243,237)",
+      "--_new---button--primary-bg-hover<deleted|variable-0bd2a01a-f29d-9e10-a7ce-0956f3d54aad>": "rgb(0,0,0)",
+      "--_new---button--primary-text-hover<deleted|variable-2b64fc61-9c68-6d4c-526d-e890d6d97dbb>": "rgb(249,243,237)",
+      "--divider--10": "rgba(44,44,44,0.1)",
+      "--white": "rgb(255,255,255)",
+      "--divider--30": "rgba(44,44,44,0.3)",
+      "--background--alt": "rgb(8,137,36)",
+      "--eng-lp_bg": "rgb(34,35,35)",
+      "--eng-lp_fg": "rgb(241,241,242)",
+      "--eng-lp_overlay-0<deleted|variable-d048df59-2d5a-cb53-06d6-6e05332a1627>": "color(srgb000/0)",
+      "--eng-lp_border<deleted|variable-03c17a6b-d5e9-5e35-a4c7-3e26dae318ae>": "rgb(120,122,125)",
+      "--base-bg<deleted|variable-f7f4f2e4-2375-7d6d-70bf-0f4f7566dcdb>": "rgb(241,241,242)",
+      "--eng-lp_border": "rgb(120,122,125)",
+      "--taupe-dark": "rgb(246,238,229)",
+      "--red": "rgb(215,56,21)",
+      "--text--muted": "rgba(44,44,44,0.85)",
+      "--green": "rgb(8,137,36)",
+      "--green-dark": "rgb(9,68,19)",
+      "--text--super-muted": "rgba(44,44,44,0.5)",
+      "--button--primary-bg": "rgb(9,68,19)",
+      "--button--primary-text": "rgb(249,243,237)",
+      "--button--primary-bg-hover": "rgb(0,0,0)",
+      "--button--secondary-bg": "rgba(44,44,44,0.05)",
+      "--button--secondary-text": "rgba(44,44,44,0.9)",
+      "--button--secondary-bg-hover": "rgba(44,44,44,0.1)",
+      "--button--secondary-text-hover": "rgb(44,44,44)",
+      "--button--translucent-bg": "rgba(255,255,255,0.3)",
+      "--button--translucent-text": "rgb(251,248,245)",
+      "--button--translucent-bg-hover": "rgba(255,255,255,0.5)",
+      "--transparent": "rgba(0,0,0,0)",
+      "--grey": "rgb(44,44,44)",
+      "--black": "rgb(0,0,0)",
+      "--button--primary-text-hover": "rgb(249,243,237)",
+      "--background--darker": "rgb(246,238,229)",
+      "--alpha--dark-30": "rgba(44,44,44,0.3)",
+      "--_spacers---section-bottom-base": "10.25em",
+      "--alpha--dark-10": "rgba(44,44,44,0.1)",
+      "--_spacers---section-top-base": "8em",
+      "--_spacers---section-radius": "4em",
+      "--background--lighter": "rgb(251,248,245)",
+      "--_spacers---section-bottom-prefooter": "calc(10.25em*1.5)",
+      "--taupe": "rgb(249,243,237)",
+      "--text--inverse": "rgb(251,248,245)",
+      "--_spacers---section-bottom-visible": "4em",
+      "--_spacers---nav-height": "5em",
+      "--_spacers---section-top-hero": "5em",
+      "--alpha--dark-2": "rgba(44,44,44,0.02)",
+      "--taupe-darkest": "rgb(197,190,183)",
+      "--taupe-darker": "rgb(221,214,206)",
+      "--alpha--light-10": "rgba(249,243,237,0.1)",
+      "--alpha--dark-5": "rgba(44,44,44,0.05)",
+      "--taupe-light": "rgb(251,248,245)",
+      "--border-color": "rgba(44,44,44,0.16)",
+      "--ui-stroke": "rgba(255,255,255,0.1)",
+      "--_spacers---section-bottom-overlap": "calc(4em*-1)",
+      "--alpha--dark-90": "rgba(44,44,44,0.9)",
+      "--alpha--dark-70": "rgba(44,44,44,0.7)",
+      "--alpha--dark-50": "rgba(44,44,44,0.5)",
+      "--alpha--dark-15": "rgba(44,44,44,0.15)",
+      "--alpha--light-90": "rgba(249,243,237,0.9)",
+      "--alpha--light-70": "rgba(249,243,237,0.7)",
+      "--alpha--light-50": "rgba(249,243,237,0.5)",
+      "--alpha--light-30": "rgba(249,243,237,0.3)",
+      "--alpha--light-15": "rgba(249,243,237,0.15)",
+      "--alpha--light-5": "rgba(249,243,237,0.05)",
+      "--alpha--light-2": "rgba(249,243,237,0.02)",
+      "--eng-lp_overlay-0": "color(srgb000/0)",
+      "--eng-lp_faq-p": "2",
+      "--color--neutral-1200<deleted|variable-21160bbd-35a0-e7f1-a9f9-cb91330636dc>": "rgb(24,31,31)",
+      "--_new---green-dark<deleted|variable-e104133f-b456-7db8-ced0-77a2920aa246>": "rgb(9,68,19)",
+      "--_new---white<deleted|variable-ffc1f3ef-7d62-6df1-47b7-f70f4e9f51eb>": "rgb(255,255,255)",
+      "--_new---taupe<deleted|variable-1a1cb98b-0158-1150-fbed-c61db9d0e931>": "rgb(249,243,237)",
+      "--_new---black<deleted|variable-d2aa8696-2680-1b0d-4e65-0144c6dbf87a>": "rgb(0,0,0)",
+      "--size-unit": "16",
+      "--size-container-ideal": "1440",
+      "--size-container-min": "992px",
+      "--size-container-max": "1440px",
+      "--size-container": "clamp(992px, 100vw, 1440px)",
+      "--size-font": "calc(clamp(992px, 100vw, 1440px) / (1440 / 16))",
+      "--glow-blur-rest": "9px",
+      "--glow-opacity-rest": "0.46",
+      "--glow-blur-hover": "7.5px",
+      "--glow-opacity-hover": "0.76",
+      "--glow-blur-focus": "16px",
+      "--glow-opacity-focus": "0.7",
+      "--list-bg-color": "rgb(255,255,255)",
+      "--list-text-color": "var(--content--primary)",
+      "--list-text-color-hover": "inherit",
+      "--current-field-text-color": "inherit",
+      "--select-field-arrow-color": "rgb(0,0,0)",
+      "--list-item-bg-color": "var(--state--hover)",
+      "--list-padding-top-bottom": "0.8rem",
+      "--list-max-height": "25em",
+      "--list-item-padding-left": "1em",
+      "--list-item-padding-right": "1em",
+      "--list-item-min-height": "1em",
+      "--list-item-line-height": "1em",
+      "--section--radius": "2.4rem",
+      "--marquee-duration": "60s",
+      "--tw-translate-x": "0",
+      "--tw-translate-y": "0",
+      "--tw-translate-z": "0",
+      "--tw-scale-x": "1",
+      "--tw-scale-y": "1",
+      "--tw-scale-z": "1",
+      "--tw-rotate-x": "initial",
+      "--tw-rotate-y": "initial",
+      "--tw-rotate-z": "initial",
+      "--tw-skew-x": "initial",
+      "--tw-skew-y": "initial",
+      "--tw-scroll-snap-strictness": "proximity",
+      "--tw-space-y-reverse": "0",
+      "--tw-space-x-reverse": "0",
+      "--tw-divide-y-reverse": "0",
+      "--tw-border-style": "solid",
+      "--tw-gradient-position": "initial",
+      "--tw-gradient-from": "rgba(0,0,0,0)",
+      "--tw-gradient-via": "rgba(0,0,0,0)",
+      "--tw-gradient-to": "rgba(0,0,0,0)",
+      "--tw-gradient-stops": "initial",
+      "--tw-gradient-via-stops": "initial",
+      "--tw-gradient-from-position": "0%",
+      "--tw-gradient-via-position": "50%",
+      "--tw-gradient-to-position": "100%",
+      "--tw-leading": "initial",
+      "--tw-font-weight": "initial",
+      "--tw-tracking": "initial",
+      "--tw-ordinal": "initial",
+      "--tw-slashed-zero": "initial",
+      "--tw-numeric-figure": "initial",
+      "--tw-numeric-spacing": "initial",
+      "--tw-numeric-fraction": "initial",
+      "--tw-shadow": "0 0 #0000",
+      "--tw-shadow-color": "initial",
+      "--tw-shadow-alpha": "100%",
+      "--tw-inset-shadow": "0 0 #0000",
+      "--tw-inset-shadow-color": "initial",
+      "--tw-inset-shadow-alpha": "100%",
+      "--tw-ring-color": "initial",
+      "--tw-ring-shadow": "0 0 #0000",
+      "--tw-inset-ring-color": "initial",
+      "--tw-inset-ring-shadow": "0 0 #0000",
+      "--tw-ring-inset": "initial",
+      "--tw-ring-offset-width": "0px",
+      "--tw-ring-offset-color": "rgb(255,255,255)",
+      "--tw-ring-offset-shadow": "0 0 #0000",
+      "--tw-outline-style": "solid",
+      "--tw-blur": "initial",
+      "--tw-brightness": "initial",
+      "--tw-contrast": "initial",
+      "--tw-grayscale": "initial",
+      "--tw-hue-rotate": "initial",
+      "--tw-invert": "initial",
+      "--tw-opacity": "initial",
+      "--tw-saturate": "initial",
+      "--tw-sepia": "initial",
+      "--tw-drop-shadow": "initial",
+      "--tw-drop-shadow-color": "initial",
+      "--tw-drop-shadow-alpha": "100%",
+      "--tw-drop-shadow-size": "initial",
+      "--tw-backdrop-blur": "initial",
+      "--tw-backdrop-brightness": "initial",
+      "--tw-backdrop-contrast": "initial",
+      "--tw-backdrop-grayscale": "initial",
+      "--tw-backdrop-hue-rotate": "initial",
+      "--tw-backdrop-invert": "initial",
+      "--tw-backdrop-opacity": "initial",
+      "--tw-backdrop-saturate": "initial",
+      "--tw-backdrop-sepia": "initial",
+      "--tw-duration": "initial",
+      "--tw-ease": "initial",
+      "--tw-content": "\"\"",
+      "--font-sans": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "--font-serif": "ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "--font-mono": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "--color-red-50": "oklch(0.9710.01317.38)",
+      "--color-red-100": "oklch(0.9360.03217.717)",
+      "--color-red-200": "oklch(0.8850.06218.334)",
+      "--color-red-300": "oklch(0.8080.11419.571)",
+      "--color-red-400": "oklch(0.7040.19122.216)",
+      "--color-red-500": "oklch(0.6370.23725.331)",
+      "--color-red-600": "oklch(0.5770.24527.325)",
+      "--color-red-700": "oklch(0.5050.21327.518)",
+      "--color-red-800": "oklch(0.4440.17726.899)",
+      "--color-amber-50": "oklch(0.9870.02295.277)",
+      "--color-amber-100": "oklch(0.9620.05995.617)",
+      "--color-amber-300": "oklch(0.8790.16991.605)",
+      "--color-amber-500": "oklch(0.7690.18870.08)",
+      "--color-amber-900": "oklch(0.4140.11245.904)",
+      "--color-yellow-400": "oklch(0.8520.19991.936)",
+      "--color-yellow-600": "oklch(0.6810.16275.834)",
+      "--color-green-300": "oklch(0.8710.15154.449)",
+      "--color-green-400": "oklch(0.7920.209151.711)",
+      "--color-green-500": "oklch(0.7230.219149.579)",
+      "--color-green-600": "oklch(0.6270.194149.214)",
+      "--color-green-700": "oklch(0.5270.154150.069)",
+      "--color-green-900": "oklch(0.3930.095152.535)",
+      "--color-green-950": "oklch(0.2660.065152.934)",
+      "--color-blue-50": "oklch(0.970.014254.604)",
+      "--color-blue-200": "oklch(0.8820.059254.128)",
+      "--color-blue-600": "oklch(0.5460.245262.881)",
+      "--color-blue-700": "oklch(0.4880.243264.376)",
+      "--color-blue-900": "oklch(0.3790.146265.522)",
+      "--color-blue-950": "oklch(0.2820.091267.935)",
+      "--color-slate-50": "oklch(0.9840.003247.858)",
+      "--color-slate-100": "oklch(0.9680.007247.896)",
+      "--color-slate-200": "oklch(0.9290.013255.508)",
+      "--color-slate-600": "oklch(0.4460.043257.281)",
+      "--color-slate-900": "oklch(0.2080.042265.755)",
+      "--color-gray-50": "oklch(0.9850.002247.839)",
+      "--color-gray-100": "oklch(0.9670.003264.542)",
+      "--color-gray-200": "oklch(0.9280.006264.531)",
+      "--color-gray-300": "oklch(0.8720.01258.338)",
+      "--color-gray-400": "oklch(0.7070.022261.325)",
+      "--color-gray-500": "oklch(0.5510.027264.364)",
+      "--color-gray-600": "oklch(0.4460.03256.802)",
+      "--color-gray-700": "oklch(0.3730.034259.733)",
+      "--color-gray-800": "oklch(0.2780.033256.848)",
+      "--color-gray-900": "oklch(0.210.034264.665)",
+      "--color-gray-950": "oklch(0.130.028261.692)",
+      "--color-neutral-50": "rgb(251,248,245)",
+      "--color-neutral-100": "rgb(249,243,237)",
+      "--color-neutral-300": "rgb(221,214,206)",
+      "--color-neutral-400": "rgb(197,190,183)",
+      "--color-neutral-500": "rgb(163,153,144)",
+      "--color-neutral-600": "rgb(125,118,112)",
+      "--color-neutral-700": "rgb(81,76,73)",
+      "--color-neutral-800": "rgb(58,54,51)",
+      "--color-neutral-900": "rgb(44,44,44)",
+      "--color-neutral-950": "oklch(0.1450none)",
+      "--color-black": "rgb(0,0,0)",
+      "--color-white": "rgb(255,255,255)",
+      "--spacing": ".25rem",
+      "--container-xs": "20rem",
+      "--container-sm": "24rem",
+      "--container-md": "28rem",
+      "--container-lg": "32rem",
+      "--container-xl": "36rem",
+      "--container-2xl": "42rem",
+      "--container-3xl": "48rem",
+      "--container-4xl": "56rem",
+      "--container-5xl": "64rem",
+      "--text-xs": ".75rem",
+      "--text-xs--line-height": "calc(1 / .75)",
+      "--text-sm": ".875rem",
+      "--text-sm--line-height": "calc(1.25 / .875)",
+      "--text-base": "1rem",
+      "--text-base--line-height": "calc(1.5 / 1)",
+      "--text-lg": "1.125rem",
+      "--text-lg--line-height": "calc(1.75 / 1.125)",
+      "--text-xl": "1.25rem",
+      "--text-xl--line-height": "calc(1.75 / 1.25)",
+      "--text-2xl": "1.5rem",
+      "--text-2xl--line-height": "calc(2 / 1.5)",
+      "--text-3xl": "1.875rem",
+      "--text-3xl--line-height": "calc(2.25 / 1.875)",
+      "--text-4xl": "2.25rem",
+      "--text-4xl--line-height": "calc(2.5 / 2.25)",
+      "--text-5xl": "3rem",
+      "--text-5xl--line-height": "1",
+      "--text-6xl": "3.75rem",
+      "--text-6xl--line-height": "1",
+      "--font-weight-normal": "400",
+      "--font-weight-medium": "500",
+      "--font-weight-semibold": "600",
+      "--font-weight-bold": "700",
+      "--font-weight-black": "900",
+      "--tracking-tight": "-.025em",
+      "--tracking-normal": "0em",
+      "--tracking-wide": ".025em",
+      "--leading-tight": "1.25",
+      "--leading-snug": "1.375",
+      "--leading-normal": "1.5",
+      "--radius-xs": ".125rem",
+      "--radius-sm": ".25rem",
+      "--radius-md": ".375rem",
+      "--radius-lg": ".5rem",
+      "--radius-xl": ".75rem",
+      "--radius-2xl": "1rem",
+      "--radius-3xl": "1.5rem",
+      "--drop-shadow-md": "0 3px 3px #0000001f",
+      "--ease-in": "cubic-bezier(.4, 0, 1, 1)",
+      "--ease-out": "cubic-bezier(0, 0, .2, 1)",
+      "--ease-in-out": "cubic-bezier(.4, 0, .2, 1)",
+      "--animate-spin": "spin 1s linear infinite",
+      "--animate-pulse": "pulse 2s cubic-bezier(.4, 0, .6, 1) infinite",
+      "--blur-xs": "4px",
+      "--blur-sm": "8px",
+      "--blur-md": "12px",
+      "--blur-lg": "16px",
+      "--blur-xl": "24px",
+      "--blur-2xl": "40px",
+      "--aspect-video": "16 / 9",
+      "--default-transition-duration": ".15s",
+      "--default-transition-timing-function": "cubic-bezier(.4, 0, .2, 1)",
+      "--default-font-family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "--default-mono-font-family": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "--font-bureau": "\"STK Bureau Sans\", SuisseIntl, sans-serif",
+      "--font-suisse": "SuisseIntl, sans-serif",
+      "--space-1": "4px",
+      "--space-2": "8px",
+      "--space-3": "12px",
+      "--space-4": "16px",
+      "--space-6": "24px",
+      "--space-8": "32px",
+      "--space-12": "48px",
+      "--radius-full": "9999px",
+      "--color-grey-0": "rgb(255,255,255)",
+      "--color-grey-20": "rgb(251,248,245)",
+      "--color-grey-50": "rgb(237,234,231)",
+      "--color-grey-70": "rgb(223,220,217)",
+      "--color-grey-100": "rgb(237,234,231)",
+      "--color-grey-200": "rgb(170,167,164)",
+      "--color-grey-300": "rgb(170,167,164)",
+      "--color-grey-400": "rgb(120,117,114)",
+      "--color-grey-700": "rgb(1,1,0)",
+      "--grader-surface-default-muted": "rgb(251,248,245)",
+      "--grader-surface-default-subtle": "rgb(237,234,231)",
+      "--grader-content-default-default": "rgb(120,117,114)",
+      "--grader-content-default-strong": "rgb(1,1,0)",
+      "--grader-content-accent": "rgb(171,66,66)",
+      "--grader-surface-accent-subtle": "rgb(247,230,230)",
+      "--color-green-20": "rgb(187,219,153)",
+      "--color-score-border": "rgb(244,241,239)",
+      "--color-uem-entry-surface": "rgb(255,255,255)",
+      "--color-uem-intro-subheadline": "rgb(107,107,107)",
+      "--color-uem-picker-border": "rgb(226,226,226)",
+      "--color-uem-picker-highlight": "rgb(245,245,245)",
+      "--color-uem-picker-selected": "rgb(250,250,250)",
+      "--color-uem-picker-actions": "rgb(251,250,249)",
+      "--color-uem-picker-cta": "rgb(33,57,27)",
+      "--color-uem-intro-favicon-placeholder": "rgb(223,220,217)",
+      "--shadow-uem-picker": "0 1px 3px #00000029",
+      "--shadow-uem-intro-favicon": "0 0 0 .5px #00000017, 0 6px 12px #78736d2e",
+      "--color-score-hover-bg": "rgb(251,248,246)",
+      "--color-score-status-fair": "rgb(218,143,0)",
+      "--color-score-status-poor": "rgb(219,78,78)",
+      "--color-score-status-good": "rgb(54,181,19)",
+      "--color-score-warning-bg": "rgb(255,248,232)",
+      "--color-score-warning-fg": "rgb(138,88,0)",
+      "--color-score-error-fg": "rgb(177,61,61)",
+      "--color-score-error-bg": "rgb(250,232,232)",
+      "--color-score-error-label": "rgb(174,97,97)",
+      "--color-score-icon-check": "rgb(110,110,110)",
+      "--color-score-cta-dark": "rgb(17,92,30)",
+      "--color-score-cta-dark-hover": "rgb(29,67,26)",
+      "--color-score-website-background": "rgb(20,20,20)"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "Online Ordering and Restaurant Marketing System | Owner.com",
+      "h1": "The AI platform restaurants use to grow online discovery.drive repeat orders.grow first-party sales.win online.",
+      "template": "template.home",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1939,
+            2411
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-hp-hero",
+          "tag": "section",
+          "anchor": "section-hp-hero",
+          "lines": [
+            2412,
+            2610
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-stories",
+          "tag": "section",
+          "anchor": "section-stories",
+          "lines": [
+            2611,
+            3616
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-owner-stack",
+          "tag": "section",
+          "anchor": "section-owner-stack",
+          "lines": [
+            3617,
+            7102
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "proof.section-reviews",
+          "tag": "section",
+          "anchor": "section-reviews",
+          "lines": [
+            7103,
+            9376
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-restaurant",
+          "tag": "section",
+          "anchor": "section-restaurant",
+          "lines": [
+            9377,
+            9727
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            9728,
+            11403
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.section-beliefs",
+          "tag": "section",
+          "anchor": "section-beliefs",
+          "lines": [
+            11404,
+            11467
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.section-guides",
+          "tag": "section",
+          "anchor": "section-guides",
+          "lines": [
+            11468,
+            11553
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "cta.section-cta",
+          "tag": "section",
+          "anchor": "section-cta",
+          "lines": [
+            11554,
+            11574
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            11575,
+            12160
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pricing",
+      "title": "Owner.com - Pricing",
+      "h1": "Simple pricing that fits your restaurant.",
+      "template": "template.group",
+      "file": "src/pricing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1688,
+            2160
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2161,
+            2366
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-reviews",
+          "tag": "section",
+          "anchor": "section-reviews",
+          "lines": [
+            2367,
+            4640
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-beliefs",
+          "tag": "section",
+          "anchor": "section-beliefs",
+          "lines": [
+            4641,
+            4704
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            4705,
+            6380
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            6381,
+            6617
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "support.form",
+          "tag": "section",
+          "anchor": "id=\"form\"",
+          "lines": [
+            6618,
+            8167
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            8168,
+            8182
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            8183,
+            8645
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/how-owner-works",
+      "title": "How Owner Works",
+      "h1": "You could be getting a LOT more online sales.",
+      "template": "template.how-owner-works",
+      "file": "src/how-owner-works/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1919,
+            2402
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-center-hero",
+          "tag": "section",
+          "anchor": "section_center-hero",
+          "lines": [
+            2403,
+            2419
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.section-hiw-steps",
+          "tag": "section",
+          "anchor": "section-hiw-steps",
+          "lines": [
+            2420,
+            3113
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "cta.section-cta",
+          "tag": "section",
+          "anchor": "section-cta",
+          "lines": [
+            3114,
+            3134
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3135,
+            3591
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/restaurant-website-ai",
+      "title": "Restaurant Website Builder with AI | Owner.com",
+      "h1": "Restaurant websites built for sales first, style second.",
+      "template": "template.group-2",
+      "file": "src/restaurant-website-ai/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1947,
+            2419
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-product-hero",
+          "tag": "section",
+          "anchor": "section-product_hero",
+          "lines": [
+            2420,
+            2578
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2579,
+            2637
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2638,
+            2686
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2687,
+            2759
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            2760,
+            4435
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4436,
+            4450
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4451,
+            4983
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/restaurant-seo",
+      "title": "SEO Software for Local Restaurants | Owner.com",
+      "h1": "Get more Google traffic with world-class SEO.",
+      "template": "template.group-2",
+      "file": "src/restaurant-seo/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1948,
+            2420
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-product-hero",
+          "tag": "section",
+          "anchor": "section-product_hero",
+          "lines": [
+            2421,
+            2579
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2580,
+            2639
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2640,
+            2685
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2686,
+            2755
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            2756,
+            4431
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4432,
+            4446
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4447,
+            4979
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/online-menu",
+      "title": "Restaurant Online Menu Software | Owner.com",
+      "h1": "An online menu that turns visitors into customers.",
+      "template": "template.group-2",
+      "file": "src/online-menu/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1947,
+            2419
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-product-hero",
+          "tag": "section",
+          "anchor": "section-product_hero",
+          "lines": [
+            2420,
+            2578
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2579,
+            2638
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2639,
+            2680
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2681,
+            2750
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            2751,
+            4426
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4427,
+            4441
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4442,
+            4973
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/reviews-engine",
+      "title": "Restaurant Review Management and Growth Software | Owner.com",
+      "h1": "We'll grow your Google reviews.",
+      "template": "template.group-3",
+      "file": "src/reviews-engine/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            683,
+            4980
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/listings-management",
+      "title": "Restaurant Listings Management Software | Owner.com",
+      "h1": "Better restaurant listings. Better SEO.",
+      "template": "template.group-2",
+      "file": "src/listings-management/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1947,
+            2419
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-product-hero",
+          "tag": "section",
+          "anchor": "section-product_hero",
+          "lines": [
+            2420,
+            2578
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2579,
+            2638
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2639,
+            2685
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2686,
+            2755
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            2756,
+            4431
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4432,
+            4446
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4447,
+            4979
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/online-ordering",
+      "title": "Restaurant Online Ordering System | Owner.com",
+      "h1": "Your online ordering should grow your business.",
+      "template": "template.group-3",
+      "file": "src/online-ordering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            449,
+            4747
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/smart-upsells",
+      "title": "Restaurant Upsell Software for Online Orders | Owner.com",
+      "h1": "More revenue on every order with smart upsells.",
+      "template": "template.group-3",
+      "file": "src/smart-upsells/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            683,
+            4975
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/delivery",
+      "title": "No Commission Delivery for Restaurants | Owner.com",
+      "h1": "Profitable delivery and a great guest experience.",
+      "template": "template.delivery",
+      "file": "src/delivery/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1713,
+            2185
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-product-hero",
+          "tag": "section",
+          "anchor": "section-product_hero",
+          "lines": [
+            2186,
+            2344
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2345,
+            2402
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2403,
+            2445
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2446,
+            2520
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            2521,
+            4196
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-guides",
+          "tag": "section",
+          "anchor": "section-guides",
+          "lines": [
+            4197,
+            4282
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4283,
+            4297
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4298,
+            4828
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/catering",
+      "title": "Online Catering System | Commission-Free Catering Software",
+      "h1": "Take catering orders directly on your website.",
+      "template": "template.group-3",
+      "file": "src/catering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            684,
+            4995
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ai-phone-ordering",
+      "title": "AI Phone Ordering for Restaurants | Owner.com",
+      "h1": "AI that answers every call you're currently missing.",
+      "template": "template.group-3",
+      "file": "src/ai-phone-ordering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            450,
+            4608
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pos",
+      "title": "Restaurant Point of Sale System | Owner.com",
+      "h1": "The POS built to bring your customers back",
+      "template": "template.group-3",
+      "file": "src/pos/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            655,
+            3587
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/branded-apps",
+      "title": "Custom Branded App for Restaurants | Owner.com",
+      "h1": "Get a beautiful mobile app for your restaurant.",
+      "template": "template.group-3",
+      "file": "src/branded-apps/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            450,
+            4742
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/automatic-marketing",
+      "title": "Automatic Marketing for Restaurants | Owner.com",
+      "h1": "Money-making marketing, ready on day one.",
+      "template": "template.group-3",
+      "file": "src/automatic-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            685,
+            4980
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/push-notifications",
+      "title": "Restaurant Push Notification Marketing | Owner.com",
+      "h1": "Push notification marketing built to drive orders.",
+      "template": "template.group-3",
+      "file": "src/push-notifications/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            684,
+            4971
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/loyalty-rewards",
+      "title": "Loyalty and Rewards Program for Restaurants | Owner.com",
+      "h1": "Offer a rewards program like the national chains.",
+      "template": "template.group-3",
+      "file": "src/loyalty-rewards/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            450,
+            4743
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/mobile",
+      "title": "Owner.com App | Run your restaurant from anywhere",
+      "h1": "Run your restaurant from anywhere.",
+      "template": "template.group-3",
+      "file": "src/mobile/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            684,
+            4747
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/reporting-analytics",
+      "title": "Restaurant Reporting and Analytics | Owner.com",
+      "h1": "Always know how your restaurant is performing.",
+      "template": "template.group-3",
+      "file": "src/reporting-analytics/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            684,
+            4973
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/kitchen-tablet",
+      "title": "Restaurant Kitchen Tablet for Order Management | Owner.com",
+      "h1": "Online, phone, and in-store orders. One tablet runs them all.",
+      "template": "template.group-3",
+      "file": "src/kitchen-tablet/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            685,
+            4979
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pos-integrations",
+      "title": "Restaurant POS Integrations for Online Ordering | Owner.com",
+      "h1": "Owner works great with the POS you already run.",
+      "template": "template.group-3",
+      "file": "src/pos-integrations/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            684,
+            4974
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/our-story",
+      "title": "The Owner.com Story",
+      "h1": "Helping local business owners survive & thrive",
+      "template": "template.our-story",
+      "file": "src/our-story/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1919,
+            2391
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-about-hero",
+          "tag": "section",
+          "anchor": "section-about_hero",
+          "lines": [
+            2392,
+            2530
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-about-local",
+          "tag": "section",
+          "anchor": "section-about_local",
+          "lines": [
+            2531,
+            3664
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-about-stats",
+          "tag": "section",
+          "anchor": "section-about_stats",
+          "lines": [
+            3665,
+            3969
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-about-how",
+          "tag": "section",
+          "anchor": "section-about_how",
+          "lines": [
+            3970,
+            4006
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-about-vision",
+          "tag": "section",
+          "anchor": "section-about_vision",
+          "lines": [
+            4007,
+            4067
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "support.section-about-help",
+          "tag": "section",
+          "anchor": "section-about_help",
+          "lines": [
+            4068,
+            4123
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "cta.section-cta",
+          "tag": "section",
+          "anchor": "section-cta",
+          "lines": [
+            4124,
+            4144
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4145,
+            4651
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers",
+      "title": "Careers | Owner.com",
+      "h1": "Protect the future of small business owners.",
+      "template": "template.careers",
+      "file": "src/careers/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1923,
+            2395
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-career-hero",
+          "tag": "section",
+          "anchor": "section-career-hero",
+          "lines": [
+            2396,
+            2560
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2982
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2983,
+            4007
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4008,
+            4057
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "cta.section-career-cta",
+          "tag": "section",
+          "anchor": "section-career-cta",
+          "lines": [
+            4058,
+            4077
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            4078,
+            4301
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.roles",
+          "tag": "section",
+          "anchor": "id=\"roles\"",
+          "lines": [
+            4302,
+            4355
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "cta.section-cta",
+          "tag": "section",
+          "anchor": "section-cta",
+          "lines": [
+            4356,
+            4376
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            4377,
+            4837
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/leadership",
+      "title": "Owner.com Leadership Team",
+      "h1": "Meet our leadership team",
+      "template": "template.leadership",
+      "file": "src/leadership/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1779,
+            2251
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-leadership-hero",
+          "tag": "section",
+          "anchor": "section-leadership-hero",
+          "lines": [
+            2252,
+            2299
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2300,
+            2713
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2714,
+            2852
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "support.section-leaders-support",
+          "tag": "section",
+          "anchor": "section-leaders-support",
+          "lines": [
+            2853,
+            2887
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2888,
+            3111
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3112,
+            3126
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3127,
+            3582
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/builders-wanted",
+      "title": "Builders Wanted | Owner.com",
+      "h1": "Builders Wanted.",
+      "template": "template.builders-wanted",
+      "file": "src/builders-wanted/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.eng-section-eng-hero",
+          "tag": "section",
+          "anchor": "eng-section_eng-hero",
+          "lines": [
+            954,
+            1009
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-eng-intro",
+          "tag": "section",
+          "anchor": "section_eng-intro",
+          "lines": [
+            1010,
+            1047
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-eng-row",
+          "tag": "section",
+          "anchor": "section_eng-row",
+          "lines": [
+            1048,
+            1076
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-eng-row",
+          "tag": "section",
+          "anchor": "section_eng-row",
+          "lines": [
+            1077,
+            1112
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "features.section-eng-steps",
+          "tag": "section",
+          "anchor": "section_eng-steps",
+          "lines": [
+            1113,
+            1155
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.eng-maxwdith",
+          "tag": "div",
+          "anchor": "eng-maxwdith",
+          "lines": [
+            1156,
+            1158
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "support.eng-steps-faq",
+          "tag": "div",
+          "anchor": "eng-steps_faq",
+          "lines": [
+            1159,
+            1174
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": "max-width-full",
+          "lines": [
+            1175,
+            1204
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.eng-lp-figure-wall",
+          "tag": "div",
+          "anchor": "eng-lp_figure-wall",
+          "lines": [
+            1205,
+            2900
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.section-eng-row",
+          "tag": "section",
+          "anchor": "section_eng-row",
+          "lines": [
+            2901,
+            3208
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": null,
+          "lines": [
+            3209,
+            3285
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "shell.eng-lp-footer",
+          "tag": "div",
+          "anchor": "eng-lp_footer",
+          "lines": [
+            3286,
+            3931
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/press",
+      "title": "Press",
+      "h1": "Owner in the News",
+      "template": "template.press",
+      "file": "src/press/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1781,
+            2253
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2254,
+            2301
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.pres-cards-header",
+          "tag": "div",
+          "anchor": "pres_cards-header",
+          "lines": [
+            2302,
+            2336
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.press-cards-wrap",
+          "tag": "div",
+          "anchor": "press_cards-wrap",
+          "lines": [
+            2337,
+            2574
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2575,
+            2589
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2590,
+            3121
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/reviews",
+      "title": "Owner.com Reviews | What Do Restaurant Owners Think?",
+      "h1": "Owner.com Reviews from Restaurant Owners",
+      "template": "template.reviews",
+      "file": "src/reviews/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1789,
+            2261
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-reviews-hero",
+          "tag": "section",
+          "anchor": "section_reviews-hero",
+          "lines": [
+            2262,
+            3140
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-reviews",
+          "tag": "section",
+          "anchor": "section_reviews",
+          "lines": [
+            3141,
+            5181
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            5182,
+            5196
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            5197,
+            5653
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/partner-request",
+      "title": "Partner with Owner.com",
+      "h1": "See the #1 rated restaurant marketing platform in action",
+      "template": "template.group-3",
+      "file": "src/partner-request/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            637,
+            2127
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/d",
+      "title": "Owner Series D memo",
+      "h1": "An inside look at our $240M Series D.",
+      "template": "template.d",
+      "file": "src/d/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            2071,
+            2543
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-s-d-hero",
+          "tag": "section",
+          "anchor": "section-s-d_hero",
+          "lines": [
+            2544,
+            2833
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.block",
+          "tag": "div",
+          "anchor": null,
+          "lines": [
+            2834,
+            2843
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.s-d-video-box",
+          "tag": "div",
+          "anchor": "s-d_video-box",
+          "lines": [
+            2844,
+            2961
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.s-d-summary-list",
+          "tag": "ul",
+          "anchor": "s-d_summary-list",
+          "lines": [
+            2962,
+            3035
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-s-d-about",
+          "tag": "section",
+          "anchor": "section-s-d_about",
+          "lines": [
+            3036,
+            3104
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-s-d-why-now",
+          "tag": "section",
+          "anchor": "section-s-d_why-now",
+          "lines": [
+            3105,
+            3151
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-s-d-the-problem",
+          "tag": "section",
+          "anchor": "section-s-d_the-problem",
+          "lines": [
+            3152,
+            3221
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.u-mb-64",
+          "tag": "div",
+          "anchor": "u-mb-64",
+          "lines": [
+            3222,
+            3246
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.u-mb-64",
+          "tag": "div",
+          "anchor": "u-mb-64",
+          "lines": [
+            3247,
+            3277
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.s-d-wrap",
+          "tag": "div",
+          "anchor": "s-d_wrap",
+          "lines": [
+            3278,
+            3305
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.u-mb-64",
+          "tag": "div",
+          "anchor": "u-mb-64",
+          "lines": [
+            3306,
+            3316
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.u-mb-40",
+          "tag": "div",
+          "anchor": "u-mb-40",
+          "lines": [
+            3317,
+            3331
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.u-mb-40",
+          "tag": "div",
+          "anchor": "u-mb-40",
+          "lines": [
+            3332,
+            3341
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "content.u-mb-40",
+          "tag": "div",
+          "anchor": "u-mb-40",
+          "lines": [
+            3342,
+            3370
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.u-mb-40",
+          "tag": "div",
+          "anchor": "u-mb-40",
+          "lines": [
+            3371,
+            3390
+          ]
+        },
+        {
+          "idx": 16,
+          "id": "content.u-mb-64",
+          "tag": "div",
+          "anchor": "u-mb-64",
+          "lines": [
+            3391,
+            3410
+          ]
+        },
+        {
+          "idx": 17,
+          "id": "content.section-s-d-future",
+          "tag": "section",
+          "anchor": "section-s-d_future",
+          "lines": [
+            3411,
+            3469
+          ]
+        },
+        {
+          "idx": 18,
+          "id": "showcase.section-s-d-gtm",
+          "tag": "section",
+          "anchor": "section-s-d_gtm",
+          "lines": [
+            3470,
+            3741
+          ]
+        },
+        {
+          "idx": 19,
+          "id": "content.section-s-d-competition",
+          "tag": "section",
+          "anchor": "section-s-d_competition",
+          "lines": [
+            3742,
+            3839
+          ]
+        },
+        {
+          "idx": 20,
+          "id": "content.team",
+          "tag": "section",
+          "anchor": "id=\"team\"",
+          "lines": [
+            3840,
+            4100
+          ]
+        },
+        {
+          "idx": 21,
+          "id": "content.section-why-sticky",
+          "tag": "section",
+          "anchor": "section-why_sticky",
+          "lines": [
+            4101,
+            4956
+          ]
+        },
+        {
+          "idx": 22,
+          "id": "content.ps",
+          "tag": "section",
+          "anchor": "id=\"ps\"",
+          "lines": [
+            4957,
+            5001
+          ]
+        },
+        {
+          "idx": 23,
+          "id": "cta.section-cta",
+          "tag": "section",
+          "anchor": "section-cta",
+          "lines": [
+            5002,
+            5022
+          ]
+        },
+        {
+          "idx": 24,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            5023,
+            5657
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies",
+      "title": "Restaurant Case Studies and Success Stories | Owner.com",
+      "h1": "Owner is trusted by thousands of restaurants",
+      "template": "template.case-studies",
+      "file": "src/case-studies/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1685,
+            2160
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.cs-index-head",
+          "tag": "div",
+          "anchor": "cs-index_head",
+          "lines": [
+            2161,
+            2217
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.cs-index-list",
+          "tag": "div",
+          "anchor": "cs-index_list",
+          "lines": [
+            2218,
+            5409
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            5410,
+            5424
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            5425,
+            5882
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "title": "Restaurant Marketing Blog | Owner.com",
+      "h1": "The Marketing Menu",
+      "template": "template.blog",
+      "file": "src/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1685,
+            2157
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-hero",
+          "tag": "section",
+          "anchor": "section-blog_hero",
+          "lines": [
+            2158,
+            2311
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2312,
+            2426
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-blog-topics",
+          "tag": "section",
+          "anchor": "section-blog_topics",
+          "lines": [
+            2427,
+            2469
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-blog-categories",
+          "tag": "section",
+          "anchor": "section-blog_categories",
+          "lines": [
+            2470,
+            3044
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3045,
+            3059
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3060,
+            3517
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/support",
+      "title": "Support",
+      "h1": "See why our support is consistently called the best in the restaurant tech world.",
+      "template": "template.support",
+      "file": "src/support/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1838,
+            2310
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2311,
+            2342
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2343,
+            2428
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2429,
+            2487
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2488,
+            2546
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2547,
+            2561
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2562,
+            3097
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/pos-demo",
+      "title": "Get a demo of Owner POS | Owner.com",
+      "h1": "Your POS should be growing your sales",
+      "template": "template.group-4",
+      "file": "src/pos-demo/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.demo-control-header",
+          "tag": "header",
+          "anchor": "demo-control-header",
+          "lines": [
+            354,
+            358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.demo-control-layout",
+          "tag": "div",
+          "anchor": "demo-control-layout",
+          "lines": [
+            359,
+            583
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/talkin-tacos",
+      "title": "Talkin' Taco Mexican Restaurant Case Study | Owner.com",
+      "h1": "How Talkin Tacos increased direct online sales to $120,000/m by using Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/talkin-tacos/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2455
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2456,
+            2519
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2520,
+            2560
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2926
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2927,
+            2941
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2942,
+            3397
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/ashleys-cafe",
+      "title": "Ashley's Cafe Case Study | Owner.com",
+      "h1": "How Ashley's Cafe grew monthly sales by $30K with Owner POS",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/ashleys-cafe/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2453
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2454,
+            2517
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2518,
+            2558
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2559,
+            2925
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2926,
+            2940
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2941,
+            3396
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/karv-greek-kouzina",
+      "title": "Karv Greek Kouzina | Case Study",
+      "h1": "How Karv Greek Kouzina grew online sales to $40,000/month with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/karv-greek-kouzina/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2456
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2457,
+            2520
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2521,
+            2561
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2562,
+            2928
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2929,
+            2943
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2944,
+            3399
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/privacy-policy",
+      "title": "Privacy Policy",
+      "h1": "Privacy Policy",
+      "template": "template.group-5",
+      "file": "src/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1775,
+            2247
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2248,
+            2904
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2905,
+            2919
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2920,
+            3651
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/email-sms-marketing",
+      "title": "Email & SMS Marketing for Restaurants | Owner.com",
+      "h1": "Email & SMS marketing that grows orders.",
+      "template": "template.group-3",
+      "file": "src/email-sms-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            450,
+            4739
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/website-terms",
+      "title": "Website Terms",
+      "h1": "Website Terms",
+      "template": "template.group-5",
+      "file": "src/website-terms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1775,
+            2247
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2248,
+            2529
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2530,
+            2544
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2545,
+            3004
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/disclaimer",
+      "title": "Disclaimer",
+      "h1": "Disclaimer",
+      "template": "template.group-5",
+      "file": "src/disclaimer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2014,
+            2088
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2089,
+            2103
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2104,
+            2561
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/restaurant-participation-agreement",
+      "title": "Restaurant Participation Agreement",
+      "h1": "Restaurant Participation Agreement",
+      "template": "template.group-5",
+      "file": "src/restaurant-participation-agreement/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1775,
+            2247
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2248,
+            2609
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2610,
+            2624
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2625,
+            3086
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/platform-terms",
+      "title": "Platform Terms",
+      "h1": "Platform Terms",
+      "template": "template.group-5",
+      "file": "src/platform-terms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2014,
+            2254
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2255,
+            2269
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2270,
+            2727
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/accessibility",
+      "title": "Accessibility",
+      "h1": "Accessibility",
+      "template": "template.group-5",
+      "file": "src/accessibility/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1775,
+            2247
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2248,
+            2424
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2425,
+            2439
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2440,
+            2899
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/copyright-policy",
+      "title": "Copyright Policy",
+      "h1": "Copyright Policy",
+      "template": "template.group-5",
+      "file": "src/copyright-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1775,
+            2247
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-legal",
+          "tag": "section",
+          "anchor": "section-legal",
+          "lines": [
+            2248,
+            2367
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2368,
+            2382
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2383,
+            2841
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/mattengas-pizzeria",
+      "title": "Mattenga's Pizzeria Case Study | Owner.com",
+      "h1": "How Mattenga’s Pizzeria drove $192,000 in 30 days with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/mattengas-pizzeria/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2349
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2350,
+            2456
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2457,
+            2520
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2521,
+            2562
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2563,
+            2929
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2930,
+            2944
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2945,
+            3400
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/saffron",
+      "title": "Saffron Indian Restaurant Case Study | Owner.com",
+      "h1": "How Saffron grew direct online sales by $125,000/month after switching to Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/saffron/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2455
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2456,
+            2519
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2520,
+            2560
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2927
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2928,
+            2942
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2943,
+            3398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/metro-pizza",
+      "title": "Metro Pizza Restaurant Case Study | Owner.com",
+      "h1": "How Metro Pizza increased direct online sales by $10,000/m by switching to Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/metro-pizza/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2460
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2461,
+            2524
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2525,
+            2565
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2566,
+            2931
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2932,
+            2946
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2947,
+            3402
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/cyclo-noodles",
+      "title": "Cyclo Noodles Restaurant Case Study | Owner.com",
+      "h1": "How Cyclo Noodles grew direct online sales by 7X by switching to Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/cyclo-noodles/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2463
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2464,
+            2517
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2518,
+            2558
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2559,
+            2925
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2926,
+            2940
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2941,
+            3396
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/salud",
+      "title": "Salud | Case Study",
+      "h1": "How Salud drove $10,000 in online sales in the first 30 days with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/salud/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2453
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2454,
+            2517
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2518,
+            2558
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2559,
+            2925
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2926,
+            2940
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2941,
+            3398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/rig-a-tonys",
+      "title": "Rig A' Tony's | Case Study",
+      "h1": "How Rig A’ Tony’s grew higher-ticket catering and cut third-party fees with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/rig-a-tonys/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2454
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2455,
+            2518
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2519,
+            2559
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2560,
+            2926
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2927,
+            2941
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2942,
+            3399
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/gyro-concept",
+      "title": "Gyro Concepts | Case Study",
+      "h1": "How Gyro Concept grew to $194,000 in online sales per year with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/gyro-concept/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2349
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2350,
+            2456
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2457,
+            2520
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2521,
+            2563
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2564,
+            2930
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2931,
+            2945
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2946,
+            3401
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/doo-dah-diner",
+      "title": "Doo-Dah Diner Restaurant Case Study | Owner.com",
+      "h1": "How Doo-Dah Diner increased direct online sales by $72,000 using Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/doo-dah-diner/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2460
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2461,
+            2524
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2525,
+            2565
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2566,
+            2932
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2933,
+            2947
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2948,
+            3403
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/san-diego-kabob-shack",
+      "title": "San Diego Kabob Shack - Kebob Restaurant Case Study | Owner.com",
+      "h1": "How San Diego Kabob Shack grew online sales by 60% after switching to Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/san-diego-kabob-shack/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2445
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2446,
+            2509
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2510,
+            2550
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2551,
+            2917
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2918,
+            2932
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2933,
+            3388
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/sushi-addicts",
+      "title": "Sushi Addicts Case Study | Owner.com",
+      "h1": "How Sushi Addicts grew online orders to $210,000 per year with Owner",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/sushi-addicts/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2455
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2456,
+            2519
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2520,
+            2560
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2927
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2928,
+            2942
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2943,
+            3398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/sushi-me-rollin",
+      "title": "Sushi Me Roll'n Japanese Restaurant Case Study | Owner.com",
+      "h1": "How Sushi Me Roll’n increased direct online sales by $50,000 using Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/sushi-me-rollin/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2461
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2462,
+            2525
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2526,
+            2566
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2567,
+            2933
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2934,
+            2948
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2949,
+            3404
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/goi-cuon",
+      "title": "Goi Cuon - Vietnamese Restaurant Case Study | Owner.com",
+      "h1": "How Goi Cuon grew online sales from $1.5K to $20K/month with Owner",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/goi-cuon/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2451
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2452,
+            2515
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2516,
+            2556
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2557,
+            2922
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2923,
+            2937
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2938,
+            3393
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/hillcrust-pizza",
+      "title": "HillCrust Pizza - Pizzeria Case Study | Owner.com",
+      "h1": "How HillCrust Pizza saved thousands and ranked higher on Google with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/hillcrust-pizza/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2443
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2444,
+            2507
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2508,
+            2548
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2549,
+            2915
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2916,
+            2930
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2931,
+            3386
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/township-line-pizza",
+      "title": "Township Line Pizza | Case Study",
+      "h1": "How Township Line Pizza grew online sales to $300,000 per year with Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/township-line-pizza/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2455
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2456,
+            2519
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2520,
+            2560
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2927
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2928,
+            2942
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2943,
+            3398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/seo-for-restaurants",
+      "title": "SEO for Restaurants: The Complete Guide to Restaurant SEO (2026)",
+      "h1": "SEO for Restaurants: The Complete Guide to Restaurant SEO (2026)",
+      "template": "template.group-3",
+      "file": "src/blog/seo-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3656
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-create-a-restaurant-website",
+      "title": "How to Build a Restaurant Website That Grows Your Sales (2026)",
+      "h1": "How to Build a Restaurant Website (Step by Step)",
+      "template": "template.group-3",
+      "file": "src/blog/how-to-create-a-restaurant-website/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3641
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-marketing",
+      "title": "Restaurant Marketing Strategies: The Ultimate Restaurant Marketing Guide (2026)",
+      "h1": "Restaurant Marketing Strategies: The Ultimate Restaurant Marketing Guide (2026)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3952
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/email-marketing-for-restaurants",
+      "title": "Restaurant Email Marketing: 8 Campaigns for Boosted Sales",
+      "h1": "Restaurant Email Marketing: 8 Proven Campaigns To Drive More Sales",
+      "template": "template.group-3",
+      "file": "src/blog/email-marketing-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3470
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/mobile-app-for-restaurants",
+      "title": "How to Create a Restaurant App (Without Being a Developer)",
+      "h1": "How to Create a Restaurant App (Without Being a Developer)",
+      "template": "template.group-3",
+      "file": "src/blog/mobile-app-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3383
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/online-ordering-system-for-restaurants",
+      "title": "7 Best Restaurant Online Ordering Systems in 2026",
+      "h1": "7 Best Restaurant Online Ordering Systems in 2026",
+      "template": "template.group-3",
+      "file": "src/blog/online-ordering-system-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3895
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/loyalty-programs-demo",
+      "title": "Loyalty Programs",
+      "h1": "Get Up To 2X More Reorders With Your Own Restaurant Loyalty Program",
+      "template": "template.group-4",
+      "file": "src/loyalty-programs-demo/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.demo-control-header",
+          "tag": "header",
+          "anchor": "demo-control-header",
+          "lines": [
+            354,
+            358
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.demo-control-layout",
+          "tag": "div",
+          "anchor": "demo-control-layout",
+          "lines": [
+            359,
+            590
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/ca/pricing",
+      "title": "Owner.com - Pricing",
+      "h1": "Simple pricing that fits your restaurant.",
+      "template": "template.group",
+      "file": "src/ca/pricing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1688,
+            2160
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2161,
+            2366
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.section-reviews",
+          "tag": "section",
+          "anchor": "section-reviews",
+          "lines": [
+            2367,
+            4640
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "proof.section-beliefs",
+          "tag": "section",
+          "anchor": "section-beliefs",
+          "lines": [
+            4641,
+            4704
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "proof.section-testimonials",
+          "tag": "section",
+          "anchor": "section-testimonials",
+          "lines": [
+            4705,
+            6380
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            6381,
+            6635
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "support.form",
+          "tag": "section",
+          "anchor": "id=\"form\"",
+          "lines": [
+            6636,
+            8185
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            8186,
+            8200
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            8201,
+            8663
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/case-studies/samos-oaxaca",
+      "title": "Samo's Oaxaca Mexican Restaurant Case Study | Owner.com",
+      "h1": "How Samos Oaxaca increased direct online sales to $10,000/m by using Owner.com",
+      "template": "template.case-studies-2",
+      "file": "src/case-studies/samos-oaxaca/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1709,
+            2181
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-cs-hero",
+          "tag": "section",
+          "anchor": "section-cs_hero",
+          "lines": [
+            2182,
+            2348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2349,
+            2455
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2456,
+            2519
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2520,
+            2560
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2561,
+            2927
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2928,
+            2942
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2943,
+            3398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/local-seo-for-restaurants",
+      "title": "Local SEO for Restaurants: 8 Tips To Get Your Restaurant Found by Local Customers",
+      "h1": "Local SEO for Restaurants: 8 Tips To Get Your Restaurant Found by Local Customers",
+      "template": "template.group-3",
+      "file": "src/blog/local-seo-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3461
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/website-builders-for-restaurants",
+      "title": "6 Best Restaurant Website Builders To Drive Sales (2026)",
+      "h1": "6 Best Restaurant Website Builders To Drive Sales (2026)",
+      "template": "template.group-3",
+      "file": "src/blog/website-builders-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3807
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-mobile-app",
+      "title": "What Do Restaurant Guests Want From Your Mobile App? (New Data)",
+      "h1": "93% of Restaurant Guests Will Download Your Mobile App (But Only if It Has These Key Benefits)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-mobile-app/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3372
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/reorders",
+      "title": "Online Reorder System | One-Click Repeat Orders",
+      "h1": "Turn first‑time guests into profitable regulars.",
+      "template": "template.group-3",
+      "file": "src/reorders/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            422,
+            7156
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog-category/increase-sales",
+      "title": "Increase Online Sales",
+      "h1": "Increase Online Sales",
+      "template": "template.blog-category",
+      "file": "src/blog-category/increase-sales/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2014,
+            2066
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2067,
+            2346
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2347,
+            2361
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2362,
+            2817
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog-category/restaurant-software",
+      "title": "Restaurant Software",
+      "h1": "Restaurant Software",
+      "template": "template.blog-category",
+      "file": "src/blog-category/restaurant-software/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2014,
+            2116
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2117,
+            2538
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2539,
+            2553
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2554,
+            3009
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog-category/marketing-strategy",
+      "title": "Marketing Strategy",
+      "h1": "Marketing Strategy",
+      "template": "template.blog-category",
+      "file": "src/blog-category/marketing-strategy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2014,
+            2141
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2142,
+            2563
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2564,
+            2578
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2579,
+            3034
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog-category/restaurant-websites",
+      "title": "Restaurant Websites",
+      "h1": "Restaurant Websites",
+      "template": "template.blog-category",
+      "file": "src/blog-category/restaurant-websites/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2014,
+            2042
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2043,
+            2190
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2191,
+            2205
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2206,
+            2663
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog-category/industry-trends-data",
+      "title": "Industry Trends & Data",
+      "h1": "Industry Trends & Data",
+      "template": "template.blog-category",
+      "file": "src/blog-category/industry-trends-data/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1541,
+            2013
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2014,
+            2042
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-blog-most",
+          "tag": "section",
+          "anchor": "section-blog_most",
+          "lines": [
+            2043,
+            2354
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2355,
+            2369
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2370,
+            2825
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-promotion-ideas",
+      "title": "18 Proven Restaurant Promotion Ideas That Work [2026]",
+      "h1": "18 Proven Restaurant Promotion Ideas That Work in 2026",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-promotion-ideas/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3487
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-costs",
+      "title": "Restaurant Costs Breakdown: How to Analyze, Budget, and Save",
+      "h1": "Restaurant Costs Breakdown: Spend Smarter To Stay Profitable",
+      "template": "template.blog-2",
+      "file": "src/blog/restaurant-costs/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            2991
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2992,
+            3006
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3007,
+            3466
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-pos-system-for-restaurants",
+      "title": "9 Best POS System for Restaurants in 2026",
+      "h1": "9 Best POS Systems for Restaurants: Compare Features & Pricing for 2026",
+      "template": "template.group-3",
+      "file": "src/blog/best-pos-system-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3904
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
+      "title": "197 Best Pizzeria Slogans You Can Use For Free",
+      "h1": "197 Best Pizzeria Slogans You Can Use For Free",
+      "template": "template.group-3",
+      "file": "src/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3547
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-loyalty-programs",
+      "title": "11 Best Restaurant Loyalty Programs That Drive Sales",
+      "h1": "11 Best Restaurant Loyalty Programs That Drive Sales",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-loyalty-programs/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3680
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/97-best-pizza-captions-for-instagram",
+      "title": "97 Best Pizza Captions For Instagram and Facebook (Free)",
+      "h1": "97 Best Pizza Captions for Instagram",
+      "template": "template.group-3",
+      "file": "src/blog/97-best-pizza-captions-for-instagram/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3320
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-restaurant-websites",
+      "title": "Best Restaurant Websites (2026): 13 Restaurant Website Examples for Inspiration",
+      "h1": "Best Restaurant Websites (2026): 13 Restaurant Website Examples for Inspiration",
+      "template": "template.group-3",
+      "file": "src/blog/best-restaurant-websites/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3748
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-pizza-websites",
+      "title": "21 Best Pizza Websites & Profitable Features [2026]",
+      "h1": "21 Best Pizza Websites & Profitable Features [2026]",
+      "template": "template.group-3",
+      "file": "src/blog/best-pizza-websites/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3660
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-trends",
+      "title": "Top 6 Changes for the Restaurant Industry in 2026",
+      "h1": "The Top 6 Changes Impacting the Restaurant Industry in 2026",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-trends/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3362
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-menu-examples",
+      "title": "10 Restaurant Menu Examples to Inspire Your Design (2026)",
+      "h1": "10 Creative Restaurant Menu Examples to Inspire Your Design",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-menu-examples/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3542
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-failure-rate",
+      "title": "The Real Restaurant Failure Rate in 2026 (New Data)",
+      "h1": "The Real Restaurant Failure Rate Is Lower Than You Think (2026 Data)",
+      "template": "template.blog-2",
+      "file": "src/blog/restaurant-failure-rate/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            3024
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3025,
+            3039
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3040,
+            3499
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-marketing-ideas",
+      "title": "28 Proven Restaurant Marketing Ideas to Drive More Sales",
+      "h1": "28 Proven Restaurant Marketing Ideas to Drive More Sales",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-marketing-ideas/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3615
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/catering-marketing",
+      "title": "How I'm Growing My Direct Catering Sales (2026 Playbook)",
+      "h1": "The Direct Catering Playbook: How I Built a 6-Figure Profit Center (Without Paying Huge Commissions)",
+      "template": "template.blog-2",
+      "file": "src/blog/catering-marketing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            3353
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3354,
+            3368
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3369,
+            3828
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/food-delivery-statistics",
+      "title": "39 Food Delivery Statistics Restaurateurs Can Learn From",
+      "h1": "39 Food Delivery Statistics Restaurateurs Can Learn From in 2026",
+      "template": "template.group-3",
+      "file": "src/blog/food-delivery-statistics/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3381
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-website-design",
+      "title": "Restaurant Website Design: 6 Things Your Customers Want (New Data)",
+      "h1": "Restaurant Website Design: 6 Things Your Customers Want (New Data)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-website-design/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3636
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-increase-restaurant-sales",
+      "title": "How to Increase Restaurant Sales Online: 14 Easy Strategies",
+      "h1": "How to Increase Restaurant Sales Online: 14 Easy Strategies",
+      "template": "template.blog-2",
+      "file": "src/blog/how-to-increase-restaurant-sales/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            3145
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3146,
+            3160
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3161,
+            3620
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-make-a-menu",
+      "title": "How to Make a Menu That Boosts Sales: Tips + Template",
+      "h1": "How To Make a Menu That Boosts Sales: Tips + Template",
+      "template": "template.group-3",
+      "file": "src/blog/how-to-make-a-menu/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3327
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-description",
+      "title": "How to Write a Restaurant Description: Creating an About Page That Sells",
+      "h1": "How to Write a Restaurant Description: Creating an About Page that Sells",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-description/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3521
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/social-media-for-restaurants",
+      "title": "Restaurant Social Media Strategy: Guide With 10 Key Strategies",
+      "h1": "The Ultimate Guide to Restaurant Social Media Strategy: 10 Ways to Drive More Orders",
+      "template": "template.group-3",
+      "file": "src/blog/social-media-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3479
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-business-plan",
+      "title": "Winning Restaurant Business Plan: Template + What To Include",
+      "h1": "How To Create a Winning Restaurant Business Plan: Template + 9 Pages To Include",
+      "template": "template.blog-2",
+      "file": "src/blog/restaurant-business-plan/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            2974
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2975,
+            2989
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2990,
+            3449
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/menu-pricing",
+      "title": "Restaurant Menu Pricing: How to Increase Profit",
+      "h1": "Restaurant Menu Pricing: Use Math and Psychology to Increase Profit",
+      "template": "template.group-3",
+      "file": "src/blog/menu-pricing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3526
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-increase-average-check-size",
+      "title": "13 Effective Ways to Increase Average Check Size Online",
+      "h1": "13 Effective Ways to Increase Average Check Size for Online Orders",
+      "template": "template.group-3",
+      "file": "src/blog/how-to-increase-average-check-size/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3432
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/digital-marketing-for-restaurants",
+      "title": "Restaurant Digital Marketing: 2026 Playbook to Drive Orders",
+      "h1": "Digital Marketing for Restaurants: The 2026 Playbook for Driving More Orders",
+      "template": "template.group-3",
+      "file": "src/blog/digital-marketing-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3380
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+      "title": "Restaurant Marketing Plan: A Step-by-Step Guide",
+      "h1": "Restaurant Marketing Plan: A Step-by-Step Guide",
+      "template": "template.group-3",
+      "file": "src/blog/how-to-create-a-restaurant-marketing-plan/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3633
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/sms-marketing-for-restaurants",
+      "title": "SMS Marketing for Restaurants to Drive Awareness and Sales",
+      "h1": "SMS Marketing for Restaurants: Strategies To Drive Awareness and Sales",
+      "template": "template.group-3",
+      "file": "src/blog/sms-marketing-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3571
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/instagram-for-restaurants",
+      "title": "17 Restaurant Instagram Marketing Strategies",
+      "h1": "Your Guide To Boost Engagement With 17 Restaurant Instagram Marketing Strategies",
+      "template": "template.group-3",
+      "file": "src/blog/instagram-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3527
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-customer-retention",
+      "title": "5 Restaurant Customer Retention Strategies that Work",
+      "h1": "Restaurant Customer Retention: 5 Ways to Make Every Customer More Valuable",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-customer-retention/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3637
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-analytics",
+      "title": "Restaurant Analytics: Easy Ways to Use Data to Drive Sales",
+      "h1": "Restaurant Analytics: Easy Ways To Use Data To Drive Sales",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-analytics/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3386
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/average-restaurant-profit-margin",
+      "title": "Average Restaurant Profit Margin: How to Grow Yours",
+      "h1": "Average Restaurant Profit Margin (Calculator, Benchmarks + How To Grow Yours)",
+      "template": "template.group-3",
+      "file": "src/blog/average-restaurant-profit-margin/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3591
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-marketing-tools",
+      "title": "15 Restaurant Marketing Tools to Reach More Customers (2026)",
+      "h1": "15 Restaurant Marketing Tools to Reach More Customers (2026)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-marketing-tools/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            4119
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/toast-competitors",
+      "title": "9 Popular Toast Alternatives According to Customers [2026]",
+      "h1": "9 Popular Toast Competitors According to Customers [2026]",
+      "template": "template.blog-2",
+      "file": "src/blog/toast-competitors/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            3352
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3353,
+            3367
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3368,
+            3827
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-accounting",
+      "title": "Restaurant Accounting: Track Your Numbers to Boost Profits",
+      "h1": "Restaurant Accounting: Track Your Numbers To Boost Profits (Guide)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-accounting/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3418
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-growth",
+      "title": "The Complete Restaurant Growth Handbook for 2024",
+      "h1": "Restaurant Growth",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-growth/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3291
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/pizza-advertising-ideas",
+      "title": "10 Proven Pizza Advertising Ideas To Scale In 2026",
+      "h1": "10 Proven Pizza Advertising Ideas to Grow Sales in 2026",
+      "template": "template.blog-2",
+      "file": "src/blog/pizza-advertising-ideas/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            3472
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3473,
+            3487
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3488,
+            3948
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/how-to-create-online-ordering-restaurant",
+      "title": "How To Create Online Ordering for a Restaurant in 7 Steps",
+      "h1": "How To Create Online Ordering for a Restaurant in 7 Steps",
+      "template": "template.group-3",
+      "file": "src/blog/how-to-create-online-ordering-restaurant/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3460
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/cafe-pos",
+      "title": "9 Best POS Systems for Cafes & Coffee Shops",
+      "h1": "9 Best POS Systems for Cafes and Coffee Shops",
+      "template": "template.group-3",
+      "file": "src/blog/cafe-pos/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3915
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/catering-delivery-apps",
+      "title": "The 10 Best Catering Delivery Apps for Restaurants [2026]",
+      "h1": "The 10 Best Catering Delivery Apps for Restaurants",
+      "template": "template.group-3",
+      "file": "src/blog/catering-delivery-apps/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3499
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-management-software",
+      "title": "12 Best Restaurant Management Software To Boost Sales (2026)",
+      "h1": "12 Best Restaurant Management Software To Boost Sales (2026)",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-management-software/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3916
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-pos-for-small-business",
+      "title": "10 Best POS Systems for Small Businesses in 2026",
+      "h1": "10 Best POS Systems for Small Businesses To Help You Grow",
+      "template": "template.group-3",
+      "file": "src/blog/best-pos-for-small-business/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            4064
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-pos-system-cost",
+      "title": "How Much Does a Restaurant POS System Cost in 2026?",
+      "h1": "How Much Does a Restaurant POS System Cost in 2026?",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-pos-system-cost/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3667
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/pizza-pos-system",
+      "title": "Best Pizza POS Systems in 2026: Features, Pricing & Reviews",
+      "h1": "Best Pizza POS Systems of 2026: Top Picks To Make More Dough",
+      "template": "template.group-3",
+      "file": "src/blog/pizza-pos-system/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            4079
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/square-alternatives",
+      "title": "10 Best Square Alternatives and Competitors for 2026",
+      "h1": "10 Best Square Alternatives and POS Competitors Worth Switching To for More Profits",
+      "template": "template.group-3",
+      "file": "src/blog/square-alternatives/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3966
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-restaurant-crms",
+      "title": "10 Best Restaurant CRMs To Improve Customer Loyalty",
+      "h1": "9 Best Restaurant CRMs To Grow Customer Loyalty",
+      "template": "template.group-3",
+      "file": "src/blog/best-restaurant-crms/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3994
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-tech-stack",
+      "title": "Restaurant Tech Stack Guide: 9 Essential Elements",
+      "h1": "Restaurant Tech Stack Guide: 9 Essential Elements To Boost Restaurant Sales",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-tech-stack/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3403
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/menu-engineering",
+      "title": "Menu Engineering: How to Design a Menu That Drives Sales",
+      "h1": "Menu Engineering: How To Design a Menu That Drives Sales",
+      "template": "template.group-3",
+      "file": "src/blog/menu-engineering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3430
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-growth-secrets-guides",
+      "title": "Build Your Restaurant Growth System with These Guides",
+      "h1": "Build Your Restaurant Growth System with These Guides",
+      "template": "template.blog-2",
+      "file": "src/blog/restaurant-growth-secrets-guides/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1786,
+            2258
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-blog-content",
+          "tag": "section",
+          "anchor": "section-blog_content",
+          "lines": [
+            2259,
+            2681
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            2682,
+            2696
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            2697,
+            3154
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-branding-more-direct-orders",
+      "title": "Restaurant Branding: A Quick, Practical Guide For Driving More Online Orders",
+      "h1": "Restaurant Branding: A Quick, Practical Guide For Driving More Online Orders",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-branding-more-direct-orders/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3262
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/food-cost-percentage",
+      "title": "How To Calculate Food Cost Percentage + Tips To Increase Profit",
+      "h1": "How To Calculate Average Food Cost Percentage + Tips To Increase Profit",
+      "template": "template.group-3",
+      "file": "src/blog/food-cost-percentage/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3465
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/food-trends",
+      "title": "What’s Next in Food Trends? Here’s What 2026 Is Serving Up",
+      "h1": "Here Are the Food Trends 2026 Is Serving Up and How To Use Them in Your Restaurant",
+      "template": "template.group-3",
+      "file": "src/blog/food-trends/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3533
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/third-party-vs-direct-ordering",
+      "title": "New Data: Why Do Guests Like Third-Party Delivery Apps?",
+      "h1": "New Data: Why Guests Choose Third-Party Apps Over Direct Ordering (And How to Win Them Back)",
+      "template": "template.group-3",
+      "file": "src/blog/third-party-vs-direct-ordering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3385
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/restaurant-prime-cost",
+      "title": "Restaurant Prime Cost: How to Calculate and Optimize for Profit",
+      "h1": "Restaurant Prime Cost: How To Calculate and Optimize for Profit",
+      "template": "template.group-3",
+      "file": "src/blog/restaurant-prime-cost/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3383
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/mobile-marketing-for-restaurants",
+      "title": "Mobile Marketing for Restaurants: Your Guide to Boost Orders",
+      "h1": "Mobile Marketing for Restaurants: Boost Orders and Win Customers on Their Phones",
+      "template": "template.group-3",
+      "file": "src/blog/mobile-marketing-for-restaurants/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3338
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/best-apps-for-restaurant-owners",
+      "title": "13 Best Restaurant Apps: Streamline Operations & Boost Sales",
+      "h1": "13 Best Apps for Restaurants to Streamline Operations and Boost Sales",
+      "template": "template.group-3",
+      "file": "src/blog/best-apps-for-restaurant-owners/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            4540
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/pos-restaurant-meaning",
+      "title": "Restaurant POS System: What It Is and How to Choose One",
+      "h1": "Restaurant POS System: Meaning and How To Choose One",
+      "template": "template.group-3",
+      "file": "src/blog/pos-restaurant-meaning/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3450
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/square-pos-system-cost",
+      "title": "Square POS System Cost Guide: Pricing, Fees & Hidden Costs",
+      "h1": "Square POS System Cost Guide: Pricing, Fees & Hidden Costs",
+      "template": "template.group-3",
+      "file": "src/blog/square-pos-system-cost/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3356
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/toast-pricing",
+      "title": "Toast Pricing: How Much Does This POS System Cost? [2026]",
+      "h1": "Toast Pricing: How Much Does This POS System Cost? [2026]",
+      "template": "template.group-3",
+      "file": "src/blog/toast-pricing/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3663
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/resources/ottavios-case-study",
+      "title": "Ottavio's Case Study",
+      "h1": "How Antoinette Increased Direct Online Sales By $27,000 in 90 Days (without spending money on ads)",
+      "template": "template.group-6",
+      "file": "src/resources/ottavios-case-study/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1546,
+            2018
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-resource",
+          "tag": "section",
+          "anchor": "section_resource",
+          "lines": [
+            2019,
+            3685
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3686,
+            3700
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3701,
+            4158
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/resources/google-business-profile-tps",
+      "title": "",
+      "h1": "3 Google Business Profile Tips For More Online Orders",
+      "template": "template.group-6",
+      "file": "src/resources/google-business-profile-tps/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1547,
+            2019
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-resource",
+          "tag": "section",
+          "anchor": "section_resource",
+          "lines": [
+            2020,
+            3685
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3686,
+            3700
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3701,
+            4158
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/pizza-marketing-strategy",
+      "title": "15 Pizza Marketing Ideas to Increase Pizza Sales for 2026",
+      "h1": "Pizza Marketing: 15 Tactics To Increase Pizza Sales for 2026",
+      "template": "template.group-3",
+      "file": "src/blog/pizza-marketing-strategy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3407
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/97-best-burger-captions-for-instagram",
+      "title": "97 Best Burger Captions for Instagram and Facebook (Free)",
+      "h1": "107 Best Burger Captions for Instagram",
+      "template": "template.group-3",
+      "file": "src/blog/97-best-burger-captions-for-instagram/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3339
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/resources/menu-engineering",
+      "title": "",
+      "h1": "",
+      "template": "template.group-6",
+      "file": "src/resources/menu-engineering/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1547,
+            2019
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-resource",
+          "tag": "section",
+          "anchor": "section_resource",
+          "lines": [
+            2020,
+            3684
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3685,
+            3699
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3700,
+            4157
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/97-best-restaurant-captions-for-instagram",
+      "title": "The 97 Best Restaurant Captions For InstagramHave you ever felt frustrated trying to think of an Instagram caption for your restaurant? I know I have. If…",
+      "h1": "The 97 Best Restaurant Captions For Instagram",
+      "template": "template.group-3",
+      "file": "src/blog/97-best-restaurant-captions-for-instagram/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3995
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/pos-reporting",
+      "title": "What is POS Reporting? Key Reports You Should Track",
+      "h1": "What Is POS Reporting? Key Reports You Should Track",
+      "template": "template.group-3",
+      "file": "src/blog/pos-reporting/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3322
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/toast-vs-square",
+      "title": "Toast vs. Square: A Head-to-Head Comparison",
+      "h1": "Toast vs. Square: A Head-to-Head Comparison",
+      "template": "template.group-3",
+      "file": "src/blog/toast-vs-square/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3867
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/toast-vs-clover",
+      "title": "Toast vs. Clover: A Complete Comparison for Restaurant Owners",
+      "h1": "Toast vs. Clover: A Complete Comparison for Restaurant Owners",
+      "template": "template.group-3",
+      "file": "src/blog/toast-vs-clover/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            4152
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/downloads/pizza-marketing-checklist",
+      "title": "Pizza Marketing Checklist Download",
+      "h1": "Get the condensed version of our Pizza Marketing Guide for easy access on the go",
+      "template": "template.group-6",
+      "file": "src/downloads/pizza-marketing-checklist/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.nav-wrapper",
+          "tag": "div",
+          "anchor": "nav-wrapper",
+          "lines": [
+            1544,
+            2016
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.section-resource",
+          "tag": "section",
+          "anchor": "section_resource",
+          "lines": [
+            2017,
+            3618
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.section-base",
+          "tag": "section",
+          "anchor": "section-base",
+          "lines": [
+            3619,
+            3633
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.section-footer",
+          "tag": "section",
+          "anchor": "section-footer",
+          "lines": [
+            3634,
+            4091
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/97-best-taco-captions-for-instagram",
+      "title": "97 Best Taco Captions for Instagram and Facebook (Free)",
+      "h1": "103 Best Taco Captions for Instagram",
+      "template": "template.group-3",
+      "file": "src/blog/97-best-taco-captions-for-instagram/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            508,
+            3324
+          ]
+        }
+      ]
+    }
+  ]
+}

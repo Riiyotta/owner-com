@@ -1,0 +1,17 @@
+{
+  "id": "cc-product-hero",
+  "name": "cc-product-hero",
+  "occurrences": 21,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/restaurant-website-ai"
+  }
+}

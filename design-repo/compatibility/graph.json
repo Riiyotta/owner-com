@@ -1,0 +1,266 @@
+{
+  "version": "0.1.0",
+  "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "severity": "error",
+      "kind": "maxCategoryPerPage",
+      "category": "HERO",
+      "max": 1,
+      "exceptions": [],
+      "description": "A page has at most one HERO section. Templates that genuinely carry more are named in `exceptions`."
+    },
+    {
+      "id": "SECTION_PER_PAGE_LIMITS",
+      "severity": "error",
+      "kind": "perPageLimits",
+      "limits": {
+        "shell.nav-wrapper": 1,
+        "hero.section-hp-hero": 1,
+        "proof.section-stories": 1,
+        "content.section-owner-stack": 1,
+        "proof.section-reviews": 1,
+        "content.section-restaurant": 1,
+        "proof.section-testimonials": 1,
+        "proof.section-beliefs": 1,
+        "content.section-guides": 1,
+        "cta.section-cta": 1,
+        "shell.section-footer": 1,
+        "content.section-base": 5,
+        "support.form": 1,
+        "hero.section-center-hero": 1,
+        "features.section-hiw-steps": 1,
+        "hero.section-product-hero": 1,
+        "hero.page-wrapper": 1,
+        "hero.section-about-hero": 1,
+        "content.section-about-local": 1,
+        "content.section-about-stats": 1,
+        "content.section-about-how": 1,
+        "content.section-about-vision": 1,
+        "support.section-about-help": 1,
+        "hero.section-career-hero": 1,
+        "cta.section-career-cta": 1,
+        "content.roles": 1,
+        "hero.section-leadership-hero": 1,
+        "support.section-leaders-support": 1,
+        "hero.eng-section-eng-hero": 1,
+        "content.section-eng-intro": 1,
+        "content.section-eng-row": 3,
+        "features.section-eng-steps": 1,
+        "content.eng-maxwdith": 1,
+        "support.eng-steps-faq": 1,
+        "content.block": 2,
+        "content.eng-lp-figure-wall": 1,
+        "shell.eng-lp-footer": 1,
+        "content.pres-cards-header": 1,
+        "proof.press-cards-wrap": 1,
+        "hero.section-reviews-hero": 1,
+        "hero.section-s-d-hero": 1,
+        "content.s-d-video-box": 1,
+        "content.s-d-summary-list": 1,
+        "content.section-s-d-about": 1,
+        "content.section-s-d-why-now": 1,
+        "content.section-s-d-the-problem": 1,
+        "content.u-mb-64": 4,
+        "content.s-d-wrap": 1,
+        "content.u-mb-40": 4,
+        "content.section-s-d-future": 1,
+        "showcase.section-s-d-gtm": 1,
+        "content.section-s-d-competition": 1,
+        "content.team": 1,
+        "content.section-why-sticky": 1,
+        "content.ps": 1,
+        "hero.cs-index-head": 1,
+        "content.cs-index-list": 1,
+        "hero.section-blog-hero": 1,
+        "content.section-blog-most": 1,
+        "content.section-blog-topics": 1,
+        "content.section-blog-categories": 1,
+        "shell.demo-control-header": 1,
+        "hero.demo-control-layout": 1,
+        "hero.section-cs-hero": 1,
+        "hero.section-legal": 1,
+        "hero.section-blog-content": 1,
+        "hero.section-resource": 1
+      },
+      "description": "No section appears more often on one page than it does in any measured template."
+    },
+    {
+      "id": "SHELL_MUST_BE_FIRST",
+      "severity": "error",
+      "kind": "mustBeFirst",
+      "sections": [
+        "shell.nav-wrapper",
+        "shell.demo-control-header"
+      ],
+      "description": "Sections that opened every template they appear in must be the first node."
+    },
+    {
+      "id": "SHELL_MUST_BE_LAST",
+      "severity": "error",
+      "kind": "mustBeLast",
+      "sections": [
+        "shell.section-footer",
+        "shell.eng-lp-footer"
+      ],
+      "description": "Sections that closed every template they appear in must be the last node."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SAME_SECTION",
+      "severity": "warn",
+      "kind": "noConsecutive",
+      "sections": [
+        "content.block"
+      ],
+      "description": "These sections were never observed back-to-back."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "kind": "noAdjacentSameCategory",
+      "exceptions": [
+        [
+          "proof.section-testimonials",
+          "proof.section-beliefs"
+        ],
+        [
+          "proof.section-reviews",
+          "proof.section-beliefs"
+        ],
+        [
+          "proof.section-beliefs",
+          "proof.section-testimonials"
+        ],
+        [
+          "content.section-guides",
+          "content.section-base"
+        ],
+        [
+          "content.section-about-local",
+          "content.section-about-stats"
+        ],
+        [
+          "content.section-about-stats",
+          "content.section-about-how"
+        ],
+        [
+          "content.section-about-how",
+          "content.section-about-vision"
+        ],
+        [
+          "content.section-base",
+          "content.roles"
+        ],
+        [
+          "content.section-eng-intro",
+          "content.section-eng-row"
+        ],
+        [
+          "content.block",
+          "content.eng-lp-figure-wall"
+        ],
+        [
+          "content.eng-lp-figure-wall",
+          "content.section-eng-row"
+        ],
+        [
+          "content.section-eng-row",
+          "content.block"
+        ],
+        [
+          "content.section-base",
+          "content.pres-cards-header"
+        ],
+        [
+          "content.block",
+          "content.s-d-video-box"
+        ],
+        [
+          "content.s-d-video-box",
+          "content.s-d-summary-list"
+        ],
+        [
+          "content.s-d-summary-list",
+          "content.section-s-d-about"
+        ],
+        [
+          "content.section-s-d-about",
+          "content.section-s-d-why-now"
+        ],
+        [
+          "content.section-s-d-why-now",
+          "content.section-s-d-the-problem"
+        ],
+        [
+          "content.section-s-d-the-problem",
+          "content.u-mb-64"
+        ],
+        [
+          "content.u-mb-64",
+          "content.s-d-wrap"
+        ],
+        [
+          "content.s-d-wrap",
+          "content.u-mb-64"
+        ],
+        [
+          "content.u-mb-64",
+          "content.u-mb-40"
+        ],
+        [
+          "content.u-mb-40",
+          "content.u-mb-64"
+        ],
+        [
+          "content.u-mb-64",
+          "content.section-s-d-future"
+        ],
+        [
+          "content.section-s-d-competition",
+          "content.team"
+        ],
+        [
+          "content.team",
+          "content.section-why-sticky"
+        ],
+        [
+          "content.section-why-sticky",
+          "content.ps"
+        ],
+        [
+          "content.cs-index-list",
+          "content.section-base"
+        ],
+        [
+          "content.section-blog-most",
+          "content.section-blog-topics"
+        ],
+        [
+          "content.section-blog-topics",
+          "content.section-blog-categories"
+        ],
+        [
+          "content.section-blog-categories",
+          "content.section-base"
+        ],
+        [
+          "content.section-base",
+          "content.section-blog-most"
+        ],
+        [
+          "content.section-blog-most",
+          "content.section-base"
+        ]
+      ],
+      "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "kind": "maxAnimatedSections",
+      "max": 10,
+      "description": "No page has more animated sections than the most animated measured page."
+    }
+  ]
+}

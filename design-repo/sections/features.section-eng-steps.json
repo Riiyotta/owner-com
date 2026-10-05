@@ -1,0 +1,56 @@
+{
+  "id": "features.section-eng-steps",
+  "category": "FEATURES",
+  "label": "section_eng-steps",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/builders-wanted/index.html:1113-1155"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 6
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 329,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 355,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/pages/BuildersWanted.jsx"
+}

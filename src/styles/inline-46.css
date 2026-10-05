@@ -1,0 +1,13 @@
+
+        .image-caption-wrapper {
+            display: inline-block;
+            text-align: center;
+        }
+
+        .image-caption-wrapper .caption {
+            font-size: 0.8em; 
+            color: #666; 
+            margin-top: 8px;
+            font-style: inherit;
+        }
+    

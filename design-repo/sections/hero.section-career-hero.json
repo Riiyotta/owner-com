@@ -1,0 +1,82 @@
+{
+  "id": "hero.section-career-hero",
+  "category": "HERO",
+  "label": "section-career-hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Protect the future of small business owners.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/careers/index.html:2396-2560"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 20
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 10
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 11,
+        "assetRoles": [
+          "background",
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 820,
+      "columns": 5
+    },
+    "mobile": {
+      "heightPx": 859,
+      "columns": 5,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "background",
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/pages/Careers.jsx"
+}

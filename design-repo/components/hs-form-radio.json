@@ -1,0 +1,12 @@
+{
+  "id": "hs-form-radio",
+  "name": "hs-form-radio",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

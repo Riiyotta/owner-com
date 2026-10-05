@@ -1,0 +1,13 @@
+{
+  "id": "blog-author-social-list",
+  "name": "blog-author_social-list",
+  "occurrences": 72,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

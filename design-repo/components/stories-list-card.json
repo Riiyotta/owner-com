@@ -1,0 +1,14 @@
+{
+  "id": "stories-list-card",
+  "name": "stories-list_card",
+  "occurrences": 32,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

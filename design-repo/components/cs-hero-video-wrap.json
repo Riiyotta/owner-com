@@ -1,0 +1,15 @@
+{
+  "id": "cs-hero-video-wrap",
+  "name": "cs-hero_video-wrap",
+  "occurrences": 18,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

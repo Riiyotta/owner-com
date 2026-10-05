@@ -1,0 +1,12 @@
+{
+  "id": "hs-brizo-id",
+  "name": "hs_brizo_id",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

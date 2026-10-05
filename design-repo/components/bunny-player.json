@@ -1,0 +1,15 @@
+{
+  "id": "bunny-player",
+  "name": "bunny-player",
+  "occurrences": 332,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.group-3",
+  "route": "/reviews-engine",
+  "nodes": [
+    {
+      "type": "hero.page-wrapper",
+      "content": {
+        "heading": "We'll grow your Google reviews.",
+        "body": [
+          "Product",
+          "Pricing",
+          "How it works",
+          "Company",
+          "Resources",
+          "Owner automatically drives more reviews for your restaurant, so your Google rating keeps growing and new customers keep finding you.",
+          "See how our Reviews Engine boosts Enga's online presence",
+          "Enga Stanfield — Mattenga's Pizzeria",
+          "00:00",
+          "/",
+          "00:23",
+          "AI Phone Ordering",
+          "Point of Sale",
+          "2026 © Owner.com | All rights reserved."
+        ],
+        "ctas": [
+          {
+            "label": "Login"
+          },
+          {
+            "label": "Get a free demo",
+            "href": "/demo"
+          },
+          {
+            "label": "Get a free demo",
+            "href": "/demo"
+          },
+          {
+            "label": "View pricing",
+            "href": "/pricing"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/metro-pizza"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/doo-dah-diner"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/karv-greek-kouzina"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/saffron"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/mattengas-pizzeria"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/township-line-pizza"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/talkin-tacos"
+          },
+          {
+            "label": "Learn more",
+            "href": "/case-studies/san-diego-kabob-shack"
+          }
+        ],
+        "items": [
+          {
+            "title": "The easiest way to get more Google reviews",
+            "body": "Owner drives a steady stream of Google reviews without you having to ask every single customer."
+          },
+          {
+            "title": "An engine for driving more Google reviews."
+          },
+          {
+            "title": "FAQ",
+            "body": "Owner sends automated review requests to your customers after they order, making it easy for happy guests to leave a Google review. The better your guest experience, the more reviews you get, and Owner is built to make every interaction seamless."
+          },
+          {
+            "title": "Trusted by owners",
+            "body": "+54%"
+          },
+          {
+            "title": "The easiest way to grow your restaurant online"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "content-image",
+            "alt": "Two men smiling and standing indoors in front of a mural of a colorful female face"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Blue gradient background with subtle curved lines forming a wave pattern."
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Man with short dark hair and beard smiling, wearing a black shirt with 'KARV Greek Kouzina'"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Green gradient background with subtle curved line patterns."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Woman with dark hair tied back and red glasses smiling and wearing a black shirt with"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Smiling man wearing a blue shirt and black apron standing behind a counter in a kitchen"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "icon"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Customer reviews with five-star ratings: Jenny G praises great ordering experience and delivery, Tom B calls"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Smartphone screen displaying a webpage with an image of empty plates, utensils, and drinks on a"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "avatar"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "content-image"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "background"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

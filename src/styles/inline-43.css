@@ -1,0 +1,41 @@
+
+/* Legal tables - scoped to the rich text so nothing leaks */
+.text-rich-text .w-embed { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+.text-rich-text table {
+  width: 100%;
+  min-width: 36em;
+  border-collapse: collapse;
+  margin: 2em 0;
+  text-align: left;
+}
+
+.text-rich-text table td {
+  border: 1px solid var(--border-color);
+  padding: .75em 1em;
+  vertical-align: top;
+}
+
+/* header row - the markup uses td, not th */
+.text-rich-text table tr:first-child td {
+  background-color: var(--background--lighter);
+  color: var(--text--primary);
+}
+
+.text-rich-text table td p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: .5em;
+}
+.text-rich-text table td p:last-child { margin-bottom: 0; }
+
+.text-rich-text table td ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+.text-rich-text table td li {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: .4em;
+}
+.text-rich-text table td li:last-child { margin-bottom: 0; }

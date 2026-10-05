@@ -1,0 +1,14 @@
+{
+  "id": "nav-menu-link-cards",
+  "name": "nav-menu_link-cards",
+  "occurrences": 280,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

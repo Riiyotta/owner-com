@@ -1,0 +1,12 @@
+{
+  "id": "hs-fieldtype-date",
+  "name": "hs-fieldtype-date",
+  "occurrences": 6,
+  "composedOf": [
+    "input"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

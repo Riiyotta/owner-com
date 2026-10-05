@@ -1,0 +1,5 @@
+
+  .blog-categories_item:first-child {
+    padding-top: 0em;
+    border-top: none;
+  }

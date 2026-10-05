@@ -1,0 +1,73 @@
+{
+  "id": "features.section-hiw-steps",
+  "category": "FEATURES",
+  "label": "section-hiw-steps",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/how-owner-works/index.html:2420-3113"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 19
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2598,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 2847,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/pages/HowOwnerWorks.jsx"
+}

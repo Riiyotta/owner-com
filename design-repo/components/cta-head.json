@@ -1,0 +1,13 @@
+{
+  "id": "cta-head",
+  "name": "cta-head",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

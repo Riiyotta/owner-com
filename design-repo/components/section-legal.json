@@ -1,0 +1,16 @@
+{
+  "id": "section-legal",
+  "name": "section-legal",
+  "occurrences": 7,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph",
+    "table"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/privacy-policy"
+  }
+}

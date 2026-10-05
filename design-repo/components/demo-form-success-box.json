@@ -1,0 +1,13 @@
+{
+  "id": "demo-form-success-box",
+  "name": "demo-form_success-box",
+  "occurrences": 6,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

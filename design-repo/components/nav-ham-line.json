@@ -1,0 +1,10 @@
+{
+  "id": "nav-ham-line",
+  "name": "nav-ham-line",
+  "occurrences": 280,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

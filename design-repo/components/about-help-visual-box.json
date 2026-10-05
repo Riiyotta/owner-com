@@ -1,0 +1,12 @@
+{
+  "id": "about-help-visual-box",
+  "name": "about-help_visual-box",
+  "occurrences": 6,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/our-story"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "blue-box",
+  "name": "blue-box",
+  "occurrences": 6,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/restaurant-marketing"
+  }
+}

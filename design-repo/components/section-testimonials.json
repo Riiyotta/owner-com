@@ -1,0 +1,19 @@
+{
+  "id": "section-testimonials",
+  "name": "section-testimonials",
+  "occurrences": 23,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "cs-item",
+  "name": "cs_item",
+  "occurrences": 36,
+  "composedOf": [
+    "heading",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/case-studies/talkin-tacos"
+  }
+}

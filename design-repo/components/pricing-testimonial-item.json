@@ -1,0 +1,13 @@
+{
+  "id": "pricing-testimonial-item",
+  "name": "pricing-testimonial_item",
+  "occurrences": 18,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

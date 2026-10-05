@@ -1,0 +1,15 @@
+{
+  "id": "osano-cm-window",
+  "name": "osano-cm-window",
+  "occurrences": 27,
+  "composedOf": [
+    "button",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "slider-arrow",
+  "name": "slider-arrow",
+  "occurrences": 48,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

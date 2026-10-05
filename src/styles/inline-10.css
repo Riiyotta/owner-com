@@ -1,0 +1,119 @@
+
+  .osano-cm-widget {
+    display: none;
+  }
+  /* General Buttons */
+  .osano-cm-button {
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 0.8rem;
+    color: #fff;
+    text-align: center;
+    background-color: #015bf8;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 4.8rem;
+    padding: 0.8rem 1.6rem 0.8rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition:
+      border-color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1),
+      color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1),
+      opacity 0.45s cubic-bezier(0.215, 0.61, 0.355, 1),
+      background-color 0.45s cubic-bezier(0.215, 0.61, 0.355, 1);
+    display: flex;
+  }
+  .osano-cm-button--type_denyAll {
+    background-color: var(--color--ov-dark-600);
+    color: var(--content--primary);
+    background-image: none;
+  }
+  .osano-cm-buttono--type_denyAll {
+    background-color: var(--color--ov-dark-500);
+  }
+
+  /* Button Groups */
+  .osano-cm-buttons {
+  }
+
+  /* Dialog Content */
+  .osano-cm-content {
+  }
+
+  /* Dialog Description */
+  .osano-cm-description {
+  }
+
+  /* Main Dialog Window */
+  .osano-cm-dialog {
+    display: none;
+    background: #ffffff;
+    color: inherit;
+    box-shadow:
+      0px 0px 34px #7090d208,
+      0px 0px 29px #0000001a,
+      0px 8px 21px #00000000;
+    border-radius: 1.6rem;
+    left: 1.6rem;
+    right: 1.6rem;
+    bottom: 1.6rem !important;
+    padding: 4rem 4rem;
+  }
+
+  /* Information Dialog */
+  .osano-cm-info-dialog {
+  }
+
+  .osano-cm-dialog__list {
+    margin-top: 4rem;
+  }
+
+  /* Close Button for Info Dialog */
+  .osano-cm-info-dialog-close {
+  }
+
+  /* Wrapper for Info Dialog */
+  .osano-cm-info-dialog-wrapper {
+  }
+
+  /* Links */
+  .osano-cm-lin {
+  }
+
+  /* Toggle Switches */
+  .osano-cm-toggle {
+  }
+  .osano-cm-toggle input[type='checkbox'] {
+  }
+
+  .osano-cm-toggle__switch {
+    background-color: var(--content--quaternary);
+  }
+  .osano-cm-toggle__input:focus + .osano-cm-toggle__switch,
+  .osano-cm-toggle__input:hover + .osano-cm-toggle__switch {
+    background-color: var(--content--tertiary);
+    border-color: var(--content--tertiary);
+  }
+  .osano-cm-toggle__input:disabled:checked + .osano-cm-toggle__switch,
+  .osano-cm-toggle__input:disabled:checked:focus + .osano-cm-toggle__switch,
+  .osano-cm-toggle__input:disabled:checked:hover + .osano-cm-toggle__switch {
+    background-color: #e9e9e9;
+    border-color: #e9e9e9;
+    opacity: 0.5;
+  }
+
+  /* CMP Widget */
+  .osano-cm-widget {
+  }
+
+  /* Main CMP Window */
+  .osano-cm-window {
+  }
+
+  /* Customize link appearance within CMP window */
+  .osano-cm-window a.osano-cm-link {
+  }
+
+  /* Labels */
+  label.osano-cm-label {
+  }

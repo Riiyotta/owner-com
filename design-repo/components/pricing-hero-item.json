@@ -1,0 +1,13 @@
+{
+  "id": "pricing-hero-item",
+  "name": "pricing-hero_item",
+  "occurrences": 14,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

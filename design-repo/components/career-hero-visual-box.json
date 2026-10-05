@@ -1,0 +1,13 @@
+{
+  "id": "career-hero-visual-box",
+  "name": "career-hero_visual-box",
+  "occurrences": 6,
+  "composedOf": [
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

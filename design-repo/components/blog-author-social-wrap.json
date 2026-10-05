@@ -1,0 +1,14 @@
+{
+  "id": "blog-author-social-wrap",
+  "name": "blog-author_social-wrap",
+  "occurrences": 72,
+  "composedOf": [
+    "link",
+    "list",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/seo-for-restaurants"
+  }
+}

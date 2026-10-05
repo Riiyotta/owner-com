@@ -1,0 +1,16 @@
+{
+  "id": "hbs-form",
+  "name": "hbs-form",
+  "occurrences": 6,
+  "composedOf": [
+    "embed",
+    "form",
+    "input",
+    "list",
+    "select"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/pricing"
+  }
+}

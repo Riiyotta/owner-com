@@ -1,0 +1,74 @@
+{
+  "$description": "Layout measurements taken at a 1440px-wide viewport. Breakpoints live in 00-foundation/breakpoint.json. Keys with a category suffix (e.g. `.explainer`) are per-category overrides that differ from the sitewide default above them.",
+  "inferred": true,
+  "tokens": {
+    "layout.contentWidth": {
+      "$value": "1440px",
+      "basis": "most common width of a section's first child at a 1440px viewport (measured, not a max-width rule)"
+    },
+    "layout.gutter": {
+      "$value": "276px",
+      "basis": "most common left offset of section content at 1440px"
+    },
+    "layout.sectionPaddingTop": {
+      "$value": "128px",
+      "basis": "most common padding-top of a section"
+    },
+    "layout.sectionPaddingBottom": {
+      "$value": "164px",
+      "basis": "most common padding-bottom of a section"
+    },
+    "layout.gridGap": {
+      "$value": "{radius.64}",
+      "basis": "most common column-gap of a grid/flex container inside a section"
+    },
+    "layout.sectionPaddingTop.cta": {
+      "$value": "240px",
+      "basis": "most common padding-top of a CTA section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.cta": {
+      "$value": "304px",
+      "basis": "most common padding-bottom of a CTA section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.cta": {
+      "$value": "{space.40}",
+      "basis": "most common column-gap of a CTA section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.features": {
+      "$value": "246px",
+      "basis": "most common padding-bottom of a FEATURES section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.features": {
+      "$value": "{fontSize.80}",
+      "basis": "most common column-gap of a FEATURES section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.hero": {
+      "$value": "{fontSize.80}",
+      "basis": "most common padding-top of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.hero": {
+      "$value": "{space.7}",
+      "basis": "most common column-gap of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.proof": {
+      "$value": "{space.40}",
+      "basis": "most common column-gap of a PROOF section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.shell": {
+      "$value": "{fontSize.80}",
+      "basis": "most common padding-top of a SHELL section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.shell": {
+      "$value": "{radius.24}",
+      "basis": "most common padding-bottom of a SHELL section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.shell": {
+      "$value": "{fontSize.80}",
+      "basis": "most common column-gap of a SHELL section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.showcase": {
+      "$value": "128px",
+      "basis": "most common padding-bottom of a SHOWCASE section (differs from the sitewide mode)"
+    }
+  }
+}

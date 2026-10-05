@@ -1,0 +1,13 @@
+{
+  "id": "hiw-steps-item-content",
+  "name": "hiw-steps_item-content",
+  "occurrences": 8,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/how-owner-works"
+  }
+}
