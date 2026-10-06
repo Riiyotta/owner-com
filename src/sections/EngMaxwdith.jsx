@@ -1,3 +1,4 @@
+// IA section(s): content.eng-maxwdith (ia/ia.json, design-repo/sections/)
 // eng-maxwdith — the section's real markup, read from the rendered page (route /builders-wanted, section 5).
 export default function EngMaxwdith() {
   return (

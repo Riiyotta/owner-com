@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /restaurant-seo, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /restaurant-website-ai, section 0).
 export default function NavWrapper5() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper5">
@@ -66,7 +67,7 @@ export default function NavWrapper5() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/restaurant-website-ai" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/restaurant-website-ai" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" />
                             <path d="M12 21C9.79086 21 8 16.9706 8 12C8 7.02944 9.79086 3 12 3C14.2091 3 16 7.02944 16 12C16 16.9706 14.2091 21 12 21Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" />
@@ -76,7 +77,7 @@ export default function NavWrapper5() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/restaurant-seo" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/restaurant-seo" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M20.25 20.25L16.1265 16.1265M16.1265 16.1265C17.4385 14.8145 18.25 13.002 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.002 18.25 14.8145 17.4385 16.1265 16.1265Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>

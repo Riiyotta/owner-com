@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Set it up once. Then it just w — the section's real markup, read from the rendered page (route /pos-integrations, section 2).
 export default function SetItUpOnce() {
   return (

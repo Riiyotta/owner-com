@@ -57,5 +57,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/BuildersWanted.jsx"
+  "implementedBy": "src/sections/WeWantYouIf.jsx",
+  "implementedByAll": [
+    "src/sections/WeWantYouIf.jsx"
+  ]
 }

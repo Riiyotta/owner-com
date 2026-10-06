@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Marketing Menu — the section's real markup, read from the rendered page (route /blog, section 1).

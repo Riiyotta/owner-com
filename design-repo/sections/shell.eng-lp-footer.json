@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/builders-wanted/index.html:3286-3931"
+      "src/builders-wanted/index.html:3286-3933"
     ]
   },
   "content": {
@@ -60,5 +60,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/EngLpFooter.jsx"
+  "implementedBy": "src/sections/EngLpFooter.jsx",
+  "implementedByAll": [
+    "src/sections/EngLpFooter.jsx"
+  ]
 }

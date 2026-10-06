@@ -91,5 +91,9 @@
     "content-image",
     "icon"
   ],
-  "implementedBy": "src/pages/PosDemo.jsx"
+  "implementedBy": "src/sections/DemoControlLayout.jsx",
+  "implementedByAll": [
+    "src/sections/DemoControlLayout.jsx",
+    "src/sections/DemoControlLayout2.jsx"
+  ]
 }

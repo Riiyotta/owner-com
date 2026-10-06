@@ -1,3 +1,4 @@
+// IA section(s): hero.section-career-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Protect the future of small bu — the section's real markup, read from the rendered page (route /careers, section 1).
@@ -34,7 +35,7 @@ export default function ProtectTheFutureOf() {
                 <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                   <div data-player-before="" className="bunny-player__before"></div>
                   <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
-                  <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-poster-00001.jpg" data-video-urls="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08%2F67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-transcode.mp4,/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08%2F67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">
+                  <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-poster-00001.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">
                     <video id="289c1c55-71a9-4b7a-7a3c-a665b3c2e416-video" autoPlay loop style={{ "backgroundImage": "url(\"/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-poster-00001.jpg\")" }} muted playsInline data-wf-ignore="true" data-object-fit="cover">
                       <source src="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-transcode.mp4" data-wf-ignore="true" />
                       <source src="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-transcode.webm" data-wf-ignore="true" />
@@ -88,7 +89,7 @@ export default function ProtectTheFutureOf() {
                 <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                   <div data-player-before="" className="bunny-player__before"></div>
                   <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
-                  <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-poster-00001.jpg" data-video-urls="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08%2F67aa323817479f6374c5e8af_careers-rob-loop-transcode.mp4,/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08%2F67aa323817479f6374c5e8af_careers-rob-loop-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">
+                  <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-poster-00001.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">
                     <video id="3242d7c4-d895-f980-b818-b568b1fdcc10-video" autoPlay loop style={{ "backgroundImage": "url(\"/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-poster-00001.jpg\")" }} muted playsInline data-wf-ignore="true" data-object-fit="cover">
                       <source src="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-transcode.mp4" data-wf-ignore="true" />
                       <source src="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-transcode.webm" data-wf-ignore="true" />

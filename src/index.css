@@ -1,2 +1,2 @@
 @import "./styles/tokens.css";
-@tailwind utilities; /* utilities only, loaded before the site's CSS so the site's own rules win */
+/* The site's own stylesheets are imported after this (src/styles/). Tailwind utilities are deliberately not bundled: see tailwind.config.js. */

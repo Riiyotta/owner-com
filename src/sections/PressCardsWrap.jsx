@@ -1,3 +1,4 @@
+// IA section(s): proof.press-cards-wrap (ia/ia.json, design-repo/sections/)
 // press_cards-wrap — the section's real markup, read from the rendered page (route /press, section 3).
 export default function PressCardsWrap() {
   return (

@@ -68,5 +68,8 @@
   "assetRoles": [
     "logo"
   ],
-  "implementedBy": "src/pages/Leadership.jsx"
+  "implementedBy": "src/sections/MeetOurLeadershipTeam.jsx",
+  "implementedByAll": [
+    "src/sections/MeetOurLeadershipTeam.jsx"
+  ]
 }

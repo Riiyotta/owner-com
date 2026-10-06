@@ -1,17 +1,17 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper23 from "../sections/NavWrapper23.jsx";
+import NavWrapper24 from "../sections/NavWrapper24.jsx";
 import HelpingLocalBusinessOwners from "../sections/HelpingLocalBusinessOwners.jsx";
 import LocalBusinessOwnersAre from "../sections/LocalBusinessOwnersAre.jsx";
 import LocalBusinessOwnersNeed from "../sections/LocalBusinessOwnersNeed.jsx";
 import HowItStarted from "../sections/HowItStarted.jsx";
 import OurLongTermVision from "../sections/OurLongTermVision.jsx";
-import Section22 from "../sections/Section22.jsx";
-import TheEasiestWayTo5 from "../sections/TheEasiestWayTo5.jsx";
 import Section23 from "../sections/Section23.jsx";
+import TheEasiestWayTo5 from "../sections/TheEasiestWayTo5.jsx";
+import Section24 from "../sections/Section24.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
-import css2 from "../styles/inline-18.css?inline"; // only this page loads it
+import css2 from "../styles/inline-20.css?inline"; // only this page loads it
 import css3 from "../styles/inline-03.css?inline"; // only this page loads it
 import css4 from "../styles/inline-04.css?inline"; // only this page loads it
 import css5 from "../styles/inline-05.css?inline"; // only this page loads it
@@ -22,7 +22,7 @@ import css9 from "../styles/inline-09.css?inline"; // only this page loads it
 import css10 from "../styles/inline-10.css?inline"; // only this page loads it
 import css11 from "../styles/inline-11.css?inline"; // only this page loads it
 import css12 from "../styles/inline-12.css?inline"; // only this page loads it
-import css13 from "../styles/inline-19.css?inline"; // only this page loads it
+import css13 from "../styles/inline-21.css?inline"; // only this page loads it
 
 // Route /our-story — 9 section(s), in page order.
 export default function OurStory() {
@@ -59,17 +59,17 @@ export default function OurStory() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper23 />
+      <NavWrapper24 />
       <main className="main-wrapper">
         <HelpingLocalBusinessOwners />
         <LocalBusinessOwnersAre />
         <LocalBusinessOwnersNeed />
         <HowItStarted />
         <OurLongTermVision />
-        <Section22 />
+        <Section23 />
         <TheEasiestWayTo5 />
       </main>
-      <Section23 />
+      <Section24 />
     </div>
     </>
   );

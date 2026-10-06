@@ -1,3 +1,4 @@
+// IA section(s): content.roles (ia/ia.json, design-repo/sections/)
 // roles — the section's real markup, read from the rendered page (route /careers, section 7).
 export default function Roles() {
   return (

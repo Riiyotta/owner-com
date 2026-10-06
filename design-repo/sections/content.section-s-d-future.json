@@ -66,5 +66,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/EveryTypeOfLocal.jsx",
+  "implementedByAll": [
+    "src/sections/EveryTypeOfLocal.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // bg-color-taupe — the section's real markup, read from the rendered page (route /restaurant-website-ai, section 3).
 export default function BgColorTaupe() {
   return (

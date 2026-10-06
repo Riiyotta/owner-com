@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Your online ordering should gr — the section's real markup, read from the rendered page (route /online-ordering, section 1).

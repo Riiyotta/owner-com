@@ -1,3 +1,4 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // nav-wrapper — the section's real markup, read from the rendered page (route /resources/ottavios-case-study, section 0; shared by 4 routes).

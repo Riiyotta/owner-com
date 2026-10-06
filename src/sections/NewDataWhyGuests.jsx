@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // New Data: Why Guests Choose Th — the section's real markup, read from the rendered page (route /blog/third-party-vs-direct-ordering, section 1).
@@ -559,7 +560,7 @@ export default function NewDataWhyGuests() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#takeaway-1-42percent-of-guests-use-3p-apps-mostly-to-reorder-from-restaurants-they-already-know" className="blog-content_column-link w--current">Takeaway #1: 42% of guests use 3P apps mostly to reorder from restaurants they already know</a>
+                <a fs-toc-element="link" href="#takeaway-1-42percent-of-guests-use-3p-apps-mostly-to-reorder-from-restaurants-they-already-know" className="blog-content_column-link">Takeaway #1: 42% of guests use 3P apps mostly to reorder from restaurants they already know</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#takeaway-2-guests-will-switch-for-lower-prices-and-special-offers" className="blog-content_column-link">Takeaway #2: Guests will switch for lower prices and special offers</a>

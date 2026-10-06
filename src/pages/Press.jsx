@@ -1,11 +1,11 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper26 from "../sections/NavWrapper26.jsx";
+import NavWrapper27 from "../sections/NavWrapper27.jsx";
 import BgColorTaupe18 from "../sections/BgColorTaupe18.jsx";
 import PresCardsHeader from "../sections/PresCardsHeader.jsx";
 import PressCardsWrap from "../sections/PressCardsWrap.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section29 from "../sections/Section29.jsx";
+import Section30 from "../sections/Section30.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -17,7 +17,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-27.css?inline"; // only this page loads it
+import css11 from "../styles/inline-29.css?inline"; // only this page loads it
 
 // Route /press — 6 section(s), in page order.
 export default function Press() {
@@ -49,7 +49,7 @@ export default function Press() {
         <div className="hide w-embed"></div>
       </div>
       <div className="css-page-specific w-embed"></div>
-      <NavWrapper26 />
+      <NavWrapper27 />
       <main className="main-wrapper">
         <BgColorTaupe18 />
         <section data-section-overlap="" className="section_press-cards">
@@ -62,7 +62,7 @@ export default function Press() {
         </section>
         <IsProductPage />
       </main>
-      <Section29 />
+      <Section30 />
     </div>
     </>
   );

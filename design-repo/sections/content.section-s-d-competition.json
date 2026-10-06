@@ -66,5 +66,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/OwnerHasTwoClear.jsx",
+  "implementedByAll": [
+    "src/sections/OwnerHasTwoClear.jsx"
+  ]
 }

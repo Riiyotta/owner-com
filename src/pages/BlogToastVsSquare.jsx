@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import ToastVsSquareA from "../sections/ToastVsSquareA.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
 import Section from "../sections/Section.jsx";
@@ -16,8 +16,8 @@ import css8 from "../styles/inline-08.css?inline"; // only this page loads it
 import css9 from "../styles/inline-09.css?inline"; // only this page loads it
 import css10 from "../styles/inline-10.css?inline"; // only this page loads it
 import css11 from "../styles/inline-11.css?inline"; // only this page loads it
-import css12 from "../styles/inline-16.css?inline"; // only this page loads it
-import css13 from "../styles/inline-66.css?inline"; // only this page loads it
+import css12 from "../styles/inline-18.css?inline"; // only this page loads it
+import css13 from "../styles/inline-65.css?inline"; // only this page loads it
 import css14 from "../styles/inline-45.css?inline"; // only this page loads it
 
 // Route /blog/toast-vs-square — 4 section(s), in page order.
@@ -53,7 +53,7 @@ export default function BlogToastVsSquare() {
         <div className="hide w-embed"></div>
       </div>
       <div className="hide w-embed"></div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <ToastVsSquareA />
         <IsProductPage />

@@ -20,26 +20,29 @@
       "enum": [
         "template.home",
         "template.group",
-        "template.how-owner-works",
         "template.group-2",
+        "template.how-owner-works",
         "template.group-3",
         "template.delivery",
+        "template.pos",
+        "template.mobile",
         "template.our-story",
         "template.careers",
         "template.leadership",
         "template.builders-wanted",
         "template.press",
         "template.reviews",
+        "template.partner-request",
         "template.d",
         "template.case-studies",
         "template.blog",
         "template.support",
         "template.group-4",
         "template.case-studies-2",
-        "template.group-5",
-        "template.blog-category",
         "template.blog-2",
-        "template.group-6"
+        "template.reorders",
+        "template.blog-category",
+        "template.group-5"
       ]
     },
     "route": {
@@ -107,11 +110,11 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 7
+          "maxWords": 13
         },
         "body": {
           "type": "array",
-          "maxItems": 4,
+          "maxItems": 6,
           "items": {
             "type": "string",
             "minLength": 1,
@@ -138,10 +141,7 @@
             }
           }
         }
-      },
-      "required": [
-        "body"
-      ]
+      }
     },
     "content.content.cs-index-list": {
       "type": "object",
@@ -1439,89 +1439,6 @@
         "items"
       ]
     },
-    "content.content.u-mb-40": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 3
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 5,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 59
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 2,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      }
-    },
-    "content.content.u-mb-64": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 13
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 6,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 81
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 1,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "body"
-      ]
-    },
     "content.cta.section-career-cta": {
       "type": "object",
       "additionalProperties": false,
@@ -1728,6 +1645,50 @@
         "ctas"
       ]
     },
+    "content.features.section-pos-steps": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 8
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 25
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
     "content.hero.cs-index-head": {
       "type": "object",
       "additionalProperties": false,
@@ -1913,101 +1874,6 @@
         "body"
       ]
     },
-    "content.hero.page-wrapper": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 17
-        },
-        "subheading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 8
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 30,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 93
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 12,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 8
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 24,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 25
-              },
-              "body": {
-                "type": "string",
-                "maxWords": 88
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 110,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body",
-        "ctas"
-      ]
-    },
     "content.hero.section-about-hero": {
       "type": "object",
       "additionalProperties": false,
@@ -2059,20 +1925,20 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 15
+          "maxWords": 17
         },
         "subheading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 4
+          "maxWords": 8
         },
         "body": {
           "type": "array",
-          "maxItems": 16,
+          "maxItems": 30,
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 66
+            "maxWords": 93
           }
         },
         "ctas": {
@@ -2088,7 +1954,7 @@
               "label": {
                 "type": "string",
                 "minLength": 1,
-                "maxWords": 4
+                "maxWords": 8
               },
               "href": {
                 "type": "string",
@@ -2100,7 +1966,7 @@
         },
         "items": {
           "type": "array",
-          "maxItems": 17,
+          "maxItems": 24,
           "items": {
             "type": "object",
             "required": [
@@ -2111,7 +1977,7 @@
               "title": {
                 "type": "string",
                 "minLength": 1,
-                "maxWords": 12
+                "maxWords": 25
               },
               "body": {
                 "type": "string",
@@ -2352,6 +2218,74 @@
         "body"
       ]
     },
+    "content.hero.section-demo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 9
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 17
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 5
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
     "content.hero.section-hp-hero": {
       "type": "object",
       "additionalProperties": false,
@@ -2513,7 +2447,7 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 8
+          "maxWords": 10
         },
         "body": {
           "type": "array",
@@ -2521,7 +2455,7 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 20
+            "maxWords": 26
           }
         },
         "ctas": {
@@ -2550,6 +2484,74 @@
         "images": {
           "type": "array",
           "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body",
+        "ctas"
+      ]
+    },
+    "content.hero.section-product-v-hero": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 8
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 13,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 21
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 4,
           "items": {
             "type": "object",
             "required": [
@@ -2767,7 +2769,7 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 6
+          "maxWords": 7
         },
         "body": {
           "type": "array",
@@ -3034,16 +3036,16 @@
       "properties": {
         "body": {
           "type": "array",
-          "maxItems": 5,
+          "maxItems": 12,
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 3
+            "maxWords": 13
           }
         },
         "ctas": {
           "type": "array",
-          "maxItems": 4,
+          "maxItems": 11,
           "items": {
             "type": "object",
             "required": [
@@ -3054,7 +3056,7 @@
               "label": {
                 "type": "string",
                 "minLength": 1,
-                "maxWords": 4
+                "maxWords": 13
               },
               "href": {
                 "type": "string",
@@ -3084,11 +3086,7 @@
             }
           }
         }
-      },
-      "required": [
-        "body",
-        "ctas"
-      ]
+      }
     },
     "content.shell.section-footer": {
       "type": "object",
@@ -3298,7 +3296,7 @@
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 3
+          "maxWords": 7
         },
         "body": {
           "type": "array",
@@ -3306,7 +3304,7 @@
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 18
+            "maxWords": 29
           }
         },
         "images": {
@@ -3377,26 +3375,26 @@
             "content.section-s-d-why-now",
             "content.section-why-sticky",
             "content.team",
-            "content.u-mb-40",
-            "content.u-mb-64",
             "cta.section-career-cta",
             "cta.section-cta",
             "features.section-eng-steps",
             "features.section-hiw-steps",
+            "features.section-pos-steps",
             "hero.cs-index-head",
             "hero.demo-control-layout",
             "hero.eng-section-eng-hero",
-            "hero.page-wrapper",
             "hero.section-about-hero",
             "hero.section-blog-content",
             "hero.section-blog-hero",
             "hero.section-career-hero",
             "hero.section-center-hero",
             "hero.section-cs-hero",
+            "hero.section-demo",
             "hero.section-hp-hero",
             "hero.section-leadership-hero",
             "hero.section-legal",
             "hero.section-product-hero",
+            "hero.section-product-v-hero",
             "hero.section-resource",
             "hero.section-reviews-hero",
             "hero.section-s-d-hero",
@@ -3998,44 +3996,6 @@
           "if": {
             "properties": {
               "type": {
-                "const": "content.u-mb-40"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.content.u-mb-40"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "content.u-mb-64"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.content.u-mb-64"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
                 "const": "cta.section-career-cta"
               }
             },
@@ -4112,6 +4072,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "features.section-pos-steps"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.features.section-pos-steps"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "hero.cs-index-head"
               }
             },
@@ -4161,25 +4140,6 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.hero.eng-section-eng-hero"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "hero.page-wrapper"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.page-wrapper"
               }
             }
           }
@@ -4302,6 +4262,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "hero.section-demo"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.section-demo"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "hero.section-hp-hero"
               }
             },
@@ -4370,6 +4349,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.hero.section-product-hero"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "hero.section-product-v-hero"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.section-product-v-hero"
               }
             }
           }

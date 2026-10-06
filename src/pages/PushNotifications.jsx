@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper17 from "../sections/NavWrapper17.jsx";
+import NavWrapper18 from "../sections/NavWrapper18.jsx";
 import PushNotificationMarketingBu from "../sections/PushNotificationMarketingBu.jsx";
 import TheMostDirectChannel from "../sections/TheMostDirectChannel.jsx";
 import BgColorTaupe13 from "../sections/BgColorTaupe13.jsx";
 import FAQ14 from "../sections/FAQ14.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section16 from "../sections/Section16.jsx";
+import Section17 from "../sections/Section17.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function PushNotifications() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper17 />
+      <NavWrapper18 />
       <main className="main-wrapper">
         <PushNotificationMarketingBu />
         <TheMostDirectChannel />
@@ -62,7 +62,7 @@ export default function PushNotifications() {
         <FAQ14 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section16 />
+        <Section17 />
       </main>
     </div>
     </>

@@ -67,5 +67,8 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/GiveYourRestaurantThe.jsx",
+  "implementedByAll": [
+    "src/sections/GiveYourRestaurantThe.jsx"
+  ]
 }

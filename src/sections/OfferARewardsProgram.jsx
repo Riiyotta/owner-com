@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Offer a rewards program like t — the section's real markup, read from the rendered page (route /loyalty-rewards, section 1).

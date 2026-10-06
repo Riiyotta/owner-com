@@ -84,5 +84,13 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/IsCategoryPage.jsx",
+  "implementedByAll": [
+    "src/sections/IsCategoryPage.jsx",
+    "src/sections/IsCategoryPage2.jsx",
+    "src/sections/IsCategoryPage3.jsx",
+    "src/sections/IsCategoryPage4.jsx",
+    "src/sections/IsCategoryPage5.jsx",
+    "src/sections/MostRecent.jsx"
+  ]
 }

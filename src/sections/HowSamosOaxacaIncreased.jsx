@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Samos Oaxaca increased dir — the section's real markup, read from the rendered page (route /case-studies/samos-oaxaca, section 1).
 export default function HowSamosOaxacaIncreased() {
   return (

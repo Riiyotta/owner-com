@@ -20,8 +20,8 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-40.css?inline"; // only this page loads it
-import css13 from "../styles/inline-41.css?inline"; // only this page loads it
+import css12 from "../styles/inline-42.css?inline"; // only this page loads it
+import css13 from "../styles/inline-43.css?inline"; // only this page loads it
 
 // Route /case-studies/sushi-addicts — 8 section(s), in page order.
 export default function CaseStudiesSushiAddicts() {

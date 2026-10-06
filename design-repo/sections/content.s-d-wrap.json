@@ -59,5 +59,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/SDWrap.jsx",
+  "implementedByAll": [
+    "src/sections/SDWrap.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.s-d-wrap (ia/ia.json, design-repo/sections/)
 // s-d_wrap — the section's real markup, read from the rendered page (route /d, section 10).
 export default function SDWrap() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-center-hero (ia/ia.json, design-repo/sections/)
 // You could be getting a LOT mor — the section's real markup, read from the rendered page (route /how-owner-works, section 1).
 export default function YouCouldBeGetting() {
   return (

@@ -3,7 +3,7 @@
   "category": "HERO",
   "label": "section-hp-hero",
   "tag": "section",
-  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"The AI platform restaurants use to grow online discovery.\".",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"The AI platform restaurants use to grow first-party sales.\".",
   "purposeIsInferred": true,
   "nameSource": "class",
   "evidence": {
@@ -77,5 +77,8 @@
     "background",
     "hero-image"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/TheAIPlatformRestaurants.jsx",
+  "implementedByAll": [
+    "src/sections/TheAIPlatformRestaurants.jsx"
+  ]
 }

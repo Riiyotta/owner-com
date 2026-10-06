@@ -1,4 +1,5 @@
 
-  .demo_slot:empty {
-    display: none;
+  :root {
+    --marquee-duration: 60s;
+    /* Default duration */
   }

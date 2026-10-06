@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 28 Proven Restaurant Marketing — the section's real markup, read from the rendered page (route /blog/restaurant-marketing-ideas, section 1).
@@ -980,7 +981,7 @@ export default function S28ProvenRestaurantMarketing() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#find-your-menu-market-fit" className="blog-content_column-link w--current">Find your menu market fit</a>
+                <a fs-toc-element="link" href="#find-your-menu-market-fit" className="blog-content_column-link">Find your menu market fit</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#get-more-new-customers" className="blog-content_column-link">{"Get more new customers "}</a>

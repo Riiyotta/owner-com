@@ -4,9 +4,9 @@
     "color.neutral.01": {
       "$type": "color",
       "$value": "rgb(44,44,44)",
-      "usage": 92791,
+      "usage": 92789,
       "roles": {
-        "text": 89873,
+        "text": 89871,
         "fill": 2225,
         "bg": 693
       }
@@ -14,10 +14,10 @@
     "color.neutral.02": {
       "$type": "color",
       "$value": "rgb(255,255,255)",
-      "usage": 38463,
+      "usage": 38558,
       "roles": {
         "fill": 7423,
-        "bg": 2228,
+        "bg": 2323,
         "text": 28812
       }
     },
@@ -32,10 +32,10 @@
     "color.neutral.04": {
       "$type": "color",
       "$value": "rgb(0,0,0)",
-      "usage": 6148,
+      "usage": 6147,
       "roles": {
         "text": 4264,
-        "fill": 1372,
+        "fill": 1371,
         "bg": 502,
         "border": 10
       }
@@ -70,10 +70,10 @@
     "color.neutral.07": {
       "$type": "color",
       "$value": "rgb(249,243,237)",
-      "usage": 2219,
+      "usage": 2217,
       "roles": {
         "text": 1874,
-        "bg": 345
+        "bg": 343
       }
     },
     "color.neutral.08": {
@@ -89,9 +89,9 @@
     "color.neutral.09": {
       "$type": "color",
       "$value": "rgb(9,10,11)",
-      "usage": 1509,
+      "usage": 1508,
       "roles": {
-        "fill": 1509
+        "fill": 1508
       }
     },
     "color.neutral.10": {
@@ -114,10 +114,10 @@
     "color.neutral.11": {
       "$type": "color",
       "$value": "rgba(255,255,255,0.85)",
-      "usage": 674,
+      "usage": 611,
       "roles": {
         "text": 610,
-        "bg": 64
+        "bg": 1
       }
     },
     "color.neutral.12": {
@@ -139,12 +139,20 @@
     "color.neutral.14": {
       "$type": "color",
       "$value": "rgb(251,248,245)",
-      "usage": 459,
+      "usage": 454,
       "roles": {
-        "bg": 459
+        "bg": 454
       }
     },
     "color.neutral.15": {
+      "$type": "color",
+      "$value": "rgba(44,44,44,0.05)",
+      "usage": 361,
+      "roles": {
+        "bg": 361
+      }
+    },
+    "color.neutral.16": {
       "$type": "color",
       "$value": "rgba(44,44,44,0.9)",
       "usage": 334,
@@ -152,7 +160,7 @@
         "text": 334
       }
     },
-    "color.neutral.16": {
+    "color.neutral.17": {
       "$type": "color",
       "$value": "rgba(0,0,0,0.33)",
       "usage": 332,
@@ -160,7 +168,7 @@
         "bg": 332
       }
     },
-    "color.neutral.17": {
+    "color.neutral.18": {
       "$type": "color",
       "$value": "rgba(255,255,255,0.1)",
       "usage": 332,
@@ -176,7 +184,7 @@
         "bg": 330
       }
     },
-    "color.neutral.18": {
+    "color.neutral.19": {
       "$type": "color",
       "$value": "rgba(255,255,255,0.15)",
       "usage": 330,
@@ -184,7 +192,7 @@
         "bg": 330
       }
     },
-    "color.neutral.19": {
+    "color.neutral.20": {
       "$type": "color",
       "$value": "rgb(118,118,118)",
       "usage": 303,
@@ -192,7 +200,7 @@
         "border": 303
       }
     },
-    "color.neutral.20": {
+    "color.neutral.21": {
       "$type": "color",
       "$value": "rgba(44,44,44,0.3)",
       "usage": 286,
@@ -204,18 +212,10 @@
     "color.orange.01": {
       "$type": "color",
       "$value": "rgb(246,238,229)",
-      "usage": 258,
+      "usage": 236,
       "roles": {
-        "bg": 257,
+        "bg": 235,
         "fill": 1
-      }
-    },
-    "color.neutral.21": {
-      "$type": "color",
-      "$value": "rgba(44,44,44,0.05)",
-      "usage": 222,
-      "roles": {
-        "bg": 222
       }
     },
     "color.green.03": {
@@ -389,8 +389,8 @@
       "$value": "rgba(44,44,44,0.16)",
       "usage": 38,
       "roles": {
-        "bg": 2,
-        "border": 36
+        "border": 36,
+        "bg": 2
       }
     },
     "color.neutral.38": {

@@ -69,5 +69,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/Careers.jsx"
+  "implementedBy": "src/sections/Roles.jsx",
+  "implementedByAll": [
+    "src/sections/Roles.jsx"
+  ]
 }

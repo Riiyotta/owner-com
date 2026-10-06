@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Menu Engineering: How To Desig — the section's real markup, read from the rendered page (route /blog/menu-engineering, section 1).

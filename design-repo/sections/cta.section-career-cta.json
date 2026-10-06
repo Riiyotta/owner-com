@@ -76,5 +76,8 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/pages/Careers.jsx"
+  "implementedBy": "src/sections/SeeIfOurValues.jsx",
+  "implementedByAll": [
+    "src/sections/SeeIfOurValues.jsx"
+  ]
 }

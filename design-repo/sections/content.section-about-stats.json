@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/our-story/index.html:3665-3969"
+      "src/our-story/index.html:3665-3738"
     ]
   },
   "content": {
@@ -62,5 +62,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/OurStory.jsx"
+  "implementedBy": "src/sections/LocalBusinessOwnersNeed.jsx",
+  "implementedByAll": [
+    "src/sections/LocalBusinessOwnersNeed.jsx"
+  ]
 }

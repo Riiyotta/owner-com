@@ -3,19 +3,19 @@
   "category": "HERO",
   "label": "section-product_hero",
   "tag": "section",
-  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Profitable delivery and a great guest experience.\".",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"AI that answers every call you're currently missing.\".",
   "purposeIsInferred": true,
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 5,
-    "routes": 5,
+    "instances": 20,
+    "routes": 20,
     "measuredFrom": [
-      "src/delivery/index.html:2186-2344",
-      "src/listings-management/index.html:2420-2578",
-      "src/online-menu/index.html:2420-2578",
-      "src/restaurant-seo/index.html:2421-2579",
-      "src/restaurant-website-ai/index.html:2420-2578"
+      "src/ai-phone-ordering/index.html:2186-2212",
+      "src/automatic-marketing/index.html:2422-2580",
+      "src/branded-apps/index.html:2187-2345",
+      "src/catering/index.html:2421-2579",
+      "src/delivery/index.html:2186-2344"
     ]
   },
   "content": {
@@ -24,13 +24,13 @@
       "heading": {
         "type": "string",
         "required": true,
-        "maxWords": 8
+        "maxWords": 10
       },
       "body": {
         "type": "string[]",
         "required": true,
         "maxItems": 1,
-        "maxWords": 20
+        "maxWords": 26
       },
       "ctas": {
         "type": "cta[]",
@@ -44,7 +44,9 @@
         "maxItems": 3,
         "assetRoles": [
           "background",
+          "content-image",
           "hero-image",
+          "logo",
           "video"
         ]
       }
@@ -71,7 +73,7 @@
       "columns": 1
     },
     "mobile": {
-      "heightPx": 910,
+      "heightPx": 931,
       "columns": 1,
       "hiddenShare": 0
     },
@@ -81,8 +83,32 @@
   },
   "assetRoles": [
     "background",
+    "content-image",
     "hero-image",
+    "logo",
     "video"
   ],
-  "implementedBy": "src/pages/RestaurantWebsiteAi.jsx"
+  "implementedBy": "src/sections/AIThatAnswersEvery.jsx",
+  "implementedByAll": [
+    "src/sections/AIThatAnswersEvery.jsx",
+    "src/sections/AlwaysKnowHowYour.jsx",
+    "src/sections/AnOnlineMenuThat.jsx",
+    "src/sections/BetterRestaurantListingsBe.jsx",
+    "src/sections/EmailSMSMarketingThat.jsx",
+    "src/sections/GetABeautifulMobile.jsx",
+    "src/sections/GetMoreGoogleTraffic.jsx",
+    "src/sections/MoneyMakingMarketingReady.jsx",
+    "src/sections/MoreRevenueOnEvery.jsx",
+    "src/sections/OfferARewardsProgram.jsx",
+    "src/sections/OnlinePhoneAndIn.jsx",
+    "src/sections/OwnerWorksGreatWith.jsx",
+    "src/sections/ProfitableDeliveryAndA.jsx",
+    "src/sections/PushNotificationMarketingBu.jsx",
+    "src/sections/RestaurantWebsitesBuiltFor.jsx",
+    "src/sections/RunYourRestaurantFrom.jsx",
+    "src/sections/TakeCateringOrdersDirectly.jsx",
+    "src/sections/TurnFirstTimeGuests.jsx",
+    "src/sections/WeLlGrowYour.jsx",
+    "src/sections/YourOnlineOrderingShould.jsx"
+  ]
 }

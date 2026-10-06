@@ -1,3 +1,4 @@
+// IA section(s): content.section-about-local (ia/ia.json, design-repo/sections/)
 // Local business owners are hero — the section's real markup, read from the rendered page (route /our-story, section 2).
 export default function LocalBusinessOwnersAre() {
   return (

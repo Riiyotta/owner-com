@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /privacy-policy, section 3).
+// section — the section's real markup, read from the rendered page (route /disclaimer, section 3).
 export default function Section35() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section35">
@@ -207,13 +208,13 @@ export default function Section35() {
                 </div>
               </li>
               <li>
-                <A href="/privacy-policy" aria-current="page" className="footer-bottom_link w--current">Privacy</A>
+                <A href="/privacy-policy" className="footer-bottom_link">Privacy</A>
               </li>
               <li>
                 <A href="/website-terms" className="footer-bottom_link">Website Terms</A>
               </li>
               <li>
-                <A href="/disclaimer" className="footer-bottom_link">Disclaimer</A>
+                <A href="/disclaimer" aria-current="page" className="footer-bottom_link w--current">Disclaimer</A>
               </li>
               <li>
                 <A href="/restaurant-participation-agreement" className="footer-bottom_link">Restaurant Agreements</A>

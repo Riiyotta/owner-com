@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper32 from "../sections/NavWrapper32.jsx";
+import NavWrapper33 from "../sections/NavWrapper33.jsx";
 import BgColorTaupe19 from "../sections/BgColorTaupe19.jsx";
 import ContactSupport from "../sections/ContactSupport.jsx";
 import GetGreatSupportEvery from "../sections/GetGreatSupportEvery.jsx";
@@ -18,7 +18,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-37.css?inline"; // only this page loads it
+import css11 from "../styles/inline-39.css?inline"; // only this page loads it
 
 // Route /support — 7 section(s), in page order.
 export default function Support() {
@@ -50,7 +50,7 @@ export default function Support() {
         <div className="hide w-embed"></div>
       </div>
       <div className="css-page-specific w-embed"></div>
-      <NavWrapper32 />
+      <NavWrapper33 />
       <main className="main-wrapper">
         <BgColorTaupe19 />
         <ContactSupport />

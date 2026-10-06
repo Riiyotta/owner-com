@@ -1,3 +1,4 @@
+// IA section(s): content.section-about-stats (ia/ia.json, design-repo/sections/)
 // Local business owners need tec — the section's real markup, read from the rendered page (route /our-story, section 3).
 export default function LocalBusinessOwnersNeed() {
   return (

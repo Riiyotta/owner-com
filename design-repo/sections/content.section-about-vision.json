@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/our-story/index.html:4007-4067"
+      "src/our-story/index.html:3776-3836"
     ]
   },
   "content": {
@@ -57,5 +57,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/OurStory.jsx"
+  "implementedBy": "src/sections/OurLongTermVision.jsx",
+  "implementedByAll": [
+    "src/sections/OurLongTermVision.jsx"
+  ]
 }

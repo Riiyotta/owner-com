@@ -73,5 +73,8 @@
     "content-image",
     "icon"
   ],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/SeeOurFreeGuides.jsx",
+  "implementedByAll": [
+    "src/sections/SeeOurFreeGuides.jsx"
+  ]
 }

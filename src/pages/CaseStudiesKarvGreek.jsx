@@ -1,10 +1,10 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper35 from "../sections/NavWrapper35.jsx";
+import NavWrapper36 from "../sections/NavWrapper36.jsx";
 import HowKarvGreekKouzina from "../sections/HowKarvGreekKouzina.jsx";
 import HowTheirOnlineExperience3 from "../sections/HowTheirOnlineExperience3.jsx";
-import BgColorTaupe22 from "../sections/BgColorTaupe22.jsx";
-import Section34 from "../sections/Section34.jsx";
+import BgColorTaupe23 from "../sections/BgColorTaupe23.jsx";
+import Section41 from "../sections/Section41.jsx";
 import BgColorBglighter8 from "../sections/BgColorBglighter8.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
 import Section from "../sections/Section.jsx";
@@ -20,8 +20,8 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-40.css?inline"; // only this page loads it
-import css13 from "../styles/inline-41.css?inline"; // only this page loads it
+import css12 from "../styles/inline-42.css?inline"; // only this page loads it
+import css13 from "../styles/inline-43.css?inline"; // only this page loads it
 
 // Route /case-studies/karv-greek-kouzina — 8 section(s), in page order.
 export default function CaseStudiesKarvGreek() {
@@ -58,12 +58,12 @@ export default function CaseStudiesKarvGreek() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper35 />
+      <NavWrapper36 />
       <main className="main-wrapper">
         <HowKarvGreekKouzina />
         <HowTheirOnlineExperience3 />
-        <BgColorTaupe22 />
-        <Section34 />
+        <BgColorTaupe23 />
+        <Section41 />
         <BgColorBglighter8 />
         <IsProductPage />
       </main>

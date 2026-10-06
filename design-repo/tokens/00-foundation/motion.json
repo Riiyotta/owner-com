@@ -14,7 +14,7 @@
     "duration.300ms": {
       "$type": "duration",
       "$value": "0.3s",
-      "usage": 9289
+      "usage": 9285
     },
     "duration.600ms": {
       "$type": "duration",
@@ -49,7 +49,7 @@
     "easing.02": {
       "$type": "cubicBezier",
       "$value": "cubic-bezier(0.38, 0.005, 0.215, 1)",
-      "usage": 6430
+      "usage": 6426
     },
     "easing.03": {
       "$type": "cubicBezier",

@@ -75,5 +75,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/pages/CaseStudies.jsx"
+  "implementedBy": "src/sections/CsIndexList.jsx",
+  "implementedByAll": [
+    "src/sections/CsIndexList.jsx"
+  ]
 }

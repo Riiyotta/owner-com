@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper13 from "../sections/NavWrapper13.jsx";
+import NavWrapper14 from "../sections/NavWrapper14.jsx";
 import AIThatAnswersEvery from "../sections/AIThatAnswersEvery.jsx";
 import AIPhoneOrderingThat from "../sections/AIPhoneOrderingThat.jsx";
 import BgColorTaupe10 from "../sections/BgColorTaupe10.jsx";
 import FAQ10 from "../sections/FAQ10.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section12 from "../sections/Section12.jsx";
+import Section13 from "../sections/Section13.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function AiPhoneOrdering() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper13 />
+      <NavWrapper14 />
       <main className="main-wrapper">
         <AIThatAnswersEvery />
         <AIPhoneOrderingThat />
@@ -62,7 +62,7 @@ export default function AiPhoneOrdering() {
         <FAQ10 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section12 />
+        <Section13 />
       </main>
     </div>
     </>

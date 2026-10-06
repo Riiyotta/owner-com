@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The 97 Best Restaurant Caption — the section's real markup, read from the rendered page (route /blog/97-best-restaurant-captions-for-instagram, section 1).
@@ -1171,7 +1172,7 @@ export default function The97BestRestaurant() {
                 <a fs-toc-element="link" href="#what-makes-a-great-instagram-caption" className="blog-content_column-link">What makes a great Instagram caption?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#captions-for-your-food-photos" className="blog-content_column-link w--current">Captions For Your Food Photos</a>
+                <a fs-toc-element="link" href="#captions-for-your-food-photos" className="blog-content_column-link">Captions For Your Food Photos</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#captions-for-your-staff-photos" className="blog-content_column-link">Captions For Your Staff Photos</a>

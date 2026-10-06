@@ -1,3 +1,4 @@
+// IA section(s): content.pres-cards-header (ia/ia.json, design-repo/sections/)
 // pres_cards-header — the section's real markup, read from the rendered page (route /press, section 2).
 export default function PresCardsHeader() {
   return (

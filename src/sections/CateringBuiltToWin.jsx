@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Catering built to win more hig — the section's real markup, read from the rendered page (route /catering, section 2).
 export default function CateringBuiltToWin() {
   return (

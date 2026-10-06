@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // FAQ — the section's real markup, read from the rendered page (route /ai-phone-ordering, section 4).
 export default function FAQ10() {
   return (

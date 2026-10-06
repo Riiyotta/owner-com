@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper10 from "../sections/NavWrapper10.jsx";
+import NavWrapper11 from "../sections/NavWrapper11.jsx";
 import MoreRevenueOnEvery from "../sections/MoreRevenueOnEvery.jsx";
 import OnlineOrderingThatUpsells from "../sections/OnlineOrderingThatUpsells.jsx";
 import BgColorTaupe7 from "../sections/BgColorTaupe7.jsx";
 import FAQ7 from "../sections/FAQ7.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section9 from "../sections/Section9.jsx";
+import Section10 from "../sections/Section10.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function SmartUpsells() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper10 />
+      <NavWrapper11 />
       <main className="main-wrapper">
         <MoreRevenueOnEvery />
         <OnlineOrderingThatUpsells />
@@ -62,7 +62,7 @@ export default function SmartUpsells() {
         <FAQ7 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section9 />
+        <Section10 />
       </main>
     </div>
     </>

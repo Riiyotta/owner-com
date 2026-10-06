@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // bg-color-bglighter — the section's real markup, read from the rendered page (route /case-studies/sushi-addicts, section 5).

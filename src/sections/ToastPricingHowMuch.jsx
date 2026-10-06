@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Toast Pricing: How Much Does T — the section's real markup, read from the rendered page (route /blog/toast-pricing, section 1).
@@ -804,7 +805,7 @@ export default function ToastPricingHowMuch() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#toast-pricing-breakdown" className="blog-content_column-link w--current">{"Toast pricing breakdown "}</a>
+                <a fs-toc-element="link" href="#toast-pricing-breakdown" className="blog-content_column-link">{"Toast pricing breakdown "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#what-youll-pay-upfront-with-toast-hardware-and-setup-fees" className="blog-content_column-link">What you’ll pay upfront with Toast: Hardware and setup fees</a>

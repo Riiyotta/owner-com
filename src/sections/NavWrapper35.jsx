@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/karv-greek-kouzina, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/ashleys-cafe, section 0).
 export default function NavWrapper35() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper35">
@@ -274,7 +275,7 @@ export default function NavWrapper35() {
                       </A>
                     </li>
                     <li>
-                      <A href="/case-studies/ashleys-cafe" className="nav-menu_cases-link w-inline-block">
+                      <A href="/case-studies/ashleys-cafe" aria-current="page" className="nav-menu_cases-link w-inline-block w--current">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">{"How Ashley's Cafe grew monthly sales by $30K with Owner POS"}</p>
                         </div>
@@ -370,7 +371,7 @@ export default function NavWrapper35() {
                   </ul>
                   <ul role="list" className="nav-menu_link-cards">
                     <li>
-                      <A href="/case-studies/karv-greek-kouzina" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
+                      <A href="/case-studies/karv-greek-kouzina" className="nav-menu_link-card w-inline-block">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">
                             <strong>How Alex from Karv Greek Kouzina grew online sales to $40K/month with Owner.com</strong>

@@ -1,11 +1,11 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper19 from "../sections/NavWrapper19.jsx";
+import NavWrapper20 from "../sections/NavWrapper20.jsx";
 import RunYourRestaurantFrom from "../sections/RunYourRestaurantFrom.jsx";
 import FAQ16 from "../sections/FAQ16.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section18 from "../sections/Section18.jsx";
+import Section19 from "../sections/Section19.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -52,13 +52,13 @@ export default function Mobile() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper19 />
+      <NavWrapper20 />
       <main className="main-wrapper">
         <RunYourRestaurantFrom />
         <FAQ16 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section18 />
+        <Section19 />
       </main>
     </div>
     </>

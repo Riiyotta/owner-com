@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper7 from "../sections/NavWrapper7.jsx";
+import NavWrapper8 from "../sections/NavWrapper8.jsx";
 import WeLlGrowYour from "../sections/WeLlGrowYour.jsx";
 import TheEasiestWayTo3 from "../sections/TheEasiestWayTo3.jsx";
 import BgColorTaupe4 from "../sections/BgColorTaupe4.jsx";
 import FAQ4 from "../sections/FAQ4.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section6 from "../sections/Section6.jsx";
+import Section7 from "../sections/Section7.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function ReviewsEngine() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper7 />
+      <NavWrapper8 />
       <main className="main-wrapper">
         <WeLlGrowYour />
         <TheEasiestWayTo3 />
@@ -62,7 +62,7 @@ export default function ReviewsEngine() {
         <FAQ4 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section6 />
+        <Section7 />
       </main>
     </div>
     </>

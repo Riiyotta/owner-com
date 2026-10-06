@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Get great support, every step  — the section's real markup, read from the rendered page (route /support, section 3).
 export default function GetGreatSupportEvery() {
   return (

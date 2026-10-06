@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Owner has everything you need  — the section's real markup, read from the rendered page (route /reorders, section 2).
 export default function OwnerHasEverythingYou() {
   return (

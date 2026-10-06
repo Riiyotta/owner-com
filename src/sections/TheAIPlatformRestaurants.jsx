@@ -1,3 +1,4 @@
+// IA section(s): hero.section-hp-hero (ia/ia.json, design-repo/sections/)
 // The AI platform restaurants us — the section's real markup, read from the rendered page (route /, section 1).
 export default function TheAIPlatformRestaurants() {
   return (
@@ -39,14 +40,14 @@ export default function TheAIPlatformRestaurants() {
               <span data-rotating-words="drive repeat orders., grow first-party sales., win online." className="display-inline-block">
                 <span className="rotating-text__inner" style={{ "position": "relative", "display": "inline-grid", "verticalAlign": "baseline", "clipPath": "inset(0px)", "paddingBottom": "0.1em" }}>
                   <span className="rotating-text__phrase" style={{ "gridArea": "1 / 1", "whiteSpace": "nowrap", "textAlign": "center" }}>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0", "visibility": "hidden", "transform": "translate(0%, -150%)" }}>{"grow "}</span>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0", "visibility": "hidden", "transform": "translate(0%, -150%)" }}>{"online "}</span>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0", "visibility": "hidden", "transform": "translate(0%, -150%)" }}>discovery.</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }}>{"grow "}</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }}>{"online "}</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }}>discovery.</span>
                   </span>
                   <span className="rotating-text__phrase" style={{ "gridArea": "1 / 1", "whiteSpace": "nowrap", "textAlign": "center" }}>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0.9999", "visibility": "inherit", "transform": "translate(0%, 0.0085%) translate3d(0px, 0px, 0px)" }}>{"drive "}</span>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0.9962", "visibility": "inherit", "transform": "translate(0%, 0.5636%) translate3d(0px, 0px, 0px)" }}>{"repeat "}</span>
-                    <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0.9645", "visibility": "inherit", "transform": "translate(0%, 5.3317%) translate3d(0px, 0px, 0px)" }}>orders.</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }} data-reveal="">{"drive "}</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }} data-reveal="">{"repeat "}</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }} data-reveal="">orders.</span>
                   </span>
                   <span className="rotating-text__phrase" style={{ "gridArea": "1 / 1", "whiteSpace": "nowrap", "textAlign": "center" }}>
                     <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0", "visibility": "hidden", "transform": "translate(0%, -150%)" }}>{"grow "}</span>
@@ -54,8 +55,8 @@ export default function TheAIPlatformRestaurants() {
                     <span className="rotating-text__word" style={{ "display": "inline-block", "willChange": "transform", "opacity": "0", "visibility": "hidden", "transform": "translate(0%, -150%)" }}>sales.</span>
                   </span>
                   <span className="rotating-text__phrase" style={{ "gridArea": "1 / 1", "whiteSpace": "nowrap", "textAlign": "center" }}>
-                    <span className="rotating-text__word" style={{ "display": "inline-block" }} data-reveal="">{"win "}</span>
-                    <span className="rotating-text__word" style={{ "display": "inline-block" }} data-reveal="">online.</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }}>{"win "}</span>
+                    <span className="rotating-text__word" style={{ "display": "inline-block" }}>online.</span>
                   </span>
                 </span>
               </span>
@@ -92,8 +93,8 @@ export default function TheAIPlatformRestaurants() {
             <div className="hp-hero_phone-box">
               <img width="390" fetchPriority="high" alt="Black smartphone with screen turned off showing front camera and sensors." src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f80eb_phone-ui.avif" loading="eager" className="hp-hero_phone-mock" />
               <div className="hp-hero_phone-screen">
-                <img className="hp-hero_phone-feed" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui-p-500.avif" width="435" alt="Restaurant website health score 36/100 poor with low search results and local listings, losing $450 monthly in sales." sizes="(max-width: 479px) 100vw, 435px" loading="eager" fetchPriority="high" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui.avif 870w" style={{ "transformStyle": "preserve-3d" }} data-reveal="" />
-                <div style={{ "opacity": "0" }} className="hp-phone_phone-load">
+                <img className="hp-hero_phone-feed" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui-p-500.avif" width="435" alt="Restaurant website health score 36/100 poor with low search results and local listings, losing $450 monthly in sales." sizes="(max-width: 479px) 100vw, 435px" loading="eager" fetchPriority="high" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e0ab67eb24ced53e361424_45a254c070a56b26063b0911e102722b_phone-grader-ui.avif 870w" style={{ "transform": "translate3d(0px, -15.6872%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)", "transformStyle": "preserve-3d", "opacity": "1", "willChange": "transform" }} />
+                <div className="hp-phone_phone-load" data-reveal="">
                   <div className="hp-phone_phone-load-icon w-embed">
                     <svg width="100%" height="100%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M5.55576 16.918C9.14118 13.5249 14.8073 13.5249 18.3927 16.918L18.0987 17.2461C16.6245 18.8753 14.9449 20.3071 13.1017 21.5059L12.4073 21.957C12.1362 22.121 11.979 22.209 11.9737 22.2119L11.8702 22.1543C11.7942 22.1107 11.6789 22.0417 11.5294 21.9512L10.8448 21.5059C8.87884 20.2273 7.09886 18.6835 5.55576 16.918ZM5.32432 3.83691C8.67011 7.41793 8.66715 13.0476 5.31553 16.625C3.88265 14.822 2.78083 12.667 2.75791 10.2861C2.75769 10.2611 2.75791 10.236 2.75791 10.2109C2.75791 7.73665 3.73589 5.49175 5.32432 3.83691ZM18.6231 3.83398C18.9875 4.21343 19.3197 4.62423 19.6153 5.06152C19.7395 5.24521 19.8579 5.43319 19.9689 5.62598C20.0613 5.78666 20.1487 5.95059 20.2315 6.11719C20.2481 6.15051 20.2642 6.18422 20.2804 6.21777C20.3127 6.28475 20.3444 6.35206 20.3751 6.41992C20.4212 6.52193 20.4654 6.62554 20.5079 6.72949C20.5929 6.93736 20.6704 7.14912 20.7403 7.36426C20.752 7.40007 20.7643 7.43568 20.7755 7.47168C20.854 7.724 20.9217 7.98108 20.9786 8.24219C20.9867 8.27947 20.9944 8.31704 21.0021 8.35449C21.1094 8.87901 21.1726 9.41978 21.1866 9.97266C21.1886 10.0517 21.1896 10.1315 21.1896 10.2109C21.1895 12.6219 20.0791 14.8029 18.631 16.625C15.2765 13.0468 15.2732 7.41498 18.6231 3.83398ZM12.0929 1.00098C12.6477 1.00801 13.1908 1.06412 13.7179 1.16504C13.7555 1.17225 13.7937 1.17983 13.8312 1.1875C13.906 1.20282 13.9806 1.21921 14.0548 1.23633C14.092 1.2449 14.1291 1.25367 14.1661 1.2627C14.4619 1.33485 14.7524 1.42059 15.0362 1.52051C15.1426 1.55795 15.2481 1.59748 15.3526 1.63867C15.8409 1.83109 16.3087 2.06477 16.7521 2.33398C16.8471 2.39169 16.9416 2.45072 17.0343 2.51172C17.2505 2.65397 17.4602 2.8054 17.6632 2.96484C17.6922 2.98761 17.7214 3.0101 17.7501 3.0332C17.8937 3.14877 18.0337 3.26877 18.17 3.39258C18.1972 3.41729 18.2242 3.44275 18.2511 3.46777C18.2862 3.50048 18.319 3.53609 18.3536 3.56934C14.7783 6.91577 9.16758 6.91573 5.59287 3.56836C7.24894 1.97886 9.49636 1.00001 11.9737 1L12.0929 1.00098Z" fill="#2C2C2C" />

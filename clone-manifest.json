@@ -1,11 +1,16 @@
 {
   "generatedBy": "website-builder lib/clone.mjs",
-  "source": "https://www.owner.com/?ref=saaspo.com",
+  "source": "https://www.owner.com/",
   "routes": [
     {
       "route": "/",
       "page": "src/pages/HomePage.jsx",
       "sections": 11
+    },
+    {
+      "route": "/privacy-policy",
+      "page": "src/pages/PrivacyPolicyPage.jsx",
+      "sections": 4
     },
     {
       "route": "/pricing",
@@ -168,31 +173,6 @@
       "sections": 7
     },
     {
-      "route": "/pos-demo",
-      "page": "src/pages/PosDemo.jsx",
-      "sections": 2
-    },
-    {
-      "route": "/case-studies/talkin-tacos",
-      "page": "src/pages/CaseStudiesTalkinTacos.jsx",
-      "sections": 8
-    },
-    {
-      "route": "/case-studies/ashleys-cafe",
-      "page": "src/pages/CaseStudiesAshleysCafe.jsx",
-      "sections": 8
-    },
-    {
-      "route": "/case-studies/karv-greek-kouzina",
-      "page": "src/pages/CaseStudiesKarvGreek.jsx",
-      "sections": 8
-    },
-    {
-      "route": "/privacy-policy",
-      "page": "src/pages/PrivacyPolicyPage.jsx",
-      "sections": 4
-    },
-    {
       "route": "/email-sms-marketing",
       "page": "src/pages/EmailSmsMarketing.jsx",
       "sections": 8
@@ -223,9 +203,29 @@
       "sections": 4
     },
     {
+      "route": "/pos-demo",
+      "page": "src/pages/PosDemo.jsx",
+      "sections": 2
+    },
+    {
       "route": "/copyright-policy",
       "page": "src/pages/CopyrightPolicyPage.jsx",
       "sections": 4
+    },
+    {
+      "route": "/case-studies/talkin-tacos",
+      "page": "src/pages/CaseStudiesTalkinTacos.jsx",
+      "sections": 8
+    },
+    {
+      "route": "/case-studies/ashleys-cafe",
+      "page": "src/pages/CaseStudiesAshleysCafe.jsx",
+      "sections": 8
+    },
+    {
+      "route": "/case-studies/karv-greek-kouzina",
+      "page": "src/pages/CaseStudiesKarvGreek.jsx",
+      "sections": 8
     },
     {
       "route": "/case-studies/mattengas-pizzeria",
@@ -443,11 +443,6 @@
       "sections": 4
     },
     {
-      "route": "/blog/restaurant-marketing-ideas",
-      "page": "src/pages/BlogRestaurantMarketingIdeas.jsx",
-      "sections": 4
-    },
-    {
       "route": "/blog/catering-marketing",
       "page": "src/pages/BlogCateringMarketing.jsx",
       "sections": 4
@@ -460,11 +455,6 @@
     {
       "route": "/blog/restaurant-website-design",
       "page": "src/pages/BlogRestaurantWebsiteDesign.jsx",
-      "sections": 4
-    },
-    {
-      "route": "/blog/how-to-increase-restaurant-sales",
-      "page": "src/pages/BlogHowToIncrease.jsx",
       "sections": 4
     },
     {
@@ -494,17 +484,12 @@
     },
     {
       "route": "/blog/how-to-increase-average-check-size",
-      "page": "src/pages/BlogHowToIncreasePage.jsx",
+      "page": "src/pages/BlogHowToIncrease.jsx",
       "sections": 4
     },
     {
       "route": "/blog/digital-marketing-for-restaurants",
       "page": "src/pages/BlogDigitalMarketingFor.jsx",
-      "sections": 4
-    },
-    {
-      "route": "/blog/how-to-create-a-restaurant-marketing-plan",
-      "page": "src/pages/BlogHowToCreatePage.jsx",
       "sections": 4
     },
     {
@@ -559,7 +544,7 @@
     },
     {
       "route": "/blog/how-to-create-online-ordering-restaurant",
-      "page": "src/pages/BlogHowToCreatePage2.jsx",
+      "page": "src/pages/BlogHowToCreatePage.jsx",
       "sections": 4
     },
     {
@@ -703,11 +688,6 @@
       "sections": 4
     },
     {
-      "route": "/blog/toast-vs-square",
-      "page": "src/pages/BlogToastVsSquare.jsx",
-      "sections": 4
-    },
-    {
       "route": "/blog/toast-vs-clover",
       "page": "src/pages/BlogToastVsClover.jsx",
       "sections": 4
@@ -721,6 +701,26 @@
       "route": "/blog/97-best-taco-captions-for-instagram",
       "page": "src/pages/Blog97BestTaco.jsx",
       "sections": 4
+    },
+    {
+      "route": "/blog/restaurant-marketing-ideas",
+      "page": "src/pages/BlogRestaurantMarketingIdeas.jsx",
+      "sections": 4
+    },
+    {
+      "route": "/blog/how-to-increase-restaurant-sales",
+      "page": "src/pages/BlogHowToIncreasePage.jsx",
+      "sections": 4
+    },
+    {
+      "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+      "page": "src/pages/BlogHowToCreatePage2.jsx",
+      "sections": 4
+    },
+    {
+      "route": "/blog/toast-vs-square",
+      "page": "src/pages/BlogToastVsSquare.jsx",
+      "sections": 4
     }
   ],
   "components": [
@@ -732,6 +732,9 @@
           "route": "/",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -742,6 +745,9 @@
           "route": "/",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-hp-hero"
       ]
     },
     {
@@ -752,6 +758,9 @@
           "route": "/",
           "idx": 2
         }
+      ],
+      "sections": [
+        "proof.section-stories"
       ]
     },
     {
@@ -762,6 +771,9 @@
           "route": "/",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-owner-stack"
       ]
     },
     {
@@ -784,6 +796,9 @@
           "route": "/reorders",
           "idx": 4
         }
+      ],
+      "sections": [
+        "proof.section-reviews"
       ]
     },
     {
@@ -794,6 +809,9 @@
           "route": "/",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-restaurant"
       ]
     },
     {
@@ -892,6 +910,9 @@
           "route": "/reorders",
           "idx": 6
         }
+      ],
+      "sections": [
+        "proof.section-testimonials"
       ]
     },
     {
@@ -902,6 +923,9 @@
           "route": "/",
           "idx": 7
         }
+      ],
+      "sections": [
+        "proof.section-beliefs"
       ]
     },
     {
@@ -916,6 +940,9 @@
           "route": "/delivery",
           "idx": 6
         }
+      ],
+      "sections": [
+        "content.section-guides"
       ]
     },
     {
@@ -926,6 +953,9 @@
           "route": "/",
           "idx": 9
         }
+      ],
+      "sections": [
+        "cta.section-cta"
       ]
     },
     {
@@ -953,6 +983,10 @@
           "idx": 6
         },
         {
+          "route": "/copyright-policy",
+          "idx": 3
+        },
+        {
           "route": "/case-studies/talkin-tacos",
           "idx": 7
         },
@@ -963,10 +997,6 @@
         {
           "route": "/case-studies/karv-greek-kouzina",
           "idx": 7
-        },
-        {
-          "route": "/copyright-policy",
-          "idx": 3
         },
         {
           "route": "/case-studies/mattengas-pizzeria",
@@ -1109,10 +1139,6 @@
           "idx": 3
         },
         {
-          "route": "/blog/restaurant-marketing-ideas",
-          "idx": 3
-        },
-        {
           "route": "/blog/catering-marketing",
           "idx": 3
         },
@@ -1122,10 +1148,6 @@
         },
         {
           "route": "/blog/restaurant-website-design",
-          "idx": 3
-        },
-        {
-          "route": "/blog/how-to-increase-restaurant-sales",
           "idx": 3
         },
         {
@@ -1154,10 +1176,6 @@
         },
         {
           "route": "/blog/digital-marketing-for-restaurants",
-          "idx": 3
-        },
-        {
-          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
           "idx": 3
         },
         {
@@ -1317,10 +1335,6 @@
           "idx": 3
         },
         {
-          "route": "/blog/toast-vs-square",
-          "idx": 3
-        },
-        {
           "route": "/blog/toast-vs-clover",
           "idx": 3
         },
@@ -1331,7 +1345,26 @@
         {
           "route": "/blog/97-best-taco-captions-for-instagram",
           "idx": 3
+        },
+        {
+          "route": "/blog/restaurant-marketing-ideas",
+          "idx": 3
+        },
+        {
+          "route": "/blog/how-to-increase-restaurant-sales",
+          "idx": 3
+        },
+        {
+          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+          "idx": 3
+        },
+        {
+          "route": "/blog/toast-vs-square",
+          "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -1339,9 +1372,940 @@
       "file": "src/sections/NavWrapper2.jsx",
       "usedBy": [
         {
+          "route": "/privacy-policy",
+          "idx": 0
+        },
+        {
+          "route": "/email-sms-marketing",
+          "idx": 0
+        },
+        {
+          "route": "/website-terms",
+          "idx": 0
+        },
+        {
+          "route": "/disclaimer",
+          "idx": 0
+        },
+        {
+          "route": "/restaurant-participation-agreement",
+          "idx": 0
+        },
+        {
+          "route": "/platform-terms",
+          "idx": 0
+        },
+        {
+          "route": "/accessibility",
+          "idx": 0
+        },
+        {
+          "route": "/copyright-policy",
+          "idx": 0
+        },
+        {
+          "route": "/blog/seo-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-create-a-restaurant-website",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-marketing",
+          "idx": 0
+        },
+        {
+          "route": "/blog/email-marketing-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/mobile-app-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/online-ordering-system-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/ca/pricing",
+          "idx": 0
+        },
+        {
+          "route": "/blog/local-seo-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/website-builders-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-mobile-app",
+          "idx": 0
+        },
+        {
+          "route": "/reorders",
+          "idx": 0
+        },
+        {
+          "route": "/blog-category/increase-sales",
+          "idx": 0
+        },
+        {
+          "route": "/blog-category/restaurant-software",
+          "idx": 0
+        },
+        {
+          "route": "/blog-category/marketing-strategy",
+          "idx": 0
+        },
+        {
+          "route": "/blog-category/restaurant-websites",
+          "idx": 0
+        },
+        {
+          "route": "/blog-category/industry-trends-data",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-promotion-ideas",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-costs",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-pos-system-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-loyalty-programs",
+          "idx": 0
+        },
+        {
+          "route": "/blog/97-best-pizza-captions-for-instagram",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-restaurant-websites",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-pizza-websites",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-trends",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-menu-examples",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-failure-rate",
+          "idx": 0
+        },
+        {
+          "route": "/blog/catering-marketing",
+          "idx": 0
+        },
+        {
+          "route": "/blog/food-delivery-statistics",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-website-design",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-make-a-menu",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-description",
+          "idx": 0
+        },
+        {
+          "route": "/blog/social-media-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-business-plan",
+          "idx": 0
+        },
+        {
+          "route": "/blog/menu-pricing",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-increase-average-check-size",
+          "idx": 0
+        },
+        {
+          "route": "/blog/digital-marketing-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/sms-marketing-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/instagram-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-customer-retention",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-analytics",
+          "idx": 0
+        },
+        {
+          "route": "/blog/average-restaurant-profit-margin",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-marketing-tools",
+          "idx": 0
+        },
+        {
+          "route": "/blog/toast-competitors",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-accounting",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-growth",
+          "idx": 0
+        },
+        {
+          "route": "/blog/pizza-advertising-ideas",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-create-online-ordering-restaurant",
+          "idx": 0
+        },
+        {
+          "route": "/blog/cafe-pos",
+          "idx": 0
+        },
+        {
+          "route": "/blog/catering-delivery-apps",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-management-software",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-pos-for-small-business",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-pos-system-cost",
+          "idx": 0
+        },
+        {
+          "route": "/blog/pizza-pos-system",
+          "idx": 0
+        },
+        {
+          "route": "/blog/square-alternatives",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-restaurant-crms",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-tech-stack",
+          "idx": 0
+        },
+        {
+          "route": "/blog/menu-engineering",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-growth-secrets-guides",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-branding-more-direct-orders",
+          "idx": 0
+        },
+        {
+          "route": "/blog/food-cost-percentage",
+          "idx": 0
+        },
+        {
+          "route": "/blog/food-trends",
+          "idx": 0
+        },
+        {
+          "route": "/blog/third-party-vs-direct-ordering",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-prime-cost",
+          "idx": 0
+        },
+        {
+          "route": "/blog/mobile-marketing-for-restaurants",
+          "idx": 0
+        },
+        {
+          "route": "/blog/best-apps-for-restaurant-owners",
+          "idx": 0
+        },
+        {
+          "route": "/blog/pos-restaurant-meaning",
+          "idx": 0
+        },
+        {
+          "route": "/blog/square-pos-system-cost",
+          "idx": 0
+        },
+        {
+          "route": "/blog/toast-pricing",
+          "idx": 0
+        },
+        {
+          "route": "/blog/pizza-marketing-strategy",
+          "idx": 0
+        },
+        {
+          "route": "/blog/97-best-burger-captions-for-instagram",
+          "idx": 0
+        },
+        {
+          "route": "/blog/97-best-restaurant-captions-for-instagram",
+          "idx": 0
+        },
+        {
+          "route": "/blog/pos-reporting",
+          "idx": 0
+        },
+        {
+          "route": "/blog/toast-vs-clover",
+          "idx": 0
+        },
+        {
+          "route": "/blog/97-best-taco-captions-for-instagram",
+          "idx": 0
+        },
+        {
+          "route": "/blog/restaurant-marketing-ideas",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-increase-restaurant-sales",
+          "idx": 0
+        },
+        {
+          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+          "idx": 0
+        },
+        {
+          "route": "/blog/toast-vs-square",
+          "idx": 0
+        }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
+      ]
+    },
+    {
+      "component": "PrivacyPolicy",
+      "file": "src/sections/PrivacyPolicy.jsx",
+      "usedBy": [
+        {
+          "route": "/privacy-policy",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "IsProductPage",
+      "file": "src/sections/IsProductPage.jsx",
+      "usedBy": [
+        {
+          "route": "/privacy-policy",
+          "idx": 2
+        },
+        {
+          "route": "/pricing",
+          "idx": 7
+        },
+        {
+          "route": "/restaurant-website-ai",
+          "idx": 6
+        },
+        {
+          "route": "/restaurant-seo",
+          "idx": 6
+        },
+        {
+          "route": "/online-menu",
+          "idx": 6
+        },
+        {
+          "route": "/reviews-engine",
+          "idx": 6
+        },
+        {
+          "route": "/listings-management",
+          "idx": 6
+        },
+        {
+          "route": "/online-ordering",
+          "idx": 6
+        },
+        {
+          "route": "/smart-upsells",
+          "idx": 6
+        },
+        {
+          "route": "/delivery",
+          "idx": 7
+        },
+        {
+          "route": "/catering",
+          "idx": 6
+        },
+        {
+          "route": "/ai-phone-ordering",
+          "idx": 6
+        },
+        {
+          "route": "/branded-apps",
+          "idx": 6
+        },
+        {
+          "route": "/automatic-marketing",
+          "idx": 6
+        },
+        {
+          "route": "/push-notifications",
+          "idx": 6
+        },
+        {
+          "route": "/loyalty-rewards",
+          "idx": 6
+        },
+        {
+          "route": "/mobile",
+          "idx": 4
+        },
+        {
+          "route": "/reporting-analytics",
+          "idx": 6
+        },
+        {
+          "route": "/kitchen-tablet",
+          "idx": 6
+        },
+        {
+          "route": "/pos-integrations",
+          "idx": 6
+        },
+        {
+          "route": "/leadership",
+          "idx": 6
+        },
+        {
+          "route": "/press",
+          "idx": 4
+        },
+        {
+          "route": "/reviews",
+          "idx": 3
+        },
+        {
+          "route": "/case-studies",
+          "idx": 3
+        },
+        {
+          "route": "/blog",
+          "idx": 5
+        },
+        {
+          "route": "/support",
+          "idx": 5
+        },
+        {
+          "route": "/email-sms-marketing",
+          "idx": 6
+        },
+        {
+          "route": "/website-terms",
+          "idx": 2
+        },
+        {
+          "route": "/disclaimer",
+          "idx": 2
+        },
+        {
+          "route": "/restaurant-participation-agreement",
+          "idx": 2
+        },
+        {
+          "route": "/platform-terms",
+          "idx": 2
+        },
+        {
+          "route": "/accessibility",
+          "idx": 2
+        },
+        {
+          "route": "/copyright-policy",
+          "idx": 2
+        },
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/mattengas-pizzeria",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/saffron",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/metro-pizza",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/cyclo-noodles",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/salud",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/rig-a-tonys",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/gyro-concept",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/doo-dah-diner",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/san-diego-kabob-shack",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/sushi-addicts",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/sushi-me-rollin",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/goi-cuon",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/hillcrust-pizza",
+          "idx": 6
+        },
+        {
+          "route": "/case-studies/township-line-pizza",
+          "idx": 6
+        },
+        {
+          "route": "/blog/seo-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-create-a-restaurant-website",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-marketing",
+          "idx": 2
+        },
+        {
+          "route": "/blog/email-marketing-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/mobile-app-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/online-ordering-system-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/ca/pricing",
+          "idx": 7
+        },
+        {
+          "route": "/case-studies/samos-oaxaca",
+          "idx": 6
+        },
+        {
+          "route": "/blog/local-seo-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/website-builders-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-mobile-app",
+          "idx": 2
+        },
+        {
+          "route": "/reorders",
+          "idx": 7
+        },
+        {
+          "route": "/blog-category/increase-sales",
+          "idx": 3
+        },
+        {
+          "route": "/blog-category/restaurant-software",
+          "idx": 3
+        },
+        {
+          "route": "/blog-category/marketing-strategy",
+          "idx": 3
+        },
+        {
+          "route": "/blog-category/restaurant-websites",
+          "idx": 3
+        },
+        {
+          "route": "/blog-category/industry-trends-data",
+          "idx": 3
+        },
+        {
+          "route": "/blog/restaurant-promotion-ideas",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-costs",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-pos-system-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-loyalty-programs",
+          "idx": 2
+        },
+        {
+          "route": "/blog/97-best-pizza-captions-for-instagram",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-restaurant-websites",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-pizza-websites",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-trends",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-menu-examples",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-failure-rate",
+          "idx": 2
+        },
+        {
+          "route": "/blog/catering-marketing",
+          "idx": 2
+        },
+        {
+          "route": "/blog/food-delivery-statistics",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-website-design",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-make-a-menu",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-description",
+          "idx": 2
+        },
+        {
+          "route": "/blog/social-media-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-business-plan",
+          "idx": 2
+        },
+        {
+          "route": "/blog/menu-pricing",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-increase-average-check-size",
+          "idx": 2
+        },
+        {
+          "route": "/blog/digital-marketing-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/sms-marketing-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/instagram-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-customer-retention",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-analytics",
+          "idx": 2
+        },
+        {
+          "route": "/blog/average-restaurant-profit-margin",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-marketing-tools",
+          "idx": 2
+        },
+        {
+          "route": "/blog/toast-competitors",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-accounting",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-growth",
+          "idx": 2
+        },
+        {
+          "route": "/blog/pizza-advertising-ideas",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-create-online-ordering-restaurant",
+          "idx": 2
+        },
+        {
+          "route": "/blog/cafe-pos",
+          "idx": 2
+        },
+        {
+          "route": "/blog/catering-delivery-apps",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-management-software",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-pos-for-small-business",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-pos-system-cost",
+          "idx": 2
+        },
+        {
+          "route": "/blog/pizza-pos-system",
+          "idx": 2
+        },
+        {
+          "route": "/blog/square-alternatives",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-restaurant-crms",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-tech-stack",
+          "idx": 2
+        },
+        {
+          "route": "/blog/menu-engineering",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-growth-secrets-guides",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-branding-more-direct-orders",
+          "idx": 2
+        },
+        {
+          "route": "/blog/food-cost-percentage",
+          "idx": 2
+        },
+        {
+          "route": "/blog/food-trends",
+          "idx": 2
+        },
+        {
+          "route": "/blog/third-party-vs-direct-ordering",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-prime-cost",
+          "idx": 2
+        },
+        {
+          "route": "/blog/mobile-marketing-for-restaurants",
+          "idx": 2
+        },
+        {
+          "route": "/blog/best-apps-for-restaurant-owners",
+          "idx": 2
+        },
+        {
+          "route": "/blog/pos-restaurant-meaning",
+          "idx": 2
+        },
+        {
+          "route": "/blog/square-pos-system-cost",
+          "idx": 2
+        },
+        {
+          "route": "/blog/toast-pricing",
+          "idx": 2
+        },
+        {
+          "route": "/resources/ottavios-case-study",
+          "idx": 2
+        },
+        {
+          "route": "/resources/google-business-profile-tps",
+          "idx": 2
+        },
+        {
+          "route": "/blog/pizza-marketing-strategy",
+          "idx": 2
+        },
+        {
+          "route": "/blog/97-best-burger-captions-for-instagram",
+          "idx": 2
+        },
+        {
+          "route": "/resources/menu-engineering",
+          "idx": 2
+        },
+        {
+          "route": "/blog/97-best-restaurant-captions-for-instagram",
+          "idx": 2
+        },
+        {
+          "route": "/blog/pos-reporting",
+          "idx": 2
+        },
+        {
+          "route": "/blog/toast-vs-clover",
+          "idx": 2
+        },
+        {
+          "route": "/downloads/pizza-marketing-checklist",
+          "idx": 2
+        },
+        {
+          "route": "/blog/97-best-taco-captions-for-instagram",
+          "idx": 2
+        },
+        {
+          "route": "/blog/restaurant-marketing-ideas",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-increase-restaurant-sales",
+          "idx": 2
+        },
+        {
+          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+          "idx": 2
+        },
+        {
+          "route": "/blog/toast-vs-square",
+          "idx": 2
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "Section2",
+      "file": "src/sections/Section2.jsx",
+      "usedBy": [
+        {
+          "route": "/privacy-policy",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "NavWrapper3",
+      "file": "src/sections/NavWrapper3.jsx",
+      "usedBy": [
+        {
           "route": "/pricing",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -1352,6 +2316,9 @@
           "route": "/pricing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -1366,6 +2333,9 @@
           "route": "/ca/pricing",
           "idx": 3
         }
+      ],
+      "sections": [
+        "proof.section-beliefs"
       ]
     },
     {
@@ -1376,6 +2346,9 @@
           "route": "/pricing",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -1386,558 +2359,22 @@
           "route": "/pricing",
           "idx": 6
         }
+      ],
+      "sections": [
+        "support.form"
       ]
     },
     {
-      "component": "IsProductPage",
-      "file": "src/sections/IsProductPage.jsx",
-      "usedBy": [
-        {
-          "route": "/pricing",
-          "idx": 7
-        },
-        {
-          "route": "/restaurant-website-ai",
-          "idx": 6
-        },
-        {
-          "route": "/restaurant-seo",
-          "idx": 6
-        },
-        {
-          "route": "/online-menu",
-          "idx": 6
-        },
-        {
-          "route": "/reviews-engine",
-          "idx": 6
-        },
-        {
-          "route": "/listings-management",
-          "idx": 6
-        },
-        {
-          "route": "/online-ordering",
-          "idx": 6
-        },
-        {
-          "route": "/smart-upsells",
-          "idx": 6
-        },
-        {
-          "route": "/delivery",
-          "idx": 7
-        },
-        {
-          "route": "/catering",
-          "idx": 6
-        },
-        {
-          "route": "/ai-phone-ordering",
-          "idx": 6
-        },
-        {
-          "route": "/branded-apps",
-          "idx": 6
-        },
-        {
-          "route": "/automatic-marketing",
-          "idx": 6
-        },
-        {
-          "route": "/push-notifications",
-          "idx": 6
-        },
-        {
-          "route": "/loyalty-rewards",
-          "idx": 6
-        },
-        {
-          "route": "/mobile",
-          "idx": 4
-        },
-        {
-          "route": "/reporting-analytics",
-          "idx": 6
-        },
-        {
-          "route": "/kitchen-tablet",
-          "idx": 6
-        },
-        {
-          "route": "/pos-integrations",
-          "idx": 6
-        },
-        {
-          "route": "/leadership",
-          "idx": 6
-        },
-        {
-          "route": "/press",
-          "idx": 4
-        },
-        {
-          "route": "/reviews",
-          "idx": 3
-        },
-        {
-          "route": "/case-studies",
-          "idx": 3
-        },
-        {
-          "route": "/blog",
-          "idx": 5
-        },
-        {
-          "route": "/support",
-          "idx": 5
-        },
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 6
-        },
-        {
-          "route": "/privacy-policy",
-          "idx": 2
-        },
-        {
-          "route": "/email-sms-marketing",
-          "idx": 6
-        },
-        {
-          "route": "/website-terms",
-          "idx": 2
-        },
-        {
-          "route": "/disclaimer",
-          "idx": 2
-        },
-        {
-          "route": "/restaurant-participation-agreement",
-          "idx": 2
-        },
-        {
-          "route": "/platform-terms",
-          "idx": 2
-        },
-        {
-          "route": "/accessibility",
-          "idx": 2
-        },
-        {
-          "route": "/copyright-policy",
-          "idx": 2
-        },
-        {
-          "route": "/case-studies/mattengas-pizzeria",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/saffron",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/metro-pizza",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/cyclo-noodles",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/salud",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/rig-a-tonys",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/gyro-concept",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/doo-dah-diner",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/san-diego-kabob-shack",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/sushi-addicts",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/sushi-me-rollin",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/goi-cuon",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/hillcrust-pizza",
-          "idx": 6
-        },
-        {
-          "route": "/case-studies/township-line-pizza",
-          "idx": 6
-        },
-        {
-          "route": "/blog/seo-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-create-a-restaurant-website",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-marketing",
-          "idx": 2
-        },
-        {
-          "route": "/blog/email-marketing-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/mobile-app-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/online-ordering-system-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/ca/pricing",
-          "idx": 7
-        },
-        {
-          "route": "/case-studies/samos-oaxaca",
-          "idx": 6
-        },
-        {
-          "route": "/blog/local-seo-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/website-builders-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-mobile-app",
-          "idx": 2
-        },
-        {
-          "route": "/reorders",
-          "idx": 7
-        },
-        {
-          "route": "/blog-category/increase-sales",
-          "idx": 3
-        },
-        {
-          "route": "/blog-category/restaurant-software",
-          "idx": 3
-        },
-        {
-          "route": "/blog-category/marketing-strategy",
-          "idx": 3
-        },
-        {
-          "route": "/blog-category/restaurant-websites",
-          "idx": 3
-        },
-        {
-          "route": "/blog-category/industry-trends-data",
-          "idx": 3
-        },
-        {
-          "route": "/blog/restaurant-promotion-ideas",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-costs",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-pos-system-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-loyalty-programs",
-          "idx": 2
-        },
-        {
-          "route": "/blog/97-best-pizza-captions-for-instagram",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-restaurant-websites",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-pizza-websites",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-trends",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-menu-examples",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-failure-rate",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-marketing-ideas",
-          "idx": 2
-        },
-        {
-          "route": "/blog/catering-marketing",
-          "idx": 2
-        },
-        {
-          "route": "/blog/food-delivery-statistics",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-website-design",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-increase-restaurant-sales",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-make-a-menu",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-description",
-          "idx": 2
-        },
-        {
-          "route": "/blog/social-media-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-business-plan",
-          "idx": 2
-        },
-        {
-          "route": "/blog/menu-pricing",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-increase-average-check-size",
-          "idx": 2
-        },
-        {
-          "route": "/blog/digital-marketing-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
-          "idx": 2
-        },
-        {
-          "route": "/blog/sms-marketing-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/instagram-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-customer-retention",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-analytics",
-          "idx": 2
-        },
-        {
-          "route": "/blog/average-restaurant-profit-margin",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-marketing-tools",
-          "idx": 2
-        },
-        {
-          "route": "/blog/toast-competitors",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-accounting",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-growth",
-          "idx": 2
-        },
-        {
-          "route": "/blog/pizza-advertising-ideas",
-          "idx": 2
-        },
-        {
-          "route": "/blog/how-to-create-online-ordering-restaurant",
-          "idx": 2
-        },
-        {
-          "route": "/blog/cafe-pos",
-          "idx": 2
-        },
-        {
-          "route": "/blog/catering-delivery-apps",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-management-software",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-pos-for-small-business",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-pos-system-cost",
-          "idx": 2
-        },
-        {
-          "route": "/blog/pizza-pos-system",
-          "idx": 2
-        },
-        {
-          "route": "/blog/square-alternatives",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-restaurant-crms",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-tech-stack",
-          "idx": 2
-        },
-        {
-          "route": "/blog/menu-engineering",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-growth-secrets-guides",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-branding-more-direct-orders",
-          "idx": 2
-        },
-        {
-          "route": "/blog/food-cost-percentage",
-          "idx": 2
-        },
-        {
-          "route": "/blog/food-trends",
-          "idx": 2
-        },
-        {
-          "route": "/blog/third-party-vs-direct-ordering",
-          "idx": 2
-        },
-        {
-          "route": "/blog/restaurant-prime-cost",
-          "idx": 2
-        },
-        {
-          "route": "/blog/mobile-marketing-for-restaurants",
-          "idx": 2
-        },
-        {
-          "route": "/blog/best-apps-for-restaurant-owners",
-          "idx": 2
-        },
-        {
-          "route": "/blog/pos-restaurant-meaning",
-          "idx": 2
-        },
-        {
-          "route": "/blog/square-pos-system-cost",
-          "idx": 2
-        },
-        {
-          "route": "/blog/toast-pricing",
-          "idx": 2
-        },
-        {
-          "route": "/resources/ottavios-case-study",
-          "idx": 2
-        },
-        {
-          "route": "/resources/google-business-profile-tps",
-          "idx": 2
-        },
-        {
-          "route": "/blog/pizza-marketing-strategy",
-          "idx": 2
-        },
-        {
-          "route": "/blog/97-best-burger-captions-for-instagram",
-          "idx": 2
-        },
-        {
-          "route": "/resources/menu-engineering",
-          "idx": 2
-        },
-        {
-          "route": "/blog/97-best-restaurant-captions-for-instagram",
-          "idx": 2
-        },
-        {
-          "route": "/blog/pos-reporting",
-          "idx": 2
-        },
-        {
-          "route": "/blog/toast-vs-square",
-          "idx": 2
-        },
-        {
-          "route": "/blog/toast-vs-clover",
-          "idx": 2
-        },
-        {
-          "route": "/downloads/pizza-marketing-checklist",
-          "idx": 2
-        },
-        {
-          "route": "/blog/97-best-taco-captions-for-instagram",
-          "idx": 2
-        }
-      ]
-    },
-    {
-      "component": "NavWrapper3",
-      "file": "src/sections/NavWrapper3.jsx",
+      "component": "NavWrapper4",
+      "file": "src/sections/NavWrapper4.jsx",
       "usedBy": [
         {
           "route": "/how-owner-works",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -1948,6 +2385,9 @@
           "route": "/how-owner-works",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-center-hero"
       ]
     },
     {
@@ -1958,6 +2398,9 @@
           "route": "/how-owner-works",
           "idx": 2
         }
+      ],
+      "sections": [
+        "features.section-hiw-steps"
       ]
     },
     {
@@ -1968,26 +2411,35 @@
           "route": "/how-owner-works",
           "idx": 3
         }
+      ],
+      "sections": [
+        "cta.section-cta"
       ]
     },
     {
-      "component": "Section2",
-      "file": "src/sections/Section2.jsx",
+      "component": "Section3",
+      "file": "src/sections/Section3.jsx",
       "usedBy": [
         {
           "route": "/how-owner-works",
           "idx": 4
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper4",
-      "file": "src/sections/NavWrapper4.jsx",
+      "component": "NavWrapper5",
+      "file": "src/sections/NavWrapper5.jsx",
       "usedBy": [
         {
           "route": "/restaurant-website-ai",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -1998,6 +2450,9 @@
           "route": "/restaurant-website-ai",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2008,6 +2463,9 @@
           "route": "/restaurant-website-ai",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2018,6 +2476,9 @@
           "route": "/restaurant-website-ai",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2028,26 +2489,35 @@
           "route": "/restaurant-website-ai",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section3",
-      "file": "src/sections/Section3.jsx",
+      "component": "Section4",
+      "file": "src/sections/Section4.jsx",
       "usedBy": [
         {
           "route": "/restaurant-website-ai",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper5",
-      "file": "src/sections/NavWrapper5.jsx",
+      "component": "NavWrapper6",
+      "file": "src/sections/NavWrapper6.jsx",
       "usedBy": [
         {
           "route": "/restaurant-seo",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2058,6 +2528,9 @@
           "route": "/restaurant-seo",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2068,6 +2541,9 @@
           "route": "/restaurant-seo",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2078,6 +2554,9 @@
           "route": "/restaurant-seo",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2088,26 +2567,35 @@
           "route": "/restaurant-seo",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section4",
-      "file": "src/sections/Section4.jsx",
+      "component": "Section5",
+      "file": "src/sections/Section5.jsx",
       "usedBy": [
         {
           "route": "/restaurant-seo",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper6",
-      "file": "src/sections/NavWrapper6.jsx",
+      "component": "NavWrapper7",
+      "file": "src/sections/NavWrapper7.jsx",
       "usedBy": [
         {
           "route": "/online-menu",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2118,6 +2606,9 @@
           "route": "/online-menu",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2128,6 +2619,9 @@
           "route": "/online-menu",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2138,6 +2632,9 @@
           "route": "/online-menu",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2148,26 +2645,35 @@
           "route": "/online-menu",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section5",
-      "file": "src/sections/Section5.jsx",
+      "component": "Section6",
+      "file": "src/sections/Section6.jsx",
       "usedBy": [
         {
           "route": "/online-menu",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper7",
-      "file": "src/sections/NavWrapper7.jsx",
+      "component": "NavWrapper8",
+      "file": "src/sections/NavWrapper8.jsx",
       "usedBy": [
         {
           "route": "/reviews-engine",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2178,6 +2684,9 @@
           "route": "/reviews-engine",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2188,6 +2697,9 @@
           "route": "/reviews-engine",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2198,6 +2710,9 @@
           "route": "/reviews-engine",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2208,26 +2723,35 @@
           "route": "/reviews-engine",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section6",
-      "file": "src/sections/Section6.jsx",
+      "component": "Section7",
+      "file": "src/sections/Section7.jsx",
       "usedBy": [
         {
           "route": "/reviews-engine",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper8",
-      "file": "src/sections/NavWrapper8.jsx",
+      "component": "NavWrapper9",
+      "file": "src/sections/NavWrapper9.jsx",
       "usedBy": [
         {
           "route": "/listings-management",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2238,6 +2762,9 @@
           "route": "/listings-management",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2248,6 +2775,9 @@
           "route": "/listings-management",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2258,6 +2788,9 @@
           "route": "/listings-management",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2268,26 +2801,35 @@
           "route": "/listings-management",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section7",
-      "file": "src/sections/Section7.jsx",
+      "component": "Section8",
+      "file": "src/sections/Section8.jsx",
       "usedBy": [
         {
           "route": "/listings-management",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper9",
-      "file": "src/sections/NavWrapper9.jsx",
+      "component": "NavWrapper10",
+      "file": "src/sections/NavWrapper10.jsx",
       "usedBy": [
         {
           "route": "/online-ordering",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2298,6 +2840,9 @@
           "route": "/online-ordering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2308,6 +2853,9 @@
           "route": "/online-ordering",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2318,6 +2866,9 @@
           "route": "/online-ordering",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2328,26 +2879,35 @@
           "route": "/online-ordering",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section8",
-      "file": "src/sections/Section8.jsx",
+      "component": "Section9",
+      "file": "src/sections/Section9.jsx",
       "usedBy": [
         {
           "route": "/online-ordering",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper10",
-      "file": "src/sections/NavWrapper10.jsx",
+      "component": "NavWrapper11",
+      "file": "src/sections/NavWrapper11.jsx",
       "usedBy": [
         {
           "route": "/smart-upsells",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2358,6 +2918,9 @@
           "route": "/smart-upsells",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2368,6 +2931,9 @@
           "route": "/smart-upsells",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2378,6 +2944,9 @@
           "route": "/smart-upsells",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2388,26 +2957,35 @@
           "route": "/smart-upsells",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section9",
-      "file": "src/sections/Section9.jsx",
+      "component": "Section10",
+      "file": "src/sections/Section10.jsx",
       "usedBy": [
         {
           "route": "/smart-upsells",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper11",
-      "file": "src/sections/NavWrapper11.jsx",
+      "component": "NavWrapper12",
+      "file": "src/sections/NavWrapper12.jsx",
       "usedBy": [
         {
           "route": "/delivery",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2418,6 +2996,9 @@
           "route": "/delivery",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2428,6 +3009,9 @@
           "route": "/delivery",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2438,6 +3022,9 @@
           "route": "/delivery",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2448,26 +3035,35 @@
           "route": "/delivery",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section10",
-      "file": "src/sections/Section10.jsx",
+      "component": "Section11",
+      "file": "src/sections/Section11.jsx",
       "usedBy": [
         {
           "route": "/delivery",
           "idx": 8
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper12",
-      "file": "src/sections/NavWrapper12.jsx",
+      "component": "NavWrapper13",
+      "file": "src/sections/NavWrapper13.jsx",
       "usedBy": [
         {
           "route": "/catering",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2478,6 +3074,9 @@
           "route": "/catering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2488,6 +3087,9 @@
           "route": "/catering",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2498,6 +3100,9 @@
           "route": "/catering",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2508,26 +3113,35 @@
           "route": "/catering",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section11",
-      "file": "src/sections/Section11.jsx",
+      "component": "Section12",
+      "file": "src/sections/Section12.jsx",
       "usedBy": [
         {
           "route": "/catering",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper13",
-      "file": "src/sections/NavWrapper13.jsx",
+      "component": "NavWrapper14",
+      "file": "src/sections/NavWrapper14.jsx",
       "usedBy": [
         {
           "route": "/ai-phone-ordering",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2538,6 +3152,9 @@
           "route": "/ai-phone-ordering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2548,6 +3165,9 @@
           "route": "/ai-phone-ordering",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2558,6 +3178,9 @@
           "route": "/ai-phone-ordering",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2568,26 +3191,35 @@
           "route": "/ai-phone-ordering",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section12",
-      "file": "src/sections/Section12.jsx",
+      "component": "Section13",
+      "file": "src/sections/Section13.jsx",
       "usedBy": [
         {
           "route": "/ai-phone-ordering",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper14",
-      "file": "src/sections/NavWrapper14.jsx",
+      "component": "NavWrapper15",
+      "file": "src/sections/NavWrapper15.jsx",
       "usedBy": [
         {
           "route": "/pos",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2598,6 +3230,9 @@
           "route": "/pos",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-v-hero"
       ]
     },
     {
@@ -2608,6 +3243,9 @@
           "route": "/pos",
           "idx": 2
         }
+      ],
+      "sections": [
+        "features.section-pos-steps"
       ]
     },
     {
@@ -2618,6 +3256,9 @@
           "route": "/pos",
           "idx": 3
         }
+      ],
+      "sections": [
+        "support.section-leaders-support"
       ]
     },
     {
@@ -2628,6 +3269,9 @@
           "route": "/pos",
           "idx": 4
         }
+      ],
+      "sections": [
+        "proof.section-beliefs"
       ]
     },
     {
@@ -2638,6 +3282,9 @@
           "route": "/pos",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2648,26 +3295,35 @@
           "route": "/pos",
           "idx": 6
         }
+      ],
+      "sections": [
+        "cta.section-cta"
       ]
     },
     {
-      "component": "Section13",
-      "file": "src/sections/Section13.jsx",
+      "component": "Section14",
+      "file": "src/sections/Section14.jsx",
       "usedBy": [
         {
           "route": "/pos",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper15",
-      "file": "src/sections/NavWrapper15.jsx",
+      "component": "NavWrapper16",
+      "file": "src/sections/NavWrapper16.jsx",
       "usedBy": [
         {
           "route": "/branded-apps",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2678,6 +3334,9 @@
           "route": "/branded-apps",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2688,6 +3347,9 @@
           "route": "/branded-apps",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2698,6 +3360,9 @@
           "route": "/branded-apps",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2708,26 +3373,35 @@
           "route": "/branded-apps",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section14",
-      "file": "src/sections/Section14.jsx",
+      "component": "Section15",
+      "file": "src/sections/Section15.jsx",
       "usedBy": [
         {
           "route": "/branded-apps",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper16",
-      "file": "src/sections/NavWrapper16.jsx",
+      "component": "NavWrapper17",
+      "file": "src/sections/NavWrapper17.jsx",
       "usedBy": [
         {
           "route": "/automatic-marketing",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2738,6 +3412,9 @@
           "route": "/automatic-marketing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2748,6 +3425,9 @@
           "route": "/automatic-marketing",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2758,6 +3438,9 @@
           "route": "/automatic-marketing",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2768,26 +3451,35 @@
           "route": "/automatic-marketing",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section15",
-      "file": "src/sections/Section15.jsx",
+      "component": "Section16",
+      "file": "src/sections/Section16.jsx",
       "usedBy": [
         {
           "route": "/automatic-marketing",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper17",
-      "file": "src/sections/NavWrapper17.jsx",
+      "component": "NavWrapper18",
+      "file": "src/sections/NavWrapper18.jsx",
       "usedBy": [
         {
           "route": "/push-notifications",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2798,6 +3490,9 @@
           "route": "/push-notifications",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2808,6 +3503,9 @@
           "route": "/push-notifications",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2818,6 +3516,9 @@
           "route": "/push-notifications",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2828,26 +3529,35 @@
           "route": "/push-notifications",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section16",
-      "file": "src/sections/Section16.jsx",
+      "component": "Section17",
+      "file": "src/sections/Section17.jsx",
       "usedBy": [
         {
           "route": "/push-notifications",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper18",
-      "file": "src/sections/NavWrapper18.jsx",
+      "component": "NavWrapper19",
+      "file": "src/sections/NavWrapper19.jsx",
       "usedBy": [
         {
           "route": "/loyalty-rewards",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2858,6 +3568,9 @@
           "route": "/loyalty-rewards",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2868,6 +3581,9 @@
           "route": "/loyalty-rewards",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2878,6 +3594,9 @@
           "route": "/loyalty-rewards",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2888,26 +3607,35 @@
           "route": "/loyalty-rewards",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section17",
-      "file": "src/sections/Section17.jsx",
+      "component": "Section18",
+      "file": "src/sections/Section18.jsx",
       "usedBy": [
         {
           "route": "/loyalty-rewards",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper19",
-      "file": "src/sections/NavWrapper19.jsx",
+      "component": "NavWrapper20",
+      "file": "src/sections/NavWrapper20.jsx",
       "usedBy": [
         {
           "route": "/mobile",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2918,6 +3646,9 @@
           "route": "/mobile",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2928,26 +3659,35 @@
           "route": "/mobile",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section18",
-      "file": "src/sections/Section18.jsx",
+      "component": "Section19",
+      "file": "src/sections/Section19.jsx",
       "usedBy": [
         {
           "route": "/mobile",
           "idx": 5
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper20",
-      "file": "src/sections/NavWrapper20.jsx",
+      "component": "NavWrapper21",
+      "file": "src/sections/NavWrapper21.jsx",
       "usedBy": [
         {
           "route": "/reporting-analytics",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -2958,6 +3698,9 @@
           "route": "/reporting-analytics",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -2968,6 +3711,9 @@
           "route": "/reporting-analytics",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2978,6 +3724,9 @@
           "route": "/reporting-analytics",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -2988,26 +3737,35 @@
           "route": "/reporting-analytics",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section19",
-      "file": "src/sections/Section19.jsx",
+      "component": "Section20",
+      "file": "src/sections/Section20.jsx",
       "usedBy": [
         {
           "route": "/reporting-analytics",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper21",
-      "file": "src/sections/NavWrapper21.jsx",
+      "component": "NavWrapper22",
+      "file": "src/sections/NavWrapper22.jsx",
       "usedBy": [
         {
           "route": "/kitchen-tablet",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3018,6 +3776,9 @@
           "route": "/kitchen-tablet",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -3028,6 +3789,9 @@
           "route": "/kitchen-tablet",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3038,6 +3802,9 @@
           "route": "/kitchen-tablet",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3048,26 +3815,35 @@
           "route": "/kitchen-tablet",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section20",
-      "file": "src/sections/Section20.jsx",
+      "component": "Section21",
+      "file": "src/sections/Section21.jsx",
       "usedBy": [
         {
           "route": "/kitchen-tablet",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper22",
-      "file": "src/sections/NavWrapper22.jsx",
+      "component": "NavWrapper23",
+      "file": "src/sections/NavWrapper23.jsx",
       "usedBy": [
         {
           "route": "/pos-integrations",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3078,6 +3854,9 @@
           "route": "/pos-integrations",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -3088,6 +3867,9 @@
           "route": "/pos-integrations",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3098,6 +3880,9 @@
           "route": "/pos-integrations",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3108,26 +3893,35 @@
           "route": "/pos-integrations",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
-      "component": "Section21",
-      "file": "src/sections/Section21.jsx",
+      "component": "Section22",
+      "file": "src/sections/Section22.jsx",
       "usedBy": [
         {
           "route": "/pos-integrations",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper23",
-      "file": "src/sections/NavWrapper23.jsx",
+      "component": "NavWrapper24",
+      "file": "src/sections/NavWrapper24.jsx",
       "usedBy": [
         {
           "route": "/our-story",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3138,6 +3932,9 @@
           "route": "/our-story",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-about-hero"
       ]
     },
     {
@@ -3148,6 +3945,9 @@
           "route": "/our-story",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-about-local"
       ]
     },
     {
@@ -3158,6 +3958,9 @@
           "route": "/our-story",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-about-stats"
       ]
     },
     {
@@ -3168,6 +3971,9 @@
           "route": "/our-story",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-about-how"
       ]
     },
     {
@@ -3178,16 +3984,22 @@
           "route": "/our-story",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-about-vision"
       ]
     },
     {
-      "component": "Section22",
-      "file": "src/sections/Section22.jsx",
+      "component": "Section23",
+      "file": "src/sections/Section23.jsx",
       "usedBy": [
         {
           "route": "/our-story",
           "idx": 6
         }
+      ],
+      "sections": [
+        "support.section-about-help"
       ]
     },
     {
@@ -3198,26 +4010,35 @@
           "route": "/our-story",
           "idx": 7
         }
+      ],
+      "sections": [
+        "cta.section-cta"
       ]
     },
     {
-      "component": "Section23",
-      "file": "src/sections/Section23.jsx",
+      "component": "Section24",
+      "file": "src/sections/Section24.jsx",
       "usedBy": [
         {
           "route": "/our-story",
           "idx": 8
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper24",
-      "file": "src/sections/NavWrapper24.jsx",
+      "component": "NavWrapper25",
+      "file": "src/sections/NavWrapper25.jsx",
       "usedBy": [
         {
           "route": "/careers",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3228,6 +4049,9 @@
           "route": "/careers",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-career-hero"
       ]
     },
     {
@@ -3238,6 +4062,9 @@
           "route": "/careers",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3248,6 +4075,9 @@
           "route": "/careers",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3258,6 +4088,9 @@
           "route": "/careers",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3268,6 +4101,9 @@
           "route": "/careers",
           "idx": 5
         }
+      ],
+      "sections": [
+        "cta.section-career-cta"
       ]
     },
     {
@@ -3282,6 +4118,9 @@
           "route": "/leadership",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3292,6 +4131,9 @@
           "route": "/careers",
           "idx": 7
         }
+      ],
+      "sections": [
+        "content.roles"
       ]
     },
     {
@@ -3306,26 +4148,35 @@
           "route": "/d",
           "idx": 23
         }
+      ],
+      "sections": [
+        "cta.section-cta"
       ]
     },
     {
-      "component": "Section24",
-      "file": "src/sections/Section24.jsx",
+      "component": "Section25",
+      "file": "src/sections/Section25.jsx",
       "usedBy": [
         {
           "route": "/careers",
           "idx": 9
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper25",
-      "file": "src/sections/NavWrapper25.jsx",
+      "component": "NavWrapper26",
+      "file": "src/sections/NavWrapper26.jsx",
       "usedBy": [
         {
           "route": "/leadership",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3336,6 +4187,9 @@
           "route": "/leadership",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-leadership-hero"
       ]
     },
     {
@@ -3346,6 +4200,9 @@
           "route": "/leadership",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3356,6 +4213,9 @@
           "route": "/leadership",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3366,16 +4226,22 @@
           "route": "/leadership",
           "idx": 4
         }
+      ],
+      "sections": [
+        "support.section-leaders-support"
       ]
     },
     {
-      "component": "Section25",
-      "file": "src/sections/Section25.jsx",
+      "component": "Section26",
+      "file": "src/sections/Section26.jsx",
       "usedBy": [
         {
           "route": "/leadership",
           "idx": 7
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -3386,6 +4252,9 @@
           "route": "/builders-wanted",
           "idx": 0
         }
+      ],
+      "sections": [
+        "hero.eng-section-eng-hero"
       ]
     },
     {
@@ -3396,16 +4265,22 @@
           "route": "/builders-wanted",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-eng-intro"
       ]
     },
     {
-      "component": "Section26",
-      "file": "src/sections/Section26.jsx",
+      "component": "Section27",
+      "file": "src/sections/Section27.jsx",
       "usedBy": [
         {
           "route": "/builders-wanted",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-eng-row"
       ]
     },
     {
@@ -3416,16 +4291,22 @@
           "route": "/builders-wanted",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-eng-row"
       ]
     },
     {
-      "component": "Section27",
-      "file": "src/sections/Section27.jsx",
+      "component": "Section28",
+      "file": "src/sections/Section28.jsx",
       "usedBy": [
         {
           "route": "/builders-wanted",
           "idx": 4
         }
+      ],
+      "sections": [
+        "features.section-eng-steps"
       ]
     },
     {
@@ -3436,6 +4317,9 @@
           "route": "/builders-wanted",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.eng-maxwdith"
       ]
     },
     {
@@ -3446,6 +4330,9 @@
           "route": "/builders-wanted",
           "idx": 6
         }
+      ],
+      "sections": [
+        "support.eng-steps-faq"
       ]
     },
     {
@@ -3456,6 +4343,9 @@
           "route": "/builders-wanted",
           "idx": 7
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3466,16 +4356,22 @@
           "route": "/builders-wanted",
           "idx": 8
         }
+      ],
+      "sections": [
+        "content.eng-lp-figure-wall"
       ]
     },
     {
-      "component": "Section28",
-      "file": "src/sections/Section28.jsx",
+      "component": "Section29",
+      "file": "src/sections/Section29.jsx",
       "usedBy": [
         {
           "route": "/builders-wanted",
           "idx": 9
         }
+      ],
+      "sections": [
+        "content.section-eng-row"
       ]
     },
     {
@@ -3486,6 +4382,9 @@
           "route": "/builders-wanted",
           "idx": 10
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3496,16 +4395,22 @@
           "route": "/builders-wanted",
           "idx": 11
         }
+      ],
+      "sections": [
+        "shell.eng-lp-footer"
       ]
     },
     {
-      "component": "NavWrapper26",
-      "file": "src/sections/NavWrapper26.jsx",
+      "component": "NavWrapper27",
+      "file": "src/sections/NavWrapper27.jsx",
       "usedBy": [
         {
           "route": "/press",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3516,6 +4421,9 @@
           "route": "/press",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3526,6 +4434,9 @@
           "route": "/press",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.pres-cards-header"
       ]
     },
     {
@@ -3536,26 +4447,35 @@
           "route": "/press",
           "idx": 3
         }
+      ],
+      "sections": [
+        "proof.press-cards-wrap"
       ]
     },
     {
-      "component": "Section29",
-      "file": "src/sections/Section29.jsx",
+      "component": "Section30",
+      "file": "src/sections/Section30.jsx",
       "usedBy": [
         {
           "route": "/press",
           "idx": 5
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper27",
-      "file": "src/sections/NavWrapper27.jsx",
+      "component": "NavWrapper28",
+      "file": "src/sections/NavWrapper28.jsx",
       "usedBy": [
         {
           "route": "/reviews",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3566,6 +4486,9 @@
           "route": "/reviews",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-reviews-hero"
       ]
     },
     {
@@ -3576,16 +4499,22 @@
           "route": "/reviews",
           "idx": 2
         }
+      ],
+      "sections": [
+        "proof.section-reviews"
       ]
     },
     {
-      "component": "NavWrapper28",
-      "file": "src/sections/NavWrapper28.jsx",
+      "component": "NavWrapper29",
+      "file": "src/sections/NavWrapper29.jsx",
       "usedBy": [
         {
           "route": "/partner-request",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3596,16 +4525,22 @@
           "route": "/partner-request",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-demo"
       ]
     },
     {
-      "component": "NavWrapper29",
-      "file": "src/sections/NavWrapper29.jsx",
+      "component": "NavWrapper30",
+      "file": "src/sections/NavWrapper30.jsx",
       "usedBy": [
         {
           "route": "/d",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3616,6 +4551,9 @@
           "route": "/d",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-s-d-hero"
       ]
     },
     {
@@ -3626,6 +4564,9 @@
           "route": "/d",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3636,6 +4577,9 @@
           "route": "/d",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.s-d-video-box"
       ]
     },
     {
@@ -3646,6 +4590,9 @@
           "route": "/d",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.s-d-summary-list"
       ]
     },
     {
@@ -3656,6 +4603,9 @@
           "route": "/d",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-s-d-about"
       ]
     },
     {
@@ -3666,6 +4616,9 @@
           "route": "/d",
           "idx": 6
         }
+      ],
+      "sections": [
+        "content.section-s-d-why-now"
       ]
     },
     {
@@ -3676,6 +4629,9 @@
           "route": "/d",
           "idx": 7
         }
+      ],
+      "sections": [
+        "content.section-s-d-the-problem"
       ]
     },
     {
@@ -3686,6 +4642,9 @@
           "route": "/d",
           "idx": 8
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3696,6 +4655,9 @@
           "route": "/d",
           "idx": 9
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3706,6 +4668,9 @@
           "route": "/d",
           "idx": 10
         }
+      ],
+      "sections": [
+        "content.s-d-wrap"
       ]
     },
     {
@@ -3716,6 +4681,9 @@
           "route": "/d",
           "idx": 11
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3726,6 +4694,9 @@
           "route": "/d",
           "idx": 12
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3736,6 +4707,9 @@
           "route": "/d",
           "idx": 13
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3746,6 +4720,9 @@
           "route": "/d",
           "idx": 14
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3756,6 +4733,9 @@
           "route": "/d",
           "idx": 15
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3766,6 +4746,9 @@
           "route": "/d",
           "idx": 16
         }
+      ],
+      "sections": [
+        "content.block"
       ]
     },
     {
@@ -3776,6 +4759,9 @@
           "route": "/d",
           "idx": 17
         }
+      ],
+      "sections": [
+        "content.section-s-d-future"
       ]
     },
     {
@@ -3786,6 +4772,9 @@
           "route": "/d",
           "idx": 18
         }
+      ],
+      "sections": [
+        "showcase.section-s-d-gtm"
       ]
     },
     {
@@ -3796,6 +4785,9 @@
           "route": "/d",
           "idx": 19
         }
+      ],
+      "sections": [
+        "content.section-s-d-competition"
       ]
     },
     {
@@ -3806,6 +4798,9 @@
           "route": "/d",
           "idx": 20
         }
+      ],
+      "sections": [
+        "content.team"
       ]
     },
     {
@@ -3816,6 +4811,9 @@
           "route": "/d",
           "idx": 21
         }
+      ],
+      "sections": [
+        "content.section-why-sticky"
       ]
     },
     {
@@ -3826,16 +4824,22 @@
           "route": "/d",
           "idx": 22
         }
+      ],
+      "sections": [
+        "content.ps"
       ]
     },
     {
-      "component": "NavWrapper30",
-      "file": "src/sections/NavWrapper30.jsx",
+      "component": "NavWrapper31",
+      "file": "src/sections/NavWrapper31.jsx",
       "usedBy": [
         {
           "route": "/case-studies",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3846,6 +4850,9 @@
           "route": "/case-studies",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.cs-index-head"
       ]
     },
     {
@@ -3856,26 +4863,35 @@
           "route": "/case-studies",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.cs-index-list"
       ]
     },
     {
-      "component": "Section30",
-      "file": "src/sections/Section30.jsx",
+      "component": "Section31",
+      "file": "src/sections/Section31.jsx",
       "usedBy": [
         {
           "route": "/case-studies",
           "idx": 4
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper31",
-      "file": "src/sections/NavWrapper31.jsx",
+      "component": "NavWrapper32",
+      "file": "src/sections/NavWrapper32.jsx",
       "usedBy": [
         {
           "route": "/blog",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3886,6 +4902,9 @@
           "route": "/blog",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-hero"
       ]
     },
     {
@@ -3896,6 +4915,9 @@
           "route": "/blog",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -3906,6 +4928,9 @@
           "route": "/blog",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-blog-topics"
       ]
     },
     {
@@ -3916,26 +4941,35 @@
           "route": "/blog",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-blog-categories"
       ]
     },
     {
-      "component": "Section31",
-      "file": "src/sections/Section31.jsx",
+      "component": "Section32",
+      "file": "src/sections/Section32.jsx",
       "usedBy": [
         {
           "route": "/blog",
           "idx": 6
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
-      "component": "NavWrapper32",
-      "file": "src/sections/NavWrapper32.jsx",
+      "component": "NavWrapper33",
+      "file": "src/sections/NavWrapper33.jsx",
       "usedBy": [
         {
           "route": "/support",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -3946,6 +4980,9 @@
           "route": "/support",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3956,6 +4993,9 @@
           "route": "/support",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3966,6 +5006,9 @@
           "route": "/support",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -3976,6 +5019,204 @@
           "route": "/support",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "EmailSMSMarketingThat",
+      "file": "src/sections/EmailSMSMarketingThat.jsx",
+      "usedBy": [
+        {
+          "route": "/email-sms-marketing",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-product-hero"
+      ]
+    },
+    {
+      "component": "EmailAndSMSCampaigns",
+      "file": "src/sections/EmailAndSMSCampaigns.jsx",
+      "usedBy": [
+        {
+          "route": "/email-sms-marketing",
+          "idx": 2
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorTaupe20",
+      "file": "src/sections/BgColorTaupe20.jsx",
+      "usedBy": [
+        {
+          "route": "/email-sms-marketing",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "FAQ20",
+      "file": "src/sections/FAQ20.jsx",
+      "usedBy": [
+        {
+          "route": "/email-sms-marketing",
+          "idx": 4
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "Section33",
+      "file": "src/sections/Section33.jsx",
+      "usedBy": [
+        {
+          "route": "/email-sms-marketing",
+          "idx": 7
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "WebsiteTerms",
+      "file": "src/sections/WebsiteTerms.jsx",
+      "usedBy": [
+        {
+          "route": "/website-terms",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "Section34",
+      "file": "src/sections/Section34.jsx",
+      "usedBy": [
+        {
+          "route": "/website-terms",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "Disclaimer",
+      "file": "src/sections/Disclaimer.jsx",
+      "usedBy": [
+        {
+          "route": "/disclaimer",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "Section35",
+      "file": "src/sections/Section35.jsx",
+      "usedBy": [
+        {
+          "route": "/disclaimer",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "RestaurantParticipationAgree",
+      "file": "src/sections/RestaurantParticipationAgree.jsx",
+      "usedBy": [
+        {
+          "route": "/restaurant-participation-agreement",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "Section36",
+      "file": "src/sections/Section36.jsx",
+      "usedBy": [
+        {
+          "route": "/restaurant-participation-agreement",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "PlatformTerms",
+      "file": "src/sections/PlatformTerms.jsx",
+      "usedBy": [
+        {
+          "route": "/platform-terms",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "Section37",
+      "file": "src/sections/Section37.jsx",
+      "usedBy": [
+        {
+          "route": "/platform-terms",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
+      ]
+    },
+    {
+      "component": "Accessibility",
+      "file": "src/sections/Accessibility.jsx",
+      "usedBy": [
+        {
+          "route": "/accessibility",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "Section38",
+      "file": "src/sections/Section38.jsx",
+      "usedBy": [
+        {
+          "route": "/accessibility",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -3990,6 +5231,9 @@
           "route": "/loyalty-programs-demo",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.demo-control-header"
       ]
     },
     {
@@ -4000,710 +5244,9 @@
           "route": "/pos-demo",
           "idx": 1
         }
-      ]
-    },
-    {
-      "component": "NavWrapper33",
-      "file": "src/sections/NavWrapper33.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 0
-        }
-      ]
-    },
-    {
-      "component": "HowTalkinTacosIncreased",
-      "file": "src/sections/HowTalkinTacosIncreased.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "HowTheirOnlineExperience",
-      "file": "src/sections/HowTheirOnlineExperience.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 2
-        }
-      ]
-    },
-    {
-      "component": "BgColorTaupe20",
-      "file": "src/sections/BgColorTaupe20.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "Section32",
-      "file": "src/sections/Section32.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 4
-        }
-      ]
-    },
-    {
-      "component": "BgColorBglighter6",
-      "file": "src/sections/BgColorBglighter6.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/talkin-tacos",
-          "idx": 5
-        }
-      ]
-    },
-    {
-      "component": "NavWrapper34",
-      "file": "src/sections/NavWrapper34.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 0
-        }
-      ]
-    },
-    {
-      "component": "HowAshleySCafe",
-      "file": "src/sections/HowAshleySCafe.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "HowTheirOnlineExperience2",
-      "file": "src/sections/HowTheirOnlineExperience2.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 2
-        }
-      ]
-    },
-    {
-      "component": "BgColorTaupe21",
-      "file": "src/sections/BgColorTaupe21.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "Section33",
-      "file": "src/sections/Section33.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 4
-        }
-      ]
-    },
-    {
-      "component": "BgColorBglighter7",
-      "file": "src/sections/BgColorBglighter7.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/ashleys-cafe",
-          "idx": 5
-        }
-      ]
-    },
-    {
-      "component": "NavWrapper35",
-      "file": "src/sections/NavWrapper35.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 0
-        }
-      ]
-    },
-    {
-      "component": "HowKarvGreekKouzina",
-      "file": "src/sections/HowKarvGreekKouzina.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "HowTheirOnlineExperience3",
-      "file": "src/sections/HowTheirOnlineExperience3.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 2
-        }
-      ]
-    },
-    {
-      "component": "BgColorTaupe22",
-      "file": "src/sections/BgColorTaupe22.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "Section34",
-      "file": "src/sections/Section34.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 4
-        }
-      ]
-    },
-    {
-      "component": "BgColorBglighter8",
-      "file": "src/sections/BgColorBglighter8.jsx",
-      "usedBy": [
-        {
-          "route": "/case-studies/karv-greek-kouzina",
-          "idx": 5
-        }
-      ]
-    },
-    {
-      "component": "NavWrapper36",
-      "file": "src/sections/NavWrapper36.jsx",
-      "usedBy": [
-        {
-          "route": "/privacy-policy",
-          "idx": 0
-        },
-        {
-          "route": "/email-sms-marketing",
-          "idx": 0
-        },
-        {
-          "route": "/website-terms",
-          "idx": 0
-        },
-        {
-          "route": "/disclaimer",
-          "idx": 0
-        },
-        {
-          "route": "/restaurant-participation-agreement",
-          "idx": 0
-        },
-        {
-          "route": "/platform-terms",
-          "idx": 0
-        },
-        {
-          "route": "/accessibility",
-          "idx": 0
-        },
-        {
-          "route": "/copyright-policy",
-          "idx": 0
-        },
-        {
-          "route": "/blog/seo-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-create-a-restaurant-website",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-marketing",
-          "idx": 0
-        },
-        {
-          "route": "/blog/email-marketing-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/mobile-app-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/online-ordering-system-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/ca/pricing",
-          "idx": 0
-        },
-        {
-          "route": "/blog/local-seo-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/website-builders-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-mobile-app",
-          "idx": 0
-        },
-        {
-          "route": "/reorders",
-          "idx": 0
-        },
-        {
-          "route": "/blog-category/increase-sales",
-          "idx": 0
-        },
-        {
-          "route": "/blog-category/restaurant-software",
-          "idx": 0
-        },
-        {
-          "route": "/blog-category/marketing-strategy",
-          "idx": 0
-        },
-        {
-          "route": "/blog-category/restaurant-websites",
-          "idx": 0
-        },
-        {
-          "route": "/blog-category/industry-trends-data",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-promotion-ideas",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-costs",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-pos-system-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-loyalty-programs",
-          "idx": 0
-        },
-        {
-          "route": "/blog/97-best-pizza-captions-for-instagram",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-restaurant-websites",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-pizza-websites",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-trends",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-menu-examples",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-failure-rate",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-marketing-ideas",
-          "idx": 0
-        },
-        {
-          "route": "/blog/catering-marketing",
-          "idx": 0
-        },
-        {
-          "route": "/blog/food-delivery-statistics",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-website-design",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-increase-restaurant-sales",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-make-a-menu",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-description",
-          "idx": 0
-        },
-        {
-          "route": "/blog/social-media-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-business-plan",
-          "idx": 0
-        },
-        {
-          "route": "/blog/menu-pricing",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-increase-average-check-size",
-          "idx": 0
-        },
-        {
-          "route": "/blog/digital-marketing-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
-          "idx": 0
-        },
-        {
-          "route": "/blog/sms-marketing-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/instagram-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-customer-retention",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-analytics",
-          "idx": 0
-        },
-        {
-          "route": "/blog/average-restaurant-profit-margin",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-marketing-tools",
-          "idx": 0
-        },
-        {
-          "route": "/blog/toast-competitors",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-accounting",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-growth",
-          "idx": 0
-        },
-        {
-          "route": "/blog/pizza-advertising-ideas",
-          "idx": 0
-        },
-        {
-          "route": "/blog/how-to-create-online-ordering-restaurant",
-          "idx": 0
-        },
-        {
-          "route": "/blog/cafe-pos",
-          "idx": 0
-        },
-        {
-          "route": "/blog/catering-delivery-apps",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-management-software",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-pos-for-small-business",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-pos-system-cost",
-          "idx": 0
-        },
-        {
-          "route": "/blog/pizza-pos-system",
-          "idx": 0
-        },
-        {
-          "route": "/blog/square-alternatives",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-restaurant-crms",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-tech-stack",
-          "idx": 0
-        },
-        {
-          "route": "/blog/menu-engineering",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-growth-secrets-guides",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-branding-more-direct-orders",
-          "idx": 0
-        },
-        {
-          "route": "/blog/food-cost-percentage",
-          "idx": 0
-        },
-        {
-          "route": "/blog/food-trends",
-          "idx": 0
-        },
-        {
-          "route": "/blog/third-party-vs-direct-ordering",
-          "idx": 0
-        },
-        {
-          "route": "/blog/restaurant-prime-cost",
-          "idx": 0
-        },
-        {
-          "route": "/blog/mobile-marketing-for-restaurants",
-          "idx": 0
-        },
-        {
-          "route": "/blog/best-apps-for-restaurant-owners",
-          "idx": 0
-        },
-        {
-          "route": "/blog/pos-restaurant-meaning",
-          "idx": 0
-        },
-        {
-          "route": "/blog/square-pos-system-cost",
-          "idx": 0
-        },
-        {
-          "route": "/blog/toast-pricing",
-          "idx": 0
-        },
-        {
-          "route": "/blog/pizza-marketing-strategy",
-          "idx": 0
-        },
-        {
-          "route": "/blog/97-best-burger-captions-for-instagram",
-          "idx": 0
-        },
-        {
-          "route": "/blog/97-best-restaurant-captions-for-instagram",
-          "idx": 0
-        },
-        {
-          "route": "/blog/pos-reporting",
-          "idx": 0
-        },
-        {
-          "route": "/blog/toast-vs-square",
-          "idx": 0
-        },
-        {
-          "route": "/blog/toast-vs-clover",
-          "idx": 0
-        },
-        {
-          "route": "/blog/97-best-taco-captions-for-instagram",
-          "idx": 0
-        }
-      ]
-    },
-    {
-      "component": "PrivacyPolicy",
-      "file": "src/sections/PrivacyPolicy.jsx",
-      "usedBy": [
-        {
-          "route": "/privacy-policy",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section35",
-      "file": "src/sections/Section35.jsx",
-      "usedBy": [
-        {
-          "route": "/privacy-policy",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "EmailSMSMarketingThat",
-      "file": "src/sections/EmailSMSMarketingThat.jsx",
-      "usedBy": [
-        {
-          "route": "/email-sms-marketing",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "EmailAndSMSCampaigns",
-      "file": "src/sections/EmailAndSMSCampaigns.jsx",
-      "usedBy": [
-        {
-          "route": "/email-sms-marketing",
-          "idx": 2
-        }
-      ]
-    },
-    {
-      "component": "BgColorTaupe23",
-      "file": "src/sections/BgColorTaupe23.jsx",
-      "usedBy": [
-        {
-          "route": "/email-sms-marketing",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "FAQ20",
-      "file": "src/sections/FAQ20.jsx",
-      "usedBy": [
-        {
-          "route": "/email-sms-marketing",
-          "idx": 4
-        }
-      ]
-    },
-    {
-      "component": "Section36",
-      "file": "src/sections/Section36.jsx",
-      "usedBy": [
-        {
-          "route": "/email-sms-marketing",
-          "idx": 7
-        }
-      ]
-    },
-    {
-      "component": "WebsiteTerms",
-      "file": "src/sections/WebsiteTerms.jsx",
-      "usedBy": [
-        {
-          "route": "/website-terms",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section37",
-      "file": "src/sections/Section37.jsx",
-      "usedBy": [
-        {
-          "route": "/website-terms",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "Disclaimer",
-      "file": "src/sections/Disclaimer.jsx",
-      "usedBy": [
-        {
-          "route": "/disclaimer",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section38",
-      "file": "src/sections/Section38.jsx",
-      "usedBy": [
-        {
-          "route": "/disclaimer",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "RestaurantParticipationAgree",
-      "file": "src/sections/RestaurantParticipationAgree.jsx",
-      "usedBy": [
-        {
-          "route": "/restaurant-participation-agreement",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section39",
-      "file": "src/sections/Section39.jsx",
-      "usedBy": [
-        {
-          "route": "/restaurant-participation-agreement",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "PlatformTerms",
-      "file": "src/sections/PlatformTerms.jsx",
-      "usedBy": [
-        {
-          "route": "/platform-terms",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section40",
-      "file": "src/sections/Section40.jsx",
-      "usedBy": [
-        {
-          "route": "/platform-terms",
-          "idx": 3
-        }
-      ]
-    },
-    {
-      "component": "Accessibility",
-      "file": "src/sections/Accessibility.jsx",
-      "usedBy": [
-        {
-          "route": "/accessibility",
-          "idx": 1
-        }
-      ]
-    },
-    {
-      "component": "Section41",
-      "file": "src/sections/Section41.jsx",
-      "usedBy": [
-        {
-          "route": "/accessibility",
-          "idx": 3
-        }
+      ],
+      "sections": [
+        "hero.demo-control-layout"
       ]
     },
     {
@@ -4714,6 +5257,243 @@
           "route": "/copyright-policy",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-legal"
+      ]
+    },
+    {
+      "component": "NavWrapper34",
+      "file": "src/sections/NavWrapper34.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 0
+        }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
+      ]
+    },
+    {
+      "component": "HowTalkinTacosIncreased",
+      "file": "src/sections/HowTalkinTacosIncreased.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
+      ]
+    },
+    {
+      "component": "HowTheirOnlineExperience",
+      "file": "src/sections/HowTheirOnlineExperience.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 2
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorTaupe21",
+      "file": "src/sections/BgColorTaupe21.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "Section39",
+      "file": "src/sections/Section39.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 4
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorBglighter6",
+      "file": "src/sections/BgColorBglighter6.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/talkin-tacos",
+          "idx": 5
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "NavWrapper35",
+      "file": "src/sections/NavWrapper35.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 0
+        }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
+      ]
+    },
+    {
+      "component": "HowAshleySCafe",
+      "file": "src/sections/HowAshleySCafe.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
+      ]
+    },
+    {
+      "component": "HowTheirOnlineExperience2",
+      "file": "src/sections/HowTheirOnlineExperience2.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 2
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorTaupe22",
+      "file": "src/sections/BgColorTaupe22.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "Section40",
+      "file": "src/sections/Section40.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 4
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorBglighter7",
+      "file": "src/sections/BgColorBglighter7.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/ashleys-cafe",
+          "idx": 5
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "NavWrapper36",
+      "file": "src/sections/NavWrapper36.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 0
+        }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
+      ]
+    },
+    {
+      "component": "HowKarvGreekKouzina",
+      "file": "src/sections/HowKarvGreekKouzina.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
+      ]
+    },
+    {
+      "component": "HowTheirOnlineExperience3",
+      "file": "src/sections/HowTheirOnlineExperience3.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 2
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorTaupe23",
+      "file": "src/sections/BgColorTaupe23.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 3
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "Section41",
+      "file": "src/sections/Section41.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 4
+        }
+      ],
+      "sections": [
+        "content.section-base"
+      ]
+    },
+    {
+      "component": "BgColorBglighter8",
+      "file": "src/sections/BgColorBglighter8.jsx",
+      "usedBy": [
+        {
+          "route": "/case-studies/karv-greek-kouzina",
+          "idx": 5
+        }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4780,6 +5560,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -4790,6 +5573,9 @@
           "route": "/case-studies/mattengas-pizzeria",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -4800,6 +5586,9 @@
           "route": "/case-studies/mattengas-pizzeria",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4810,6 +5599,9 @@
           "route": "/case-studies/mattengas-pizzeria",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4820,6 +5612,9 @@
           "route": "/case-studies/mattengas-pizzeria",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4830,6 +5625,9 @@
           "route": "/case-studies/mattengas-pizzeria",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4840,6 +5638,9 @@
           "route": "/case-studies/saffron",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -4850,6 +5651,9 @@
           "route": "/case-studies/saffron",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4860,6 +5664,9 @@
           "route": "/case-studies/saffron",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4870,6 +5677,9 @@
           "route": "/case-studies/saffron",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4880,6 +5690,9 @@
           "route": "/case-studies/saffron",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4890,6 +5703,9 @@
           "route": "/case-studies/metro-pizza",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -4900,6 +5716,9 @@
           "route": "/case-studies/metro-pizza",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4910,6 +5729,9 @@
           "route": "/case-studies/metro-pizza",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4920,6 +5742,9 @@
           "route": "/case-studies/metro-pizza",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4930,6 +5755,9 @@
           "route": "/case-studies/metro-pizza",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4940,6 +5768,9 @@
           "route": "/case-studies/cyclo-noodles",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -4950,6 +5781,9 @@
           "route": "/case-studies/cyclo-noodles",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4960,6 +5794,9 @@
           "route": "/case-studies/cyclo-noodles",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4970,6 +5807,9 @@
           "route": "/case-studies/cyclo-noodles",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4980,6 +5820,9 @@
           "route": "/case-studies/cyclo-noodles",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -4990,6 +5833,9 @@
           "route": "/case-studies/salud",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5000,6 +5846,9 @@
           "route": "/case-studies/salud",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5010,6 +5859,9 @@
           "route": "/case-studies/salud",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5020,6 +5872,9 @@
           "route": "/case-studies/salud",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5030,6 +5885,9 @@
           "route": "/case-studies/salud",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5040,6 +5898,9 @@
           "route": "/case-studies/rig-a-tonys",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5050,6 +5911,9 @@
           "route": "/case-studies/rig-a-tonys",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5060,6 +5924,9 @@
           "route": "/case-studies/rig-a-tonys",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5070,6 +5937,9 @@
           "route": "/case-studies/rig-a-tonys",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5080,6 +5950,9 @@
           "route": "/case-studies/rig-a-tonys",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5090,6 +5963,9 @@
           "route": "/case-studies/gyro-concept",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5100,6 +5976,9 @@
           "route": "/case-studies/gyro-concept",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5110,6 +5989,9 @@
           "route": "/case-studies/gyro-concept",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5120,6 +6002,9 @@
           "route": "/case-studies/gyro-concept",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5130,6 +6015,9 @@
           "route": "/case-studies/gyro-concept",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5140,6 +6028,9 @@
           "route": "/case-studies/doo-dah-diner",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5150,6 +6041,9 @@
           "route": "/case-studies/doo-dah-diner",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5160,6 +6054,9 @@
           "route": "/case-studies/doo-dah-diner",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5170,6 +6067,9 @@
           "route": "/case-studies/doo-dah-diner",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5180,6 +6080,9 @@
           "route": "/case-studies/doo-dah-diner",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5190,6 +6093,9 @@
           "route": "/case-studies/san-diego-kabob-shack",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5200,6 +6106,9 @@
           "route": "/case-studies/san-diego-kabob-shack",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5210,6 +6119,9 @@
           "route": "/case-studies/san-diego-kabob-shack",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5220,6 +6132,9 @@
           "route": "/case-studies/san-diego-kabob-shack",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5230,6 +6145,9 @@
           "route": "/case-studies/san-diego-kabob-shack",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5240,6 +6158,9 @@
           "route": "/case-studies/sushi-addicts",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5250,6 +6171,9 @@
           "route": "/case-studies/sushi-addicts",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5260,6 +6184,9 @@
           "route": "/case-studies/sushi-addicts",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5270,6 +6197,9 @@
           "route": "/case-studies/sushi-addicts",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5280,6 +6210,9 @@
           "route": "/case-studies/sushi-addicts",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5290,6 +6223,9 @@
           "route": "/case-studies/sushi-me-rollin",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5300,6 +6236,9 @@
           "route": "/case-studies/sushi-me-rollin",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5310,6 +6249,9 @@
           "route": "/case-studies/sushi-me-rollin",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5320,6 +6262,9 @@
           "route": "/case-studies/sushi-me-rollin",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5330,6 +6275,9 @@
           "route": "/case-studies/sushi-me-rollin",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5340,6 +6288,9 @@
           "route": "/case-studies/goi-cuon",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5350,6 +6301,9 @@
           "route": "/case-studies/goi-cuon",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5360,6 +6314,9 @@
           "route": "/case-studies/goi-cuon",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5370,6 +6327,9 @@
           "route": "/case-studies/goi-cuon",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5380,6 +6340,9 @@
           "route": "/case-studies/goi-cuon",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5390,6 +6353,9 @@
           "route": "/case-studies/hillcrust-pizza",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5400,6 +6366,9 @@
           "route": "/case-studies/hillcrust-pizza",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5410,6 +6379,9 @@
           "route": "/case-studies/hillcrust-pizza",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5420,6 +6392,9 @@
           "route": "/case-studies/hillcrust-pizza",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5430,6 +6405,9 @@
           "route": "/case-studies/hillcrust-pizza",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5440,6 +6418,9 @@
           "route": "/case-studies/township-line-pizza",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5450,6 +6431,9 @@
           "route": "/case-studies/township-line-pizza",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5460,6 +6444,9 @@
           "route": "/case-studies/township-line-pizza",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5470,6 +6457,9 @@
           "route": "/case-studies/township-line-pizza",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5480,6 +6470,9 @@
           "route": "/case-studies/township-line-pizza",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5490,6 +6483,9 @@
           "route": "/blog/seo-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5500,6 +6496,9 @@
           "route": "/blog/seo-for-restaurants",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5510,6 +6509,9 @@
           "route": "/blog/how-to-create-a-restaurant-website",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5520,6 +6522,9 @@
           "route": "/blog/how-to-create-a-restaurant-website",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5530,6 +6535,9 @@
           "route": "/blog/restaurant-marketing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5540,6 +6548,9 @@
           "route": "/blog/restaurant-marketing",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5550,6 +6561,9 @@
           "route": "/blog/email-marketing-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5560,6 +6574,9 @@
           "route": "/blog/email-marketing-for-restaurants",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5570,6 +6587,9 @@
           "route": "/blog/mobile-app-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5580,6 +6600,9 @@
           "route": "/blog/mobile-app-for-restaurants",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5590,6 +6613,9 @@
           "route": "/blog/online-ordering-system-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5600,6 +6626,9 @@
           "route": "/blog/online-ordering-system-for-restaurants",
           "idx": 3
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5610,6 +6639,9 @@
           "route": "/loyalty-programs-demo",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.demo-control-layout"
       ]
     },
     {
@@ -5620,6 +6652,9 @@
           "route": "/ca/pricing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5630,6 +6665,9 @@
           "route": "/ca/pricing",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5640,6 +6678,9 @@
           "route": "/ca/pricing",
           "idx": 6
         }
+      ],
+      "sections": [
+        "support.form"
       ]
     },
     {
@@ -5650,6 +6691,9 @@
           "route": "/ca/pricing",
           "idx": 8
         }
+      ],
+      "sections": [
+        "shell.section-footer"
       ]
     },
     {
@@ -5660,6 +6704,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-cs-hero"
       ]
     },
     {
@@ -5670,6 +6717,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5680,6 +6730,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5690,6 +6743,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 4
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5700,6 +6756,9 @@
           "route": "/case-studies/samos-oaxaca",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5710,6 +6769,9 @@
           "route": "/blog/local-seo-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5720,6 +6782,9 @@
           "route": "/blog/website-builders-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5730,6 +6795,9 @@
           "route": "/blog/restaurant-mobile-app",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5740,6 +6808,9 @@
           "route": "/reorders",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-product-hero"
       ]
     },
     {
@@ -5750,6 +6821,9 @@
           "route": "/reorders",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5760,6 +6834,9 @@
           "route": "/reorders",
           "idx": 3
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5770,6 +6847,9 @@
           "route": "/reorders",
           "idx": 5
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5780,6 +6860,9 @@
           "route": "/blog-category/increase-sales",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5790,6 +6873,9 @@
           "route": "/blog-category/increase-sales",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -5800,6 +6886,9 @@
           "route": "/blog-category/restaurant-software",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5810,6 +6899,9 @@
           "route": "/blog-category/restaurant-software",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -5820,6 +6912,9 @@
           "route": "/blog-category/marketing-strategy",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5830,6 +6925,9 @@
           "route": "/blog-category/marketing-strategy",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -5840,6 +6938,9 @@
           "route": "/blog-category/restaurant-websites",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5850,6 +6951,9 @@
           "route": "/blog-category/restaurant-websites",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -5860,6 +6964,9 @@
           "route": "/blog-category/industry-trends-data",
           "idx": 1
         }
+      ],
+      "sections": [
+        "content.section-base"
       ]
     },
     {
@@ -5870,6 +6977,9 @@
           "route": "/blog-category/industry-trends-data",
           "idx": 2
         }
+      ],
+      "sections": [
+        "content.section-blog-most"
       ]
     },
     {
@@ -5880,6 +6990,9 @@
           "route": "/blog/restaurant-promotion-ideas",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5890,6 +7003,9 @@
           "route": "/blog/restaurant-costs",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5900,6 +7016,9 @@
           "route": "/blog/best-pos-system-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5910,6 +7029,9 @@
           "route": "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5920,6 +7042,9 @@
           "route": "/blog/restaurant-loyalty-programs",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5930,6 +7055,9 @@
           "route": "/blog/97-best-pizza-captions-for-instagram",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5940,6 +7068,9 @@
           "route": "/blog/best-restaurant-websites",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5950,6 +7081,9 @@
           "route": "/blog/best-pizza-websites",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5960,6 +7094,9 @@
           "route": "/blog/restaurant-trends",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5970,6 +7107,9 @@
           "route": "/blog/restaurant-menu-examples",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -5980,16 +7120,9 @@
           "route": "/blog/restaurant-failure-rate",
           "idx": 1
         }
-      ]
-    },
-    {
-      "component": "S28ProvenRestaurantMarketing",
-      "file": "src/sections/S28ProvenRestaurantMarketing.jsx",
-      "usedBy": [
-        {
-          "route": "/blog/restaurant-marketing-ideas",
-          "idx": 1
-        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6000,6 +7133,9 @@
           "route": "/blog/catering-marketing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6010,6 +7146,9 @@
           "route": "/blog/food-delivery-statistics",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6020,16 +7159,9 @@
           "route": "/blog/restaurant-website-design",
           "idx": 1
         }
-      ]
-    },
-    {
-      "component": "HowToIncreaseRestaurant",
-      "file": "src/sections/HowToIncreaseRestaurant.jsx",
-      "usedBy": [
-        {
-          "route": "/blog/how-to-increase-restaurant-sales",
-          "idx": 1
-        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6040,6 +7172,9 @@
           "route": "/blog/how-to-make-a-menu",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6050,6 +7185,9 @@
           "route": "/blog/restaurant-description",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6060,6 +7198,9 @@
           "route": "/blog/social-media-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6070,6 +7211,9 @@
           "route": "/blog/restaurant-business-plan",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6080,6 +7224,9 @@
           "route": "/blog/menu-pricing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6090,6 +7237,9 @@
           "route": "/blog/how-to-increase-average-check-size",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6100,16 +7250,9 @@
           "route": "/blog/digital-marketing-for-restaurants",
           "idx": 1
         }
-      ]
-    },
-    {
-      "component": "RestaurantMarketingPlanA",
-      "file": "src/sections/RestaurantMarketingPlanA.jsx",
-      "usedBy": [
-        {
-          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
-          "idx": 1
-        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6120,6 +7263,9 @@
           "route": "/blog/sms-marketing-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6130,6 +7276,9 @@
           "route": "/blog/instagram-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6140,6 +7289,9 @@
           "route": "/blog/restaurant-customer-retention",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6150,6 +7302,9 @@
           "route": "/blog/restaurant-analytics",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6160,6 +7315,9 @@
           "route": "/blog/average-restaurant-profit-margin",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6170,6 +7328,9 @@
           "route": "/blog/restaurant-marketing-tools",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6180,6 +7341,9 @@
           "route": "/blog/toast-competitors",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6190,6 +7354,9 @@
           "route": "/blog/restaurant-accounting",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6200,6 +7367,9 @@
           "route": "/blog/restaurant-growth",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6210,6 +7380,9 @@
           "route": "/blog/pizza-advertising-ideas",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6220,6 +7393,9 @@
           "route": "/blog/how-to-create-online-ordering-restaurant",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6230,6 +7406,9 @@
           "route": "/blog/cafe-pos",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6240,6 +7419,9 @@
           "route": "/blog/catering-delivery-apps",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6250,6 +7432,9 @@
           "route": "/blog/restaurant-management-software",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6260,6 +7445,9 @@
           "route": "/blog/best-pos-for-small-business",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6270,6 +7458,9 @@
           "route": "/blog/restaurant-pos-system-cost",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6280,6 +7471,9 @@
           "route": "/blog/pizza-pos-system",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6290,6 +7484,9 @@
           "route": "/blog/square-alternatives",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6300,6 +7497,9 @@
           "route": "/blog/best-restaurant-crms",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6310,6 +7510,9 @@
           "route": "/blog/restaurant-tech-stack",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6320,6 +7523,9 @@
           "route": "/blog/menu-engineering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6330,6 +7536,9 @@
           "route": "/blog/restaurant-growth-secrets-guides",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6340,6 +7549,9 @@
           "route": "/blog/restaurant-branding-more-direct-orders",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6350,6 +7562,9 @@
           "route": "/blog/food-cost-percentage",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6360,6 +7575,9 @@
           "route": "/blog/food-trends",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6370,6 +7588,9 @@
           "route": "/blog/third-party-vs-direct-ordering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6380,6 +7601,9 @@
           "route": "/blog/restaurant-prime-cost",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6390,6 +7614,9 @@
           "route": "/blog/mobile-marketing-for-restaurants",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6400,6 +7627,9 @@
           "route": "/blog/best-apps-for-restaurant-owners",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6410,6 +7640,9 @@
           "route": "/blog/pos-restaurant-meaning",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6420,6 +7653,9 @@
           "route": "/blog/square-pos-system-cost",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6430,6 +7666,9 @@
           "route": "/blog/toast-pricing",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6452,6 +7691,9 @@
           "route": "/downloads/pizza-marketing-checklist",
           "idx": 0
         }
+      ],
+      "sections": [
+        "shell.nav-wrapper"
       ]
     },
     {
@@ -6462,6 +7704,9 @@
           "route": "/resources/ottavios-case-study",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-resource"
       ]
     },
     {
@@ -6472,6 +7717,9 @@
           "route": "/resources/google-business-profile-tps",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-resource"
       ]
     },
     {
@@ -6482,6 +7730,9 @@
           "route": "/blog/pizza-marketing-strategy",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6492,6 +7743,9 @@
           "route": "/blog/97-best-burger-captions-for-instagram",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6502,6 +7756,9 @@
           "route": "/resources/menu-engineering",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-resource"
       ]
     },
     {
@@ -6512,6 +7769,9 @@
           "route": "/blog/97-best-restaurant-captions-for-instagram",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6522,16 +7782,9 @@
           "route": "/blog/pos-reporting",
           "idx": 1
         }
-      ]
-    },
-    {
-      "component": "ToastVsSquareA",
-      "file": "src/sections/ToastVsSquareA.jsx",
-      "usedBy": [
-        {
-          "route": "/blog/toast-vs-square",
-          "idx": 1
-        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6542,6 +7795,9 @@
           "route": "/blog/toast-vs-clover",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     },
     {
@@ -6552,6 +7808,9 @@
           "route": "/downloads/pizza-marketing-checklist",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-resource"
       ]
     },
     {
@@ -6562,6 +7821,61 @@
           "route": "/blog/97-best-taco-captions-for-instagram",
           "idx": 1
         }
+      ],
+      "sections": [
+        "hero.section-blog-content"
+      ]
+    },
+    {
+      "component": "S28ProvenRestaurantMarketing",
+      "file": "src/sections/S28ProvenRestaurantMarketing.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/restaurant-marketing-ideas",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
+      ]
+    },
+    {
+      "component": "HowToIncreaseRestaurant",
+      "file": "src/sections/HowToIncreaseRestaurant.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-to-increase-restaurant-sales",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
+      ]
+    },
+    {
+      "component": "RestaurantMarketingPlanA",
+      "file": "src/sections/RestaurantMarketingPlanA.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/how-to-create-a-restaurant-marketing-plan",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
+      ]
+    },
+    {
+      "component": "ToastVsSquareA",
+      "file": "src/sections/ToastVsSquareA.jsx",
+      "usedBy": [
+        {
+          "route": "/blog/toast-vs-square",
+          "idx": 1
+        }
+      ],
+      "sections": [
+        "hero.section-blog-content"
       ]
     }
   ],
@@ -6587,16 +7901,16 @@
       "key": "still0",
       "w": 1191,
       "h": 1131,
-      "file": "/stills/860b1ff1.png",
-      "lit": 0.104
+      "file": "/stills/d1378eda.png",
+      "lit": 0.12
     },
     {
       "route": "/d",
       "key": "still1",
       "w": 860,
       "h": 570,
-      "file": "/stills/de57a38b.png",
-      "lit": 0.131
+      "file": "/stills/bf642b04.png",
+      "lit": 0.123
     },
     {
       "route": "/ca/pricing",

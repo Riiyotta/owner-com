@@ -67,5 +67,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/TechnologyHasBeenWeaponized.jsx",
+  "implementedByAll": [
+    "src/sections/TechnologyHasBeenWeaponized.jsx"
+  ]
 }

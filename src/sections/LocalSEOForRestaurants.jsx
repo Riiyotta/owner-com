@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Local SEO for Restaurants: 8 T — the section's real markup, read from the rendered page (route /blog/local-seo-for-restaurants, section 1).
@@ -747,7 +748,7 @@ export default function LocalSEOForRestaurants() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#what-is-local-seo-for-restaurants" className="blog-content_column-link w--current">What is Local SEO for Restaurants?</a>
+                <a fs-toc-element="link" href="#what-is-local-seo-for-restaurants" className="blog-content_column-link">What is Local SEO for Restaurants?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#what-is-the-difference-between-seo-and-local-seo" className="blog-content_column-link">What is the Difference Between SEO and Local SEO?</a>

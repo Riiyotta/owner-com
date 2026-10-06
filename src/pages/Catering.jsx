@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper12 from "../sections/NavWrapper12.jsx";
+import NavWrapper13 from "../sections/NavWrapper13.jsx";
 import TakeCateringOrdersDirectly from "../sections/TakeCateringOrdersDirectly.jsx";
 import CateringBuiltToWin from "../sections/CateringBuiltToWin.jsx";
 import BgColorTaupe9 from "../sections/BgColorTaupe9.jsx";
 import FAQ9 from "../sections/FAQ9.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section11 from "../sections/Section11.jsx";
+import Section12 from "../sections/Section12.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function Catering() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper12 />
+      <NavWrapper13 />
       <main className="main-wrapper">
         <TakeCateringOrdersDirectly />
         <CateringBuiltToWin />
@@ -62,7 +62,7 @@ export default function Catering() {
         <FAQ9 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section11 />
+        <Section12 />
       </main>
     </div>
     </>

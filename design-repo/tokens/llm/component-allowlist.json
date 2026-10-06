@@ -31,26 +31,26 @@
     "content.section-s-d-why-now",
     "content.section-why-sticky",
     "content.team",
-    "content.u-mb-40",
-    "content.u-mb-64",
     "cta.section-career-cta",
     "cta.section-cta",
     "features.section-eng-steps",
     "features.section-hiw-steps",
+    "features.section-pos-steps",
     "hero.cs-index-head",
     "hero.demo-control-layout",
     "hero.eng-section-eng-hero",
-    "hero.page-wrapper",
     "hero.section-about-hero",
     "hero.section-blog-content",
     "hero.section-blog-hero",
     "hero.section-career-hero",
     "hero.section-center-hero",
     "hero.section-cs-hero",
+    "hero.section-demo",
     "hero.section-hp-hero",
     "hero.section-leadership-hero",
     "hero.section-legal",
     "hero.section-product-hero",
+    "hero.section-product-v-hero",
     "hero.section-resource",
     "hero.section-reviews-hero",
     "hero.section-s-d-hero",
@@ -540,16 +540,6 @@
       "items",
       "images"
     ],
-    "content.u-mb-40": [
-      "heading",
-      "body",
-      "images"
-    ],
-    "content.u-mb-64": [
-      "heading",
-      "body",
-      "images"
-    ],
     "cta.section-career-cta": [
       "heading",
       "body",
@@ -569,6 +559,11 @@
       "ctas",
       "images"
     ],
+    "features.section-pos-steps": [
+      "heading",
+      "body",
+      "images"
+    ],
     "hero.cs-index-head": [
       "heading",
       "body",
@@ -585,14 +580,6 @@
     "hero.eng-section-eng-hero": [
       "heading",
       "body",
-      "images"
-    ],
-    "hero.page-wrapper": [
-      "heading",
-      "subheading",
-      "body",
-      "ctas",
-      "items",
       "images"
     ],
     "hero.section-about-hero": [
@@ -629,6 +616,12 @@
       "body",
       "images"
     ],
+    "hero.section-demo": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
     "hero.section-hp-hero": [
       "heading",
       "body",
@@ -646,6 +639,12 @@
       "items"
     ],
     "hero.section-product-hero": [
+      "heading",
+      "body",
+      "ctas",
+      "images"
+    ],
+    "hero.section-product-v-hero": [
       "heading",
       "body",
       "ctas",

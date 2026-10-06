@@ -1,28 +1,49 @@
 
-  .owner-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
-    margin-top: 10px;
-  }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
 
-  .owner-table th {
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    padding: 12px;
-    text-align: left;
-  }
+    .owner-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 700px;
+    }
 
-  .owner-table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #666;
-  }
+    .owner-table thead tr {
+      background-color: #2c2c2c;
+    }
 
-  .owner-table tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
+    .owner-table thead td {
+      color: white;
+      padding: 10px 16px;
+      font-weight: bold;
+    }
+
+    .owner-table tbody tr {
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+    }
+
+    .owner-table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .owner-table tbody td {
+      padding: 12px 16px;
+      color: #333;
+    }
+
+    .owner-table ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .owner-table ul li {
+      margin-bottom: 6px;
+    }
+
+    .owner-table ul li:last-child {
+      margin-bottom: 0;
+    }
+  

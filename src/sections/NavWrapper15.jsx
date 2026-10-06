@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /branded-apps, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /pos, section 0).
 export default function NavWrapper15() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper15">
@@ -177,7 +178,7 @@ export default function NavWrapper15() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/pos" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/pos" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M20.5 17V4.5L20 4H4L3.5 4.5V17H20.5Z" stroke="#909090" strokeWidth="1.5" strokeMiterlimit="10" strokeLinejoin="bevel" />
                             <path d="M22.5 17H1.5V19L2.5 20H21.5L22.5 19V17Z" stroke="#909090" strokeWidth="1.5" strokeMiterlimit="10" strokeLinejoin="bevel" />
@@ -187,7 +188,7 @@ export default function NavWrapper15() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/branded-apps" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/branded-apps" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M9.75 19.25H14.25M7.75 22.25H16.25C17.3546 22.25 18.25 21.3546 18.25 20.25V3.75C18.25 2.64543 17.3546 1.75 16.25 1.75H7.75C6.64543 1.75 5.75 2.64543 5.75 3.75V20.25C5.75 21.3546 6.64543 22.25 7.75 22.25Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -396,9 +397,9 @@ export default function NavWrapper15() {
                 <a data-button-instance="" className="btn is-nav-text w-inline-block is-link">
                   <div data-button-text="" className="btn-text">Login</div>
                 </a>
-                <a data-button-instance="" className="btn is-nav w-inline-block is-black">
+                <A data-button-instance="" href="/pos-demo" className="btn is-nav w-inline-block is-black">
                   <div data-button-text="" className="btn-text">Get a free demo</div>
-                </a>
+                </A>
               </div>
               <button data-nav-menu="trigger" className="nav-ham">
                 <div data-nav-hamline="" data-transition="" className="nav-ham-line"></div>

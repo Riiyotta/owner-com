@@ -1,3 +1,4 @@
+// IA section(s): content.section-about-vision (ia/ia.json, design-repo/sections/)
 // Our long-term vision goes beyo — the section's real markup, read from the rendered page (route /our-story, section 5).
 export default function OurLongTermVision() {
   return (

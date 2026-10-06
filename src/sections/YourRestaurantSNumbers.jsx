@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Your restaurant's numbers, all — the section's real markup, read from the rendered page (route /reporting-analytics, section 2).
 export default function YourRestaurantSNumbers() {
   return (

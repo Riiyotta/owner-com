@@ -1,13 +1,4 @@
 
-  [data-modal-group-status] {
-    transition: all 0.2s linear;
-  }
-
-  [data-modal-group-status='active'] {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  [data-modal-name][data-modal-status='active'] {
-    display: flex;
+  .about-vision_item:last-child {
+    padding-bottom: var(--_spacers---section-bottom-base)
   }

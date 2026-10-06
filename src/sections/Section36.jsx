@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /email-sms-marketing, section 7).
+// section — the section's real markup, read from the rendered page (route /restaurant-participation-agreement, section 3).
 export default function Section36() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section36">
@@ -58,7 +59,7 @@ export default function Section36() {
                   <A href="/automatic-marketing" className="footer-link cc-big">Marketing Campaigns</A>
                 </li>
                 <li>
-                  <A href="/email-sms-marketing" aria-current="page" className="footer-link cc-big w--current">{"Email & SMS Marketing"}</A>
+                  <A href="/email-sms-marketing" className="footer-link cc-big">{"Email & SMS Marketing"}</A>
                 </li>
                 <li>
                   <A href="/push-notifications" className="footer-link cc-big">Push Notifications Marketing</A>
@@ -216,7 +217,7 @@ export default function Section36() {
                 <A href="/disclaimer" className="footer-bottom_link">Disclaimer</A>
               </li>
               <li>
-                <A href="/restaurant-participation-agreement" className="footer-bottom_link">Restaurant Agreements</A>
+                <A href="/restaurant-participation-agreement" aria-current="page" className="footer-bottom_link w--current">Restaurant Agreements</A>
               </li>
               <li>
                 <A href="/platform-terms" className="footer-bottom_link">Platform Terms</A>

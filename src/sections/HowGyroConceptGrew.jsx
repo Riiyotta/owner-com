@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Gyro Concept grew to $194, — the section's real markup, read from the rendered page (route /case-studies/gyro-concept, section 1).
 export default function HowGyroConceptGrew() {
   return (

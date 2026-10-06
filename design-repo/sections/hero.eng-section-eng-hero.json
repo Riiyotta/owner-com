@@ -69,5 +69,8 @@
     "background",
     "video"
   ],
-  "implementedBy": "src/sections/EngSectionEngHero.jsx"
+  "implementedBy": "src/sections/EngSectionEngHero.jsx",
+  "implementedByAll": [
+    "src/sections/EngSectionEngHero.jsx"
+  ]
 }

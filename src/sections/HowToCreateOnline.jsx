@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How To Create Online Ordering  — the section's real markup, read from the rendered page (route /blog/how-to-create-online-ordering-restaurant, section 1).
@@ -701,7 +702,7 @@ export default function HowToCreateOnline() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-identify-your-online-ordering-goals" className="blog-content_column-link w--current">1. Identify your online ordering goals</a>
+                <a fs-toc-element="link" href="#1-identify-your-online-ordering-goals" className="blog-content_column-link">1. Identify your online ordering goals</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-pick-your-platform" className="blog-content_column-link">2. Pick your platform</a>

@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper27 from "../sections/NavWrapper27.jsx";
+import NavWrapper28 from "../sections/NavWrapper28.jsx";
 import OwnerComReviewsFrom from "../sections/OwnerComReviewsFrom.jsx";
 import ActualReviewsFromRestaurant from "../sections/ActualReviewsFromRestaurant.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
@@ -16,7 +16,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-28.css?inline"; // only this page loads it
+import css11 from "../styles/inline-30.css?inline"; // only this page loads it
 
 // Route /reviews — 5 section(s), in page order.
 export default function Reviews() {
@@ -48,7 +48,7 @@ export default function Reviews() {
         <div className="hide w-embed"></div>
       </div>
       <div className="hide w-embed"></div>
-      <NavWrapper27 />
+      <NavWrapper28 />
       <main className="main-wrapper">
         <OwnerComReviewsFrom />
         <ActualReviewsFromRestaurant />

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // What Is POS Reporting? Key Rep — the section's real markup, read from the rendered page (route /blog/pos-reporting, section 1).
@@ -552,7 +553,7 @@ export default function WhatIsPOSReporting() {
                 <a fs-toc-element="link" href="#what-is-pos-reporting" className="blog-content_column-link">What is POS reporting?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#what-are-the-benefits-of-pos-reporting" className="blog-content_column-link w--current">What are the benefits of POS reporting?</a>
+                <a fs-toc-element="link" href="#what-are-the-benefits-of-pos-reporting" className="blog-content_column-link">What are the benefits of POS reporting?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#key-pos-reports-you-should-be-tracking" className="blog-content_column-link">Key POS reports you should be tracking</a>

@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 // Our vision stretches far beyon — the section's real markup, read from the rendered page (route /builders-wanted, section 10).
 export default function OurVisionStretchesFar() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Your top questions, answered. — the section's real markup, read from the rendered page (route /pricing, section 5).
 export default function YourTopQuestionsAnswered() {
   return (

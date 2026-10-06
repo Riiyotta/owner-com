@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // The easiest way to get more Go — the section's real markup, read from the rendered page (route /reviews-engine, section 2).
 export default function TheEasiestWayTo3() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 197 Best Pizzeria Slogans You  — the section's real markup, read from the rendered page (route /blog/197-best-pizzeria-slogans-you-can-use-for-free-2019, section 1).

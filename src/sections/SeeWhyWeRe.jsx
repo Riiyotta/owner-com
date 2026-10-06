@@ -1,3 +1,4 @@
+// IA section(s): proof.section-reviews (ia/ia.json, design-repo/sections/)
 // See why we’re rated #1 in rest — the section's real markup, read from the rendered page (route /, section 4; shared by 4 routes).
 export default function SeeWhyWeRe() {
   return (

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Branding: A Quick,  — the section's real markup, read from the rendered page (route /blog/restaurant-branding-more-direct-orders, section 1).

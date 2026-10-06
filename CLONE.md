@@ -1,6 +1,6 @@
 # clone/ — Online Ordering and Restaurant Marketing System | Owner.com
 
-A runnable **Vite + React + react-router + Tailwind v3** project written from the real rendered DOM of https://www.owner.com/?ref=saaspo.com: one component per section with that section's own markup, the site's own stylesheets, its real images, fonts and video under `public/`, routes declared in `src/routes.js`.
+A runnable **Vite + React + react-router + Tailwind v3** project written from the real rendered DOM of https://www.owner.com/: one component per section with that section's own markup, the site's own stylesheets, its real images, fonts and video under `public/`, routes declared in `src/routes.js`.
 
 ```
 npm install
@@ -12,7 +12,7 @@ npm run build
 
 - `src/sections/`: **438** component(s) (803 section instance(s) over 144 route(s); identical markup shared across routes is one component).
 - `src/pages/` + `src/routes.js` + `src/App.jsx`: one page per captured route, sections in page order, react-router links between captured pages.
-- `src/styles/`: the site's own CSS, copied as it was with every `url()` rewritten to a file under `public/`; `tokens.css` + `tailwind.config.cjs` carry the measured design tokens (Tailwind utilities load first, preflight is off, so the site's CSS wins).
+- `src/styles/`: the site's own CSS, copied as it was with every `url()` rewritten to a file under `public/`; `tokens.css` + `tailwind.config.cjs` carry the measured design tokens (the Tailwind utilities are not bundled, because Tailwind v3 output is unlayered and would override a site whose own CSS uses native `@layer`; the site's CSS alone styles the clone).
 - `public/`: **1534** real file(s), 232.3 MB (images, fonts, video, SVG). Nothing points outside the project.
 - `clone-manifest.json`: route → page → component map, every still, every dropped file.
 
@@ -20,8 +20,9 @@ npm run build
 
 - **Canvas / Rive areas: 2 still(s) captured** (4 canvas(es) drew nothing and are an empty, correctly sized box). The 0 `.riv` file(s) are **not** included: a remix cannot recolour or redraw a Rive file and would ship the original mascot on every generated site. Replace each still with an image slot, CSS or GSAP.
 - **Scroll-driven motion is not reproduced.** The clone keeps one reveal-on-scroll observer only. Rebuild them with CSS or GSAP in the remix.
-- **Scroll-reveal: 89 element(s)** that started hidden or offset and animated in are marked `data-reveal`; one IntersectionObserver (`src/lib/usePageChrome.js`) fades them up (off under reduced motion).
-- **Not reproduced**: GSAP timelines / ScrollTrigger pins and scrubs (pin wrappers are removed, content flows normally), Lenis smooth scroll, menus, accordions, tabs, carousels and other script behaviour (only the state the page was in after load is captured), forms (submit is prevented), third-party frames (replaced by an empty box of the same size), shadow-DOM content.
+- **Scroll-reveal: 90 element(s)** that started hidden or offset and animated in are marked `data-reveal`; one IntersectionObserver (`src/lib/usePageChrome.js`) fades them up (off under reduced motion).
+- **30960 element(s) forced visible.** These started hidden/offset on the original and were still hidden/offset when this clone was captured — the scroll-triggered animation that reveals them on the original did not fire the same way during capture. Rather than ship them permanently invisible, their hiding style was stripped so they render plainly (no animation, but visible). Rebuild the real scroll-in motion in the remix.
+- **Not reproduced**: GSAP timelines / ScrollTrigger pins and scrubs (pin wrappers are removed, content flows normally), Lenis smooth scroll, accordions, tabs, carousels and other script behaviour (only the state the page was in after load is captured), forms (submit is prevented), third-party frames (replaced by an empty box of the same size), shadow-DOM content.
 - **No analytics or trackers**: none are in `src/` or `public/`.
 - **No external links**: links to other sites (and to pages that were not captured) keep their element and styling but have no `href`; links between cloned pages go through the router. `--keep-external-links` keeps them.
 
@@ -29,26 +30,26 @@ npm run build
 
 | Check | Result |
 |---|---|
-| Every `src` / `url()` the code points at exists in `public/` | FAIL: /_ext/player.vimeo.com/progressive_redirect/playback/1176311571/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=5d553ea2575ef8655cd55c6f3b2286b73955945cf0c780356809af645fe0697c, /_ext/player.vimeo.com/progressive_redirect/playback/1177074455/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=1f9c4de5840ab2fe5b99d9896c0753bca052e3306548d2873a39e4749671f00e |
+| Every `src` / `url()` the code points at exists in `public/` | PASS (1981 image reference(s), 1981 resolved) |
 | No tracker host in code or `public/` | PASS |
-| No external hyperlink in `src/` | FAIL: src/sections/ActualReviewsFromRestaurant.jsx |
+| No external hyperlink in `src/` | PASS (1601 link(s) to other sites or uncaptured pages lost their target) |
 | No placeholder boxes from the level-2 scaffold | PASS |
-| Vite build + every route loads offline | FAIL: vite build ok; 144 route(s) loaded: 0 console/network error(s), 0 outside host(s), 1 empty page(s) |
-| Parity vs the original page, per section (gate 80%) | PASS: average 99.1% over 6 route(s) |
+| Vite build + every route loads offline | PASS: vite build ok; 144 route(s) loaded: 0 console/network error(s), 0 outside host(s), 0 empty page(s) |
+| Parity vs the original page, per section (gate 80%) | PASS: average 93.9% over 6 route(s) |
 
 ### Parity detail
 
 Each section of the built clone is compared with the same section of the **original page**: the crawl's own full-page screenshot at 1440 px (`extras/images/`, taken from the live site with its scripts running) cut at that section's rectangle, or a fresh screenshot of the offline mirror when that file is missing. Both sides are compared on a half-scale grid; a pixel matches when no channel differs by more than 40/255, and a section whose height differs by more than 10 % is scaled down by the height ratio (except GSAP-pinned sections, whose extra scroll length is a script's doing). The route score weights sections by height. Sections below the gate get a side-by-side picture (original | clone) in `qa/parity/`. Whole-page height is not scored: GSAP pin spacers add blank scroll length the clone does not reproduce. Live animation, video and carousels in motion differ by design.
 
-**`/`**: 96.8% over 11 of 11 section(s) (reference: original crawl screenshot); page height 10663 → 10663 px. Below the gate: 2:GrowSalesLikeThese 75%.
+**`/`**: 94.5% over 11 of 11 section(s) (reference: original crawl screenshot); page height 10663 → 10663 px. Below the gate: 1:TheAIPlatformRestaurants 74%, 2:GrowSalesLikeThese 75%.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper` | 70 → 70 px | 100.0% | 100.0% |
-| 1 | `TheAIPlatformRestaurants` | 1181 → 1181 px | 96.6% | 96.6% |
-| 2 | `GrowSalesLikeThese` | 789 → 789 px | 75.4% | 75.4% ⚠ |
+| 0 | `NavWrapper` | 70 → 70 px | 99.8% | 99.8% |
+| 1 | `TheAIPlatformRestaurants` | 1181 → 1181 px | 73.9% | 73.9% ⚠ |
+| 2 | `GrowSalesLikeThese` | 789 → 789 px | 75.2% | 75.2% ⚠ |
 | 3 | `WithOwnerYouGet` | 1283 → 1283 px | 99.9% | 99.9% |
-| 4 | `SeeWhyWeRe` | 1131 → 1131 px | 91.9% | 91.9% |
+| 4 | `SeeWhyWeRe` | 1131 → 1131 px | 92.9% | 92.9% |
 | 5 | `GiveYourRestaurantThe` | 2004 → 2004 px | 100.0% | 100.0% |
 | 6 | `TrustedByOwners` | 979 → 979 px | 97.0% | 97.0% |
 | 7 | `S3BeliefsThatGuide` | 1065 → 1065 px | 100.0% | 100.0% |
@@ -56,25 +57,27 @@ Each section of the built clone is compared with the same section of the **origi
 | 9 | `TheEasiestWayTo` | 534 → 534 px | 100.0% | 100.0% |
 | 10 | `Section` | 1012 → 1012 px | 100.0% | 100.0% |
 
-**`/leadership`**: 99.9% over 8 of 8 section(s) (reference: original crawl screenshot); page height 5932 → 5932 px.
+**`/careers`**: 97.2% over 10 of 10 section(s) (reference: original crawl screenshot); page height 11082 → 11082 px. Below the gate: 1:ProtectTheFutureOf 61%.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper25` | 70 → 70 px | 100.0% | 100.0% |
-| 1 | `MeetOurLeadershipTeam` | 508 → 508 px | 99.5% | 99.5% |
-| 2 | `BgColorBglighter4` | 1817 → 1817 px | 100.0% | 100.0% |
-| 3 | `BoardOfDirectors` | 662 → 662 px | 100.0% | 100.0% |
-| 4 | `QuotesFromInvestors` | 784 → 784 px | 100.0% | 100.0% |
-| 5 | `WeReBackedBy` | 992 → 992 px | 99.7% | 99.7% |
-| 6 | `IsProductPage` | 408 → 408 px | 100.0% | 100.0% |
-| 7 | `Section25` | 1012 → 1012 px | 100.0% | 100.0% |
+| 0 | `NavWrapper25` | 70 → 70 px | 99.7% | 99.7% |
+| 1 | `ProtectTheFutureOf` | 820 → 820 px | 60.8% | 60.8% ⚠ |
+| 2 | `BgColorBglighter2` | 1997 → 1997 px | 99.7% | 99.7% |
+| 3 | `WhatItSLike` | 2662 → 2662 px | 100.0% | 100.0% |
+| 4 | `BgColorBglighter3` | 2031 → 2031 px | 100.0% | 100.0% |
+| 5 | `SeeIfOurValues` | 866 → 866 px | 100.0% | 100.0% |
+| 6 | `WeReBackedBy` | 992 → 992 px | 99.8% | 99.8% |
+| 7 | `Roles` | 610 → 610 px | 100.0% | 100.0% |
+| 8 | `TheEasiestWayTo6` | 534 → 534 px | 100.0% | 100.0% |
+| 9 | `Section25` | 1012 → 1012 px | 100.0% | 100.0% |
 
-**`/case-studies/cyclo-noodles`**: 100.0% over 8 of 8 section(s) (reference: original crawl screenshot); page height 6634 → 6634 px.
+**`/case-studies/cyclo-noodles`**: 96.3% over 8 of 8 section(s) (reference: original crawl screenshot); page height 6634 → 6634 px.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper37` | 70 → 70 px | 100.0% | 100.0% |
-| 1 | `HowCycloNoodlesGrew` | 1318 → 1318 px | 100.0% | 100.0% |
+| 0 | `NavWrapper37` | 70 → 70 px | 99.7% | 99.7% |
+| 1 | `HowCycloNoodlesGrew` | 1318 → 1318 px | 80.3% | 80.3% |
 | 2 | `HowTheirOnlineExperience7` | 1357 → 1357 px | 100.0% | 100.0% |
 | 3 | `BgColorTaupe27` | 832 → 832 px | 100.0% | 100.0% |
 | 4 | `Section45` | 891 → 891 px | 99.9% | 99.9% |
@@ -82,33 +85,33 @@ Each section of the built clone is compared with the same section of the **origi
 | 6 | `IsProductPage` | 408 → 408 px | 100.0% | 100.0% |
 | 7 | `Section` | 1012 → 1012 px | 100.0% | 100.0% |
 
-**`/blog-category/increase-sales`**: 100.0% over 5 of 5 section(s) (reference: original crawl screenshot); page height 4475 → 4475 px.
+**`/blog-category/increase-sales`**: 93.4% over 5 of 5 section(s) (reference: original crawl screenshot); page height 4475 → 4475 px. Below the gate: 1:IsHero3 70%.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper36` | 70 → 70 px | 100.0% | 100.0% |
-| 1 | `IsHero3` | 996 → 996 px | 100.0% | 100.0% |
+| 0 | `NavWrapper2` | 70 → 70 px | 99.8% | 99.8% |
+| 1 | `IsHero3` | 996 → 996 px | 69.6% | 69.6% ⚠ |
 | 2 | `IsCategoryPage` | 2117 → 2117 px | 100.0% | 100.0% |
 | 3 | `IsProductPage` | 408 → 408 px | 100.0% | 100.0% |
 | 4 | `Section` | 1012 → 1012 px | 100.0% | 100.0% |
 
-**`/blog/restaurant-business-plan`**: 99.9% over 3 of 4 section(s) (reference: original crawl screenshot); page height 15131 → 15131 px.
+**`/blog/how-to-increase-average-check-size`**: 90.4% over 3 of 4 section(s) (reference: original crawl screenshot); page height 18141 → 18141 px. Below the gate: 0:NavWrapper2 57%.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper36` | 70 → 70 px | 88.5% | 88.5% |
-| 1 | `HowToCreateA2` | 13706 → 13706 px | 100.0% | 100.0% |
+| 0 | `NavWrapper2` | 70 → 70 px | 57.2% | 57.2% ⚠ |
+| 1 | `S13EffectiveWaysTo` | 16716 → 16716 px | 90.3% | 90.3% |
 | 2 | `IsProductPage` | 408 → 408 px | 100.0% | 100.0% |
 | 3 | `Section` | 1012 → 1012 px | — | skipped |
 
-**`/blog/restaurant-tech-stack`**: 98.2% over 3 of 4 section(s) (reference: original crawl screenshot); page height 13664 → 13664 px. Below the gate: 0:NavWrapper36 65%.
+**`/blog/restaurant-branding-more-direct-orders`**: 91.8% over 4 of 4 section(s) (reference: original crawl screenshot); page height 6458 → 6458 px.
 
 | # | Component | Height (original → clone) | Match | Score |
 |---|---|---|---|---|
-| 0 | `NavWrapper36` | 70 → 70 px | 65.4% | 65.4% ⚠ |
-| 1 | `RestaurantTechStackGuide` | 12239 → 12239 px | 98.3% | 98.3% |
+| 0 | `NavWrapper2` | 70 → 70 px | 89.9% | 89.9% |
+| 1 | `RestaurantBrandingAQuick` | 5032 → 5032 px | 89.5% | 89.5% |
 | 2 | `IsProductPage` | 408 → 408 px | 100.0% | 100.0% |
-| 3 | `Section` | 1012 → 1012 px | — | skipped |
+| 3 | `Section` | 1012 → 1012 px | 100.0% | 100.0% |
 
 ### Missing in the mirror
 

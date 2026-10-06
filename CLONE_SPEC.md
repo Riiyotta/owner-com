@@ -1,37 +1,37 @@
 # CLONE_SPEC — Online Ordering and Restaurant Marketing System | Owner.com
 
-Source: https://www.owner.com/?ref=saaspo.com · stack guess: Webflow+GSAP · 144 route(s), 22 template(s), 67 section type(s).
+Source: https://www.owner.com/ · stack guess: Webflow+GSAP · 144 route(s), 25 template(s), 67 section type(s).
 Measured from the rendered pages at 1440, 1280 and 390px wide. Colours are hex. Values are measurements; role names are inferred from usage.
 
 ## Colours
 
 | Token | Hex | Uses | Mostly used as |
 |---|---|---|---|
-| `color.neutral.01` | `#2c2c2c` | 92791 | text, fill, bg |
-| `color.neutral.02` | `#ffffff` | 38463 | text, fill, bg |
+| `color.neutral.01` | `#2c2c2c` | 92789 | text, fill, bg |
+| `color.neutral.02` | `#ffffff` | 38558 | text, fill, bg |
 | `color.neutral.03` | `#2c2c2cd9` | 16818 | text |
-| `color.neutral.04` | `#000000` | 6148 | text, fill, bg |
+| `color.neutral.04` | `#000000` | 6147 | text, fill, bg |
 | `color.neutral.05` | `#2c2c2c80` | 3324 | text |
 | `color.green.01` | `#088924` | 2836 | text, bg, fill |
 | `color.neutral.06` | `#0a0909` | 2236 | text, fill |
-| `color.neutral.07` | `#f9f3ed` | 2219 | text, bg |
+| `color.neutral.07` | `#f9f3ed` | 2217 | text, bg |
 | `color.neutral.08` | `#222323` | 1596 | text, fill, bg |
-| `color.neutral.09` | `#090a0b` | 1509 | fill |
+| `color.neutral.09` | `#090a0b` | 1508 | fill |
 | `color.neutral.10` | `#2c2c2c26` | 1220 | fill |
 | `color.green.02` | `#094413` | 894 | bg, text |
-| `color.neutral.11` | `#ffffffd9` | 674 | text, bg |
+| `color.neutral.11` | `#ffffffd9` | 611 | text, bg |
 | `color.neutral.12` | `#dddddd` | 477 | border |
 | `color.neutral.13` | `#666666` | 461 | text |
-| `color.neutral.14` | `#fbf8f5` | 459 | bg |
-| `color.neutral.15` | `#2c2c2ce6` | 334 | text |
-| `color.neutral.16` | `#00000054` | 332 | bg |
-| `color.neutral.17` | `#ffffff1a` | 332 | border |
+| `color.neutral.14` | `#fbf8f5` | 454 | bg |
+| `color.neutral.15` | `#2c2c2c0d` | 361 | bg |
+| `color.neutral.16` | `#2c2c2ce6` | 334 | text |
+| `color.neutral.17` | `#00000054` | 332 | bg |
+| `color.neutral.18` | `#ffffff1a` | 332 | border |
 | `color.red.01` | `#ff4c24` | 330 | bg |
-| `color.neutral.18` | `#ffffff26` | 330 | bg |
-| `color.neutral.19` | `#767676` | 303 | border |
-| `color.neutral.20` | `#2c2c2c4d` | 286 | bg, border |
-| `color.orange.01` | `#f6eee5` | 258 | bg, fill |
-| `color.neutral.21` | `#2c2c2c0d` | 222 | bg |
+| `color.neutral.19` | `#ffffff26` | 330 | bg |
+| `color.neutral.20` | `#767676` | 303 | border |
+| `color.neutral.21` | `#2c2c2c4d` | 286 | bg, border |
+| `color.orange.01` | `#f6eee5` | 236 | bg, fill |
 | `color.green.03` | `#c2edce` | 194 | bg |
 | `color.neutral.22` | `#333333` | 169 | text, bg |
 | `color.blue.01` | `#007bff` | 157 | border, text, bg |
@@ -50,11 +50,11 @@ Measured from the rendered pages at 1440, 1280 and 390px wide. Colours are hex. 
 
 Semantic roles:
 
-- `surface.default` → `color.neutral.02` (#ffffff): most-used opaque background (2228 uses)
+- `surface.default` → `color.neutral.02` (#ffffff): most-used opaque background (2323 uses)
 - `surface.alt` → `color.neutral.01` (#2c2c2c): second most-used neutral background (693 uses)
 - `surface.inverse` → `color.neutral.01` (#2c2c2c): most-used background neutral, with opposite lightness to surface.default (693 uses)
 - `surface.accent` → `color.green.02` (#094413): most-used saturated background (879 uses)
-- `text.primary` → `color.neutral.01` (#2c2c2c): most-used text colour (89873 uses)
+- `text.primary` → `color.neutral.01` (#2c2c2c): most-used text colour (89871 uses)
 - `text.secondary` → `color.neutral.13` (#666666): most-used neutral text colour with lower contrast than text.primary on surface.default (461 uses)
 - `text.inverse` → `color.neutral.02` (#ffffff): most-used text colour neutral, with opposite lightness to text.primary (28812 uses)
 - `text.accent` → `color.green.01` (#088924): most-used saturated text/fill colour (2282 uses)
@@ -98,14 +98,14 @@ Semantic roles:
 
 - `duration.450ms`: 0.45s (60234 uses)
 - `duration.350ms`: 0.35s (10522 uses)
-- `duration.300ms`: 0.3s (9289 uses)
+- `duration.300ms`: 0.3s (9285 uses)
 - `duration.600ms`: 0.6s (1361 uses)
 - `duration.150ms`: 0.15s (379 uses)
 - `duration.200ms`: 0.2s (234 uses)
 - `duration.250ms`: 0.25s (140 uses)
 - `duration.400ms`: 0.4s (81 uses)
 - `easing.01`: cubic-bezier(0.215, 0.61, 0.355, 1) (70750 uses)
-- `easing.02`: cubic-bezier(0.38, 0.005, 0.215, 1) (6430 uses)
+- `easing.02`: cubic-bezier(0.38, 0.005, 0.215, 1) (6426 uses)
 - `easing.03`: linear (2727 uses)
 - `easing.04`: cubic-bezier(0.625, 0.05, 0, 1) (1361 uses)
 - `easing.05`: ease (584 uses)
@@ -141,7 +141,6 @@ Semantic roles:
 - `layout.sectionPaddingBottom.features`: 246px (most common padding-bottom of a FEATURES section (differs from the sitewide mode))
 - `layout.gridGap.features`: {fontSize.80} (most common column-gap of a FEATURES section (differs from the sitewide mode))
 - `layout.sectionPaddingTop.hero`: {fontSize.80} (most common padding-top of a HERO section (differs from the sitewide mode))
-- `layout.gridGap.hero`: {space.7} (most common column-gap of a HERO section (differs from the sitewide mode))
 - `layout.gridGap.proof`: {space.40} (most common column-gap of a PROOF section (differs from the sitewide mode))
 - `layout.sectionPaddingTop.shell`: {fontSize.80} (most common padding-top of a SHELL section (differs from the sitewide mode))
 - `layout.sectionPaddingBottom.shell`: {radius.24} (most common padding-bottom of a SHELL section (differs from the sitewide mode))
@@ -154,7 +153,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `shell.nav-wrapper` (SHELL)
 
-- appears on 60 route(s), 60 instance(s); tag `<div>`, named "nav-wrapper"
+- appears on 141 route(s), 141 instance(s); tag `<div>`, named "nav-wrapper"
 - height: 70px @1440 · 70px @1280 · 49px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 7px
@@ -172,7 +171,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - headline: STKBureauSans 80px/76px weight 600 tracking -3.2px #2c2c2c
 - body: STKBureauSans 16px/20.8px weight 600 #2c2c2cd9
 - motion: css-transition, canvas-animation
-- example headline: "The AI platform restaurants use to grow online discovery."
+- example headline: "The AI platform restaurants use to grow first-party sales."
 
 ### `proof.section-stories` (PROOF)
 
@@ -200,7 +199,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `proof.section-reviews` (PROOF)
 
-- appears on 4 route(s), 4 instance(s); tag `<section>`, named "section-reviews"
+- appears on 5 route(s), 5 instance(s); tag `<section>`, named "section-reviews"
 - height: 1131px @1440 · 1005px @1280 · 929px @390
 - columns: 12 @1440 · 12 @1280 · 12 @390
 - box: padding 128/164px · first child 1440px wide · gap 48px
@@ -225,7 +224,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `proof.section-testimonials` (PROOF)
 
-- appears on 8 route(s), 8 instance(s); tag `<section>`, named "section-testimonials"
+- appears on 23 route(s), 23 instance(s); tag `<section>`, named "section-testimonials"
 - height: 979px @1440 · 871px @1280 · 1042px @390
 - columns: 10 @1440 · 10 @1280 · 10 @390
 - box: padding 128/164px · first child 1440px wide · gap 40px
@@ -238,7 +237,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `proof.section-beliefs` (PROOF)
 
-- appears on 3 route(s), 3 instance(s); tag `<section>`, named "section-beliefs"
+- appears on 4 route(s), 4 instance(s); tag `<section>`, named "section-beliefs"
 - height: 1065px @1440 · 946px @1280 · 1121px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 128/164px · first child 1440px wide · gap 80px
@@ -262,7 +261,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `cta.section-cta` (CTA)
 
-- appears on 5 route(s), 5 instance(s); tag `<section>`, named "section-cta"
+- appears on 6 route(s), 6 instance(s); tag `<section>`, named "section-cta"
 - height: 534px @1440 · 474px @1280 · 707px @390
 - columns: 2 @1440 · 2 @1280 · 1 @390
 - box: padding 0/0px · first child 1440px wide · gap 40px
@@ -274,7 +273,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `shell.section-footer` (SHELL)
 
-- appears on 60 route(s), 60 instance(s); tag `<section>`, named "section-footer"
+- appears on 140 route(s), 140 instance(s); tag `<section>`, named "section-footer"
 - height: 1012px @1440 · 899px @1280 · 2120px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 80/24px · first child 1440px wide · gap 80px
@@ -282,13 +281,25 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: STKBureauSans 20px/26px weight 500 #2c2c2c
 - motion: css-transition
 
+### `hero.section-legal` (HERO)
+
+- appears on 7 route(s), 7 instance(s); tag `<section>`, named "section-legal"
+- height: 15233px @1440 · 13537px @1280 · 30912px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 80/164px · first child 1440px wide · gap 80px
+- colour: background #ffffff · text #2c2c2c · align start
+- headline: STKBureauSans 80px/76px weight 600 tracking -3.2px #2c2c2c
+- body: STKBureauSans 16px/20.8px weight 400 #2c2c2c
+- motion: css-transition, scroll-linked
+- example headline: "Accessibility"
+
 ### `content.section-base` (CONTENT)
 
-- appears on 56 route(s), 163 instance(s); tag `<section>`, named "section-base"
-- height: 891px @1440 · 792px @1280 · 992px @390
+- appears on 136 route(s), 286 instance(s); tag `<section>`, named "section-base"
+- height: 660px @1440 · 586px @1280 · 483px @390
 - columns: 2 @1440 · 2 @1280 · 1 @390
 - box: padding 128/164px · first child 1440px wide · gap 64px
-- colour: background #ffffff · text #2c2c2c · align center
+- colour: background #2c2c2c · text #2c2c2c · align center
 - headline: STKBureauSans 48px/48px weight 600 tracking -1.44px #ffffff
 - body: STKBureauSans 16px/20.8px weight 400 #2c2c2c
 - layout: text + visual, 480 / 540px, text on the left
@@ -331,8 +342,8 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `hero.section-product-hero` (HERO)
 
-- appears on 5 route(s), 5 instance(s); tag `<section>`, named "section-product_hero"
-- height: 656px @1440 · 583px @1280 · 910px @390
+- appears on 20 route(s), 20 instance(s); tag `<section>`, named "section-product_hero"
+- height: 656px @1440 · 583px @1280 · 931px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 80/80px · first child 1440px wide · gap 40px
 - colour: background #ffffff · text #2c2c2c · align start
@@ -340,20 +351,43 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: STKBureauSans 20px/26px weight 400 #2c2c2c
 - layout: text + visual, 768 / 424px, text on the left
 - motion: css-transition
-- example headline: "Profitable delivery and a great guest experience."
-
-### `hero.page-wrapper` (HERO)
-
-- appears on 81 route(s), 81 instance(s); tag `<div>`, named "page-wrapper"
-- height: 15938px @1440 · 14172px @1280 · 22807px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1440px wide · gap 7px
-- colour: background #ffffff · text #2c2c2c · align start
-- headline: STKBureauSans 48px/48px weight 600 tracking -1.44px #2c2c2c
-- body: STKBureauSans 14px/18.2px weight 600 #2c2c2c
-- layout: text + visual, 768 / 599px, text on the left (layered)
-- motion: css-transition, scroll-linked, css-animation, canvas-animation
 - example headline: "AI that answers every call you're currently missing."
+
+### `hero.section-product-v-hero` (HERO)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section-product-v_hero"
+- height: 1381px @1440 · 1228px @1280 · 1037px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 80/0px · first child 1440px wide · gap 40px
+- colour: background #ffffff · text #2c2c2c · align center
+- headline: STKBureauSans 80px/76px weight 600 tracking -3.2px #2c2c2c
+- body: STKBureauSans 15px/15px weight 400 #ffffff
+- motion: css-transition
+- example headline: "The POS built to bring your customers back"
+
+### `features.section-pos-steps` (FEATURES)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section-pos-steps"
+- height: 2724px @1440 · 2421px @1280 · 2832px @390
+- columns: 2 @1440 · 2 @1280 · 1 @390
+- box: padding 128/164px · first child 1440px wide · gap 80px
+- colour: background #ffffff · text #2c2c2c · align center
+- headline: STKBureauSans 64px/64px weight 600 tracking -1.92px #2c2c2c
+- body: STKBureauSans 48px/48px weight 600 #2c2c2c
+- motion: none observed
+- example headline: "How Owner POS turns one visit into many"
+
+### `support.section-leaders-support` (SUPPORT)
+
+- appears on 2 route(s), 2 instance(s); tag `<section>`, named "section-leaders-support"
+- height: 848px @1440 · 754px @1280 · 1188px @390
+- columns: 4 @1440 · 4 @1280 · 1 @390
+- box: padding 164/164px · first child 1440px wide · gap 48px
+- colour: background #ffffff · text #ffffff · align start
+- headline: STKBureauSans 64px/64px weight 600 tracking -1.92px #ffffff
+- body: STKBureauSans 22px/23.1px weight 600 #2c2c2c
+- motion: none observed
+- example headline: "Quotes from investors"
 
 ### `hero.section-about-hero` (HERO)
 
@@ -473,18 +507,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-animation
 - example headline: "Meet our leadership team"
 
-### `support.section-leaders-support` (SUPPORT)
-
-- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section-leaders-support"
-- height: 784px @1440 · 697px @1280 · 965px @390
-- columns: 4 @1440 · 4 @1280 · 1 @390
-- box: padding 164/164px · first child 1440px wide · gap 48px
-- colour: background #ffffff · text #ffffff · align start
-- headline: STKBureauSans 64px/64px weight 600 tracking -1.92px #ffffff
-- body: STKBureauSans 22px/23.1px weight 600 #2c2c2c
-- motion: none observed
-- example headline: "Quotes from investors"
-
 ### `hero.eng-section-eng-hero` (HERO)
 
 - appears on 1 route(s), 1 instance(s); tag `<section>`, named "eng-section_eng-hero"
@@ -553,13 +575,13 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 ### `content.block` (CONTENT)
 
-- appears on 2 route(s), 3 instance(s); tag `<div>`, named "Block"
-- height: 526px @1440 · 526px @1280 · 600px @390
-- columns: 2 @1440 · 2 @1280 · 1 @390
-- box: padding 0/0px · first child 1140px wide · gap 120px
-- colour: background #f1f1f2 · text #222323 · align center
-- headline: STKBureauSans 75px/90px weight 400 tracking -2.25px #222323
-- body: STKBureauSans 48px/57.6px weight 400 #222323
+- appears on 2 route(s), 11 instance(s); tag `<div>`, named "Block"
+- height: 476px @1440 · 423px @1280 · 600px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 680px wide · gap 64px
+- colour: background #ffffff · text #2c2c2c · align start
+- headline: STKBureauSans 32px/38.4px weight 600 tracking -0.96px #2c2c2c
+- body: STKBureauSans 17px/23.8px weight 400 #2c2c2c
 - motion: css-animation
 
 ### `content.eng-lp-figure-wall` (CONTENT)
@@ -614,6 +636,19 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: STKBureauSans 16px/20.8px weight 600 #2c2c2c
 - motion: css-animation
 - example headline: "Owner.com Reviews from Restaurant Owners"
+
+### `hero.section-demo` (HERO)
+
+- appears on 1 route(s), 1 instance(s); tag `<section>`, named "section_demo"
+- height: 945px @1440 · 840px @1280 · 1478px @390
+- columns: 2 @1440 · 2 @1280 · 1 @390
+- box: padding 80/80px · first child 1440px wide · gap 24px
+- colour: background #fbf8f5 · text #2c2c2c · align start
+- headline: STKBureauSans 48px/48px weight 600 tracking -1.44px #2c2c2c
+- body: STKBureauSans 20px/26px weight 400 #2c2c2cd9
+- layout: text + visual, 544 / 633px, text on the left (layered)
+- motion: css-transition
+- example headline: "See the #1 rated restaurant marketing platform in action"
 
 ### `hero.section-s-d-hero` (HERO)
 
@@ -683,18 +718,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: none observed
 - example headline: "Technology has been weaponized against local owners."
 
-### `content.u-mb-64` (CONTENT)
-
-- appears on 1 route(s), 4 instance(s); tag `<div>`, named "u-mb-64"
-- height: 476px @1440 · 423px @1280 · 688px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 680px wide · gap 64px
-- colour: background #ffffff · text #2c2c2c · align start
-- headline: STKBureauSans 48px/48px weight 600 tracking -1.44px #2c2c2c
-- body: STKBureauSans 17px/23.8px weight 400 #2c2c2c
-- motion: none observed
-- example headline: "An agentic system that drives profitable, direct sales."
-
 ### `content.s-d-wrap` (CONTENT)
 
 - appears on 1 route(s), 1 instance(s); tag `<div>`, named "s-d_wrap"
@@ -706,18 +729,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: STKBureauSans 17px/23.8px weight 400 #2c2c2c
 - motion: none observed
 - example headline: "Owner's online success system"
-
-### `content.u-mb-40` (CONTENT)
-
-- appears on 1 route(s), 4 instance(s); tag `<div>`, named "u-mb-40"
-- height: 496px @1440 · 441px @1280 · 630px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1232px wide · gap 64px
-- colour: background #ffffff · text #2c2c2c · align start
-- headline: STKBureauSans 32px/38.4px weight 600 tracking -0.96px #2c2c2c
-- body: STKBureauSans 17px/23.8px weight 400 #2c2c2c
-- motion: none observed
-- example headline: "Founding product insight"
 
 ### `content.section-s-d-future` (CONTENT)
 
@@ -887,29 +898,17 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: css-transition
 - example headline: "How Ashley's Cafe grew monthly sales by $30K with Owner POS"
 
-### `hero.section-legal` (HERO)
-
-- appears on 7 route(s), 7 instance(s); tag `<section>`, named "section-legal"
-- height: 15233px @1440 · 13537px @1280 · 30912px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 80/164px · first child 1440px wide · gap 80px
-- colour: background #ffffff · text #2c2c2c · align start
-- headline: STKBureauSans 80px/76px weight 600 tracking -3.2px #2c2c2c
-- body: STKBureauSans 16px/20.8px weight 400 #2c2c2c
-- motion: css-transition, scroll-linked
-- example headline: "Accessibility"
-
 ### `hero.section-blog-content` (HERO)
 
-- appears on 8 route(s), 8 instance(s); tag `<section>`, named "section-blog_content"
-- height: 17983px @1440 · 15982px @1280 · 26431px @390
+- appears on 72 route(s), 72 instance(s); tag `<section>`, named "section-blog_content"
+- height: 16862px @1440 · 15031px @1280 · 22760px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 80/164px · first child 1440px wide · gap 64px
 - colour: background #ffffff · text #2c2c2c · align start
 - headline: STKBureauSans 48px/48px weight 600 tracking -1.44px #2c2c2c
 - body: STKBureauSans 20px/26px weight 400 #2c2c2c
 - motion: css-transition, scroll-linked
-- example headline: "The Direct Catering Playbook: How I Built a 6-Figure Profit Center (Without Paying Huge Commissions)"
+- example headline: "197 Best Pizzeria Slogans You Can Use For Free"
 
 ### `hero.section-resource` (HERO)
 
@@ -929,50 +928,50 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 | Route | Template | Sections in order |
 |---|---|---|
 | `/` | `template.home` | `shell.nav-wrapper` → `hero.section-hp-hero` → `proof.section-stories` → `content.section-owner-stack` → `proof.section-reviews` → `content.section-restaurant` → `proof.section-testimonials` → `proof.section-beliefs` → `content.section-guides` → `cta.section-cta` → `shell.section-footer` |
-| `/pricing` | `template.group` | `shell.nav-wrapper` → `content.section-base` → `proof.section-reviews` → `proof.section-beliefs` → `proof.section-testimonials` → `content.section-base` → `support.form` → `content.section-base` → `shell.section-footer` |
+| `/privacy-policy` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
+| `/pricing` | `template.group-2` | `shell.nav-wrapper` → `content.section-base` → `proof.section-reviews` → `proof.section-beliefs` → `proof.section-testimonials` → `content.section-base` → `support.form` → `content.section-base` → `shell.section-footer` |
 | `/how-owner-works` | `template.how-owner-works` | `shell.nav-wrapper` → `hero.section-center-hero` → `features.section-hiw-steps` → `cta.section-cta` → `shell.section-footer` |
-| `/restaurant-website-ai` | `template.group-2` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
-| `/restaurant-seo` | `template.group-2` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
-| `/online-menu` | `template.group-2` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
-| `/reviews-engine` | `template.group-3` | `hero.page-wrapper` |
-| `/listings-management` | `template.group-2` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
-| `/online-ordering` | `template.group-3` | `hero.page-wrapper` |
-| `/smart-upsells` | `template.group-3` | `hero.page-wrapper` |
+| `/restaurant-website-ai` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/restaurant-seo` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/online-menu` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/reviews-engine` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/listings-management` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/online-ordering` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/smart-upsells` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
 | `/delivery` | `template.delivery` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-guides` → `content.section-base` → `shell.section-footer` |
-| `/catering` | `template.group-3` | `hero.page-wrapper` |
-| `/ai-phone-ordering` | `template.group-3` | `hero.page-wrapper` |
-| `/pos` | `template.group-3` | `hero.page-wrapper` |
-| `/branded-apps` | `template.group-3` | `hero.page-wrapper` |
-| `/automatic-marketing` | `template.group-3` | `hero.page-wrapper` |
-| `/push-notifications` | `template.group-3` | `hero.page-wrapper` |
-| `/loyalty-rewards` | `template.group-3` | `hero.page-wrapper` |
-| `/mobile` | `template.group-3` | `hero.page-wrapper` |
-| `/reporting-analytics` | `template.group-3` | `hero.page-wrapper` |
-| `/kitchen-tablet` | `template.group-3` | `hero.page-wrapper` |
-| `/pos-integrations` | `template.group-3` | `hero.page-wrapper` |
+| `/catering` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/ai-phone-ordering` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/pos` | `template.pos` | `shell.nav-wrapper` → `hero.section-product-v-hero` → `features.section-pos-steps` → `support.section-leaders-support` → `proof.section-beliefs` → `content.section-base` → `cta.section-cta` → `shell.section-footer` |
+| `/branded-apps` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/automatic-marketing` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/push-notifications` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/loyalty-rewards` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/mobile` | `template.mobile` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/reporting-analytics` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/kitchen-tablet` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/pos-integrations` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
 | `/our-story` | `template.our-story` | `shell.nav-wrapper` → `hero.section-about-hero` → `content.section-about-local` → `content.section-about-stats` → `content.section-about-how` → `content.section-about-vision` → `support.section-about-help` → `cta.section-cta` → `shell.section-footer` |
 | `/careers` | `template.careers` | `shell.nav-wrapper` → `hero.section-career-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `cta.section-career-cta` → `content.section-base` → `content.roles` → `cta.section-cta` → `shell.section-footer` |
 | `/leadership` | `template.leadership` | `shell.nav-wrapper` → `hero.section-leadership-hero` → `content.section-base` → `content.section-base` → `support.section-leaders-support` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/builders-wanted` | `template.builders-wanted` | `hero.eng-section-eng-hero` → `content.section-eng-intro` → `content.section-eng-row` → `content.section-eng-row` → `features.section-eng-steps` → `content.eng-maxwdith` → `support.eng-steps-faq` → `content.block` → `content.eng-lp-figure-wall` → `content.section-eng-row` → `content.block` → `shell.eng-lp-footer` |
 | `/press` | `template.press` | `shell.nav-wrapper` → `content.section-base` → `content.pres-cards-header` → `proof.press-cards-wrap` → `content.section-base` → `shell.section-footer` |
 | `/reviews` | `template.reviews` | `shell.nav-wrapper` → `hero.section-reviews-hero` → `proof.section-reviews` → `content.section-base` → `shell.section-footer` |
-| `/partner-request` | `template.group-3` | `hero.page-wrapper` |
-| `/d` | `template.d` | `shell.nav-wrapper` → `hero.section-s-d-hero` → `content.block` → `content.s-d-video-box` → `content.s-d-summary-list` → `content.section-s-d-about` → `content.section-s-d-why-now` → `content.section-s-d-the-problem` → `content.u-mb-64` → `content.u-mb-64` → `content.s-d-wrap` → `content.u-mb-64` → `content.u-mb-40` → `content.u-mb-40` → `content.u-mb-40` → `content.u-mb-40` → `content.u-mb-64` → `content.section-s-d-future` → `showcase.section-s-d-gtm` → `content.section-s-d-competition` → `content.team` → `content.section-why-sticky` → `content.ps` → `cta.section-cta` → `shell.section-footer` |
+| `/partner-request` | `template.partner-request` | `shell.nav-wrapper` → `hero.section-demo` |
+| `/d` | `template.d` | `shell.nav-wrapper` → `hero.section-s-d-hero` → `content.block` → `content.s-d-video-box` → `content.s-d-summary-list` → `content.section-s-d-about` → `content.section-s-d-why-now` → `content.section-s-d-the-problem` → `content.block` → `content.block` → `content.s-d-wrap` → `content.block` → `content.block` → `content.block` → `content.block` → `content.block` → `content.block` → `content.section-s-d-future` → `showcase.section-s-d-gtm` → `content.section-s-d-competition` → `content.team` → `content.section-why-sticky` → `content.ps` → `cta.section-cta` → `shell.section-footer` |
 | `/case-studies` | `template.case-studies` | `shell.nav-wrapper` → `hero.cs-index-head` → `content.cs-index-list` → `content.section-base` → `shell.section-footer` |
 | `/blog` | `template.blog` | `shell.nav-wrapper` → `hero.section-blog-hero` → `content.section-blog-most` → `content.section-blog-topics` → `content.section-blog-categories` → `content.section-base` → `shell.section-footer` |
 | `/support` | `template.support` | `shell.nav-wrapper` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
+| `/email-sms-marketing` | `template.group-3` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
+| `/website-terms` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
+| `/disclaimer` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
+| `/restaurant-participation-agreement` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
+| `/platform-terms` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
+| `/accessibility` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
 | `/pos-demo` | `template.group-4` | `shell.demo-control-header` → `hero.demo-control-layout` |
+| `/copyright-policy` | `template.group` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/talkin-tacos` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/ashleys-cafe` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/karv-greek-kouzina` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
-| `/privacy-policy` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/email-sms-marketing` | `template.group-3` | `hero.page-wrapper` |
-| `/website-terms` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/disclaimer` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/restaurant-participation-agreement` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/platform-terms` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/accessibility` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
-| `/copyright-policy` | `template.group-5` | `shell.nav-wrapper` → `hero.section-legal` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/mattengas-pizzeria` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/saffron` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/metro-pizza` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
@@ -987,88 +986,88 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 | `/case-studies/goi-cuon` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/hillcrust-pizza` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/township-line-pizza` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
-| `/blog/seo-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/how-to-create-a-restaurant-website` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-marketing` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/email-marketing-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/mobile-app-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/online-ordering-system-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/seo-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/how-to-create-a-restaurant-website` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-marketing` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/email-marketing-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/mobile-app-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/online-ordering-system-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/loyalty-programs-demo` | `template.group-4` | `shell.demo-control-header` → `hero.demo-control-layout` |
-| `/ca/pricing` | `template.group` | `shell.nav-wrapper` → `content.section-base` → `proof.section-reviews` → `proof.section-beliefs` → `proof.section-testimonials` → `content.section-base` → `support.form` → `content.section-base` → `shell.section-footer` |
+| `/ca/pricing` | `template.group-2` | `shell.nav-wrapper` → `content.section-base` → `proof.section-reviews` → `proof.section-beliefs` → `proof.section-testimonials` → `content.section-base` → `support.form` → `content.section-base` → `shell.section-footer` |
 | `/case-studies/samos-oaxaca` | `template.case-studies-2` | `shell.nav-wrapper` → `hero.section-cs-hero` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `content.section-base` → `shell.section-footer` |
-| `/blog/local-seo-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/website-builders-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-mobile-app` | `template.group-3` | `hero.page-wrapper` |
-| `/reorders` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/local-seo-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/website-builders-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-mobile-app` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/reorders` | `template.reorders` | `shell.nav-wrapper` → `hero.section-product-hero` → `content.section-base` → `content.section-base` → `proof.section-reviews` → `content.section-base` → `proof.section-testimonials` → `content.section-base` → `shell.section-footer` |
 | `/blog-category/increase-sales` | `template.blog-category` | `shell.nav-wrapper` → `content.section-base` → `content.section-blog-most` → `content.section-base` → `shell.section-footer` |
 | `/blog-category/restaurant-software` | `template.blog-category` | `shell.nav-wrapper` → `content.section-base` → `content.section-blog-most` → `content.section-base` → `shell.section-footer` |
 | `/blog-category/marketing-strategy` | `template.blog-category` | `shell.nav-wrapper` → `content.section-base` → `content.section-blog-most` → `content.section-base` → `shell.section-footer` |
 | `/blog-category/restaurant-websites` | `template.blog-category` | `shell.nav-wrapper` → `content.section-base` → `content.section-blog-most` → `content.section-base` → `shell.section-footer` |
 | `/blog-category/industry-trends-data` | `template.blog-category` | `shell.nav-wrapper` → `content.section-base` → `content.section-blog-most` → `content.section-base` → `shell.section-footer` |
-| `/blog/restaurant-promotion-ideas` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/restaurant-promotion-ideas` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/restaurant-costs` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/best-pos-system-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-loyalty-programs` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/97-best-pizza-captions-for-instagram` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/best-restaurant-websites` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/best-pizza-websites` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-trends` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-menu-examples` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/best-pos-system-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-loyalty-programs` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/97-best-pizza-captions-for-instagram` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/best-restaurant-websites` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/best-pizza-websites` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-trends` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-menu-examples` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/restaurant-failure-rate` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/restaurant-marketing-ideas` | `template.group-3` | `hero.page-wrapper` |
 | `/blog/catering-marketing` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/food-delivery-statistics` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-website-design` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/how-to-increase-restaurant-sales` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/how-to-make-a-menu` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-description` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/social-media-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/food-delivery-statistics` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-website-design` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/how-to-make-a-menu` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-description` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/social-media-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/restaurant-business-plan` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/menu-pricing` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/how-to-increase-average-check-size` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/digital-marketing-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/how-to-create-a-restaurant-marketing-plan` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/sms-marketing-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/instagram-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-customer-retention` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-analytics` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/average-restaurant-profit-margin` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-marketing-tools` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/menu-pricing` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/how-to-increase-average-check-size` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/digital-marketing-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/sms-marketing-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/instagram-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-customer-retention` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-analytics` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/average-restaurant-profit-margin` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-marketing-tools` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/toast-competitors` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/restaurant-accounting` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-growth` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/restaurant-accounting` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-growth` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/pizza-advertising-ideas` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/how-to-create-online-ordering-restaurant` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/cafe-pos` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/catering-delivery-apps` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-management-software` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/best-pos-for-small-business` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-pos-system-cost` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/pizza-pos-system` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/square-alternatives` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/best-restaurant-crms` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-tech-stack` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/menu-engineering` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/how-to-create-online-ordering-restaurant` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/cafe-pos` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/catering-delivery-apps` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-management-software` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/best-pos-for-small-business` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-pos-system-cost` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/pizza-pos-system` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/square-alternatives` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/best-restaurant-crms` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-tech-stack` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/menu-engineering` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
 | `/blog/restaurant-growth-secrets-guides` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
-| `/blog/restaurant-branding-more-direct-orders` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/food-cost-percentage` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/food-trends` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/third-party-vs-direct-ordering` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/restaurant-prime-cost` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/mobile-marketing-for-restaurants` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/best-apps-for-restaurant-owners` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/pos-restaurant-meaning` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/square-pos-system-cost` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/toast-pricing` | `template.group-3` | `hero.page-wrapper` |
-| `/resources/ottavios-case-study` | `template.group-6` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
-| `/resources/google-business-profile-tps` | `template.group-6` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
-| `/blog/pizza-marketing-strategy` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/97-best-burger-captions-for-instagram` | `template.group-3` | `hero.page-wrapper` |
-| `/resources/menu-engineering` | `template.group-6` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
-| `/blog/97-best-restaurant-captions-for-instagram` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/pos-reporting` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/toast-vs-square` | `template.group-3` | `hero.page-wrapper` |
-| `/blog/toast-vs-clover` | `template.group-3` | `hero.page-wrapper` |
-| `/downloads/pizza-marketing-checklist` | `template.group-6` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
-| `/blog/97-best-taco-captions-for-instagram` | `template.group-3` | `hero.page-wrapper` |
+| `/blog/restaurant-branding-more-direct-orders` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/food-cost-percentage` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/food-trends` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/third-party-vs-direct-ordering` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-prime-cost` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/mobile-marketing-for-restaurants` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/best-apps-for-restaurant-owners` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/pos-restaurant-meaning` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/square-pos-system-cost` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/toast-pricing` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/resources/ottavios-case-study` | `template.group-5` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
+| `/resources/google-business-profile-tps` | `template.group-5` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
+| `/blog/pizza-marketing-strategy` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/97-best-burger-captions-for-instagram` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/resources/menu-engineering` | `template.group-5` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
+| `/blog/97-best-restaurant-captions-for-instagram` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/pos-reporting` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/toast-vs-clover` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/downloads/pizza-marketing-checklist` | `template.group-5` | `shell.nav-wrapper` → `hero.section-resource` → `content.section-base` → `shell.section-footer` |
+| `/blog/97-best-taco-captions-for-instagram` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/restaurant-marketing-ideas` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/how-to-increase-restaurant-sales` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/how-to-create-a-restaurant-marketing-plan` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |
+| `/blog/toast-vs-square` | `template.blog-2` | `shell.nav-wrapper` → `hero.section-blog-content` → `content.section-base` → `shell.section-footer` |

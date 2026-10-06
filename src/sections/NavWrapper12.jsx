@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /catering, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /delivery, section 0).
 export default function NavWrapper12() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper12">
@@ -137,7 +138,7 @@ export default function NavWrapper12() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/delivery" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/delivery" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M14.25 16.75C14.25 18.1307 15.3693 19.25 16.75 19.25C18.1307 19.25 19.25 18.1307 19.25 16.75C19.25 15.3693 18.1307 14.25 16.75 14.25C15.3693 14.25 14.25 15.3693 14.25 16.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M4.75 16.75C4.75 18.1307 5.86929 19.25 7.25 19.25C8.63071 19.25 9.75 18.1307 9.75 16.75C9.75 15.3693 8.63071 14.25 7.25 14.25C5.86929 14.25 4.75 15.3693 4.75 16.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -149,7 +150,7 @@ export default function NavWrapper12() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/catering" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/catering" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M4.75 8.75C4.75 8.19772 5.19772 7.75 5.75 7.75H16.25C16.8023 7.75 17.25 8.19772 17.25 8.75V19.25C17.25 20.3546 16.3546 21.25 15.25 21.25H6.75C5.64543 21.25 4.75 20.3546 4.75 19.25V8.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" />
                             <path d="M17.25 9.75H18.5C20.0188 9.75 21.25 10.9812 21.25 12.5C21.25 14.0188 20.0188 15.25 18.5 15.25H17.25V9.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" />

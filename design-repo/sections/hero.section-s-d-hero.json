@@ -60,5 +60,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/AnInsideLookAt.jsx",
+  "implementedByAll": [
+    "src/sections/AnInsideLookAt.jsx"
+  ]
 }

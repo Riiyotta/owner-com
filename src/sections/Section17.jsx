@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /loyalty-rewards, section 7).
+// section — the section's real markup, read from the rendered page (route /push-notifications, section 7).
 export default function Section17() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section17">
@@ -61,10 +62,10 @@ export default function Section17() {
                   <A href="/email-sms-marketing" className="footer-link cc-big">{"Email & SMS Marketing"}</A>
                 </li>
                 <li>
-                  <A href="/push-notifications" className="footer-link cc-big">Push Notifications Marketing</A>
+                  <A href="/push-notifications" aria-current="page" className="footer-link cc-big w--current">Push Notifications Marketing</A>
                 </li>
                 <li>
-                  <A href="/loyalty-rewards" aria-current="page" className="footer-link cc-big w--current">{"Loyalty & Rewards"}</A>
+                  <A href="/loyalty-rewards" className="footer-link cc-big">{"Loyalty & Rewards"}</A>
                 </li>
               </ul>
             </li>

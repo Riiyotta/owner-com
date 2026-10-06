@@ -5,7 +5,7 @@
     "surface.default": {
       "$type": "color",
       "$value": "{color.neutral.02}",
-      "basis": "most-used opaque background (2228 uses)"
+      "basis": "most-used opaque background (2323 uses)"
     },
     "surface.alt": {
       "$type": "color",
@@ -25,7 +25,7 @@
     "text.primary": {
       "$type": "color",
       "$value": "{color.neutral.01}",
-      "basis": "most-used text colour (89873 uses)"
+      "basis": "most-used text colour (89871 uses)"
     },
     "text.secondary": {
       "$type": "color",

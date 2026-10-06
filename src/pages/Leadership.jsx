@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper25 from "../sections/NavWrapper25.jsx";
+import NavWrapper26 from "../sections/NavWrapper26.jsx";
 import MeetOurLeadershipTeam from "../sections/MeetOurLeadershipTeam.jsx";
 import BgColorBglighter4 from "../sections/BgColorBglighter4.jsx";
 import BoardOfDirectors from "../sections/BoardOfDirectors.jsx";
 import QuotesFromInvestors from "../sections/QuotesFromInvestors.jsx";
 import WeReBackedBy from "../sections/WeReBackedBy.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section25 from "../sections/Section25.jsx";
+import Section26 from "../sections/Section26.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -19,7 +19,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-21.css?inline"; // only this page loads it
+import css11 from "../styles/inline-23.css?inline"; // only this page loads it
 
 // Route /leadership — 8 section(s), in page order.
 export default function Leadership() {
@@ -268,7 +268,7 @@ export default function Leadership() {
           </div>
         </div>
       </div>
-      <NavWrapper25 />
+      <NavWrapper26 />
       <main className="main-wrapper">
         <MeetOurLeadershipTeam />
         <BgColorBglighter4 />
@@ -277,7 +277,7 @@ export default function Leadership() {
         <WeReBackedBy />
         <IsProductPage />
       </main>
-      <Section25 />
+      <Section26 />
     </div>
     </>
   );

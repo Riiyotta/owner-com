@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Menu Pricing: Use M — the section's real markup, read from the rendered page (route /blog/menu-pricing, section 1).
@@ -716,7 +717,7 @@ export default function RestaurantMenuPricingUse() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#start-by-calculating-your-food-cost" className="blog-content_column-link w--current">{"Start by calculating your food cost "}</a>
+                <a fs-toc-element="link" href="#start-by-calculating-your-food-cost" className="blog-content_column-link">{"Start by calculating your food cost "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#calculate-gross-profit-margin-to-create-menu-prices" className="blog-content_column-link">{"Calculate gross profit margin to create menu prices "}</a>

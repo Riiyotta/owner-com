@@ -1,3 +1,4 @@
+// IA section(s): content.section-guides (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // See our free guides on growing — the section's real markup, read from the rendered page (route /, section 8; shared by 2 routes).

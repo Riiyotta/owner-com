@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper21 from "../sections/NavWrapper21.jsx";
+import NavWrapper22 from "../sections/NavWrapper22.jsx";
 import OnlinePhoneAndIn from "../sections/OnlinePhoneAndIn.jsx";
 import EverythingYourKitchenNeeds from "../sections/EverythingYourKitchenNeeds.jsx";
 import BgColorTaupe16 from "../sections/BgColorTaupe16.jsx";
 import FAQ18 from "../sections/FAQ18.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section20 from "../sections/Section20.jsx";
+import Section21 from "../sections/Section21.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function KitchenTablet() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper21 />
+      <NavWrapper22 />
       <main className="main-wrapper">
         <OnlinePhoneAndIn />
         <EverythingYourKitchenNeeds />
@@ -62,7 +62,7 @@ export default function KitchenTablet() {
         <FAQ18 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section20 />
+        <Section21 />
       </main>
     </div>
     </>

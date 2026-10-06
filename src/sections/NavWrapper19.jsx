@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /mobile, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /loyalty-rewards, section 0).
 export default function NavWrapper19() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper19">
@@ -212,7 +213,7 @@ export default function NavWrapper19() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/loyalty-rewards" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/loyalty-rewards" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M7.75 15V21.5682C7.75 22.1179 8.32191 22.4809 8.81935 22.2468L11.6807 20.9003C11.8829 20.8051 12.1171 20.8051 12.3193 20.9003L15.1807 22.2468C15.6781 22.4809 16.25 22.1179 16.25 21.5682V15" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M19.25 9C19.25 13.0041 16.0041 16.25 12 16.25C7.99594 16.25 4.75 13.0041 4.75 9C4.75 4.99594 7.99594 1.75 12 1.75C16.0041 1.75 19.25 4.99594 19.25 9Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -228,7 +229,7 @@ export default function NavWrapper19() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/mobile" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/mobile" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M3.75 5.75C3.75 4.64543 4.64543 3.75 5.75 3.75H18.25C19.3546 3.75 20.25 4.64543 20.25 5.75V16.75H3.75V5.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" strokeLinejoin="round" />
                             <path d="M1.75 16.75H22.25V18.25C22.25 19.3546 21.3546 20.25 20.25 20.25H3.75C2.64543 20.25 1.75 19.3546 1.75 18.25V16.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" strokeLinejoin="round" />

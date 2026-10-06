@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 15 Restaurant Marketing Tools  — the section's real markup, read from the rendered page (route /blog/restaurant-marketing-tools, section 1).
@@ -1460,7 +1461,7 @@ export default function S15RestaurantMarketingTools() {
                 <a fs-toc-element="link" href="#best-restaurant-marketing-tools" className="blog-content_column-link">Best restaurant marketing tools</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#restaurant-website-builders" className="blog-content_column-link w--current">Restaurant Website Builders</a>
+                <a fs-toc-element="link" href="#restaurant-website-builders" className="blog-content_column-link">Restaurant Website Builders</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#seo-tools-for-restaurants" className="blog-content_column-link">SEO Tools for Restaurants</a>

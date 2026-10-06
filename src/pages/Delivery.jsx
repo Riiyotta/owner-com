@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper11 from "../sections/NavWrapper11.jsx";
+import NavWrapper12 from "../sections/NavWrapper12.jsx";
 import ProfitableDeliveryAndA from "../sections/ProfitableDeliveryAndA.jsx";
 import DeliveryThatSBetter from "../sections/DeliveryThatSBetter.jsx";
 import BgColorTaupe8 from "../sections/BgColorTaupe8.jsx";
@@ -8,7 +8,7 @@ import FAQ8 from "../sections/FAQ8.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import SeeOurFreeGuides from "../sections/SeeOurFreeGuides.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section10 from "../sections/Section10.jsx";
+import Section11 from "../sections/Section11.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -55,7 +55,7 @@ export default function Delivery() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper11 />
+      <NavWrapper12 />
       <main className="main-wrapper">
         <ProfitableDeliveryAndA />
         <DeliveryThatSBetter />
@@ -65,7 +65,7 @@ export default function Delivery() {
         <SeeOurFreeGuides />
         <IsProductPage />
       </main>
-      <Section10 />
+      <Section11 />
     </div>
     </>
   );

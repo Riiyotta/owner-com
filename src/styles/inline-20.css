@@ -1,4 +1,1 @@
-
-  .careers-roles_team-list {
-    opacity: 0;
-  }
+html.w-mod-js:not(.w-mod-ix3) :is(.about-vision_item .about-vision_item-dot-progress) {visibility: hidden !important;}

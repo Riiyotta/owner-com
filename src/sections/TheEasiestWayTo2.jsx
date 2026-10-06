@@ -1,3 +1,4 @@
+// IA section(s): cta.section-cta (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The easiest way to grow your r — the section's real markup, read from the rendered page (route /how-owner-works, section 3).

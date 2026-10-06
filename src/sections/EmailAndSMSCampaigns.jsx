@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Email and SMS campaigns that d — the section's real markup, read from the rendered page (route /email-sms-marketing, section 2).
 export default function EmailAndSMSCampaigns() {
   return (

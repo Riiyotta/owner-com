@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /smart-upsells, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /online-ordering, section 0).
 export default function NavWrapper10() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper10">
@@ -121,7 +122,7 @@ export default function NavWrapper10() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/online-ordering" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/online-ordering" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M15.2448 7.75V6C15.2448 4.20507 13.7897 2.75 11.9948 2.75C10.1999 2.75 8.74478 4.20507 8.74478 6V7.75M12.2448 21.25H6.56291C5.34163 21.25 4.40552 20.165 4.5845 18.9569L5.99191 9.4569C6.13719 8.47624 6.97894 7.75 7.9703 7.75H16.0192C17.0106 7.75 17.8524 8.47624 17.9977 9.4569L18.5226 13M18.2448 16.25V19.25M18.2448 19.25V22.25M18.2448 19.25H15.2448M18.2448 19.25H21.2448" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -129,7 +130,7 @@ export default function NavWrapper10() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/smart-upsells" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/smart-upsells" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M2.75 4.75V17.25C2.75 18.3546 3.64543 19.25 4.75 19.25H21.25M6.75 15.25L10 12C10.5523 11.4477 11.4477 11.4477 12 12C12.5523 12.5523 13.4477 12.5523 14 12L18.7497 7.25027M14.75 6.75H19.25V11.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>

@@ -1,9 +1,9 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import Disclaimer from "../sections/Disclaimer.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section38 from "../sections/Section38.jsx";
+import Section35 from "../sections/Section35.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -15,7 +15,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-42.css?inline"; // only this page loads it
+import css11 from "../styles/inline-15.css?inline"; // only this page loads it
 
 // Route /disclaimer — 4 section(s), in page order.
 export default function DisclaimerPage() {
@@ -46,12 +46,12 @@ export default function DisclaimerPage() {
         <div className="w-embed w-iframe w-script"></div>
         <div className="hide w-embed"></div>
       </div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <Disclaimer />
         <IsProductPage />
       </main>
-      <Section38 />
+      <Section35 />
     </div>
     </>
   );

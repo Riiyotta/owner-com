@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Township Line Pizza grew o — the section's real markup, read from the rendered page (route /case-studies/township-line-pizza, section 1).
 export default function HowTownshipLinePizza() {
   return (

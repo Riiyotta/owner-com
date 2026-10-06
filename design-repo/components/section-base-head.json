@@ -4,10 +4,10 @@
   "occurrences": 263,
   "composedOf": [
     "heading",
-    "paragraph"
+    "link"
   ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": "/pricing"
+    "sampleRoute": "/privacy-policy"
   }
 }

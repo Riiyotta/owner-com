@@ -1,3 +1,4 @@
+// IA section(s): content.section-s-d-why-now (ia/ia.json, design-repo/sections/)
 // Two big changes have upended t — the section's real markup, read from the rendered page (route /d, section 6).
 export default function TwoBigChangesHave() {
   return (

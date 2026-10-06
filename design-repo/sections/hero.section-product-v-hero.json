@@ -1,0 +1,85 @@
+{
+  "id": "hero.section-product-v-hero",
+  "category": "HERO",
+  "label": "section-product-v_hero",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"The POS built to bring your customers back\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/pos/index.html:2402-2599"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 13,
+        "maxWords": 21
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 4
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "avatar",
+          "background",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1381,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 1037,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "avatar",
+    "background",
+    "video"
+  ],
+  "implementedBy": "src/sections/ThePOSBuiltTo.jsx",
+  "implementedByAll": [
+    "src/sections/ThePOSBuiltTo.jsx"
+  ]
+}

@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper4 from "../sections/NavWrapper4.jsx";
+import NavWrapper5 from "../sections/NavWrapper5.jsx";
 import RestaurantWebsitesBuiltFor from "../sections/RestaurantWebsitesBuiltFor.jsx";
 import YourWebsiteCouldBe from "../sections/YourWebsiteCouldBe.jsx";
 import BgColorTaupe from "../sections/BgColorTaupe.jsx";
 import FAQ from "../sections/FAQ.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section3 from "../sections/Section3.jsx";
+import Section4 from "../sections/Section4.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function RestaurantWebsiteAi() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper4 />
+      <NavWrapper5 />
       <main className="main-wrapper">
         <RestaurantWebsitesBuiltFor />
         <YourWebsiteCouldBe />
@@ -63,7 +63,7 @@ export default function RestaurantWebsiteAi() {
         <TrustedByOwners />
         <IsProductPage />
       </main>
-      <Section3 />
+      <Section4 />
     </div>
     </>
   );

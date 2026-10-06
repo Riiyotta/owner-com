@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // World-class SEO that grows you — the section's real markup, read from the rendered page (route /restaurant-seo, section 2).
 export default function WorldClassSEOThat() {
   return (

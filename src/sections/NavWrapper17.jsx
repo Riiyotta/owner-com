@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /push-notifications, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /automatic-marketing, section 0).
 export default function NavWrapper17() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper17">
@@ -195,7 +196,7 @@ export default function NavWrapper17() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/automatic-marketing" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/automatic-marketing" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M19.2478 4.75133C21.1027 6.60622 22.25 9.16872 22.25 11.9992C22.25 14.8296 21.1027 17.3921 19.2478 19.247M15.8891 8.11071C16.8844 9.10601 17.5 10.481 17.5 11.9998C17.5 13.5186 16.8844 14.8936 15.8891 15.8889M3.75 7.74938H5.35491C5.77433 7.74938 6.18314 7.61752 6.52352 7.37245L11.4578 3.81973C11.7886 3.5816 12.25 3.81795 12.25 4.2255V19.7733C12.25 20.1808 11.7886 20.4172 11.4578 20.179L6.52352 16.6263C6.18314 16.3812 5.77433 16.2494 5.35491 16.2494H3.75C2.64543 16.2494 1.75 15.354 1.75 14.2494V9.74938C1.75 8.64481 2.64543 7.74938 3.75 7.74938Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -203,7 +204,7 @@ export default function NavWrapper17() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/push-notifications" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/push-notifications" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M20.25 16.2441C20.25 16.7996 19.7996 17.25 19.2441 17.25H4.75593C4.20037 17.25 3.75 16.7996 3.75 16.2441C3.75 16.0837 3.78835 15.9256 3.86186 15.7831L5.09883 13.3841C5.22935 13.131 5.30431 12.8529 5.31867 12.5684L5.50351 8.90897C5.6766 5.45882 8.53386 2.75 12 2.75C15.4661 2.75 18.3234 5.45882 18.4965 8.90897L18.6813 12.5684C18.6957 12.8529 18.7706 13.131 18.9012 13.3841L20.1381 15.7831C20.2116 15.9256 20.25 16.0837 20.25 16.2441Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M16 17.25C16 19.4591 14.2091 21.25 12 21.25C9.79086 21.25 8 19.4591 8 17.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

@@ -1,3 +1,4 @@
+// IA section(s): content.cs-index-list (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // cs-index_list — the section's real markup, read from the rendered page (route /case-studies, section 2).
@@ -156,7 +157,7 @@ export default function CsIndexList() {
       <div role="listitem" className="max-width-full w-dyn-item">
         <div data-wf--cs-card--variant="big" className="cs-index_item">
           <div className="cs-index_visual">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-src={"/_ext/player.vimeo.com/progressive_redirect/playback/1176311571/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=5d553ea2575ef8655cd55c6f3b2286b73955945cf0c780356809af645fe0697c"} data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3db4f409beeb292f302_69f4f2e86e8431ad6304d89e_69d02cac741342fb4596713a_(FullRes)%252520Owners_Salud_NewHampshire_%252540natebcreates-32.jpg.avif" className="bunny-player__placeholder" />
@@ -1051,7 +1052,7 @@ export default function CsIndexList() {
       <div role="listitem" className="max-width-full w-dyn-item">
         <div data-wf--cs-card--variant="big" className="cs-index_item">
           <div className="cs-index_visual">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-src={"/_ext/player.vimeo.com/progressive_redirect/playback/1177074455/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=1f9c4de5840ab2fe5b99d9896c0753bca052e3306548d2873a39e4749671f00e"} data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3da699927dde515abba_69f4f2d98f9c1c3d1f01c605_69d03147c95981b0f862efe2_vertical-card.jpg.avif" className="bunny-player__placeholder" />

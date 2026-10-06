@@ -11,7 +11,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/our-story/index.html:4068-4123"
+      "src/our-story/index.html:3837-3892"
     ]
   },
   "content": {
@@ -75,5 +75,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/pages/OurStory.jsx"
+  "implementedBy": "src/sections/Section23.jsx",
+  "implementedByAll": [
+    "src/sections/Section23.jsx"
+  ]
 }

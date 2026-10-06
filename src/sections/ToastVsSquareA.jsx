@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Toast vs. Square: A Head-to-He — the section's real markup, read from the rendered page (route /blog/toast-vs-square, section 1).
@@ -926,7 +927,7 @@ export default function ToastVsSquareA() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#toast-best-for-simplifying-back-office-operations" className="blog-content_column-link w--current">Toast: Best for simplifying back-office operations</a>
+                <a fs-toc-element="link" href="#toast-best-for-simplifying-back-office-operations" className="blog-content_column-link">Toast: Best for simplifying back-office operations</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#square-best-for-new-restaurants" className="blog-content_column-link">Square: Best for new restaurants</a>

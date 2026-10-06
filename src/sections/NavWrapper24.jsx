@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /careers, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /our-story, section 0).
 export default function NavWrapper24() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper24">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-light" className="nav w-variant-5c493a67-e3e3-1ff1-830f-3911b78d4db8">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -286,12 +287,12 @@ export default function NavWrapper24() {
                 <li data-dropdown-target="company" className="nav-menu_dropdown">
                   <ul role="list" className="nav-menu_link-list">
                     <li>
-                      <A data-transition="" href="/our-story" className="nav-menu_link-item w-inline-block">
+                      <A data-transition="" href="/our-story" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
                         <p>Our Story</p>
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/careers" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/careers" className="nav-menu_link-item w-inline-block">
                         <p>Careers</p>
                       </A>
                     </li>
@@ -323,7 +324,7 @@ export default function NavWrapper24() {
                   </ul>
                   <ul role="list" className="nav-menu_link-cards">
                     <li>
-                      <A href="/careers" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
+                      <A href="/careers" className="nav-menu_link-card w-inline-block">
                         <div className="nav-menu_cases-inner cc-transparent">
                           <p className="h5">{"We're hiring"}</p>
                         </div>

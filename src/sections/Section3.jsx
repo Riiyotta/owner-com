@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /restaurant-website-ai, section 7).
+// section — the section's real markup, read from the rendered page (route /how-owner-works, section 4).
 export default function Section3() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section3">
@@ -18,7 +19,7 @@ export default function Section3() {
               <a data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
               </a>
-              <A data-button-instance="" href="/how-owner-works" className="btn w-inline-block is-secondary">
+              <A data-button-instance="" href="/how-owner-works" aria-current="page" className="btn w-inline-block w--current is-secondary">
                 <div data-button-text="" className="btn-text">See how it works</div>
               </A>
             </div>
@@ -30,7 +31,7 @@ export default function Section3() {
               </div>
               <ul role="list" className="footer-middle_list">
                 <li>
-                  <A href="/restaurant-website-ai" aria-current="page" className="footer-link cc-big w--current">Restaurant Website</A>
+                  <A href="/restaurant-website-ai" className="footer-link cc-big">Restaurant Website</A>
                 </li>
                 <li>
                   <A href="/restaurant-seo" className="footer-link cc-big">Restaurant SEO</A>

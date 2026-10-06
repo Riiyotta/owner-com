@@ -12,7 +12,7 @@
       "$value": "0px"
     },
     "borderColor": {
-      "$value": "{color.neutral.19}"
+      "$value": "{color.neutral.20}"
     },
     "paddingY": {
       "$value": "{space.1}"

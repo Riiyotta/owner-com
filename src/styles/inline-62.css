@@ -23,7 +23,7 @@
     padding: 15px;
     border-bottom: 2px solid #e1e1e1;
     border-right: 1px solid #e1e1e1;
-    color: var(--text--primary);
+        color: var(--text--primary);
   }
 
   .custom-restaurant-table td {
@@ -35,7 +35,7 @@
   }
 
   /* Removes border from the last column */
-  .custom-restaurant-table th:last-child,
+  .custom-restaurant-table th:last-child, 
   .custom-restaurant-table td:last-child {
     border-right: none;
   }

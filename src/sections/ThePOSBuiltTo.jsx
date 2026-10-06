@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-v-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The POS built to bring your cu — the section's real markup, read from the rendered page (route /pos, section 1).
@@ -27,7 +28,7 @@ export default function ThePOSBuiltTo() {
               <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                 <div data-player-before="" className="bunny-player__before"></div>
                 <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
-                <div data-poster-url="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_poster.0000000.jpg" data-video-urls="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c%2F6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_mp4.mp4,/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c%2F6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="bunny-player__placeholder w-background-video w-background-video-atom">
+                <div data-poster-url="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_poster.0000000.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="bunny-player__placeholder w-background-video w-background-video-atom">
                   <video id="d0afb80c-d288-30dc-b363-ce16fc68a801-video" autoPlay loop style={{ "backgroundImage": "url(\"/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_poster.0000000.jpg\")" }} muted playsInline data-wf-ignore="true" data-object-fit="cover">
                     <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_mp4.mp4" data-wf-ignore="true" />
                     <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_webm.webm" data-wf-ignore="true" />

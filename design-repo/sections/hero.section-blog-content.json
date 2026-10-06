@@ -3,19 +3,19 @@
   "category": "HERO",
   "label": "section-blog_content",
   "tag": "section",
-  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"The Direct Catering Playbook: How I Built a 6-Figure Profit Center (Without Paying Huge Commissions)\".",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"197 Best Pizzeria Slogans You Can Use For Free\".",
   "purposeIsInferred": true,
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 8,
-    "routes": 8,
+    "instances": 72,
+    "routes": 72,
     "measuredFrom": [
-      "src/blog/catering-marketing/index.html:2259-3353",
-      "src/blog/how-to-increase-restaurant-sales/index.html:2259-3145",
-      "src/blog/pizza-advertising-ideas/index.html:2259-3472",
-      "src/blog/restaurant-business-plan/index.html:2259-2974",
-      "src/blog/restaurant-costs/index.html:2259-2991"
+      "src/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019/index.html:2259-3074",
+      "src/blog/97-best-burger-captions-for-instagram/index.html:2259-2866",
+      "src/blog/97-best-pizza-captions-for-instagram/index.html:2259-2847",
+      "src/blog/97-best-restaurant-captions-for-instagram/index.html:2259-3521",
+      "src/blog/97-best-taco-captions-for-instagram/index.html:2259-2849"
     ]
   },
   "content": {
@@ -24,30 +24,30 @@
       "heading": {
         "type": "string",
         "required": true,
-        "maxWords": 15
+        "maxWords": 17
       },
       "subheading": {
         "type": "string",
         "required": false,
-        "maxWords": 4
+        "maxWords": 8
       },
       "body": {
         "type": "string[]",
         "required": true,
-        "maxItems": 16,
-        "maxWords": 66
+        "maxItems": 30,
+        "maxWords": 93
       },
       "ctas": {
         "type": "cta[]",
         "required": true,
         "maxItems": 7,
-        "maxWords": 4
+        "maxWords": 8
       },
       "items": {
         "type": "item[]",
         "required": true,
-        "maxItems": 17,
-        "titleMaxWords": 12,
+        "maxItems": 24,
+        "titleMaxWords": 25,
         "bodyMaxWords": 88
       },
       "images": {
@@ -82,11 +82,11 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 17983,
+      "heightPx": 16862,
       "columns": 1
     },
     "mobile": {
-      "heightPx": 26431,
+      "heightPx": 22760,
       "columns": 1,
       "hiddenShare": 0
     },
@@ -101,5 +101,79 @@
     "hero-image",
     "icon"
   ],
-  "implementedBy": "src/pages/BlogRestaurantCosts.jsx"
+  "implementedBy": "src/sections/AverageRestaurantProfitMarg.jsx",
+  "implementedByAll": [
+    "src/sections/AverageRestaurantProfitMarg.jsx",
+    "src/sections/BestPizzaPOSSystems.jsx",
+    "src/sections/BestRestaurantWebsites2026.jsx",
+    "src/sections/BuildYourRestaurantGrowth.jsx",
+    "src/sections/DigitalMarketingForRestaura.jsx",
+    "src/sections/HereAreTheFood.jsx",
+    "src/sections/HowMuchDoesA.jsx",
+    "src/sections/HowToBuildA.jsx",
+    "src/sections/HowToCalculateAverage.jsx",
+    "src/sections/HowToCreateA.jsx",
+    "src/sections/HowToCreateA2.jsx",
+    "src/sections/HowToCreateOnline.jsx",
+    "src/sections/HowToIncreaseRestaurant.jsx",
+    "src/sections/HowToMakeA.jsx",
+    "src/sections/HowToWriteA.jsx",
+    "src/sections/LocalSEOForRestaurants.jsx",
+    "src/sections/MenuEngineeringHowTo.jsx",
+    "src/sections/MobileMarketingForRestauran.jsx",
+    "src/sections/NewDataWhyGuests.jsx",
+    "src/sections/PizzaMarketing15Tactics.jsx",
+    "src/sections/RestaurantAccountingTrackY.jsx",
+    "src/sections/RestaurantAnalyticsEasyWay.jsx",
+    "src/sections/RestaurantBrandingAQuick.jsx",
+    "src/sections/RestaurantCostsBreakdownSp.jsx",
+    "src/sections/RestaurantCustomerRetention.jsx",
+    "src/sections/RestaurantEmailMarketing8.jsx",
+    "src/sections/RestaurantGrowth.jsx",
+    "src/sections/RestaurantMarketingPlanA.jsx",
+    "src/sections/RestaurantMarketingStrategie.jsx",
+    "src/sections/RestaurantMenuPricingUse.jsx",
+    "src/sections/RestaurantPOSSystemMeaning.jsx",
+    "src/sections/RestaurantPrimeCostHow.jsx",
+    "src/sections/RestaurantTechStackGuide.jsx",
+    "src/sections/RestaurantWebsiteDesign6.jsx",
+    "src/sections/S103BestTacoCaptions.jsx",
+    "src/sections/S107BestBurgerCaptions.jsx",
+    "src/sections/S10BestPOSSystems.jsx",
+    "src/sections/S10BestSquareAlternatives.jsx",
+    "src/sections/S10CreativeRestaurantMenu.jsx",
+    "src/sections/S10ProvenPizzaAdvertising.jsx",
+    "src/sections/S11BestRestaurantLoyalty.jsx",
+    "src/sections/S12BestRestaurantManagement.jsx",
+    "src/sections/S13BestAppsFor.jsx",
+    "src/sections/S13EffectiveWaysTo.jsx",
+    "src/sections/S15RestaurantMarketingTools.jsx",
+    "src/sections/S18ProvenRestaurantPromotion.jsx",
+    "src/sections/S197BestPizzeriaSlogans.jsx",
+    "src/sections/S21BestPizzaWebsites.jsx",
+    "src/sections/S28ProvenRestaurantMarketing.jsx",
+    "src/sections/S39FoodDeliveryStatistics.jsx",
+    "src/sections/S6BestRestaurantWebsite.jsx",
+    "src/sections/S7BestRestaurantOnline.jsx",
+    "src/sections/S93OfRestaurantGuests.jsx",
+    "src/sections/S97BestPizzaCaptions.jsx",
+    "src/sections/S9BestPOSSystems.jsx",
+    "src/sections/S9BestPOSSystems2.jsx",
+    "src/sections/S9BestRestaurantCRMs.jsx",
+    "src/sections/S9PopularToastCompetitors.jsx",
+    "src/sections/SEOForRestaurantsThe.jsx",
+    "src/sections/SMSMarketingForRestaurants.jsx",
+    "src/sections/SquarePOSSystemCost.jsx",
+    "src/sections/The10BestCatering.jsx",
+    "src/sections/The97BestRestaurant.jsx",
+    "src/sections/TheDirectCateringPlaybook.jsx",
+    "src/sections/TheRealRestaurantFailure.jsx",
+    "src/sections/TheTop6Changes.jsx",
+    "src/sections/TheUltimateGuideTo.jsx",
+    "src/sections/ToastPricingHowMuch.jsx",
+    "src/sections/ToastVsCloverA.jsx",
+    "src/sections/ToastVsSquareA.jsx",
+    "src/sections/WhatIsPOSReporting.jsx",
+    "src/sections/YourGuideToBoost.jsx"
+  ]
 }

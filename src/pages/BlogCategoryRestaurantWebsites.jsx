@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import IsHero6 from "../sections/IsHero6.jsx";
 import IsCategoryPage4 from "../sections/IsCategoryPage4.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
@@ -45,7 +45,7 @@ export default function BlogCategoryRestaurantWebsites() {
         <div className="w-embed w-iframe w-script"></div>
         <div className="hide w-embed"></div>
       </div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <IsHero6 />
         <IsCategoryPage4 />

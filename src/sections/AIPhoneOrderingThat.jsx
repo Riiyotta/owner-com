@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // AI phone ordering that‍brings  — the section's real markup, read from the rendered page (route /ai-phone-ordering, section 2).
 export default function AIPhoneOrderingThat() {
   return (

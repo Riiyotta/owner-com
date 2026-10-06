@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 97 Best Pizza Captions for Ins — the section's real markup, read from the rendered page (route /blog/97-best-pizza-captions-for-instagram, section 1).

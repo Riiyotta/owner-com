@@ -70,5 +70,8 @@
     "avatar",
     "customer-logo"
   ],
-  "implementedBy": "src/pages/Reviews.jsx"
+  "implementedBy": "src/sections/OwnerComReviewsFrom.jsx",
+  "implementedByAll": [
+    "src/sections/OwnerComReviewsFrom.jsx"
+  ]
 }

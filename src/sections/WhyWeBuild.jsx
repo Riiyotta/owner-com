@@ -1,3 +1,4 @@
+// IA section(s): content.section-why-sticky (ia/ia.json, design-repo/sections/)
 // Why we build — the section's real markup, read from the rendered page (route /d, section 21).
 export default function WhyWeBuild() {
   return (

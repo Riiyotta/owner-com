@@ -1,10 +1,10 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper30 from "../sections/NavWrapper30.jsx";
+import NavWrapper31 from "../sections/NavWrapper31.jsx";
 import CsIndexHead from "../sections/CsIndexHead.jsx";
 import CsIndexList from "../sections/CsIndexList.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section30 from "../sections/Section30.jsx";
+import Section31 from "../sections/Section31.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -51,7 +51,7 @@ export default function CaseStudies() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper30 />
+      <NavWrapper31 />
       <main className="main-wrapper">
         <section className="section-cs_index">
           <div className="container-large">
@@ -65,7 +65,7 @@ export default function CaseStudies() {
         </section>
         <IsProductPage />
       </main>
-      <Section30 />
+      <Section31 />
     </div>
     </>
   );

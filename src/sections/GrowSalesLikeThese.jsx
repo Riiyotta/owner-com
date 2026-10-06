@@ -1,3 +1,4 @@
+// IA section(s): proof.section-stories (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Grow sales like these owners — the section's real markup, read from the rendered page (route /, section 2).

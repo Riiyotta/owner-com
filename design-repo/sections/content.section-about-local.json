@@ -66,5 +66,8 @@
     "background",
     "content-image"
   ],
-  "implementedBy": "src/pages/OurStory.jsx"
+  "implementedBy": "src/sections/LocalBusinessOwnersAre.jsx",
+  "implementedByAll": [
+    "src/sections/LocalBusinessOwnersAre.jsx"
+  ]
 }

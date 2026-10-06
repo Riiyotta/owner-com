@@ -69,5 +69,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/HowOwnerWorks.jsx"
+  "implementedBy": "src/sections/BgColorBglighter.jsx",
+  "implementedByAll": [
+    "src/sections/BgColorBglighter.jsx"
+  ]
 }

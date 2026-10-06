@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /listings-management, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /reviews-engine, section 0).
 export default function NavWrapper8() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper8">
@@ -97,7 +98,7 @@ export default function NavWrapper8() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/reviews-engine" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/reviews-engine" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M11.0858 2.32272C11.4533 1.55909 12.5467 1.55909 12.9142 2.32272L15.0872 6.83907C15.2351 7.14651 15.5293 7.35876 15.8692 7.40319L20.8676 8.05664C21.7134 8.16721 22.0517 9.20388 21.4322 9.78704L17.779 13.2263C17.5295 13.4612 17.4167 13.8058 17.4795 14.1417L18.3971 19.0563C18.5526 19.8892 17.6676 20.5294 16.9183 20.1261L12.4825 17.7385C12.1815 17.5764 11.8185 17.5764 11.5175 17.7385L7.08174 20.1261C6.33244 20.5294 5.44743 19.8892 5.60294 19.0563L6.52054 14.1417C6.58325 13.8058 6.47048 13.4612 6.22097 13.2263L2.56776 9.78704C1.94833 9.20388 2.28661 8.16721 3.13241 8.05664L8.13078 7.40319C8.47066 7.35876 8.7649 7.14651 8.91282 6.83907L11.0858 2.32272Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -105,7 +106,7 @@ export default function NavWrapper8() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/listings-management" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/listings-management" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M14.75 10C14.75 11.5188 13.5188 12.75 12 12.75C10.4812 12.75 9.25 11.5188 9.25 10C9.25 8.48122 10.4812 7.25 12 7.25C13.5188 7.25 14.75 8.48122 14.75 10Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinejoin="round" />
                             <path d="M19.25 10C19.25 14.1772 15.8227 17.996 13.681 19.9746C12.7191 20.8633 11.2809 20.8633 10.319 19.9746C8.17726 17.996 4.75 14.1772 4.75 10C4.75 5.99594 7.99594 2.75 12 2.75C16.0041 2.75 19.25 5.99594 19.25 10Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinejoin="round" />

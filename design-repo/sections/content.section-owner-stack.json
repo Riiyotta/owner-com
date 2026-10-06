@@ -58,5 +58,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/WithOwnerYouGet.jsx",
+  "implementedByAll": [
+    "src/sections/WithOwnerYouGet.jsx"
+  ]
 }

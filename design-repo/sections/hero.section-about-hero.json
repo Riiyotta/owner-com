@@ -70,5 +70,8 @@
     "background",
     "video"
   ],
-  "implementedBy": "src/pages/OurStory.jsx"
+  "implementedBy": "src/sections/HelpingLocalBusinessOwners.jsx",
+  "implementedByAll": [
+    "src/sections/HelpingLocalBusinessOwners.jsx"
+  ]
 }

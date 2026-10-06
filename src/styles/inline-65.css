@@ -1,18 +1,28 @@
 
-  /* Rich Texts */
-  .text-rich-text_paragraph strong {
-    color: inherit !important;
-    font-weight: 700;
+  .owner-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
   }
-  .text-rich-text_inherit *:not(strong) {
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
-    letter-spacing: inherit;
+
+  .owner-table th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
   }
-  .free-guide_rich-text * {
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
+
+  .owner-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .owner-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
   }

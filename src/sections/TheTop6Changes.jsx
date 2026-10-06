@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Top 6 Changes Impacting th — the section's real markup, read from the rendered page (route /blog/restaurant-trends, section 1).
@@ -646,7 +647,7 @@ export default function TheTop6Changes() {
                 <a fs-toc-element="link" href="#the-current-state-of-the-restaurant-industry" className="blog-content_column-link">The current state of the restaurant industry</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#trend-1-77percent-of-guests-are-ordering-from-restaurants-as-often-or-more-frequently-in-the-past-year" className="blog-content_column-link w--current">Trend #1: 77% of guests are ordering from restaurants as often or more frequently in the past year</a>
+                <a fs-toc-element="link" href="#trend-1-77percent-of-guests-are-ordering-from-restaurants-as-often-or-more-frequently-in-the-past-year" className="blog-content_column-link">Trend #1: 77% of guests are ordering from restaurants as often or more frequently in the past year</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#trend-2-63percent-of-guests-say-convenience-is-crucial-in-their-ordering-decisions" className="blog-content_column-link">Trend #2: 63% of guests say convenience is crucial in their ordering decisions</a>

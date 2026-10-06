@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // is-hero — the section's real markup, read from the rendered page (route /blog-category/industry-trends-data, section 1).

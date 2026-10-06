@@ -1,52 +1,42 @@
 
-  /* Container to allow horizontal scrolling on mobile */
-  .table-container {
-    width: 100%;
-    overflow-x: auto;
-    margin: 20px 0;
-    border: 1px solid #e1e1e1;
-    border-radius: 4px;
-  }
-
-  .custom-restaurant-table {
+  .owner-table {
     width: 100%;
     border-collapse: collapse;
-    font-family: inherit; /* Inherits your Webflow site font */
-    font-size: 16px;
-    color: #333;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+  }
+  .owner-table th {
+    background-color: #000; /* Black header background */
+    color: #fff; /* White text */
+    font-weight: bold;
+    padding: 12px;
     text-align: left;
   }
-
-  .custom-restaurant-table th {
-    background-color: #f4f4f4;
-    font-weight: 700;
-    padding: 15px;
-    border-bottom: 2px solid #e1e1e1;
-    border-right: 1px solid #e1e1e1;
-        color: var(--text--primary);
+  .owner-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666; /* Grey font color */
   }
-
-  .custom-restaurant-table td {
-    padding: 15px;
-    border-bottom: 1px solid #e1e1e1;
-    border-right: 1px solid #e1e1e1;
-    vertical-align: top;
-    line-height: 1.5;
+  .owner-table tbody tr:nth-child(even) {
+    background-color: #F9F9F9;
   }
-
-  /* Removes border from the last column */
-  .custom-restaurant-table th:last-child, 
-  .custom-restaurant-table td:last-child {
-    border-right: none;
-  }
-
-  /* Alternating row colors for better readability */
-  .custom-restaurant-table tr:nth-child(even) {
-    background-color: #fafafa;
-  }
-
-  /* Clean list styling for table cells */
-  .table-list {
-    margin: 0;
+  .owner-table ul {
     padding-left: 20px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666; /* Matching grey font color */
+  }
+  .owner-table ul li {
+    margin-bottom: 5px;
+  }
+  .owner-table a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  .owner-table a:hover {
+    text-decoration: underline;
   }

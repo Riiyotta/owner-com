@@ -80,5 +80,11 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/ResourcesOttaviosCaseStudy.jsx"
+  "implementedBy": "src/sections/GetTheCondensedVersion.jsx",
+  "implementedByAll": [
+    "src/sections/GetTheCondensedVersion.jsx",
+    "src/sections/HowAntoinetteIncreasedDirec.jsx",
+    "src/sections/S3GoogleBusinessProfile.jsx",
+    "src/sections/Section64.jsx"
+  ]
 }

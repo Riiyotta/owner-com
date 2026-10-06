@@ -55,5 +55,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/FAQ.jsx"
+  "implementedBy": "src/sections/EngStepsFaq.jsx",
+  "implementedByAll": [
+    "src/sections/EngStepsFaq.jsx"
+  ]
 }

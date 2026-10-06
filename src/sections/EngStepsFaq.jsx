@@ -1,3 +1,4 @@
+// IA section(s): support.eng-steps-faq (ia/ia.json, design-repo/sections/)
 // eng-steps_faq — the section's real markup, read from the rendered page (route /builders-wanted, section 6).
 export default function EngStepsFaq() {
   return (

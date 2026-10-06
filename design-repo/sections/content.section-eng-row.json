@@ -76,5 +76,10 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/pages/BuildersWanted.jsx"
+  "implementedBy": "src/sections/MeetYulianaVasquez.jsx",
+  "implementedByAll": [
+    "src/sections/MeetYulianaVasquez.jsx",
+    "src/sections/Section27.jsx",
+    "src/sections/Section29.jsx"
+  ]
 }

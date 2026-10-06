@@ -75,5 +75,8 @@
     "content-image",
     "logo"
   ],
-  "implementedBy": "src/pages/Press.jsx"
+  "implementedBy": "src/sections/PresCardsHeader.jsx",
+  "implementedByAll": [
+    "src/sections/PresCardsHeader.jsx"
+  ]
 }

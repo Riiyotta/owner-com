@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 60,
-    "routes": 60,
+    "instances": 140,
+    "routes": 140,
     "measuredFrom": [
       "src/index.html:11575-12160",
       "src/accessibility/index.html:2440-2899",
-      "src/blog/index.html:3060-3517",
-      "src/blog-category/increase-sales/index.html:2362-2817",
-      "src/blog-category/industry-trends-data/index.html:2370-2825"
+      "src/ai-phone-ordering/index.html:4077-4608",
+      "src/automatic-marketing/index.html:4447-4979",
+      "src/blog/index.html:3060-3517"
     ]
   },
   "content": {
@@ -66,5 +66,48 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/Section.jsx",
+  "implementedByAll": [
+    "src/sections/Section.jsx",
+    "src/sections/Section10.jsx",
+    "src/sections/Section11.jsx",
+    "src/sections/Section12.jsx",
+    "src/sections/Section13.jsx",
+    "src/sections/Section14.jsx",
+    "src/sections/Section15.jsx",
+    "src/sections/Section16.jsx",
+    "src/sections/Section17.jsx",
+    "src/sections/Section18.jsx",
+    "src/sections/Section19.jsx",
+    "src/sections/Section2.jsx",
+    "src/sections/Section20.jsx",
+    "src/sections/Section21.jsx",
+    "src/sections/Section22.jsx",
+    "src/sections/Section24.jsx",
+    "src/sections/Section25.jsx",
+    "src/sections/Section26.jsx",
+    "src/sections/Section3.jsx",
+    "src/sections/Section30.jsx",
+    "src/sections/Section31.jsx",
+    "src/sections/Section32.jsx",
+    "src/sections/Section33.jsx",
+    "src/sections/Section34.jsx",
+    "src/sections/Section35.jsx",
+    "src/sections/Section36.jsx",
+    "src/sections/Section37.jsx",
+    "src/sections/Section38.jsx",
+    "src/sections/Section4.jsx",
+    "src/sections/Section5.jsx",
+    "src/sections/Section56.jsx",
+    "src/sections/Section57.jsx",
+    "src/sections/Section58.jsx",
+    "src/sections/Section59.jsx",
+    "src/sections/Section6.jsx",
+    "src/sections/Section60.jsx",
+    "src/sections/Section61.jsx",
+    "src/sections/Section62.jsx",
+    "src/sections/Section7.jsx",
+    "src/sections/Section8.jsx",
+    "src/sections/Section9.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Best Restaurant Websites (2026 — the section's real markup, read from the rendered page (route /blog/best-restaurant-websites, section 1).
@@ -1121,7 +1122,7 @@ export default function BestRestaurantWebsites2026() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#best-restaurant-website-examples" className="blog-content_column-link w--current">Best Restaurant Website Examples</a>
+                <a fs-toc-element="link" href="#best-restaurant-website-examples" className="blog-content_column-link">Best Restaurant Website Examples</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#5-key-restaurant-website-design-tips" className="blog-content_column-link">5 key restaurant website design tips</a>

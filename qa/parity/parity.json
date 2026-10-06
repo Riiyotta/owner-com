@@ -1,6 +1,6 @@
 {
   "gate": 0.8,
-  "average": 0.991,
+  "average": 0.939,
   "rows": [
     {
       "route": "/",
@@ -10,8 +10,9 @@
       "sectionsInClone": 11,
       "mirrorPageHeight": 10663,
       "clonePageHeight": 10663,
-      "score": 0.968,
+      "score": 0.945,
       "below": [
+        "1:TheAIPlatformRestaurants 74%",
         "2:GrowSalesLikeThese 75%"
       ],
       "secRows": [
@@ -20,24 +21,24 @@
           "component": "NavWrapper",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.998,
+          "score": 0.998
         },
         {
           "idx": 1,
           "component": "TheAIPlatformRestaurants",
           "mirrorHeight": 1181,
           "cloneHeight": 1181,
-          "pixelMatch": 0.966,
-          "score": 0.966
+          "pixelMatch": 0.739,
+          "score": 0.739
         },
         {
           "idx": 2,
           "component": "GrowSalesLikeThese",
           "mirrorHeight": 789,
           "cloneHeight": 789,
-          "pixelMatch": 0.754,
-          "score": 0.754
+          "pixelMatch": 0.752,
+          "score": 0.752
         },
         {
           "idx": 3,
@@ -52,8 +53,8 @@
           "component": "SeeWhyWeRe",
           "mirrorHeight": 1131,
           "cloneHeight": 1131,
-          "pixelMatch": 0.919,
-          "score": 0.919
+          "pixelMatch": 0.929,
+          "score": 0.929
         },
         {
           "idx": 5,
@@ -107,74 +108,92 @@
       "pass": true
     },
     {
-      "route": "/leadership",
+      "route": "/careers",
       "reference": "original crawl screenshot",
-      "sections": 8,
-      "compared": 8,
-      "sectionsInClone": 8,
-      "mirrorPageHeight": 5932,
-      "clonePageHeight": 5932,
-      "score": 0.999,
-      "below": [],
+      "sections": 10,
+      "compared": 10,
+      "sectionsInClone": 10,
+      "mirrorPageHeight": 11082,
+      "clonePageHeight": 11082,
+      "score": 0.972,
+      "below": [
+        "1:ProtectTheFutureOf 61%"
+      ],
       "secRows": [
         {
           "idx": 0,
           "component": "NavWrapper25",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.997,
+          "score": 0.997
         },
         {
           "idx": 1,
-          "component": "MeetOurLeadershipTeam",
-          "mirrorHeight": 508,
-          "cloneHeight": 508,
-          "pixelMatch": 0.995,
-          "score": 0.995
+          "component": "ProtectTheFutureOf",
+          "mirrorHeight": 820,
+          "cloneHeight": 820,
+          "pixelMatch": 0.608,
+          "score": 0.608
         },
         {
           "idx": 2,
-          "component": "BgColorBglighter4",
-          "mirrorHeight": 1817,
-          "cloneHeight": 1817,
-          "pixelMatch": 1,
-          "score": 1
+          "component": "BgColorBglighter2",
+          "mirrorHeight": 1997,
+          "cloneHeight": 1997,
+          "pixelMatch": 0.997,
+          "score": 0.997
         },
         {
           "idx": 3,
-          "component": "BoardOfDirectors",
-          "mirrorHeight": 662,
-          "cloneHeight": 662,
+          "component": "WhatItSLike",
+          "mirrorHeight": 2662,
+          "cloneHeight": 2662,
           "pixelMatch": 1,
           "score": 1
         },
         {
           "idx": 4,
-          "component": "QuotesFromInvestors",
-          "mirrorHeight": 784,
-          "cloneHeight": 784,
+          "component": "BgColorBglighter3",
+          "mirrorHeight": 2031,
+          "cloneHeight": 2031,
           "pixelMatch": 1,
           "score": 1
         },
         {
           "idx": 5,
-          "component": "WeReBackedBy",
-          "mirrorHeight": 992,
-          "cloneHeight": 992,
-          "pixelMatch": 0.997,
-          "score": 0.997
-        },
-        {
-          "idx": 6,
-          "component": "IsProductPage",
-          "mirrorHeight": 408,
-          "cloneHeight": 408,
+          "component": "SeeIfOurValues",
+          "mirrorHeight": 866,
+          "cloneHeight": 866,
           "pixelMatch": 1,
           "score": 1
         },
         {
+          "idx": 6,
+          "component": "WeReBackedBy",
+          "mirrorHeight": 992,
+          "cloneHeight": 992,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
           "idx": 7,
+          "component": "Roles",
+          "mirrorHeight": 610,
+          "cloneHeight": 610,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "TheEasiestWayTo6",
+          "mirrorHeight": 534,
+          "cloneHeight": 534,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 9,
           "component": "Section25",
           "mirrorHeight": 1012,
           "cloneHeight": 1012,
@@ -192,7 +211,7 @@
       "sectionsInClone": 8,
       "mirrorPageHeight": 6634,
       "clonePageHeight": 6634,
-      "score": 1,
+      "score": 0.963,
       "below": [],
       "secRows": [
         {
@@ -200,16 +219,16 @@
           "component": "NavWrapper37",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.997,
+          "score": 0.997
         },
         {
           "idx": 1,
           "component": "HowCycloNoodlesGrew",
           "mirrorHeight": 1318,
           "cloneHeight": 1318,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.803,
+          "score": 0.803
         },
         {
           "idx": 2,
@@ -270,24 +289,26 @@
       "sectionsInClone": 5,
       "mirrorPageHeight": 4475,
       "clonePageHeight": 4475,
-      "score": 1,
-      "below": [],
+      "score": 0.934,
+      "below": [
+        "1:IsHero3 70%"
+      ],
       "secRows": [
         {
           "idx": 0,
-          "component": "NavWrapper36",
+          "component": "NavWrapper2",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.998,
+          "score": 0.998
         },
         {
           "idx": 1,
           "component": "IsHero3",
           "mirrorHeight": 996,
           "cloneHeight": 996,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.696,
+          "score": 0.696
         },
         {
           "idx": 2,
@@ -317,31 +338,33 @@
       "pass": true
     },
     {
-      "route": "/blog/restaurant-business-plan",
+      "route": "/blog/how-to-increase-average-check-size",
       "reference": "original crawl screenshot",
       "sections": 4,
       "compared": 3,
       "sectionsInClone": 4,
-      "mirrorPageHeight": 15131,
-      "clonePageHeight": 15131,
-      "score": 0.999,
-      "below": [],
+      "mirrorPageHeight": 18141,
+      "clonePageHeight": 18141,
+      "score": 0.904,
+      "below": [
+        "0:NavWrapper2 57%"
+      ],
       "secRows": [
         {
           "idx": 0,
-          "component": "NavWrapper36",
+          "component": "NavWrapper2",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 0.885,
-          "score": 0.885
+          "pixelMatch": 0.572,
+          "score": 0.572
         },
         {
           "idx": 1,
-          "component": "HowToCreateA2",
-          "mirrorHeight": 13706,
-          "cloneHeight": 13706,
-          "pixelMatch": 1,
-          "score": 1
+          "component": "S13EffectiveWaysTo",
+          "mirrorHeight": 16716,
+          "cloneHeight": 16716,
+          "pixelMatch": 0.903,
+          "score": 0.903
         },
         {
           "idx": 2,
@@ -364,33 +387,31 @@
       "pass": true
     },
     {
-      "route": "/blog/restaurant-tech-stack",
+      "route": "/blog/restaurant-branding-more-direct-orders",
       "reference": "original crawl screenshot",
       "sections": 4,
-      "compared": 3,
+      "compared": 4,
       "sectionsInClone": 4,
-      "mirrorPageHeight": 13664,
-      "clonePageHeight": 13664,
-      "score": 0.982,
-      "below": [
-        "0:NavWrapper36 65%"
-      ],
+      "mirrorPageHeight": 6458,
+      "clonePageHeight": 6458,
+      "score": 0.918,
+      "below": [],
       "secRows": [
         {
           "idx": 0,
-          "component": "NavWrapper36",
+          "component": "NavWrapper2",
           "mirrorHeight": 70,
           "cloneHeight": 70,
-          "pixelMatch": 0.654,
-          "score": 0.654
+          "pixelMatch": 0.899,
+          "score": 0.899
         },
         {
           "idx": 1,
-          "component": "RestaurantTechStackGuide",
-          "mirrorHeight": 12239,
-          "cloneHeight": 12239,
-          "pixelMatch": 0.983,
-          "score": 0.983
+          "component": "RestaurantBrandingAQuick",
+          "mirrorHeight": 5032,
+          "cloneHeight": 5032,
+          "pixelMatch": 0.895,
+          "score": 0.895
         },
         {
           "idx": 2,
@@ -405,9 +426,8 @@
           "component": "Section",
           "mirrorHeight": 1012,
           "cloneHeight": 1012,
-          "pixelMatch": 0,
-          "score": 0,
-          "skipped": true
+          "pixelMatch": 1,
+          "score": 1
         }
       ],
       "pass": true

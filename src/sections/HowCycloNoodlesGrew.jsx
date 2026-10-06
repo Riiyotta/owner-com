@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Cyclo Noodles grew direct  — the section's real markup, read from the rendered page (route /case-studies/cyclo-noodles, section 1).
 export default function HowCycloNoodlesGrew() {
   return (

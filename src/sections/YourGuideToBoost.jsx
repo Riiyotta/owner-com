@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Your Guide To Boost Engagement — the section's real markup, read from the rendered page (route /blog/instagram-for-restaurants, section 1).
@@ -704,7 +705,7 @@ export default function YourGuideToBoost() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-set-up-your-profile-the-right-way" className="blog-content_column-link w--current">1. Set up your profile the right way</a>
+                <a fs-toc-element="link" href="#1-set-up-your-profile-the-right-way" className="blog-content_column-link">1. Set up your profile the right way</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-engage-with-your-followers" className="blog-content_column-link">2. Engage with your followers</a>

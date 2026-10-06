@@ -1,3 +1,4 @@
+// IA section(s): shell.eng-lp-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // eng-lp_footer — the section's real markup, read from the rendered page (route /builders-wanted, section 11).

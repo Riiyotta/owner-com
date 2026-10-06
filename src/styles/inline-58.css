@@ -1,43 +1,43 @@
 
-  table.owner-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    font-family: sans-serif;
-    font-size: 16px;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  }
+.formula-wrapper {
+font-family: sans-serif; /* Matches standard web fonts */
+font-size: 1.1rem;
+color: #333;
+padding: 20px;
+border: 1px solid #000;
+max-width: fit-content;
+line-height: 1.5;
+}
 
-  .owner-table th, .owner-table td {
-    padding: 12px 16px;
-    text-align: left;
-    border-bottom: 1px solid #eee;
-  }
+.formula-title {
+font-weight: bold;
+margin-bottom: 15px;
+display: block;
+}
 
-  .owner-table thead {
-    background-color: #000;
-    color: #fff;
-    font-weight: 600;
-  }
+.formula-flex {
+display: flex;
+align-items: center;
+gap: 10px;
+}
 
-  .owner-table tbody tr:hover {
-    background-color: #f4f6f8;
-  }
+.fraction {
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
 
-  .owner-table td:first-child {
-    font-weight: 600;
-  }
+.numerator {
+border-bottom: 1.5px solid #000;
+padding: 0 10px 4px 10px;
+}
 
-  .owner-table tfoot td {
-    font-size: 14px;
-    padding-top: 16px;
-    color: #555;
-  }
+.denominator {
+padding: 4px 10px 0 10px;
+}
 
-  .note {
-    font-size: 14px;
-    margin-top: 8px;
-    color: #555;
-  }
+.multiplier {
+font-size: 1.2rem;
+font-weight: 500;
+}

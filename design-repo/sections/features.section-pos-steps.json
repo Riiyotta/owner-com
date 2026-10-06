@@ -1,20 +1,17 @@
 {
-  "id": "content.u-mb-40",
-  "category": "CONTENT",
-  "label": "u-mb-40",
-  "tag": "div",
-  "purpose": "Carries the substantive content of the page. Example headline: \"Founding product insight\".",
+  "id": "features.section-pos-steps",
+  "category": "FEATURES",
+  "label": "section-pos-steps",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters. Example headline: \"How Owner POS turns one visit into many\".",
   "purposeIsInferred": true,
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 4,
+    "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/d/index.html:3317-3331",
-      "src/d/index.html:3332-3341",
-      "src/d/index.html:3342-3370",
-      "src/d/index.html:3371-3390"
+      "src/pos/index.html:2600-2690"
     ]
   },
   "content": {
@@ -22,28 +19,27 @@
     "fields": {
       "heading": {
         "type": "string",
-        "required": false,
-        "maxWords": 3
+        "required": true,
+        "maxWords": 8
       },
       "body": {
         "type": "string[]",
-        "required": false,
-        "maxItems": 5,
-        "maxWords": 59
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 25
       },
       "images": {
         "type": "image[]",
         "required": false,
-        "maxItems": 2,
+        "maxItems": 4,
         "assetRoles": [
-          "background",
-          "video"
+          "content-image"
         ]
       }
     }
   },
   "constraints": {
-    "maxPerPage": 4
+    "onePerPage": true
   },
   "motion": {
     "allowedPatterns": [
@@ -58,19 +54,23 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 496,
-      "columns": 1
+      "heightPx": 2724,
+      "columns": 2
     },
     "mobile": {
-      "heightPx": 630,
+      "heightPx": 2832,
       "columns": 1,
       "hiddenShare": 0
     },
-    "changes": []
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
   },
   "assetRoles": [
-    "background",
-    "video"
+    "content-image"
   ],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/HowOwnerPOSTurns.jsx",
+  "implementedByAll": [
+    "src/sections/HowOwnerPOSTurns.jsx"
+  ]
 }

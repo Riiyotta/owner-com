@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How to Write a Restaurant Desc — the section's real markup, read from the rendered page (route /blog/restaurant-description, section 1).

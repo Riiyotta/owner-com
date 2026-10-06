@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 8,
-    "routes": 8,
+    "instances": 23,
+    "routes": 23,
     "measuredFrom": [
       "src/index.html:9728-11403",
-      "src/ca/pricing/index.html:4705-6380",
-      "src/delivery/index.html:2521-4196",
-      "src/listings-management/index.html:2756-4431",
-      "src/online-menu/index.html:2751-4426"
+      "src/ai-phone-ordering/index.html:2387-4062",
+      "src/automatic-marketing/index.html:2757-4432",
+      "src/branded-apps/index.html:2521-4196",
+      "src/ca/pricing/index.html:4705-6380"
     ]
   },
   "content": {
@@ -85,5 +85,8 @@
     "video"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/TrustedByOwners.jsx",
+  "implementedByAll": [
+    "src/sections/TrustedByOwners.jsx"
+  ]
 }

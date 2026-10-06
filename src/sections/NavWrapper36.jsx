@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /privacy-policy, section 0; shared by 87 routes).
+// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/karv-greek-kouzina, section 0).
 export default function NavWrapper36() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper36">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -370,7 +371,7 @@ export default function NavWrapper36() {
                   </ul>
                   <ul role="list" className="nav-menu_link-cards">
                     <li>
-                      <A href="/case-studies/karv-greek-kouzina" className="nav-menu_link-card w-inline-block">
+                      <A href="/case-studies/karv-greek-kouzina" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">
                             <strong>How Alex from Karv Greek Kouzina grew online sales to $40K/month with Owner.com</strong>

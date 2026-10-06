@@ -1,3 +1,4 @@
+// IA section(s): proof.section-testimonials (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Trusted by owners — the section's real markup, read from the rendered page (route /, section 6; shared by 23 routes).
@@ -1236,7 +1237,7 @@ export default function TrustedByOwners() {
                     </ul>
                   </div>
                   <div className="testimonials-card_visual">
-                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-card="" data-player-src={"/_ext/player.vimeo.com/progressive_redirect/playback/1177074455/rendition/2160p/file.mp4%20%282160p%29.mp4?loc=external&signature=1f9c4de5840ab2fe5b99d9896c0753bca052e3306548d2873a39e4749671f00e"} data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-card="" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
                       <div data-player-before="" className="bunny-player__before"></div>
                       <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                       <img width="960" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3da699927dde515abba_69f4f2d98f9c1c3d1f01c605_69d03147c95981b0f862efe2_vertical-card.jpg.avif" alt="" loading="lazy" className="bunny-player__placeholder" />

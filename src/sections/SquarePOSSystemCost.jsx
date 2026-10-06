@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Square POS System Cost Guide:  — the section's real markup, read from the rendered page (route /blog/square-pos-system-cost, section 1).
@@ -593,7 +594,7 @@ export default function SquarePOSSystemCost() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#how-much-is-square-pos-software" className="blog-content_column-link w--current">How much is Square POS software?</a>
+                <a fs-toc-element="link" href="#how-much-is-square-pos-software" className="blog-content_column-link">How much is Square POS software?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#square-rates-for-hardware" className="blog-content_column-link">Square rates for hardware</a>

@@ -1,13 +1,18 @@
 
-  @media only screen and (min-width: 992px){
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 1),
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 3),
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 4),
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 5){
-      grid-area: span 1 / span 5 / span 1 / span 5 !important
-    }
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 2),
-    .reviews_grid-wrap-inner .reviews_grid-card:nth-child(6n + 6){
-      grid-area: span 1 / span 7 / span 1 / span 7 !important
-    }
+  @keyframes slideDown {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes slideUp {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(50%); }
+  }
+
+  .eng-visual_row.is-1 {
+    animation: slideDown 30s linear infinite;
+  }
+
+  .eng-visual_row.is-2 {
+    animation: slideUp 30s linear infinite;
   }

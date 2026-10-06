@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /loyalty-rewards, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /push-notifications, section 0).
 export default function NavWrapper18() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper18">
@@ -203,7 +204,7 @@ export default function NavWrapper18() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/push-notifications" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/push-notifications" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M20.25 16.2441C20.25 16.7996 19.7996 17.25 19.2441 17.25H4.75593C4.20037 17.25 3.75 16.7996 3.75 16.2441C3.75 16.0837 3.78835 15.9256 3.86186 15.7831L5.09883 13.3841C5.22935 13.131 5.30431 12.8529 5.31867 12.5684L5.50351 8.90897C5.6766 5.45882 8.53386 2.75 12 2.75C15.4661 2.75 18.3234 5.45882 18.4965 8.90897L18.6813 12.5684C18.6957 12.8529 18.7706 13.131 18.9012 13.3841L20.1381 15.7831C20.2116 15.9256 20.25 16.0837 20.25 16.2441Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M16 17.25C16 19.4591 14.2091 21.25 12 21.25C9.79086 21.25 8 19.4591 8 17.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -212,7 +213,7 @@ export default function NavWrapper18() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/loyalty-rewards" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/loyalty-rewards" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M7.75 15V21.5682C7.75 22.1179 8.32191 22.4809 8.81935 22.2468L11.6807 20.9003C11.8829 20.8051 12.1171 20.8051 12.3193 20.9003L15.1807 22.2468C15.6781 22.4809 16.25 22.1179 16.25 21.5682V15" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M19.25 9C19.25 13.0041 16.0041 16.25 12 16.25C7.99594 16.25 4.75 13.0041 4.75 9C4.75 4.99594 7.99594 1.75 12 1.75C16.0041 1.75 19.25 4.99594 19.25 9Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

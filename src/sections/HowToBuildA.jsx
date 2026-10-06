@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How to Build a Restaurant Webs — the section's real markup, read from the rendered page (route /blog/how-to-create-a-restaurant-website, section 1).
@@ -897,7 +898,7 @@ export default function HowToBuildA() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-use-a-restaurant-website-builder" className="blog-content_column-link w--current">1. Use a Restaurant Website Builder</a>
+                <a fs-toc-element="link" href="#1-use-a-restaurant-website-builder" className="blog-content_column-link">1. Use a Restaurant Website Builder</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-build-a-strong-seo-foundation" className="blog-content_column-link">2. Build a Strong SEO Foundation</a>

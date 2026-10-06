@@ -1,7 +1,7 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
-import HowToCreateOnline from "../sections/HowToCreateOnline.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
+import RestaurantMarketingPlanA from "../sections/RestaurantMarketingPlanA.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
 import Section from "../sections/Section.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
@@ -16,12 +16,13 @@ import css8 from "../styles/inline-08.css?inline"; // only this page loads it
 import css9 from "../styles/inline-09.css?inline"; // only this page loads it
 import css10 from "../styles/inline-10.css?inline"; // only this page loads it
 import css11 from "../styles/inline-11.css?inline"; // only this page loads it
-import css12 from "../styles/inline-16.css?inline"; // only this page loads it
-import css13 from "../styles/inline-45.css?inline"; // only this page loads it
+import css12 from "../styles/inline-18.css?inline"; // only this page loads it
+import css13 from "../styles/inline-66.css?inline"; // only this page loads it
+import css14 from "../styles/inline-45.css?inline"; // only this page loads it
 
-// Route /blog/how-to-create-online-ordering-restaurant — 4 section(s), in page order.
+// Route /blog/how-to-create-a-restaurant-marketing-plan — 4 section(s), in page order.
 export default function BlogHowToCreatePage2() {
-  usePageChrome({ title: "How To Create Online Ordering for a Restaurant in 7 Steps", html: { "data-wf-domain": "www.owner.com", "data-wf-page": "69b9330c8b70142e4e5f7d31", "data-wf-site": "69b9330c8b70142e4e5f7d3c", "lang": "en", "data-wf-collection": "69b9330c8b70142e4e5f7e70", "data-wf-item-slug": "how-to-create-online-ordering-restaurant", "class": " w-mod-js w-mod-ix", "style": "scroll-behavior: smooth;" }, body: {  } });
+  usePageChrome({ title: "Restaurant Marketing Plan: A Step-by-Step Guide", html: { "data-wf-domain": "www.owner.com", "data-wf-page": "69b9330c8b70142e4e5f7d31", "data-wf-site": "69b9330c8b70142e4e5f7d3c", "lang": "en", "data-wf-collection": "69b9330c8b70142e4e5f7e70", "data-wf-item-slug": "how-to-create-a-restaurant-marketing-plan", "class": " w-mod-js w-mod-ix", "style": "scroll-behavior: smooth;" }, body: {  } });
   return (
     <>
       <style>{css0}</style>
@@ -38,6 +39,7 @@ export default function BlogHowToCreatePage2() {
       <style>{css11}</style>
       <style>{css12}</style>
       <style>{css13}</style>
+      <style>{css14}</style>
     <div className="page-wrapper">
       <div className="hide">
         <div className="hide w-embed"></div>
@@ -51,9 +53,9 @@ export default function BlogHowToCreatePage2() {
         <div className="hide w-embed"></div>
       </div>
       <div className="hide w-embed"></div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
-        <HowToCreateOnline />
+        <RestaurantMarketingPlanA />
         <IsProductPage />
       </main>
       <Section />

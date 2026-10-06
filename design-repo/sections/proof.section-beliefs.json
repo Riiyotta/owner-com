@@ -8,11 +8,12 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 3,
-    "routes": 3,
+    "instances": 4,
+    "routes": 4,
     "measuredFrom": [
       "src/index.html:11404-11467",
       "src/ca/pricing/index.html:4641-4704",
+      "src/pos/index.html:2737-2797",
       "src/pricing/index.html:4641-4704"
     ]
   },
@@ -22,7 +23,7 @@
       "heading": {
         "type": "string",
         "required": true,
-        "maxWords": 6
+        "maxWords": 7
       },
       "body": {
         "type": "string[]",
@@ -70,5 +71,10 @@
     "content-image"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/Top3ReasonsTo.jsx",
+  "implementedByAll": [
+    "src/sections/Top3ReasonsTo.jsx",
+    "src/sections/S3BeliefsThatGuide.jsx",
+    "src/sections/Top3ReasonsTo2.jsx"
+  ]
 }

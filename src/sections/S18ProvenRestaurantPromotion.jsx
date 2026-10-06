@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 18 Proven Restaurant Promotion — the section's real markup, read from the rendered page (route /blog/restaurant-promotion-ideas, section 1).
@@ -712,7 +713,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-offer-loyalty-rewards" className="blog-content_column-link w--current">{"‍1. Offer Loyalty Rewards "}</a>
+                <a fs-toc-element="link" href="#1-offer-loyalty-rewards" className="blog-content_column-link">{"‍1. Offer Loyalty Rewards "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-partner-with-third-party-apps" className="blog-content_column-link">2. Partner With Third-Party Apps</a>

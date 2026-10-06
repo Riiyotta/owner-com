@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /restaurant-website-ai, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /how-owner-works, section 0).
 export default function NavWrapper4() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper4">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -34,7 +35,7 @@ export default function NavWrapper4() {
                 </li>
                 <li data-nav="item" className="nav-menu_list-item">
                   <div className="nav-menu_list-item-inner">
-                    <A href="/how-owner-works" className="w-inline-block">
+                    <A href="/how-owner-works" aria-current="page" className="w-inline-block w--current">
                       <p>How it works</p>
                     </A>
                   </div>
@@ -66,7 +67,7 @@ export default function NavWrapper4() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/restaurant-website-ai" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/restaurant-website-ai" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" />
                             <path d="M12 21C9.79086 21 8 16.9706 8 12C8 7.02944 9.79086 3 12 3C14.2091 3 16 7.02944 16 12C16 16.9706 14.2091 21 12 21Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="square" />

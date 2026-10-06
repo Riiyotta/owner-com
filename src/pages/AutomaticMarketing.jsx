@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper16 from "../sections/NavWrapper16.jsx";
+import NavWrapper17 from "../sections/NavWrapper17.jsx";
 import MoneyMakingMarketingReady from "../sections/MoneyMakingMarketingReady.jsx";
 import AWorldClassTeam from "../sections/AWorldClassTeam.jsx";
 import BgColorTaupe12 from "../sections/BgColorTaupe12.jsx";
 import FAQ13 from "../sections/FAQ13.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section15 from "../sections/Section15.jsx";
+import Section16 from "../sections/Section16.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function AutomaticMarketing() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper16 />
+      <NavWrapper17 />
       <main className="main-wrapper">
         <MoneyMakingMarketingReady />
         <AWorldClassTeam />
@@ -62,7 +62,7 @@ export default function AutomaticMarketing() {
         <FAQ13 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section15 />
+        <Section16 />
       </main>
     </div>
     </>

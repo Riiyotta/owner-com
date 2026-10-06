@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper22 from "../sections/NavWrapper22.jsx";
+import NavWrapper23 from "../sections/NavWrapper23.jsx";
 import OwnerWorksGreatWith from "../sections/OwnerWorksGreatWith.jsx";
 import SetItUpOnce from "../sections/SetItUpOnce.jsx";
 import BgColorTaupe17 from "../sections/BgColorTaupe17.jsx";
 import FAQ19 from "../sections/FAQ19.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section21 from "../sections/Section21.jsx";
+import Section22 from "../sections/Section22.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function PosIntegrations() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper22 />
+      <NavWrapper23 />
       <main className="main-wrapper">
         <OwnerWorksGreatWith />
         <SetItUpOnce />
@@ -62,7 +62,7 @@ export default function PosIntegrations() {
         <FAQ19 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section21 />
+        <Section22 />
       </main>
     </div>
     </>

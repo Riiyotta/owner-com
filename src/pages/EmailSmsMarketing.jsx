@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import EmailSMSMarketingThat from "../sections/EmailSMSMarketingThat.jsx";
 import EmailAndSMSCampaigns from "../sections/EmailAndSMSCampaigns.jsx";
-import BgColorTaupe23 from "../sections/BgColorTaupe23.jsx";
+import BgColorTaupe20 from "../sections/BgColorTaupe20.jsx";
 import FAQ20 from "../sections/FAQ20.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section36 from "../sections/Section36.jsx";
+import Section33 from "../sections/Section33.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,15 +54,15 @@ export default function EmailSmsMarketing() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <EmailSMSMarketingThat />
         <EmailAndSMSCampaigns />
-        <BgColorTaupe23 />
+        <BgColorTaupe20 />
         <FAQ20 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section36 />
+        <Section33 />
       </main>
     </div>
     </>

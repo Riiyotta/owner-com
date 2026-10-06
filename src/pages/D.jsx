@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper29 from "../sections/NavWrapper29.jsx";
+import NavWrapper30 from "../sections/NavWrapper30.jsx";
 import AnInsideLookAt from "../sections/AnInsideLookAt.jsx";
 import WhatYouNeedTo from "../sections/WhatYouNeedTo.jsx";
 import SDVideoBox from "../sections/SDVideoBox.jsx";
@@ -28,7 +28,7 @@ import Section from "../sections/Section.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
-import css3 from "../styles/inline-30.css?inline"; // only this page loads it
+import css3 from "../styles/inline-32.css?inline"; // only this page loads it
 import css4 from "../styles/inline-04.css?inline"; // only this page loads it
 import css5 from "../styles/inline-05.css?inline"; // only this page loads it
 import css6 from "../styles/inline-06.css?inline"; // only this page loads it
@@ -38,11 +38,11 @@ import css9 from "../styles/inline-09.css?inline"; // only this page loads it
 import css10 from "../styles/inline-10.css?inline"; // only this page loads it
 import css11 from "../styles/inline-11.css?inline"; // only this page loads it
 import css12 from "../styles/inline-12.css?inline"; // only this page loads it
-import css13 from "../styles/inline-31.css?inline"; // only this page loads it
-import css14 from "../styles/inline-32.css?inline"; // only this page loads it
-import css15 from "../styles/inline-33.css?inline"; // only this page loads it
-import css16 from "../styles/inline-34.css?inline"; // only this page loads it
-import css17 from "../styles/inline-35.css?inline"; // only this page loads it
+import css13 from "../styles/inline-33.css?inline"; // only this page loads it
+import css14 from "../styles/inline-34.css?inline"; // only this page loads it
+import css15 from "../styles/inline-35.css?inline"; // only this page loads it
+import css16 from "../styles/inline-36.css?inline"; // only this page loads it
+import css17 from "../styles/inline-37.css?inline"; // only this page loads it
 
 // Route /d — 25 section(s), in page order.
 export default function D() {
@@ -85,7 +85,7 @@ export default function D() {
       </div>
       <div className="css-page-specific w-embed"></div>
       <div className="css-page-specific w-embed"></div>
-      <NavWrapper29 />
+      <NavWrapper30 />
       <main className="main-wrapper">
         <AnInsideLookAt />
         <section data-section-overlap="" className="section-s-d_summary">

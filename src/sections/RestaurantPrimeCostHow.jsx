@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Prime Cost: How To  — the section's real markup, read from the rendered page (route /blog/restaurant-prime-cost, section 1).
@@ -644,7 +645,7 @@ export default function RestaurantPrimeCostHow() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#what-exactly-is-a-restaurants-prime-cost" className="blog-content_column-link w--current">{"What exactly is a restaurant’s prime cost? "}</a>
+                <a fs-toc-element="link" href="#what-exactly-is-a-restaurants-prime-cost" className="blog-content_column-link">{"What exactly is a restaurant’s prime cost? "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#how-to-calculate-restaurant-prime-cost" className="blog-content_column-link">{"How to calculate restaurant prime cost "}</a>

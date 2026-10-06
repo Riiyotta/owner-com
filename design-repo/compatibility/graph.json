@@ -27,12 +27,15 @@
         "content.section-guides": 1,
         "cta.section-cta": 1,
         "shell.section-footer": 1,
+        "hero.section-legal": 1,
         "content.section-base": 5,
         "support.form": 1,
         "hero.section-center-hero": 1,
         "features.section-hiw-steps": 1,
         "hero.section-product-hero": 1,
-        "hero.page-wrapper": 1,
+        "hero.section-product-v-hero": 1,
+        "features.section-pos-steps": 1,
+        "support.section-leaders-support": 1,
         "hero.section-about-hero": 1,
         "content.section-about-local": 1,
         "content.section-about-stats": 1,
@@ -43,28 +46,26 @@
         "cta.section-career-cta": 1,
         "content.roles": 1,
         "hero.section-leadership-hero": 1,
-        "support.section-leaders-support": 1,
         "hero.eng-section-eng-hero": 1,
         "content.section-eng-intro": 1,
         "content.section-eng-row": 3,
         "features.section-eng-steps": 1,
         "content.eng-maxwdith": 1,
         "support.eng-steps-faq": 1,
-        "content.block": 2,
+        "content.block": 9,
         "content.eng-lp-figure-wall": 1,
         "shell.eng-lp-footer": 1,
         "content.pres-cards-header": 1,
         "proof.press-cards-wrap": 1,
         "hero.section-reviews-hero": 1,
+        "hero.section-demo": 1,
         "hero.section-s-d-hero": 1,
         "content.s-d-video-box": 1,
         "content.s-d-summary-list": 1,
         "content.section-s-d-about": 1,
         "content.section-s-d-why-now": 1,
         "content.section-s-d-the-problem": 1,
-        "content.u-mb-64": 4,
         "content.s-d-wrap": 1,
-        "content.u-mb-40": 4,
         "content.section-s-d-future": 1,
         "showcase.section-s-d-gtm": 1,
         "content.section-s-d-competition": 1,
@@ -80,7 +81,6 @@
         "shell.demo-control-header": 1,
         "hero.demo-control-layout": 1,
         "hero.section-cs-hero": 1,
-        "hero.section-legal": 1,
         "hero.section-blog-content": 1,
         "hero.section-resource": 1
       },
@@ -110,9 +110,7 @@
       "id": "NO_CONSECUTIVE_SAME_SECTION",
       "severity": "warn",
       "kind": "noConsecutive",
-      "sections": [
-        "content.block"
-      ],
+      "sections": [],
       "description": "These sections were never observed back-to-back."
     },
     {
@@ -194,26 +192,18 @@
         ],
         [
           "content.section-s-d-the-problem",
-          "content.u-mb-64"
+          "content.block"
         ],
         [
-          "content.u-mb-64",
+          "content.block",
           "content.s-d-wrap"
         ],
         [
           "content.s-d-wrap",
-          "content.u-mb-64"
+          "content.block"
         ],
         [
-          "content.u-mb-64",
-          "content.u-mb-40"
-        ],
-        [
-          "content.u-mb-40",
-          "content.u-mb-64"
-        ],
-        [
-          "content.u-mb-64",
+          "content.block",
           "content.section-s-d-future"
         ],
         [

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The 10 Best Catering Delivery  — the section's real markup, read from the rendered page (route /blog/catering-delivery-apps, section 1).
@@ -802,7 +803,7 @@ export default function The10BestCatering() {
                 <a fs-toc-element="link" href="#2-ezcater" className="blog-content_column-link">2. ezCater</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#3-grubhub-catering-and-seamless-catering" className="blog-content_column-link w--current">{"3. Grubhub Catering & Seamless Catering"}</a>
+                <a fs-toc-element="link" href="#3-grubhub-catering-and-seamless-catering" className="blog-content_column-link">{"3. Grubhub Catering & Seamless Catering"}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#4-catercow" className="blog-content_column-link">4. CaterCow</a>

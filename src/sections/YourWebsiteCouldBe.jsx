@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Your website could be driving  — the section's real markup, read from the rendered page (route /restaurant-website-ai, section 2).
 export default function YourWebsiteCouldBe() {
   return (

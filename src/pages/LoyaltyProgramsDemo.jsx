@@ -2,8 +2,8 @@ import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
 import DemoControlHeader from "../sections/DemoControlHeader.jsx";
 import DemoControlLayout2 from "../sections/DemoControlLayout2.jsx";
-import css0 from "../styles/inline-38.css?inline"; // only this page loads it
-import css1 from "../styles/inline-39.css?inline"; // only this page loads it
+import css0 from "../styles/inline-40.css?inline"; // only this page loads it
+import css1 from "../styles/inline-41.css?inline"; // only this page loads it
 
 // Route /loyalty-programs-demo — 2 section(s), in page order.
 export default function LoyaltyProgramsDemo() {
@@ -16,7 +16,7 @@ export default function LoyaltyProgramsDemo() {
       <DemoControlHeader />
       <DemoControlLayout2 />
     </main>
-    <astro-island uid="yeBha" prefix="r4" component-url="/_apps/grader/assets/_astro/DemoPageTracker.VPpIb6lH.js" component-export="DemoPageTracker" renderer-url="/_apps/grader/assets/_astro/client.BLUu-456.js" props={"{\"pageKey\":[0,\"loyalty-programs-demo\"],\"route\":[0,\"/loyalty-programs-demo\"]}"} client="load" opts={"{\"name\":\"DemoPageTracker\",\"value\":true}"}></astro-island>
+    <astro-island uid="254WCR" prefix="r4" component-url="/_apps/grader/assets/_astro/DemoPageTracker.C9MZRYgZ.js" component-export="DemoPageTracker" renderer-url="/_apps/grader/assets/_astro/client.BLUu-456.js" props={"{\"pageKey\":[0,\"loyalty-programs-demo\"],\"route\":[0,\"/loyalty-programs-demo\"]}"} client="load" opts={"{\"name\":\"DemoPageTracker\",\"value\":true}"}></astro-island>
     </>
   );
 }

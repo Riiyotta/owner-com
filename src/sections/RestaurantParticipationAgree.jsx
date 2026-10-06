@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Participation Agree — the section's real markup, read from the rendered page (route /restaurant-participation-agreement, section 1).

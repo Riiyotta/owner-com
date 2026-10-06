@@ -57,5 +57,8 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/sections/EngLpFigureWall.jsx"
+  "implementedBy": "src/sections/EngLpFigureWall.jsx",
+  "implementedByAll": [
+    "src/sections/EngLpFigureWall.jsx"
+  ]
 }

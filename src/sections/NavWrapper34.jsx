@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/ashleys-cafe, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/talkin-tacos, section 0).
 export default function NavWrapper34() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper34">
@@ -266,7 +267,7 @@ export default function NavWrapper34() {
                   </div>
                   <ul id="w-node-_08bdd475-383f-e632-77b8-98a900d55626-00d55589" role="list" className="nav-menu_dropdown-cases">
                     <li>
-                      <A href="/case-studies/talkin-tacos" className="nav-menu_cases-link w-inline-block">
+                      <A href="/case-studies/talkin-tacos" aria-current="page" className="nav-menu_cases-link w-inline-block w--current">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">How Mo and Omar from Talkin Tacos grew direct online sales to $120K/m</p>
                         </div>
@@ -274,7 +275,7 @@ export default function NavWrapper34() {
                       </A>
                     </li>
                     <li>
-                      <A href="/case-studies/ashleys-cafe" aria-current="page" className="nav-menu_cases-link w-inline-block w--current">
+                      <A href="/case-studies/ashleys-cafe" className="nav-menu_cases-link w-inline-block">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">{"How Ashley's Cafe grew monthly sales by $30K with Owner POS"}</p>
                         </div>

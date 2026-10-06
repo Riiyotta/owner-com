@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 11 Best Restaurant Loyalty Pro — the section's real markup, read from the rendered page (route /blog/restaurant-loyalty-programs, section 1).
@@ -1000,7 +1001,7 @@ export default function S11BestRestaurantLoyalty() {
                 <a fs-toc-element="link" href="#what-is-a-restaurant-loyalty-program" className="blog-content_column-link">What is a restaurant loyalty program?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#common-restaurant-loyalty-program-types" className="blog-content_column-link w--current">Common restaurant loyalty program types</a>
+                <a fs-toc-element="link" href="#common-restaurant-loyalty-program-types" className="blog-content_column-link">Common restaurant loyalty program types</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#1-ottavios-pizza-makes-sign-up-easy" className="blog-content_column-link">1. Ottavio’s Pizza makes sign-up easy</a>

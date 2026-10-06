@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 7 Best Restaurant Online Order — the section's real markup, read from the rendered page (route /blog/online-ordering-system-for-restaurants, section 1).
@@ -1282,7 +1283,7 @@ export default function S7BestRestaurantOnline() {
                 <a fs-toc-element="link" href="#how-we-analyzed-the-top-restaurant-online-ordering-sytems" className="blog-content_column-link">How we analyzed the top restaurant online ordering sytems</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#best-restaurant-online-ordering-systems-comparing-features" className="blog-content_column-link w--current">Best Restaurant Online Ordering Systems: Comparing Features</a>
+                <a fs-toc-element="link" href="#best-restaurant-online-ordering-systems-comparing-features" className="blog-content_column-link">Best Restaurant Online Ordering Systems: Comparing Features</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#best-restaurant-online-ordering-systems" className="blog-content_column-link">Best Restaurant Online Ordering Systems</a>

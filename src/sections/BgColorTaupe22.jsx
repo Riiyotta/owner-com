@@ -1,4 +1,5 @@
-// bg-color-taupe — the section's real markup, read from the rendered page (route /case-studies/karv-greek-kouzina, section 3).
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
+// bg-color-taupe — the section's real markup, read from the rendered page (route /case-studies/ashleys-cafe, section 3).
 export default function BgColorTaupe22() {
   return (
     <section data-section-overlap="" className="section-base bg-color-taupe" data-clone-section="BgColorTaupe22">
@@ -11,41 +12,41 @@ export default function BgColorTaupe22() {
                 <div role="list" className="max-width-full w-dyn-items">
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Save money</div>
+                      <div className="h5">Tame the rush hour chaos</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">Alex knew he needed to grow profit margins on his online orders. Switching to Owner meant keeping more money to grow the business.</div>
+                        <div className="body-m">Five different ordering channels on five different tablets meant constant errors and complaints. Ashley needed one system that consolidated everything without rebuilding her whole operation.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Simplify operations</div>
+                      <div className="h5">Stop losing every walk-in</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">{"The old website took too many clicks for customers to use it. The photos didn't showcase Alex's dishes. Owner gave Alex an easy way to make a great first impression."}</div>
+                        <div className="body-m">Roughly four out of five walk-in guests left without leaving any way to be reached. Ashley wanted a POS that helped her recognize regulars by name and bring them back, not jot phone numbers on paper.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Get more from each guest</div>
+                      <div className="h5">Build a real marketing channel</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">{"Owner collected guests' info and handled his marketing. Automatic upselling grows his profits. Google Reviews are on autopilot too, with 5+ new reviews per day. 95% are 5 stars!"}</div>
+                        <div className="body-m">Ashley had no way to reach past customers, no branded app, and no automated way to drive repeat orders. She needed all of it in one place.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Compete with the big chains</div>
+                      <div className="h5">Work on the business, not in it</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">{"Big chains like Cava have resources to fuel their online growth. But now, Owner's AI-powered SEO gives Alex the same power. Karv appears at the top of Google for searches like \"best gyro\" or \"best falafel.\""}</div>
+                        <div className="body-m">Ashley spent every day running shifts. She needed systems that did the work for her, so the cafe could keep growing without her in the room.</div>
                       </div>
                     </div>
                   </div>
@@ -53,7 +54,7 @@ export default function BgColorTaupe22() {
               </div>
             </div>
             <div className="cs-feature_visual">
-              <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3dc99fb2bd60b1651e3_69f4f2f91848dc3653e2576e_69b9330c8b70142e4e5f89cb_karv-tabs.jpg.avif" loading="lazy" alt="" className="img-cover" />
+              <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM.png" loading="lazy" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-800.png 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM.png 1384w" className="img-cover" />
             </div>
           </div>
         </div>

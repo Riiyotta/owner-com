@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Email Marketing: 8  — the section's real markup, read from the rendered page (route /blog/email-marketing-for-restaurants, section 1).
@@ -768,7 +769,7 @@ export default function RestaurantEmailMarketing8() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#3-reasons-why-restaurants-need-email-marketing" className="blog-content_column-link w--current">{"3 reasons why restaurants need email marketing "}</a>
+                <a fs-toc-element="link" href="#3-reasons-why-restaurants-need-email-marketing" className="blog-content_column-link">{"3 reasons why restaurants need email marketing "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#before-you-begin-make-sure-to-build-your-email-list" className="blog-content_column-link">Before you begin: Make sure to build your email list</a>

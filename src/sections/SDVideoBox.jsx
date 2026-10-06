@@ -1,3 +1,4 @@
+// IA section(s): content.s-d-video-box (ia/ia.json, design-repo/sections/)
 // s-d_video-box — the section's real markup, read from the rendered page (route /d, section 3).
 export default function SDVideoBox() {
   return (

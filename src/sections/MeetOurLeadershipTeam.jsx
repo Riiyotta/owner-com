@@ -1,3 +1,4 @@
+// IA section(s): hero.section-leadership-hero (ia/ia.json, design-repo/sections/)
 // Meet our leadership team — the section's real markup, read from the rendered page (route /leadership, section 1).
 export default function MeetOurLeadershipTeam() {
   return (

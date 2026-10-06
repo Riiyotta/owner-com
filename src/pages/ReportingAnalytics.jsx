@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper20 from "../sections/NavWrapper20.jsx";
+import NavWrapper21 from "../sections/NavWrapper21.jsx";
 import AlwaysKnowHowYour from "../sections/AlwaysKnowHowYour.jsx";
 import YourRestaurantSNumbers from "../sections/YourRestaurantSNumbers.jsx";
 import BgColorTaupe15 from "../sections/BgColorTaupe15.jsx";
 import FAQ17 from "../sections/FAQ17.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section19 from "../sections/Section19.jsx";
+import Section20 from "../sections/Section20.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function ReportingAnalytics() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper20 />
+      <NavWrapper21 />
       <main className="main-wrapper">
         <AlwaysKnowHowYour />
         <YourRestaurantSNumbers />
@@ -62,7 +62,7 @@ export default function ReportingAnalytics() {
         <FAQ17 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section19 />
+        <Section20 />
       </main>
     </div>
     </>

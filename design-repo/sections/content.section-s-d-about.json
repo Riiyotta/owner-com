@@ -64,5 +64,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/AVisionBiggerthanRestaurant.jsx",
+  "implementedByAll": [
+    "src/sections/AVisionBiggerthanRestaurant.jsx"
+  ]
 }

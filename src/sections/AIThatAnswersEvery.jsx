@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-hero (ia/ia.json, design-repo/sections/)
 // AI that answers every call you — the section's real markup, read from the rendered page (route /ai-phone-ordering, section 1).
 export default function AIThatAnswersEvery() {
   return (

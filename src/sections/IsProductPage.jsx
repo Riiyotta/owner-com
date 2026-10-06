@@ -1,4 +1,5 @@
-// is-product-page — the section's real markup, read from the rendered page (route /pricing, section 7; shared by 134 routes).
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
+// is-product-page — the section's real markup, read from the rendered page (route /privacy-policy, section 2; shared by 134 routes).
 export default function IsProductPage() {
   return (
     <section className="section-base is-product-page" data-clone-section="IsProductPage">

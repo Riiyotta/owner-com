@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // A world-class team of marketer — the section's real markup, read from the rendered page (route /automatic-marketing, section 2).
 export default function AWorldClassTeam() {
   return (

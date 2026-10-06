@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Here Are the Food Trends 2026  — the section's real markup, read from the rendered page (route /blog/food-trends, section 1).
@@ -827,7 +828,7 @@ export default function HereAreTheFood() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#comfort-driven-innovation" className="blog-content_column-link w--current">{"Comfort-driven innovation "}</a>
+                <a fs-toc-element="link" href="#comfort-driven-innovation" className="blog-content_column-link">{"Comfort-driven innovation "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#better-for-you-eating" className="blog-content_column-link">{"Better-for-you eating "}</a>

@@ -1,25 +1,4 @@
 
-  [data-video-hover="video"] {
-    opacity: 0;
-  }
-
-  [data-video-hover="wrap"]:hover [data-video-hover="video"] {
-    opacity: 1;
-  }
-  [data-video-hover="wrap"]:hover [data-video-hover="thumbnail"] {
-    opacity: 0;
-  }
-
-
-  @media only screen and (max-width: 1280px) and (min-width: 992px){
-    .series_b-content-box{
-      gap: 3.2rem;
-    }
-  }
-
-  @media only screen and (max-width: 1400px) and (min-width: 992px){ 
-    .series_b-tweets-holder,
-    .series_b-nav-wrap:last-child{
-      display: none;
-    }
+  .demo_slot:empty {
+    display: none;
   }

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // We'll grow your Google reviews — the section's real markup, read from the rendered page (route /reviews-engine, section 1).

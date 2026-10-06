@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /automatic-marketing, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /branded-apps, section 0).
 export default function NavWrapper16() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper16">
@@ -187,7 +188,7 @@ export default function NavWrapper16() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/branded-apps" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/branded-apps" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M9.75 19.25H14.25M7.75 22.25H16.25C17.3546 22.25 18.25 21.3546 18.25 20.25V3.75C18.25 2.64543 17.3546 1.75 16.25 1.75H7.75C6.64543 1.75 5.75 2.64543 5.75 3.75V20.25C5.75 21.3546 6.64543 22.25 7.75 22.25Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -195,7 +196,7 @@ export default function NavWrapper16() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/automatic-marketing" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/automatic-marketing" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M19.2478 4.75133C21.1027 6.60622 22.25 9.16872 22.25 11.9992C22.25 14.8296 21.1027 17.3921 19.2478 19.247M15.8891 8.11071C16.8844 9.10601 17.5 10.481 17.5 11.9998C17.5 13.5186 16.8844 14.8936 15.8891 15.8889M3.75 7.74938H5.35491C5.77433 7.74938 6.18314 7.61752 6.52352 7.37245L11.4578 3.81973C11.7886 3.5816 12.25 3.81795 12.25 4.2255V19.7733C12.25 20.1808 11.7886 20.4172 11.4578 20.179L6.52352 16.6263C6.18314 16.3812 5.77433 16.2494 5.35491 16.2494H3.75C2.64543 16.2494 1.75 15.354 1.75 14.2494V9.74938C1.75 8.64481 2.64543 7.74938 3.75 7.74938Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>

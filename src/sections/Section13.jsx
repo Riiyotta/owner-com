@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /pos, section 7).
+// section — the section's real markup, read from the rendered page (route /ai-phone-ordering, section 7).
 export default function Section13() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section13">
@@ -15,9 +16,9 @@ export default function Section13() {
               </div>
             </a>
             <div className="button-group cc-footer">
-              <A data-button-instance="" href="/pos-demo" className="btn w-inline-block">
+              <a data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
-              </A>
+              </a>
               <A data-button-instance="" href="/how-owner-works" className="btn w-inline-block is-secondary">
                 <div data-button-text="" className="btn-text">See how it works</div>
               </A>
@@ -86,7 +87,7 @@ export default function Section13() {
                   <A href="/catering" className="footer-link cc-big">Catering</A>
                 </li>
                 <li>
-                  <A href="/ai-phone-ordering" className="footer-link cc-big w-inline-block">
+                  <A href="/ai-phone-ordering" aria-current="page" className="footer-link cc-big w-inline-block w--current">
                     <p>AI Phone Ordering</p>
                     <div className="nav-tag cc-grey">Waitlist</div>
                   </A>
@@ -99,7 +100,7 @@ export default function Section13() {
               </div>
               <ul role="list" className="footer-middle_list">
                 <li>
-                  <A href="/pos" aria-current="page" className="footer-link cc-big w-inline-block w--current">
+                  <A href="/pos" className="footer-link cc-big w-inline-block">
                     <p>Point of Sale</p>
                     <div className="nav-tag">New</div>
                   </A>

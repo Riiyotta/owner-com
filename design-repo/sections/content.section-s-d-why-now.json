@@ -65,5 +65,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/TwoBigChangesHave.jsx",
+  "implementedByAll": [
+    "src/sections/TwoBigChangesHave.jsx"
+  ]
 }

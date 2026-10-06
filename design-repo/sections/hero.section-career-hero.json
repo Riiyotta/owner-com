@@ -78,5 +78,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/pages/Careers.jsx"
+  "implementedBy": "src/sections/ProtectTheFutureOf.jsx",
+  "implementedByAll": [
+    "src/sections/ProtectTheFutureOf.jsx"
+  ]
 }

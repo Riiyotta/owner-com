@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 10 Best Square Alternatives an — the section's real markup, read from the rendered page (route /blog/square-alternatives, section 1).
@@ -1244,7 +1245,7 @@ export default function S10BestSquareAlternatives() {
                 <a fs-toc-element="link" href="#overview-of-square-pos-alternatives" className="blog-content_column-link">{"Overview of Square POS alternatives "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-ownercom" className="blog-content_column-link w--current">1. Owner.com</a>
+                <a fs-toc-element="link" href="#1-ownercom" className="blog-content_column-link">1. Owner.com</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-shopify" className="blog-content_column-link">{"2. Shopify "}</a>

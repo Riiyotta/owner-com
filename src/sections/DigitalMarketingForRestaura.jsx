@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Digital Marketing for Restaura — the section's real markup, read from the rendered page (route /blog/digital-marketing-for-restaurants, section 1).

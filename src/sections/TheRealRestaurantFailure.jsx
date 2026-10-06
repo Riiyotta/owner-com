@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Real Restaurant Failure Ra — the section's real markup, read from the rendered page (route /blog/restaurant-failure-rate, section 1).
@@ -887,7 +888,7 @@ export default function TheRealRestaurantFailure() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#whats-the-real-restaurant-failure-rate" className="blog-content_column-link w--current">What’s the real restaurant failure rate?</a>
+                <a fs-toc-element="link" href="#whats-the-real-restaurant-failure-rate" className="blog-content_column-link">What’s the real restaurant failure rate?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#so-why-do-restaurants-end-up-failing" className="blog-content_column-link">So, why do restaurants end up failing?</a>

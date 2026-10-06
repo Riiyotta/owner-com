@@ -1,10 +1,10 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper34 from "../sections/NavWrapper34.jsx";
+import NavWrapper35 from "../sections/NavWrapper35.jsx";
 import HowAshleySCafe from "../sections/HowAshleySCafe.jsx";
 import HowTheirOnlineExperience2 from "../sections/HowTheirOnlineExperience2.jsx";
-import BgColorTaupe21 from "../sections/BgColorTaupe21.jsx";
-import Section33 from "../sections/Section33.jsx";
+import BgColorTaupe22 from "../sections/BgColorTaupe22.jsx";
+import Section40 from "../sections/Section40.jsx";
 import BgColorBglighter7 from "../sections/BgColorBglighter7.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
 import Section from "../sections/Section.jsx";
@@ -20,8 +20,8 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-40.css?inline"; // only this page loads it
-import css13 from "../styles/inline-41.css?inline"; // only this page loads it
+import css12 from "../styles/inline-42.css?inline"; // only this page loads it
+import css13 from "../styles/inline-43.css?inline"; // only this page loads it
 
 // Route /case-studies/ashleys-cafe — 8 section(s), in page order.
 export default function CaseStudiesAshleysCafe() {
@@ -58,12 +58,12 @@ export default function CaseStudiesAshleysCafe() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper34 />
+      <NavWrapper35 />
       <main className="main-wrapper">
         <HowAshleySCafe />
         <HowTheirOnlineExperience2 />
-        <BgColorTaupe21 />
-        <Section33 />
+        <BgColorTaupe22 />
+        <Section40 />
         <BgColorBglighter7 />
         <IsProductPage />
       </main>

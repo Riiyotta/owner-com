@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Ultimate Guide to Restaura — the section's real markup, read from the rendered page (route /blog/social-media-for-restaurants, section 1).
@@ -769,7 +770,7 @@ export default function TheUltimateGuideTo() {
                 <a fs-toc-element="link" href="#1-figure-out-clear-goals-and-success-metrics" className="blog-content_column-link">1. Figure out clear goals and success metrics</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#2-optimize-your-social-media-profiles" className="blog-content_column-link w--current">2. Optimize your social media profiles</a>
+                <a fs-toc-element="link" href="#2-optimize-your-social-media-profiles" className="blog-content_column-link">2. Optimize your social media profiles</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#3-establish-a-consistent-brand-style" className="blog-content_column-link">3. Establish a consistent brand style</a>

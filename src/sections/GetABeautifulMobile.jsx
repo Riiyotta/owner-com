@@ -1,3 +1,4 @@
+// IA section(s): hero.section-product-hero (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Get a beautiful mobile app for — the section's real markup, read from the rendered page (route /branded-apps, section 1).

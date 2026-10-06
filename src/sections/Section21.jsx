@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /pos-integrations, section 7).
+// section — the section's real markup, read from the rendered page (route /kitchen-tablet, section 7).
 export default function Section21() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section21">
@@ -111,10 +112,10 @@ export default function Section21() {
                   <A href="/reporting-analytics" className="footer-link cc-big">{"Reporting & Analytics"}</A>
                 </li>
                 <li>
-                  <A href="/kitchen-tablet" className="footer-link cc-big">Kitchen Tablet</A>
+                  <A href="/kitchen-tablet" aria-current="page" className="footer-link cc-big w--current">Kitchen Tablet</A>
                 </li>
                 <li>
-                  <A href="/pos-integrations" aria-current="page" className="footer-link cc-big w--current">POS Integrations</A>
+                  <A href="/pos-integrations" className="footer-link cc-big">POS Integrations</A>
                 </li>
               </ul>
             </li>

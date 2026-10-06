@@ -1,4 +1,5 @@
-// bg-color-taupe — the section's real markup, read from the rendered page (route /case-studies/ashleys-cafe, section 3).
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
+// bg-color-taupe — the section's real markup, read from the rendered page (route /case-studies/talkin-tacos, section 3).
 export default function BgColorTaupe21() {
   return (
     <section data-section-overlap="" className="section-base bg-color-taupe" data-clone-section="BgColorTaupe21">
@@ -11,41 +12,41 @@ export default function BgColorTaupe21() {
                 <div role="list" className="max-width-full w-dyn-items">
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Tame the rush hour chaos</div>
+                      <div className="h5">Guest experience</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">Five different ordering channels on five different tablets meant constant errors and complaints. Ashley needed one system that consolidated everything without rebuilding her whole operation.</div>
+                        <div className="body-m">The most important question to Mo and Omar is: what’s best for our guest? They felt they needed to make it easier for regulars to order takeout from them.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Stop losing every walk-in</div>
+                      <div className="h5">Losing money</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">Roughly four out of five walk-in guests left without leaving any way to be reached. Ashley wanted a POS that helped her recognize regulars by name and bring them back, not jot phone numbers on paper.</div>
+                        <div className="body-m">Delivery apps and fees were growing rapidly, which meant they were losing over $20,000 per month in commissions.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Build a real marketing channel</div>
+                      <div className="h5">No sales increases</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">Ashley had no way to reach past customers, no branded app, and no automated way to drive repeat orders. She needed all of it in one place.</div>
+                        <div className="body-m">Their PoS system Toast doesn’t help proactively increase their sales.</div>
                       </div>
                     </div>
                   </div>
                   <div role="listitem" className="cs-feature_box-item w-dyn-item">
                     <div className="u-mb-4">
-                      <div className="h5">Work on the business, not in it</div>
+                      <div className="h5">Team morale</div>
                     </div>
                     <div className="opacity-50">
                       <div className="text-color-grey">
-                        <div className="body-m">Ashley spent every day running shifts. She needed systems that did the work for her, so the cafe could keep growing without her in the room.</div>
+                        <div className="body-m">The delivery apps were growing as a part of the business and didn’t share tips, which meant lower wages for the staff. They wanted a platform that helped them drive more tips to compensate their staff and keep them happy.</div>
                       </div>
                     </div>
                   </div>
@@ -53,7 +54,7 @@ export default function BgColorTaupe21() {
               </div>
             </div>
             <div className="cs-feature_visual">
-              <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM.png" loading="lazy" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-500.png 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-800.png 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d1edbcc26e23f0e335e49_Screenshot%202026-05-19%20at%2010.25.35%E2%80%AFPM.png 1384w" className="img-cover" />
+              <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e8c133b021f490c11f_69f4f37fc34b09ee4b3f4fa5_69b9330c8b70142e4e5f8655_talkin-tacos%252520(1).jpg.avif" loading="lazy" alt="" className="img-cover" />
             </div>
           </div>
         </div>

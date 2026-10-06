@@ -58,5 +58,8 @@
   "assetRoles": [
     "logo"
   ],
-  "implementedBy": "src/pages/PosDemo.jsx"
+  "implementedBy": "src/sections/DemoControlHeader.jsx",
+  "implementedByAll": [
+    "src/sections/DemoControlHeader.jsx"
+  ]
 }

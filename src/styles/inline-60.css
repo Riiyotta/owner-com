@@ -19,6 +19,7 @@
 
   .custom-restaurant-table th {
     background-color: #f4f4f4;
+    color: var(--text--primary);
     font-weight: 700;
     padding: 15px;
     border-bottom: 2px solid #e1e1e1;

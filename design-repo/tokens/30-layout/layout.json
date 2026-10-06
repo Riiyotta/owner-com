@@ -46,10 +46,6 @@
       "$value": "{fontSize.80}",
       "basis": "most common padding-top of a HERO section (differs from the sitewide mode)"
     },
-    "layout.gridGap.hero": {
-      "$value": "{space.7}",
-      "basis": "most common column-gap of a HERO section (differs from the sitewide mode)"
-    },
     "layout.gridGap.proof": {
       "$value": "{space.40}",
       "basis": "most common column-gap of a PROOF section (differs from the sitewide mode)"

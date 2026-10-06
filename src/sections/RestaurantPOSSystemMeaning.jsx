@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant POS System: Meaning — the section's real markup, read from the rendered page (route /blog/pos-restaurant-meaning, section 1).
@@ -655,7 +656,7 @@ export default function RestaurantPOSSystemMeaning() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#what-is-a-pos-system-for-restaurants" className="blog-content_column-link w--current">What is a POS system for restaurants?</a>
+                <a fs-toc-element="link" href="#what-is-a-pos-system-for-restaurants" className="blog-content_column-link">What is a POS system for restaurants?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#how-does-a-pos-system-work" className="blog-content_column-link">How does a POS system work?</a>

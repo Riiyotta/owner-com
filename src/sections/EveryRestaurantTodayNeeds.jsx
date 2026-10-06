@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Every restaurant today needs a — the section's real markup, read from the rendered page (route /branded-apps, section 2).
 export default function EveryRestaurantTodayNeeds() {
   return (

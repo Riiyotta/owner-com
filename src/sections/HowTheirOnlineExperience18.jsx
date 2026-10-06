@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // How Their Online Experience Ch — the section's real markup, read from the rendered page (route /case-studies/samos-oaxaca, section 2).
 export default function HowTheirOnlineExperience18() {
   return (

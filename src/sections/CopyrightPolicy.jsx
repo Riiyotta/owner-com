@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Copyright Policy — the section's real markup, read from the rendered page (route /copyright-policy, section 1).

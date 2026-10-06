@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // The Direct Catering Playbook:  — the section's real markup, read from the rendered page (route /blog/catering-marketing, section 1).
@@ -1010,7 +1011,7 @@ export default function TheDirectCateringPlaybook() {
                 <a fs-toc-element="link" href="#the-1-barrier-to-catering-growth-obscurity" className="blog-content_column-link">The #1 Barrier to Catering Growth: Obscurity</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#why-catering-is-so-valuable-for-your-restaurant" className="blog-content_column-link w--current">Why Catering Is So Valuable for Your Restaurant</a>
+                <a fs-toc-element="link" href="#why-catering-is-so-valuable-for-your-restaurant" className="blog-content_column-link">Why Catering Is So Valuable for Your Restaurant</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#my-9-go-to-tactics-to-grow-your-direct-catering-business" className="blog-content_column-link">My 9 Go-To Tactics to Grow Your Direct Catering Business</a>

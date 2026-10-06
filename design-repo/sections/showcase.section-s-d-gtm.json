@@ -54,5 +54,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/OwnerSGTMApproach.jsx",
+  "implementedByAll": [
+    "src/sections/OwnerSGTMApproach.jsx"
+  ]
 }

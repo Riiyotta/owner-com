@@ -1,3 +1,4 @@
+// IA section(s): hero.section-about-hero (ia/ia.json, design-repo/sections/)
 // Helping local business owners  — the section's real markup, read from the rendered page (route /our-story, section 1).
 export default function HelpingLocalBusinessOwners() {
   return (

@@ -15,9 +15,9 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-65.css?inline"; // only this page loads it
-import css12 from "../styles/inline-15.css?inline"; // only this page loads it
-import css13 from "../styles/inline-16.css?inline"; // only this page loads it
+import css11 from "../styles/inline-64.css?inline"; // only this page loads it
+import css12 from "../styles/inline-17.css?inline"; // only this page loads it
+import css13 from "../styles/inline-18.css?inline"; // only this page loads it
 
 // Route /resources/ottavios-case-study — 4 section(s), in page order.
 export default function ResourcesOttaviosCaseStudy() {

@@ -1,5 +1,1 @@
-
-.cs-feature_box-item:first-child{
-    padding-top:0;
-    border:none;
-  }
+astro-island,astro-slot,astro-static-slot{display:contents}

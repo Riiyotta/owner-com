@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 10 Proven Pizza Advertising Id — the section's real markup, read from the rendered page (route /blog/pizza-advertising-ideas, section 1).
@@ -1206,7 +1207,7 @@ export default function S10ProvenPizzaAdvertising() {
                 <a fs-toc-element="link" href="#2-run-a-crazy-food-challenge" className="blog-content_column-link">2. Run A Crazy Food Challenge</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#3-send-strategic-voicemail-drops" className="blog-content_column-link w--current">3. Send Strategic Voicemail Drops</a>
+                <a fs-toc-element="link" href="#3-send-strategic-voicemail-drops" className="blog-content_column-link">3. Send Strategic Voicemail Drops</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#4-partner-with-popular-people" className="blog-content_column-link">4. Partner With Popular People</a>

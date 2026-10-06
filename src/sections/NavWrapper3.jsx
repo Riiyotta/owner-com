@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /how-owner-works, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /pricing, section 0).
 export default function NavWrapper3() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper3">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -27,14 +28,14 @@ export default function NavWrapper3() {
                 </li>
                 <li data-nav="item" className="nav-menu_list-item">
                   <div className="nav-menu_list-item-inner">
-                    <A href="/pricing" className="w-inline-block">
+                    <A href="/pricing" aria-current="page" className="w-inline-block w--current">
                       <p>Pricing</p>
                     </A>
                   </div>
                 </li>
                 <li data-nav="item" className="nav-menu_list-item">
                   <div className="nav-menu_list-item-inner">
-                    <A href="/how-owner-works" aria-current="page" className="w-inline-block w--current">
+                    <A href="/how-owner-works" className="w-inline-block">
                       <p>How it works</p>
                     </A>
                   </div>

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // What it’s like to work at Owne — the section's real markup, read from the rendered page (route /careers, section 3).
 export default function WhatItSLike() {
   return (

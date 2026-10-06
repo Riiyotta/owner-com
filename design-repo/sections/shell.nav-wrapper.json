@@ -8,14 +8,14 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 60,
-    "routes": 60,
+    "instances": 141,
+    "routes": 141,
     "measuredFrom": [
       "src/index.html:1939-2411",
       "src/accessibility/index.html:1775-2247",
-      "src/blog/index.html:1685-2157",
-      "src/blog-category/increase-sales/index.html:1541-2013",
-      "src/blog-category/industry-trends-data/index.html:1541-2013"
+      "src/ai-phone-ordering/index.html:1714-2185",
+      "src/automatic-marketing/index.html:1949-2421",
+      "src/blog/index.html:1685-2157"
     ]
   },
   "content": {
@@ -23,15 +23,15 @@
     "fields": {
       "body": {
         "type": "string[]",
-        "required": true,
-        "maxItems": 5,
-        "maxWords": 3
+        "required": false,
+        "maxItems": 12,
+        "maxWords": 13
       },
       "ctas": {
         "type": "cta[]",
-        "required": true,
-        "maxItems": 4,
-        "maxWords": 4
+        "required": false,
+        "maxItems": 11,
+        "maxWords": 13
       },
       "images": {
         "type": "image[]",
@@ -77,5 +77,45 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/sections/NavWrapper.jsx"
+  "implementedBy": "src/sections/NavWrapper2.jsx",
+  "implementedByAll": [
+    "src/sections/NavWrapper2.jsx",
+    "src/sections/NavWrapper37.jsx",
+    "src/sections/NavWrapper38.jsx",
+    "src/sections/NavWrapper.jsx",
+    "src/sections/NavWrapper10.jsx",
+    "src/sections/NavWrapper11.jsx",
+    "src/sections/NavWrapper12.jsx",
+    "src/sections/NavWrapper13.jsx",
+    "src/sections/NavWrapper14.jsx",
+    "src/sections/NavWrapper15.jsx",
+    "src/sections/NavWrapper16.jsx",
+    "src/sections/NavWrapper17.jsx",
+    "src/sections/NavWrapper18.jsx",
+    "src/sections/NavWrapper19.jsx",
+    "src/sections/NavWrapper20.jsx",
+    "src/sections/NavWrapper21.jsx",
+    "src/sections/NavWrapper22.jsx",
+    "src/sections/NavWrapper23.jsx",
+    "src/sections/NavWrapper24.jsx",
+    "src/sections/NavWrapper25.jsx",
+    "src/sections/NavWrapper26.jsx",
+    "src/sections/NavWrapper27.jsx",
+    "src/sections/NavWrapper28.jsx",
+    "src/sections/NavWrapper29.jsx",
+    "src/sections/NavWrapper3.jsx",
+    "src/sections/NavWrapper30.jsx",
+    "src/sections/NavWrapper31.jsx",
+    "src/sections/NavWrapper32.jsx",
+    "src/sections/NavWrapper33.jsx",
+    "src/sections/NavWrapper34.jsx",
+    "src/sections/NavWrapper35.jsx",
+    "src/sections/NavWrapper36.jsx",
+    "src/sections/NavWrapper4.jsx",
+    "src/sections/NavWrapper5.jsx",
+    "src/sections/NavWrapper6.jsx",
+    "src/sections/NavWrapper7.jsx",
+    "src/sections/NavWrapper8.jsx",
+    "src/sections/NavWrapper9.jsx"
+  ]
 }

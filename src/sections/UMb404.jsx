@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 // u-mb-40 — the section's real markup, read from the rendered page (route /d, section 15).
 export default function UMb404() {
   return (

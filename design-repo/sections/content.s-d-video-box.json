@@ -67,5 +67,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/SDVideoBox.jsx",
+  "implementedByAll": [
+    "src/sections/SDVideoBox.jsx"
+  ]
 }

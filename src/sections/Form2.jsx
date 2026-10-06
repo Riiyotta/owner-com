@@ -1,3 +1,4 @@
+// IA section(s): support.form (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // form — the section's real markup, read from the rendered page (route /ca/pricing, section 6).
@@ -35,24 +36,24 @@ export default function Form2() {
                       </defs>
                       <g clipPath="url(#__lottie_element_3)">
                         <g clipPath="url(#__lottie_element_22)" style={{ "display": "none" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "block" }} transform="matrix(0.6419235467910767,0,0,0.6419235467910767,100.11064147949219,99.64944458007812)" opacity="0.3615137630808076">
+                          <g style={{ "display": "block" }} transform="matrix(0.6688256859779358,0,0,0.6688256859779358,100.10233306884766,99.67578125)" opacity="0.3465449256482425">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.25382155179977417,0,0,0.25382155179977417,100.2305679321289,99.26949310302734)" opacity="0.2917864532762222">
+                          <g style={{ "display": "block" }} transform="matrix(0.2790391445159912,0,0,0.2790391445159912,100.2227783203125,99.29418182373047)" opacity="0.3114758058650768">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
                         </g>
                         <g clipPath="url(#__lottie_element_5)" style={{ "display": "block" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "block" }} transform="matrix(0.9149188995361328,0,0,0.9149188995361328,100.02629089355469,99.91670989990234)" opacity="0.11755840406424095">
+                          <g style={{ "display": "block" }} transform="matrix(0.7597888112068176,0,0,0.7597888112068176,100.07422637939453,99.76483917236328)" opacity="0.280448850082729">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.5805596113204956,0,0,0.5805596113204956,100.12960815429688,99.58937072753906)" opacity="0.38702031066786535">
+                          <g style={{ "display": "block" }} transform="matrix(0.3730980157852173,0,0,0.3730980157852173,100.19371032714844,99.38626861572266)" opacity="0.36889680961101745">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
@@ -143,32 +144,32 @@ export default function Form2() {
                         <label htmlFor="hear" className="body-s">How did you hear about us?</label>
                         <select id="hear" name="hear" data-name="hear" required className="form-input is-select w-select" style={{ "display": "none" }} defaultValue="">
                           <option value="">How did you hear about us?</option>
-                          <option value="My Subscription Addiction">My Subscription Addiction</option>
-                          <option value="Facebook">Facebook</option>
-                          <option value="ChatGPT / AI">ChatGPT / AI</option>
-                          <option value="Google">Google</option>
-                          <option value="Friend or colleague">Friend or colleague</option>
-                          <option value="TikTok">TikTok</option>
-                          <option value="Instagram">Instagram</option>
                           <option value="YouTube">YouTube</option>
-                          <option value="TV">TV</option>
                           <option value="Received Mail or Postcard">Received Mail or Postcard</option>
+                          <option value="ChatGPT / AI">ChatGPT / AI</option>
+                          <option value="Facebook">Facebook</option>
+                          <option value="TikTok">TikTok</option>
+                          <option value="Google">Google</option>
+                          <option value="TV">TV</option>
+                          <option value="Friend or colleague">Friend or colleague</option>
+                          <option value="My Subscription Addiction">My Subscription Addiction</option>
+                          <option value="Instagram">Instagram</option>
                           <option value="Other">Other</option>
                         </select>
                         <div className="nice-select form-input is-select w-select" tabIndex="0">
                           <span className="current">How did you hear about us?</span>
                           <ul className="list">
                             <li data-value="" className="option selected">How did you hear about us?</li>
-                            <li data-value="My Subscription Addiction" className="option">My Subscription Addiction</li>
-                            <li data-value="Facebook" className="option">Facebook</li>
-                            <li data-value="ChatGPT / AI" className="option">ChatGPT / AI</li>
-                            <li data-value="Google" className="option">Google</li>
-                            <li data-value="Friend or colleague" className="option">Friend or colleague</li>
-                            <li data-value="TikTok" className="option">TikTok</li>
-                            <li data-value="Instagram" className="option">Instagram</li>
                             <li data-value="YouTube" className="option">YouTube</li>
-                            <li data-value="TV" className="option">TV</li>
                             <li data-value="Received Mail or Postcard" className="option">Received Mail or Postcard</li>
+                            <li data-value="ChatGPT / AI" className="option">ChatGPT / AI</li>
+                            <li data-value="Facebook" className="option">Facebook</li>
+                            <li data-value="TikTok" className="option">TikTok</li>
+                            <li data-value="Google" className="option">Google</li>
+                            <li data-value="TV" className="option">TV</li>
+                            <li data-value="Friend or colleague" className="option">Friend or colleague</li>
+                            <li data-value="My Subscription Addiction" className="option">My Subscription Addiction</li>
+                            <li data-value="Instagram" className="option">Instagram</li>
                             <li data-value="Other" className="option">Other</li>
                           </ul>
                         </div>
@@ -187,7 +188,7 @@ export default function Form2() {
                         <label htmlFor="hear" className="body-s">Get scheduled fast:</label>
                         <label className="w-checkbox form-checkbox">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox-icon"></div>
-                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="body-s w-form-label" htmlFor="sms_opt_in">{"I agree to receive automated text messages from Owner.com at the number provided to schedule my demo and to hear about Owner.com products, updates, and offers. Consent is not required to get a demo. About 4 messages/month. Message & data rates may apply. Reply STOP to unsubscribe, HELP for help."}</span>
                         </label>
                         <div className="text-color-supermuted">

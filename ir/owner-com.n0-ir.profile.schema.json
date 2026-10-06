@@ -77,26 +77,29 @@
                 "enum": [
                   "template.home",
                   "template.group",
-                  "template.how-owner-works",
                   "template.group-2",
+                  "template.how-owner-works",
                   "template.group-3",
                   "template.delivery",
+                  "template.pos",
+                  "template.mobile",
                   "template.our-story",
                   "template.careers",
                   "template.leadership",
                   "template.builders-wanted",
                   "template.press",
                   "template.reviews",
+                  "template.partner-request",
                   "template.d",
                   "template.case-studies",
                   "template.blog",
                   "template.support",
                   "template.group-4",
                   "template.case-studies-2",
-                  "template.group-5",
-                  "template.blog-category",
                   "template.blog-2",
-                  "template.group-6"
+                  "template.reorders",
+                  "template.blog-category",
+                  "template.group-5"
                 ]
               }
             }

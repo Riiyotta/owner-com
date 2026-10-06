@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 10 Best POS Systems for Small  — the section's real markup, read from the rendered page (route /blog/best-pos-for-small-business, section 1).
@@ -1422,7 +1423,7 @@ export default function S10BestPOSSystems() {
                 <a fs-toc-element="link" href="#10-best-pos-systems-for-small-businesses" className="blog-content_column-link">10 Best POS Systems for Small Businesses</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#overview-of-the-features-of-the-best-pos-systems-for-small-businesses" className="blog-content_column-link w--current">{"Overview of the features of the best POS systems for small businesses "}</a>
+                <a fs-toc-element="link" href="#overview-of-the-features-of-the-best-pos-systems-for-small-businesses" className="blog-content_column-link">{"Overview of the features of the best POS systems for small businesses "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#1-square" className="blog-content_column-link">1. Square</a>

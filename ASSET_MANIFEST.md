@@ -60,9 +60,9 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 
 | Role | Files | Total size |
 |---|---|---|
-| content-image | 1653 | 102.9 MB |
-| hero-image | 645 | 117.9 MB |
-| icon | 163 | 8.1 MB |
+| content-image | 1756 | 108.3 MB |
+| hero-image | 610 | 113.0 MB |
+| icon | 164 | 7.7 MB |
 | background | 82 | 26.9 MB |
 | font | 55 | 4.3 MB |
 | logo | 51 | 0.5 MB |
@@ -70,8 +70,8 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 | video | 35 | 70.7 MB |
 | customer-logo | 10 | 0.0 MB |
 | animation | 4 | 0.2 MB |
+| illustration | 2 | 0.2 MB |
 | founder-contact-email | 2 | 0.0 MB |
-| illustration | 1 | 0.0 MB |
 
 ### video
 
@@ -117,6 +117,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c3ff933f608e3e77c74b87_cta-gradient-2.jpg` (3001 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes.png` (1951 KB) on `/press`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c40019d2fe028b7bdea685_4525db67b82b300410d38dde8a822002_stack-4-placeholder.jpg` (1629 KB)
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d3c23cf4e52ab3e1d10679_sms-marketing-top.jpg` (1618 KB) on `/email-sms-marketing`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f87de_Untitled (1280 x 1920 px).png` (1256 KB) on `/resources/menu-engineering`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252964a394899817ca229e_foods-packed-with-protein-mobile.jpg` (1182 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69f22602856cd337558a577c_angles-to-showcase-food-mobile.png` (1052 KB)
@@ -126,6 +127,8 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/6683e68978f66ab29d5d6382_64afecaef21f4711167557e6_64a1aed5008131df7322280e__MG_4993.jpeg` (842 KB) on `/press`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252c4b75334d346cea6ee4_sourdough-rising-mobile.jpg` (776 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69f22602615fb9af62a147d5_pronto-restaurant-mobile.png` (723 KB)
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d39dc42799b5f0acfe625f_ea9451ca8d1ff17d72a8efd883ca97ce_push-notification-large.png` (691 KB) on `/push-notifications`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d3990031f4f337a335e20d_online-order-phone.png` (689 KB) on `/online-ordering`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252d0a1e527afaa179104c_texture-is-everything-mobile.jpg` (681 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f864a_668c491d72ee4a732b1cecb9_jason-leung-poI7DelFiVA-unsplash.jpeg` (656 KB) on `/blog-category/industry-trends-data`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252a1494292c32a6f39e4a_seasonal-mocktails-mobile.jpg` (642 KB)
@@ -149,6 +152,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f863f_664f635ccdfbcb8c817b6015_menu-pricing-hero.jpeg` (411 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c1b0cbb221171e3688b0b5_9d2ed8dc67cecaec65de3aa58d465c3a_phone frame.webp` (403 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f87de_Untitled%20(1280%20x%201920%20px)-p-1080.png` (391 KB)
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d399f44a486f11b84ea453_catering-visual-large.png` (386 KB) on `/catering`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f816a_65c35483c27e3f11c1012672_Website-Builder.webp` (385 KB) on `/press`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a912ac74dc16f1c29e0b68f_og-image-m-seriesd.jpg` (379 KB)
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/672e776d3f657c18584cac37_owner-app-mobile.png` (376 KB)
@@ -169,11 +173,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/683527dd7f15cafe06a2c355_sumup-pos-mobile.png` (300 KB)
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e8e6254d6add0df29e8dfe_square-mobile.png` (300 KB)
 - `_ext/cdn.prod.website-files.com/6345c20d6b42a523ecf89891/6616c596d5f8cb2c7df6b885_example-of-a-good-and-bad-gbp-mobile.jpg` (298 KB)
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69f15cc43926f66b2c4a667b_ideal-food-percentage-changes-mobile.png` (294 KB)
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69d3e077d847fe4c62c6949e_jason-lemkin.jpg` (293 KB) on `/leadership`
-- `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/66bd12e191a106e51b5ec00f_design-a-well-structured-menu-mobile.jpg` (292 KB)
-- `_apps/grader/assets/grader/images/marketing/listings.png` (292 KB)
-- … and 1593 more (all listed in `design-repo/assets/asset-roles.json`)
+- … and 1696 more (all listed in `design-repo/assets/asset-roles.json`)
 
 ### background
 
@@ -187,7 +187,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d3fb9b865a7b7a6a7c99f3_branded-apps-2.jpg` (1103 KB) on `/branded-apps`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d395cdff8c3bb17ffd3ceb_be036b25c8c839c88dc5222e520628fc_online-menu-large_bg.jpg` (1093 KB) on `/online-menu`
 - `_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/6929dd6ebe1e841c4c4e7d95_owner-pattern-blue.png` (518 KB) on `/builders-wanted`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c3f525a3453c0d3ae135ee_84139454bafe16d9c253bf258b1f0928_product-cta_bg.avif` (409 KB) on `/pricing`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c3f525a3453c0d3ae135ee_84139454bafe16d9c253bf258b1f0928_product-cta_bg.avif` (409 KB) on `/privacy-policy`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69cbbba4f97666a6e816977b_d961bd3d071ed066d5b05b02a3db4f00_about_local-bg.avif` (344 KB) on `/our-story`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8379_52e6543d234bebbe4dfc02f25f30888e_see-why.avif` (291 KB) on `/ca/pricing`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c1abb2034d5fe05a10dc2a_dc5cd79dd360ef682eced16d1932dd49_cta-bg.avif` (254 KB) on `/`
@@ -244,7 +244,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6aa462ba5f73f6359c690172_owner-pos-system.png` (1926 KB) on `/blog/cafe-pos`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6aa41e3894f87dc8cb2ce259_ChowNow Alternatives Online Ordering.jpg` (1816 KB) on `/blog/online-ordering-system-for-restaurants`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252943dfa8048c543a56df_foods-packed-with-protein.jpg` (1781 KB) on `/blog/food-trends`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d3c23cf4e52ab3e1d10679_sms-marketing-top.jpg` (1618 KB) on `/email-sms-marketing`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252c1f7451023521d80afa_sourdough-rising.jpg` (1543 KB) on `/blog/food-trends`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69f225f699b47b77fa54e0e5_build-a-posting-schedule.png` (1475 KB) on `/blog/social-media-for-restaurants`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252cae3f891b97bc260c92_texture-is-everything.jpg` (1389 KB) on `/blog/food-trends`
@@ -264,8 +263,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8981_Website builder CTA (2).png` (705 KB) on `/blog/restaurant-management-software`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/66bd12d305ae5eb71599048a_design-a-well-structured-menu.jpg` (699 KB) on `/blog/how-to-increase-average-check-size`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68252aabf1053c759d5f2a89_mobile-first-ordering.jpg` (696 KB) on `/blog/food-trends`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d39dc42799b5f0acfe625f_ea9451ca8d1ff17d72a8efd883ca97ce_push-notification-large.png` (691 KB) on `/push-notifications`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d3990031f4f337a335e20d_online-order-phone.png` (689 KB) on `/online-ordering`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/672e77634b3faa4509705949_owner-app.png` (679 KB) on `/blog/restaurant-trends`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1f12f86ce2bf4917da0494_doordash-catering (1).png` (657 KB) on `/blog/catering-delivery-apps`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8646_668c491d72ee4a732b1cecb9_jason-leung-poI7DelFiVA-unsplash.jpeg` (656 KB) on `/blog/restaurant-failure-rate`
@@ -275,6 +272,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8968_AD_4nXcj41LKwedARckNwIRc42YhabYSTVJpCsYC82MVxn__i4VL2MCA4CH_KI02n1tG0kFsYyIBI_yJj5VZweVdvHuq1GCccojeqdPi0JyzpRpV3lo75VBX1MiDKX5n6CmNX8RO-Kv-.png` (566 KB) on `/blog/square-alternatives`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8966_AD_4nXcpssV5vya7Cl6Fzh8c1hfzUNm_fyY-RRBfqpjeWsRITZoItjmUdRwppqZiJHJ3uZfG-qWx1Uib2dGg3XU8z1whCDhi_v52GDRgBS0infm-78yz-grYQ3oNIOOCb4QbLCyUE7Fxyg.png` (552 KB) on `/blog/square-alternatives`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69e8e61b7746245e18f19879_square-desktop.png` (526 KB) on `/blog/best-apps-for-restaurant-owners`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8571_66893a0c4132d94__14d56cc2` (516 KB) on `/blog/instagram-for-restaurants`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69f15cbe5db92883c713e564_ideal-food-percentage-changes-desktop.png` (506 KB) on `/blog/food-cost-percentage`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8545_66893a085eab8cd__cc1667e3` (501 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1ecafe7f064c1be3a9b154_ezater.png` (489 KB) on `/blog/catering-delivery-apps`
@@ -291,7 +289,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8573_66893a0c4132d94__63b7f1e6` (410 KB) on `/blog/instagram-for-restaurants`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f87bd_restaurant-cost-hero.jpg` (395 KB) on `/blog/restaurant-costs`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8970_AD_4nXfcfjmkw730UYTA1KRa4qGh5Ry3Ag4EIYdJnBoRcP_D2ykaXqlERem8djOG7y4nRVQO4o9NokdpA6V0IzN3nUNVtUjxwyM9yV_hYAQwF5pmeQ4ANtlPqH6PzOfp0aIRBb16PTHaXw.png` (391 KB) on `/blog/cafe-pos`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d399f44a486f11b84ea453_catering-visual-large.png` (386 KB) on `/catering`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/68265b1a2252f8e1246fb876_toast-pricing-structure.png` (378 KB) on `/blog/toast-pricing`
 - `_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/683527110e5368e150894c41_shopify-pos.png` (378 KB) on `/blog/best-pos-for-small-business`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f892d_AD_4nXc_DABfy-yzPfw_ZXt7qnL5L0fPY0Yb4qar9KbcdNN3JmD4jKpOyLwR7Ilx8lPscbvrC22CvbAmxIsbacWLyQYJ1YETwm_1sNLqLvmU6h7qf2nrGVd6k2XGYtw3FSHV5nr_ZLCNkA.png` (373 KB) on `/blog/pizza-pos-system`
@@ -301,7 +298,10 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a31b56e5ae97cad8a110432_catering-delivery-apps-hero.jpg` (354 KB) on `/blog/catering-delivery-apps`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8540_66893a085eab8cd__f3e7987e` (350 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/6345c20d6b42a523ecf89891/667200965697eaa61de6f4d3_andpizza-simplify-website-desktop.jpg` (350 KB) on `/blog/best-pizza-websites`
-- … and 585 more (all listed in `design-repo/assets/asset-roles.json`)
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8965_AD_4nXd_QkumJs1EPd-Ev_0CrfVxMdIpvZ_hcMvpcujADxqr1gO5T_myjj-kqGKcXBELWlXuwYJn9ovNHDAFBD5niT48NbDz4Z_U3glunOKgRTdRGJSwVC-U-3V14XiemMsvur5Qdbta1g.png` (348 KB) on `/blog/square-alternatives`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f892f_AD_4nXclhtxzXRrRXhww4aAIvtI_zt8PR37HMhVlyY8e8lNgd7WlAcTKGEPP6j5H9kMbrnmmFYFRSVbVMVAE6hm-tWh3zozWPCzC9r2e9Df1_fuiK4fFa-BL9buWDSOmJ-OPzLn3YC-Wjg.png` (342 KB) on `/blog/pizza-pos-system`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f866f_66abc413674608b537dd084e_66abc3e704ff60a645e5f5ca_restaurant-failure-rate-data.png` (340 KB) on `/blog/restaurant-failure-rate`
+- … and 550 more (all listed in `design-repo/assets/asset-roles.json`)
 
 ### avatar
 
@@ -407,7 +407,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 
 ### icon
 
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8571_66893a0c4132d94__14d56cc2` (516 KB) on `/blog/instagram-for-restaurants`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8547_66893a085eab8cd__7ce218c7` (259 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6345f907fb771da83b9a2_noah-beddome.jpg` (250 KB) on `/careers`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6358474c5e7b58cb895f3_maria-paula-soto.jpg` (241 KB) on `/careers`
@@ -436,6 +435,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a8db80bc2e7ca86ce38724a_lauren-pollini.png` (158 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8548_66893a085eab8cde25bb1630_653031e3bebc7530bb6aca4d_57.-Pizza-Mailer.jpeg` (150 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f853c_66893a085eab8cd__a48dab39` (134 KB) on `/blog/pizza-advertising-ideas`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f853e_66893a085eab8cde25bb15da_653031e3bebc7530bb6aca08_53.-UGC-with-Credit.png` (131 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8537_66893a085eab8cd__17aeea63` (110 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f853d_66893a085eab8cde25bb15ec_653031e3bebc7530bb6ac9d4_61.-Meatload.jpeg` (105 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f853a_66893a085eab8cde25bb15e9_653031e3bebc7530bb6aca00_59.-Delivery-Mailer.png` (95 KB) on `/blog/pizza-advertising-ideas`
@@ -447,6 +447,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69d406cb08401ba1a0de397b_image (1).png` (69 KB) on `/careers`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90f4544bfdde2ec1460bf9_darrin-henein.png` (69 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8530_66893a085eab8cde25bb15ac_653031e3bebc7530bb6ac9ce_Stories-2-585x900.jpeg` (68 KB) on `/blog/pizza-advertising-ideas`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f852d_66893a085eab8cde25bb15a6_653031e3bebc7530bb6ac931_Stories-1-585x929.jpeg` (55 KB) on `/blog/pizza-advertising-ideas`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a8db7a2b2ab400131cefa99_alex-kurland-p-500.jpg` (47 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff95adb2cf93221e1204_tom-obrien.avif` (46 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a8db80bc80c93170b542244_jason-lemkin-p-500.jpg` (46 KB) on `/d`
@@ -457,7 +458,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c4411dd53384fd1a4b4d57_23711cf17574367edde9696a8cdac816_oaxaca_intro.webp` (40 KB) on `/pricing`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a8db86079478333f984a829_shalini-rao.jpg` (37 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a8db7a3b2ab400131cefb3f_jack-altman-p-500.jpg` (36 KB) on `/d`
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8512_66893a07763b960__c68b06d0` (36 KB) on `/blog/restaurant-growth`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff95b12e37b9735f33f6_anusha-rajan.avif` (33 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff956fd11bdfdad43852_alex-patin.avif` (32 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff95276b84d5c6add5b1_jay-gokhale.avif` (32 KB) on `/d`
@@ -467,7 +467,12 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff957bfc3d891468de49_danial-asif.avif` (27 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff951a7c662147218c65_frankie-liu.avif` (25 KB) on `/d`
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a90ff9528f5e3ad43ff1d8e_joel-baroody.avif` (22 KB) on `/d`
-- … and 103 more (all listed in `design-repo/assets/asset-roles.json`)
+- … and 104 more (all listed in `design-repo/assets/asset-roles.json`)
+
+### illustration
+
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a19e2247ed35ad36f0999bc_ai-phone-ui.svg` (144 KB) on `/ai-phone-ordering`
+- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a061826b35bd5d89362f221_demo-form-bg.svg` (22 KB)
 
 ### logo
 
@@ -530,10 +535,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69cb02f8d1f28349042378e7_Owner - animation 1.lottie` (16 KB)
 - `_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/68deb4c15433a76b75eb72ab_active-progress-point.lottie` (1 KB)
 
-### illustration
-
-- `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a061826b35bd5d89362f221_demo-form-bg.svg` (22 KB)
-
 ### customer-logo
 
 - `_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8661_Name=Mercury News.svg` (12 KB) on `/press`
@@ -566,7 +567,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 ## Embeds (live third-party frames and forms, not mirrored)
 
 - iframe on `/d`: https://www.linkedin.com/embed/feed/update/urn:li:share:7351086232258478080?collapsed=1
-- iframe on `/d`: https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=2049511461098262927&lang=en&maxWidth=1000px&origin=https%3A%2F%2Fwww.owner.com%2Fd&sessionId=3964eda14b887bb6c75239c09e50774c91f718b3&theme=light&widgetsVersion=6a3ad42b224df%3A1778106238597&width=550px
+- iframe on `/d`: https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&frame=false&hideCard=false&hideThread=false&id=2049511461098262927&lang=en&maxWidth=1000px&origin=https%3A%2F%2Fwww.owner.com%2Fd&sessionId=6ae649608294bf8e204928843040c6773d2c7886&theme=light&widgetsVersion=6a3ad42b224df%3A1778106238597&width=550px
 - iframe on `/d`: https://platform.twitter.com/widgets/widget_iframe.1227a5674072e080ffb1ba14ac0c1079.html?origin=https%3A%2F%2Fwww.owner.com
 - iframe on `/blog/restaurant-marketing`: https://www.youtube.com/embed/SDDrocdOOmw
 - iframe on `/blog/restaurant-marketing`: https://www.youtube.com/embed/-_BEThfVRgQ
@@ -581,10 +582,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - iframe on `/blog/restaurant-trends`: https://www.youtube.com/embed/T6pwRQQnN2E
 - iframe on `/blog/restaurant-menu-examples`: https://www.youtube.com/embed/OxjME_YsivU
 - iframe on `/blog/restaurant-failure-rate`: https://www.youtube.com/embed/OAGDylaxR0c
-- iframe on `/blog/restaurant-marketing-ideas`: https://www.youtube.com/embed/JymogwT3l78
 - iframe on `/blog/catering-marketing`: https://www.youtube.com/embed/FnOJZrX7sDg
-- iframe on `/blog/how-to-increase-restaurant-sales`: https://www.youtube.com/embed/cLH_wm80iVA
-- iframe on `/blog/how-to-increase-restaurant-sales`: https://www.youtube.com/embed/svryyE3-jM4
 - iframe on `/blog/restaurant-business-plan`: https://www.youtube.com/embed/unRjyl1SoEU
 - iframe on `/blog/menu-pricing`: https://www.youtube.com/embed/QtVfZuNuR5g
 - iframe on `/blog/how-to-increase-average-check-size`: https://www.youtube.com/embed/krMzKsCe18Y
@@ -594,3 +592,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - iframe on `/blog/pizza-advertising-ideas`: https://www.youtube.com/embed/aJnmvrx3W7k
 - iframe on `/blog/catering-delivery-apps`: https://www.youtube.com/embed/a3hijhlozio
 - iframe on `/blog/mobile-marketing-for-restaurants`: https://www.youtube.com/embed/oSIG9sQjSNw
+- iframe on `/blog/restaurant-marketing-ideas`: https://www.youtube.com/embed/JymogwT3l78
+- iframe on `/blog/how-to-increase-restaurant-sales`: https://www.youtube.com/embed/cLH_wm80iVA
+- iframe on `/blog/how-to-increase-restaurant-sales`: https://www.youtube.com/embed/svryyE3-jM4

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Perfectly consistent listings. — the section's real markup, read from the rendered page (route /listings-management, section 2).
 export default function PerfectlyConsistentListings() {
   return (

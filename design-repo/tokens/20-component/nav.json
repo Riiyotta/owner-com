@@ -1,9 +1,9 @@
 {
-  "$description": "Component tokens for nav: the most common measured style (64 instances). Values in {braces} reference semantic/foundation tokens.",
+  "$description": "Component tokens for nav: the most common measured style (139 instances). Values in {braces} reference semantic/foundation tokens.",
   "component": "nav",
   "tokens": {
     "background": {
-      "$value": "{color.neutral.11}"
+      "$value": "{text.inverse}"
     },
     "color": {
       "$value": "{text.primary}"

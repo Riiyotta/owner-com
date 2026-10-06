@@ -1,3 +1,4 @@
+// IA section(s): proof.section-beliefs (ia/ia.json, design-repo/sections/)
 // 3 beliefs that guide our compa — the section's real markup, read from the rendered page (route /, section 7).
 export default function S3BeliefsThatGuide() {
   return (

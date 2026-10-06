@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Tech Stack Guide: 9 — the section's real markup, read from the rendered page (route /blog/restaurant-tech-stack, section 1).
@@ -632,7 +633,7 @@ export default function RestaurantTechStackGuide() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#what-is-a-restaurant-tech-stack" className="blog-content_column-link w--current">What is a restaurant tech stack?</a>
+                <a fs-toc-element="link" href="#what-is-a-restaurant-tech-stack" className="blog-content_column-link">What is a restaurant tech stack?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#the-core-elements-of-your-restaurant-tech-stack" className="blog-content_column-link">The core elements of your restaurant tech stack</a>

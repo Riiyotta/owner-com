@@ -1,3 +1,4 @@
+// IA section(s): hero.section-demo (ia/ia.json, design-repo/sections/)
 // See the #1 rated restaurant ma — the section's real markup, read from the rendered page (route /partner-request, section 1).
 export default function SeeThe1Rated() {
   return (

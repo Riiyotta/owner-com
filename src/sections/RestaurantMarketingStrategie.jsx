@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Marketing Strategie — the section's real markup, read from the rendered page (route /blog/restaurant-marketing, section 1).
@@ -1274,7 +1275,7 @@ export default function RestaurantMarketingStrategie() {
                 <a fs-toc-element="link" href="#what-is-restaurant-marketing" className="blog-content_column-link">What is Restaurant Marketing?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#why-do-you-need-a-restaurant-marketing-strategy" className="blog-content_column-link w--current">Why do you need a restaurant marketing strategy?</a>
+                <a fs-toc-element="link" href="#why-do-you-need-a-restaurant-marketing-strategy" className="blog-content_column-link">Why do you need a restaurant marketing strategy?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#what-todo-before-building-a-restaurant-marketing-strategy" className="blog-content_column-link">What todo before building a restaurant marketing strategy</a>

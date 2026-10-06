@@ -7,7 +7,7 @@
     },
     "css-transition": {
       "description": "A CSS transition on hover/focus/state change.",
-      "observedSections": 383
+      "observedSections": 655
     },
     "css-animation": {
       "description": "A CSS @keyframes animation.",
@@ -19,7 +19,7 @@
     },
     "scroll-linked": {
       "description": "Sticky or scroll-pinned behaviour tied to scroll position.",
-      "observedSections": 157
+      "observedSections": 221
     },
     "canvas-animation": {
       "description": "A <canvas>-rendered animation (Rive, Lottie or WebGL).",

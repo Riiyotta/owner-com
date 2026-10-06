@@ -31,6 +31,16 @@ REPO = os.path.dirname(HERE)
 PKG = os.path.dirname(REPO)
 MIRROR = PKG  # resolved for real at the top of main(), from measured-values.json's sourceProject.snapshotFolder
 errs, warns = [], []
+NOT_SHIPPED = False  # set when the evidence tree is absent because the package's .gitignore leaves it out (a published copy)
+
+
+def gitignored(rel):
+    """True when the package's own .gitignore excludes rel or one of its parent folders (plain folder patterns only)."""
+    gi = os.path.join(PKG, ".gitignore")
+    if not os.path.isfile(gi): return False
+    pats = {l.strip().strip("/") for l in open(gi, encoding="utf-8") if l.strip() and not l.lstrip().startswith("#")}
+    parts = rel.strip("/").split("/")
+    return any("/".join(parts[:i]) in pats for i in range(1, len(parts) + 1))
 # Pinned generation policies. Kept HERE, independent of assets/asset-roles.json, so that changing a
 # role in the registry to a different-but-still-valid policy is caught (membership alone is not enough).
 PINNED = {"logo": "must-reuse-exact", "customer-logo": "must-not-fabricate", "avatar": "must-not-fabricate",
@@ -91,7 +101,16 @@ def main():
     snap = ledger.get("sourceProject", {}).get("snapshotFolder")
     if snap:
         mirror = os.path.normpath(os.path.join(PKG, snap, ".."))
-        if not os.path.isdir(mirror): errs.append(f"measured-values.json declares sourceProject.snapshotFolder '{snap}' but {os.path.relpath(mirror, PKG)}/ does not exist")
+        if not os.path.isdir(mirror):
+            # A published copy of a package (a git clone of it) deliberately leaves the evidence out: recon/ is gigabytes and the
+            # package's own .gitignore excludes it. That is not a misplaced evidence tree, so it is reported, not failed, but ONLY for
+            # the standard location: any other declared folder that is missing (a typo, a moved tree) still fails outright.
+            global NOT_SHIPPED
+            if os.path.normpath(snap) == os.path.normpath("recon/mirror/src") and gitignored("recon/mirror/src"):
+                NOT_SHIPPED = True
+                warns.append("evidence not shipped with this copy (recon/ is in .gitignore): citations and asset files are not checked here; run verify_all.py where recon/mirror/ exists to admit fully")
+            else:
+                errs.append(f"measured-values.json declares sourceProject.snapshotFolder '{snap}' but {os.path.relpath(mirror, PKG)}/ does not exist")
     else:
         mirror = os.path.join(PKG, "recon", "mirror") if os.path.isdir(os.path.join(PKG, "recon", "mirror")) else PKG
     global MIRROR
@@ -209,7 +228,10 @@ def main():
     for rid, key in (("SHELL_MUST_BE_FIRST", "mustBeFirst"), ("SHELL_MUST_BE_LAST", "mustBeLast"), ("NO_CONSECUTIVE_SAME_SECTION", "noConsecutive")):
         if sorted(rules.get(rid, {}).get("sections", [])) != sorted(s for s, c in secs.items() if c["constraints"].get(key)):
             errs.append(f"graph {rid} disagrees with the section contracts' {key}")
-    hero_ex = sorted(t["id"] for t in templates if sum(1 for n in t["nodes"] if secs.get(n["section"], {}).get("category") == "HERO") > 1)
+    # a repeatable node (consecutive duplicates collapsed by the model into one {repeatable, maxCount}) represents
+    # maxCount instances of that section, not one — a template with hero.main, hero.main collapses to a single
+    # node but still puts two HERO sections on the page, so it must count as 2 here too, not 1.
+    hero_ex = sorted(t["id"] for t in templates if sum((n.get("maxCount") or 1) if n.get("repeatable") else 1 for n in t["nodes"] if secs.get(n["section"], {}).get("category") == "HERO") > 1)
     if sorted(rules.get("ONE_HERO_PER_PAGE", {}).get("exceptions", [])) != hero_ex:
         errs.append(f"graph ONE_HERO_PER_PAGE exceptions {rules.get('ONE_HERO_PER_PAGE', {}).get('exceptions')} but templates give {hero_ex}")
 
@@ -360,7 +382,10 @@ def finish():
     for w in warns: print("WARN:", w)
     if errs:
         print("REPO NOT ADMITTED:"); [print("  -", e) for e in errs]; sys.exit(1)
-    print("REPO OK — structure, entryPoints, versions, counts, parity, templates, graph, citations, tokens, pinned assets, motion, paths, schema and adversarial suite all pass.")
+    if NOT_SHIPPED:
+        print("REPO OK (evidence not shipped with this copy: citations and asset files not checked) — structure, entryPoints, versions, counts, parity, templates, graph, tokens, pinned assets, motion, paths, schema and adversarial suite all pass.")
+    else:
+        print("REPO OK — structure, entryPoints, versions, counts, parity, templates, graph, citations, tokens, pinned assets, motion, paths, schema and adversarial suite all pass.")
     sys.exit(0)
 
 

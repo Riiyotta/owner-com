@@ -1,6 +1,7 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// section — the section's real markup, read from the rendered page (route /how-owner-works, section 4).
+// section — the section's real markup, read from the rendered page (route /privacy-policy, section 3).
 export default function Section2() {
   return (
     <section data-section-overlap="" className="section-footer" data-clone-section="Section2">
@@ -18,7 +19,7 @@ export default function Section2() {
               <a data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
               </a>
-              <A data-button-instance="" href="/how-owner-works" aria-current="page" className="btn w-inline-block w--current is-secondary">
+              <A data-button-instance="" href="/how-owner-works" className="btn w-inline-block is-secondary">
                 <div data-button-text="" className="btn-text">See how it works</div>
               </A>
             </div>
@@ -207,7 +208,7 @@ export default function Section2() {
                 </div>
               </li>
               <li>
-                <A href="/privacy-policy" className="footer-bottom_link">Privacy</A>
+                <A href="/privacy-policy" aria-current="page" className="footer-bottom_link w--current">Privacy</A>
               </li>
               <li>
                 <A href="/website-terms" className="footer-bottom_link">Website Terms</A>

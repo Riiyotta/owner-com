@@ -1,3 +1,4 @@
+// IA section(s): content.section-blog-most (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Most Recent — the section's real markup, read from the rendered page (route /blog, section 2).

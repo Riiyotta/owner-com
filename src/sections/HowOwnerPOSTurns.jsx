@@ -1,3 +1,4 @@
+// IA section(s): features.section-pos-steps (ia/ia.json, design-repo/sections/)
 // How Owner POS turns one visit  — the section's real markup, read from the rendered page (route /pos, section 2).
 export default function HowOwnerPOSTurns() {
   return (

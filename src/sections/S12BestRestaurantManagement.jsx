@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 12 Best Restaurant Management  — the section's real markup, read from the rendered page (route /blog/restaurant-management-software, section 1).
@@ -1296,7 +1297,7 @@ export default function S12BestRestaurantManagement() {
                 <a fs-toc-element="link" href="#best-restaurant-management-software-overview" className="blog-content_column-link">Best restaurant management software overview</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-ownercom" className="blog-content_column-link w--current">{"1. Owner.com "}</a>
+                <a fs-toc-element="link" href="#1-ownercom" className="blog-content_column-link">{"1. Owner.com "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-bentobox" className="blog-content_column-link">{"2. Bentobox "}</a>

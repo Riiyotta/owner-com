@@ -1,3 +1,4 @@
+// IA section(s): content.section-s-d-the-problem (ia/ia.json, design-repo/sections/)
 // Technology has been weaponized — the section's real markup, read from the rendered page (route /d, section 7).
 export default function TechnologyHasBeenWeaponized() {
   return (

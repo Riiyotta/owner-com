@@ -1,3 +1,4 @@
+// IA section(s): content.section-s-d-competition (ia/ia.json, design-repo/sections/)
 // Owner has two clear, enduring  — the section's real markup, read from the rendered page (route /d, section 19).
 export default function OwnerHasTwoClear() {
   return (

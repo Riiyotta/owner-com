@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper24 from "../sections/NavWrapper24.jsx";
+import NavWrapper25 from "../sections/NavWrapper25.jsx";
 import ProtectTheFutureOf from "../sections/ProtectTheFutureOf.jsx";
 import BgColorBglighter2 from "../sections/BgColorBglighter2.jsx";
 import WhatItSLike from "../sections/WhatItSLike.jsx";
@@ -9,11 +9,11 @@ import SeeIfOurValues from "../sections/SeeIfOurValues.jsx";
 import WeReBackedBy from "../sections/WeReBackedBy.jsx";
 import Roles from "../sections/Roles.jsx";
 import TheEasiestWayTo6 from "../sections/TheEasiestWayTo6.jsx";
-import Section24 from "../sections/Section24.jsx";
+import Section25 from "../sections/Section25.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
-import css3 from "../styles/inline-20.css?inline"; // only this page loads it
+import css3 from "../styles/inline-22.css?inline"; // only this page loads it
 import css4 from "../styles/inline-04.css?inline"; // only this page loads it
 import css5 from "../styles/inline-05.css?inline"; // only this page loads it
 import css6 from "../styles/inline-06.css?inline"; // only this page loads it
@@ -58,7 +58,7 @@ export default function Careers() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper24 />
+      <NavWrapper25 />
       <main className="main-wrapper">
         <ProtectTheFutureOf />
         <BgColorBglighter2 />
@@ -69,7 +69,7 @@ export default function Careers() {
         <Roles />
         <TheEasiestWayTo6 />
       </main>
-      <Section24 />
+      <Section25 />
     </div>
     </>
   );

@@ -1,3 +1,4 @@
+// IA section(s): hero.eng-section-eng-hero (ia/ia.json, design-repo/sections/)
 // eng-section_eng-hero — the section's real markup, read from the rendered page (route /builders-wanted, section 0).
 export default function EngSectionEngHero() {
   return (
@@ -41,7 +42,7 @@ export default function EngSectionEngHero() {
       </div>
       <div className="eng-hero_bg">
         <div className="eng-lp_lottie hide-mobile-landscape">
-          <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373b8114a3d63090f98d39_LM%20-%20Animation%201_Hero%20Desktop_poster.0000000.jpg" data-video-urls="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830b_LM%20-%20Animation%201_Hero%20Desktop_mp4.mp4,/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830b_LM%20-%20Animation%201_Hero%20Desktop_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="img-cover w-background-video w-background-video-atom">
+          <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373b8114a3d63090f98d39_LM%20-%20Animation%201_Hero%20Desktop_poster.0000000.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="img-cover w-background-video w-background-video-atom">
             <video id="5f2ea025-4bac-2b46-c963-31e2c5cf5b89-video" autoPlay loop style={{ "backgroundImage": "url(\"/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373b8114a3d63090f98d39_LM%20-%20Animation%201_Hero%20Desktop_poster.0000000.jpg\")" }} muted playsInline data-wf-ignore="true" data-object-fit="cover">
               <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830b_LM%20-%20Animation%201_Hero%20Desktop_mp4.mp4" data-wf-ignore="true" />
               <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830b_LM%20-%20Animation%201_Hero%20Desktop_webm.webm" data-wf-ignore="true" />
@@ -49,7 +50,7 @@ export default function EngSectionEngHero() {
           </div>
         </div>
         <div className="eng-lp_lottie show-mobile-landscape">
-          <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373ba1eed34fe55388ff83_LM%20-%20Animation%201_Hero%20Mobile_1_poster.0000000.jpg" data-video-urls="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830d_LM%20-%20Animation%201_Hero%20Mobile_1_mp4.mp4,/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830d_LM%20-%20Animation%201_Hero%20Mobile_1_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="img-cover w-background-video w-background-video-atom">
+          <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373ba1eed34fe55388ff83_LM%20-%20Animation%201_Hero%20Mobile_1_poster.0000000.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="img-cover w-background-video w-background-video-atom">
             <video id="dd9b19ea-17c9-9c21-3bd7-70e7eae90d16-video" autoPlay loop style={{ "backgroundImage": "url(\"/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/69373ba1eed34fe55388ff83_LM%20-%20Animation%201_Hero%20Mobile_1_poster.0000000.jpg\")" }} muted playsInline data-wf-ignore="true" data-object-fit="cover">
               <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830d_LM%20-%20Animation%201_Hero%20Mobile_1_mp4.mp4" data-wf-ignore="true" />
               <source src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f830d_LM%20-%20Animation%201_Hero%20Mobile_1_webm.webm" data-wf-ignore="true" />

@@ -74,6 +74,47 @@
     {
       "id": "template.group",
       "name": "Group",
+      "routeCount": 7,
+      "chrome": "full",
+      "routes": [
+        "/privacy-policy",
+        "/website-terms",
+        "/disclaimer",
+        "/restaurant-participation-agreement",
+        "/platform-terms",
+        "/accessibility",
+        "/copyright-policy"
+      ],
+      "nodes": [
+        {
+          "section": "shell.nav-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-legal",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-2",
+      "name": "Group",
       "routeCount": 2,
       "chrome": "full",
       "routes": [
@@ -173,15 +214,28 @@
       }
     },
     {
-      "id": "template.group-2",
+      "id": "template.group-3",
       "name": "Group",
-      "routeCount": 4,
+      "routeCount": 17,
       "chrome": "full",
       "routes": [
         "/restaurant-website-ai",
         "/restaurant-seo",
         "/online-menu",
-        "/listings-management"
+        "/reviews-engine",
+        "/listings-management",
+        "/online-ordering",
+        "/smart-upsells",
+        "/catering",
+        "/ai-phone-ordering",
+        "/branded-apps",
+        "/automatic-marketing",
+        "/push-notifications",
+        "/loyalty-rewards",
+        "/reporting-analytics",
+        "/kitchen-tablet",
+        "/pos-integrations",
+        "/email-sms-marketing"
       ],
       "nodes": [
         {
@@ -212,106 +266,6 @@
         },
         {
           "section": "shell.section-footer",
-          "required": true,
-          "repeatable": false
-        }
-      ],
-      "evidence": {
-        "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
-      }
-    },
-    {
-      "id": "template.group-3",
-      "name": "Group",
-      "routeCount": 81,
-      "chrome": "none",
-      "routes": [
-        "/reviews-engine",
-        "/online-ordering",
-        "/smart-upsells",
-        "/catering",
-        "/ai-phone-ordering",
-        "/pos",
-        "/branded-apps",
-        "/automatic-marketing",
-        "/push-notifications",
-        "/loyalty-rewards",
-        "/mobile",
-        "/reporting-analytics",
-        "/kitchen-tablet",
-        "/pos-integrations",
-        "/partner-request",
-        "/email-sms-marketing",
-        "/blog/seo-for-restaurants",
-        "/blog/how-to-create-a-restaurant-website",
-        "/blog/restaurant-marketing",
-        "/blog/email-marketing-for-restaurants",
-        "/blog/mobile-app-for-restaurants",
-        "/blog/online-ordering-system-for-restaurants",
-        "/blog/local-seo-for-restaurants",
-        "/blog/website-builders-for-restaurants",
-        "/blog/restaurant-mobile-app",
-        "/reorders",
-        "/blog/restaurant-promotion-ideas",
-        "/blog/best-pos-system-for-restaurants",
-        "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
-        "/blog/restaurant-loyalty-programs",
-        "/blog/97-best-pizza-captions-for-instagram",
-        "/blog/best-restaurant-websites",
-        "/blog/best-pizza-websites",
-        "/blog/restaurant-trends",
-        "/blog/restaurant-menu-examples",
-        "/blog/restaurant-marketing-ideas",
-        "/blog/food-delivery-statistics",
-        "/blog/restaurant-website-design",
-        "/blog/how-to-make-a-menu",
-        "/blog/restaurant-description",
-        "/blog/social-media-for-restaurants",
-        "/blog/menu-pricing",
-        "/blog/how-to-increase-average-check-size",
-        "/blog/digital-marketing-for-restaurants",
-        "/blog/how-to-create-a-restaurant-marketing-plan",
-        "/blog/sms-marketing-for-restaurants",
-        "/blog/instagram-for-restaurants",
-        "/blog/restaurant-customer-retention",
-        "/blog/restaurant-analytics",
-        "/blog/average-restaurant-profit-margin",
-        "/blog/restaurant-marketing-tools",
-        "/blog/restaurant-accounting",
-        "/blog/restaurant-growth",
-        "/blog/how-to-create-online-ordering-restaurant",
-        "/blog/cafe-pos",
-        "/blog/catering-delivery-apps",
-        "/blog/restaurant-management-software",
-        "/blog/best-pos-for-small-business",
-        "/blog/restaurant-pos-system-cost",
-        "/blog/pizza-pos-system",
-        "/blog/square-alternatives",
-        "/blog/best-restaurant-crms",
-        "/blog/restaurant-tech-stack",
-        "/blog/menu-engineering",
-        "/blog/restaurant-branding-more-direct-orders",
-        "/blog/food-cost-percentage",
-        "/blog/food-trends",
-        "/blog/third-party-vs-direct-ordering",
-        "/blog/restaurant-prime-cost",
-        "/blog/mobile-marketing-for-restaurants",
-        "/blog/best-apps-for-restaurant-owners",
-        "/blog/pos-restaurant-meaning",
-        "/blog/square-pos-system-cost",
-        "/blog/toast-pricing",
-        "/blog/pizza-marketing-strategy",
-        "/blog/97-best-burger-captions-for-instagram",
-        "/blog/97-best-restaurant-captions-for-instagram",
-        "/blog/pos-reporting",
-        "/blog/toast-vs-square",
-        "/blog/toast-vs-clover",
-        "/blog/97-best-taco-captions-for-instagram"
-      ],
-      "nodes": [
-        {
-          "section": "hero.page-wrapper",
           "required": true,
           "repeatable": false
         }
@@ -353,6 +307,106 @@
         },
         {
           "section": "content.section-guides",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.pos",
+      "name": "Pos",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/pos"
+      ],
+      "nodes": [
+        {
+          "section": "shell.nav-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-product-v-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.section-pos-steps",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.section-leaders-support",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-beliefs",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.section-cta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.mobile",
+      "name": "Mobile",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/mobile"
+      ],
+      "nodes": [
+        {
+          "section": "shell.nav-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-product-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
           "required": true,
           "repeatable": false
         },
@@ -692,6 +746,31 @@
       }
     },
     {
+      "id": "template.partner-request",
+      "name": "Partner request",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/partner-request"
+      ],
+      "nodes": [
+        {
+          "section": "shell.nav-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-demo",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
       "id": "template.d",
       "name": "D",
       "routeCount": 1,
@@ -741,7 +820,7 @@
           "repeatable": false
         },
         {
-          "section": "content.u-mb-64",
+          "section": "content.block",
           "required": true,
           "repeatable": true,
           "maxCount": 2
@@ -752,20 +831,10 @@
           "repeatable": false
         },
         {
-          "section": "content.u-mb-64",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.u-mb-40",
+          "section": "content.block",
           "required": true,
           "repeatable": true,
-          "maxCount": 4
-        },
-        {
-          "section": "content.u-mb-64",
-          "required": true,
-          "repeatable": false
+          "maxCount": 6
         },
         {
           "section": "content.section-s-d-future",
@@ -1003,18 +1072,53 @@
       }
     },
     {
-      "id": "template.group-5",
-      "name": "Group",
-      "routeCount": 7,
+      "id": "template.blog-2",
+      "name": "Blog pages",
+      "routeCount": 72,
+      "chrome": "full",
+      "routePattern": "/blog/{slug}/",
+      "routes": [
+        "/blog/seo-for-restaurants",
+        "/blog/how-to-create-a-restaurant-website",
+        "/blog/restaurant-marketing",
+        "/blog/email-marketing-for-restaurants",
+        "/blog/mobile-app-for-restaurants"
+      ],
+      "routesTruncated": true,
+      "nodes": [
+        {
+          "section": "shell.nav-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.section-blog-content",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.section-footer",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.reorders",
+      "name": "Reorders",
+      "routeCount": 1,
       "chrome": "full",
       "routes": [
-        "/privacy-policy",
-        "/website-terms",
-        "/disclaimer",
-        "/restaurant-participation-agreement",
-        "/platform-terms",
-        "/accessibility",
-        "/copyright-policy"
+        "/reorders"
       ],
       "nodes": [
         {
@@ -1023,7 +1127,28 @@
           "repeatable": false
         },
         {
-          "section": "hero.section-legal",
+          "section": "hero.section-product-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
+          "section": "proof.section-reviews",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.section-base",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.section-testimonials",
           "required": true,
           "repeatable": false
         },
@@ -1088,49 +1213,7 @@
       }
     },
     {
-      "id": "template.blog-2",
-      "name": "Blog pages",
-      "routeCount": 8,
-      "chrome": "full",
-      "routes": [
-        "/blog/restaurant-costs",
-        "/blog/restaurant-failure-rate",
-        "/blog/catering-marketing",
-        "/blog/how-to-increase-restaurant-sales",
-        "/blog/restaurant-business-plan",
-        "/blog/toast-competitors",
-        "/blog/pizza-advertising-ideas",
-        "/blog/restaurant-growth-secrets-guides"
-      ],
-      "nodes": [
-        {
-          "section": "shell.nav-wrapper",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "hero.section-blog-content",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.section-base",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.section-footer",
-          "required": true,
-          "repeatable": false
-        }
-      ],
-      "evidence": {
-        "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
-      }
-    },
-    {
-      "id": "template.group-6",
+      "id": "template.group-5",
       "name": "Group",
       "routeCount": 4,
       "chrome": "full",

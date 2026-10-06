@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Mobile Marketing for Restauran — the section's real markup, read from the rendered page (route /blog/mobile-marketing-for-restaurants, section 1).
@@ -610,7 +611,7 @@ export default function MobileMarketingForRestauran() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#get-found-by-customers" className="blog-content_column-link w--current">{"Get found by customers "}</a>
+                <a fs-toc-element="link" href="#get-found-by-customers" className="blog-content_column-link">{"Get found by customers "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#get-more-orders-on-mobile" className="blog-content_column-link">{"Get more orders on mobile "}</a>

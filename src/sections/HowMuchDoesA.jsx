@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How Much Does a Restaurant POS — the section's real markup, read from the rendered page (route /blog/restaurant-pos-system-cost, section 1).
@@ -823,7 +824,7 @@ export default function HowMuchDoesA() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#types-of-restaurant-pos-systems" className="blog-content_column-link w--current">{"Types of restaurant POS systems "}</a>
+                <a fs-toc-element="link" href="#types-of-restaurant-pos-systems" className="blog-content_column-link">{"Types of restaurant POS systems "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#what-to-expect-to-pay-with-a-restaurant-pos-system" className="blog-content_column-link">What to expect to pay with a restaurant POS system</a>

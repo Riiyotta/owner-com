@@ -51,5 +51,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/EngMaxwdith.jsx"
+  "implementedBy": "src/sections/EngMaxwdith.jsx",
+  "implementedByAll": [
+    "src/sections/EngMaxwdith.jsx"
+  ]
 }

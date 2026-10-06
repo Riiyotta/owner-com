@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Website Design: 6 T — the section's real markup, read from the rendered page (route /blog/restaurant-website-design, section 1).
@@ -925,7 +926,7 @@ export default function RestaurantWebsiteDesign6() {
                 <a fs-toc-element="link" href="#6-things-to-include-in-your-restaurant-website-design" className="blog-content_column-link">6 Things to Include in your Restaurant Website Design</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#takeaway-1-google-search-is-the-1-way-guests-discover-restaurants" className="blog-content_column-link w--current">Takeaway #1: Google search is the #1 way guests discover restaurants</a>
+                <a fs-toc-element="link" href="#takeaway-1-google-search-is-the-1-way-guests-discover-restaurants" className="blog-content_column-link">Takeaway #1: Google search is the #1 way guests discover restaurants</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#takeaway-2-91percent-of-guests-visit-your-restaurants-website-before-ordering-takeout-or-delivery" className="blog-content_column-link">Takeaway #2: 91% of guests visit your restaurant’s website before ordering takeout or delivery</a>

@@ -1,3 +1,4 @@
+// IA section(s): hero.cs-index-head (ia/ia.json, design-repo/sections/)
 // cs-index_head — the section's real markup, read from the rendered page (route /case-studies, section 1).
 export default function CsIndexHead() {
   return (

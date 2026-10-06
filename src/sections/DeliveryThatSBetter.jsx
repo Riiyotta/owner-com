@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Delivery that's better for you — the section's real markup, read from the rendered page (route /delivery, section 2).
 export default function DeliveryThatSBetter() {
   return (

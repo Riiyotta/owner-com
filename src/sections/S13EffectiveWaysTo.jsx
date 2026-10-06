@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 13 Effective Ways to Increase  — the section's real markup, read from the rendered page (route /blog/how-to-increase-average-check-size, section 1).
@@ -709,7 +710,7 @@ export default function S13EffectiveWaysTo() {
                 <a fs-toc-element="link" href="#how-to-calculate-average-check-size" className="blog-content_column-link">How to calculate average check size</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#why-increasing-your-average-check-size-matters" className="blog-content_column-link w--current">{"Why increasing your average check size matters "}</a>
+                <a fs-toc-element="link" href="#why-increasing-your-average-check-size-matters" className="blog-content_column-link">{"Why increasing your average check size matters "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#boost-profits-with-upsells-and-cross-sells" className="blog-content_column-link">{"Boost profits with upsells and cross-sells "}</a>

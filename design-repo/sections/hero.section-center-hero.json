@@ -66,5 +66,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/HowOwnerWorks.jsx"
+  "implementedBy": "src/sections/YouCouldBeGetting.jsx",
+  "implementedByAll": [
+    "src/sections/YouCouldBeGetting.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // bg-color-taupe — the section's real markup, read from the rendered page (route /smart-upsells, section 3).
 export default function BgColorTaupe7() {
   return (

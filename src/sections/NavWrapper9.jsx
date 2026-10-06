@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /online-ordering, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /listings-management, section 0).
 export default function NavWrapper9() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper9">
@@ -105,7 +106,7 @@ export default function NavWrapper9() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/listings-management" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/listings-management" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M14.75 10C14.75 11.5188 13.5188 12.75 12 12.75C10.4812 12.75 9.25 11.5188 9.25 10C9.25 8.48122 10.4812 7.25 12 7.25C13.5188 7.25 14.75 8.48122 14.75 10Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinejoin="round" />
                             <path d="M19.25 10C19.25 14.1772 15.8227 17.996 13.681 19.9746C12.7191 20.8633 11.2809 20.8633 10.319 19.9746C8.17726 17.996 4.75 14.1772 4.75 10C4.75 5.99594 7.99594 2.75 12 2.75C16.0041 2.75 19.25 5.99594 19.25 10Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinejoin="round" />
@@ -121,7 +122,7 @@ export default function NavWrapper9() {
                     </div>
                     <ul role="list" className="nav-menu_link-list">
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/online-ordering" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/online-ordering" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M15.2448 7.75V6C15.2448 4.20507 13.7897 2.75 11.9948 2.75C10.1999 2.75 8.74478 4.20507 8.74478 6V7.75M12.2448 21.25H6.56291C5.34163 21.25 4.40552 20.165 4.5845 18.9569L5.99191 9.4569C6.13719 8.47624 6.97894 7.75 7.9703 7.75H16.0192C17.0106 7.75 17.8524 8.47624 17.9977 9.4569L18.5226 13M18.2448 16.25V19.25M18.2448 19.25V22.25M18.2448 19.25H15.2448M18.2448 19.25H21.2448" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>

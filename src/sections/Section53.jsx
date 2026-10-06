@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // section — the section's real markup, read from the rendered page (route /case-studies/goi-cuon, section 4).
 export default function Section53() {
   return (

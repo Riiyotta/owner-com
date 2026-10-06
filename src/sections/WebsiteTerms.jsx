@@ -1,3 +1,4 @@
+// IA section(s): hero.section-legal (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Website Terms — the section's real markup, read from the rendered page (route /website-terms, section 1).

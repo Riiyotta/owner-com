@@ -1,3 +1,4 @@
+// IA section(s): shell.section-footer (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // section — the section's real markup, read from the rendered page (route /blog/restaurant-marketing, section 3).

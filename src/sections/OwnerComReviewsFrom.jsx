@@ -1,3 +1,4 @@
+// IA section(s): hero.section-reviews-hero (ia/ia.json, design-repo/sections/)
 // Owner.com Reviews from Restaur — the section's real markup, read from the rendered page (route /reviews, section 1).
 export default function OwnerComReviewsFrom() {
   return (

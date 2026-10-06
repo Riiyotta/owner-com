@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /pos-integrations, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /kitchen-tablet, section 0).
 export default function NavWrapper22() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper22">
@@ -246,7 +247,7 @@ export default function NavWrapper22() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/kitchen-tablet" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/kitchen-tablet" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M4.75 4.75C4.75 3.64543 5.64543 2.75 6.75 2.75H17.25C18.3546 2.75 19.25 3.64543 19.25 4.75V19.25C19.25 20.3546 18.3546 21.25 17.25 21.25H6.75C5.64543 21.25 4.75 20.3546 4.75 19.25V4.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M8.75 18.25H15.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -255,7 +256,7 @@ export default function NavWrapper22() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/pos-integrations" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/pos-integrations" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M2.75 9.75103V17.2471C2.75 18.3517 3.64543 19.2471 4.75 19.2471H19.2461C20.3507 19.2471 21.2461 18.3517 21.2461 17.2471V9.75103M2.75 9.75103V6.75391C2.75 5.64934 3.64543 4.75391 4.75 4.75391H19.248C20.3503 4.75391 21.2448 5.6458 21.2457 6.7481C21.2464 7.74907 21.2461 8.75005 21.2461 9.75103M2.75 9.75103H21.2461M6.75 13.251H9.75" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>

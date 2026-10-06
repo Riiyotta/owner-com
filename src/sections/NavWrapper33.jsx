@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies/talkin-tacos, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /support, section 0).
 export default function NavWrapper33() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper33">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe" className="nav w-variant-6953f748-8882-1dda-b3cf-3f0a5b41a071">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -266,7 +267,7 @@ export default function NavWrapper33() {
                   </div>
                   <ul id="w-node-_08bdd475-383f-e632-77b8-98a900d55626-00d55589" role="list" className="nav-menu_dropdown-cases">
                     <li>
-                      <A href="/case-studies/talkin-tacos" aria-current="page" className="nav-menu_cases-link w-inline-block w--current">
+                      <A href="/case-studies/talkin-tacos" className="nav-menu_cases-link w-inline-block">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">How Mo and Omar from Talkin Tacos grew direct online sales to $120K/m</p>
                         </div>
@@ -363,7 +364,7 @@ export default function NavWrapper33() {
                       </a>
                     </li>
                     <li>
-                      <A data-transition="" href="/support" className="nav-menu_link-item w-inline-block">
+                      <A data-transition="" href="/support" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
                         <p>Support Center</p>
                       </A>
                     </li>

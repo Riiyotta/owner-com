@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /pricing, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /privacy-policy, section 0; shared by 87 routes).
 export default function NavWrapper2() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper2">
@@ -27,7 +28,7 @@ export default function NavWrapper2() {
                 </li>
                 <li data-nav="item" className="nav-menu_list-item">
                   <div className="nav-menu_list-item-inner">
-                    <A href="/pricing" aria-current="page" className="w-inline-block w--current">
+                    <A href="/pricing" className="w-inline-block">
                       <p>Pricing</p>
                     </A>
                   </div>

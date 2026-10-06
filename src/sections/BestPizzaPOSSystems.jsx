@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Best Pizza POS Systems of 2026 — the section's real markup, read from the rendered page (route /blog/pizza-pos-system, section 1).
@@ -1343,7 +1344,7 @@ export default function BestPizzaPOSSystems() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#10-best-pizza-pos-systems-overview" className="blog-content_column-link w--current">10 best pizza POS systems overview</a>
+                <a fs-toc-element="link" href="#10-best-pizza-pos-systems-overview" className="blog-content_column-link">10 best pizza POS systems overview</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#1-toast-pos" className="blog-content_column-link">1. Toast POS</a>

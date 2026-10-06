@@ -1,158 +1,37 @@
 
-  /* Marquee */
-  @keyframes marquee-horizontal {
-    from {
-      transform: translateX(0);
-    }
-
-    to {
-      transform: translateX(-100%);
-    }
+  [data-mode="light"]{
+    --eng-lp_bg: #f1f1f2;
+    --eng-lp_fg: #222323;
+    --eng-lp_border: #000000;
   }
 
-  :root {
-    --marquee-duration: 80s;
-    /* Default duration */
+  .eng-hero_label {
+    display: inline;
+    background-color: var(--eng-lp_fg);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
   }
 
-  [marquee-duration="fast"] {
-    --marquee-duration: 50s;
-    /* Fast duration */
+  /* Noise */
+  [data-mode="light"] .eng-hero_noise {
+    background-image: url("/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/6929dd6ebe1e841c4c4e7d95_owner-pattern-blue.png");
   }
 
-  [marquee] {
-    animation: marquee-horizontal var(--marquee-duration) linear infinite;
+  /* Visuals */
+  [data-visual-mode]{
+    display:none;
   }
 
-  body.no-animation [marquee],
-  div:hover > [marquee]{
-    animation-play-state: paused;
+  [data-mode="light"] [data-visual-mode="light"]{
+    display:block
   }
 
-  /* Nav */
-  .nav.fixed{
-    background-color: rgba(255, 255, 255, 0.85);
-    border-color: #ebebec;
-  }
-  .nav.open{
-    background-color: white;
+  [data-mode="dark"] [data-visual-mode="dark"]{
+    display:block
   }
 
-  @media only screen and (max-width: 992px){
-    .nav_menu-dropdown-list{
-      display: flex !important;
-    }
-  }
-  /* Nav Pin */
-  .pin {
-    transform-style: preserve-3d;
-    transform-origin: center center;
-    transition: transform 0.3s ease;
-  }
-  .nav_brand:hover .pin{
-    animation: smoothSpinAndShift 1s linear;
-  }
-  .hp-grader_phone-load-icon .pin{
-    animation: smoothSpinAndShift 1s linear infinite;
-  }
-  @keyframes smoothSpinAndShift {
-    0% {
-      transform: rotateY(0deg) translateY(0px);
-    }
-    10% {
-      transform: rotateY(0deg) translateY(6px) scale(1.1);
-    }
-    25% {
-      transform: rotateY(180deg) translateY(-10px) scale(1.15);
-    }
-    35% {
-      transform: rotateY(210deg) translateY(-7px) scale(1.15);
-    }
-    50% {
-      transform: rotateY(360deg) translateY(8px) scale(1.1);
-    }
-    65% {
-      transform: rotateY(360deg) translateY(0px) scale(1.0);
-    }
-    75% {
-      transform: rotateY(360deg) translateY(0px);
-    }
-    85% {
-      transform: rotateY(360deg) translateY(0px);
-    }
-    100% {
-      transform: rotateY(360deg) translateY(0px);
-    }
-  }
-
-  /* Login */
-  @media only screen and (max-width: 360px){
-    .nav_login{
-      margin-right: 0.8rem;
-    }
-  }
-
-  /* Inputs */
-  .w-checkbox::before,
-  .w-checkbox::after{
-    display: none;
-  }
-  .form-checkbox-icon.w--redirected-checked {
-    border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    background-size: 70% 70%;
-    box-shadow: none;
-  }
-
-  /* Videos */
-  [hero-video-box]{
-    cursor: pointer;
-  }
-  [hero-video-box]:hover [video-preview]{
-    opacity: 1;
-  }
-
-  /* Bendo */
-  .bendo_item:first-child{
-    min-width: 100%;
-    padding: 0;
-    flex-direction: row;
-    aspect-ratio: auto;
-  }
-  @media only screen and (max-width: 479px){
-    .bendo_item:first-child{
-      flex-direction: column;
-    }
-  }
-
-  /* Review Section */
-  .section_hp-reviews[data-mode="dark"]  {
-    background-image:none;
-    background-color: var(--content--primary);
-    color:  var(--content-inverted--primary);
-  }
-
-  [data-mode="dark"] .platforms_item{
-    background-color: var(--color--neutral-1000);
-  }
-  [data-mode="dark"] .text-color-brand{
-    color: var(--content-inverted--tertiary);
-  }
-  [data-mode="dark"] .hp-reviews_item{
-    background-color: var(--color--neutral-1100);
-  }
-  [data-mode="dark"] .hp-reviews_item .row-meta p{
-    color:  var(--content-inverted--tertiary);
-  }
-
-  /* Demo */
-  [data-form-multistep]{
-    opacity: 0;
+  /* Sticky Animation */
+  [data-sticky-group] p:not(:first-child){
+    position: absolute;
     visibility: hidden;
-  }
-  .wf-design-mode [data-form-multistep],
-  [data-form-multistep].cc-active{
-    opacity: 1;
-    visibility: visible;
   }

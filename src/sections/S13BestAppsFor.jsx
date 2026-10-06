@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 13 Best Apps for Restaurants t — the section's real markup, read from the rendered page (route /blog/best-apps-for-restaurant-owners, section 1).
@@ -1275,7 +1276,7 @@ export default function S13BestAppsFor() {
                 <a fs-toc-element="link" href="#1-ownercom" className="blog-content_column-link">1. Owner.com</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#2-opentable" className="blog-content_column-link w--current">2. OpenTable</a>
+                <a fs-toc-element="link" href="#2-opentable" className="blog-content_column-link">2. OpenTable</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#3-resy" className="blog-content_column-link">3. Resy</a>

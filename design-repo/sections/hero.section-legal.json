@@ -72,5 +72,14 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/WebsiteTerms.jsx"
+  "implementedBy": "src/sections/Accessibility.jsx",
+  "implementedByAll": [
+    "src/sections/Accessibility.jsx",
+    "src/sections/CopyrightPolicy.jsx",
+    "src/sections/Disclaimer.jsx",
+    "src/sections/PlatformTerms.jsx",
+    "src/sections/PrivacyPolicy.jsx",
+    "src/sections/RestaurantParticipationAgree.jsx",
+    "src/sections/WebsiteTerms.jsx"
+  ]
 }

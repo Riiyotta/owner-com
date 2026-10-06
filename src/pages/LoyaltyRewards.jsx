@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper18 from "../sections/NavWrapper18.jsx";
+import NavWrapper19 from "../sections/NavWrapper19.jsx";
 import OfferARewardsProgram from "../sections/OfferARewardsProgram.jsx";
 import RunALoyaltyProgram from "../sections/RunALoyaltyProgram.jsx";
 import BgColorTaupe14 from "../sections/BgColorTaupe14.jsx";
 import FAQ15 from "../sections/FAQ15.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section17 from "../sections/Section17.jsx";
+import Section18 from "../sections/Section18.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function LoyaltyRewards() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper18 />
+      <NavWrapper19 />
       <main className="main-wrapper">
         <OfferARewardsProgram />
         <RunALoyaltyProgram />
@@ -62,7 +62,7 @@ export default function LoyaltyRewards() {
         <FAQ15 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section17 />
+        <Section18 />
       </main>
     </div>
     </>

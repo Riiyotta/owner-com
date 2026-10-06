@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper15 from "../sections/NavWrapper15.jsx";
+import NavWrapper16 from "../sections/NavWrapper16.jsx";
 import GetABeautifulMobile from "../sections/GetABeautifulMobile.jsx";
 import EveryRestaurantTodayNeeds from "../sections/EveryRestaurantTodayNeeds.jsx";
 import BgColorTaupe11 from "../sections/BgColorTaupe11.jsx";
 import FAQ12 from "../sections/FAQ12.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section14 from "../sections/Section14.jsx";
+import Section15 from "../sections/Section15.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function BrandedApps() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper15 />
+      <NavWrapper16 />
       <main className="main-wrapper">
         <GetABeautifulMobile />
         <EveryRestaurantTodayNeeds />
@@ -62,7 +62,7 @@ export default function BrandedApps() {
         <FAQ12 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section14 />
+        <Section15 />
       </main>
     </div>
     </>

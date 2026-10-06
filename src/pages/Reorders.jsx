@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import TurnFirstTimeGuests from "../sections/TurnFirstTimeGuests.jsx";
 import OwnerHasEverythingYou from "../sections/OwnerHasEverythingYou.jsx";
 import BgColorTaupe39 from "../sections/BgColorTaupe39.jsx";
@@ -55,7 +55,7 @@ export default function Reorders() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <TurnFirstTimeGuests />
         <OwnerHasEverythingYou />

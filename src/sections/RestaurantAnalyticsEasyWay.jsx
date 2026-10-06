@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Analytics: Easy Way — the section's real markup, read from the rendered page (route /blog/restaurant-analytics, section 1).
@@ -630,7 +631,7 @@ export default function RestaurantAnalyticsEasyWay() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#why-should-you-collect-customer-data" className="blog-content_column-link w--current">{"Why should you collect customer data?  "}</a>
+                <a fs-toc-element="link" href="#why-should-you-collect-customer-data" className="blog-content_column-link">{"Why should you collect customer data?  "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#the-data-points-that-matter-most" className="blog-content_column-link">{"The data points that matter most "}</a>

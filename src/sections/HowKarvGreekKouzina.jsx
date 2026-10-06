@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Karv Greek Kouzina grew on — the section's real markup, read from the rendered page (route /case-studies/karv-greek-kouzina, section 1).
 export default function HowKarvGreekKouzina() {
   return (

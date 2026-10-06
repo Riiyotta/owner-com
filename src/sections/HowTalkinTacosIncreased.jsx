@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Talkin Tacos increased dir — the section's real markup, read from the rendered page (route /case-studies/talkin-tacos, section 1).
 export default function HowTalkinTacosIncreased() {
   return (

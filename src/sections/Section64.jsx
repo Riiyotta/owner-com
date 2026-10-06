@@ -1,3 +1,4 @@
+// IA section(s): hero.section-resource (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // section — the section's real markup, read from the rendered page (route /resources/menu-engineering, section 1).
@@ -53,36 +54,36 @@ export default function Section64() {
                   <div className="demo-form_redirect-icon" data-w-id="d79de28b-3f29-45b7-56c9-fcffde5a18b4" data-animation-type="lottie" data-src="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/68deb4c15433a76b75eb72ab_active-progress-point.lottie" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.0020019204587935" data-duration="0" data-loading="eager">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" width="200" height="200" preserveAspectRatio="xMidYMid meet" style={{ "width": "100%", "height": "100%", "transform": "translate3d(0px, 0px, 0px)", "contentVisibility": "visible" }}>
                       <defs>
-                        <clipPath id="__lottie_element_10">
+                        <clipPath id="__lottie_element_3">
                           <rect width="200" height="200" x="0" y="0" />
                         </clipPath>
-                        <clipPath id="__lottie_element_12">
+                        <clipPath id="__lottie_element_5">
                           <path d="M0,0 L200,0 L200,200 L0,200z" />
                         </clipPath>
                         <clipPath id="__lottie_element_22">
                           <path d="M0,0 L200,0 L200,200 L0,200z" />
                         </clipPath>
                       </defs>
-                      <g clipPath="url(#__lottie_element_10)">
+                      <g clipPath="url(#__lottie_element_3)">
                         <g clipPath="url(#__lottie_element_22)" style={{ "display": "block" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "block" }} transform="matrix(0.19334211945533752,0,0,0.19334211945533752,100.24925231933594,99.21028900146484)" opacity="0.23769984111845271">
+                          <g style={{ "display": "block" }} transform="matrix(0.0014998677652329206,0,0,0.0014998677652329206,100.30853271484375,99.02246856689453)" opacity="0.002362894444069866">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.0006636247271671891,0,0,0.0006636247271671891,100.30879211425781,99.02165222167969)" opacity="0.0010510215382212452">
+                          <g style={{ "display": "none" }} transform="matrix(0.2790495753288269,0,0,0.2790495753288269,100.22277069091797,99.294189453125)" opacity="0.3114836004029424">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
                         </g>
-                        <g clipPath="url(#__lottie_element_12)" style={{ "display": "none" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "block" }} transform="matrix(0.9999943375587463,0,0,0.9999943375587463,100,100)" opacity="0.00000896644184003037">
+                        <g clipPath="url(#__lottie_element_5)" style={{ "display": "block" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
+                          <g style={{ "display": "none" }} transform="matrix(0.9999817609786987,0,0,0.9999817609786987,100,99.99998474121094)" opacity="0.000029162736193981688">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.9999912977218628,0,0,0.9999912977218628,100,99.99999237060547)" opacity="0.000013866485156981411">
+                          <g style={{ "display": "block" }} transform="matrix(0.8501659631729126,0,0,0.8501659631729126,100.04629516601562,99.85331726074219)" opacity="0.1929945594235012">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
@@ -173,32 +174,32 @@ export default function Section64() {
                         <label htmlFor="hear" className="body-s">How did you hear about us?</label>
                         <select id="hear" name="hear" data-name="hear" required className="form-input is-select w-select" style={{ "display": "none" }} defaultValue="">
                           <option value="">How did you hear about us?</option>
-                          <option value="TV">TV</option>
-                          <option value="Instagram">Instagram</option>
+                          <option value="Received Mail or Postcard">Received Mail or Postcard</option>
+                          <option value="ChatGPT / AI">ChatGPT / AI</option>
                           <option value="TikTok">TikTok</option>
                           <option value="Facebook">Facebook</option>
-                          <option value="ChatGPT / AI">ChatGPT / AI</option>
-                          <option value="Received Mail or Postcard">Received Mail or Postcard</option>
                           <option value="Google">Google</option>
                           <option value="YouTube">YouTube</option>
-                          <option value="My Subscription Addiction">My Subscription Addiction</option>
+                          <option value="TV">TV</option>
+                          <option value="Instagram">Instagram</option>
                           <option value="Friend or colleague">Friend or colleague</option>
+                          <option value="My Subscription Addiction">My Subscription Addiction</option>
                           <option value="Other">Other</option>
                         </select>
                         <div className="nice-select form-input is-select w-select" tabIndex="0">
                           <span className="current">How did you hear about us?</span>
                           <ul className="list">
                             <li data-value="" className="option selected">How did you hear about us?</li>
-                            <li data-value="TV" className="option">TV</li>
-                            <li data-value="Instagram" className="option">Instagram</li>
+                            <li data-value="Received Mail or Postcard" className="option">Received Mail or Postcard</li>
+                            <li data-value="ChatGPT / AI" className="option">ChatGPT / AI</li>
                             <li data-value="TikTok" className="option">TikTok</li>
                             <li data-value="Facebook" className="option">Facebook</li>
-                            <li data-value="ChatGPT / AI" className="option">ChatGPT / AI</li>
-                            <li data-value="Received Mail or Postcard" className="option">Received Mail or Postcard</li>
                             <li data-value="Google" className="option">Google</li>
                             <li data-value="YouTube" className="option">YouTube</li>
-                            <li data-value="My Subscription Addiction" className="option">My Subscription Addiction</li>
+                            <li data-value="TV" className="option">TV</li>
+                            <li data-value="Instagram" className="option">Instagram</li>
                             <li data-value="Friend or colleague" className="option">Friend or colleague</li>
+                            <li data-value="My Subscription Addiction" className="option">My Subscription Addiction</li>
                             <li data-value="Other" className="option">Other</li>
                           </ul>
                         </div>
@@ -217,7 +218,7 @@ export default function Section64() {
                         <label htmlFor="hear" className="body-s">Get scheduled fast:</label>
                         <label className="w-checkbox form-checkbox">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox-icon"></div>
-                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="body-s w-form-label" htmlFor="sms_opt_in">{"I agree to receive automated text messages from Owner.com at the number provided to schedule my demo and to hear about Owner.com products, updates, and offers. Consent is not required to get a demo. About 4 messages/month. Message & data rates may apply. Reply STOP to unsubscribe, HELP for help."}</span>
                         </label>
                         <div className="text-color-supermuted">
@@ -275,11 +276,11 @@ export default function Section64() {
                       <div data-w-id="d79de28b-3f29-45b7-56c9-fcffde5a1923" data-is-ix2-target="1" className="demo-form_loader-lottie" data-animation-type="lottie" data-src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6aac1b1bb8a9731611d822e9_owner-demo-loader.json" data-loop="0" data-direction="1" data-autoplay="0" data-renderer="svg" data-default-duration="0" data-duration="2.1666666666666665" data-loading="eager">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250" width="250" height="250" preserveAspectRatio="xMidYMid meet" style={{ "width": "100%", "height": "100%", "transform": "translate3d(0px, 0px, 0px)", "contentVisibility": "visible" }}>
                           <defs>
-                            <clipPath id="__lottie_element_2">
+                            <clipPath id="__lottie_element_14">
                               <rect width="250" height="250" x="0" y="0" />
                             </clipPath>
                           </defs>
-                          <g clipPath="url(#__lottie_element_2)">
+                          <g clipPath="url(#__lottie_element_14)">
                             <g transform="matrix(1,0,0,1,125,125)" opacity="1" style={{ "display": "block" }}>
                               <g opacity="1" transform="matrix(1,0,0,1,0,0)">
                                 <path fill="rgb(44,44,44)" fillOpacity="1" d=" M0,-65.63300323486328 C31.548812866210938,-65.63300323486328 57.16400146484375,-40.0178108215332 57.16400146484375,-8.468999862670898 C57.16400146484375,23.07981300354004 31.548812866210938,48.69499969482422 0,48.69499969482422 C-31.548812866210938,48.69499969482422 -57.16400146484375,23.07981300354004 -57.16400146484375,-8.468999862670898 C-57.16400146484375,-40.0178108215332 -31.548812866210938,-65.63300323486328 0,-65.63300323486328z M0.7390000224113464,-65.7509994506836 C4.178999900817871,-65.70700073242188 7.546000003814697,-65.36000061035156 10.812999725341797,-64.73400115966797 C11.04699993133545,-64.68900299072266 11.284000396728516,-64.64199829101562 11.515999794006348,-64.59400177001953 C11.979999542236328,-64.4990005493164 12.442999839782715,-64.39800262451172 12.902999877929688,-64.29199981689453 C13.133000373840332,-64.23899841308594 13.36400032043457,-64.18399810791016 13.593000411987305,-64.12799835205078 C15.427000045776367,-63.680999755859375 17.22800064086914,-63.14899826049805 18.988000869750977,-62.529998779296875 C19.64699935913086,-62.29800033569336 20.301000595092773,-62.051998138427734 20.948999404907227,-61.797000885009766 C23.97599983215332,-60.604000091552734 26.87700080871582,-59.154998779296875 29.625,-57.486000061035156 C30.214000701904297,-57.12799835205078 30.801000595092773,-56.762001037597656 31.375999450683594,-56.38399887084961 C32.715999603271484,-55.50199890136719 34.01599884033203,-54.5629997253418 35.275001525878906,-53.57500076293945 C35.45399856567383,-53.433998107910156 35.63600158691406,-53.29399871826172 35.81399917602539,-53.1510009765625 C36.70399856567383,-52.435001373291016 37.571998596191406,-51.689998626708984 38.41699981689453,-50.92300033569336 C38.58599853515625,-50.77000045776367 38.75299835205078,-50.61199951171875 38.91999816894531,-50.457000732421875 C39.138999938964844,-50.25299835205078 39.34600067138672,-50.034000396728516 39.5620002746582,-49.82699966430664 C17.393999099731445,-29.070999145507812 -17.402000427246094,-29.072999954223633 -39.56700134277344,-49.83300018310547 C-29.298999786376953,-59.689998626708984 -15.361000061035156,-65.75700378417969 0,-65.75700378417969 C0,-65.75700378417969 0.7390000224113464,-65.7509994506836 0.7390000224113464,-65.7509994506836z M-41.231998443603516,-48.1619987487793 C-20.488000869750977,-25.961000442504883 -20.5049991607666,8.937000274658203 -41.28099822998047,31.118000030517578 C-50.165000915527344,19.93899917602539 -56.99599838256836,6.578000068664551 -57.13800048828125,-8.182999610900879 C-57.138999938964844,-8.338000297546387 -57.13800048828125,-8.493000030517578 -57.13800048828125,-8.64900016784668 C-57.13800048828125,-23.986000061035156 -51.07699966430664,-37.90299987792969 -41.231998443603516,-48.1619987487793z M41.22600173950195,-48.18600082397461 C43.48500061035156,-45.83399963378906 45.54499816894531,-43.2859992980957 47.37799835205078,-40.57500076293945 C48.14799880981445,-39.43600082397461 48.88199996948242,-38.270999908447266 49.56999969482422,-37.07600021362305 C50.14400100708008,-36.08000183105469 50.685001373291016,-35.0629997253418 51.198001861572266,-34.029998779296875 C51.30099868774414,-33.823001861572266 51.4010009765625,-33.6150016784668 51.500999450683594,-33.40700149536133 C51.70100021362305,-32.992000579833984 51.89899826049805,-32.57400131225586 52.0890007019043,-32.15299987792969 C52.375,-31.520999908447266 52.64799880981445,-30.878000259399414 52.9119987487793,-30.233999252319336 C53.43899917602539,-28.94499969482422 53.91999816894531,-27.631999969482422 54.35300064086914,-26.29800033569336 C54.42499923706055,-26.076000213623047 54.50199890136719,-25.854999542236328 54.57099914550781,-25.631999969482422 C55.05799865722656,-24.06800079345703 55.47700119018555,-22.474000930786133 55.83000183105469,-20.854999542236328 C55.880001068115234,-20.624000549316406 55.928001403808594,-20.391000747680664 55.974998474121094,-20.159000396728516 C56.64099884033203,-16.906999588012695 57.03300094604492,-13.553999900817871 57.119998931884766,-10.12600040435791 C57.13199996948242,-9.63599967956543 57.13800048828125,-9.142000198364258 57.13800048828125,-8.64900016784668 C57.13800048828125,6.302000045776367 50.25,19.825000762939453 41.26900100708008,31.124000549316406 C20.47100067138672,8.937000274658203 20.45400047302246,-25.985000610351562 41.22600173950195,-48.18600082397461z M-39.79100036621094,32.939998626708984 C-17.562999725341797,11.904999732971191 17.562999725341797,11.902000427246094 39.79199981689453,32.935001373291016 C39.77000045776367,32.96099853515625 39.74700164794922,32.986000061035156 39.724998474121094,33.01300048828125 C39.724998474121094,33.01300048828125 37.96900177001953,34.974998474121094 37.96900177001953,34.974998474121094 C28.829999923706055,45.07400131225586 18.420000076293945,53.95399856567383 6.993000030517578,61.3849983215332 C6.993000030517578,61.3849983215332 2.802999973297119,64.11000061035156 2.802999973297119,64.11000061035156 C1.0529999732971191,65.1709976196289 0.032999999821186066,65.73899841308594 0,65.75700378417969 C0,65.75700378417969 -0.6420000195503235,65.4000015258789 -0.6420000195503235,65.4000015258789 C-1.1579999923706055,65.10399627685547 -1.965000033378601,64.62100219726562 -3.0209999084472656,63.97700119018555 C-3.0209999084472656,63.97700119018555 -7.005000114440918,61.3849983215332 -7.005000114440918,61.3849983215332 C-19.19300079345703,53.45800018310547 -30.225000381469727,43.8849983215332 -39.79100036621094,32.939998626708984z" />

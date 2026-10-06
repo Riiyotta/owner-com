@@ -1,3 +1,4 @@
+// IA section(s): proof.section-reviews (ia/ia.json, design-repo/sections/)
 // Actual reviews from restaurant — the section's real markup, read from the rendered page (route /reviews, section 2).
 export default function ActualReviewsFromRestaurant() {
   return (
@@ -1589,7 +1590,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc59-bb200145" className="reviews_grid-card">
-                <a href="https://syracuse,%20new%20york/" target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">

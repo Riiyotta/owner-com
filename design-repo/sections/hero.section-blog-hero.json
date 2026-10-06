@@ -75,5 +75,8 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/TheMarketingMenu.jsx",
+  "implementedByAll": [
+    "src/sections/TheMarketingMenu.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Online ordering built to grow  — the section's real markup, read from the rendered page (route /online-ordering, section 2).
 export default function OnlineOrderingBuiltTo() {
   return (

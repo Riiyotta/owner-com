@@ -1,3 +1,4 @@
+// IA section(s): content.team (ia/ia.json, design-repo/sections/)
 // team — the section's real markup, read from the rendered page (route /d, section 20).
 export default function Team() {
   return (

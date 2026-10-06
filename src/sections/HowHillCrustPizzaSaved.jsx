@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How HillCrust Pizza saved thou — the section's real markup, read from the rendered page (route /case-studies/hillcrust-pizza, section 1).
 export default function HowHillCrustPizzaSaved() {
   return (

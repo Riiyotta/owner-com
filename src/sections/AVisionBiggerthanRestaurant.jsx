@@ -1,3 +1,4 @@
+// IA section(s): content.section-s-d-about (ia/ia.json, design-repo/sections/)
 // A vision biggerthan restaurant — the section's real markup, read from the rendered page (route /d, section 5).
 export default function AVisionBiggerthanRestaurant() {
   return (

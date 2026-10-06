@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How San Diego Kabob Shack grew — the section's real markup, read from the rendered page (route /case-studies/san-diego-kabob-shack, section 1).
 export default function HowSanDiegoKabob() {
   return (

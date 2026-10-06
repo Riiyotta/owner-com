@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 21 Best Pizza Websites & Profi — the section's real markup, read from the rendered page (route /blog/best-pizza-websites, section 1).
@@ -1173,7 +1174,7 @@ export default function S21BestPizzaWebsites() {
                 <a fs-toc-element="link" href="#1-brooklyn-pizza-uses-seo-to-increase-visibility" className="blog-content_column-link">1. Brooklyn Pizza Uses SEO To Increase Visibility</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#2-jets-pizza-builds-trust-by-explaining-detroit-style-pizza" className="blog-content_column-link w--current">2. Jet’s Pizza Builds Trust by Explaining Detroit-Style Pizza</a>
+                <a fs-toc-element="link" href="#2-jets-pizza-builds-trust-by-explaining-detroit-style-pizza" className="blog-content_column-link">2. Jet’s Pizza Builds Trust by Explaining Detroit-Style Pizza</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#3-dinos-tomato-pie-became-legendary-for-retro-humor" className="blog-content_column-link">3. Dino’s Tomato Pie Became Legendary for Retro Humor</a>

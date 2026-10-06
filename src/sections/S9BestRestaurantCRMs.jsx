@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 9 Best Restaurant CRMs To Grow — the section's real markup, read from the rendered page (route /blog/best-restaurant-crms, section 1).
@@ -1364,7 +1365,7 @@ export default function S9BestRestaurantCRMs() {
                 <a fs-toc-element="link" href="#best-restaurant-crms-overview" className="blog-content_column-link">Best restaurant CRMs overview</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#how-we-picked-the-best-restaurant-crm-systems" className="blog-content_column-link w--current">How we picked the best restaurant CRM systems</a>
+                <a fs-toc-element="link" href="#how-we-picked-the-best-restaurant-crm-systems" className="blog-content_column-link">How we picked the best restaurant CRM systems</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#1-sevenrooms" className="blog-content_column-link">1. SevenRooms</a>

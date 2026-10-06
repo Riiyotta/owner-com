@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /blog, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies, section 0).
 export default function NavWrapper31() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper31">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-dark" className="nav w-variant-4dcf7bd9-3a83-85f2-b3e4-7ba9f973b605">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -343,12 +344,12 @@ export default function NavWrapper31() {
                 <li data-dropdown-target="resources" className="nav-menu_dropdown">
                   <ul role="list" className="nav-menu_link-list">
                     <li>
-                      <A data-transition="" href="/case-studies" className="nav-menu_link-item w-inline-block">
+                      <A data-transition="" href="/case-studies" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
                         <p>Case Studies</p>
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/blog" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/blog" className="nav-menu_link-item w-inline-block">
                         <p>Blog</p>
                       </A>
                     </li>
@@ -380,7 +381,7 @@ export default function NavWrapper31() {
                       </A>
                     </li>
                     <li>
-                      <A href="/case-studies" className="nav-menu_link-card w-inline-block">
+                      <A href="/case-studies" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
                         <div className="nav-menu_cases-inner cc-transparent">
                           <p className="h5">See all case studies</p>
                         </div>

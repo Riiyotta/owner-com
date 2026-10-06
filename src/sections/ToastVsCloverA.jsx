@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Toast vs. Clover: A Complete C — the section's real markup, read from the rendered page (route /blog/toast-vs-clover, section 1).
@@ -1166,7 +1167,7 @@ export default function ToastVsCloverA() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#toast-best-for-established-restaurants" className="blog-content_column-link w--current">Toast: Best for established restaurants</a>
+                <a fs-toc-element="link" href="#toast-best-for-established-restaurants" className="blog-content_column-link">Toast: Best for established restaurants</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#clover-best-for-customizable-features" className="blog-content_column-link">{"Clover: Best for customizable features "}</a>

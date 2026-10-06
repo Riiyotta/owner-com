@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /reviews, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /press, section 0).
 export default function NavWrapper27() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper27">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe" className="nav w-variant-6953f748-8882-1dda-b3cf-3f0a5b41a071">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -306,12 +307,12 @@ export default function NavWrapper27() {
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/press" className="nav-menu_link-item w-inline-block">
+                      <A data-transition="" href="/press" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
                         <p>Press</p>
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/reviews" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/reviews" className="nav-menu_link-item w-inline-block">
                         <p>Reviews</p>
                       </A>
                     </li>

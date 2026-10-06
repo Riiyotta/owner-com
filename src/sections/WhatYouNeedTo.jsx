@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 // What you need to know about Ow — the section's real markup, read from the rendered page (route /d, section 2).
 export default function WhatYouNeedTo() {
   return (

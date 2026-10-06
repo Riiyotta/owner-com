@@ -1,3 +1,4 @@
+// IA section(s): hero.section-cs-hero (ia/ia.json, design-repo/sections/)
 // How Doo-Dah Diner increased di — the section's real markup, read from the rendered page (route /case-studies/doo-dah-diner, section 1).
 export default function HowDooDahDiner() {
   return (

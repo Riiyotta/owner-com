@@ -1,3 +1,4 @@
+// IA section(s): content.section-blog-most (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // is-category-page — the section's real markup, read from the rendered page (route /blog-category/marketing-strategy, section 2).

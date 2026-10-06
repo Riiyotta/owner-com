@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /delivery, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /smart-upsells, section 0).
 export default function NavWrapper11() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper11">
@@ -129,7 +130,7 @@ export default function NavWrapper11() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/smart-upsells" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/smart-upsells" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M2.75 4.75V17.25C2.75 18.3546 3.64543 19.25 4.75 19.25H21.25M6.75 15.25L10 12C10.5523 11.4477 11.4477 11.4477 12 12C12.5523 12.5523 13.4477 12.5523 14 12L18.7497 7.25027M14.75 6.75H19.25V11.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -137,7 +138,7 @@ export default function NavWrapper11() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/delivery" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/delivery" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M14.25 16.75C14.25 18.1307 15.3693 19.25 16.75 19.25C18.1307 19.25 19.25 18.1307 19.25 16.75C19.25 15.3693 18.1307 14.25 16.75 14.25C15.3693 14.25 14.25 15.3693 14.25 16.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M4.75 16.75C4.75 18.1307 5.86929 19.25 7.25 19.25C8.63071 19.25 9.75 18.1307 9.75 16.75C9.75 15.3693 8.63071 14.25 7.25 14.25C5.86929 14.25 4.75 15.3693 4.75 16.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

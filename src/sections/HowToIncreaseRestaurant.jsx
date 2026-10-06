@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How to Increase Restaurant Sal — the section's real markup, read from the rendered page (route /blog/how-to-increase-restaurant-sales, section 1).
@@ -862,7 +863,7 @@ export default function HowToIncreaseRestaurant() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-improve-your-seo-tactics-to-boost-search-visibility" className="blog-content_column-link w--current">{"1. Improve your SEO tactics to boost search visibility  "}</a>
+                <a fs-toc-element="link" href="#1-improve-your-seo-tactics-to-boost-search-visibility" className="blog-content_column-link">{"1. Improve your SEO tactics to boost search visibility  "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-upgrade-your-website-to-make-a-memorable-first-impression" className="blog-content_column-link">2. Upgrade Your website to make a memorable first impression</a>

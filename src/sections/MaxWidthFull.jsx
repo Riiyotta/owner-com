@@ -1,3 +1,4 @@
+// IA section(s): content.block (ia/ia.json, design-repo/sections/)
 // max-width-full — the section's real markup, read from the rendered page (route /builders-wanted, section 7).
 export default function MaxWidthFull() {
   return (

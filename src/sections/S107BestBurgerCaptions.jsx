@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 107 Best Burger Captions for I — the section's real markup, read from the rendered page (route /blog/97-best-burger-captions-for-instagram, section 1).
@@ -491,7 +492,7 @@ export default function S107BestBurgerCaptions() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#burger-captions-1-15" className="blog-content_column-link w--current">Burger Captions 1-15</a>
+                <a fs-toc-element="link" href="#burger-captions-1-15" className="blog-content_column-link">Burger Captions 1-15</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#burger-captions-16-30" className="blog-content_column-link">Burger Captions 16-30</a>

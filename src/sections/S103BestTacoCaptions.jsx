@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 103 Best Taco Captions for Ins — the section's real markup, read from the rendered page (route /blog/97-best-taco-captions-for-instagram, section 1).

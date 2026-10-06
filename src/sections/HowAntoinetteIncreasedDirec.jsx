@@ -1,3 +1,4 @@
+// IA section(s): hero.section-resource (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How Antoinette Increased Direc — the section's real markup, read from the rendered page (route /resources/ottavios-case-study, section 1).
@@ -68,25 +69,25 @@ export default function HowAntoinetteIncreasedDirec() {
                         </clipPath>
                       </defs>
                       <g clipPath="url(#__lottie_element_10)">
-                        <g clipPath="url(#__lottie_element_22)" style={{ "display": "block" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "block" }} transform="matrix(0.20349517464637756,0,0,0.20349517464637756,100.2461166381836,99.22022247314453)" opacity="0.24744117583276343">
+                        <g clipPath="url(#__lottie_element_22)" style={{ "display": "none" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
+                          <g style={{ "display": "block" }} transform="matrix(0.6688365936279297,0,0,0.6688365936279297,100.10232543945312,99.67579650878906)" opacity="0.34653841590974105">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.0015961156459525228,0,0,0.0015961156459525228,100.30850219726562,99.02256774902344)" opacity="0.0025132548223102463">
+                          <g style={{ "display": "block" }} transform="matrix(0.2790495753288269,0,0,0.2790495753288269,100.22277069091797,99.294189453125)" opacity="0.3114836004029421">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
                         </g>
-                        <g clipPath="url(#__lottie_element_12)" style={{ "display": "none" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
-                          <g style={{ "display": "none" }} transform="matrix(0.9999935030937195,0,0,0.9999935030937195,100,100)" opacity="0.000010323835095462641">
+                        <g clipPath="url(#__lottie_element_12)" style={{ "display": "block" }} transform="matrix(1,0,0,1,0,0)" opacity="1">
+                          <g style={{ "display": "block" }} transform="matrix(0.9893567562103271,0,0,0.9893567562103271,100.00328826904297,99.98958587646484)" opacity="0.016304700790230556">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
                           </g>
-                          <g style={{ "display": "block" }} transform="matrix(0.9999907612800598,0,0,0.9999907612800598,100,99.99999237060547)" opacity="0.000014692370552111811">
+                          <g style={{ "display": "block" }} transform="matrix(0.7484830617904663,0,0,0.7484830617904663,100.07772064208984,99.75376892089844)" opacity="0.28990136235174013">
                             <g opacity="1" transform="matrix(1,0,0,1,0.3089999854564667,-0.9789999723434448)">
                               <path fill="rgb(179,183,193)" fillOpacity="1" d=" M0,-74.0780029296875 C40.88364791870117,-74.0780029296875 74.0780029296875,-40.88364791870117 74.0780029296875,0 C74.0780029296875,40.88364791870117 40.88364791870117,74.0780029296875 0,74.0780029296875 C-40.88364791870117,74.0780029296875 -74.0780029296875,40.88364791870117 -74.0780029296875,0 C-74.0780029296875,-40.88364791870117 -40.88364791870117,-74.0780029296875 0,-74.0780029296875z" />
                             </g>
@@ -177,15 +178,15 @@ export default function HowAntoinetteIncreasedDirec() {
                         <label htmlFor="hear" className="body-s">How did you hear about us?</label>
                         <select id="hear" name="hear" data-name="hear" required className="form-input is-select w-select" style={{ "display": "none" }} defaultValue="">
                           <option value="">How did you hear about us?</option>
-                          <option value="YouTube">YouTube</option>
-                          <option value="Friend or colleague">Friend or colleague</option>
-                          <option value="Instagram">Instagram</option>
                           <option value="Facebook">Facebook</option>
                           <option value="TV">TV</option>
-                          <option value="Google">Google</option>
+                          <option value="TikTok">TikTok</option>
+                          <option value="Instagram">Instagram</option>
                           <option value="ChatGPT / AI">ChatGPT / AI</option>
                           <option value="Received Mail or Postcard">Received Mail or Postcard</option>
-                          <option value="TikTok">TikTok</option>
+                          <option value="Google">Google</option>
+                          <option value="YouTube">YouTube</option>
+                          <option value="Friend or colleague">Friend or colleague</option>
                           <option value="My Subscription Addiction">My Subscription Addiction</option>
                           <option value="Other">Other</option>
                         </select>
@@ -193,15 +194,15 @@ export default function HowAntoinetteIncreasedDirec() {
                           <span className="current">How did you hear about us?</span>
                           <ul className="list">
                             <li data-value="" className="option selected">How did you hear about us?</li>
-                            <li data-value="YouTube" className="option">YouTube</li>
-                            <li data-value="Friend or colleague" className="option">Friend or colleague</li>
-                            <li data-value="Instagram" className="option">Instagram</li>
                             <li data-value="Facebook" className="option">Facebook</li>
                             <li data-value="TV" className="option">TV</li>
-                            <li data-value="Google" className="option">Google</li>
+                            <li data-value="TikTok" className="option">TikTok</li>
+                            <li data-value="Instagram" className="option">Instagram</li>
                             <li data-value="ChatGPT / AI" className="option">ChatGPT / AI</li>
                             <li data-value="Received Mail or Postcard" className="option">Received Mail or Postcard</li>
-                            <li data-value="TikTok" className="option">TikTok</li>
+                            <li data-value="Google" className="option">Google</li>
+                            <li data-value="YouTube" className="option">YouTube</li>
+                            <li data-value="Friend or colleague" className="option">Friend or colleague</li>
                             <li data-value="My Subscription Addiction" className="option">My Subscription Addiction</li>
                             <li data-value="Other" className="option">Other</li>
                           </ul>
@@ -221,7 +222,7 @@ export default function HowAntoinetteIncreasedDirec() {
                         <label htmlFor="hear" className="body-s">Get scheduled fast:</label>
                         <label className="w-checkbox form-checkbox">
                           <div className="w-checkbox-input w-checkbox-input--inputType-custom form-checkbox-icon"></div>
-                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "opacity": "0", "position": "absolute", "zIndex": "-1" }} />
+                          <input type="checkbox" name="sms_opt_in" id="sms_opt_in" data-name="sms_opt_in" style={{ "position": "absolute", "zIndex": "-1" }} />
                           <span className="body-s w-form-label" htmlFor="sms_opt_in">{"I agree to receive automated text messages from Owner.com at the number provided to schedule my demo and to hear about Owner.com products, updates, and offers. Consent is not required to get a demo. About 4 messages/month. Message & data rates may apply. Reply STOP to unsubscribe, HELP for help."}</span>
                         </label>
                         <div className="text-color-supermuted">

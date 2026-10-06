@@ -1,155 +1,41 @@
 
-  /************ Nice Select CSS ************/
-  :root {
-    --list-bg-color: white;
-    --list-text-color: var(--content--primary);
-    --list-text-color-hover: inherit;
-    --current-field-text-color: inherit;
-    --select-field-arrow-color: black;
-    --list-item-bg-color: var(--state--hover);
+/* Legal tables - scoped to the rich text so nothing leaks */
+.text-rich-text .w-embed { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
-    /* ----------- Spacing ----------- */
-    --list-padding-top-bottom: 0.8rem;
-    --list-max-height: 25em;
-    --list-item-padding-left: 1em;
-    --list-item-padding-right: 1em;
-    --list-item-min-height: 1em;
-    --list-item-line-height: 1em;
-  }
-  /************ END OF CUSTOM VALUES ************/
+.text-rich-text table {
+  width: 100%;
+  min-width: 36em;
+  border-collapse: collapse;
+  margin: 2em 0;
+  text-align: left;
+}
 
-  select.select {
-    display: block !important;
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-  }
+.text-rich-text table td {
+  border: 1px solid var(--border-color);
+  padding: .75em 1em;
+  vertical-align: top;
+}
 
-  .nice-select {
-    -webkit-tap-highlight-color: transparent;
-    box-sizing: border-box;
-    clear: both;
-    position: relative;
-    text-align: left !important;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    font-size: 1em;
-  }
+/* header row - the markup uses td, not th */
+.text-rich-text table tr:first-child td {
+  background-color: var(--background--lighter);
+  color: var(--text--primary);
+}
 
-  .nice-select:after {
-    border-bottom: 2px solid var(--select-field-arrow-color);
-    border-right: 2px solid var(--select-field-arrow-color);
-    content: '';
-    display: block;
-    height: 0.4em;
-    margin-top: -0.25em;
-    pointer-events: none;
-    position: absolute;
-    right: 1em;
-    top: 50%;
-    -webkit-transform-origin: 66% 66%;
-    -ms-transform-origin: 66% 66%;
-    transform-origin: 66% 66%;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transition: all 0.15s ease-in-out;
-    transition: all 0.15s ease-in-out;
-    width: 0.4em;
-  }
+.text-rich-text table td p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: .5em;
+}
+.text-rich-text table td p:last-child { margin-bottom: 0; }
 
-  .nice-select.open:after {
-    -webkit-transform: rotate(-135deg);
-    -ms-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-  }
-
-  .nice-select.open .list {
-    opacity: 1;
-    pointer-events: auto;
-    -webkit-transform: scale(1) translateY(0);
-    -ms-transform: scale(1) translateY(0);
-    transform: scale(1) translateY(0);
-  }
-
-  .nice-select .list {
-    background-color: var(--list-bg-color);
-    color: var(--list-text-color);
-    border-radius: 0.25em;
-    box-shadow: 0 7px 20px 0px rgba(68, 68, 68, 0.11);
-    border: 1px solid rgba(0, 0, 0, 0.16);
-    box-sizing: border-box;
-    margin-top: 0.25em;
-    opacity: 0;
-    overflow: hidden;
-    padding: var(--list-padding-top-bottom) 0px;
-    pointer-events: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    max-height: var(--list-max-height);
-    -webkit-transform-origin: 50% 0;
-    -ms-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-    -webkit-transform: scale(0.75) translateY(-21px);
-    -ms-transform: scale(0.75) translateY(-21px);
-    transform: scale(0.75) translateY(-21px);
-    -webkit-transition:
-      all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-      opacity 0.15s ease-out;
-    transition:
-      all 0.2s cubic-bezier(0.5, 0, 0, 1.25),
-      opacity 0.15s ease-out;
-    z-index: 9;
-    width: 100%;
-  }
-
-  .nice-select .list:hover .option:not(:hover) {
-    background-color: transparent !important;
-  }
-
-  .nice-select .option {
-    padding: 0.5em 0;
-    cursor: pointer;
-    line-height: 1.4;
-    list-style: none;
-    font-size: 1em;
-    background-image: none;
-    /* min-height: var(--list-item-min-height); */
-    outline: none;
-    padding-left: var(--list-item-padding-left);
-    padding-right: var(--list-item-padding-right);
-    text-align: left;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-
-  .nice-select .option:first-child {
-    display: none;
-  }
-
-  .nice-select .option:last-child {
-    margin-bottom: 0;
-  }
-
-  span.current {
-    color: #a1a3a5;
-  }
-
-  .nice-select .option:hover,
-  .nice-select .option.focus,
-  .nice-select .option.selected.focus {
-    background-color: var(--list-item-bg-color);
-  }
-
-  .nice-select .option:hover {
-    color: var(--list-text-color-hover);
-  }
+.text-rich-text table td ul {
+  margin: 0;
+  padding-left: 1.1em;
+}
+.text-rich-text table td li {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: .4em;
+}
+.text-rich-text table td li:last-child { margin-bottom: 0; }

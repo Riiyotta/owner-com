@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /online-menu, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /restaurant-seo, section 0).
 export default function NavWrapper6() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper6">
@@ -76,7 +77,7 @@ export default function NavWrapper6() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/restaurant-seo" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/restaurant-seo" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M20.25 20.25L16.1265 16.1265M16.1265 16.1265C17.4385 14.8145 18.25 13.002 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.002 18.25 14.8145 17.4385 16.1265 16.1265Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -84,7 +85,7 @@ export default function NavWrapper6() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/online-menu" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/online-menu" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M8.75 6H20.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" />
                             <path d="M4.2 7.19883C4.86274 7.19883 5.4 6.66157 5.4 5.99883C5.4 5.33609 4.86274 4.79883 4.2 4.79883C3.53726 4.79883 3 5.33609 3 5.99883C3 6.66157 3.53726 7.19883 4.2 7.19883Z" fill="#2C2C2C" fillOpacity="0.5" />

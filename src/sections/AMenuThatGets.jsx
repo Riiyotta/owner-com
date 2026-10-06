@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // A menu that gets more guests t — the section's real markup, read from the rendered page (route /online-menu, section 2).
 export default function AMenuThatGets() {
   return (

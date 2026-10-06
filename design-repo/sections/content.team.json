@@ -72,5 +72,8 @@
   "assetRoles": [
     "icon"
   ],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/Team.jsx",
+  "implementedByAll": [
+    "src/sections/Team.jsx"
+  ]
 }

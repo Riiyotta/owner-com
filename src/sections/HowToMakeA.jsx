@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How To Make a Menu That Boosts — the section's real markup, read from the rendered page (route /blog/how-to-make-a-menu, section 1).

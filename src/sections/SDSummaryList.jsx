@@ -1,3 +1,4 @@
+// IA section(s): content.s-d-summary-list (ia/ia.json, design-repo/sections/)
 // s-d_summary-list — the section's real markup, read from the rendered page (route /d, section 4).
 export default function SDSummaryList() {
   return (

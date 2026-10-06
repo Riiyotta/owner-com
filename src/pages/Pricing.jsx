@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper2 from "../sections/NavWrapper2.jsx";
+import NavWrapper3 from "../sections/NavWrapper3.jsx";
 import IsHero from "../sections/IsHero.jsx";
 import SeeWhyWeRe from "../sections/SeeWhyWeRe.jsx";
 import Top3ReasonsTo from "../sections/Top3ReasonsTo.jsx";
@@ -21,8 +21,8 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-15.css?inline"; // only this page loads it
-import css13 from "../styles/inline-16.css?inline"; // only this page loads it
+import css12 from "../styles/inline-17.css?inline"; // only this page loads it
+import css13 from "../styles/inline-18.css?inline"; // only this page loads it
 
 // Route /pricing — 9 section(s), in page order.
 export default function Pricing() {
@@ -59,7 +59,7 @@ export default function Pricing() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper2 />
+      <NavWrapper3 />
       <main className="main-wrapper">
         <IsHero />
         <SeeWhyWeRe />

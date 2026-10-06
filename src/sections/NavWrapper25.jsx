@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /leadership, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /careers, section 0).
 export default function NavWrapper25() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper25">
@@ -291,12 +292,12 @@ export default function NavWrapper25() {
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/careers" className="nav-menu_link-item w-inline-block">
+                      <A data-transition="" href="/careers" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
                         <p>Careers</p>
                       </A>
                     </li>
                     <li>
-                      <A data-transition="" href="/leadership" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/leadership" className="nav-menu_link-item w-inline-block">
                         <p>Leadership</p>
                       </A>
                     </li>
@@ -323,7 +324,7 @@ export default function NavWrapper25() {
                   </ul>
                   <ul role="list" className="nav-menu_link-cards">
                     <li>
-                      <A href="/careers" className="nav-menu_link-card w-inline-block">
+                      <A href="/careers" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
                         <div className="nav-menu_cases-inner cc-transparent">
                           <p className="h5">{"We're hiring"}</p>
                         </div>

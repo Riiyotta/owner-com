@@ -1,13 +1,13 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper9 from "../sections/NavWrapper9.jsx";
+import NavWrapper10 from "../sections/NavWrapper10.jsx";
 import YourOnlineOrderingShould from "../sections/YourOnlineOrderingShould.jsx";
 import OnlineOrderingBuiltTo from "../sections/OnlineOrderingBuiltTo.jsx";
 import BgColorTaupe6 from "../sections/BgColorTaupe6.jsx";
 import FAQ6 from "../sections/FAQ6.jsx";
 import TrustedByOwners from "../sections/TrustedByOwners.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section8 from "../sections/Section8.jsx";
+import Section9 from "../sections/Section9.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -54,7 +54,7 @@ export default function OnlineOrdering() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper9 />
+      <NavWrapper10 />
       <main className="main-wrapper">
         <YourOnlineOrderingShould />
         <OnlineOrderingBuiltTo />
@@ -62,7 +62,7 @@ export default function OnlineOrdering() {
         <FAQ6 />
         <TrustedByOwners />
         <IsProductPage />
-        <Section8 />
+        <Section9 />
       </main>
     </div>
     </>

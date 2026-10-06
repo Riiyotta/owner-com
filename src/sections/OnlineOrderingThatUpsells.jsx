@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Online ordering that upsells l — the section's real markup, read from the rendered page (route /smart-upsells, section 2).
 export default function OnlineOrderingThatUpsells() {
   return (

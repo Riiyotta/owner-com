@@ -74,5 +74,25 @@
     "background",
     "video"
   ],
-  "implementedBy": "src/pages/CaseStudiesTalkinTacos.jsx"
+  "implementedBy": "src/sections/HowAshleySCafe.jsx",
+  "implementedByAll": [
+    "src/sections/HowAshleySCafe.jsx",
+    "src/sections/HowCycloNoodlesGrew.jsx",
+    "src/sections/HowDooDahDiner.jsx",
+    "src/sections/HowGoiCuonGrew.jsx",
+    "src/sections/HowGyroConceptGrew.jsx",
+    "src/sections/HowHillCrustPizzaSaved.jsx",
+    "src/sections/HowKarvGreekKouzina.jsx",
+    "src/sections/HowMattengaSPizzeria.jsx",
+    "src/sections/HowMetroPizzaIncreased.jsx",
+    "src/sections/HowRigATony.jsx",
+    "src/sections/HowSaffronGrewDirect.jsx",
+    "src/sections/HowSaludDrove10.jsx",
+    "src/sections/HowSamosOaxacaIncreased.jsx",
+    "src/sections/HowSanDiegoKabob.jsx",
+    "src/sections/HowSushiAddictsGrew.jsx",
+    "src/sections/HowSushiMeRoll.jsx",
+    "src/sections/HowTalkinTacosIncreased.jsx",
+    "src/sections/HowTownshipLinePizza.jsx"
+  ]
 }

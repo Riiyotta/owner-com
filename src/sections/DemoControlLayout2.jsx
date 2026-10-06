@@ -1,3 +1,4 @@
+// IA section(s): hero.demo-control-layout (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // demo-control-layout — the section's real markup, read from the rendered page (route /loyalty-programs-demo, section 1).
@@ -79,7 +80,7 @@ export default function DemoControlLayout2() {
         </section>
       </section>
       <section className="demo-control-right-column">
-        <astro-island uid="Z21FIzU" prefix="r5" component-url="/_apps/grader/assets/_astro/DemoPage.B5PBNnuD.js" component-export="DemoBookingForm" renderer-url="/_apps/grader/assets/_astro/client.BLUu-456.js" props={"{\"control\":[0,true],\"lastPdfDownload\":[0,\"/demo\"],\"locale\":[0],\"partnerPageKey\":[0],\"postFormSubmissionPage\":[0,\"/demo-thank-you\"]}"} client="load" opts={"{\"name\":\"DemoBookingForm\",\"value\":true}"} await-children="">
+        <astro-island uid="1BkFy0" prefix="r5" component-url="/_apps/grader/assets/_astro/DemoPage.BEmgExlm.js" component-export="DemoBookingForm" renderer-url="/_apps/grader/assets/_astro/client.BLUu-456.js" props={"{\"control\":[0,true],\"lastPdfDownload\":[0,\"/demo\"],\"locale\":[0],\"partnerPageKey\":[0],\"postFormSubmissionPage\":[0,\"/demo-thank-you\"]}"} client="load" opts={"{\"name\":\"DemoBookingForm\",\"value\":true}"} await-children="">
           <form className="demo-form demo-control-form" data-testid="demo-form" data-step="1" noValidate onSubmit={(e) => e.preventDefault()}>
             <input data-testid="cro1-hidden-field" type="hidden" name="cro1" defaultValue="" />
             <input data-testid="cro2-hidden-field" type="hidden" name="cro2" defaultValue="" />

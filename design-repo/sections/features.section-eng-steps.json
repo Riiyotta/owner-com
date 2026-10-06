@@ -52,5 +52,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/BuildersWanted.jsx"
+  "implementedBy": "src/sections/Section28.jsx",
+  "implementedByAll": [
+    "src/sections/Section28.jsx"
+  ]
 }

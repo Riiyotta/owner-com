@@ -8,12 +8,13 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 4,
-    "routes": 4,
+    "instances": 5,
+    "routes": 5,
     "measuredFrom": [
       "src/index.html:7103-9376",
       "src/ca/pricing/index.html:2367-4640",
       "src/pricing/index.html:2367-4640",
+      "src/reorders/index.html:2574-4847",
       "src/reviews/index.html:3141-5181"
     ]
   },
@@ -78,5 +79,9 @@
     "customer-logo"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/SeeWhyWeRe.jsx",
+  "implementedByAll": [
+    "src/sections/SeeWhyWeRe.jsx",
+    "src/sections/ActualReviewsFromRestaurant.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // How to Create a Restaurant App — the section's real markup, read from the rendered page (route /blog/mobile-app-for-restaurants, section 1).
@@ -650,7 +651,7 @@ export default function HowToCreateA() {
                 <a fs-toc-element="link" href="#what-is-a-branded-restaurant-app" className="blog-content_column-link">What is a branded restaurant app?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#3-reasons-why-every-restaurant-needs-a-mobile-app" className="blog-content_column-link w--current">3 reasons why every restaurant needs a mobile app</a>
+                <a fs-toc-element="link" href="#3-reasons-why-every-restaurant-needs-a-mobile-app" className="blog-content_column-link">3 reasons why every restaurant needs a mobile app</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#how-to-create-a-restaurant-mobile-app-without-a-developer" className="blog-content_column-link">How to create a restaurant mobile app (without a developer)</a>

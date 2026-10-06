@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // bg-color-bglighter — the section's real markup, read from the rendered page (route /leadership, section 2).
 export default function BgColorBglighter4() {
   return (

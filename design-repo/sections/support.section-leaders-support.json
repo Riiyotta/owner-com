@@ -8,10 +8,11 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 1,
-    "routes": 1,
+    "instances": 2,
+    "routes": 2,
     "measuredFrom": [
-      "src/leadership/index.html:2853-2887"
+      "src/leadership/index.html:2853-2887",
+      "src/pos/index.html:2691-2736"
     ]
   },
   "content": {
@@ -20,13 +21,13 @@
       "heading": {
         "type": "string",
         "required": true,
-        "maxWords": 3
+        "maxWords": 7
       },
       "body": {
         "type": "string[]",
         "required": true,
         "maxItems": 8,
-        "maxWords": 18
+        "maxWords": 29
       },
       "images": {
         "type": "image[]",
@@ -54,20 +55,25 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 784,
+      "heightPx": 848,
       "columns": 4
     },
     "mobile": {
-      "heightPx": 965,
+      "heightPx": 1188,
       "columns": 1,
       "hiddenShare": 0
     },
     "changes": [
-      "4 columns collapse to a single column"
+      "4 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
     ]
   },
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/pages/Leadership.jsx"
+  "implementedBy": "src/sections/QuotesFromInvestors.jsx",
+  "implementedByAll": [
+    "src/sections/QuotesFromInvestors.jsx",
+    "src/sections/WhatRestaurantOwnersSay.jsx"
+  ]
 }

@@ -1,0 +1,88 @@
+{
+  "id": "hero.section-demo",
+  "category": "HERO",
+  "label": "section_demo",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"See the #1 rated restaurant marketing platform in action\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/partner-request/index.html:1780-2127"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 17
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 5
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 7,
+        "assetRoles": [
+          "content-image",
+          "customer-logo",
+          "icon"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 945,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 1478,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "customer-logo",
+    "icon"
+  ],
+  "implementedBy": "src/sections/SeeThe1Rated.jsx",
+  "implementedByAll": [
+    "src/sections/SeeThe1Rated.jsx"
+  ]
+}

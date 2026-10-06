@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Everything your kitchen needs  — the section's real markup, read from the rendered page (route /kitchen-tablet, section 2).
 export default function EverythingYourKitchenNeeds() {
   return (

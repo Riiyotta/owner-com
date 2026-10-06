@@ -8,12 +8,14 @@
   "nameSource": "tag",
   "evidence": {
     "level": "measured",
-    "instances": 3,
+    "instances": 11,
     "routes": 2,
     "measuredFrom": [
       "src/builders-wanted/index.html:1175-1204",
       "src/builders-wanted/index.html:3209-3285",
-      "src/d/index.html:2834-2843"
+      "src/d/index.html:2834-2843",
+      "src/d/index.html:3222-3246",
+      "src/d/index.html:3247-3277"
     ]
   },
   "content": {
@@ -22,12 +24,12 @@
       "heading": {
         "type": "string",
         "required": false,
-        "maxWords": 7
+        "maxWords": 13
       },
       "body": {
         "type": "string[]",
-        "required": true,
-        "maxItems": 4,
+        "required": false,
+        "maxItems": 6,
         "maxWords": 81
       },
       "images": {
@@ -36,14 +38,14 @@
         "maxItems": 16,
         "assetRoles": [
           "background",
-          "content-image"
+          "content-image",
+          "video"
         ]
       }
     }
   },
   "constraints": {
-    "maxPerPage": 2,
-    "noConsecutive": true
+    "maxPerPage": 9
   },
   "motion": {
     "allowedPatterns": [
@@ -59,21 +61,33 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 526,
-      "columns": 2
+      "heightPx": 476,
+      "columns": 1
     },
     "mobile": {
       "heightPx": 600,
       "columns": 1,
       "hiddenShare": 0
     },
-    "changes": [
-      "2 columns collapse to a single column"
-    ]
+    "changes": []
   },
   "assetRoles": [
     "background",
-    "content-image"
+    "content-image",
+    "video"
   ],
-  "implementedBy": "src/pages/BuildersWanted.jsx"
+  "implementedBy": "src/sections/MaxWidthFull.jsx",
+  "implementedByAll": [
+    "src/sections/MaxWidthFull.jsx",
+    "src/sections/OurVisionStretchesFar.jsx",
+    "src/sections/UMb40.jsx",
+    "src/sections/UMb402.jsx",
+    "src/sections/UMb403.jsx",
+    "src/sections/UMb404.jsx",
+    "src/sections/UMb64.jsx",
+    "src/sections/UMb642.jsx",
+    "src/sections/UMb643.jsx",
+    "src/sections/UMb644.jsx",
+    "src/sections/WhatYouNeedTo.jsx"
+  ]
 }

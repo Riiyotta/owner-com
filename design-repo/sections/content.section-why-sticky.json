@@ -70,5 +70,8 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/pages/D.jsx"
+  "implementedBy": "src/sections/WhyWeBuild.jsx",
+  "implementedByAll": [
+    "src/sections/WhyWeBuild.jsx"
+  ]
 }

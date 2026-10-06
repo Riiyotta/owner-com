@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 9 Popular Toast Competitors Ac — the section's real markup, read from the rendered page (route /blog/toast-competitors, section 1).
@@ -1161,7 +1162,7 @@ export default function S9PopularToastCompetitors() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#1-square" className="blog-content_column-link w--current">{"1. Square "}</a>
+                <a fs-toc-element="link" href="#1-square" className="blog-content_column-link">{"1. Square "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#2-lightspeed" className="blog-content_column-link">{"2. Lightspeed "}</a>

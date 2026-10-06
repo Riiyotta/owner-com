@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Pizza Marketing: 15 Tactics To — the section's real markup, read from the rendered page (route /blog/pizza-marketing-strategy, section 1).
@@ -661,7 +662,7 @@ export default function PizzaMarketing15Tactics() {
                 <a fs-toc-element="link" href="#why-pizza-marketing-is-different" className="blog-content_column-link">{"Why pizza marketing is different "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#how-to-get-new-customers-to-your-pizzeria" className="blog-content_column-link w--current">{"How to get new customers to your pizzeria "}</a>
+                <a fs-toc-element="link" href="#how-to-get-new-customers-to-your-pizzeria" className="blog-content_column-link">{"How to get new customers to your pizzeria "}</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#earn-more-from-each-customer" className="blog-content_column-link">{"Earn more from each customer "}</a>

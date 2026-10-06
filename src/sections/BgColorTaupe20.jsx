@@ -1,64 +1,53 @@
-// bg-color-taupe — the section's real markup, read from the rendered page (route /case-studies/talkin-tacos, section 3).
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
+// bg-color-taupe — the section's real markup, read from the rendered page (route /email-sms-marketing, section 3).
 export default function BgColorTaupe20() {
   return (
     <section data-section-overlap="" className="section-base bg-color-taupe" data-clone-section="BgColorTaupe20">
       <div className="container-large">
         <div className="section-base-wrap">
-          <div className="section-base-row">
-            <div className="cs-feature_box">
-              <h2 className="h4">Why they needed to switch to Owner</h2>
-              <div className="max-width-full w-dyn-list">
-                <div role="list" className="max-width-full w-dyn-items">
-                  <div role="listitem" className="cs-feature_box-item w-dyn-item">
-                    <div className="u-mb-4">
-                      <div className="h5">Guest experience</div>
-                    </div>
-                    <div className="opacity-50">
-                      <div className="text-color-grey">
-                        <div className="body-m">The most important question to Mo and Omar is: what’s best for our guest? They felt they needed to make it easier for regulars to order takeout from them.</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div role="listitem" className="cs-feature_box-item w-dyn-item">
-                    <div className="u-mb-4">
-                      <div className="h5">Losing money</div>
-                    </div>
-                    <div className="opacity-50">
-                      <div className="text-color-grey">
-                        <div className="body-m">Delivery apps and fees were growing rapidly, which meant they were losing over $20,000 per month in commissions.</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div role="listitem" className="cs-feature_box-item w-dyn-item">
-                    <div className="u-mb-4">
-                      <div className="h5">No sales increases</div>
-                    </div>
-                    <div className="opacity-50">
-                      <div className="text-color-grey">
-                        <div className="body-m">Their PoS system Toast doesn’t help proactively increase their sales.</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div role="listitem" className="cs-feature_box-item w-dyn-item">
-                    <div className="u-mb-4">
-                      <div className="h5">Team morale</div>
-                    </div>
-                    <div className="opacity-50">
-                      <div className="text-color-grey">
-                        <div className="body-m">The delivery apps were growing as a part of the business and didn’t share tips, which meant lower wages for the staff. They wanted a platform that helped them drive more tips to compensate their staff and keep them happy.</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="cs-feature_visual">
-              <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e8c133b021f490c11f_69f4f37fc34b09ee4b3f4fa5_69b9330c8b70142e4e5f8655_talkin-tacos%252520(1).jpg.avif" loading="lazy" alt="" className="img-cover" />
+          <div className="section-base_head cc-center">
+            <div className="max-width-582">
+              <h2 className="h3">
+                {"How "}
+                <span className="text-color-muted">Email and SMS marketing</span>
+                {" looks like with Owner"}
+                <br />
+              </h2>
             </div>
           </div>
+          <ul role="list" className="product-traffict_list">
+            <li className="product-traffict_item is-email-mkt">
+              <div className="product-traffict_top-content cc-left">
+                <div className="product-traffict_visual is-email-mkt">
+                  <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d39c2fbeeb49ba60420a26_567a032162f5f488414c9b8badb5a3a7_email-marketing-visual-large.png" loading="lazy" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d39c2fbeeb49ba60420a26_567a032162f5f488414c9b8badb5a3a7_email-marketing-visual-large-p-500.png 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d39c2fbeeb49ba60420a26_567a032162f5f488414c9b8badb5a3a7_email-marketing-visual-large.png 782w" alt="Stacked green cards with text: Convert new customers, Get guests to finish orders by contacting people who left items in their cart, and Bring back old customers by targeting diners who haven't ordered online recently." className="img-cover" />
+                </div>
+              </div>
+              <div className="product-traffict_top-content cc-right">
+                <div className="u-mb-4">
+                  <div className="body-s text-weight-semibold">Built-in and automated</div>
+                </div>
+                <div className="h3 text-weight-normal">Email and text campaigns that grow your sales.</div>
+              </div>
+            </li>
+            <li className="product-traffict_item is-email_left">
+              <div className="product-traffict_item-top">
+                <div className="body-m">Pre-optimized</div>
+                <div className="max-width-390">
+                  <div className="h4">Every message is tested across thousands of restaurants.</div>
+                </div>
+              </div>
+            </li>
+            <li className="product-traffict_item is-email_right">
+              <div className="product-traffict_item-top">
+                <div className="body-m">You’re in control</div>
+                <div className="max-width-350">
+                  <div className="h4">Send your own campaigns from the dashboard anytime.</div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="embed w-embed"></div>
     </section>
   );
 }

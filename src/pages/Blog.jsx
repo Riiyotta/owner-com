@@ -1,12 +1,12 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper31 from "../sections/NavWrapper31.jsx";
+import NavWrapper32 from "../sections/NavWrapper32.jsx";
 import TheMarketingMenu from "../sections/TheMarketingMenu.jsx";
 import MostRecent from "../sections/MostRecent.jsx";
 import ExploreTopics from "../sections/ExploreTopics.jsx";
 import IncreaseOnlineSales from "../sections/IncreaseOnlineSales.jsx";
 import IsProductPage from "../sections/IsProductPage.jsx";
-import Section31 from "../sections/Section31.jsx";
+import Section32 from "../sections/Section32.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -19,7 +19,7 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-36.css?inline"; // only this page loads it
+import css12 from "../styles/inline-38.css?inline"; // only this page loads it
 
 // Route /blog — 7 section(s), in page order.
 export default function Blog() {
@@ -55,7 +55,7 @@ export default function Blog() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper31 />
+      <NavWrapper32 />
       <main className="main-wrapper">
         <TheMarketingMenu />
         <MostRecent />
@@ -63,7 +63,7 @@ export default function Blog() {
         <IncreaseOnlineSales />
         <IsProductPage />
       </main>
-      <Section31 />
+      <Section32 />
     </div>
     </>
   );

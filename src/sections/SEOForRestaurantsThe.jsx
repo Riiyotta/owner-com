@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // SEO for Restaurants: The Compl — the section's real markup, read from the rendered page (route /blog/seo-for-restaurants, section 1).
@@ -991,7 +992,7 @@ export default function SEOForRestaurantsThe() {
                 <a fs-toc-element="link" href="#what-is-restaurant-seo" className="blog-content_column-link">What is Restaurant SEO?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#do-all-restaurants-need-seo" className="blog-content_column-link w--current">Do All Restaurants Need SEO?</a>
+                <a fs-toc-element="link" href="#do-all-restaurants-need-seo" className="blog-content_column-link">Do All Restaurants Need SEO?</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#how-google-ranks-restaurants-in-search-results" className="blog-content_column-link">How Google Ranks Restaurants in Search Results</a>

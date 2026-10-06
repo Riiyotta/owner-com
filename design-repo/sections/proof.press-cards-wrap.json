@@ -72,5 +72,8 @@
     "logo"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/pages/Press.jsx"
+  "implementedBy": "src/sections/PressCardsWrap.jsx",
+  "implementedByAll": [
+    "src/sections/PressCardsWrap.jsx"
+  ]
 }

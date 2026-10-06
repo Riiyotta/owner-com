@@ -1,17 +1,17 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper14 from "../sections/NavWrapper14.jsx";
+import NavWrapper15 from "../sections/NavWrapper15.jsx";
 import ThePOSBuiltTo from "../sections/ThePOSBuiltTo.jsx";
 import HowOwnerPOSTurns from "../sections/HowOwnerPOSTurns.jsx";
 import WhatRestaurantOwnersSay from "../sections/WhatRestaurantOwnersSay.jsx";
 import Top3ReasonsTo2 from "../sections/Top3ReasonsTo2.jsx";
 import FAQ11 from "../sections/FAQ11.jsx";
 import TheEasiestWayTo4 from "../sections/TheEasiestWayTo4.jsx";
-import Section13 from "../sections/Section13.jsx";
+import Section14 from "../sections/Section14.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
-import css3 from "../styles/inline-17.css?inline"; // only this page loads it
+import css3 from "../styles/inline-19.css?inline"; // only this page loads it
 import css4 from "../styles/inline-04.css?inline"; // only this page loads it
 import css5 from "../styles/inline-05.css?inline"; // only this page loads it
 import css6 from "../styles/inline-06.css?inline"; // only this page loads it
@@ -57,7 +57,7 @@ export default function Pos() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper14 />
+      <NavWrapper15 />
       <main className="main-wrapper">
         <ThePOSBuiltTo />
         <HowOwnerPOSTurns />
@@ -65,7 +65,7 @@ export default function Pos() {
         <Top3ReasonsTo2 />
         <FAQ11 />
         <TheEasiestWayTo4 />
-        <Section13 />
+        <Section14 />
       </main>
     </div>
     </>

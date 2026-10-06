@@ -1,10 +1,11 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /our-story, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /pos-integrations, section 0).
 export default function NavWrapper23() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper23">
-      <nav data-nav="component" data-transition="" data-wf--navbar--variant="taupe-light" className="nav w-variant-5c493a67-e3e3-1ff1-830f-3911b78d4db8">
+      <nav data-nav="component" data-transition="" data-wf--navbar--variant="base" className="nav">
         <div data-nav="container" className="container-large">
           <div className="nav-wrap">
             <div className="nav-part">
@@ -255,7 +256,7 @@ export default function NavWrapper23() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/pos-integrations" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/pos-integrations" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M2.75 9.75103V17.2471C2.75 18.3517 3.64543 19.2471 4.75 19.2471H19.2461C20.3507 19.2471 21.2461 18.3517 21.2461 17.2471V9.75103M2.75 9.75103V6.75391C2.75 5.64934 3.64543 4.75391 4.75 4.75391H19.248C20.3503 4.75391 21.2448 5.6458 21.2457 6.7481C21.2464 7.74907 21.2461 8.75005 21.2461 9.75103M2.75 9.75103H21.2461M6.75 13.251H9.75" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                           </svg>
@@ -286,7 +287,7 @@ export default function NavWrapper23() {
                 <li data-dropdown-target="company" className="nav-menu_dropdown">
                   <ul role="list" className="nav-menu_link-list">
                     <li>
-                      <A data-transition="" href="/our-story" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/our-story" className="nav-menu_link-item w-inline-block">
                         <p>Our Story</p>
                       </A>
                     </li>

@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /ai-phone-ordering, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /catering, section 0).
 export default function NavWrapper13() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper13">
@@ -149,7 +150,7 @@ export default function NavWrapper13() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/catering" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/catering" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M4.75 8.75C4.75 8.19772 5.19772 7.75 5.75 7.75H16.25C16.8023 7.75 17.25 8.19772 17.25 8.75V19.25C17.25 20.3546 16.3546 21.25 15.25 21.25H6.75C5.64543 21.25 4.75 20.3546 4.75 19.25V8.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" />
                             <path d="M17.25 9.75H18.5C20.0188 9.75 21.25 10.9812 21.25 12.5C21.25 14.0188 20.0188 15.25 18.5 15.25H17.25V9.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" />
@@ -161,7 +162,7 @@ export default function NavWrapper13() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/ai-phone-ordering" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/ai-phone-ordering" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M16.4774 13.8543L13.8543 15.5729C11.5814 14.2962 9.70375 12.4186 8.42713 10.1457L10.1457 7.52261L8.33668 3H4.71859L3 4.71859C3.40097 8.90085 5.24513 12.8132 8.21599 15.784C11.1868 18.7549 15.0992 20.599 19.2814 21L21 19.2814V15.6633L16.4774 13.8543Z" stroke="#909090" strokeWidth="1.5" strokeMiterlimit="10" />
                           </svg>
@@ -396,8 +397,8 @@ export default function NavWrapper13() {
                 <a data-button-instance="" className="btn is-nav-text w-inline-block is-link">
                   <div data-button-text="" className="btn-text">Login</div>
                 </a>
-                <a data-button-instance="" target="_blank" className="btn is-nav w-inline-block is-black">
-                  <div data-button-text="" className="btn-text">Join the waitlist</div>
+                <a data-button-instance="" className="btn is-nav w-inline-block is-black">
+                  <div data-button-text="" className="btn-text">Get a free demo</div>
                 </a>
               </div>
               <button data-nav-menu="trigger" className="nav-ham">

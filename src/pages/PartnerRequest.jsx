@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper28 from "../sections/NavWrapper28.jsx";
+import NavWrapper29 from "../sections/NavWrapper29.jsx";
 import SeeThe1Rated from "../sections/SeeThe1Rated.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
@@ -13,7 +13,7 @@ import css7 from "../styles/inline-08.css?inline"; // only this page loads it
 import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
-import css11 from "../styles/inline-29.css?inline"; // only this page loads it
+import css11 from "../styles/inline-31.css?inline"; // only this page loads it
 
 // Route /partner-request — 2 section(s), in page order.
 export default function PartnerRequest() {
@@ -45,7 +45,7 @@ export default function PartnerRequest() {
         <div className="hide w-embed"></div>
       </div>
       <div className="w-embed"></div>
-      <NavWrapper28 />
+      <NavWrapper29 />
       <main className="main-wrapper">
         <SeeThe1Rated />
       </main>

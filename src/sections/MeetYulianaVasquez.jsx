@@ -1,3 +1,4 @@
+// IA section(s): content.section-eng-row (ia/ia.json, design-repo/sections/)
 // Meet Yuliana Vasquez. — the section's real markup, read from the rendered page (route /builders-wanted, section 3).
 export default function MeetYulianaVasquez() {
   return (

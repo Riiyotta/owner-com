@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /kitchen-tablet, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /reporting-analytics, section 0).
 export default function NavWrapper21() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper21">
@@ -237,7 +238,7 @@ export default function NavWrapper21() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/reporting-analytics" className="nav-menu_product-link w-inline-block">
+                        <A data-nav="product-link" data-transition="" href="/reporting-analytics" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M21.0646 8.3476C20.3564 5.71649 18.2844 3.64447 15.6533 2.9363C15.3802 2.8628 15.2437 2.82605 15.1084 2.86602C14.9978 2.89869 14.8841 2.98584 14.8238 3.08415C14.75 3.20444 14.75 3.36078 14.75 3.67348V8.4509C14.75 8.73093 14.75 8.87094 14.8045 8.9779C14.8524 9.07198 14.9289 9.14847 15.023 9.19641C15.13 9.2509 15.27 9.2509 15.55 9.2509H20.3274C20.6401 9.2509 20.7965 9.2509 20.9168 9.17713C21.0151 9.11685 21.1022 9.00313 21.1349 8.89253C21.1748 8.75721 21.1381 8.62067 21.0646 8.3476Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M19.25 13C19.25 17.5563 15.5563 21.25 11 21.25C6.44365 21.25 2.75 17.5563 2.75 13C2.75 8.44365 6.44365 4.75 11 4.75C11.085 4.75 11.1697 4.75129 11.2541 4.75384V10.3502C11.2541 11.1903 11.2541 11.6103 11.4176 11.9312C11.5614 12.2135 11.7909 12.4429 12.0732 12.5867C12.394 12.7502 12.8141 12.7502 13.6541 12.7502H19.2463C19.2488 12.8332 19.25 12.9164 19.25 13Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -246,7 +247,7 @@ export default function NavWrapper21() {
                         </A>
                       </li>
                       <li>
-                        <A data-nav="product-link" data-transition="" href="/kitchen-tablet" aria-current="page" className="nav-menu_product-link w-inline-block w--current">
+                        <A data-nav="product-link" data-transition="" href="/kitchen-tablet" className="nav-menu_product-link w-inline-block">
                           <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 24" fill="none" className="icon-24">
                             <path d="M4.75 4.75C4.75 3.64543 5.64543 2.75 6.75 2.75H17.25C18.3546 2.75 19.25 3.64543 19.25 4.75V19.25C19.25 20.3546 18.3546 21.25 17.25 21.25H6.75C5.64543 21.25 4.75 20.3546 4.75 19.25V4.75Z" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                             <path d="M8.75 18.25H15.25" stroke="#2C2C2C" strokeOpacity="0.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

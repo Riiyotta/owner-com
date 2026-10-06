@@ -1,3 +1,4 @@
+// IA section(s): proof.section-beliefs (ia/ia.json, design-repo/sections/)
 // Top 3 reasons to choose Owner — the section's real markup, read from the rendered page (route /pricing, section 3; shared by 2 routes).
 export default function Top3ReasonsTo() {
   return (

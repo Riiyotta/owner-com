@@ -75,5 +75,8 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/IncreaseOnlineSales.jsx",
+  "implementedByAll": [
+    "src/sections/IncreaseOnlineSales.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.section-eng-intro (ia/ia.json, design-repo/sections/)
 // We want you if: — the section's real markup, read from the rendered page (route /builders-wanted, section 1).
 export default function WeWantYouIf() {
   return (

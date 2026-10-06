@@ -1,3 +1,4 @@
+// IA section(s): hero.section-s-d-hero (ia/ia.json, design-repo/sections/)
 // An inside look at our $240M Se — the section's real markup, read from the rendered page (route /d, section 1).
 export default function AnInsideLookAt() {
   return (
@@ -64,7 +65,7 @@ export default function AnInsideLookAt() {
       <div className="s-d-hero_lines">
         <div className="img-cover w-embed w-script">
           <div className="owner-star" data-star="" data-star-count="24" data-star-inner="0.08" data-star-step="0.215" data-star-duration="44" data-star-fade-in="1" data-star-fade-out="0.54" data-star-direction="1" data-star-ready="1">
-            <img src="/stills/860b1ff1.png" alt="" data-star-canvas="" aria-hidden="true" width={1191} height={1131} />
+            <img src="/stills/d1378eda.png" alt="" data-star-canvas="" aria-hidden="true" width={1191} height={1131} />
           </div>
         </div>
       </div>

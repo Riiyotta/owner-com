@@ -16,23 +16,23 @@
     "file": "tokens/themes/light.json"
   },
   "sourceProject": {
-    "url": "https://www.owner.com/?ref=saaspo.com",
+    "url": "https://www.owner.com/",
     "framework": "Webflow+GSAP",
-    "scrapedAt": "2026-10-05T10:30:12Z"
+    "scrapedAt": "2026-10-06T09:06:08Z"
   },
   "generatedBy": "website-builder (heuristic extraction; see README)",
   "counts": {
     "sections": 67,
-    "templates": 22,
+    "templates": 25,
     "routes": 144,
     "primitives": 16,
     "components": 300,
-    "assets": 2737,
+    "assets": 2812,
     "tokens": {
       "foundation": 186,
       "semantic": 19,
       "component": 23,
-      "layout": 17
+      "layout": 16
     },
     "themes": 1,
     "rules": 7

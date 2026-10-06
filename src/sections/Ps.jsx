@@ -1,3 +1,4 @@
+// IA section(s): content.ps (ia/ia.json, design-repo/sections/)
 // ps — the section's real markup, read from the rendered page (route /d, section 22).
 export default function Ps() {
   return (

@@ -67,5 +67,9 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/Pricing.jsx"
+  "implementedBy": "src/sections/Form.jsx",
+  "implementedByAll": [
+    "src/sections/Form.jsx",
+    "src/sections/Form2.jsx"
+  ]
 }

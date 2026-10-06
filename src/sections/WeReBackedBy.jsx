@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // We’re backed by some of the be — the section's real markup, read from the rendered page (route /careers, section 6; shared by 2 routes).
 export default function WeReBackedBy() {
   return (

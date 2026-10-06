@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // section — the section's real markup, read from the rendered page (route /case-studies/gyro-concept, section 4).
 export default function Section48() {
   return (

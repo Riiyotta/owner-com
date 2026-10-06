@@ -1,3 +1,4 @@
+// IA section(s): content.section-s-d-future (ia/ia.json, design-repo/sections/)
 // Every type of local business.  — the section's real markup, read from the rendered page (route /d, section 17).
 export default function EveryTypeOfLocal() {
   return (

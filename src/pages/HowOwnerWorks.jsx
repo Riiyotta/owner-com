@@ -1,10 +1,10 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper3 from "../sections/NavWrapper3.jsx";
+import NavWrapper4 from "../sections/NavWrapper4.jsx";
 import YouCouldBeGetting from "../sections/YouCouldBeGetting.jsx";
 import BgColorBglighter from "../sections/BgColorBglighter.jsx";
 import TheEasiestWayTo2 from "../sections/TheEasiestWayTo2.jsx";
-import Section2 from "../sections/Section2.jsx";
+import Section3 from "../sections/Section3.jsx";
 import css0 from "../styles/01-owner-redesign-2026.webflow.shared.a9749.css?inline"; // only this page loads it
 import css1 from "../styles/inline-01.css?inline"; // only this page loads it
 import css2 from "../styles/inline-03.css?inline"; // only this page loads it
@@ -17,7 +17,7 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-17.css?inline"; // only this page loads it
+import css12 from "../styles/inline-19.css?inline"; // only this page loads it
 
 // Route /how-owner-works — 5 section(s), in page order.
 export default function HowOwnerWorks() {
@@ -53,14 +53,14 @@ export default function HowOwnerWorks() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper3 />
+      <NavWrapper4 />
       <div className="hide w-embed"></div>
       <main className="main-wrapper">
         <YouCouldBeGetting />
         <BgColorBglighter />
         <TheEasiestWayTo2 />
       </main>
-      <Section2 />
+      <Section3 />
     </div>
     </>
   );

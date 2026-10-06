@@ -1,3 +1,4 @@
+// IA section(s): content.section-blog-categories (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Increase Online Sales — the section's real markup, read from the rendered page (route /blog, section 4).

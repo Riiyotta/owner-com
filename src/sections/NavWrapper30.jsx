@@ -1,6 +1,7 @@
+// IA section(s): shell.nav-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// nav-wrapper — the section's real markup, read from the rendered page (route /case-studies, section 0).
+// nav-wrapper — the section's real markup, read from the rendered page (route /d, section 0).
 export default function NavWrapper30() {
   return (
     <div className="nav-wrapper" data-clone-section="NavWrapper30">
@@ -331,7 +332,7 @@ export default function NavWrapper30() {
                       </A>
                     </li>
                     <li>
-                      <A href="/d" className="nav-menu_link-card w-inline-block">
+                      <A href="/d" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
                         <div className="nav-menu_cases-inner">
                           <p className="h5">See the memo from Owner’s $240M Series D raise</p>
                         </div>
@@ -343,7 +344,7 @@ export default function NavWrapper30() {
                 <li data-dropdown-target="resources" className="nav-menu_dropdown">
                   <ul role="list" className="nav-menu_link-list">
                     <li>
-                      <A data-transition="" href="/case-studies" aria-current="page" className="nav-menu_link-item w-inline-block w--current">
+                      <A data-transition="" href="/case-studies" className="nav-menu_link-item w-inline-block">
                         <p>Case Studies</p>
                       </A>
                     </li>
@@ -380,7 +381,7 @@ export default function NavWrapper30() {
                       </A>
                     </li>
                     <li>
-                      <A href="/case-studies" aria-current="page" className="nav-menu_link-card w-inline-block w--current">
+                      <A href="/case-studies" className="nav-menu_link-card w-inline-block">
                         <div className="nav-menu_cases-inner cc-transparent">
                           <p className="h5">See all case studies</p>
                         </div>

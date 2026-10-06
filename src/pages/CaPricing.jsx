@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import NavWrapper36 from "../sections/NavWrapper36.jsx";
+import NavWrapper2 from "../sections/NavWrapper2.jsx";
 import IsHero2 from "../sections/IsHero2.jsx";
 import SeeWhyWeRe from "../sections/SeeWhyWeRe.jsx";
 import Top3ReasonsTo from "../sections/Top3ReasonsTo.jsx";
@@ -21,8 +21,8 @@ import css8 from "../styles/inline-09.css?inline"; // only this page loads it
 import css9 from "../styles/inline-10.css?inline"; // only this page loads it
 import css10 from "../styles/inline-11.css?inline"; // only this page loads it
 import css11 from "../styles/inline-12.css?inline"; // only this page loads it
-import css12 from "../styles/inline-15.css?inline"; // only this page loads it
-import css13 from "../styles/inline-16.css?inline"; // only this page loads it
+import css12 from "../styles/inline-17.css?inline"; // only this page loads it
+import css13 from "../styles/inline-18.css?inline"; // only this page loads it
 
 // Route /ca/pricing — 9 section(s), in page order.
 export default function CaPricing() {
@@ -59,7 +59,7 @@ export default function CaPricing() {
         <div className="hide w-embed"></div>
         <div className="hide w-embed w-script"></div>
       </div>
-      <NavWrapper36 />
+      <NavWrapper2 />
       <main className="main-wrapper">
         <IsHero2 />
         <SeeWhyWeRe />

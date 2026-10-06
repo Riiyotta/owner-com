@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // The most direct channel you ha — the section's real markup, read from the rendered page (route /push-notifications, section 2).
 export default function TheMostDirectChannel() {
   return (

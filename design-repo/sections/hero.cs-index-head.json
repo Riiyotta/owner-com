@@ -67,5 +67,8 @@
   "assetRoles": [
     "customer-logo"
   ],
-  "implementedBy": "src/pages/CaseStudies.jsx"
+  "implementedBy": "src/sections/CsIndexHead.jsx",
+  "implementedByAll": [
+    "src/sections/CsIndexHead.jsx"
+  ]
 }

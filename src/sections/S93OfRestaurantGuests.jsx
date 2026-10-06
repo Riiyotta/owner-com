@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 93% of Restaurant Guests Will  — the section's real markup, read from the rendered page (route /blog/restaurant-mobile-app, section 1).
@@ -601,7 +602,7 @@ export default function S93OfRestaurantGuests() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#takeaway-1-93percent-of-guests-are-willing-to-download-mobile-apps-from-their-favorite-restaurants" className="blog-content_column-link w--current">Takeaway #1: 93% of guests are willing to download mobile apps from their favorite restaurants</a>
+                <a fs-toc-element="link" href="#takeaway-1-93percent-of-guests-are-willing-to-download-mobile-apps-from-their-favorite-restaurants" className="blog-content_column-link">Takeaway #1: 93% of guests are willing to download mobile apps from their favorite restaurants</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#takeaway-2-guests-are-much-more-likely-to-use-mobile-apps-if-theyre-a-regular-which-starts-with-as-little-as-2-orders-per-month" className="blog-content_column-link">Takeaway #2: Guests are much more likely to use mobile apps if they’re a “regular,” which starts with as little as 2 orders per month</a>

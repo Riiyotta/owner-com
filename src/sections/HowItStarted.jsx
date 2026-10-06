@@ -1,3 +1,4 @@
+// IA section(s): content.section-about-how (ia/ia.json, design-repo/sections/)
 // How it started — the section's real markup, read from the rendered page (route /our-story, section 4).
 export default function HowItStarted() {
   return (

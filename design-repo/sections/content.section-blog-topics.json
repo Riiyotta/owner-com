@@ -72,5 +72,8 @@
     "background",
     "icon"
   ],
-  "implementedBy": "src/pages/Blog.jsx"
+  "implementedBy": "src/sections/ExploreTopics.jsx",
+  "implementedByAll": [
+    "src/sections/ExploreTopics.jsx"
+  ]
 }

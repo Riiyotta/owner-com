@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Run a loyalty program your reg — the section's real markup, read from the rendered page (route /loyalty-rewards, section 2).
 export default function RunALoyaltyProgram() {
   return (

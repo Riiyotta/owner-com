@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 9 Best POS Systems for Cafes a — the section's real markup, read from the rendered page (route /blog/cafe-pos, section 1).

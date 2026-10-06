@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Board of Directors — the section's real markup, read from the rendered page (route /leadership, section 3).
 export default function BoardOfDirectors() {
   return (

@@ -1,5 +1,1 @@
-
-  .blog-categories_item:first-child {
-    padding-top: 0em;
-    border-top: none;
-  }
+.owner-map{position:relative;z-index:1;width:min(860px,98%);margin:auto 0;}.owner-map canvas{display:block;width:100%;height:auto;position:relative;z-index:1;}.owner-map__borders{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;display:block;}

@@ -1,3 +1,4 @@
+// IA section(s): support.section-leaders-support (ia/ia.json, design-repo/sections/)
 // Quotes from investors — the section's real markup, read from the rendered page (route /leadership, section 4).
 export default function QuotesFromInvestors() {
   return (

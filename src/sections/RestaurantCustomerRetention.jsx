@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // Restaurant Customer Retention: — the section's real markup, read from the rendered page (route /blog/restaurant-customer-retention, section 1).
@@ -1081,7 +1082,7 @@ export default function RestaurantCustomerRetention() {
                 <div className="body-s">In this article</div>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#3-reasons-why-retention-is-so-important-for-restaurants" className="blog-content_column-link w--current">3 reasons why retention is so important for restaurants</a>
+                <a fs-toc-element="link" href="#3-reasons-why-retention-is-so-important-for-restaurants" className="blog-content_column-link">3 reasons why retention is so important for restaurants</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#5-strategies-to-improve-guest-retention-for-restaurants" className="blog-content_column-link">5 strategies to improve guest retention for restaurants</a>

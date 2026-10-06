@@ -1,3 +1,4 @@
+// IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Contact Support — the section's real markup, read from the rendered page (route /support, section 2).
 export default function ContactSupport() {
   return (

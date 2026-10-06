@@ -1,3 +1,4 @@
+// IA section(s): support.section-leaders-support (ia/ia.json, design-repo/sections/)
 // What restaurant owners say abo — the section's real markup, read from the rendered page (route /pos, section 3).
 export default function WhatRestaurantOwnersSay() {
   return (

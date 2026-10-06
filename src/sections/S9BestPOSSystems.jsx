@@ -1,3 +1,4 @@
+// IA section(s): hero.section-blog-content (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // 9 Best POS Systems for Restaur — the section's real markup, read from the rendered page (route /blog/best-pos-system-for-restaurants, section 1).
@@ -1133,7 +1134,7 @@ export default function S9BestPOSSystems() {
                 <a fs-toc-element="link" href="#what-is-a-restaurant-pos-system" className="blog-content_column-link">What is a restaurant POS system?</a>
               </div>
               <div className="blog-content_column-toc_inner">
-                <a fs-toc-element="link" href="#best-pos-systems-for-restaurants-at-a-glance" className="blog-content_column-link w--current">Best POS systems for restaurants at a glance</a>
+                <a fs-toc-element="link" href="#best-pos-systems-for-restaurants-at-a-glance" className="blog-content_column-link">Best POS systems for restaurants at a glance</a>
               </div>
               <div className="blog-content_column-toc_inner">
                 <a fs-toc-element="link" href="#1-square" className="blog-content_column-link">{"1. Square "}</a>

@@ -1,95 +1,66 @@
 {
   "pageSpecVersion": "0.1.0",
-  "template": "template.group-3",
-  "route": "/reviews-engine",
+  "template": "template.blog-2",
+  "route": "/blog/seo-for-restaurants",
   "nodes": [
     {
-      "type": "hero.page-wrapper",
+      "type": "shell.nav-wrapper",
       "content": {
-        "heading": "We'll grow your Google reviews.",
         "body": [
           "Product",
           "Pricing",
           "How it works",
           "Company",
           "Resources",
-          "Owner automatically drives more reviews for your restaurant, so your Google rating keeps growing and new customers keep finding you.",
-          "See how our Reviews Engine boosts Enga's online presence",
-          "Enga Stanfield — Mattenga's Pizzeria",
-          "00:00",
-          "/",
-          "00:23",
-          "AI Phone Ordering",
-          "Point of Sale",
-          "2026 © Owner.com | All rights reserved."
+          "Case Studies",
+          "Blog",
+          "Help Center",
+          "Restaurant Grader",
+          "Support Center",
+          "How Alex from Karv Greek Kouzina grew online sales to $40K/month with Owner.com",
+          "See all case studies"
         ],
         "ctas": [
+          {
+            "label": "Pricing",
+            "href": "/pricing"
+          },
+          {
+            "label": "How it works",
+            "href": "/how-owner-works"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Help Center"
+          },
+          {
+            "label": "Restaurant Grader"
+          },
+          {
+            "label": "Support Center",
+            "href": "/support"
+          },
+          {
+            "label": "How Alex from Karv Greek Kouzina grew online sales to $40K/month with Owner.com",
+            "href": "/case-studies/karv-greek-kouzina"
+          },
+          {
+            "label": "See all case studies",
+            "href": "/case-studies"
+          },
           {
             "label": "Login"
           },
           {
             "label": "Get a free demo",
             "href": "/demo"
-          },
-          {
-            "label": "Get a free demo",
-            "href": "/demo"
-          },
-          {
-            "label": "View pricing",
-            "href": "/pricing"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/metro-pizza"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/doo-dah-diner"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/karv-greek-kouzina"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/saffron"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/mattengas-pizzeria"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/township-line-pizza"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/talkin-tacos"
-          },
-          {
-            "label": "Learn more",
-            "href": "/case-studies/san-diego-kabob-shack"
-          }
-        ],
-        "items": [
-          {
-            "title": "The easiest way to get more Google reviews",
-            "body": "Owner drives a steady stream of Google reviews without you having to ask every single customer."
-          },
-          {
-            "title": "An engine for driving more Google reviews."
-          },
-          {
-            "title": "FAQ",
-            "body": "Owner sends automated review requests to your customers after they order, making it easy for happy guests to leave a Google review. The better your guest experience, the more reviews you get, and Owner is built to make every interaction seamless."
-          },
-          {
-            "title": "Trusted by owners",
-            "body": "+54%"
-          },
-          {
-            "title": "The easiest way to grow your restaurant online"
           }
         ],
         "images": [
@@ -114,136 +85,349 @@
           {
             "assetRole": "content-image",
             "alt": "Green gradient background with subtle curved line patterns."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.section-blog-content",
+      "content": {
+        "heading": "SEO for Restaurants: The Complete Guide to Restaurant SEO (2026)",
+        "subheading": "Restaurant SEO FAQ",
+        "body": [
+          "Our best SEO tips for busy restaurant owners who want to get more traffic from Google.",
+          "When it comes to getting more customers, most restaurant owners focus on social media, ads, or flyers, but the most powerful tool is often overlooked: restaurant SEO. Ranking high in Google searches puts your restaurant in front of people who are already hungry and ready to order.",
+          "SEO doesn’t have to be complicated. Most guides are written for marketers, not busy restaurant owners, but with the right approach, even a small team can see real results.",
+          "In this post, I’ll cover everything you need to know about SEO for restaurants, reveal 4 big wins that can drive more orders, and show exactly how to put them into action.",
+          "Here are answers to some of the most common questions we hear from restaurant owners about SEO. These tips focus on local search, keywords, and website structure to help your restaurant get more visibility and orders.",
+          "Make sure your name, address, and phone number are accurate and consistent across Google and all other online directories. Add high-quality photos, keep your hours up to date, respond to reviews, and use relevant keywords in your business description. These steps help Google understand your restaurant and show it to local diners.",
+          "Focus on keywords that combine your cuisine, signature dishes, and location, like “best pasta in [City]” or “authentic Italian restaurant in [Neighborhood].” Include these in your homepage title, main headline, and menu pages to capture local search traffic.",
+          "Use text-based menus rather than PDFs or images so Google can read your content. Organize items by category (e.g., appetizers, entrees, desserts) and naturally incorporate your keywords into dish names and descriptions. Make sure each menu page is easy to navigate on mobile and includes clear calls to action, such as “Order Online” or “Reserve a Table.”",
+          "Hengam Stanfield is the co-founder of Mattenga's Pizzeria, a seven-location restaurant group in San Antonio, TX. A former electrical engineer turned restaurateur, she applies a data-driven mindset to operations and marketing. Her work has been featured in PMQ Pizza Magazine, INC., Food & Wine, and Martha Stewart Living. Mattenga's has been voted Best Pizza in San Antonio and named Pizzeria of the Year by Pizza Today.",
+          "Take back control of your margins, customer data, and online reputation."
+        ],
+        "ctas": [
+          {
+            "label": "Check your SEO score"
+          },
+          {
+            "label": "Get a free demo",
+            "href": "/demo"
+          },
+          {
+            "label": "Get a free demo",
+            "href": "/demo"
+          },
+          {
+            "label": "See your website's grade"
+          }
+        ],
+        "items": [
+          {
+            "title": "What is Restaurant SEO?",
+            "body": "Restaurant SEO is how you get your restaurant to the top of Google search results."
+          },
+          {
+            "title": "Do All Restaurants Need SEO?",
+            "body": "Some restaurants need more SEO than others. Let’s say your restaurant does a lot of takeout. This makes SEO essential because likely thousands of people in your area are searching for food online."
+          },
+          {
+            "title": "How Google Ranks Restaurants in Search Results",
+            "body": "Google decides which restaurants to rank (and in what order) based on three core factors: relevance, distance and prominence. Relevance is how well your restaurant website matches what someone is searching for."
+          },
+          {
+            "title": "How to do SEO for Restaurants (Step-by-Step Guide)",
+            "body": "You don't need to be an online marketing genius or SEO expert to get your restaurant website to rank well and drive traffic from customers. All you need is this handy guide which breaks it all down for you and the right tools. Let's dive in."
+          },
+          {
+            "title": "The Worst SEO Mistakes Your Restaurant Should Avoid",
+            "body": "Restaurant owners make these mistakes because no one told them they were wrong. That’s okay: you’re a restaurant owner. You didn’t study digital marketing!"
+          },
+          {
+            "title": "Advanced SEO Tips For Restaurants",
+            "body": "In this last section, we’ll give you SEO tips to supercharge your Google traffic even more. These advanced search engine optimization best practices will give your restaurant an even bigger competitive edge."
+          },
+          {
+            "title": "Start ASAP: SEO is your biggest opportunity",
+            "body": "Search engine optimization is the biggest opportunity for most restaurants."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "hero-image"
           },
           {
             "assetRole": "hero-image",
-            "alt": "Woman with dark hair tied back and red glasses smiling and wearing a black shirt with"
+            "alt": "Screenshot of a Google search for chicken and waffles chicago."
           },
           {
             "assetRole": "hero-image",
-            "alt": "Smiling man wearing a blue shirt and black apron standing behind a counter in a kitchen"
-          },
-          {
-            "assetRole": "icon"
-          },
-          {
-            "assetRole": "icon"
-          },
-          {
-            "assetRole": "icon"
+            "alt": "Bar graph compares new customer sources with Google leading as a top named source."
           },
           {
             "assetRole": "hero-image",
-            "alt": "Customer reviews with five-star ratings: Jenny G praises great ordering experience and delivery, Tom B calls"
+            "alt": "Screenshot of Google Search with an unfinished search — pizza in hudson y."
+          },
+          {
+            "assetRole": "avatar",
+            "alt": "Screenshot of a Google Maps restaurant marker highlights key information."
+          },
+          {
+            "assetRole": "avatar",
+            "alt": "Screenshot of a Google My Business restaurant menu."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Screenshots of 2 websites highlighting that Google rewards sites with online ordering."
           },
           {
             "assetRole": "content-image",
-            "alt": "Smartphone screen displaying a webpage with an image of empty plates, utensils, and drinks on a"
+            "alt": "Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app."
           },
           {
-            "assetRole": "content-image"
+            "assetRole": "hero-image",
+            "alt": "Screenshot of a website directing orders through a different domain highlight offsite ordering as a mistake."
           },
           {
-            "assetRole": "content-image"
+            "assetRole": "hero-image",
+            "alt": "Screenshot of a website keeping orders on their site highlight the SEO benefits of direct ordering."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "SEO mistake: your site shouldn't take longer than 2 seconds to load."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Image highlights the stat that Americans spend 4.5 hours on their phone daily, checking it 144"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Illustration of two sites showing how one links to the other."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Screenshots compare a photos of a pizza — one with alt text and one that uses"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Illustration explains your homepage, about page, and menu page, plus what to include in each."
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Full restaurant SEO checklist includes priority to-dos, mistakes to avoid, and advanced tips."
           },
           {
             "assetRole": "avatar"
           },
           {
-            "assetRole": "content-image"
+            "assetRole": "icon"
           },
           {
-            "assetRole": "content-image"
+            "assetRole": "avatar"
           },
           {
-            "assetRole": "content-image"
+            "assetRole": "content-image",
+            "alt": "Ranked pizza restaurants list showing Pizza Club first with score 99, The Cheesy Crust second with"
           },
           {
-            "assetRole": "content-image"
-          },
+            "assetRole": "avatar"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-base",
+      "content": {
+        "heading": "The easiest way to grow your restaurant online",
+        "ctas": [
           {
-            "assetRole": "content-image"
-          },
-          {
-            "assetRole": "content-image"
-          },
-          {
-            "assetRole": "content-image"
-          },
-          {
-            "assetRole": "background"
-          },
-          {
-            "assetRole": "background"
-          },
-          {
-            "assetRole": "background"
-          },
-          {
-            "assetRole": "background"
-          },
+            "label": "Get a free demo",
+            "href": "/demo"
+          }
+        ],
+        "images": [
           {
             "assetRole": "background"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.section-footer",
+      "content": {
+        "body": [
+          "AI Phone Ordering",
+          "Point of Sale",
+          "2026 © Owner.com | All rights reserved."
+        ],
+        "ctas": [
+          {
+            "label": "Get a free demo",
+            "href": "/demo"
           },
           {
-            "assetRole": "background"
+            "label": "See how it works",
+            "href": "/how-owner-works"
           },
           {
-            "assetRole": "background"
+            "label": "Restaurant Website",
+            "href": "/restaurant-website-ai"
           },
           {
-            "assetRole": "background"
+            "label": "Restaurant SEO",
+            "href": "/restaurant-seo"
           },
           {
-            "assetRole": "background"
+            "label": "Online Menu",
+            "href": "/online-menu"
           },
           {
-            "assetRole": "background"
+            "label": "Reviews Engine",
+            "href": "/reviews-engine"
           },
           {
-            "assetRole": "background"
+            "label": "Listings Management",
+            "href": "/listings-management"
           },
           {
-            "assetRole": "background"
+            "label": "Branded Restaurant App",
+            "href": "/branded-apps"
           },
           {
-            "assetRole": "background"
+            "label": "Marketing Campaigns",
+            "href": "/automatic-marketing"
           },
           {
-            "assetRole": "background"
+            "label": "Email & SMS Marketing",
+            "href": "/email-sms-marketing"
           },
           {
-            "assetRole": "video"
+            "label": "Push Notifications Marketing",
+            "href": "/push-notifications"
           },
           {
-            "assetRole": "video"
+            "label": "Loyalty & Rewards",
+            "href": "/loyalty-rewards"
           },
           {
-            "assetRole": "video"
+            "label": "Online Ordering",
+            "href": "/online-ordering"
           },
           {
-            "assetRole": "video"
+            "label": "Smart Upsells",
+            "href": "/smart-upsells"
           },
           {
-            "assetRole": "video"
+            "label": "Delivery",
+            "href": "/delivery"
           },
           {
-            "assetRole": "video"
+            "label": "Catering",
+            "href": "/catering"
           },
           {
-            "assetRole": "video"
+            "label": "AI Phone Ordering Waitlist",
+            "href": "/ai-phone-ordering"
           },
           {
-            "assetRole": "video"
+            "label": "Point of Sale New",
+            "href": "/pos"
           },
           {
-            "assetRole": "video"
+            "label": "Owner App",
+            "href": "/mobile"
           },
           {
-            "assetRole": "video"
+            "label": "Reporting & Analytics",
+            "href": "/reporting-analytics"
           },
           {
-            "assetRole": "video"
+            "label": "Kitchen Tablet",
+            "href": "/kitchen-tablet"
+          },
+          {
+            "label": "POS Integrations",
+            "href": "/pos-integrations"
+          },
+          {
+            "label": "Case Studies",
+            "href": "/case-studies"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "label": "Restaurant Marketing Guide",
+            "href": "/blog/restaurant-marketing"
+          },
+          {
+            "label": "SEO for Restaurants",
+            "href": "/blog/seo-for-restaurants"
+          },
+          {
+            "label": "Restaurant Email Marketing",
+            "href": "/blog/email-marketing-for-restaurants"
+          },
+          {
+            "label": "Restaurant Mobile App",
+            "href": "/blog/mobile-app-for-restaurants"
+          },
+          {
+            "label": "Online Ordering Systems",
+            "href": "/blog/online-ordering-system-for-restaurants"
+          },
+          {
+            "label": "Restaurant Website Builders",
+            "href": "/blog/how-to-create-a-restaurant-website"
+          },
+          {
+            "label": "Restaurant Grader"
+          },
+          {
+            "label": "About",
+            "href": "/our-story"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers"
+          },
+          {
+            "label": "Leadership",
+            "href": "/leadership"
+          },
+          {
+            "label": "Builders Wanted",
+            "href": "/builders-wanted"
+          },
+          {
+            "label": "Press",
+            "href": "/press"
+          },
+          {
+            "label": "Partner with Owner",
+            "href": "/partner-request"
+          },
+          {
+            "label": "1-844-24-OWNER"
+          },
+          {
+            "label": "support@owner.com"
+          },
+          {
+            "label": "Cookie Settings"
           }
         ]
       },
