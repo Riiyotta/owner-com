@@ -71,6 +71,10 @@ def inj_schema_enum(r):
     p = os.path.join(r, "schema/pagespec.schema.json"); d = jload(p); d["definitions"]["node"]["properties"]["type"]["enum"].append("hero.not-a-contract"); jsave(p, d)
 def inj_rule_kind(r):
     p = os.path.join(r, "compatibility/graph.json"); d = jload(p); d["rules"].append({"id": "UNIMPLEMENTED", "severity": "error", "kind": "notARealKind"}); jsave(p, d)
+def inj_snapshot_folder(r):   # the ledger declares an evidence folder that does not exist — must fail outright, not fall back silently
+    p, d = _ledger(r)
+    if "snapshotFolder" not in d.get("sourceProject", {}): return False
+    d["sourceProject"]["snapshotFolder"] = "recon/does-not-exist/src/"; jsave(p, d)
 
 
 INJECTIONS = [
@@ -90,6 +94,7 @@ INJECTIONS = [
     ("theme resolution drift", inj_theme, "theme light"),
     ("schema enum drifted from contracts", inj_schema_enum, "schema node type enum"),
     ("graph rule the validator does not implement", inj_rule_kind, "not implemented"),
+    ("snapshotFolder points at a missing evidence folder", inj_snapshot_folder, "declares sourceProject.snapshotFolder"),
 ]
 
 

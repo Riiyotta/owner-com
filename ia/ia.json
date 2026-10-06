@@ -444,7 +444,9 @@
         "content.section-guides",
         "cta.section-cta",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group",
@@ -465,7 +467,9 @@
         "support.form",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.how-owner-works",
@@ -481,7 +485,9 @@
         "features.section-hiw-steps",
         "cta.section-cta",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group-2",
@@ -503,7 +509,9 @@
         "proof.section-testimonials",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group-3",
@@ -595,7 +603,9 @@
       "chrome": "none",
       "sections": [
         "hero.page-wrapper"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.delivery",
@@ -615,7 +625,9 @@
         "content.section-guides",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.our-story",
@@ -635,7 +647,9 @@
         "support.section-about-help",
         "cta.section-cta",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.careers",
@@ -656,7 +670,9 @@
         "content.roles",
         "cta.section-cta",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.leadership",
@@ -675,7 +691,9 @@
         "content.section-base",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.builders-wanted",
@@ -698,7 +716,9 @@
         "content.section-eng-row",
         "content.block",
         "shell.eng-lp-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.press",
@@ -715,7 +735,9 @@
         "proof.press-cards-wrap",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.reviews",
@@ -731,7 +753,9 @@
         "proof.section-reviews",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.d",
@@ -767,7 +791,9 @@
         "content.ps",
         "cta.section-cta",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.case-studies",
@@ -783,7 +809,9 @@
         "content.cs-index-list",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog",
@@ -801,7 +829,9 @@
         "content.section-blog-categories",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.support",
@@ -819,7 +849,9 @@
         "content.section-base",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group-4",
@@ -833,7 +865,9 @@
       "sections": [
         "shell.demo-control-header",
         "hero.demo-control-layout"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.case-studies-2",
@@ -858,7 +892,9 @@
         "content.section-base",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group-5",
@@ -879,7 +915,9 @@
         "hero.section-legal",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog-category",
@@ -899,7 +937,9 @@
         "content.section-blog-most",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.blog-2",
@@ -921,7 +961,9 @@
         "hero.section-blog-content",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     },
     {
       "id": "template.group-6",
@@ -939,7 +981,9 @@
         "hero.section-resource",
         "content.section-base",
         "shell.section-footer"
-      ]
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
     }
   ]
 }
