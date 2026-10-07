@@ -10560,5 +10560,444 @@
         }
       ]
     }
-  ]
+  ],
+  "excludedFromCanonicalVocabulary": {
+    "note": "Classes seen in the rendered HTML that are kept here as extraction/source metadata ONLY. They are not components, are not in tokens/llm/component-allowlist.json, and a generator must never emit them: spacing utilities are a token/layout concern, vendor classes are third-party embed internals (use the live-embed asset role), page scaffolding is expressed by templates and sections.",
+    "rules": [
+      {
+        "reason": "utility",
+        "description": "u-mb-*, u-mt-* spacing utility classes",
+        "why": "extraction metadata only: a token/layout concern (spacing), not a reusable component"
+      },
+      {
+        "reason": "vendor-hubspot",
+        "description": "HubSpot form-embed internals (hs-*, hbs-form)",
+        "why": "third-party embed markup injected by HubSpot; the generator must use the live-embed asset role, never re-instantiate vendor markup"
+      },
+      {
+        "reason": "vendor-osano",
+        "description": "Osano cookie-manager internals (osano-cm-*)",
+        "why": "third-party consent-manager markup injected at runtime"
+      },
+      {
+        "reason": "vendor-nice-select",
+        "description": "jQuery nice-select plugin",
+        "why": "third-party select-replacement plugin markup"
+      },
+      {
+        "reason": "page-scaffold",
+        "description": "Webflow page scaffolding (page-wrapper, main-wrapper)",
+        "why": "whole-page wrappers present on every page; structure is expressed by templates and sections, not by a component"
+      }
+    ],
+    "classes": [
+      {
+        "class_": "hbs-form",
+        "id": "hbs-form",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_address",
+        "id": "hs-address",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_auto_dq_reason",
+        "id": "hs-auto-dq-reason",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_auto_dq_static",
+        "id": "hs-auto-dq-static",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_auto_enrich_date",
+        "id": "hs-auto-enrich-date",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_auto_enrich_time",
+        "id": "hs-auto-enrich-time",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_brizo_id",
+        "id": "hs-brizo-id",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-button",
+        "id": "hs-button",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs_city",
+        "id": "hs-city",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-dateinput",
+        "id": "hs-dateinput",
+        "reason": "vendor-hubspot",
+        "occurrences": 12,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-datepicker",
+        "id": "hs-datepicker",
+        "reason": "vendor-hubspot",
+        "occurrences": 12,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-fieldtype-date",
+        "id": "hs-fieldtype-date",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-fieldtype-number",
+        "id": "hs-fieldtype-number",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-fieldtype-phonenumber",
+        "id": "hs-fieldtype-phonenumber",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-fieldtype-select",
+        "id": "hs-fieldtype-select",
+        "reason": "vendor-hubspot",
+        "occurrences": 12,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-fieldtype-text",
+        "id": "hs-fieldtype-text",
+        "reason": "vendor-hubspot",
+        "occurrences": 63,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-booleancheckbox-display",
+        "id": "hs-form-booleancheckbox-display",
+        "reason": "vendor-hubspot",
+        "occurrences": 27,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-booleancheckbox",
+        "id": "hs-form-booleancheckbox",
+        "reason": "vendor-hubspot",
+        "occurrences": 27,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-checkbox-display",
+        "id": "hs-form-checkbox-display",
+        "reason": "vendor-hubspot",
+        "occurrences": 54,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-checkbox",
+        "id": "hs-form-checkbox",
+        "reason": "vendor-hubspot",
+        "occurrences": 54,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-private",
+        "id": "hs-form-private",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-radio-display",
+        "id": "hs-form-radio-display",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-radio",
+        "id": "hs-form-radio",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-form-required",
+        "id": "hs-form-required",
+        "reason": "vendor-hubspot",
+        "occurrences": 6,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "hs-input",
+        "id": "hs-input",
+        "reason": "vendor-hubspot",
+        "occurrences": 390,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "main-wrapper",
+        "id": "main-wrapper",
+        "reason": "page-scaffold",
+        "occurrences": 141,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "nice-select",
+        "id": "nice-select",
+        "reason": "vendor-nice-select",
+        "occurrences": 13,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "osano-cm-storage-policy",
+        "id": "osano-cm-storage-policy",
+        "reason": "vendor-osano",
+        "occurrences": 27,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "osano-cm-window",
+        "id": "osano-cm-window",
+        "reason": "vendor-osano",
+        "occurrences": 27,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "page-wrapper",
+        "id": "page-wrapper",
+        "reason": "page-scaffold",
+        "occurrences": 141,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "u-mb-12",
+        "id": "u-mb-12",
+        "reason": "utility",
+        "occurrences": 159,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "u-mb-16",
+        "id": "u-mb-16",
+        "reason": "utility",
+        "occurrences": 330,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "u-mb-20",
+        "id": "u-mb-20",
+        "reason": "utility",
+        "occurrences": 152,
+        "sampleRoute": "/privacy-policy"
+      },
+      {
+        "class_": "u-mb-24",
+        "id": "u-mb-24",
+        "reason": "utility",
+        "occurrences": 154,
+        "sampleRoute": "/our-story"
+      },
+      {
+        "class_": "u-mb-32",
+        "id": "u-mb-32",
+        "reason": "utility",
+        "occurrences": 163,
+        "sampleRoute": "/d"
+      },
+      {
+        "class_": "u-mb-4",
+        "id": "u-mb-4",
+        "reason": "utility",
+        "occurrences": 134,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "u-mb-40",
+        "id": "u-mb-40",
+        "reason": "utility",
+        "occurrences": 25,
+        "sampleRoute": "/privacy-policy"
+      },
+      {
+        "class_": "u-mb-48",
+        "id": "u-mb-48",
+        "reason": "utility",
+        "occurrences": 38,
+        "sampleRoute": "/our-story"
+      },
+      {
+        "class_": "u-mb-64",
+        "id": "u-mb-64",
+        "reason": "utility",
+        "occurrences": 15,
+        "sampleRoute": "/d"
+      },
+      {
+        "class_": "u-mb-8",
+        "id": "u-mb-8",
+        "reason": "utility",
+        "occurrences": 833,
+        "sampleRoute": "/"
+      },
+      {
+        "class_": "u-mt-16",
+        "id": "u-mt-16",
+        "reason": "utility",
+        "occurrences": 49,
+        "sampleRoute": "/restaurant-website-ai"
+      },
+      {
+        "class_": "u-mt-24",
+        "id": "u-mt-24",
+        "reason": "utility",
+        "occurrences": 25,
+        "sampleRoute": "/pricing"
+      },
+      {
+        "class_": "u-mt-8",
+        "id": "u-mt-8",
+        "reason": "utility",
+        "occurrences": 32,
+        "sampleRoute": "/"
+      }
+    ]
+  },
+  "routeCoverage": {
+    "capturedRoutes": 144,
+    "note": "Routes in `routes` are modelled. Routes below are NOT: they are linked from captured pages but have no modelled snapshot in this extraction, so they are explicitly out of scope. Generated pages must only link to modelled routes.",
+    "excludedRoutes": [
+      {
+        "route": "/demo",
+        "status": "out-of-scope",
+        "reason": "a snapshot exists in the evidence mirror but the section extractor produced no sections for it (same demo-control header + layout as /pos-demo); left unmodelled rather than citing line ranges that were not measured."
+      },
+      {
+        "route": "/blog/ottavios-pizza-marketing-case-study",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/menu-description",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/third-party-delivery-services",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/doordash-alternatives-for-restaurants",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/how-much-does-doordash-charge-restaurants",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/case-studies/aburaya",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/restaurants-delivery-fee",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/comparison/toast-vs-owner",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/demo-schedule",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/ubereats-doordash-grubhub",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/restaurant-menu-design-templates",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/uber-eats-alternatives",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/restaurant-industry",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/downloads/restaurant-growth-checklist",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/comparison/square-vs-owner",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/comparison/clover-vs-owner",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/case-studies/the-modern-vegan",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/culture-deck",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      },
+      {
+        "route": "/blog/97-best-burrito-captions-for-instagram",
+        "status": "out-of-scope",
+        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+      }
+    ]
+  }
 }

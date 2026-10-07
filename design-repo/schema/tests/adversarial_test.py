@@ -89,6 +89,17 @@ def main():
     mut("declared template contradicts the nodes", lambda s: s.__setitem__("template", other["id"]), "template:",
         why_not=None if other else "only one template in this repo")
 
+    # ---- product pages and editorial articles are separate contracts: neither may borrow the other's opening block
+    byid = {t["id"]: t for t in TEMPLATES}
+    def biggest_with(sid): return max((t for t in TEMPLATES if any(n["section"] == sid for n in t["nodes"])), key=lambda t: t["routeCount"], default=None)
+    for old, new in (("hero.section-blog-content", "hero.section-product-hero"), ("hero.section-product-hero", "hero.section-blog-content")):
+        t = biggest_with(old)
+        if t and old in SECS and new in SECS and not any(n["section"] == new for n in t["nodes"]):
+            sp = control_for(t); sp["nodes"] = [minimal_node(new) if n["type"] == old else n for n in sp["nodes"]]
+            cases.append((f"{t['id']} opened with {new} instead of {old}", sp, "error", "not part of template"))
+        else:
+            skipped.append(f"{old}/{new} separation: no template that uses only one of the two")
+
     # ---- graph layer: each rule must fire by its own id
     one = first_idx(lambda n: SECS[n["type"]]["constraints"].get("onePerPage"))
     mut("SECTION_PER_PAGE_LIMITS: one-per-page section duplicated", lambda s: s["nodes"].insert(one + 1, copy.deepcopy(s["nodes"][one])),

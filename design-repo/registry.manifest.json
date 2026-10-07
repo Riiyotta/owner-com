@@ -26,7 +26,7 @@
     "templates": 25,
     "routes": 144,
     "primitives": 16,
-    "components": 300,
+    "components": 257,
     "assets": 2812,
     "tokens": {
       "foundation": 186,
@@ -53,5 +53,10 @@
     "driftProof": "extraction/prove_drift.py",
     "measuredValues": "extraction/measured-values.json",
     "defaultTheme": "tokens/themes/light.json"
+  },
+  "routeCoverage": {
+    "captured": 144,
+    "excluded": 20,
+    "detail": "extraction/measured-values.json#routeCoverage"
   }
 }

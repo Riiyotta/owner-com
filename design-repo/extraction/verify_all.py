@@ -174,6 +174,10 @@ def main():
     if sorted(schema["properties"]["template"]["enum"]) != sorted(t["id"] for t in templates): errs.append("schema template enum differs from templates.json")
     if sorted(schema["definitions"]["node"]["properties"]["type"]["enum"]) != sorted(secs): errs.append("schema node type enum differs from sections/")
     if sorted(schema["definitions"]["assetRole"]["enum"]) != sorted(assets["roles"]): errs.append("schema assetRole enum differs from assets/asset-roles.json roles")
+    branches = {b["if"]["properties"]["type"]["const"]: b["then"]["properties"]["content"]["$ref"] for b in schema["definitions"]["node"].get("allOf", [])}
+    if sorted(branches) != sorted(secs): errs.append(f"schema node allOf branches differ from sections/: {sorted(set(branches) ^ set(secs))}")
+    for sid_, ref in branches.items():
+        if ref != f"#/definitions/content.{sid_}" or ref.split("/")[-1] not in schema["definitions"]: errs.append(f"schema node allOf branch for '{sid_}' points at {ref}, which is not its content definition")
     for sid, c in secs.items():
         d = schema["definitions"].get(f"content.{sid}")
         if not d: errs.append(f"schema has no content definition for {sid}"); continue
@@ -204,6 +208,34 @@ def main():
                 ids = [s["id"] for s in r["sections"]]
                 collapsed = [x for i, x in enumerate(ids) if i == 0 or ids[i - 1] != x]
                 if collapsed != seq: errs.append(f"route {r['route']}: measured section sequence differs from template {t['id']}"); break
+
+    # 7b  vocabulary and modelling: what a generator may be offered, and how a page is split
+    exv = ledger.get("excludedFromCanonicalVocabulary", {})
+    excluded_ids = {c["id"] for c in exv.get("classes", [])}
+    junk = re.compile(r"^(u-(mb|mt|mr|ml|pb|pt)-\d+|hs-.+|hbs-form|osano-.+|nice-select|page-wrapper|main-wrapper)$")
+    for f in files_in("components"):
+        cid = f[:-5]
+        if cid in excluded_ids or junk.match(cid): errs.append(f"components/{f}: '{cid}' is a utility, vendor or page-scaffold class: it belongs in the ledger's excludedFromCanonicalVocabulary, not in components/")
+    for sid in secs:
+        bare = sid.split(".", 1)[1]
+        if bare in excluded_ids or junk.match(bare): errs.append(f"sections/{sid}.json: '{bare}' is a utility, vendor or page-scaffold class, not a semantic section")
+    for r in ledger["routes"]:
+        if len(r["sections"]) < 2: errs.append(f"route {r['route']} is modelled as a single section: a whole page must be split into semantic sections")
+    for t in templates:
+        if len(t["nodes"]) < 2: errs.append(f"template {t['id']} has a single node: a template must compose a page from semantic sections")
+    cov = ledger.get("routeCoverage", {}); mcov = man.get("routeCoverage", {})
+    excl = [e["route"] for e in cov.get("excludedRoutes", [])]
+    if cov.get("capturedRoutes") != len(ledger["routes"]): errs.append(f"ledger routeCoverage.capturedRoutes {cov.get('capturedRoutes')} but the ledger has {len(ledger['routes'])} routes")
+    if set(excl) & set(ledger_routes): errs.append(f"routeCoverage.excludedRoutes lists captured routes: {sorted(set(excl) & set(ledger_routes))}")
+    if mcov.get("captured") != len(ledger["routes"]) or mcov.get("excluded") != len(excl): errs.append(f"manifest routeCoverage {mcov} disagrees with the ledger ({len(ledger['routes'])} captured, {len(excl)} excluded)")
+    rm = os.path.join(PKG, "ROUTES.md")
+    if os.path.isfile(rm):  # the route inventory is generated from the ledger, never edited by hand
+        rows = dict(re.findall(r"^\| `(/[^`]*)` \| (template\.[^ |]+) \|$", open(rm, encoding="utf-8").read().split("## Excluded routes")[0], re.M))
+        want = {r["route"]: r["template"] for r in ledger["routes"]}
+        if rows != want:
+            bad = sorted(k for k in set(rows) | set(want) if rows.get(k) != want.get(k))
+            errs.append(f"ROUTES.md disagrees with measured-values.json for {len(bad)} route(s), e.g. {bad[:3]}")
+    else: warns.append("no ROUTES.md next to design-repo/: route inventory not checked")
 
     # 8
     for sid, c in secs.items():

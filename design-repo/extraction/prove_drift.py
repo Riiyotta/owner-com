@@ -77,6 +77,9 @@ def inj_theme(r):
     k = sorted(d["resolves"])[0]; d["resolves"][k] = "rgb(1,2,3)"; jsave(p, d)
 def inj_schema_enum(r):
     p = os.path.join(r, "schema/pagespec.schema.json"); d = jload(p); d["definitions"]["node"]["properties"]["type"]["enum"].append("hero.not-a-contract"); jsave(p, d)
+def inj_branch(r):   # a section's content-definition branch in the node schema goes stale (the dangling content.u-mb-40 ref seen before)
+    p = os.path.join(r, "schema/pagespec.schema.json"); d = jload(p); b = d["definitions"]["node"]["allOf"]
+    b[0]["then"]["properties"]["content"]["$ref"] = "#/definitions/content.content.not-a-section"; jsave(p, d)
 def inj_rule_kind(r):
     p = os.path.join(r, "compatibility/graph.json"); d = jload(p); d["rules"].append({"id": "UNIMPLEMENTED", "severity": "error", "kind": "notARealKind"}); jsave(p, d)
 def inj_snapshot_folder(r):   # the ledger declares an evidence folder that does not exist — must fail outright, not fall back silently
@@ -88,6 +91,23 @@ def inj_hero_exception(r):   # the graph claims a template has >1 HERO section t
     rule = next((x for x in d["rules"] if x["id"] == "ONE_HERO_PER_PAGE"), None)
     if rule is None: return False
     rule["exceptions"] = list(rule.get("exceptions", [])) + ["template.phantom-multi-hero"]; jsave(p, d)
+
+def inj_junk_component(r):   # a utility class leaks back into the canonical component vocabulary
+    p = os.path.join(r, "components", "u-mb-16.json")
+    json.dump({"id": "u-mb-16", "name": "u-mb-16", "occurrences": 1, "composedOf": [], "evidence": {"level": "measured", "sampleRoute": "/"}}, open(p, "w"))
+    a = os.path.join(r, "tokens/llm/component-allowlist.json"); d = jload(a); d["components"].append("u-mb-16"); jsave(a, d)
+def inj_one_section_route(r):   # a whole page modelled as one section again
+    p, d = _ledger(r)
+    if not d["routes"]: return False
+    d["routes"][0]["sections"] = d["routes"][0]["sections"][:1]; jsave(p, d)
+def inj_routes_md(r):   # the route inventory disagrees with the ledger
+    p = os.path.join(os.path.dirname(r), "ROUTES.md")
+    if not os.path.isfile(p): return False
+    s = open(p).read(); s = re.sub(r"^(\| `/[^`]*` \| )template\.[^ |]+( \|)$", r"\1template.phantom\2", s, count=1, flags=re.M); open(p, "w").write(s)
+def inj_route_coverage(r):   # the manifest claims a different number of excluded routes than the ledger lists
+    p = os.path.join(r, "registry.manifest.json"); d = jload(p)
+    if "routeCoverage" not in d: return False
+    d["routeCoverage"]["excluded"] += 1; jsave(p, d)
 
 
 INJECTIONS = [
@@ -106,9 +126,14 @@ INJECTIONS = [
     ("graph limit drifted from contract", inj_graph, "SECTION_PER_PAGE_LIMITS"),
     ("theme resolution drift", inj_theme, "theme light"),
     ("schema enum drifted from contracts", inj_schema_enum, "schema node type enum"),
+    ("schema node branch pointing at a stale content definition", inj_branch, "allOf branch"),
     ("graph rule the validator does not implement", inj_rule_kind, "not implemented"),
     ("snapshotFolder points at a missing evidence folder", inj_snapshot_folder, "declares sourceProject.snapshotFolder"),
     ("ONE_HERO_PER_PAGE exception for a template that is not one", inj_hero_exception, "ONE_HERO_PER_PAGE exceptions"),
+    ("utility class back in the component vocabulary", inj_junk_component, "utility, vendor or page-scaffold class"),
+    ("a page modelled as a single section", inj_one_section_route, "modelled as a single section"),
+    ("ROUTES.md disagrees with the ledger", inj_routes_md, "ROUTES.md disagrees"),
+    ("manifest routeCoverage disagrees with the ledger", inj_route_coverage, "manifest routeCoverage"),
 ]
 
 
@@ -130,6 +155,7 @@ def main():
             if os.path.isdir(os.path.join(MIRROR, "src")):
                 dst = os.path.join(pkg, os.path.relpath(MIRROR, PKG), "src")
                 os.makedirs(os.path.dirname(dst), exist_ok=True); os.symlink(os.path.join(MIRROR, "src"), dst)
+            if os.path.isfile(os.path.join(PKG, "ROUTES.md")): shutil.copy(os.path.join(PKG, "ROUTES.md"), os.path.join(pkg, "ROUTES.md"))
             return os.path.join(pkg, "design-repo")
         ok = fail = skip = 0
         has_src = os.path.isdir(os.path.join(MIRROR, "src"))
