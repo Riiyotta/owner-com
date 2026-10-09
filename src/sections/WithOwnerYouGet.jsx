@@ -110,7 +110,7 @@ export default function WithOwnerYouGet() {
                         <clipPath id="__lottie_element_28">
                           <path d="M0,0 L430,0 L430,117 L0,117z" />
                         </clipPath>
-                        <mask id="__lottie_element_24_1" maskType="alpha">
+                        <mask id="__lottie_element_24_1" mask-type="alpha">
                           <use href="#__lottie_element_24" />
                         </mask>
                         <clipPath id="__lottie_element_32">
@@ -126,7 +126,7 @@ export default function WithOwnerYouGet() {
                         <clipPath id="__lottie_element_45">
                           <path d="M0,0 L36,0 L36,14 L0,14z" />
                         </clipPath>
-                        <mask id="__lottie_element_41_1" maskType="alpha">
+                        <mask id="__lottie_element_41_1" mask-type="alpha">
                           <use href="#__lottie_element_41" />
                         </mask>
                         <clipPath id="__lottie_element_70">
@@ -786,7 +786,7 @@ export default function WithOwnerYouGet() {
                             </g>
                           </g>
                         </g>
-                        <mask id="__lottie_element_284_1" maskType="alpha">
+                        <mask id="__lottie_element_284_1" mask-type="alpha">
                           <use href="#__lottie_element_284" />
                         </mask>
                         <clipPath id="__lottie_element_312">
