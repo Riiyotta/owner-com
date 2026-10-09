@@ -64,7 +64,7 @@ export default function S13EffectiveWaysTo() {
               <p>{"In fact, online ordering offers a unique opportunity to influence customer spending. Unlike in-person dining, where impulse purchases and social cues play a big role, online customers are more focused and rely heavily on things like your menu. This gives restaurants a prime chance to suggest add-ons, highlight premium items and create enticing bundles. "}</p>
               <p>
                 {"Online ordering has grown "}
-                <a>300% faster</a>
+                <a href="https://www.greenbaumstiers.com/marketing-tips/how-to-increase-restaurant-sales-with-an-e-commerce-website/">300% faster</a>
                 {" than in-person dining, so focusing your efforts on increasing the order size online offers more opportunities for wins.  "}
               </p>
               <p>{"So, how do you break free from the average to maximize your profits? In this post, I’ll show you some simple yet effective strategies to significantly increase your restaurant's average check size and drive more revenue. You can also check out my video below if you’re crunched for time:"}</p>
@@ -137,7 +137,7 @@ export default function S13EffectiveWaysTo() {
                   {"Upselling and cross-selling are some of the top "}
                   <A href="/blog/restaurant-marketing">restaurant marketing</A>
                   {" strategies I recommend to help restaurants boost average check size. Upselling alone can boost revenue by "}
-                  <a>up to 43%</a>
+                  <a href="https://vwo.com/blog/use-upsell-cross-sell/">up to 43%</a>
                   . And cross-selling can help give items that aren’t selling as well some extra love.
                 </p>
                 <p>{"Here's how I recommend using these techniques to get more out of each customer visit and check:"}</p>
@@ -152,9 +152,9 @@ export default function S13EffectiveWaysTo() {
                   </p>
                   <p>
                     {"Aburaya, a Japanese fried chicken restaurant, is the perfect example of how online ordering can jumpstart your growth. By switching over from "}
-                    <a>third-party delivery apps</a>
+                    <A href="/delivery">third-party delivery apps</A>
                     {" to Owner.com’s simple online ordering tool, they saved over "}
-                    <a>$100,000 in delivery fees</a>
+                    <a href="https://www.owner.com/case-studies/aburaya#:~:text=Growth-,%2B%24100%2C000,Saved%20in%20delivery%20fees,-Play%20the%20video">$100,000 in delivery fees</a>
                     {" and saw a $25,000 increase in online sales."}
                   </p>
                   <p>{"To apply my other strategies in this post, offering an online ordering experience is key. "}</p>
@@ -264,7 +264,7 @@ export default function S13EffectiveWaysTo() {
                   <p>{"If someone can build their \"dream pizza\" with premium ingredients, they might be more comfortable paying a higher price for it than a preset pizza option, thus increasing the average check size for that order. "}</p>
                   <p>
                     {"For example, "}
-                    <a>Cyclo Noodles</a>
+                    <a href="https://cyclonoodles.com/">Cyclo Noodles</a>
                     {" gives their customers a chance to customize their order, like with their popular Pad Thai dish — they can choose to make it vegan if they wish or pick their favorite type of protein, including an enticing list of more premium options that could help increase their check size:"}
                   </p>
                   <div className="w-embed">
@@ -299,7 +299,7 @@ export default function S13EffectiveWaysTo() {
                     <li>
                       <strong>{"Use the right colors: "}</strong>
                       {"Bright colors like red, orange and yellow can really make your food pop. People are "}
-                      <a>more likely to order</a>
+                      <a href="https://www.researchgate.net/publication/369867642_A_Study_on_the_Effect_of_Color_on_Human_Food_Perception">more likely to order</a>
                       {" when they see something that looks delicious and eye-catching."}
                     </li>
                     <li>
@@ -348,7 +348,7 @@ export default function S13EffectiveWaysTo() {
                 </h2>
                 <p>
                   {"Combos and bundles made up "}
-                  <a>41%</a>
+                  <a href="https://qsrmedia.com/research/exclusive/combo-meals-surge-top-fast-food-offer">41%</a>
                   {" of all special price offers for quick service restaurants in 2023. This method is a great way of getting customers to spend more, making it feel like they’re getting a better value, and making the order process easy. Here's how to fit these tried-and-true tactics into your strategy:"}
                 </p>
                 <div id="8-combo-meals">
@@ -360,7 +360,7 @@ export default function S13EffectiveWaysTo() {
                   <p>Combo meals offer convenience across the board: On-the-go customers can get all of their favorites in one order, and you benefit from the faster preparation and delivery times of fixed combo offerings.</p>
                   <p>
                     {"McDonald’s is a chain that does this right — they introduced a $5 meal deal that includes a 4-piece chicken McNuggets, a drink and either a McChicken or a McDouble and saw an "}
-                    <a>8% increase</a>
+                    <a href="https://www.placer.ai/blog/limited-time-offers-price-wars-boost-visits">8% increase</a>
                     {" in visits on that year-to-date weekday average. "}
                   </p>
                 </div>
@@ -394,7 +394,7 @@ export default function S13EffectiveWaysTo() {
                   <strong>Reward customers that spend with you</strong>
                 </h2>
                 <p>
-                  <a>Forty-one percent of consumers</a>
+                  <a href="https://www.pymnts.com/wp-content/uploads/2022/02/PYMNTS-Restaurant-Friction-Index-February-2022.pdf">Forty-one percent of consumers</a>
                   {" say loyalty programs encourage them to buy from restaurants, and you can use one of these programs to your advantage to help you increase your check sizes. "}
                   <A href="/blog/restaurant-loyalty-programs">Loyalty programs</A>
                   {" get customers to buy more from you to earn more rewards. "}
@@ -406,7 +406,7 @@ export default function S13EffectiveWaysTo() {
                   </h3>
                   <p>
                     {"Want to keep your customers coming back for more? A loyalty program is your secret weapon. Not only do they encourage repeat visits, but members also tend to spend "}
-                    <a>12-18% more</a>
+                    <a href="https://retailnext.net/blog/5-retail-loyalty-program-best-practice-examples">12-18% more</a>
                     {" per order than non-members. "}
                   </p>
                   <p>{"You can leverage your loyalty program to get customers to add more to their orders. Here are my favorite ways to do this: "}</p>
@@ -416,7 +416,7 @@ export default function S13EffectiveWaysTo() {
                     <li>{"Use high-margin sides as the rewards—these are the items that are cheap to make and won’t dip into your profits if you offer them as discounts or free. "}</li>
                     <li>
                       {"Start customers off as soon as they join the program to encourage them to order more—this is the "}
-                      <a>Endowed Progress Effect</a>
+                      <a href="https://www.jstor.org/stable/10.1086/500480">Endowed Progress Effect</a>
                       {".  "}
                     </li>
                   </ul>
@@ -440,7 +440,7 @@ export default function S13EffectiveWaysTo() {
                   <p>{"At Owner, we’ve seen that 5-7% off to get the check size to a minimum of about $35 seems to work well for most quick-serve restaurants. "}</p>
                   <p>
                     {"For example, "}
-                    <a>Aburaya Japanese Fried Chicken</a>
+                    <a href="https://aburayaoakland.com/">Aburaya Japanese Fried Chicken</a>
                     {" gives their guests 10% off for orders of $50 or more:"}
                   </p>
                   <div className="w-embed">
@@ -483,7 +483,7 @@ export default function S13EffectiveWaysTo() {
                 <p>{"Remember, it's not just about increasing sales but also about enhancing the customer experience. By creating a seamless journey from menu design to loyalty programs, you'll not only increase revenue but also foster loyalty that creates customers who keep coming back for more. "}</p>
                 <p>
                   {"Ready to increase your average check size and drive more online orders? Get a free "}
-                  <a>Owner.com demo</a>
+                  <A href="/demo">Owner.com demo</A>
                   {" and see how to take charge of your takeout business."}
                 </p>
               </div>
@@ -507,7 +507,7 @@ export default function S13EffectiveWaysTo() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -523,7 +523,7 @@ export default function S13EffectiveWaysTo() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -531,7 +531,7 @@ export default function S13EffectiveWaysTo() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -601,9 +601,9 @@ export default function S13EffectiveWaysTo() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -619,9 +619,9 @@ export default function S13EffectiveWaysTo() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -749,7 +749,7 @@ export default function S13EffectiveWaysTo() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

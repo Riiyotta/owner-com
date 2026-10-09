@@ -161,7 +161,7 @@ export default function S13BestAppsFor() {
                   </div>
                 </div>
                 <p>
-                  <a>OpenTable</a>
+                  <a href="https://www.opentable.com">OpenTable</a>
                   {" is a massive marketplace that helps you manage your floor plan and puts your name in front of people looking for a place to eat. It does a decent job of automating the \"where do we sit?\" chaos, but it’s essentially a middleman. "}
                 </p>
                 <p>{"You get the bodies in the seats, but you’re often paying a fee for every cover that comes through their platform. It’s a heavy-duty tool for busy dining rooms, but you have to keep a close eye on those monthly bills to make sure you aren't paying for customers who are already walking through your front door."}</p>
@@ -246,7 +246,7 @@ export default function S13BestAppsFor() {
                   </div>
                 </div>
                 <p>
-                  <a>Resy</a>
+                  <a href="https://resy.com/?date=2026-03-01&seats=2">Resy</a>
                   {" is a restaurant reservation app. It lets you manage online bookings, control table inventory and reduce no-shows with automated reminders and prepayments. It gives you visibility into who’s booking, when they’re coming in and how your floor is filling up, which helps you make smarter staffing and seating decisions. "}
                 </p>
                 <p>I like it for restaurants that rely on reservations and want better control over demand without juggling spreadsheets or manual systems.</p>
@@ -322,7 +322,7 @@ export default function S13BestAppsFor() {
                   </div>
                 </div>
                 <p>
-                  <a>DoorDash</a>
+                  <a href="https://www.doordash.com/">DoorDash</a>
                   {" handles the entire delivery side—orders, payments and drivers—so you don’t have to build your own logistics just to offer convenience. For many restaurants, I see it as a way to capture incremental sales and stay visible in a market where customers expect delivery as an option."}
                 </p>
                 <p>The reality, though? It’s powerful for reach, but it comes with fees and less control over the experience. I like using it strategically—to drive volume and attract new guests—while ensuring that direct orders through my own website remain the most profitable channel.</p>
@@ -341,7 +341,7 @@ export default function S13BestAppsFor() {
                   Digital marketing with social media content creation
                 </p>
                 <p>
-                  <a>SpotHopper</a>
+                  <a href="https://www.spothopperapp.com/">SpotHopper</a>
                   {" helps restaurants take online orders directly through their own website, without handing control over to a big marketplace. "}
                 </p>
                 <p>I like it because it keeps the relationship between you and your guests intact. Orders go straight to your system, they help you post more on social media and send more emails.</p>
@@ -425,7 +425,7 @@ export default function S13BestAppsFor() {
                 </div>
                 <p>
                   {"I’m always checking out tools that help restaurants take more control of their business and "}
-                  <a>UpMenu</a>
+                  <a href="https://www.upmenu.com/">UpMenu</a>
                   {" really stood out. It’s a slick online ordering platform that lets restaurants take direct orders right from their own branded website and mobile app."}
                 </p>
                 <p>
@@ -519,7 +519,7 @@ export default function S13BestAppsFor() {
                   {"You want your "}
                   <A href="/blog/best-pos-for-small-business">POS</A>
                   {" to take orders, run payments and stay out of the way during a slammed Friday night. "}
-                  <a>Square</a>
+                  <a href="https://squareup.com">Square</a>
                   {" does that well. It’s a clean, easy-to-set-up POS that handles card payments, basic inventory tracking, team permissions and reporting, without a long installation process or complicated contracts. "}
                 </p>
                 <p>{"Square is built payments-first. It’s strong at processing transactions and giving you operational visibility. But if your goal is to drive more direct online orders, build real customer relationships and increase repeat revenue, you’ll likely need to layer in other tools alongside it. "}</p>
@@ -595,7 +595,7 @@ export default function S13BestAppsFor() {
                   </div>
                 </div>
                 <p>
-                  <a>Uber Eats</a>
+                  <a href="https://www.ubereats.com/ca?srsltid=AfmBOoqejy9swChlFzGFmIF2T58XF3lh59snxfM0grf7m_f-X5TUzDeI">Uber Eats</a>
                   {" is basically the “I don’t feel like cooking” button on your phone. You open the app, scroll through a bunch of nearby restaurants, tap what you’re craving, and a courier shows up with your food like magic."}
                 </p>
                 <p>For restaurants, it’s a huge marketplace where tons of hungry people are already browsing, which can mean more orders and new guests discovering the brand. In return, Uber Eats handles delivery logistics, takes a cut of each order, and lets restaurants manage their menus, pricing  and prep times on the platform.</p>
@@ -668,7 +668,7 @@ export default function S13BestAppsFor() {
                 </div>
                 <p>
                   ‍
-                  <a>Chowly</a>
+                  <a href="https://chowly.com/">Chowly</a>
                   {" is the ultimate middleman for your restaurant's tech setup. It's an app that seamlessly integrates all your different third-party ordering platforms right into your existing POS. So, instead of juggling multiple tablets and systems, Chowly brings everything together in one place, making your order delivery management a whole lot easier."}
                 </p>
               </div>
@@ -750,7 +750,7 @@ export default function S13BestAppsFor() {
                 <p>{"Interested in stepping up your social media game? Social media marketing is a very helpful tool for restaurants, and as a busy restaurant owner, you can benefit from an app that could automate it. "}</p>
                 <p>
                   {"This is where Hootsuite steps in. "}
-                  <a>Hootsuite</a>
+                  <a href="https://www.hootsuite.com/products/mobile-apps">Hootsuite</a>
                   {" helps you manage and schedule content across multiple social media platforms—all on one dashboard. You can schedule posts in advance, monitor engagement and track analytics. With this app, you can save so much time planning your content so you can focus on what really matters—running your restaurant."}
                 </p>
               </div>
@@ -834,7 +834,7 @@ export default function S13BestAppsFor() {
                 </div>
                 <p>
                   {"Looking to save time on creating employee schedules? "}
-                  <a>7Shifts</a>
+                  <a href="https://www.7shifts.com/">7Shifts</a>
                   {" is the perfect app to make this easier for you. Employees can easily check their schedules, request time off, and chat with their managers, all from their phones. "}
                 </p>
                 <p>{"The cool part? It's all about making restaurant scheduling less of a headache. By using this app, you can streamline your restaurant operations, creating happier customers and staff."}</p>
@@ -920,7 +920,7 @@ export default function S13BestAppsFor() {
                   </div>
                 </div>
                 <p>
-                  <a>Sortly</a>
+                  <a href="https://www.sortly.com/">Sortly</a>
                   {" can help you organize and create a detailed inventory of your kitchen supplies, ingredients and equipment. You can also add photos with descriptions and assign categories or tags to items, making them easier to find. "}
                 </p>
                 <p>{"With Sortly, restaurant owners can track stock levels, monitor usage and streamline their ordering process. It's a versatile tool that can help keep a restaurant's back-of-house operations running smoothly and save time on inventory management."}</p>
@@ -998,9 +998,9 @@ export default function S13BestAppsFor() {
                 </div>
                 <p>
                   {"If you want to simplify vendor ordering, "}
-                  <a>BlueCart</a>
+                  <a href="https://www.bluecart.com/">BlueCart</a>
                   {" could be a great app. "}
-                  <a>BlueCart</a>
+                  <a href="https://www.bluecart.com/">BlueCart</a>
                   {" is the ultimate ordering assistant for busy restaurant owners. This app assists with tasks such as placing supplier orders, managing inventory and tracking deliveries. "}
                 </p>
                 <p>Flip through catalogs from your go-to suppliers, create and send orders in just a few taps, and sit back while BlueCart handles the rest, including sending you real-time updates on your orders and deliveries.</p>
@@ -1049,7 +1049,7 @@ export default function S13BestAppsFor() {
                 <p>{"With the right app, you can save more time as a busy restaurant owner and make your operations more efficient. With apps taking over some of the heavy work, you can focus on other business needs and growing your sales. "}</p>
                 <p>
                   {"If you’re looking to build a mobile app for your restaurant, "}
-                  <a>try out a demo of Owner.com</a>
+                  <A href="/demo">try out a demo of Owner.com</A>
                   {" to see how we can help you attract more customers and drive more sales."}
                 </p>
               </div>
@@ -1073,7 +1073,7 @@ export default function S13BestAppsFor() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1089,7 +1089,7 @@ export default function S13BestAppsFor() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1097,7 +1097,7 @@ export default function S13BestAppsFor() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1167,9 +1167,9 @@ export default function S13BestAppsFor() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1185,9 +1185,9 @@ export default function S13BestAppsFor() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1336,7 +1336,7 @@ export default function S13BestAppsFor() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

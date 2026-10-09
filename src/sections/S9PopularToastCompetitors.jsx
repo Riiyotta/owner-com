@@ -77,7 +77,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://squareup.com/us/en/point-of-sale/restaurants">
                     <strong>Square</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -123,7 +123,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"Square currently has a rating of "}
-                  <a>4.7 out of 5 on G2</a>
+                  <a href="https://www.g2.com/products/square-point-of-sale/reviews">4.7 out of 5 on G2</a>
                   . Customers like how well Square keeps track of inventory and sales, as well as how easy it is to use. On the other hand, reviews have commented that Square doesn’t offer customizability and has difficulty showing customer reviews.
                 </p>
                 <ol start="" role="list">
@@ -142,7 +142,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/squareup.com/us">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -180,7 +180,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://www.lightspeedhq.com/">
                     <strong>Lightspeed</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -220,7 +220,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"With a "}
-                  <a>4.5 out of 5 rating on G2</a>
+                  <a href="https://www.g2.com/products/lightspeed-restaurant/reviews">4.5 out of 5 rating on G2</a>
                   {", Lightspeed excels at providing additional services within its integrations and has a strong online ordering system. Its loyalty system also gets a lot of love. On the other hand, customers report that adding menu items quickly can be challenging, and there’s a learning curve — luckily, the team at Lightspeed provides helpful onboarding materials. "}
                 </p>
                 <ol start="" role="list">
@@ -236,7 +236,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/lightspeedhq.com">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -277,7 +277,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://www.clover.com/pos-systems">
                     <strong>Clover</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -321,7 +321,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"Clover has a "}
-                  <a>3.8 out of 5 rating on G2</a>
+                  <a href="https://www.g2.com/products/clover/reviews">3.8 out of 5 rating on G2</a>
                   {". Customers appreciate the versatility of the app, but the customer service support is lacking: "}
                 </p>
                 <ol start="" role="list">
@@ -335,7 +335,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/clover.com">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -371,7 +371,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://www.ncrvoyix.com/restaurant/aloha-cloud-pos">
                     <strong>Aloha Cloud</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -411,7 +411,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"Aloha Cloud can be a good solution for streamlining your restaurant tools and improving efficiency, but getting personalized reports can be difficult, and it can crash or be slow to use. Here’s what customers are saying "}
-                  <a>according to G2:</a>
+                  <a href="https://www.g2.com/products/aloha-cloud/reviews">according to G2:</a>
                   {" "}
                 </p>
                 <ol start="" role="list">
@@ -426,7 +426,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/ncr.com/restaurants/aloha-pos">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -465,7 +465,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://lavu.com/">
                     <strong>Lavu</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -503,7 +503,7 @@ export default function S9PopularToastCompetitors() {
                   <strong>What customers are saying:</strong>
                 </p>
                 <p>
-                  <a>Reviewers on Capterra</a>
+                  <a href="https://www.capterra.com/p/118828/Lavu/reviews/">Reviewers on Capterra</a>
                   {" love Lavu for its customer support, ease of use on iOS devices and real-time reporting. However, some have said that the automating billing process can be inaccurate at times with software shutdowns. "}
                 </p>
                 <ol start="" role="list">
@@ -519,7 +519,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/lavu.com">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -558,7 +558,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://www.spoton.com/restaurant-pos/">
                     <strong>SpotOn</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -597,7 +597,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"SpotOn’s G2 reviews showcase a "}
-                  <a>4.4 out of 5 rating</a>
+                  <a href="https://www.g2.com/products/spoton/reviews">4.4 out of 5 rating</a>
                   {", with many positive sentiments around the simple interface and ability to set up customer payments. However, some report that the hardware itself can be hard to use and that it could use better onboarding. "}
                 </p>
                 <ol start="" role="list">
@@ -611,7 +611,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/spoton.com">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -648,7 +648,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://www.touchbistro.com/">
                     <strong>TouchBistro</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -689,7 +689,7 @@ export default function S9PopularToastCompetitors() {
                   {"Customers love how easy TouchBistro is to use and how simple it is to "}
                   <A href="/blog/menu-pricing">swap menu items and prices</A>
                   {". It does have several poor customer service reviews, though. Here’s what customers are saying about TouchBistro, which has a rating of "}
-                  <a>4.3 out of 5 on G2</a>
+                  <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews">4.3 out of 5 on G2</a>
                   {":  "}
                 </p>
                 <ol start="" role="list">
@@ -703,7 +703,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>
+                  <a href="https://www.trustpilot.com/review/touchbistro.com">
                     <strong>Trustpilot</strong>
                   </a>
                   <strong></strong>
@@ -739,7 +739,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   <strong>{"Where "}</strong>
-                  <a>
+                  <a href="https://madmobile.com/products/cake/">
                     <strong>CAKE by Mad Mobile</strong>
                   </a>
                   <strong>{" stands out: "}</strong>
@@ -782,7 +782,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"Customers praise CAKE’s user-friendly options, solid customer service and helpful reporting — it currently has a "}
-                  <a>4.8 out of 5 rating</a>
+                  <a href="https://www.g2.com/products/cake-pos/reviews">4.8 out of 5 rating</a>
                   {" on G2. However, it may not be the best option if you want detailed reports. See what people are saying:  "}
                 </p>
                 <ol start="" role="list">
@@ -811,7 +811,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"Although Owner.com is not a POS system, we wanted to feature it because it's a great "}
-                  <a>{"alternative to Toast's online ordering"}</a>
+                  <A href="/blog/toast-competitors">{"alternative to Toast's online ordering"}</A>
                   {". If you're happy with Toast POS, but not happy with their online ordering features, consider Owner.com to help in that department."}
                 </p>
                 <p>
@@ -872,7 +872,7 @@ export default function S9PopularToastCompetitors() {
                 </p>
                 <p>
                   {"We have helped many restaurant owners level up their sales and success. "}
-                  <a>{"Owner's reviews on G2"}</a>
+                  <a href="https://www.g2.com/products/owner-com/reviews">{"Owner's reviews on G2"}</a>
                   {" speak for themselves—our 4.8 out of 5 rating is thanks to positive feedback from restaurant owners like Phillip Hang, owner of Sushi Me Rollin:"}
                 </p>
                 <ol start="" role="list">
@@ -888,7 +888,7 @@ export default function S9PopularToastCompetitors() {
                   </li>
                 </ol>
                 <p>
-                  <a>Capterra</a>
+                  <a href="https://www.capterra.com/p/10002488/Owner/">Capterra</a>
                   {" Score:"}
                   <strong></strong>
                   5.0 (44 reviews)
@@ -912,9 +912,9 @@ export default function S9PopularToastCompetitors() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -955,7 +955,7 @@ export default function S9PopularToastCompetitors() {
                 <p>Think about how easy it is to use, if it works nicely with your other tools and if it can grow with your restaurant. Picking the best tools for your restaurant might seem like a lot, so I suggest trying out free trials first.</p>
                 <p>
                   {"Toast is a strong tool that can help with a variety of needs, but there are still other options to consider. If you’re looking to boost direct online ordering, "}
-                  <a>try out a demo of Owner.com</a>
+                  <A href="/demo">try out a demo of Owner.com</A>
                   {" to see how we help restaurants increase their sales and grow."}
                 </p>
               </div>
@@ -979,7 +979,7 @@ export default function S9PopularToastCompetitors() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -995,7 +995,7 @@ export default function S9PopularToastCompetitors() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1003,7 +1003,7 @@ export default function S9PopularToastCompetitors() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1074,9 +1074,9 @@ export default function S9PopularToastCompetitors() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1213,7 +1213,7 @@ export default function S9PopularToastCompetitors() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

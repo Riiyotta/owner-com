@@ -269,18 +269,18 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Owner.com has a "}
                     <strong>{"4.8 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
                     <em>“The onboarding staff was friendly and got the work done professionally. The end result is very satisfying and I look forward to making my new tools a big part of our business growth. Their tools are well thought through and user-friendly.”—</em>
                     {"Bryan W., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-11077875" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <p>
                     <em>“I wish the website itself was little more customizable, but I understand that the design is to drive sales, and my ideas and edits would probably mess with the goal.”—</em>
                     {"Geoffrey B., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-10959942" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <figure style={{ "maxWidth": "1790pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
                     <A href="/restaurant-website-ai" target="_blank" className="w-inline-block">
@@ -329,17 +329,17 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, BentoBox has a "}
                     <strong>4.6 out of 5-star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/bentobox/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
                     <em>“BentoBox makes it as simple as possible to get a high-quality website for your restaurant. It provides you with all the necessary tools to be able to promote yourself while also protecting you and being ADA friendly.”</em>
                     {"—Verified User in Hospitality, "}
-                    <a target="_blank">Bentobox G2 review</a>
+                    <a href="https://www.g2.com/products/bentobox/reviews/bentobox-review-10169936" rel="noopener noreferrer" target="_blank">Bentobox G2 review</a>
                   </p>
                   <p>
                     {"“Doesn't automatically work on SEO for you, everything else is extra.”—Verified User in Hospitality, "}
-                    <a target="_blank">Bentobox G2 review</a>
+                    <a href="https://www.g2.com/products/bentobox/reviews/bentobox-review-10169936" rel="noopener noreferrer" target="_blank">Bentobox G2 review</a>
                   </p>
                 </div>
               </div>
@@ -354,7 +354,7 @@ export default function S12BestRestaurantManagement() {
                 <p>{"If you need a simple site to get started, I would recommend Squarespace. It's helpful if you have website experience and want a little more control over your design. It’s great for restaurants that don’t need all the bells and whistles and just want a polished online presence."}</p>
                 <p>
                   {"That said, Squarespace doesn’t offer much in the way of restaurant-specific tools. Squarespace doesn’t include built-in online ordering or advanced "}
-                  <a target="_blank">menu design templates</a>
+                  <A href="/blog/how-to-make-a-menu" target="_blank">menu design templates</A>
                   , so if you need those features, consider tools like BentoBox or Toast instead.
                 </p>
                 <div className="w-embed">
@@ -385,18 +385,18 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Squarespace has a "}
                     <strong>4 out of 5-star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/squarespace/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
                     <em>{"“Squarespace is easy to use for someone [who] is not technical at all. The templates are awesome. It's easy to figure out things you get stuck on with all of the resources provided. It's so intuitive. I have two websites for different parts of my business, one e-commerce and one 'normal' website' and I love how easy they both are to build and maintain.”"}</em>
                     {"—Lena R., "}
-                    <a target="_blank">Squarespace G2 review</a>
+                    <a href="https://www.g2.com/products/squarespace/reviews/squarespace-review-10724818" rel="noopener noreferrer" target="_blank">Squarespace G2 review</a>
                   </p>
                   <p>
                     <em>{"“While Squarespace is very flexible in its layout and branding options, there are a few small tweaks I wish I could make, like having different colors for buttons or highlighted text on pages. It's a small inconvenience, as the flexibility of the website far outweighs that request.”"}</em>
                     {"—Lisa M., "}
-                    <a target="_blank">Squarespace G2 review</a>
+                    <a href="https://www.g2.com/products/squarespace/reviews/squarespace-review-10470705" rel="noopener noreferrer" target="_blank">Squarespace G2 review</a>
                   </p>
                 </div>
               </div>
@@ -442,18 +442,18 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Square has a "}
                     <strong>4.7 out of 5-star</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
                     <em>“I love how everything integrates into Square and when we have a feature that we would love to see Square is there to listen to us.”</em>
                     {"—Joseph B., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776991" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                   <p>
                     <em>“The downside to Square POS is that since it tries to be a jack of all trades, since it does cover well so many different businesses, industries, that would all operate a little different, sometimes it does get a bit confusing when setting up the first time.”</em>
                     {"—Briana S., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776555" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -500,19 +500,19 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, OpenTable has a "}
                     <strong>{"4.4 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>“What I like best about OpenTable for Restaurants is the centralized control it gives us over our reservations and guest experience. The ability to customize pacing, optimize table turns and access real-time data helps us make smarter staffing and service decisions. I also appreciate the guest profile features—it allows us to deliver more personalized hospitality, especially for return diners.”</em>
                     {"—Calvin Y., "}
-                    <a target="_blank">OpenTable G2 review</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11164257" rel="noopener noreferrer" target="_blank">OpenTable G2 review</a>
                   </p>
                   <p>
                     <em>{"“The special days setting isn't always as easy to use as the rest of the software, but with time and patience, it works. An area of improvement would be to be able to adjust more specific settings from the mobile Open Table for Restaurants app.”"}</em>
                     {"—Verified User in Marketing and Advertising, "}
-                    <a target="_blank">OpenTable G2 review</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11132327" rel="noopener noreferrer" target="_blank">OpenTable G2 review</a>
                     {" "}
                   </p>
                 </div>
@@ -559,19 +559,19 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Resy has a "}
                     <strong>{"4.1 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/resyos/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>{"“It's extremely customizable to your business needs. It's also very easy to use.”"}</em>
                     {"—Verified User in Hospitality, "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-9361135" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                   <p>
                     <em>“The steps to unseat a table are too much - several clicks and swipes. Also, online reservations do not stay toggled off.”</em>
                     {"—Verified User in Restaurants, "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-2217402" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                 </div>
               </div>
@@ -618,18 +618,18 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Toast has a "}
                     <strong>4 out of 5-star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
                     <em>“We use Toast for all of our restaurant needs. This includes POS, Payroll, Marketing and Invoices/Inventory. The way the system integrates everything is so nice and we have so much information at our fingertips. Crucial for running in a low margin industry.”</em>
                     {"—Craig W., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10071680" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                   </p>
                   <p>
                     <em>“Sometimes getting help from support can be a little frustrating. But they always seem to get it fixed in the end.”</em>
                     {"—Dawnielle L., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-9619025" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                   </p>
                 </div>
               </div>
@@ -672,19 +672,19 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Bbot has a "}
                     <strong>{"3.7 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/bbot-for-businesses/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>“I would say the main thing which I really liked about Bbot is it is user-friendly and it is a really good platform for businesses like restaurants to make ordering on tip of your finger just by scanning.”—</em>
                     {"Tanya S., "}
-                    <a target="_blank">Bbot G2 review</a>
+                    <a href="https://www.g2.com/products/bbot-for-businesses/reviews/bbot-for-businesses-review-8133405" rel="noopener noreferrer" target="_blank">Bbot G2 review</a>
                   </p>
                   <p>
                     <em>“Scan option is often provided in plastic stickers, which can be removed and replaced for convenience. It, however, often wears out. Perhaps something more durable, especially when offered to be tables at restaurants.”—</em>
                     {"Bahar U., "}
-                    <a target="_blank">Bbot G2 review</a>
+                    <a href="https://www.g2.com/products/bbot-for-businesses/reviews/bbot-for-businesses-review-8008761" rel="noopener noreferrer" target="_blank">Bbot G2 review</a>
                   </p>
                 </div>
               </div>
@@ -730,19 +730,19 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Supy has a "}
                     <strong>{"5 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/supy/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>“I highly recommend Supy software as the best inventory program [on] the market. Its user-friendly interface makes it easy to navigate and utilize. The software excels in efficiency and accuracy, offering real-time stock updates, seamless integration, and detailed reports.”</em>
                     {"—Amit S., "}
-                    <a target="_blank">Supy G2 review</a>
+                    <a href="https://www.g2.com/products/supy/reviews/supy-review-10914120" rel="noopener noreferrer" target="_blank">Supy G2 review</a>
                   </p>
                   <p>
                     <em>“The number of features can feel overwhelming at first, but a few days in, it becomes second nature.”</em>
                     {"—Yasir K., "}
-                    <a target="_blank">Supy G2 review</a>
+                    <a href="https://www.g2.com/products/supy/reviews/supy-review-10734663" rel="noopener noreferrer" target="_blank">Supy G2 review</a>
                   </p>
                 </div>
               </div>
@@ -784,20 +784,20 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, 7Shifts has a "}
                     <strong>{"4.5 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/7shifts/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>“It is easy to see the schedule at a glance, and the colors/letters make it obvious what each position is. 7shifts is great for posting announcements and messages, and targeting them to specific positions.”</em>
                     {" Patty M., "}
-                    <a target="_blank">7Shifts G2 review</a>
+                    <a href="https://www.g2.com/products/7shifts/reviews/7shifts-review-11080750" rel="noopener noreferrer" target="_blank">7Shifts G2 review</a>
                     {" "}
                   </p>
                   <p>
                     <em>{"“I think the biggest thing was that I couldn't bulk delete inactive employees when I had used it back in 2023. However, if that has been resolved, everything else was great.”"}</em>
                     {" Verified User in Restaurants, "}
-                    <a target="_blank">7Shifts G2 review</a>
+                    <a href="https://www.g2.com/products/7shifts/reviews/7shifts-review-10951174" rel="noopener noreferrer" target="_blank">7Shifts G2 review</a>
                     {" "}
                   </p>
                 </div>
@@ -840,19 +840,19 @@ export default function S12BestRestaurantManagement() {
                     {"As of publishing, Sling has a "}
                     <strong>{"4.5 out of 5 rating "}</strong>
                     {"on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/sling/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . See what customers are saying:
                     <strong></strong>
                   </p>
                   <p>
                     <em>{"“The most useful [thing] about Sling is that you can create different shifts at different times, but also, you can also leave notes when you want to let someone know that you couldn't take lunch time or you had to leave earlier.”"}</em>
                     {"—Daniel A., "}
-                    <a target="_blank">Sling G2 review</a>
+                    <a href="https://www.g2.com/products/sling/reviews/sling-review-10740282" rel="noopener noreferrer" target="_blank">Sling G2 review</a>
                   </p>
                   <p>
                     <em>{"“Every now and then, there are some minor hiccups or bugs. But nothing serious has been wrong. Some actions require relatively many clicks to accomplish. I do feel the software is quite \"intelligent\" in guessing what kind of action you want to make.”"}</em>
                     {"—Gunnar S., "}
-                    <a target="_blank">Sling G2 review</a>
+                    <a href="https://www.g2.com/products/sling/reviews/sling-review-7136443" rel="noopener noreferrer" target="_blank">Sling G2 review</a>
                   </p>
                 </div>
               </div>
@@ -960,7 +960,7 @@ export default function S12BestRestaurantManagement() {
                 <p>Once you know your weak spots, try out the tools that help solve them. Get the demos. Ask the hard questions. And choose the software that doesn’t just work—it works for your restaurant.</p>
                 <p>
                   {"Ready to see how Owner.com can grow your direct orders and simplify your operations? Book a "}
-                  <a target="_blank">free demo</a>
+                  <A href="/demo" target="_blank">free demo</A>
                   {" and get a custom plan for your restaurant."}
                 </p>
                 <div fs-richtext-component="cta-1" className="blog-content_cta-wrap">
@@ -971,9 +971,9 @@ export default function S12BestRestaurantManagement() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1111,7 +1111,7 @@ export default function S12BestRestaurantManagement() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1127,7 +1127,7 @@ export default function S12BestRestaurantManagement() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1135,7 +1135,7 @@ export default function S12BestRestaurantManagement() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1206,9 +1206,9 @@ export default function S12BestRestaurantManagement() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1357,7 +1357,7 @@ export default function S12BestRestaurantManagement() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

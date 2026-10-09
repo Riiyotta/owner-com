@@ -129,7 +129,7 @@ export default function HowToBuildA() {
                   <li>
                     <strong>Make pages for key menu items:</strong>
                     {" By creating unique pages for your stand-out dishes, you can help your site rank for more keywords. For example, Talkin Tacos created a "}
-                    <a>“popular items” page</a>
+                    <a href="https://talkintacos.net/menu">“popular items” page</a>
                     {" on its online menu featuring its three top sellers. This strategic move aimed to grab the attention of those craving this dish in proximity to any of their locations. Learn "}
                     <A href="/blog/how-to-make-a-menu" target="_blank">how to create a menu</A>
                     {" if you want further tips."}
@@ -205,7 +205,7 @@ export default function HowToBuildA() {
                   <p>A lot of the time, having your menu right there on your online ordering platform makes things so much smoother for both you and your customers. People can check it out easily and also know they can order straight from you. Plus, keeping it updated is a breeze compared to dealing with a PDF menu.</p>
                   <p>
                     {"For example, check out the simple and easy-to-read design from "}
-                    <a>AB Crepes</a>
+                    <a href="https://www.abcrepes.com/">AB Crepes</a>
                     :
                   </p>
                   <div className="w-embed">
@@ -249,7 +249,7 @@ export default function HowToBuildA() {
                   </div>
                   <p>
                     {"For example, "}
-                    <a>Delta Cafe and Bar</a>
+                    <a href="https://deltacafepdx.com/story">Delta Cafe and Bar</a>
                     {" used Owner.com to create an awesome “Our Story” page with a headline that makes you want to read more: “Clogging Arteries and Breaking Hearts Since 1994”. At Owner.com we make sure to tell the restaurant’s story because we've seen first hand that it increases conversions."}
                   </p>
                 </div>
@@ -285,7 +285,7 @@ export default function HowToBuildA() {
                   <p>
                     <A href="/blog/social-media-for-restaurants">Social media for restaurants</A>
                     {", if leveraged properly, can boost business. Many customers may go to your feeds to look at what other customers are saying, and if it’s positive, they’ll be more enticed to come visit. Since "}
-                    <a>29% of Millennials and Gen Z</a>
+                    <a href="https://blog.hubspot.com/marketing/how-search-behaviors-are-changing?__hstc=134204881.a0aafdeee30d731bce7fa0946459736b.1791193737570.1791193737570.1791193737570.1&__hssc=134204881.62.1791193737570&__hsfp=0ca4085275dabd03d53a38bdb86097b0">29% of Millennials and Gen Z</a>
                     {" prefer to search for information on social platforms, make that research easy on them by including links to your social media feeds on your website. "}
                   </p>
                 </div>
@@ -323,7 +323,7 @@ export default function HowToBuildA() {
                   </h3>
                   <p>
                     {"These days, no one goes anywhere without checking online first. As many as "}
-                    <a>94% of people</a>
+                    <a href="https://statuslabs.com/blog/restaurant-reputation-management">94% of people</a>
                     {" will pick a restaurant based on its online reviews. You’ve earned those good reviews. So, make them work for you by including some of your best reviews on your website in a Reviews or Testimonials section. "}
                   </p>
                   <p>{"You can manually select your favorite reviews from sites like Yelp, Google, Facebook and TripAdvisor. Or, you can install a third-party review widget. "}</p>
@@ -340,7 +340,7 @@ export default function HowToBuildA() {
                   </ul>
                   <p>
                     {"Just take a look at how "}
-                    <a>Sushi Me Rollin’</a>
+                    <a href="https://sushimerolln.com/">Sushi Me Rollin’</a>
                     {" uses Owner.com to showcase its raving reviews: "}
                   </p>
                   <div className="w-embed">
@@ -387,12 +387,12 @@ export default function HowToBuildA() {
                   </h3>
                   <p>
                     {"Adding information about your gift cards or including a gift card page is a fantastic way to encourage ongoing spending. Customers often spend more than the value of the gift card, leading to a noteworthy "}
-                    <a>6% increase</a>
+                    <a href="https://www.appfront.ai/blog/digital-gift-cards-the-modern-solution-for-restaurants-in-2023">6% increase</a>
                     {" in your overall sales. "}
                   </p>
                   <p>
                     {"For inspiration, look at how "}
-                    <a>Honeybear Cafe</a>
+                    <a href="https://honeybearrp.com/gift-cards">Honeybear Cafe</a>
                     {" incorporates gift cards on its website using Owner.com. "}
                   </p>
                 </div>
@@ -415,7 +415,7 @@ export default function HowToBuildA() {
                 <p>{"Ensure your website prominently features an online ordering button at the top for easy access. Owner.com enables you to create your own online delivery system, facilitating commission-free deliveries through your website and utilizing third-party driver networks. "}</p>
                 <p>
                   {"Direct ordering from your site can be more cost-effective for customers than apps, fostering repeat business and increased spending. It's a game-changer, and it's as amazing as it sounds. Take a look at how "}
-                  <a>Sauce the City</a>
+                  <a href="https://saucethecitycleveland.com/menu">Sauce the City</a>
                   {" used Owner.com to showcase its delivery page. "}
                 </p>
                 <div className="w-embed">
@@ -698,7 +698,7 @@ export default function HowToBuildA() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -714,7 +714,7 @@ export default function HowToBuildA() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -722,7 +722,7 @@ export default function HowToBuildA() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -792,9 +792,9 @@ export default function HowToBuildA() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -810,9 +810,9 @@ export default function HowToBuildA() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -937,7 +937,7 @@ export default function HowToBuildA() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

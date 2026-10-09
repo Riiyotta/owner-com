@@ -1,0 +1,9 @@
+/* Static fallbacks + hooks for the interaction runtime (src/lib/interactions/). Inline styles written by gsap
+   override these, so with JS the runtime is in charge; without JS the page still reads correctly. */
+
+/* Hero rotator: every phrase shares one grid cell. Without JS only the first (hardcoded) phrase may show —
+   never the whole stack. Matches the original's first paint (phrase 0 visible, the rest yPercent 150 / hidden). */
+.rotating-text__inner > .rotating-text__phrase:not(:first-child) .rotating-text__word {
+  opacity: 0;
+  visibility: hidden;
+}

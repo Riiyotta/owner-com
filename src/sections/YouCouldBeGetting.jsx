@@ -1,3 +1,4 @@
+import A from "../lib/A.jsx";
 // IA section(s): hero.section-center-hero (ia/ia.json, design-repo/sections/)
 // You could be getting a LOT mor — the section's real markup, read from the rendered page (route /how-owner-works, section 1).
 export default function YouCouldBeGetting() {
@@ -12,9 +13,9 @@ export default function YouCouldBeGetting() {
                 <p className="h5">Owner is the easiest way to rank higher on Google, get more online orders, and create the best experience for your customers. See how we do it.</p>
               </div>
             </div>
-            <a data-button-instance="" className="btn w-inline-block">
+            <A href="/demo" data-button-instance="" className="btn w-inline-block">
               <div data-button-text="" className="btn-text">Get a free demo</div>
-            </a>
+            </A>
           </div>
         </div>
       </div>

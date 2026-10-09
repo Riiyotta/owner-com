@@ -115,9 +115,9 @@ export default function HowToMakeA() {
                 <p>{"However, you can experiment with other colors to help play on customer psychology. "}</p>
                 <p>
                   {"For example, green also "}
-                  <a target="_blank">evokes a feeling of freshness</a>
+                  <a href="https://aaronallen.com/blog/the-psychology-of-menu-design" rel="noopener noreferrer" target="_blank">evokes a feeling of freshness</a>
                   {". Yellow, red and orange can help "}
-                  <a target="_blank">stimulate appetite</a>
+                  <a href="https://www.researchgate.net/publication/369867642_A_Study_on_the_Effect_of_Color_on_Human_Food_Perception" rel="noopener noreferrer" target="_blank">stimulate appetite</a>
                   . They also encourage guests to look at specific parts of your menu you want to highlight. This is especially done well in menus that use red to show off deals or high-margin items.
                 </p>
                 <div className="w-embed">
@@ -137,7 +137,7 @@ export default function HowToMakeA() {
                   <strong>{"3. Add your menu descriptions "}</strong>
                 </h2>
                 <p>
-                  <a target="_blank">Menu descriptions</a>
+                  <A href="/online-menu" target="_blank">Menu descriptions</A>
                   {" are one of the most essential elements of your menu and contribute to its overall look and layout. Your description not only states what the dish is, but it gives you a chance to highlight ingredients and tell a story. It can directly affect whether or not a customer orders a certain dish."}
                 </p>
                 <p>
@@ -195,7 +195,7 @@ export default function HowToMakeA() {
                 </p>
                 <p>
                   {"Leaving the dollar sign can make your menu feel repetitive and overly salesy. Without it, menus feel "}
-                  <a target="_blank">less transactional and more hospitable</a>
+                  <a href="https://aaronallen.com/blog/menu-design-dont-use-dollar-signs" rel="noopener noreferrer" target="_blank">less transactional and more hospitable</a>
                   .
                 </p>
                 <div className="w-embed">
@@ -244,7 +244,7 @@ export default function HowToMakeA() {
                 <p>{"Once you have your photos, descriptions and color scheme/font ready, you’re good to organize everything into your final layout. "}</p>
                 <p>
                   {"I highly recommend the "}
-                  <a>golden triangle</a>
+                  <a href="https://restaurantengine.com/psychology-of-menu-design/">golden triangle</a>
                   <strong></strong>
                   when thinking through your layout. This is a type of customer psychology that shows the three spots on a menu where people’s eyes go first.
                 </p>
@@ -280,12 +280,12 @@ export default function HowToMakeA() {
                 </h2>
                 <p>
                   {"A poor "}
-                  <a target="_blank">menu design</a>
+                  <A href="/blog/how-to-make-a-menu" target="_blank">menu design</A>
                   {" can confuse customers and reduce sales. That's why it's important to have a well-organized, easy-to-navigate menu that makes guests want to order. "}
                 </p>
                 <p>‍</p>
                 <figure style={{ "maxWidth": "1600pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
-                  <a target="_blank" className="w-inline-block">
+                  <a href="https://docs.google.com/presentation/d/12YD4DJTs3VE3GEDiakjqmQg_s6YxucEN/copy" rel="noopener noreferrer" target="_blank" className="w-inline-block">
                     <div>
                       <img loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f884f_AD_4nXf_615CmKvOokIIiCc_iXt8jIeaoIosUDlgzobySyu3fMmZann6JV2u6rotqpPEPTKSLJfzXjBf97kCb7gD45fWu6TnmheGETAZJYXyg4PAOMhZ8r0ONp8rFgsvz_gVx-JxvhxqtA.png" />
                     </div>
@@ -319,7 +319,7 @@ export default function HowToMakeA() {
                   </p>
                   <p>
                     {"Ready to see how we can elevate your online menu? Try a "}
-                    <a target="_blank">free demo of Owner.com</a>
+                    <A href="/demo" target="_blank">free demo of Owner.com</A>
                     {" today and watch your menu impress both your guests and your bottom line."}
                   </p>
                 </div>
@@ -344,7 +344,7 @@ export default function HowToMakeA() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -360,7 +360,7 @@ export default function HowToMakeA() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -368,7 +368,7 @@ export default function HowToMakeA() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -438,9 +438,9 @@ export default function HowToMakeA() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -456,9 +456,9 @@ export default function HowToMakeA() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -586,7 +586,7 @@ export default function HowToMakeA() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

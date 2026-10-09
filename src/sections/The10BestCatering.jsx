@@ -144,7 +144,7 @@ export default function The10BestCatering() {
                   {" Restaurants looking to reach corporate and office catering buyers through a third-party marketplace"}
                 </p>
                 <p>
-                  <a>ezCater</a>
+                  <a href="https://www.ezcater.com/">ezCater</a>
                   {" is a marketplace connecting restaurants with corporate buyers for meetings, events and recurring office meals. Restaurants pay a commission on each order, with rates varying based on services used. The platform includes tools for order management, fulfillment support and access to Relish, a recurring office meal program."}
                 </p>
                 <p>Unlike direct ordering platforms, ezCater owns the customer relationship. This means your repeat buyers stay on the marketplace rather than building a direct connection with your restaurant.</p>
@@ -177,7 +177,7 @@ export default function The10BestCatering() {
                 </h2>
                 <div className="w-embed"></div>
                 <p>
-                  <a>Grubhub</a>
+                  <a href="https://www.grubhub.com/catering">Grubhub</a>
                   {" and Seamless operate on the same platform under different brands, with Seamless primarily focused on New York. For restaurants, joining gives access to Grubhub's corporate buyer base—companies using Grubhub for Business to manage employee meals and catering. "}
                 </p>
                 <p>The trade-off is commission-based pricing, which can reach up to 20% depending on services used, plus the possibility of additional marketing fees to maintain visibility on the platform.</p>
@@ -188,12 +188,12 @@ export default function The10BestCatering() {
                   <li>
                     <strong>Integration with employee meal programs</strong>
                     {" to organize catering and group orders for in-office teams."}
-                    <a></a>
+                    <a href="https://business.grubhub.com/products-we-offer/group-ordering/"></a>
                   </li>
                   <li>
                     <strong>{"Line-of-credit billing for B2B clients "}</strong>
                     allows employees to order meals while admins control budgets, spending limits and ordering policies.
-                    <a></a>
+                    <a href="https://business.grubhub.com/faqs/"></a>
                   </li>
                   <li>
                     <strong>Place scheduled large-order workflow</strong>
@@ -236,7 +236,7 @@ export default function The10BestCatering() {
                   {" Independent and specialty restaurants offering curated, themed or dietary-specific menus"}
                 </p>
                 <p>
-                  <a>CaterCow</a>
+                  <a href="https://www.catercow.com/">CaterCow</a>
                   {" is a smaller, curated catering marketplace operating across select U.S. markets, focused on corporate office orders. Unlike larger platforms that prioritize scale, CaterCow vets and taste-tests every menu before listing it, which means the restaurant pool is intentionally limited. "}
                 </p>
                 <p>For restaurants with a distinctive menu—dietary-forward, ethnic cuisine or build-your-own concepts—that vetting process can work in their favor by reducing competition from generic options.</p>
@@ -251,7 +251,7 @@ export default function The10BestCatering() {
                   <li>
                     <strong>{"Photo-rich menu profiles with verified customer reviews "}</strong>
                     appear at delivery and the team reviews customer feedback to address performance issues.
-                    <a></a>
+                    <a href="https://www.catercow.com/learn-more/why-catercow"></a>
                   </li>
                   <li>
                     <A href="/blog/how-to-make-a-menu">
@@ -259,7 +259,7 @@ export default function The10BestCatering() {
                     </A>
                     <strong>{" visibility (vegan, halal, build-your-own bars) "}</strong>
                     {"provides dietary-specific restaurants a more prominent discovery path than they'd find on general delivery platforms."}
-                    <a></a>
+                    <a href="https://www.catercow.com/"></a>
                   </li>
                 </ul>
                 <p>
@@ -285,12 +285,12 @@ export default function The10BestCatering() {
                   {" Restaurants pursuing recurring office meal program revenue"}
                 </p>
                 <p>
-                  <a>ZeroCater</a>
+                  <a href="https://zerocater.com/">ZeroCater</a>
                   {" is more hands-off than a typical catering marketplace. Restaurants aren’t communicating directly with the corporate client. Instead, a dedicated account manager handles the whole process, from choosing vendors and putting together menus to coordinating delivery logistics. Restaurants just receive the order details upfront, including the menu, headcount and exact delivery timing for each order."}
                 </p>
                 <p>
                   For restaurants, the appeal is predictable, recurring order volume with minimal sales effort—orders are sent at least a week in advance, giving kitchens enough lead time to prepare.
-                  <a></a>
+                  <a href="https://www.catercow.com/reviews"></a>
                 </p>
                 <p>
                   <strong>Notable capabilities:</strong>
@@ -332,7 +332,7 @@ export default function The10BestCatering() {
                   Restaurants running rotating pop-up lunch programs in office buildings
                 </p>
                 <p>
-                  <a>Fooda</a>
+                  <a href="https://www.fooda.com/">Fooda</a>
                   {" connects restaurants with offices through recurring on-site lunch pop-ups and workplace food programs. Instead of relying on traditional catering drop-offs, restaurants can serve employees directly inside office buildings during scheduled lunch service windows. "}
                 </p>
                 <p>For independent restaurants, that can mean exposure to a steady stream of office workers without needing to invest heavily in corporate sales outreach themselves.</p>
@@ -368,7 +368,7 @@ export default function The10BestCatering() {
                   Restaurants and chefs targeting corporate clients
                 </p>
                 <p>
-                  <a>Hungry</a>
+                  <a href="https://tryhungry.com/">Hungry</a>
                   {" is a corporate catering marketplace that connects restaurants and independent chefs with businesses looking for group meals, events and ongoing office food programs. "}
                 </p>
                 <p>Instead of restaurants doing outbound sales to individual companies, Hungry acts as a middleman, matching them with corporate clients and handling much of the relationship management. For independent operators, it’s essentially a way to tap into higher-value B2B orders without building a full sales pipeline from scratch.</p>
@@ -412,7 +412,7 @@ export default function The10BestCatering() {
                   {" Restaurants that take catering orders directly and need a third-party driver network for fulfillment"}
                 </p>
                 <p>
-                  <a>DeliverThat</a>
+                  <a href="https://www.ideliverthat.com/">DeliverThat</a>
                   {" is a logistics network built specifically for catering and large food orders, acting as an on-demand delivery layer for restaurants that already handle sales directly. "}
                 </p>
                 <p>{"Instead of relying on in-house drivers or generic gig platforms, restaurants can plug into DeliverThat’s network to fulfill scheduled or same-day catering orders with drivers trained in food transport and setup. "}</p>
@@ -456,7 +456,7 @@ export default function The10BestCatering() {
                   Restaurants extending their existing DoorDash partnership into catering and group orders
                 </p>
                 <p>
-                  <a>DoorDash Catering</a>
+                  <a href="https://www.doordash.com/p/catering-near-me">DoorDash Catering</a>
                   {" is essentially an extension of the broader DoorDash ecosystem, designed to help restaurants capture larger group and office orders without needing a separate sales channel. "}
                 </p>
                 <p>{"If a restaurant is already on DoorDash, this layer lets them tap into catering demand through the same platform infrastructure, while DoorDash handles much of the logistics and customer flow. "}</p>
@@ -500,7 +500,7 @@ export default function The10BestCatering() {
                   Restaurants extending an existing Uber Eats partnership into group and catering orders
                 </p>
                 <p>
-                  <a>Uber Eats</a>
+                  <a href="https://www.uber.com/us/en/business/solutions/eats/business-lunch-delivery/">Uber Eats</a>
                   {" Catering builds on the core Uber Eats marketplace by letting restaurants accept larger group and office orders without changing how they already operate on the platform. "}
                 </p>
                 <p>{"If a restaurant is already live on Uber Eats, catering becomes more of an add-on than a separate system. You can layer group orders, scheduled deliveries and larger baskets into the same merchant workflow. "}</p>
@@ -597,7 +597,7 @@ export default function The10BestCatering() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -613,7 +613,7 @@ export default function The10BestCatering() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -621,7 +621,7 @@ export default function The10BestCatering() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -691,9 +691,9 @@ export default function The10BestCatering() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -709,9 +709,9 @@ export default function The10BestCatering() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -851,7 +851,7 @@ export default function The10BestCatering() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

@@ -56,7 +56,7 @@ export default function RestaurantCostsBreakdownSp() {
                 {"Out-of-control costs are one of the top reasons "}
                 <A href="/blog/restaurant-failure-rate">why restaurants fail</A>
                 {". In fact, "}
-                <a>82%</a>
+                <a href="https://www.score.org/resource/blog-post/1-reason-small-businesses-fail-and-how-avoid-it">82%</a>
                 {" of all small businesses fail due to cash flow issues. When costs spiral out of control, they can eat into your profits and compromise the quality of your food and service. "}
               </p>
               <p>
@@ -133,7 +133,7 @@ export default function RestaurantCostsBreakdownSp() {
                 </ul>
                 <p>
                   {"Your labor cost should be between "}
-                  <a>28% and 33%</a>
+                  <a href="https://www.restaurant365.com/blog/how-to-calculate-labor-cost-percentage">28% and 33%</a>
                   {" of your total revenue, but this is totally dependent on the type of restaurant you’re operating. "}
                 </p>
                 <p>For example, a fine-dining restaurant may have a labor cost percentage closer to 30% since they likely have high-end menu items. These higher costs help justify the extra time and skill required to prepare them. Additionally, labor costs are influenced by state-specific minimum wage laws.</p>
@@ -225,7 +225,7 @@ export default function RestaurantCostsBreakdownSp() {
                 </p>
                 <p>
                   {"The average food cost percentage for the fast-casual and takeout industry typically ranges from "}
-                  <a>28% to 30%</a>
+                  <a href="https://www.restaurant365.com/blog/how-to-reduce-food-cost-percentage/">28% to 30%</a>
                   , but this can change depending on the type of restaurant you run. It’s usually higher for fine dining restaurants since their food cost is usually higher to accommodate premium ingredients. Higher-end restaurants typically serve wine and alcohol (these often increase the check size) are more comfortable with higher food costs for that reason.
                 </p>
                 <p>For more high-level insights on managing food costs, check out my video:</p>
@@ -341,7 +341,7 @@ export default function RestaurantCostsBreakdownSp() {
                 </p>
                 <p>
                   {"If you’re a restaurant that offers online ordering, you’ll also need to consider the costs of third-party apps and delivery fees. Third-party apps are great for promoting your restaurant but can charge from 15-30% on orders, like "}
-                  <a>DoorDash charges</a>
+                  <A href="/blog/third-party-vs-direct-ordering">DoorDash charges</A>
                   .
                 </p>
                 <p>{"For example, imagine someone orders a $50 meal. If the app charges a 20% fee, you're basically handing over $10 just to make that sale on their platform. That can really hurt your bottom line and add up over time. "}</p>
@@ -350,7 +350,7 @@ export default function RestaurantCostsBreakdownSp() {
                     <p>
                       <strong>Pro tip:</strong>
                       {" Offsetting third-party app fees by charging customers higher delivery fees might turn them away - make sure to balance this. According to Owner.com data, keeping your "}
-                      <a target="_blank">delivery fee at $4</a>
+                      <a href="https://www.owner.com/blog/restaurants-delivery-fee" rel="noopener noreferrer" target="_blank">delivery fee at $4</a>
                       {" can drive sales."}
                     </p>
                   </div>
@@ -364,7 +364,7 @@ export default function RestaurantCostsBreakdownSp() {
                     <li>
                       <strong>{"Encourage your customers to order through you: "}</strong>
                       {"Promote direct ordering through your own website or app to avoid third-party fees. You can try giving discounts to first-time website visitors or dropping flyers into delivery bags that promote ordering directly. My friends at "}
-                      <a>Aburaya Japanese Fried Chicken</a>
+                      <a href="https://www.owner.com/case-studies/aburaya">Aburaya Japanese Fried Chicken</a>
                       {" saved hundreds of thousands of dollars by switching to direct ordering from third-party apps. "}
                     </li>
                     <li>
@@ -404,9 +404,9 @@ export default function RestaurantCostsBreakdownSp() {
                 <p>{"Let’s dive into two major expenses that can sneak up on you—rent and utilities. Whether you're paying for a prime downtown spot or a more laid-back suburban location, these costs will always be a big part of your budget. But here’s the good news—you can manage these without compromising the vibe and comfort of your restaurant."}</p>
                 <p>
                   {"Aim for your rent to fall between "}
-                  <a>6%-10%</a>
+                  <a href="https://commercialonebrokers.com/tips-for-estimating-restaurant-rent-costs/">6%-10%</a>
                   {" of your revenue, depending on the size, location and type of space you're in. Staying within this range helps balance overhead costs with other operational expenses like labor, food, and utilities. As for utilities, aim for around "}
-                  <a>3%-5%</a>
+                  <a href="https://www.energystar.gov/products/ask-the-experts/how-cut-utility-costs-your-commercial-kitchen">3%-5%</a>
                   {" of sales. It’s all about striking a balance that works for your bottom line. "}
                 </p>
                 <div id="how-to-save-on-rent-and-utilities">
@@ -507,7 +507,7 @@ export default function RestaurantCostsBreakdownSp() {
                     <li>
                       <strong>{"Use social media: "}</strong>
                       {"Social media platforms are free to use to help you engage and connect with your customers. It’s not a surefire way to guarantee more profits, but you can do things like share what’s going on behind the scenes in the kitchen, highlight dishes, interact with customers and answer questions in the comments. Talkin’ Tacos does this well on their "}
-                      <a>TikTok page</a>
+                      <a href="https://www.tiktok.com/@_talkintacos">TikTok page</a>
                       {" and has received millions of views.  "}
                     </li>
                   </ul>
@@ -527,7 +527,7 @@ export default function RestaurantCostsBreakdownSp() {
                   <li>
                     <strong>Staff training:</strong>
                     {" Spending the money to properly train your employees is one of the smartest long-term investments you can make. It won’t only ensure your team is performing well, but it will also reduce turnover and potentially offset the cost of bringing on new staff—the average cost to hire a new employee is around "}
-                    <a>$4,700</a>
+                    <a href="https://www.shrm.org/topics-tools/news/talent-acquisition/real-costs-recruitment">$4,700</a>
                     !
                   </li>
                   <li>
@@ -549,7 +549,7 @@ export default function RestaurantCostsBreakdownSp() {
                 <p>The good news is that you can get a handle on costs and even find ways to save money on things like inventory and employee wages.</p>
                 <p>
                   {"If you're looking to cut costs and increase profits with more direct online orders, let's partner up.  Try a "}
-                  <a>free demo of Owner.com</a>
+                  <A href="/demo">free demo of Owner.com</A>
                   {" today.  "}
                 </p>
               </div>
@@ -573,7 +573,7 @@ export default function RestaurantCostsBreakdownSp() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -589,7 +589,7 @@ export default function RestaurantCostsBreakdownSp() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -597,7 +597,7 @@ export default function RestaurantCostsBreakdownSp() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -667,9 +667,9 @@ export default function RestaurantCostsBreakdownSp() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -685,9 +685,9 @@ export default function RestaurantCostsBreakdownSp() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -815,7 +815,7 @@ export default function RestaurantCostsBreakdownSp() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

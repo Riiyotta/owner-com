@@ -54,7 +54,7 @@ export default function MobileMarketingForRestauran() {
             <div fs-richtext-element="rich-text" fs-toc-element="contents" fs-toc-offsettop="5.625em" className="text-rich-text max-width-full w-richtext">
               <p>
                 {"Did you know "}
-                <a>59%</a>
+                <a href="https://www.mobiloud.com/blog/what-percentage-of-internet-traffic-is-mobile">59%</a>
                 {" of all web traffic comes from mobile devices? Mobile marketing is no longer just a part of online marketing—it’s the main way guests will discover and order from your restaurant."}
               </p>
               <p>
@@ -86,7 +86,7 @@ export default function MobileMarketingForRestauran() {
                   <p>Making sure your site is mobile-friendly is the first and most important step in your mobile marketing journey. All the marketing you’re doing—email marketing, SMS or ads—ultimately directs customers to your mobile site, which is why a mobile-friendly site is so critical.</p>
                   <p>
                     {"Google uses "}
-                    <a>“mobile-first” indexing</a>
+                    <a href="https://developers.google.com/search/blog/2020/03/announcing-mobile-first-indexing-for">“mobile-first” indexing</a>
                     {", which means they look at the mobile version of your site when determining your rankings. So, if you haven’t optimized your site for mobile, you’ll struggle to rank at the top of Google. To do this, you’ll want to start with a "}
                     <A href="/blog/website-builders-for-restaurants">restaurant website builder</A>
                     {" that thinks mobile-first or make sure your mobile developer does. "}
@@ -118,7 +118,7 @@ export default function MobileMarketingForRestauran() {
                   </ul>
                   <p>
                     {"Take a look at how "}
-                    <a>Arubaya Japanese Fried Chicken</a>
+                    <a href="https://www.owner.com/case-studies/aburaya">Arubaya Japanese Fried Chicken</a>
                     {" ensures their imagery is high-quality and sized for mobile, as well as making their download and online delivery buttons clear and visible."}
                   </p>
                   <div className="w-embed">
@@ -132,7 +132,7 @@ export default function MobileMarketingForRestauran() {
                   </div>
                   <p>
                     {"Everyone talks about the importance of a mobile-friendly site, but what really matters is how well your site performs on a phone. Most people are finding places to eat using their phones, so your website has to look and function just as well on a mobile device as on a desktop. And "}
-                    <a>61% of consumers</a>
+                    <a href="https://www.webfx.com/digital-marketing/statistics/mobile-marketing-statistics/">61% of consumers</a>
                     {" say they’re more likely to buy from mobile-friendly sites. "}
                   </p>
                   <p>Next, I’ll walk you through how you can make your website and ordering experience shine with a branded mobile app.</p>
@@ -148,7 +148,7 @@ export default function MobileMarketingForRestauran() {
                   </p>
                   <p>
                     {"Take my friends at "}
-                    <a>Talkin’ Tacos</a>
+                    <a href="https://talkintacos.net/">Talkin’ Tacos</a>
                     , for example. Their ordering experience is seamless across device and easy to navigate—whether you’re on their desktop site or their mobile app, it’s just as fast and convenient. That’s what really matters. And, they make it easy to create an account to earn points:
                   </p>
                   <div className="w-embed">
@@ -222,7 +222,7 @@ export default function MobileMarketingForRestauran() {
                     <li>
                       <strong>{"Benefit the customers: "}</strong>
                       {"A branded app helps customers save, too—they’ll spend a lot less than they would using delivery apps like "}
-                      <a>Uber Eats and DoorDash</a>
+                      <A href="/delivery">Uber Eats and DoorDash</A>
                       . To make this work to your advantage, you’ll just need to remind customers how much they’re saving with you on the app to keep them coming back through things like notifications or alerts at checkout.
                     </li>
                   </ul>
@@ -334,7 +334,7 @@ export default function MobileMarketingForRestauran() {
                   </h3>
                   <p>
                     {"Not only should you have your own app, but you can also consider "}
-                    <a>third-party delivery services</a>
+                    <A href="/delivery">third-party delivery services</A>
                     {" for your own promotion—they’re great for getting discovered. The commissions they charge can be worth it to help customers find you. "}
                   </p>
                   <p>
@@ -387,7 +387,7 @@ export default function MobileMarketingForRestauran() {
                 </p>
                 <p>
                   {"If that sounds good, "}
-                  <a>schedule a demo with our team</a>
+                  <A href="/demo">schedule a demo with our team</A>
                   {" to get started."}
                 </p>
                 <div fs-richtext-component="cta-1" className="blog-content_cta-wrap">
@@ -398,9 +398,9 @@ export default function MobileMarketingForRestauran() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -428,7 +428,7 @@ export default function MobileMarketingForRestauran() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -444,7 +444,7 @@ export default function MobileMarketingForRestauran() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -452,7 +452,7 @@ export default function MobileMarketingForRestauran() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -523,9 +523,9 @@ export default function MobileMarketingForRestauran() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -641,7 +641,7 @@ export default function MobileMarketingForRestauran() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

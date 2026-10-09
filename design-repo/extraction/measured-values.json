@@ -1496,7 +1496,7 @@
           "anchor": "section-footer",
           "lines": [
             8183,
-            8648
+            8432
           ]
         }
       ]
@@ -3294,8 +3294,8 @@
           "tag": "section",
           "anchor": "section-about_how",
           "lines": [
-            3739,
-            3775
+            3970,
+            4006
           ]
         },
         {
@@ -3304,8 +3304,8 @@
           "tag": "section",
           "anchor": "section-about_vision",
           "lines": [
-            3776,
-            3836
+            4007,
+            4067
           ]
         },
         {
@@ -3314,8 +3314,8 @@
           "tag": "section",
           "anchor": "section-about_help",
           "lines": [
-            3837,
-            3892
+            4068,
+            4123
           ]
         },
         {
@@ -3324,8 +3324,8 @@
           "tag": "section",
           "anchor": "section-cta",
           "lines": [
-            3893,
-            3913
+            4124,
+            4143
           ]
         },
         {
@@ -3334,8 +3334,8 @@
           "tag": "section",
           "anchor": "section-footer",
           "lines": [
-            3914,
-            4421
+            4145,
+            4394
           ]
         }
       ]
@@ -7762,7 +7762,7 @@
           "anchor": "section-footer",
           "lines": [
             3085,
-            3545
+            3334
           ]
         }
       ]
@@ -8399,7 +8399,7 @@
           "anchor": "section-footer",
           "lines": [
             3070,
-            3530
+            3319
           ]
         }
       ]
@@ -8497,7 +8497,7 @@
           "anchor": "section-footer",
           "lines": [
             2929,
-            3389
+            3178
           ]
         }
       ]

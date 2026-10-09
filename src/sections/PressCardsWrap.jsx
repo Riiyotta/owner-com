@@ -5,7 +5,7 @@ export default function PressCardsWrap() {
     <div className="press_cards-wrap w-dyn-list" data-clone-section="PressCardsWrap">
       <div fs-cmsload-mode="load-under" fs-cmsload-element="list" role="list" className="press_cards-grid w-dyn-items">
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.forbes.com/sites/amyfeldman/2024/08/13/next-billion-dollar-startups-2024/" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-1600.jpg" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-800.jpg 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-1080.jpg 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-1600.jpg 1600w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner-p-2000.jpg 2000w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f86f7_forbes-owner.jpg 2048w" className="img-cover" />
               <div className="press_img-overlay">
@@ -26,7 +26,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://fortune.com/2024/05/02/why-owner-cofounder-and-ceo-adam-guild-is-serving-up-software-especially-for-mom-and-pop-restaurants/" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8682_owner-fortune-min.jpg" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8682_owner-fortune-min-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8682_owner-fortune-min-p-800.jpg 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8682_owner-fortune-min-p-1080.jpg 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8682_owner-fortune-min.jpg 1440w" className="img-cover" />
               <div className="press_img-overlay">
@@ -47,7 +47,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.fastcompany.com/91019798/this-startup-wants-to-help-mom-and-pop-restaurants-drop-doordash" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f820e_65c35423a5be818da606f192_series-b_owner.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -68,7 +68,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://techcrunch.com/2024/01/31/owner-33m-series-b-online-restaurants/?guccounter=2" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f816a_65c35483c27e3f11c1012672_Website-Builder.webp" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -89,7 +89,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://techcrunch.com/2021/08/31/owner-com-serves-up-10-7m-so-that-independent-restaurants-can-get-cooking/" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8256_64a5932afcc52eaa02537d61_img1-min.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -110,7 +110,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.mercurynews.com/2021/03/05/meal-delivery-high-school-dropouts-bay-area-startup-aims-to-save-restaurants-from-fees-karens/" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8140_64ae7dffbc221c82df6df9a3_news-image.jpg.webp" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -131,7 +131,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.bloomberg.com/news/videos/2020-12-22/how-profitboss-helps-restaurants-survive-during-the-pandemic-video" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f81b3_64a592fca80f297dc68d0c36_img3-min.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -152,7 +152,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.foxbusiness.com/technology/high-school-dropout-company-free-delivery-restaurants" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8124_64ae809cb3c372ecd40efef9_fox.jpg.webp" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -173,7 +173,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.forbes.com/sites/curtissilver/2020/11/17/profitboss-gives-restaurants-the-tools-to-survive/" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f81e4_64a5928aadcaf79a1dcf647c_img4-min.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -194,7 +194,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.vice.com/en/article/k7awpm/this-startup-is-saving-restaurants-from-heavy-delivery-apps-fees" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/6683e68978f66ab29d5d6382_64afecaef21f4711167557e6_64a1aed5008131df7322280e__MG_4993.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">
@@ -215,7 +215,7 @@ export default function PressCardsWrap() {
           </a>
         </div>
         <div id="w-node-d92765a2-76cf-ffc7-dea5-cdcd6664c0f4-76c7581a" role="listitem" className="max-width-full w-dyn-item">
-          <a target="_blank" className="press_collection-link w-inline-block">
+          <a href="https://www.businessinsider.com/ceo-founder-profitboss-landed-seed-round-investment-2020-10" rel="noopener noreferrer" target="_blank" className="press_collection-link w-inline-block">
             <div className="press_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8234_64a59253b00b024ba19415ff_adam-press.jpeg" alt="" className="img-cover" />
               <div className="press_img-overlay">

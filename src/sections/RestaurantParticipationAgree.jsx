@@ -93,7 +93,7 @@ export default function RestaurantParticipationAgree() {
                 <li>the Platform, Service, and Tablets (as defined below) and Printers (as defined below) are provided “as is” without warranties of any kind and Owner’s liability to Business is limited; and</li>
                 <li>
                   {"disputes arising hereunder will be resolved by binding arbitration. By accepting this RPA, as provided in greater detail in Section "}
-                  <a>23</a>
+                  <a href="https://docs.google.com/document/d/1I_QXM95kCc2VujBezUrt6HOXDOH9LVUF6K88fVOKMYA/edit#bookmark=id.2p2csry">23</a>
                   {" of this RPA, Business and Owner are each waiving the right to a trial by jury or to participate in a class action."}
                 </li>
               </ol>
@@ -200,7 +200,7 @@ export default function RestaurantParticipationAgree() {
               <p>
                 <strong>DOORDASH Service – Incorporated Third-Party Terms.</strong>
                 {" If Client elects to utilize DoorDash for third-party delivery within the Direct Delivery Connection Platform, Client provides its agreement to become bound by the DoorDash terms and conditions of service located at: "}
-                <a target="_blank">https://help.doordash.com/merchants/s/terms-of-service-us?language=en_US</a>
+                <a href="https://help.doordash.com/merchants/s/terms-of-service-us?language=en_US" rel="noopener noreferrer" target="_blank">https://help.doordash.com/merchants/s/terms-of-service-us?language=en_US</a>
                 . In addition, if Client utilizes DoorDash for the sale and distribution of alcohol, Client expressly agrees to also become bound by DoorDash’s Alcohol Addendum, attached as Addendum A-1 hereto.
               </p>
               <h2>5. Business Content.</h2>
@@ -265,7 +265,7 @@ export default function RestaurantParticipationAgree() {
                 For the purposes of this RPA, “
                 <strong>Tablet</strong>
                 {"” means a configured tablet (i) for which the Service is optimized and (ii) provided to Business by Owner. Any firmware or other software that is preinstalled in a Tablet is “Owner Content” under this RPA and is licensed to Business in accordance with Section "}
-                <a>6</a>
+                <a href="https://docs.google.com/document/d/1I_QXM95kCc2VujBezUrt6HOXDOH9LVUF6K88fVOKMYA/edit#bookmark=id.41mghml">6</a>
                 . Owner may, in its sole discretion, provide support for Tablets and any software preinstalled on Tablets.
               </p>
               <h3>{"8.2 Loaned Tablets. "}</h3>
@@ -301,7 +301,7 @@ export default function RestaurantParticipationAgree() {
                 For the purposes of this RPA, “
                 <strong>Printer</strong>
                 {"” means a configured printer (i) for which the Service is optimized and (ii) provided to Business by Owner. Any firmware or other software that is preinstalled in a Printer is “Owner Content” under this RPA and is licensed to Business in accordance with Section "}
-                <a>6</a>
+                <a href="https://docs.google.com/document/d/1I_QXM95kCc2VujBezUrt6HOXDOH9LVUF6K88fVOKMYA/edit#bookmark=id.vx1227">6</a>
                 . Owner may, in its sole discretion, provide support for Printers and any software preinstalled on Printers.
                 <strong>‍</strong>
               </p>

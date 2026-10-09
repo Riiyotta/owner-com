@@ -103,7 +103,7 @@ export default function HereAreTheFood() {
                   <p>
                     <strong>{"The trend in action: "}</strong>
                     {"My friends at "}
-                    <a target="_blank">Arubaya Fried Chicken</a>
+                    <a href="https://www.owner.com/case-studies/aburaya" rel="noopener noreferrer" target="_blank">Arubaya Fried Chicken</a>
                     {" elevate classic fried chicken with an elevated Japanese twist, proving that craveable comfort food can still feel premium."}
                   </p>
                   <div className="w-embed">
@@ -123,7 +123,7 @@ export default function HereAreTheFood() {
                   </h3>
                   <p>
                     {"Remember your favorite childhood snacks? Now they come with better ingredients, smarter flavors and a grown-up twist—like savory snack platters and reimagined diner-style dishes. And for Gen Z, who are "}
-                    <a target="_blank">40% more likely</a>
+                    <a href="https://www.flipsnack.com/A5898977C6F/the-next-flavor-report/full-view.html" rel="noopener noreferrer" target="_blank">40% more likely</a>
                     {" than other groups to try new foods, this mix of nostalgia and novelty hits the sweet spot."}
                   </p>
                   <p>For example:</p>
@@ -182,7 +182,7 @@ export default function HereAreTheFood() {
                   </p>
                   <p>
                     <strong>{"The trend in action: "}</strong>
-                    <a target="_blank">Sweetgreen’s seasonal menus</a>
+                    <a href="https://www.sweetgreen.com/menu" rel="noopener noreferrer" target="_blank">Sweetgreen’s seasonal menus</a>
                     {" feature a dedicated “protein plates” section featuring “Carmelized Garlic Steak” and “Hot Honey Chicken” "}
                     <A href="/catering">catering</A>
                     {" to health-conscious diners seeking flavorful, filling meals."}
@@ -215,7 +215,7 @@ export default function HereAreTheFood() {
                     <p>And let’s not forget the economic backdrop: groceries are expensive, protein prices are up and diners want bang for their buck. That means they’re more open to flavorful, filling plant-based options, as long as it doesn’t feel like a compromise.</p>
                     <p>
                       <strong>{"This trend in action: "}</strong>
-                      <a target="_blank">Sweetfin</a>
+                      <a href="https://www.sweetfin.com/menu" rel="noopener noreferrer" target="_blank">Sweetfin</a>
                       {" focuses on creative plant-based “Sweetboxes” which puts a more unique spin on typical vegan bowls.  "}
                     </p>
                     <div className="w-embed">
@@ -252,7 +252,7 @@ export default function HereAreTheFood() {
                   <p>
                     <strong>{"This trend in action: "}</strong>
                     {"The nonalcoholic trend is so popular that San Diego opened its first nonalcoholic bar, "}
-                    <a target="_blank">Good News</a>
+                    <a href="https://www.goodnewssd.com/" rel="noopener noreferrer" target="_blank">Good News</a>
                     , which features fun mocktails without the buzz.
                   </p>
                   <div className="w-embed">
@@ -278,7 +278,7 @@ export default function HereAreTheFood() {
                     {"This isn’t just a buzzword anymore—guests "}
                     <em>care</em>
                     {". In fact, "}
-                    <a target="_blank">53% of consumers</a>
+                    <a href="https://business.yougov.com/content/49155-sustainability-premium-53-of-consumers-willing-to-pay-10-extra-for-sustainable-food-and-drink" rel="noopener noreferrer" target="_blank">53% of consumers</a>
                     {" will pay 10% more for sustainable products based on a recent survey.  They want to know: Was this chicken raised nearby? Are those greens from a local farm? Is that packaging going straight to the landfill?"}
                   </p>
                   <p>
@@ -299,7 +299,7 @@ export default function HereAreTheFood() {
                   </p>
                   <p>
                     <strong>{"The trend in action: "}</strong>
-                    <a target="_blank">Forage</a>
+                    <a href="https://www.eatforage.com/menu" rel="noopener noreferrer" target="_blank">Forage</a>
                     {" highlights sustainability in their menu descriptions by saying things like “line caught sashimi tuna.” On the About page, they also state that they support local farms and vendors. "}
                   </p>
                   <div className="w-embed">
@@ -348,7 +348,7 @@ export default function HereAreTheFood() {
                   <p>{"This is also where AI can work in your favor. For example, Owner.com can help you tailor digital ordering to your guests’ habits—showing their recently purchased items, simplifying checkout and even sending smart re-order nudges when they’re likely to be hungry again. "}</p>
                   <p>
                     <strong>{"The trend in action: "}</strong>
-                    <a target="_blank">Tocaya Organica</a>
+                    <a href="https://www.tocaya.com/" rel="noopener noreferrer" target="_blank">Tocaya Organica</a>
                     {" offers grab-and-go bowls and customizable burritos that are both mess-free and mobile-friendly—great for a quick lunch or dinner between errands."}
                   </p>
                   <div className="w-embed">
@@ -370,7 +370,7 @@ export default function HereAreTheFood() {
                   </h3>
                   <p>
                     {"Takeout isn’t a backup plan anymore—it’s the dining experience for most guests. In fact, nearly "}
-                    <a>75% of restaurant meals</a>
+                    <a href="https://www.theatlantic.com/newsletters/archive/2024/12/americans-dining-tgifridays-red-lobster/680900/">75% of restaurant meals</a>
                     {" are now enjoyed off-site. That means in 2026, convenience alone won’t be enough. Guests expect consistency, great vibes and that same made-with-love feel they’d get in person."}
                   </p>
                   <p>From couch noodles to lunch break birria bowls, presentation matters. Food should travel well, arrive looking great and feel intentional. Think tamper-proof, heat-retaining packaging that keeps fries crispy and branding that shows you’ve thought of everything.</p>
@@ -391,7 +391,7 @@ export default function HereAreTheFood() {
                   </p>
                   <p>
                     <strong>{"The trend in action: "}</strong>
-                    <a>Din Tai Fung</a>
+                    <a href="https://dtf.com/en">Din Tai Fung</a>
                     {" takes takeout seriously. Every item is thoughtfully packed in custom compartments to preserve texture and prevent sogginess. Their packaging isn’t just functional, it’s sleek, eco-friendly and instantly recognizable, right down to the branded utensils."}
                   </p>
                   <div className="w-embed">
@@ -426,7 +426,7 @@ export default function HereAreTheFood() {
                   <p>Guests are looking for that tangy, chewy, naturally fermented bite—whether it’s hugging a sandwich, anchoring a breakfast toast or served warm with cultured butter as a starter. Its rustic, handmade feel elevates even the most familiar dishes with just a little extra soul.</p>
                   <p>
                     <strong>{"This trend in action: "}</strong>
-                    <a>Tartine Bakery</a>
+                    <a href="https://tartinebakery.com/">Tartine Bakery</a>
                     {" in San Francisco puts sourdough front and center, using their signature loaf for tartines, sandwiches, and toasts topped with seasonal ingredients. It’s rustic, bold, and still setting the standard."}
                   </p>
                   <div className="w-embed">
@@ -455,7 +455,7 @@ export default function HereAreTheFood() {
                   <p>We’re seeing crispy shallots on creamy soups, chili crunch on soft scrambled eggs and pickled garnishes bringing zing to otherwise rich dishes. Even tempura flakes and puffed grains are showing up on salads, not just sushi rolls. Guests want contrast: hot and cold, soft and crunchy, smooth and spiced.</p>
                   <p>
                     <strong>{"This trend in action: "}</strong>
-                    <a>Cava</a>
+                    <a href="https://cava.com/">Cava</a>
                     {" adds a crispy lentil topping to some of its grain bowls, giving each bite a satisfying crunch alongside warm proteins and creamy dressings."}
                   </p>
                   <div className="w-embed">
@@ -491,7 +491,7 @@ export default function HereAreTheFood() {
                   <p>{"We’ve all been there: hovering our phone, waiting for a menu to load, only to tap through five links before we even see a sandwich. In 2026, guests still want tech, but only if it’s fast and functional. "}</p>
                   <p>
                     {"One study said that QR codes on menus are actually "}
-                    <a target="_blank">diminishing customer loyalty</a>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S1447677024001190" rel="noopener noreferrer" target="_blank">diminishing customer loyalty</a>
                     {". That’s why many restaurants are bringing back physical menus. But if you’re making the switch, it needs to be done thoughtfully. "}
                   </p>
                   <div className="w-embed">
@@ -603,7 +603,7 @@ export default function HereAreTheFood() {
                 <p>Whether you update your takeout packaging or add a global twist to a comfort dish, these small moves can lead to big returns.</p>
                 <p>
                   {"Check out how Owner.com can help simplify your operations and boost sales. We can make it easy to test new menu items, promote trending dishes through automated emails and texts, and optimize your online ordering experience to match today’s guest expectations. "}
-                  <a target="_blank">Try a free demo</a>
+                  <A href="/demo" target="_blank">Try a free demo</A>
                   {" today."}
                 </p>
                 <p>‍</p>
@@ -628,7 +628,7 @@ export default function HereAreTheFood() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -644,7 +644,7 @@ export default function HereAreTheFood() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -652,7 +652,7 @@ export default function HereAreTheFood() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -722,9 +722,9 @@ export default function HereAreTheFood() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -740,9 +740,9 @@ export default function HereAreTheFood() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -870,7 +870,7 @@ export default function HereAreTheFood() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

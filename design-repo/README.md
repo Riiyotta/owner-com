@@ -11,7 +11,7 @@ for what a generator may and may not reproduce.
 - Routes: 144
 - Primitives: 16
 - Components: 257
-- Assets: 2812
+- Assets: 2063
 - Foundation tokens: 186
 - Semantic tokens: 19
 - Rules: 7

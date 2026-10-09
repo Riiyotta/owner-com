@@ -176,7 +176,7 @@ export default function WebsiteTerms() {
               </h3>
               <p>
                 {"Please read the "}
-                <a>Privacy Policy</a>
+                <a href="http://wner.com/privacy-policy">Privacy Policy</a>
                 {" carefully for information relating to our collection, use, storage, disclosure of your personal information. The Privacy Policy is incorporated by this reference into, and made a part of, these Terms."}
               </p>
               <h3>

@@ -12,9 +12,9 @@ export default function TheEasiestWayTo5() {
               <h2 className="h3">The easiest way to grow your restaurant online.</h2>
             </div>
             <div className="button-group cc-footer">
-              <a data-button-instance="" className="btn w-inline-block">
+              <A href="/demo" data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
-              </a>
+              </A>
               <A data-button-instance="" href="/how-owner-works" className="btn w-inline-block is-translucent">
                 <div data-button-text="" className="btn-text">See how it works</div>
               </A>

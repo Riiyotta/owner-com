@@ -20,7 +20,7 @@ export default function ActualReviewsFromRestaurant() {
           <div className="reviews_grid-wrap">
             <div className="reviews_grid-wrap-inner">
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d0102405-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9073110" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -81,7 +81,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9312008" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -142,7 +142,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6129183/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -205,7 +205,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d0102453-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9207853" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -266,7 +266,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d010246d-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6094808/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -329,7 +329,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d0102487-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9073110" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -392,7 +392,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-photo_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-1600.avif" alt="Three men, two wearing turbans and aprons, preparing food outdoors while smiling and engaging." sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-800.avif 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-1080.avif 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-1600.avif 1600w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1-p-2000.avif 2000w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8070_reviews-1.avif 2831w" className="img-cover" />
-              <a target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
+              <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6183931/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
                 <div className="reviews_grid-card-rest-inner">
                   <div className="w-layout-vflex">
                     <div className="u-mb-24">
@@ -461,7 +461,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-wrap-inner">
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d01024c0-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6112979/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -524,7 +524,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d01024da-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9111351" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -585,7 +585,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_4ff4aec3-2022-d486-896e-e2c8d01024f4-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6176894/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -648,7 +648,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-b04e9d5b-fab9-8c1f-db45-652ad9ef2926-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9072827" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -709,7 +709,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-d8ecd750-de04-76bf-2701-f8c4e5221409-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6119104/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -772,7 +772,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_23044cea-1332-9354-5731-c3b23c66bb8e-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9169944" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -837,7 +837,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-photo_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-1600.avif" alt="Man and woman laughing together while washing hands in a commercial kitchen sink." sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-800.avif 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-1080.avif 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-1600.avif 1600w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2-p-2000.avif 2000w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8067_reviews-2.avif 2831w" className="img-cover" />
-              <a target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
+              <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6014598/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
                 <div className="reviews_grid-card-rest-inner">
                   <div className="w-layout-vflex">
                     <div className="u-mb-24">
@@ -906,7 +906,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-wrap-inner">
               <div id="w-node-_46882b33-08ed-1977-8ea2-3eaefa3f3209-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6180108/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -969,7 +969,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_46882b33-08ed-1977-8ea2-3eaefa3f320f-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9214243" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1091,7 +1091,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_46882b33-08ed-1977-8ea2-3eaefa3f321b-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9072827" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1152,7 +1152,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_46882b33-08ed-1977-8ea2-3eaefa3f3221-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___6119104/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1215,7 +1215,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_46882b33-08ed-1977-8ea2-3eaefa3f3227-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9329796" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1278,7 +1278,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-photo_visual">
               <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-1600.avif" alt="Chef using a wooden peel to place a pizza into a brick oven." sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-800.avif 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-1080.avif 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-1600.avif 1600w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%2520(1)-p-2000.avif 2000w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8072_owner-reviews_3%20(1).avif 2123w" className="img-cover" />
-              <a target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
+              <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___5035740/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest-photo w-inline-block">
                 <div className="reviews_grid-card-rest-inner">
                   <div className="w-layout-vflex">
                     <div className="u-mb-24">
@@ -1347,7 +1347,7 @@ export default function ActualReviewsFromRestaurant() {
             </div>
             <div className="reviews_grid-wrap-inner">
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc41-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.capterra.com/p/10002488/Owner/reviews/Capterra___4696762/" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1410,7 +1410,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc47-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9202687" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1468,7 +1468,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc4d-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9105481" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1529,7 +1529,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc53-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-9126789" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">
@@ -1590,7 +1590,7 @@ export default function ActualReviewsFromRestaurant() {
                 </a>
               </div>
               <div id="w-node-_2cfb6505-caec-c929-ecdf-ea1443afbc59-bb200145" className="reviews_grid-card">
-                <a target="_blank" className="reviews_grid-card-rest w-inline-block">
+                <a href="https://Syracuse, New York" rel="noopener noreferrer" target="_blank" className="reviews_grid-card-rest w-inline-block">
                   <div className="reviews_grid-card-rest-inner">
                     <div className="w-layout-vflex">
                       <div className="u-mb-24">

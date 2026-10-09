@@ -1,6 +1,6 @@
 import { Suspense, useEffect } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import { routes } from "./routes.js";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { routes, REDIRECTS } from "./routes.js";
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -15,6 +15,7 @@ export default function App() {
       <ScrollToTop />
       <Routes>
         {routes.map((r) => <Route key={r.path} path={r.path} element={<r.Page />} />)}
+        {REDIRECTS.map(([from, to]) => <Route key={from} path={from} element={<Navigate to={to} replace />} />)}
         <Route path="*" element={<Home />} />
       </Routes>
     </Suspense>

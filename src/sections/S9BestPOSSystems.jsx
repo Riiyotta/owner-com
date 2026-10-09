@@ -329,10 +329,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">4.5/5 (G2)</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews" rel="noopener noreferrer" target="_blank">4.5/5 (G2)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.6/5 (Capterra)</a>
+                    <a href="https://www.capterra.com/p/275802/Square-Point-of-Sale/reviews/" rel="noopener noreferrer" target="_blank">4.6/5 (Capterra)</a>
                   </li>
                 </ul>
                 <p>User reviews note the intuitive interface and quick setup process as key strengths, while some users report that processing fees can accumulate for high-volume operations and customization options are more limited compared to specialized restaurant point of sale systems.</p>
@@ -356,7 +356,7 @@ export default function S9BestPOSSystems() {
                   Add-on variety
                 </p>
                 <p>
-                  <a target="_blank">SpotOn</a>
+                  <a href="https://www.spoton.com/" rel="noopener noreferrer" target="_blank">SpotOn</a>
                   {" offers a flexible platform with extensive add-on options that allow restaurants to build a system tailored to their specific needs. Beyond core POS functionality, the system provides online ordering, labor management tools, reservation management through SpotOn Reserve and more - all available as integrated modules. The cloud-based platform includes an offline mode, ensuring operations continue during internet outages."}
                 </p>
                 <p>
@@ -381,10 +381,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">4.4/5 (G2)</a>
+                    <a href="https://www.g2.com/products/spoton/reviews" rel="noopener noreferrer" target="_blank">4.4/5 (G2)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.2/5 (Capterra)</a>
+                    <a href="https://www.capterra.com/p/197473/SpotOn-Restaurant/reviews/" rel="noopener noreferrer" target="_blank">4.2/5 (Capterra)</a>
                   </li>
                 </ul>
                 <p>{"SpotOn's POS reporting capabilities provide detailed insights into sales by revenue center, labor costs, and menu performance. Users frequently mention the depth of available features and responsive 24/7 support as positives, while some note occasional software errors and report that the wide range of options can create a learning curve for new staff."}</p>
@@ -434,10 +434,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">4.2/5 (G2)</a>
+                    <a href="https://www.g2.com/products/toast/reviews" rel="noopener noreferrer" target="_blank">4.2/5 (G2)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.1/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/136301/toast-pos" rel="noopener noreferrer" target="_blank">4.1/5 (Capterra)</a>
                   </li>
                 </ul>
                 <p>{"Users praise Toast's robust in-person dining capabilities, although its online ordering features are fairly basic and can be expensive for smaller restaurants. While many find it easier to use than other POS systems, some have reported a less-than-helpful support team when problems do arise."}</p>
@@ -460,7 +460,7 @@ export default function S9BestPOSSystems() {
                   Front-of-house operations
                 </p>
                 <p>
-                  <a>TouchBistro</a>
+                  <a href="https://www.touchbistro.com/">TouchBistro</a>
                   {" provides an iPad-based POS system focused on tableside ordering and front-of-house efficiency. The system operates as a hybrid cloud-based platform with built-in offline mode, allowing operations to continue during internet outages. TouchBistro includes customizable floor plans, table management, menu modification capabilities, and staff management tools. "}
                 </p>
                 <p>
@@ -482,10 +482,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">4.1/5 (G2)</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews" rel="noopener noreferrer" target="_blank">4.1/5 (G2)</a>
                   </li>
                   <li>
-                    <a target="_blank">1.5/5 (TrustPilot)</a>
+                    <a href="https://ca.trustpilot.com/review/touchbistro.com" rel="noopener noreferrer" target="_blank">1.5/5 (TrustPilot)</a>
                   </li>
                 </ul>
                 <p>The POS system receives high marks for being easy to use, which means less time spent training staff and more time focusing on your customers. However, some reviewers have noted slow processing speeds and frequent connectivity issues that can disrupt service. Increasingly, TouchBistro has been getting negative reviews around customer service and contract challenges.</p>
@@ -509,7 +509,7 @@ export default function S9BestPOSSystems() {
                   Customizable features
                 </p>
                 <p>
-                  <a target="_blank">Clover</a>
+                  <a href="https://www.clover.com/" rel="noopener noreferrer" target="_blank">Clover</a>
                   {" provides a highly customizable POS platform, even on its basic plans, with multiple hardware options and an app marketplace that lets restaurants configure systems to their operational needs. You can mold this tool exactly to your needs, whether you’re a quick-service restaurant or a more complex full-service operation."}
                 </p>
                 <p>
@@ -534,10 +534,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">3.8/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/166759/clover" rel="noopener noreferrer" target="_blank">3.8/5 (Capterra)</a>
                   </li>
                   <li>
-                    <a target="_blank">2/5 (TrustPilot)</a>
+                    <a href="https://ca.trustpilot.com/review/clover.com" rel="noopener noreferrer" target="_blank">2/5 (TrustPilot)</a>
                   </li>
                 </ul>
                 <p>One of Clover’s standout features is its hardware flexibility. The system offers countertop stations, handheld devices, and mobile card readers, along with integrations for accounting, inventory, payroll, and delivery services. However, some users note that costs can accumulate quickly with hardware, software subscriptions, and transaction fees factored together. There have also been complaints about rigid long-term contracts and challenges with slow and unhelpful customer support.</p>
@@ -560,7 +560,7 @@ export default function S9BestPOSSystems() {
                   Multiple location restaurants
                 </p>
                 <p>
-                  <a>Revel Systems</a>
+                  <a href="https://support.revelsystems.com/s/article/Revel-Point-of-Sale-Overview">Revel Systems</a>
                   {" operates as an iPad-based, cloud-based POS platform that centralizes management across multiple restaurant locations. The platform allows operators to monitor inventory, sales data, and employee schedules from a unified dashboard, regardless of location. Revel integrates directly with QuickBooks and supports mobile POS capabilities for tableside ordering, along with barcode scanners, receipt printers, and kitchen display systems."}
                 </p>
                 <p>
@@ -583,15 +583,15 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">3.6/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/142666/revel-ipad-pos" rel="noopener noreferrer" target="_blank">3.6/5 (Capterra)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.1/5 (G2)</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews" rel="noopener noreferrer" target="_blank">4.1/5 (G2)</a>
                   </li>
                 </ul>
                 <p>
                   {"Users highlight the QuickBooks integration and customizable reporting as benefits, with one reviewer noting they appreciate \"the ability to customize reports and link seamlessly with QuickBooks.\" Some users report challenges with the pricing model and system stability, citing \"high ongoing costs\" and the need for paid add-ons to access additional features. Some "}
-                  <a target="_blank">Reddit threads</a>
+                  <a href="https://www.reddit.com/r/restaurant/comments/1j51u34/beware_of_revel_systems_shady_autorenewal_tactics/" rel="noopener noreferrer" target="_blank">Reddit threads</a>
                   {" also report issues with auto-renewing ."}
                 </p>
               </div>
@@ -640,10 +640,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a>4.6/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/1039701/owner">4.6/5 (Capterra)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.8/5 (G2)</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews" rel="noopener noreferrer" target="_blank">4.8/5 (G2)</a>
                   </li>
                 </ul>
                 <p>{"Owner customers love the user-friendly interface, ease of setup and responsive customer support. Users also often praise how the system not only simplifies online ordering and marketing for restaurants, but also its effectiveness in boosting online visibility and driving sales. Limited customization is the leading drawback of Owner with some customers wanting more flexibility within the platform. "}</p>
@@ -672,7 +672,7 @@ export default function S9BestPOSSystems() {
                   {" Inventory-heavy restaurants"}
                 </p>
                 <p>
-                  <a>Lightspeed</a>
+                  <a href="https://www.lightspeedhq.com/pos/restaurant/">Lightspeed</a>
                   {" is designed for restaurants that need robust inventory tracking. The system handles complex stock levels, tracks ingredients across multiple recipes, and provides real-time updates on what's running low. It's particularly useful for restaurants with extensive menus or those that need to monitor "}
                   <A href="/blog/restaurant-costs">restaurant costs</A>
                   {" closely across multiple locations. "}
@@ -700,10 +700,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">4/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/120491/lightspeed-retail" rel="noopener noreferrer" target="_blank">4/5 (Capterra)</a>
                   </li>
                   <li>
-                    <a target="_blank">4/5 (G2)</a>
+                    <a href="https://www.g2.com/products/lightspeed-retail/reviews" rel="noopener noreferrer" target="_blank">4/5 (G2)</a>
                   </li>
                 </ul>
                 <p>{"Lightspeed customers love the powerful inventory management features of the software, and often praise the reporting capabilities and strong customer support. However, some users note that the pricing can add up quickly, especially when factoring in payment processing fees and add-on features. Initial setup can also be challenging, particularly for staff who aren't tech-savvy. "}</p>
@@ -726,7 +726,7 @@ export default function S9BestPOSSystems() {
                   {" Affordable cloud-based operations"}
                 </p>
                 <p>
-                  <a>EPOS Now</a>
+                  <a href="https://www.eposnow.com/">EPOS Now</a>
                   {" is a cloud-based POS system that lets restaurants access their data and operations remotely from any device. It supports various payment methods and integrates with third-party delivery services, making it suitable for restaurants that handle both dine-in and takeout orders. The system is designed to scale with businesses, from single locations to multi-site operations."}
                 </p>
                 <p>
@@ -748,10 +748,10 @@ export default function S9BestPOSSystems() {
                 </p>
                 <ul role="list">
                   <li>
-                    <a target="_blank">3.8/5 (Capterra)</a>
+                    <a href="https://www.capterra.ca/software/152638/epos-now" rel="noopener noreferrer" target="_blank">3.8/5 (Capterra)</a>
                   </li>
                   <li>
-                    <a target="_blank">4.6/5 (G2)</a>
+                    <a href="https://www.g2.com/products/epos-now/reviews" rel="noopener noreferrer" target="_blank">4.6/5 (G2)</a>
                   </li>
                 </ul>
                 <p>Customers appreciate the ease of use and strength of the integrations. While the base pricing is affordable, users note that costs can increase with add-ons and integrations. Some users also reported that customer service experiences can be frustrating with unreturned calls and unresolved support tickets.</p>
@@ -931,7 +931,7 @@ export default function S9BestPOSSystems() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -947,7 +947,7 @@ export default function S9BestPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -955,7 +955,7 @@ export default function S9BestPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1025,9 +1025,9 @@ export default function S9BestPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1043,9 +1043,9 @@ export default function S9BestPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1188,7 +1188,7 @@ export default function S9BestPOSSystems() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

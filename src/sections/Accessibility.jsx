@@ -52,9 +52,9 @@ export default function Accessibility() {
               </h2>
               <p>
                 {"Access to any company’s website can be challenging for persons having certain disabilities.  A person’s disability is often unique. What may work well for one person, may cause difficulties for another person.  Our company has made efforts to accommodate as many of our customers and potential customers as is reasonable given our size, resources, and knowledge of our customers, and potential customer’s needs.  To that end we have engaged the services of professionals to assist and advise us in these matters.  More general information about website access and website access statements can be found at "}
-                <a target="_blank">www.AccessibilityStatements.com</a>
+                <a href="http://www.AccessibilityStatements.com" rel="noopener noreferrer" target="_blank">www.AccessibilityStatements.com</a>
                 {" and at "}
-                <a target="_blank">www.Karlinlaw.com/Accessibility-Statements-for-Websites.shtml</a>
+                <a href="http://www.karlinlaw.com/Accessibility-Statements-for-Websites.shtml" rel="noopener noreferrer" target="_blank">www.Karlinlaw.com/Accessibility-Statements-for-Websites.shtml</a>
               </p>
               <p>‍</p>
               <h2>
@@ -63,9 +63,9 @@ export default function Accessibility() {
               <p>Our website provides several methods, features, and policies that can help with access to our website and/or to products or services provided or referred to on our website or by our business.</p>
               <p>
                 {"There are also various aids available by third parties and which are provided by most browsers. A general discussion of these aids can be found on several websites, including "}
-                <a target="_blank">www.AccessibilityStatements.com</a>
+                <a href="http://www.AccessibilityStatements.com" rel="noopener noreferrer" target="_blank">www.AccessibilityStatements.com</a>
                 {" and at "}
-                <a target="_blank">www.Karlinlaw.com</a>
+                <a href="http://www.Karlinlaw.com" rel="noopener noreferrer" target="_blank">www.Karlinlaw.com</a>
                 .
               </p>
               <p>If you are having difficulty with access to our website even after utilizing any access features within this website and/or any third party or browser features, we invite you to contact us for further assistance.  Contact information is set forth below.</p>
@@ -113,7 +113,7 @@ export default function Accessibility() {
               <p>For Accessibility features of popular browsers and third-party screen readers and other devices</p>
               <p>
                 {"to assist with access to websites can be found at www.Karlinlaw.com and in particular "}
-                <a>
+                <a href="http://www.karlinlaw.com/Accessibility-Statements-for-Websites.shtml">
                   www.Karlinlaw.com/Accessibility-Statements-for-Websites.shtml
                   <br />
                   ‍
@@ -136,63 +136,63 @@ export default function Accessibility() {
                   <br />
                   {"Gmail "}
                 </strong>
-                <a>/_ext/www.google.com/accessibility/products-features/</a>
+                <a href="https://www.google.com/accessibility/products-features/">/_ext/www.google.com/accessibility/products-features/</a>
               </p>
               <p>‍</p>
               <h3>
                 <strong>Firefox Brower</strong>
-                <a>‍</a>
+                <a href="https://addons.mozilla.org/en-US/firefox/">‍</a>
               </h3>
               <p>
-                <a>https://addons.mozilla.org/en-US/firefox/</a>
+                <a href="https://addons.mozilla.org/en-US/firefox/">https://addons.mozilla.org/en-US/firefox/</a>
                 <strong>
                   <br />
                 </strong>
-                <a>https://addons.mozilla.org/en-US/firefox/addon/tota11y-accessibility-toolkit/</a>
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/tota11y-accessibility-toolkit/">https://addons.mozilla.org/en-US/firefox/addon/tota11y-accessibility-toolkit/</a>
               </p>
               <p>‍</p>
               <h3>
                 <strong>Internet Explorer</strong>
-                <a>‍</a>
+                <a href="https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options">‍</a>
               </h3>
               <p>
-                <a>https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options</a>
+                <a href="https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options">https://support.microsoft.com/en-us/help/17456/windows-internet-explorer-ease-of-access-options</a>
               </p>
               <p>
-                <a>Facebook Accessibility Policy</a>
+                <a href="https://www.facebook.com/help/accessibility">Facebook Accessibility Policy</a>
               </p>
               <p>
-                <a>YouTube Accessibility Policy</a>
+                <a href="https://support.google.com/youtube/answer/189278?hl=en">YouTube Accessibility Policy</a>
               </p>
               <p>
-                <a>Instagram Accessibility Announcement</a>
+                <a href="https://9to5mac.com/2018/11/28/accessibility-instagram-alternative-text/">Instagram Accessibility Announcement</a>
               </p>
               <p>
-                <a>Instagram Accessibility</a>
+                <a href="https://help.instagram.com/1178723545597542">Instagram Accessibility</a>
               </p>
               <p>
-                <a>Twitter Accessibility</a>
+                <a href="https://help.twitter.com/en/using-twitter/picture-descriptions">Twitter Accessibility</a>
               </p>
               <p>
-                <a>LinkedIn Accessibility</a>
+                <a href="https://www.linkedin.com/accessibility">LinkedIn Accessibility</a>
               </p>
               <p>‍</p>
               <p>Also, for reference, are the following, which this website has not reviewed or tested. By including these references, this website is not rendering an opinion on any statement made by any of these third parties or contained within any part of these links.</p>
               <p>‍</p>
               <h3>
                 <strong>Third Party Screen Readers: JAWS</strong>
-                <a>‍</a>
+                <a href="https://www.freedomscientific.com/products/software/jaws/">‍</a>
               </h3>
               <p>
-                <a>https://www.freedomscientific.com/products/software/jaws/</a>
+                <a href="https://www.freedomscientific.com/products/software/jaws/">https://www.freedomscientific.com/products/software/jaws/</a>
               </p>
               <p>‍</p>
               <h3>
                 <strong>A general discussion of Screen Readers by the American Foundation of the Blind</strong>
-                <a>‍</a>
+                <a href="https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers">‍</a>
               </h3>
               <p>
-                <a>https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers</a>
+                <a href="https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers">https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers</a>
               </p>
               <p>‍</p>
               <p>

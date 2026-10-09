@@ -204,9 +204,9 @@ export default function YourGuideToBoost() {
                 <p>{"Every restaurant needs a selfie station for visual appeal and for authentic customer engagement. "}</p>
                 <p>
                   {"Look at how simple this example from "}
-                  <a target="_blank">Café La Jefa</a>
+                  <a href="https://cafelajefa.com/" rel="noopener noreferrer" target="_blank">Café La Jefa</a>
                   {" is, look at how little space it takes up, and "}
-                  <a target="_blank">LOOK AT HOW MANY PEOPLE ADVERTISE THE CAFE WITH THEIR SELFIES</a>
+                  <a href="https://www.instagram.com/explore/locations/130133002286866/cafe-la-jefa/" rel="noopener noreferrer" target="_blank">LOOK AT HOW MANY PEOPLE ADVERTISE THE CAFE WITH THEIR SELFIES</a>
                   !!!
                 </p>
                 <figure style={{ "maxWidth": "1245pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -225,7 +225,7 @@ export default function YourGuideToBoost() {
                 <p>{"Trends are an important part of social media engagement. "}</p>
                 <p>
                   {"Maybe you’re jumping on the latest large social media trend (a la the "}
-                  <a target="_blank">AI-generated action figures</a>
+                  <a href="https://www.forbes.com/sites/lesliekatz/2025/04/15/ai-action-figure-trend-explained---and-how-to-make-your-own/" rel="noopener noreferrer" target="_blank">AI-generated action figures</a>
                   {" that took over in early 2025) or the latest "}
                   <A href="/blog/food-trends" target="_blank">food trends</A>
                   {" (remember the height of the crazy milkshake trend at the end of the 2010s?). Either way, you need to stay in touch with what’s happening and what's popular. "}
@@ -238,7 +238,7 @@ export default function YourGuideToBoost() {
                 </h2>
                 <p>{"Extend the creativity to include your ultimate stakeholders—your team members! Collect their ideas, feature them in photos and share their stories (all with their permission). "}</p>
                 <p>
-                  <a target="_blank">Juniper and Ivy</a>
+                  <a href="https://www.juniperandivy.com/" rel="noopener noreferrer" target="_blank">Juniper and Ivy</a>
                   {" in San Diego is especially good at this and has grown its Instagram account to over 40,000 followers with a wide variety of engaging posts."}
                 </p>
                 <p>The photos they post of their staff are especially “human,” like in these two restaurant Instagram post ideas for including your team:</p>
@@ -289,9 +289,9 @@ export default function YourGuideToBoost() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -306,7 +306,7 @@ export default function YourGuideToBoost() {
                 <p>You CAN add to them over time, and you should, but there’s a handful of “evergreen” stories that you can record and pin to the top of your profile as highlights in one go, and they will continue benefiting your restaurant forever.</p>
                 <p>
                   {"Here’s a great example of optimal Story Highlights from "}
-                  <a target="_blank">Talkin’ Tacos</a>
+                  <a href="https://www.instagram.com/_talkintacos/" rel="noopener noreferrer" target="_blank">Talkin’ Tacos</a>
                   .
                 </p>
                 <figure style={{ "maxWidth": "1260pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -357,9 +357,9 @@ export default function YourGuideToBoost() {
                 <p>While organic growth can help you make massive gains in engagement and sales, paid advertising can take things to the next level by sharing your brand with a wider audience. In recent years, ambitious restaurateurs have found that paid advertising can help growth happen significantly faster.</p>
                 <p>
                   {"Nicole Rogers, social media manager for "}
-                  <a target="_blank">Juniper and Ivy</a>
+                  <a href="https://www.juniperandivy.com/" rel="noopener noreferrer" target="_blank">Juniper and Ivy</a>
                   {" and "}
-                  <a target="_blank">The Crack Shack</a>
+                  <a href="https://www.crackshack.com/" rel="noopener noreferrer" target="_blank">The Crack Shack</a>
                   , told us the following:
                 </p>
                 <p>
@@ -381,7 +381,7 @@ export default function YourGuideToBoost() {
                 <p>Now that you know the steps you should be taking to drive growth on Instagram, let’s look at the real, tangible impact Instagram is having on a restaurant that has succeeded with this marketing channel.</p>
                 <p>
                   {"This is "}
-                  <a target="_blank">Talkin’ Tacos</a>
+                  <a href="https://talkintacos.net/" rel="noopener noreferrer" target="_blank">Talkin’ Tacos</a>
                   {" in Miami, Florida."}
                 </p>
                 <figure style={{ "maxWidth": "1523pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -522,7 +522,7 @@ export default function YourGuideToBoost() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -538,7 +538,7 @@ export default function YourGuideToBoost() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -546,7 +546,7 @@ export default function YourGuideToBoost() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -617,9 +617,9 @@ export default function YourGuideToBoost() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -780,7 +780,7 @@ export default function YourGuideToBoost() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

@@ -146,5 +146,12 @@ export const routes = [
   { path: "/blog/how-to-increase-restaurant-sales", title: "How to Increase Restaurant Sales Online: 14 Easy Strategies", Page: lazy(() => import("./pages/BlogHowToIncreasePage.jsx")) },
   { path: "/blog/how-to-create-a-restaurant-marketing-plan", title: "Restaurant Marketing Plan: A Step-by-Step Guide", Page: lazy(() => import("./pages/BlogHowToCreatePage2.jsx")) },
   { path: "/blog/toast-vs-square", title: "Toast vs. Square: A Head-to-Head Comparison", Page: lazy(() => import("./pages/BlogToastVsSquare.jsx")) },
+  // Built after the 2026-10-06 run: the demo page every "Get a free demo" CTA points at (see QA_REPORT.md).
+  { path: "/demo", title: "Get a free demo", Page: lazy(() => import("./pages/Demo.jsx")) },
 ];
 export const ROUTE_SET = new Set(routes.map((r) => r.path));
+
+// Same-domain URLs that 301/302 on the live site (checked 2026-10-09) to a page the clone has: served as client redirects.
+// Entries whose target is another host (e.g. the culture-deck PDF) are links only, not routes.
+import redirectMap from "./redirects.json";
+export const REDIRECTS = Object.entries(redirectMap).filter(([, to]) => to.startsWith("/"));

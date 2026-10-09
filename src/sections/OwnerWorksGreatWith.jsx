@@ -18,9 +18,9 @@ export default function OwnerWorksGreatWith() {
               </div>
             </div>
             <div className="button-group">
-              <a data-button-instance="" className="btn w-inline-block">
+              <A href="/demo" data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
-              </a>
+              </A>
               <A data-button-instance="" href="/pricing" className="btn w-inline-block is-secondary">
                 <div data-button-text="" className="btn-text">View pricing</div>
               </A>
@@ -28,7 +28,7 @@ export default function OwnerWorksGreatWith() {
           </div>
           <div className="product-hero_box">
             <div className="product-hero_box-inner">
-              <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+              <div data-player-src="/_videos/a7661382-1b66-47f0-957b-0219dd515fa5.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                 <div data-player-before="" className="bunny-player__before"></div>
                 <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                 <img width="960" loading="lazy" alt="Smiling man with short dark hair and beard wearing a navy jacket and light blue dress shirt indoors." src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d2e25bb2ff9359486ed1c2_gyroconcept.jpg" sizes="(max-width: 991px) 100vw, 960px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d2e25bb2ff9359486ed1c2_gyroconcept-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69d2e25bb2ff9359486ed1c2_gyroconcept.jpg 896w" className="bunny-player__placeholder" />

@@ -16,9 +16,9 @@ export default function Section59() {
               </div>
             </a>
             <div className="button-group cc-footer">
-              <a data-button-instance="" className="btn w-inline-block">
+              <A href="/demo" data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
-              </a>
+              </A>
               <A data-button-instance="" href="/how-owner-works" className="btn w-inline-block is-secondary">
                 <div data-button-text="" className="btn-text">See how it works</div>
               </A>
@@ -151,7 +151,7 @@ export default function Section59() {
                   <A href="/blog/how-to-create-a-restaurant-website" className="footer-link">Restaurant Website Builders</A>
                 </li>
                 <li>
-                  <a className="footer-link">Restaurant Grader</a>
+                  <a href="https://grader.owner.com/?ref=footer" className="footer-link">Restaurant Grader</a>
                 </li>
               </ul>
             </li>

@@ -17,7 +17,7 @@ export default function BgColorBglighter2() {
             <div role="list" className="leadership-grid w-dyn-items">
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/adamharrisonguild" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c63579198feb333346b30c_adam-guild.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -39,7 +39,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/darrinhenein/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69d406cb08401ba1a0de397b_image%20(1).png" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -59,7 +59,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/dfallarme/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c635667b7e07cc284e3cb7_david-fallarme.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -79,7 +79,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/deanbloembergen" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6358a5843915c59c2c028_dean-bloembergen.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -101,7 +101,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/hengamstanfield/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6344a12ac99b7755cbe46_enga-stanfield.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -121,7 +121,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/joelbaroody/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6abdfd5eda721651225873dd_joel-baroody-webp-m.webp" loading="lazy" data-transition="img-link" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6abdfd5eda721651225873dd_joel-baroody-webp-m-p-500.webp 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6abdfd5eda721651225873dd_joel-baroody-webp-m-p-800.webp 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6abdfd5eda721651225873dd_joel-baroody-webp-m.webp 1024w" className="img-cover" />
                   </a>
                   <div>
@@ -141,7 +141,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/jonathaneldridge/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c63453a5f7b7fa4d97945a_jonathan-eldridge.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -161,7 +161,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/katie-leighton-03014717/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c63440095fba6c1f37e651_katie-leighton.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -181,7 +181,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/laurenpollini/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c635210106d9995b87e3ff_lauren-pollini.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -201,7 +201,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/maria-paula-soto-g%C3%B3mez-6b9b841a4/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6358474c5e7b58cb895f3_maria-paula-soto.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -221,7 +221,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/mrosenberg1/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a91284bee5e3aabbb0b6501_matt-rosenberg.avif" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -241,7 +241,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/maxpresman/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c63459e8a50d45a361659a_max-presman.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -261,7 +261,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/mlim17/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69e66d0842e90eb48d9b0ee0_michael-lim-m.jpg" loading="lazy" data-transition="img-link" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69e66d0842e90eb48d9b0ee0_michael-lim-m-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69e66d0842e90eb48d9b0ee0_michael-lim-m.jpg 906w" className="img-cover" />
                   </a>
                   <div>
@@ -281,7 +281,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/noah-beddome-6b794940/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6345f907fb771da83b9a2_noah-beddome.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -301,7 +301,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/quentoncook" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c635288adf7cbcf32c740a_quenton-cook.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -321,7 +321,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/rob-lehman-3895a415" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69d6939b165f25af987f2837_Owner_Professional_Portrait_Lighting_2026-03-10_23-36%203.avif" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -341,7 +341,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/tinaglickman" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c635729451d8f5c12bda38_tina-glickman.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -361,7 +361,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/william-hauser-8a070b15/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c63504effd52e09ffa776f_will-hauser.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -381,7 +381,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/will-schreiber-05430b263/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6349a0c4ed1a28f6c6f1f_will-schreiber.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>
@@ -401,7 +401,7 @@ export default function BgColorBglighter2() {
               </div>
               <div role="listitem" className="leadership-item w-dyn-item">
                 <div className="leadership-item">
-                  <a target="_blank" className="leadership-item_visual w-inline-block">
+                  <a href="https://www.linkedin.com/in/wyatt-ozmore-10385b26/" rel="noopener noreferrer" target="_blank" className="leadership-item_visual w-inline-block">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69c6348474c5e7b58cb87ec8_wyatt-ozmore.jpg" loading="lazy" data-transition="img-link" alt="" className="img-cover" />
                   </a>
                   <div>

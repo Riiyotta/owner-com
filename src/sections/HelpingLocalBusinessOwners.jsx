@@ -16,7 +16,7 @@ export default function HelpingLocalBusinessOwners() {
             </div>
           </div>
           <div className="about-hero_video">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/a3f1ff6a-7be7-41b8-821f-341e51e2ec5a.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f7e29_about-video%20(1).avif" loading="lazy" sizes="(max-width: 2020px) 100vw, 2020px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f7e29_about-video%2520(1)-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f7e29_about-video%2520(1)-p-800.avif 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f7e29_about-video%20(1).avif 2020w" alt="Two young men smiling and walking together on a city sidewalk with trees and buildings in the background." className="bunny-player__placeholder" />

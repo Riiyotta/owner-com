@@ -354,12 +354,12 @@ export default function NavWrapper14() {
                       </A>
                     </li>
                     <li>
-                      <a data-transition="" target="_blank" className="nav-menu_link-item w-inline-block">
+                      <a href="https://help.owner.com/" rel="noopener noreferrer" data-transition="" target="_blank" className="nav-menu_link-item w-inline-block">
                         <p>Help Center</p>
                       </a>
                     </li>
                     <li>
-                      <a data-transition="" target="_blank" className="nav-menu_link-item w-inline-block">
+                      <a href="https://grader.owner.com/?ref=nav" rel="noopener noreferrer" data-transition="" target="_blank" className="nav-menu_link-item w-inline-block">
                         <p>Restaurant Grader</p>
                       </a>
                     </li>
@@ -394,10 +394,10 @@ export default function NavWrapper14() {
             </div>
             <div className="nav-part cc-right">
               <div className="button-group cc-menu">
-                <a data-button-instance="" className="btn is-nav-text w-inline-block is-link">
+                <a href="https://dashboard.owner.com/" data-button-instance="" className="btn is-nav-text w-inline-block is-link">
                   <div data-button-text="" className="btn-text">Login</div>
                 </a>
-                <a data-button-instance="" target="_blank" className="btn is-nav w-inline-block is-black">
+                <a href="https://owner.link/ai-phone-ordering" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn is-nav w-inline-block is-black">
                   <div data-button-text="" className="btn-text">Join the waitlist</div>
                 </a>
               </div>

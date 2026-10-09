@@ -55,7 +55,7 @@ export default function S9BestRestaurantCRMs() {
               <p>Running a restaurant means juggling a lot—staffing, inventory, marketing and keeping guests happy. But if one thing brings it all together, it’s knowing your customers. You can trust your eyes and ears to spot patterns, but a good CRM gives you the full story. It reveals what guests order, how often they visit and what keeps them coming back.</p>
               <p>
                 {"In fact, the National Restaurant Association’s 2025 report says "}
-                <a target="_blank">41% of customers</a>
+                <a href="https://restaurant.org/research-and-media/research/research-reports/state-of-the-industry/" rel="noopener noreferrer" target="_blank">41% of customers</a>
                 {" choose where to eat based on loyalty or rewards programs. That tells me one thing: If you want to "}
                 <A href="/blog/how-to-increase-restaurant-sales" target="_blank">increase restaurant sales</A>
                 {", loyalty matters. Getting people in the door is great, but keeping them is where the real growth happens. "}
@@ -279,7 +279,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, SevenRooms has a "}
                     <strong>{"4.7 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/sevenrooms/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -288,12 +288,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“The level of command on data that Sevenrooms provides to its user is unmatched and it does it so effectively while keeping the UI as simple and user-friendly as possible.”</em>
                     {"—Roshaan P., "}
-                    <a target="_blank">SevenRooms G2 review</a>
+                    <a href="https://www.g2.com/products/sevenrooms/reviews/sevenrooms-review-10341930" rel="noopener noreferrer" target="_blank">SevenRooms G2 review</a>
                   </p>
                   <p>
                     <em>{"“We have been using SevenRooms extensively across our entire company, and it has become an indispensable tool for us. The seamless integration with our existing systems has made it incredibly efficient to manage daily operations, from reservations and guest profiles to marketing campaigns. The platform's intuitive design and functionality ensure that everything runs smoothly, making it a pleasure to use on a daily basis.”"}</em>
                     {"—Alexandra W., "}
-                    <a target="_blank">SevenRooms G2 review</a>
+                    <a href="https://www.g2.com/products/sevenrooms/reviews/sevenrooms-review-10054050" rel="noopener noreferrer" target="_blank">SevenRooms G2 review</a>
                     <em></em>
                   </p>
                   <p>
@@ -302,13 +302,13 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“Tighter integrations with POS vendors, as the reporting in 7R is highly dependent on strong POS integration as a standard. Would also want to see more structure as an ‘end of day’ close down process to complement the very strong pre-shift and during shift processes.”—</em>
                     {"Verified User in Hospitality, "}
-                    <a target="_blank">SevenRooms G2 review</a>
+                    <a href="https://www.g2.com/products/sevenrooms/reviews/sevenrooms-review-10404530" rel="noopener noreferrer" target="_blank">SevenRooms G2 review</a>
                   </p>
                   <p>
                     ‍
                     <em>“You will need to purchase an iPad to set up the floor plan for your business.”</em>
                     {"—Denis V., "}
-                    <a target="_blank">SevenRooms G2 review</a>
+                    <a href="https://www.g2.com/products/sevenrooms/reviews/sevenrooms-review-9792321" rel="noopener noreferrer" target="_blank">SevenRooms G2 review</a>
                   </p>
                 </div>
               </div>
@@ -323,11 +323,11 @@ export default function S9BestRestaurantCRMs() {
                 <p>Podium offers a guest messaging and review management tool that helps you stay connected with your customers. From texting updates to collecting feedback, the platform makes communication easier and faster, no matter where you are.</p>
                 <p>
                   {"With "}
-                  <a target="_blank">Podium Inbox</a>
+                  <a href="https://www.podium.com/product/inbox/" rel="noopener noreferrer" target="_blank">Podium Inbox</a>
                   {", you can message guests by text or email and keep all their feedback in one place. You can easily follow up, answer questions and never miss a beat. "}
                 </p>
                 <p>
-                  <a target="_blank">Podium Reviews</a>
+                  <a href="https://www.podium.com/reviews/" rel="noopener noreferrer" target="_blank">Podium Reviews</a>
                   {" helps you respond to reviews, see what guests are saying over time and encourage more customers to leave feedback. You also get a free Google reputation report, which gives you have a better idea of how to rank #1."}
                 </p>
                 <div className="w-embed">
@@ -374,7 +374,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, Podium has a "}
                     <strong>{"4.6 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/podium/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -383,12 +383,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“I like the intuitive design of the program. I did not have any issues syncing my accounts from my work computer to my phone. I am able to send photos of products easily and can contact customers at any time. I use this daily. So easy to change to the correct sales person for contact between clients.”</em>
                     {"—Amanda L., "}
-                    <a target="_blank">Podium G2 review</a>
+                    <a href="https://www.g2.com/products/podium/reviews/podium-review-11132693" rel="noopener noreferrer" target="_blank">Podium G2 review</a>
                   </p>
                   <p>
                     <em>“The card processing fees are super low, which saves us money month after month. On top of that, the communication tools, customer engagement features, and seamless integrations have made it easier than ever to connect with clients and boost our reputation. We’ve seen a noticeable increase in positive reviews and faster response times thanks to Podium.”</em>
                     {"—Juan A., "}
-                    <a target="_blank">Podium G2 review</a>
+                    <a href="https://www.g2.com/products/podium/reviews/podium-review-11105212" rel="noopener noreferrer" target="_blank">Podium G2 review</a>
                     <em></em>
                   </p>
                   <p>
@@ -397,12 +397,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“Push notifications don't always come through the app on my iPhone. But, as long as I stay on top of my emails, I am able to ensure no customer communication is missed.”"}</em>
                     {"—Christa D., "}
-                    <a target="_blank">Podium G2 review</a>
+                    <a href="https://www.g2.com/products/podium/reviews/podium-review-8737056" rel="noopener noreferrer" target="_blank">Podium G2 review</a>
                   </p>
                   <p>
                     <em>“Only thing I don’t like about Podium is it can be hard to find people I’ve messaged by name when I’m on my mobile app.</em>
                     {"”—Brian B., "}
-                    <a target="_blank">Podium G2 review</a>
+                    <a href="https://www.g2.com/products/podium/reviews/podium-review-11106530" rel="noopener noreferrer" target="_blank">Podium G2 review</a>
                   </p>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export default function S9BestRestaurantCRMs() {
                     {"Our platform has the highest customer ranking in this list. As of publishing, Owner.com has a "}
                     <strong>{"4.8 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -482,12 +482,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“Owner.com has been a game-changer for my business. They offer an all-in-one solution to boost your Google search ranking and build a custom app for your restaurant. Within just seven days of reaching out, my website was live and integrated seamlessly with my Square POS system … The backend dashboard is incredibly user-friendly. The automated email campaigns save me so much time—no more writing or scheduling emails manually. It’s all handled with just a click. I use the platform daily to monitor sales, website traffic, SEO rankings, and marketing performance. It truly is a one-stop shop.”—</em>
                     {"Mikos C., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-11081603" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <p>
                     <em>“The onboarding staff was friendly and got the work done professionally. The end result is very satisfying and I look forward to making my new tools a big part of our business growth. Their tools are well thought through and user-friendly.”—</em>
                     {"Bryan W., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-11077875" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -495,7 +495,7 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“I wish the website itself was little more customizable, but I understand that the design is to drive sales, and my ideas and edits would probably mess with the goal.”—</em>
                     {"Geoffrey B., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-10959942" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <div fs-richtext-component="cta-1" className="blog-content_cta-wrap">
                     <div className="blog-content_cta-wrap-inner">
@@ -505,9 +505,9 @@ export default function S9BestRestaurantCRMs() {
                         </div>
                         <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                       </div>
-                      <a data-button-instance="" className="btn w-inline-block">
+                      <A href="/demo" data-button-instance="" className="btn w-inline-block">
                         <div data-button-text="" className="btn-text">Get a free demo</div>
-                      </a>
+                      </A>
                     </div>
                     <div className="blog-content_cta-visual">
                       <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -578,7 +578,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, Restaurant365 has a "}
                     <strong>{"4.5 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/restaurant365/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -592,7 +592,7 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“I like how easily it integrates with our POS (Toast) and provides both real and theoretical inventory counts, accurate food costs, and reporting tools that make periodic menu reviews a cinch. It also integrates with our food service provider (US Foods) so that it keeps food costs up to date.”</em>
                     {"—Dan H., "}
-                    <a target="_blank">Restaurant365 G2 review</a>
+                    <a href="https://www.g2.com/products/restaurant365/reviews/restaurant365-review-8463613" rel="noopener noreferrer" target="_blank">Restaurant365 G2 review</a>
                     <em></em>
                   </p>
                   <p>
@@ -601,12 +601,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“The customization of the system is hard to come by. There are several times where we have wanted to tweak the software to how we do business and operate, but the dev team or support tells us it simply cannot be done. It's a hard balance to strike, but more flexibility in the system would be preferred.”"}</em>
                     {"—Kevin O., "}
-                    <a target="_blank">Restaurant365 G2 review</a>
+                    <a href="https://www.g2.com/products/restaurant365/reviews/restaurant365-review-4223600" rel="noopener noreferrer" target="_blank">Restaurant365 G2 review</a>
                   </p>
                   <p>
                     <em>“The inventory needs to be completed and a bit more user-friendly. Same with the recipes, we had to use a 3rd party to import our recipes because of the complexity in R365. They also need to give some attention to the commissary module, which is like using an unfinished product.”—</em>
                     {"Katie B., "}
-                    <a target="_blank">Restaurant365 G2 review</a>
+                    <a href="https://www.g2.com/products/restaurant365/reviews/restaurant365-review-9998100" rel="noopener noreferrer" target="_blank">Restaurant365 G2 review</a>
                   </p>
                 </div>
               </div>
@@ -665,7 +665,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, OpenTable has a "}
                     <strong>{"4.4 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -674,12 +674,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“The most helpful part of using an open table for restaurants is being able to manage my daily operations on the go. Whenever I need a quick change to my floor plan or event running schedule, I can quickly update on my phone app or a laptop. Their customer service is quick with responses and very helpful with setting things up.”</em>
                     {"—Marina S., "}
-                    <a target="_blank">OpenTable G2 review</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11134481" rel="noopener noreferrer" target="_blank">OpenTable G2 review</a>
                   </p>
                   <p>
                     <em>“OpenTable is a long-proven juggernaut in the restaurant reservations space. They have a broad user-base of guests looking for reservations and remove a lot of the friction in gathering guest info, securing reservations at difficult time slots, protecting the restaurant against late cancellations and no-shows (credit card guarantee), and marketing additional aspects of the restaurant (e.g. dining areas, menu, special events, private dining).”</em>
                     {"—Verfied User in Restaurants, "}
-                    <a target="_blank">OpenTable G2 review</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11144991" rel="noopener noreferrer" target="_blank">OpenTable G2 review</a>
                     <em></em>
                   </p>
                   <p>
@@ -689,12 +689,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“One thing I dislike is the cost structure, especially the per-cover fee. For independent restaurants, these fees can add up quickly, eating into already thin profit margins. Also, while the platform is feature-rich, some of the more advanced tools require separate add-ons or upgrades, which can be frustrating if you're hoping for an all-in-one solution.”"}</em>
                     {"—Verified User in Food & Beverages, "}
-                    <a>OpenTable G2 reviews</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11132760">OpenTable G2 reviews</a>
                   </p>
                   <p>
                     <em>“OpenTable does not currently sync with calendars or our POS. Currently, the price seems a bit high (sometimes offsetting the savings) however, once these implementations take effect, the value will increase.”</em>
                     {"—Jama F., "}
-                    <a target="_blank">OpenTable G2 reviews</a>
+                    <a href="https://www.g2.com/products/opentable-for-restaurants/reviews/opentable-for-restaurants-review-11132141" rel="noopener noreferrer" target="_blank">OpenTable G2 reviews</a>
                   </p>
                 </div>
               </div>
@@ -754,7 +754,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, HubSpot CRM has a "}
                     <strong>{"4.4 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/hubspot-service-hub/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -764,7 +764,7 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“The best thing is the organization of the tickets and how they are easy to find.”</em>
                     {"—Bridget D., "}
-                    <a target="_blank">HubSpot CRM review</a>
+                    <a href="https://www.g2.com/products/hubspot-service-hub/reviews/hubspot-service-hub-review-4489849" rel="noopener noreferrer" target="_blank">HubSpot CRM review</a>
                     <em></em>
                   </p>
                   <p>
@@ -773,7 +773,7 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“I do not like that you can't see who is viewing a ticket in [real-time]...We can only see the owner of tickets and it is important to be able to see who is currently viewing a ticket for customer and restaurant support for the company that employs me. There is also a lack of space for a company to have macros so they can easily send e-mails to people without agents having to look things up.”"}</em>
                     {"—Bridget D., "}
-                    <a target="_blank">HubSpot CRM review</a>
+                    <a href="https://www.g2.com/products/hubspot-service-hub/reviews/hubspot-service-hub-review-4489849" rel="noopener noreferrer" target="_blank">HubSpot CRM review</a>
                     <em></em>
                   </p>
                 </div>
@@ -836,7 +836,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, Lightspeed has a "}
                     <strong>{"4.4 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews#reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -845,12 +845,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“Smart and easy-to-use software for all of our staff. No need to buy exclusive hardware, all hardware can be bought off the shelf and is easy to set up. Customer support is always available and we have a dedicated account manager who looks after our portfolio.”</em>
                     {"—Nathan R., "}
-                    <a target="_blank">Lightspeed G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-9736809" rel="noopener noreferrer" target="_blank">Lightspeed G2 review</a>
                   </p>
                   <p>
                     <em>“Easy to use, easy to set up, abundantly integrated with additional services.”</em>
                     {"—Sandstone G., "}
-                    <a target="_blank">
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-7700431" rel="noopener noreferrer" target="_blank">
                       Lightspeed G2 review
                       <em></em>
                     </a>
@@ -861,12 +861,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“Gift Card process. It's time-consuming, and you can't even provide a receipt or a balance receipt of the gift card. You have to tell the guest how much is on the card. It would be nice to give them a printout.”"}</em>
                     {"—Tony V., "}
-                    <a target="_blank">Lightspeed G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-5310348" rel="noopener noreferrer" target="_blank">Lightspeed G2 review</a>
                   </p>
                   <p>
                     <em>“The overall user experience is a bit complex.”</em>
                     {"—Ryan I., "}
-                    <a target="_blank">Lightspeed G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-6575378" rel="noopener noreferrer" target="_blank">Lightspeed G2 review</a>
                     {" "}
                   </p>
                 </div>
@@ -929,7 +929,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, Toast has a "}
                     <strong>{"4.2 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews#reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -938,12 +938,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“We use Toast for all of our restaurant needs. This includes POS, Payroll, Marketing and Invoices/Inventory. The way the system integrates everything is so nice and we have so much information at our fingertips. Crucial for running in a low margin industry.”</em>
                     {"—Craig W., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10071680" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                   </p>
                   <p>
                     <em>“The technology is pretty solid and built for restaurants.”—</em>
                     {"Joe B., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-9788345" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                     <em></em>
                   </p>
                   <p>
@@ -952,12 +952,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>{"“It's very robust, so it takes some time and dedication to really maximize the POS, but the same is true for most good systems. Managing modifiers can be tedious at times.”"}</em>
                     {"—Daniel C., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10006399" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                   </p>
                   <p>
                     <em>“The only downside that I can see is [that] there is a lack of some specific reporting around server initiatives, or individual server performance as it pertains to the menu. What I mean by that is like a server contest, or server incentives, where we would like to look at specific performance over a period of time that is longer than a week.”</em>
                     {"—Michael C., "}
-                    <a target="_blank">Toast G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-9205557" rel="noopener noreferrer" target="_blank">Toast G2 review</a>
                   </p>
                 </div>
               </div>
@@ -1020,7 +1020,7 @@ export default function S9BestRestaurantCRMs() {
                     {"As of publishing, Resy has a "}
                     <strong>{"4.1 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/resyos/reviews#reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     . Here’s what customers are saying:
                   </p>
                   <p>
@@ -1029,12 +1029,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“The users - we noticed a younger demographic as opposed to OpenTable”</em>
                     {"—Verified User in Hospitality, "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-9347748" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                   <p>
                     <em>{"“It's extremely customizable to your business needs. It's also very easy to use.”"}</em>
                     {"—Verified User in Hospitality, "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-9361135" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                   <p>
                     ‍
@@ -1043,12 +1043,12 @@ export default function S9BestRestaurantCRMs() {
                   <p>
                     <em>“The steps to unseat a table are too much - several clicks and swipes. Also online reservations do not stay toggled off.”</em>
                     {"—Verified User in Restaurants, "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-2217402" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                   <p>
                     <em>“Support help could be a bit more timely.”</em>
                     {"—Ally S., "}
-                    <a target="_blank">Resy G2 review</a>
+                    <a href="https://www.g2.com/products/resyos/reviews/resyos-review-7144384" rel="noopener noreferrer" target="_blank">Resy G2 review</a>
                   </p>
                 </div>
               </div>
@@ -1064,7 +1064,7 @@ export default function S9BestRestaurantCRMs() {
                 <p>The best CRMs take tasks off your plate, not add more to it. They make it easy to connect with guests, send offers that get real results and keep things running smoothly behind the scenes. With the right one, growing your business doesn’t feel like a guessing game; it just happens.</p>
                 <p>
                   {"Want to see how Owner.com can help? Grab a "}
-                  <a target="_blank">free demo</a>
+                  <A href="/demo" target="_blank">free demo</A>
                   , and I’ll show you exactly what it can do for your restaurant.
                 </p>
               </div>
@@ -1179,7 +1179,7 @@ export default function S9BestRestaurantCRMs() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1195,7 +1195,7 @@ export default function S9BestRestaurantCRMs() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1203,7 +1203,7 @@ export default function S9BestRestaurantCRMs() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1274,9 +1274,9 @@ export default function S9BestRestaurantCRMs() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1416,7 +1416,7 @@ export default function S9BestRestaurantCRMs() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

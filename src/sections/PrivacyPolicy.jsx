@@ -131,7 +131,7 @@ export default function PrivacyPolicy() {
                 {" When you place an order with a Merchant through our Services, your credit card information, billing information, and any other financial information necessary to complete your purchase (“"}
                 <strong>Payment Information</strong>
                 {"”) is processed by our third-party payment processor, Stripe, and the processing of your Payment Information is governed by their "}
-                <a>Privacy Policy</a>
+                <a href="https://stripe.com/privacy">Privacy Policy</a>
                 . We do not collect, store, or process your Payment Information.
               </p>
               <p>
@@ -287,7 +287,7 @@ export default function PrivacyPolicy() {
               <p>You can manage the use of Cookies through functionality built into your web browser or as provided on the Sites. Although you are not required to accept the Sites’ Cookies, if you block or reject them, you may not have access to all features available through the Website.</p>
               <p>
                 {"If you want to learn more about cookies or how to control, disable, or delete them, please visit "}
-                <a>http://www.allaboutcookies.org</a>
+                <a href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a>
                 {" for detailed guidance. We do not currently respond to “Do Not Track” signals."}
               </p>
               <h3 data-anchor-id="management-of-cookies" style={{ "position": "relative" }}>
@@ -305,18 +305,18 @@ export default function PrivacyPolicy() {
                   : You can delete online tracking technologies, including cookies, from your device by clearing your browser history. This will delete all online tracking technologies from all websites and applications you have visited since you last cleared your browser history. You can also set your browser to prevent certain online tracking technologies from being placed on your device. To learn more, please see the links below:
                   <ul role="list">
                     <li>
-                      <a>Firefox</a>
+                      <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop">Firefox</a>
                     </li>
                     <li>
-                      <a>Google Chrome</a>
+                      <a href="https://support.google.com/chrome/answer/95647">Google Chrome</a>
                     </li>
                     <li>
-                      <a>Microsoft Edge</a>
+                      <a href="https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d">Microsoft Edge</a>
                     </li>
                     <li>
-                      <a>Safari</a>
+                      <a href="https://support.apple.com/en-ie/guide/safari/sfri11471/mac">Safari</a>
                       {" / "}
-                      <a>Safari Mobile</a>
+                      <a href="https://support.apple.com/en-us/105082">Safari Mobile</a>
                     </li>
                   </ul>
                 </li>
@@ -327,11 +327,11 @@ export default function PrivacyPolicy() {
               </ul>
               <p>
                 {"You may also be able to limit interest-based advertising through the settings on your mobile device by selecting “limit ad tracking” (iOS) or “opt-out of interest-based ads” (Android). You may also be able to opt-out of some – but not all – interest-based ads served by mobile ad networks by visiting "}
-                <a>http://youradchoices.com/appchoices</a>
+                <a href="http://youradchoices.com/appchoices">http://youradchoices.com/appchoices</a>
                 {" and downloading the mobile AppChoices app. You may also opt out of interest-based advertising by certain participating companies through the Network Advertising Initiative at "}
-                <a>https://optout.networkadvertising.org/</a>
+                <a href="https://optout.networkadvertising.org/">https://optout.networkadvertising.org/</a>
                 {" and through the Digital Advertising Alliance's WebChoices tool at "}
-                <a>https://www.aboutads.info/choices</a>
+                <a href="https://www.aboutads.info/choices">https://www.aboutads.info/choices</a>
                 . You may be able to limit the use of location data for advertising purposes by adjusting your location services settings on your mobile device. Some of these opt-outs may not be effective unless your browser is set to accept cookies. If you delete cookies, change your browser settings, switch browsers or computers, or use another operating system, you may need to opt-out again.
               </p>
               <p>Please note, if you disable the use of online tracking technologies on our Website, this may affect your experience using it. For example, certain features of the Website may not work, or you may have to re-login. If you use different devices to visit our Website, (for example, your computer, smartphone, tablet etc.), you must ensure that each browser on each device is adapted to your preferences.</p>

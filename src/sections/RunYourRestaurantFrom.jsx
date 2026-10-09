@@ -18,9 +18,9 @@ export default function RunYourRestaurantFrom() {
               </div>
             </div>
             <div className="button-group">
-              <a data-button-instance="" className="btn w-inline-block">
+              <A href="/demo" data-button-instance="" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Get a free demo</div>
-              </a>
+              </A>
               <A data-button-instance="" href="/pricing" className="btn w-inline-block is-secondary">
                 <div data-button-text="" className="btn-text">View pricing</div>
               </A>
