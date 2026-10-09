@@ -54,7 +54,7 @@ export default function S9BestPOSSystems2() {
             <div fs-richtext-element="rich-text" fs-toc-element="contents" fs-toc-offsettop="5.625em" className="text-rich-text max-width-full w-richtext">
               <p>
                 {"With over "}
-                <a target="_blank">83,000 coffee shops</a>
+                <a href="https://www.ibisworld.com/united-states/number-of-businesses/coffee-snack-shops/1973/#" rel="noopener noreferrer" target="_blank">83,000 coffee shops</a>
                 {" in the U.S., competition is steep. A slow POS system doesn’t just frustrate your team—it sends customers elsewhere. That’s a lot of espresso left on the table."}
               </p>
               <p>If you’re looking to speed things up and grow sales without more tech headaches, you’re in the right place. I’ll break down the eight best cafe POS systems built to handle the rush and highlight the features that matter, like fast order entry, loyalty programs and smooth modifier workflows.</p>
@@ -288,9 +288,9 @@ export default function S9BestPOSSystems2() {
                   </h3>
                   <p>
                     {"As of publishing, Owner has a "}
-                    <a target="_blank">4.6/5 rating on Capterra</a>
+                    <a href="https://www.capterra.ca/software/1039701/owner" rel="noopener noreferrer" target="_blank">4.6/5 rating on Capterra</a>
                     {" and a "}
-                    <a>4.8/5 rating on G2</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews">4.8/5 rating on G2</a>
                     .
                   </p>
                   <p>
@@ -351,7 +351,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, Square has a "}
                     <strong>{"4.7 / 5 "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -360,7 +360,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“SPOS is user-friendly and easily accessible. The system is well organized and makes it easy to track everything I need to track, like inventory, trends, and profit. I seamlessly integrated SPOS into my business.”—</em>
                     {"Miranda H., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-11232003" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -368,7 +368,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“Occasional syncing delays or glitches with Wi-Fi connectivity can slow down the checkout process. More customization options for receipts and reporting would also be helpful.”—</em>
                     {"McCoy B., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-11243163" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -421,7 +421,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, Toast has a "}
                     <strong>4.2 / 5</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -430,7 +430,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“What I like about toast is that it just makes all of our marketing easy. I can run promos, loyalty programs, see what’s working...all in one place. Saves time, gets results.”—</em>
                     {"Ashley A., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-11231897" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -438,7 +438,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“One downside of Toast is that it can lag or freeze during busy times, which slows things down. Also, some updates or features aren’t always intuitive, so it can take time to learn or adjust. If the internet goes down, certain functions don’t work well unless there’s a backup.”—</em>
                     {"Jamya T., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-11285991" rel="noopener noreferrer" target="_blank">G2 review</a>
                     {" "}
                   </p>
                 </div>
@@ -576,7 +576,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, Clover has a "}
                     <strong>3.8 / 5</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/clover/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -585,7 +585,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>{"“I appreciate the versatility that Clover provides for my clients. If you are a restaurant, retail store, service industry it's great for you. If you need to manage customers or clients or employees, there are tools for all!”—"}</em>
                     {"Jason W., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/clover/reviews/clover-review-8436230" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -593,7 +593,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>{"“If you don't have any prior experience with web architecture or security scans, the interface can be a little difficult to understand. More robust help files and better click-paths would be a huge help.”—"}</em>
                     {"Adam R., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/clover/reviews/clover-review-8018835" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -643,7 +643,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, Focus POS has a "}
                     <strong>3 / 5</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/focus-pos/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -652,7 +652,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“Focus sends simple automated reports on daily and monthly basis has good customer service and is simple for staff to use.”—</em>
                     {"Verified User in Food & Beverages, "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/focus-pos/reviews/focus-pos-review-2293138" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -660,7 +660,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“I dislike how difficult it is to remotely access POS information from the app or a computer. In order to do so no one can be using a terminal in the restaurant and if an employee is using a terminal you cannot access the POS remotely.”—</em>
                     {"Verified User in Food & Beverages, "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/focus-pos/reviews/focus-pos-review-2293368" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -710,7 +710,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, TouchBistro has a "}
                     <strong>4.2 / 5</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/sellers/touchbistro" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -719,7 +719,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>{"“I love how user-friendly and intuitive the TouchBistro platform is. It requires very little training, and I can often find what I need quickly by using the help function. I've also had great experiences with customer service over the phone. I also like the fact that this integrates easily with several of the other programs we use.”—"}</em>
                     {"Stephanie L., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-9571457" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     ‍
@@ -728,7 +728,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“The reservation app has been a bit challenging in creating the best flow for our small space making sure we are capitalizing on the most possible turns per night, but the staff has been helpful in fine tuning this.—</em>
                     {"Verified User in Restaurants, "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-9336152" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -775,7 +775,7 @@ export default function S9BestPOSSystems2() {
                     {"As of publishing, Loyverse has a "}
                     <strong>{"4.7 / 5 "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/loyverse-free-pos/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -784,7 +784,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>{"“Very user-friendly and easy to set up. Maintenance is also straightforward. You can run from a basic store and scale up to a more extensive organization's capabilities by adding a plugin/app as your business grows.”—"}</em>
                     {"Gianfranco B., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/loyverse-free-pos/reviews/loyverse-free-pos-review-7665564" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -792,7 +792,7 @@ export default function S9BestPOSSystems2() {
                   <p>
                     <em>“One downside of Loyverse is its limited integration capabilities, which could be improved for better business insights.”—</em>
                     {"Verified User in Restaurants, "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/loyverse-free-pos/reviews/loyverse-free-pos-review-6937216" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -991,7 +991,7 @@ export default function S9BestPOSSystems2() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1007,7 +1007,7 @@ export default function S9BestPOSSystems2() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1015,7 +1015,7 @@ export default function S9BestPOSSystems2() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1085,9 +1085,9 @@ export default function S9BestPOSSystems2() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1103,9 +1103,9 @@ export default function S9BestPOSSystems2() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1245,7 +1245,7 @@ export default function S9BestPOSSystems2() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

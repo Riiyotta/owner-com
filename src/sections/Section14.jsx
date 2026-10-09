@@ -151,7 +151,7 @@ export default function Section14() {
                   <A href="/blog/how-to-create-a-restaurant-website" className="footer-link">Restaurant Website Builders</A>
                 </li>
                 <li>
-                  <a className="footer-link">Restaurant Grader</a>
+                  <a href="https://grader.owner.com/?ref=footer" className="footer-link">Restaurant Grader</a>
                 </li>
               </ul>
             </li>

@@ -49,7 +49,7 @@ export default function HowGyroConceptGrew() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/5e4702fd-6e2d-43c1-a39c-80c24c37edd1.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e399fb2bd60b1655f7_69f4f344ae64e1a0ceef57fc_69c9bcb7696af0caebe9be41_gyroconcept.jpg.avif" className="bunny-player__placeholder" />

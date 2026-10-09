@@ -97,9 +97,9 @@ export default function IsHero() {
                 </div>
               </li>
             </ul>
-            <a data-button-instance="" className="btn w-inline-block">
+            <A href="/demo" data-button-instance="" className="btn w-inline-block">
               <div data-button-text="" className="btn-text">Get a free demo</div>
-            </a>
+            </A>
           </div>
           <div className="pricing-hero_list-wrap">
             <div className="opacity-50">

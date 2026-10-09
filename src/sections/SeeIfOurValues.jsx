@@ -16,7 +16,7 @@ export default function SeeIfOurValues() {
               We want Owner to be the place you do your best work, and that starts by being surrounded by colleagues who share the same values.
             </p>
             <div className="u-mt-40">
-              <a data-button-instance="" target="_blank" className="btn w-inline-block">
+              <a href="https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8267_0d0ae9f128bbd2b02cb4a65e4199c710_Owner-Culture-Deck.pdf" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">
                   <strong>See the Owner culture deck</strong>
                 </div>

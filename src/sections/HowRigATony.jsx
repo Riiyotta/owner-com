@@ -48,7 +48,7 @@ export default function HowRigATony() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/vimeo-1177074455.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3da699927dde515abbf_69f4f2dc98c4d57372e61d78_69d3b849149ee07f87f43008_rigatonys-lisa2x.jpg.avif" className="bunny-player__placeholder" />

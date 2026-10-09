@@ -15,7 +15,7 @@ export default function BgColorBglighter9() {
               <div role="listitem" className="flex-grow w-dyn-item">
                 <div data-wf--cs-card--variant="small" className="cs-index_item w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
                   <div className="cs-index_visual w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
-                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+                    <div data-player-src="/_videos/e6ae5458-9327-4f7f-a12b-bd1d016b2e1a.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
                       <div data-player-before="" className="bunny-player__before"></div>
                       <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                       <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3de370c3a16646cd67b_69f4f30f3f4821360422c42f_69b9330c8b70142e4e5f887a_Screenshot%2525202025-03-16%252520at%2525209.01.25%2525E2%252580%2525AFPM.png.avif" className="bunny-player__placeholder" />
@@ -164,7 +164,7 @@ export default function BgColorBglighter9() {
               <div role="listitem" className="flex-grow w-dyn-item">
                 <div data-wf--cs-card--variant="small" className="cs-index_item w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
                   <div className="cs-index_visual w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
-                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+                    <div data-player-src="/_videos/40c15d03-e88f-4238-abd8-b69255042832.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
                       <div data-player-before="" className="bunny-player__before"></div>
                       <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                       <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3dc99fb2bd60b1651b3_69f4f2f3ae64e1a0ceef33b5_69b9330c8b70142e4e5f89ca_karv-card.jpg.avif" className="bunny-player__placeholder" />

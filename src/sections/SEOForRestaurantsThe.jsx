@@ -92,7 +92,7 @@ export default function SEOForRestaurantsThe() {
                     </svg>
                     <p className="body-m">See how your restaurant stacks up! Enter your name, check your SEO score in seconds, and make sure you’re ahead of the competition.</p>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <a href="https://grader.owner.com/" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Check your SEO score</div>
                   </a>
                 </div>
@@ -147,7 +147,7 @@ export default function SEOForRestaurantsThe() {
                   <h3>{"1. Assess your restaurant's current SEO rankings"}</h3>
                   <p>
                     {"There are hundreds of SEO tools on the market that can help you understand your SEO rankings, traffic and competitors when it comes to SEO. Most of them are expensive and complicated, so that's why we built our "}
-                    <a target="_blank">Restaurant Website Grader</a>
+                    <a href="https://grader.owner.com/" rel="noopener noreferrer" target="_blank">Restaurant Website Grader</a>
                     {", a free tool that leverages AI to analyze your restaurant website's SEO keywords and compare it against your competitors. Not only that, but the tool also helps provide you with actionable recommendations to improve your restaurant SEO – all for free and ready within 2 minutes. "}
                   </p>
                 </div>
@@ -290,7 +290,7 @@ export default function SEOForRestaurantsThe() {
                     </div>
                     <p>
                       {"Adding as many relevant attributes to your GBP differentiates you from other local businesses. The more up to date information you can give Google, the better. "}
-                      <a target="_blank">See this short video for how to do this.</a>
+                      <a href="https://www.instagram.com/p/C5luKNEPcD5/" rel="noopener noreferrer" target="_blank">See this short video for how to do this.</a>
                     </p>
                   </div>
                   <div id="add-your-menu">
@@ -322,7 +322,7 @@ export default function SEOForRestaurantsThe() {
                     <blockquote>
                       <strong>Free guide:</strong>
                       {" Improve your restaurant’s website and Google ranking in just 90 seconds."}
-                      <a>
+                      <a href="http://grader.owner.com/website?__hstc=17958374.232f922b3588225901a1b4affe84f1f4.1720600040327.1772229813281.1772240172669.258&__hssc=17958374.1.1772240172669&__hsfp=a734fc0609e586574795455cfe5029fb">
                         <strong>Try now!</strong>
                       </a>
                     </blockquote>
@@ -355,7 +355,7 @@ export default function SEOForRestaurantsThe() {
                   </ul>
                   <p>
                     {"Adding features that make these actions easy not only improves the user experience but also sends positive engagement signals to Google — "}
-                    <a>driving more traffic to your site</a>
+                    <a href="https://www.entrepreneur.com/growing-a-business/6-easy-ways-to-attract-more-website-traffic/311774">driving more traffic to your site</a>
                     .
                   </p>
                   <div id="online-reservations">
@@ -366,9 +366,9 @@ export default function SEOForRestaurantsThe() {
                     <p>Google hates it when it sees that people visit your website and then leave right away.</p>
                     <p>
                       {"Don’t force your customers to fill out forms to make reservations. Instead, use tools like "}
-                      <a>Resy</a>
+                      <a href="https://resy.com/">Resy</a>
                       {" or "}
-                      <a>OpenTable</a>
+                      <a href="https://www.opentable.com/">OpenTable</a>
                       {" to help manage your reservations."}
                     </p>
                     <p>In addition to getting more Google traffic, you’ll get more foot traffic and more customers overall.</p>
@@ -426,7 +426,7 @@ export default function SEOForRestaurantsThe() {
                   <h3>6. Make your website mobile-friendly</h3>
                   <p>
                     {"Mobile-friendly websites are essential for attracting and keeping visitors. Mobile devices now account for "}
-                    <a>62.54%</a>
+                    <a href="https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/?srsltid=AfmBOorRfraVbMXB64dVmWTLi-LP5tKm61s96bzFwg-LNdvbN36pK6rN">62.54%</a>
                     {" of global website traffic, and Google primarily uses mobile-first indexing when ranking sites. If your site isn’t optimized for mobile, you risk losing both traffic and customers"}
                   </p>
                   <div fs-richtext-component="cta-1" className="blog-content_cta-wrap">
@@ -437,9 +437,9 @@ export default function SEOForRestaurantsThe() {
                         </div>
                         <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                       </div>
-                      <a data-button-instance="" className="btn w-inline-block">
+                      <A href="/demo" data-button-instance="" className="btn w-inline-block">
                         <div data-button-text="" className="btn-text">Get a free demo</div>
-                      </a>
+                      </A>
                     </div>
                     <div className="blog-content_cta-visual">
                       <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -473,7 +473,7 @@ export default function SEOForRestaurantsThe() {
                     <blockquote>
                       <strong>Pro tip</strong>
                       {" Test your mobile site regularly using a "}
-                      <a>
+                      <a href="https://smallseotools.com/mobile-friendly-test/">
                         <strong>mobile-friendly test platform</strong>
                       </a>
                       {" to ensure it performs across devices."}
@@ -546,7 +546,7 @@ export default function SEOForRestaurantsThe() {
                   <blockquote>
                     <strong>How to fix:</strong>
                     {" Time how fast your website takes to load. If it takes more than 2 seconds, reduce the file size of your images with a compression tool like "}
-                    <a>
+                    <a href="https://www.portent.com/blog/analytics/research-site-speed-hurting-everyones-revenue.htm">
                       <strong>TinyPNG</strong>
                     </a>
                     {" and cut back on the number of videos."}
@@ -571,7 +571,7 @@ export default function SEOForRestaurantsThe() {
                   <p>Remember, Google sees that people bounce right off your website, thinks you’re not giving people a good experience, and so will recommend you less.</p>
                   <p>
                     {"To make things worse, those people will just go to "}
-                    <a>Uber Eats or DoorDash</a>
+                    <A href="/delivery">Uber Eats or DoorDash</A>
                     {" instead, where the menu items are clear and easy to read. "}
                   </p>
                   <p>When restaurants start using Owner.com, one of the first things we do is add their menu to their online ordering system.</p>
@@ -613,7 +613,7 @@ export default function SEOForRestaurantsThe() {
                     <p>Every community has online directories, noticeboards or review sites.</p>
                     <p>
                       {"These are great places to list your business in order to connect with customers and generate valuable backlinks. These directories are often free to list your business in, too. For example, in Kansas City, "}
-                      <a>816Area</a>
+                      <a href="https://www.816area.com/directory/">816Area</a>
                       {" is a free directory of local businesses."}
                     </p>
                   </div>
@@ -705,7 +705,7 @@ export default function SEOForRestaurantsThe() {
                   {"We’ve automated a lot of these processes at Owner.com. If you want to learn more about our "}
                   <A href="/restaurant-seo">restaurant SEO</A>
                   {" services, "}
-                  <a>book a demo here</a>
+                  <A href="/demo">book a demo here</A>
                   . But you don’t need to use our platform to take action on any of the tips we covered today.
                 </p>
               </div>
@@ -818,7 +818,7 @@ export default function SEOForRestaurantsThe() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -834,7 +834,7 @@ export default function SEOForRestaurantsThe() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -842,7 +842,7 @@ export default function SEOForRestaurantsThe() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -901,9 +901,9 @@ export default function SEOForRestaurantsThe() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/668966ecbd62250ed5efb153_653031f0c1f84c90ece81a87_Owner_CTA.webp" loading="lazy" alt="" className="img-cover" />
@@ -1028,7 +1028,7 @@ export default function SEOForRestaurantsThe() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

@@ -3,7 +3,7 @@
 export default function SDVideoBox() {
   return (
     <div className="s-d_video-box" data-clone-section="SDVideoBox">
-      <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-autoplay-skip="" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+      <div data-player-src="/_videos/6c758236-744d-4bf3-adcc-49807284ee45.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-autoplay-skip="" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
         <div data-player-before="" className="bunny-player__before"></div>
         <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
         <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a9096e86bbd02141ae92c64_2d43912cbe14e2b9ea847939f08e4972_Series%20D%20Video%20Thumbnail%20(1).avif" loading="lazy" sizes="(max-width: 3840px) 100vw, 3840px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a9096e86bbd02141ae92c64_2d43912cbe14e2b9ea847939f08e4972_Series%20D%20Video%20Thumbnail%20(1)-p-500.png 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a9096e86bbd02141ae92c64_2d43912cbe14e2b9ea847939f08e4972_Series%20D%20Video%20Thumbnail%20(1).avif 3840w" alt="" className="bunny-player__placeholder" />

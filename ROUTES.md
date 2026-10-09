@@ -153,27 +153,27 @@ Source: https://www.owner.com/
 
 ## Excluded routes (20)
 
-Linked from captured pages but not modelled; explicitly out of scope (see `routeCoverage` in `design-repo/extraction/measured-values.json`).
+Linked from captured pages but not modelled in the design-repo; the status says why (see `routeCoverage` in `design-repo/extraction/measured-values.json`). `/demo` is built in the clone; redirects are served as client redirects.
 
-| Route | Status |
-|---|---|
-| `/demo` | out-of-scope |
-| `/blog/ottavios-pizza-marketing-case-study` | out-of-scope |
-| `/blog/menu-description` | out-of-scope |
-| `/blog/third-party-delivery-services` | out-of-scope |
-| `/blog/doordash-alternatives-for-restaurants` | out-of-scope |
-| `/blog/how-much-does-doordash-charge-restaurants` | out-of-scope |
-| `/case-studies/aburaya` | out-of-scope |
-| `/blog/restaurants-delivery-fee` | out-of-scope |
-| `/comparison/toast-vs-owner` | out-of-scope |
-| `/demo-schedule` | out-of-scope |
-| `/blog/ubereats-doordash-grubhub` | out-of-scope |
-| `/blog/restaurant-menu-design-templates` | out-of-scope |
-| `/blog/uber-eats-alternatives` | out-of-scope |
-| `/blog/restaurant-industry` | out-of-scope |
-| `/downloads/restaurant-growth-checklist` | out-of-scope |
-| `/comparison/square-vs-owner` | out-of-scope |
-| `/comparison/clover-vs-owner` | out-of-scope |
-| `/case-studies/the-modern-vegan` | out-of-scope |
-| `/culture-deck` | out-of-scope |
-| `/blog/97-best-burrito-captions-for-instagram` | out-of-scope |
+| Route | Status | Detail |
+|---|---|---|
+| `/demo` | built-not-modelled | built in the clone (src/pages/Demo.jsx, the live A/B variant overlay) on 2026-10-09; not modelled here: the section extractor found no sections and its one-off overlay has no measured citations. |
+| `/blog/ottavios-pizza-marketing-case-study` | redirect | 301/302 on the live site to /case-studies (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/menu-description` | redirect | 301/302 on the live site to /online-menu (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/third-party-delivery-services` | redirect | 301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/doordash-alternatives-for-restaurants` | redirect | 301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/how-much-does-doordash-charge-restaurants` | redirect | 301/302 on the live site to /blog/third-party-vs-direct-ordering (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/case-studies/aburaya` | 404-on-live | returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original. |
+| `/blog/restaurants-delivery-fee` | 404-on-live | returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original. |
+| `/comparison/toast-vs-owner` | redirect | 301/302 on the live site to /blog/toast-competitors (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/demo-schedule` | redirect | 301/302 on the live site to /demo (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/ubereats-doordash-grubhub` | redirect | 301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/restaurant-menu-design-templates` | redirect | 301/302 on the live site to /blog/how-to-make-a-menu (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/uber-eats-alternatives` | redirect | 301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/blog/restaurant-industry` | 404-on-live | returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original. |
+| `/downloads/restaurant-growth-checklist` | 404-on-live | returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original. |
+| `/comparison/square-vs-owner` | redirect | 301/302 on the live site to /blog/square-pos-system-cost (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/comparison/clover-vs-owner` | redirect | 301/302 on the live site to /blog/toast-vs-clover (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/case-studies/the-modern-vegan` | redirect | 301/302 on the live site to /case-studies (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
+| `/culture-deck` | external-file | redirects on the live site to a file on another host (https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8267_0d0ae9f128bbd2b02cb4a65e4199c710_Owner-Culture-Deck.pdf); linked as an outbound link. |
+| `/blog/97-best-burrito-captions-for-instagram` | 404-on-live | returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original. |

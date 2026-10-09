@@ -15,7 +15,7 @@ export default function BgColorBglighter16() {
               <div role="listitem" className="flex-grow w-dyn-item">
                 <div data-wf--cs-card--variant="small" className="cs-index_item w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
                   <div className="cs-index_visual w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
-                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+                    <div data-player-src="/_videos/363848de-81a4-4bbe-b94c-fdb8084f6183.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
                       <div data-player-before="" className="bunny-player__before"></div>
                       <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                       <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e010945e66967e5754_69f4f31d77f9fbc5109f04ba_69c9bcf213ffd797920cb6d8_sdkabobshack.jpg.avif" className="bunny-player__placeholder" />
@@ -164,7 +164,7 @@ export default function BgColorBglighter16() {
               <div role="listitem" className="flex-grow w-dyn-item">
                 <div data-wf--cs-card--variant="small" className="cs-index_item w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
                   <div className="cs-index_visual w-variant-105d4a0f-70f9-47f8-acfc-f204731d8742">
-                    <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
+                    <div data-player-src="/_videos/b85fa50b-8037-45eb-b358-555342d4bf5f.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="true">
                       <div data-player-before="" className="bunny-player__before"></div>
                       <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                       <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e210945e66967e58c9_69f4f3384f409beeb292bccb_69b9330c8b70142e4e5f881e_Screenshot%2525202024-12-02%252520at%25252012.28.53%2525E2%252580%2525AFPM.png.avif" className="bunny-player__placeholder" />

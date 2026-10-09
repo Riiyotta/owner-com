@@ -48,7 +48,7 @@ export default function HowSaffronGrewDirect() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/4eb47de8-cc59-4c15-bb24-b33f6eb26a51.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3ef49b16655ed8765c5_69f4f3d024c21d28cecf21cf_69c9bce5cc9b169c552c19d0_saffron.jpg.avif" className="bunny-player__placeholder" />

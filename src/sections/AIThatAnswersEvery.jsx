@@ -16,7 +16,7 @@ export default function AIThatAnswersEvery() {
               </div>
             </div>
             <div className="button-group">
-              <a data-button-instance="" target="_blank" className="btn w-inline-block">
+              <a href="https://owner.link/ai-phone-ordering" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block">
                 <div data-button-text="" className="btn-text">Join the waitlist</div>
               </a>
             </div>

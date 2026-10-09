@@ -140,9 +140,9 @@ export default function S15RestaurantMarketingTools() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -156,7 +156,7 @@ export default function S15RestaurantMarketingTools() {
                 </h2>
                 <p>
                   {"A restaurant's website is more than just an online menu; it’s a virtual storefront that can make or break your business. "}
-                  <a>77%</a>
+                  <a href="https://www.mghus.com/lp/restaurant-survey">77%</a>
                   {" of diners look up a restaurant online before visiting, so it’s important to make sure your website is effective and put together correctly. "}
                 </p>
                 <p>
@@ -166,7 +166,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <div className="w-embed">
                   <h2 id="Wix">
-                    <a>1. Wix</a>
+                    <a href="https://www.wix.com/">1. Wix</a>
                   </h2>
                 </div>
                 <p>
@@ -205,7 +205,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Wix has a "}
-                  <a>4.4 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/169007/Wix/">4.4 rating on Capterra</a>
                   . Customers report that Wix is “accessible to anyone who has a little interest and commitment. Enables the creation of very professional websites, with an excellent image bank and templates.”
                 </p>
                 <p>There aren’t a ton of negative reviews, but some customers said there’s been some hiccups with customer service and some glitches.</p>
@@ -302,9 +302,9 @@ export default function S15RestaurantMarketingTools() {
                   <strong>{"Real customer reviews: "}</strong>
                 </p>
                 <p>
-                  <a>{"Owner's reviews"}</a>
+                  <a href="https://www.g2.com/products/owner-com/reviews">{"Owner's reviews"}</a>
                   {" are very positive: a "}
-                  <a>4.9 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/10002488/Owner/">4.9 rating on Capterra</a>
                   {"; a 4.8 rating on G2. Customers love the speediness of setup and the stellar customer service: “They are easy to talk to and I sense they really care about their client’s success. I also like how fast they launched the website, online ordering, and mobile app.” "}
                 </p>
                 <p>{"Owner has also increased online delivery efforts for customers: “Our customers are ordering and using our online more and more. It's easy, and has the opportunity to provide great promotions.”"}</p>
@@ -337,7 +337,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="WP">
-                    <a>3. WordPress</a>
+                    <a href="https://wordpress.com/">3. WordPress</a>
                   </h2>
                 </div>
                 <p>
@@ -366,7 +366,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"WordPress has a "}
-                  <a>4.6 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/131687/WordPress/">4.6 rating on Capterra</a>
                   {", with customers singing a lot of praise: “I LOVE the ability to customize and add a variety of added features without being nickeled and dimed for every additional thing. Unlike some other \"easier to use\" platforms out there, WP offers a lot of customization and many plugins, themes, and extra cost nothing to implement.” "}
                 </p>
                 <p>{"Customers also say that it “needs a plugin for everything. It can be very difficult to reach peak design & functionality” and that “there is a learning curve and it's not beginner-friendly if you know nothing about installing it” "}</p>
@@ -404,7 +404,7 @@ export default function S15RestaurantMarketingTools() {
                 </h2>
                 <p>
                   {"Almost "}
-                  <a>half of all Google searches</a>
+                  <a href="https://www.appfront.ai/blog/seo-for-restaurants-what-operators-need-to-know">half of all Google searches</a>
                   {" are looking for local businesses, so mastering SEO can be a game-changer for your restaurant. Our data at Owner has shown that restaurants see 10 to 15 times more "}
                   <em>{"new "}</em>
                   {"customers come from Google than they do from social media. "}
@@ -416,7 +416,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <div className="w-embed">
                   <h2 id="GKP">
-                    <a>4. Google Keyword Planner</a>
+                    <a href="https://ads.google.com/intl/en_us/home/tools/keyword-planner/">4. Google Keyword Planner</a>
                   </h2>
                 </div>
                 <p>
@@ -466,7 +466,7 @@ export default function S15RestaurantMarketingTools() {
                 <p>{"Google Keyword Planner doesn’t have many reviews available. I'd recommend checking out Reddit threads about it instead."}</p>
                 <div className="w-embed">
                   <h2 id="GBP">
-                    <a>5. Google Business Profile</a>
+                    <a href="https://www.google.com/intl/en_us/business/">5. Google Business Profile</a>
                   </h2>
                 </div>
                 <p>
@@ -534,7 +534,7 @@ export default function S15RestaurantMarketingTools() {
                 <p>{"Let's dive into some of my favorite options to help make the social media experience feel more manageable. "}</p>
                 <div className="w-embed">
                   <h2 id="Hootsuite">
-                    <a>6. Hootsuite</a>
+                    <a href="https://www.hootsuite.com/">6. Hootsuite</a>
                   </h2>
                 </div>
                 <p>
@@ -564,7 +564,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Hootsuite scored a "}
-                  <a>4.4 on Capterra</a>
+                  <a href="https://www.capterra.com/p/121701/HootSuite/">4.4 on Capterra</a>
                   {". Customers praise Hootsuite for being “such an easy and helpful tool for scheduling social media for an organization.”  Sometimes, customers report that some of their scheduled content “failed to post”. "}
                 </p>
                 <div className="w-embed">
@@ -596,7 +596,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="Canva">
-                    <a>7. Canva</a>
+                    <a href="https://www.canva.com/">7. Canva</a>
                   </h2>
                 </div>
                 <p>
@@ -636,7 +636,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Canva has a "}
-                  <a>4.7 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/168956/Canva/">4.7 rating on Capterra</a>
                   , and high ratings across the board when it comes to ease of use (4.7) and customer service (4.4). Canva receives a lot of praise on how this tool is “easy to use for a great price.” Another customer said, “as someone who does not specialize in marketing or social media posts this app has been a God-send. It is very easy to use, easy to navigate, and easy to implement.”
                 </p>
                 <p>{"Customers report the issue with watermarks: “The inability to remove watermarks without the paid version. This prohibits a user from downloading their design and further editing it without a blurry version.”   "}</p>
@@ -669,7 +669,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="Later">
-                    <a>8. Later</a>
+                    <a href="https://later.com/">8. Later</a>
                   </h2>
                 </div>
                 <p>
@@ -707,7 +707,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Later has a "}
-                  <a>4.4 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/152254/Later/">4.4 rating on Capterra</a>
                   {". Customers love that the “Instagram posting is great and their free plan is very generous to get a good feel for the software.” "}
                 </p>
                 <p>{"They also report that the tool can glitch sometimes, like errors in uploading posts.   "}</p>
@@ -740,7 +740,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="Descript">
-                    <a>9. Descript</a>
+                    <a href="https://www.descript.com/">9. Descript</a>
                   </h2>
                 </div>
                 <p>
@@ -779,7 +779,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Descript has a high "}
-                  <a>4.8 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/230702/Descript/">4.8 rating on Capterra</a>
                   . Positive reviews include: “Really love how easy it is to edit audio and video with text. Searching for specific phrases or moments via text instead of scrolling and trying to find it saves so much time!”
                 </p>
                 <p>While some reviews state it’s easy to use, some also say that the “learning curve can be a bit much; there are not enough tutorials that get right to the point.”</p>
@@ -834,7 +834,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <div className="w-embed">
                   <h2 id="Mailchimp">
-                    <a>10. Mailchimp</a>
+                    <a href="https://mailchimp.com/">10. Mailchimp</a>
                   </h2>
                 </div>
                 <p>
@@ -862,7 +862,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Mailchimp scores a "}
-                  <a>4.5 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/110228/MailChimp/">4.5 rating on Capterra</a>
                   {". Customers love that the tool has a “pretty straightforward pricing plan with an awesome customer service solution” and that “it's very easy to use with free options that are still very robust.” "}
                 </p>
                 <p>{"Some customers mention that it can be lacking in features, saying that users “are restricted to specific designs and formats only, which can be a little frustrating when your business doesn't match those categories.”"}</p>
@@ -895,7 +895,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="GetResponse">
-                    <a>11. GetResponse</a>
+                    <a href="https://www.getresponse.com/">11. GetResponse</a>
                   </h2>
                 </div>
                 <p>
@@ -933,7 +933,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"GetResponse received a "}
-                  <a>4.2 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/153948/GetResponse/">4.2 rating on Capterra</a>
                   {". Customers appreciate how the tool has everything in one place: “I love it, what can I say, I'm happy to pay the low price for using such a great marketing solution. Everything in the one place - what's not to like.” "}
                 </p>
                 <p>{"However, some customers report that “loading time is slow” and that the list segmenting feature could be a bit more advanced. "}</p>
@@ -966,7 +966,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="SendPulse">
-                    <a>12. SendPulse</a>
+                    <a href="https://sendpulse.com/">12. SendPulse</a>
                   </h2>
                 </div>
                 <p>
@@ -995,7 +995,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"SendPulse has a "}
-                  <a>4.6 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/146369/SendPulse/">4.6 rating on Capterra</a>
                   {". Customers love its simplicity, saying that its “simple user interface and great deliverability makes it one of the best email marketing tools of this industry.” "}
                 </p>
                 <p>{"Some users reported that the software can be a bit slow to load, as well as some customer support issues.  "}</p>
@@ -1032,12 +1032,12 @@ export default function S15RestaurantMarketingTools() {
                 <p>{"Maintaining your online reviews and reputation is important to keep your customers happy, build loyalty and create a strong brand image. It’s also a good place to respond to negative reviews to help retain win-back customers. "}</p>
                 <p>
                   {"Since "}
-                  <a>92% of customers</a>
+                  <a href="https://bloomintelligence.com/blog/how-restaurant-ratings-reviews-affect-business/">92% of customers</a>
                   {" read restaurant reviews before choosing where to eat, managing your reputation is crucial. What excites me is that there are tools out there that can actually help you manage your reviews and address a complaint before it becomes an issue. I’ll share a few of them below:"}
                 </p>
                 <div className="w-embed">
                   <h2 id="Chatmeter">
-                    <a>13. Chatmeter</a>
+                    <a href="https://www.chatmeter.com/">13. Chatmeter</a>
                   </h2>
                 </div>
                 <p>
@@ -1075,7 +1075,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Chatmeter scores a "}
-                  <a>4.5 on Capterra</a>
+                  <a href="https://www.capterra.com/p/168699/Chatmeter/">4.5 on Capterra</a>
                   . Reviewers appreciate that the tool allows for easy responses to reviews: “I check the site almost daily and enjoy reading the wonderful positive reviews. If there are negative reviews it provides us the ability to respond quickly and address the concern.”
                 </p>
                 <p>{"However, some customers report that customer service can be lacking. "}</p>
@@ -1108,7 +1108,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="Podium">
-                    <a>14. Podium</a>
+                    <a href="https://www.podium.com/">14. Podium</a>
                   </h2>
                 </div>
                 <p>
@@ -1137,7 +1137,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Podium has a "}
-                  <a>4.3 rating on Capterra</a>
+                  <a href="https://www.capterra.com/p/164285/Podium/">4.3 rating on Capterra</a>
                   {". Customers have shouted out that the tool is simple to use: “The ease of use is great, I love taking the conversation from the website to texting, and it's great for that. It also makes it pretty easy to request reviews, and so that is great.”"}
                 </p>
                 <p>Some users report that the search features within the app can be hard to use — they say that it’s hard to look up past conversations. There are also reports of difficult account setup.</p>
@@ -1170,7 +1170,7 @@ export default function S15RestaurantMarketingTools() {
                 </div>
                 <div className="w-embed">
                   <h2 id="Birdeye">
-                    <a>15. Birdeye</a>
+                    <a href="https://birdeye.com/">15. Birdeye</a>
                   </h2>
                 </div>
                 <p>
@@ -1198,7 +1198,7 @@ export default function S15RestaurantMarketingTools() {
                 </p>
                 <p>
                   {"Birdeye has a rating of "}
-                  <a>4.7 on Capterra</a>
+                  <a href="https://www.capterra.com/p/152997/BirdEye/">4.7 on Capterra</a>
                   {".  Customers love how user-friendly this tool is: “This software gives a great boost to your online reputation. The customer support is excellent and the dashboard is super user-friendly.” There’s also a lot of praise for their customer support. "}
                 </p>
                 <p>{"On the other hand, some report that the tool can be a little “clunky” to use. "}</p>
@@ -1272,7 +1272,7 @@ export default function S15RestaurantMarketingTools() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1288,7 +1288,7 @@ export default function S15RestaurantMarketingTools() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1296,7 +1296,7 @@ export default function S15RestaurantMarketingTools() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1367,9 +1367,9 @@ export default function S15RestaurantMarketingTools() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1500,7 +1500,7 @@ export default function S15RestaurantMarketingTools() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

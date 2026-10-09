@@ -214,7 +214,7 @@ export default function BestPizzaPOSSystems() {
                   </h3>
                   <p>
                     {"Because Toast is so comprehensive, the learning curve can be pretty steep, especially for pizzerias with complex, customizable menu options. The "}
-                    <a target="_blank">upfront cost</a>
+                    <a href="https://pos.toasttab.com/pricing" rel="noopener noreferrer" target="_blank">upfront cost</a>
                     {" for software and hardware, as well as payment processing costs, may be on the higher end compared to alternatives."}
                   </p>
                 </div>
@@ -226,7 +226,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, Toast has a "}
                     <strong>4.2 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -238,7 +238,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"\"We love that there are multiple 3rd party add-on tools to help integrate with other systems, such as QuickBooks. We love the ability to customize the guest experience for payments and loyalty signups.” "}</em>
                     {"— Christian J., "}
-                    <a target="_blank">Toast review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-4859914" rel="noopener noreferrer" target="_blank">Toast review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -246,7 +246,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Toast hardware is terrible. We are always having issues with specifically our S1 handhelds. Sent at least 5-6 back on warranty replacement, … and I have 3 handhelds that have stopped working properly, and they are just outside of the warranty period. It screams of planned obsolescence.” "}</em>
                     {"— Jed B., "}
-                    <a target="_blank">Toast review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-11232308" rel="noopener noreferrer" target="_blank">Toast review</a>
                   </p>
                 </div>
               </div>
@@ -290,7 +290,7 @@ export default function BestPizzaPOSSystems() {
                     <strong>Where Square shines:</strong>
                   </h3>
                   <p>
-                    <a target="_blank">Square’s affordability</a>
+                    <a href="https://squareup.com/us/en/pricing" rel="noopener noreferrer" target="_blank">Square’s affordability</a>
                     {" makes it super intuitive for staff to learn quickly. Its integrated online ordering system is a big plus for pizzerias, allowing you to easily set up your menu and manage incoming orders. Plus, you can appreciate the transparent fee structure and clear, at-a-glance reports for tracking sales."}
                   </p>
                 </div>
@@ -310,7 +310,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, Square for Restaurants has a "}
                     <strong>4.3 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/square-square-for-restaurants/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -319,7 +319,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>“My favorite thing about Square is that I can create my online menu, and people can order from there. I can schedule how many orders we accept every 15 minutes. They also have amazing charts at a glance and very detailed reports. They also include whatever fees will be deducted immediately, so there is less chance of messing up the math.”</em>
                     {" — Cara G., "}
-                    <a target="_blank">Square for Restaurants review</a>
+                    <a href="https://www.g2.com/products/square-square-for-restaurants/reviews/square-for-restaurants-review-7944184" rel="noopener noreferrer" target="_blank">Square for Restaurants review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -327,7 +327,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>“Not equipped well for very busy/large restaurants, broken offline mode, and iffy online ordering system integration.”</em>
                     {" — Beau C., "}
-                    <a target="_blank">Square for Restaurants review</a>
+                    <a href="https://www.g2.com/products/square-square-for-restaurants/reviews/square-for-restaurants-review-8548321" rel="noopener noreferrer" target="_blank">Square for Restaurants review</a>
                   </p>
                 </div>
               </div>
@@ -377,7 +377,7 @@ export default function BestPizzaPOSSystems() {
                     {"While you're not locked into "}
                     <em>their</em>
                     {" specific hardware, remember you'll need an iPad to get TouchBistro rolling, which can add to the "}
-                    <a target="_blank">upfront cost of the TouchBistro</a>
+                    <a href="https://www.touchbistro.com/pricing/" rel="noopener noreferrer" target="_blank">upfront cost of the TouchBistro</a>
                     {" POS system. Several reviews also suggest customer service is lacking or less accessible than what they’d prefer."}
                   </p>
                 </div>
@@ -389,7 +389,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, TouchBistro has a "}
                     <strong>4.2 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -398,7 +398,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“I love how user-friendly and intuitive the TouchBistro platform is. It requires very little training, and I can often find what I need quickly by using the help function. I've also had great experiences with customer service over the phone. I also like the fact that this integrates easily with several of the other programs we use.” "}</em>
                     {"— Stephanie L., "}
-                    <a target="_blank">TouchBistro review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-9571457" rel="noopener noreferrer" target="_blank">TouchBistro review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -406,7 +406,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Costly hardware and ultimately having to deal with a 3rd party for hardware issues is the one downside to Touch Bistro.\" "}</em>
                     {"— Michael C., "}
-                    <a target="_blank">TouchBistro review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-9498788" rel="noopener noreferrer" target="_blank">TouchBistro review</a>
                   </p>
                 </div>
               </div>
@@ -455,7 +455,7 @@ export default function BestPizzaPOSSystems() {
                   </h3>
                   <p>
                     {"Some users find that SpeedLine POS offers limited customization options, particularly for more aesthetic menu elements.  With a relatively high "}
-                    <a target="_blank">cost, SpeedLine POS</a>
+                    <a href="https://www.lightspeedhq.com/pos/retail/pricing/" rel="noopener noreferrer" target="_blank">cost, SpeedLine POS</a>
                     {" might hit your wallet a bit harder than some alternatives, and its inventory features could use a little more attention."}
                   </p>
                 </div>
@@ -467,7 +467,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, SpeedLine POS has a "}
                     <strong>4.5 out of 5 star rating</strong>
                     {" from three reviews on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/speedline/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -479,7 +479,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"\"And, distributing everything involving online ordering within the system helps the process pass through rush periods.” "}</em>
                     {"— Leroy C., "}
-                    <a target="_blank">SpeedLine POS review</a>
+                    <a href="https://www.g2.com/products/speedline/reviews/speedline-review-9484414" rel="noopener noreferrer" target="_blank">SpeedLine POS review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -487,7 +487,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“SpeedLine POS has limited customization options for menu and online ordering. SpeedLine POS is relatively expensive compared to other similar POS systems in the market.” "}</em>
                     {"— Alex N., "}
-                    <a target="_blank">SpeedLine POS review</a>
+                    <a href="https://www.g2.com/products/speedline/reviews/speedline-review-7907388" rel="noopener noreferrer" target="_blank">SpeedLine POS review</a>
                   </p>
                 </div>
               </div>
@@ -545,7 +545,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, LightSpeed has a "}
                     <strong>4.3 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -554,7 +554,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Lightspeed is one of the deepest restaurant POS systems out there. It has lots of features that other systems lack, and there's plenty of room to grow. Best of all, their support is amazing. They are very proactive about customer success and open to new feature suggestions—they'll even get in touch to let you know they implemented your ideas! Always improving, always dynamic, never static.” "}</em>
                     {"— Astrid Y., "}
-                    <a target="_blank">LightSpeed review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-5132204" rel="noopener noreferrer" target="_blank">LightSpeed review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -562,7 +562,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“When we went live, we did not have a knowledgeable person to help us understand and configure the system. There were many problems after we went live, and the post-go-live support is the worst I have ever encountered. Support tickets go unresolved or unanswered for weeks.” "}</em>
                     {"— Vince M., "}
-                    <a>LightSpeed review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-9495761">LightSpeed review</a>
                   </p>
                 </div>
               </div>
@@ -620,7 +620,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, Revel has a "}
                     <strong>4.1 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -629,7 +629,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Inventory management is the best, followed by their hourly sales breakdowns.” "}</em>
                     {"— Dustin M., "}
-                    <a target="_blank">Revel review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-6960998" rel="noopener noreferrer" target="_blank">Revel review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -640,7 +640,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"\"The system can't handle the concept of order queuing automatically. Online, we can be sure to only take x orders every n minutes - but that doesn't apply to the POS, so we end up with pressured times [in] the kitchen. It's not meant for pizzerias. 1/2 and 1/2 pizzas are common but stopped working months ago, and support couldn't solve it.” "}</em>
                     {"— Nicole M., "}
-                    <a target="_blank">Revel review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-10333542" rel="noopener noreferrer" target="_blank">Revel review</a>
                   </p>
                 </div>
               </div>
@@ -697,7 +697,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, HungerRush has a "}
                     <strong>4.6 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/hungerrush-for-restaurants/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -706,7 +706,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“When it comes to ease of ordering on the employee side and customer side. HungerRush has most POS companies beat. It has always been seamless for even the most complicated menu items, like Pizzas. They tackle the right features in their menu builder without being over complicated.” "}</em>
                     {"— Tarin S., "}
-                    <a target="_blank">HungerRush review</a>
+                    <a href="https://www.g2.com/products/hungerrush-for-restaurants/reviews/hungerrush-for-restaurants-review-9097266" rel="noopener noreferrer" target="_blank">HungerRush review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -714,7 +714,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“If you don't have the right sales rep or customer success manager, there are a lot of pieces you can miss. The rollout and maintenance of your system seems to be lost in the shuffle after initial install.” "}</em>
                     {"— Kevin M., "}
-                    <a target="_blank">HungerRush review</a>
+                    <a href="https://www.g2.com/products/hungerrush-for-restaurants/reviews/hungerrush-for-restaurants-review-8783894" rel="noopener noreferrer" target="_blank">HungerRush review</a>
                   </p>
                 </div>
               </div>
@@ -770,7 +770,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, Lavu has a "}
                     <strong>3.9 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lavu/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -785,7 +785,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"\"Also, Lavu is made for restaurants specifically, and offers integrated inventory management as well as add-on accounting integration. As a package, Lavu is the best for us.” "}</em>
                     {"— Jessica C., "}
-                    <a target="_blank">Lavu review</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-8200902" rel="noopener noreferrer" target="_blank">Lavu review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -796,7 +796,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"\"Multiple attempts to email and call customer service went unanswered or \"redirected\" to a voicemail. It feels dishonest and left a bad taste in my mouth - I definitely won't recommend them based on this experience.” "}</em>
                     {"— John D., "}
-                    <a target="_blank">Lavu review</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-8276667" rel="noopener noreferrer" target="_blank">Lavu review</a>
                   </p>
                 </div>
               </div>
@@ -851,7 +851,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, SkyTab has a "}
                     <strong>3.2 out of 5 star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/shift4-skytab/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -860,7 +860,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Very user-friendly and easy to use! And very cheap in comparison to other POS systems!!” "}</em>
                     {"— Belle S., "}
-                    <a target="_blank">SkyTab review</a>
+                    <a href="https://www.g2.com/products/shift4-skytab/reviews/skytab-review-8380875" rel="noopener noreferrer" target="_blank">SkyTab review</a>
                   </p>
                   <p>
                     ‍
@@ -869,7 +869,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“The reports were not helpful, no online/cloud-based service, no handhelds, older interface was not user-friendly.” "}</em>
                     {"— Guinevere B., "}
-                    <a target="_blank">SkyTab review</a>
+                    <a href="https://www.g2.com/products/shift4-skytab/reviews/skytab-review-6914074" rel="noopener noreferrer" target="_blank">SkyTab review</a>
                   </p>
                 </div>
               </div>
@@ -926,7 +926,7 @@ export default function BestPizzaPOSSystems() {
                     {"At the time of publishing, Epos Now has a "}
                     <strong>4.0 out of 5 star rating</strong>
                     {" from two reviews on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/epos-now/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers have to say: "}
                   </p>
                   <p>
@@ -935,7 +935,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“i like the interface of Epos, which makes it easy to navigate. I also like how it gives me a report of the information I want to get from it. It is a very reliable retail tool.” "}</em>
                     {"— Stanley E., "}
-                    <a target="_blank">Epos Now review</a>
+                    <a href="https://www.g2.com/products/epos-now/reviews/epos-now-review-4915910" rel="noopener noreferrer" target="_blank">Epos Now review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -943,7 +943,7 @@ export default function BestPizzaPOSSystems() {
                   <p>
                     <em>{"“Pricing is high for this and not suitable for all.” "}</em>
                     {"— Soham G., "}
-                    <a target="_blank">Epos Now review</a>
+                    <a href="https://www.g2.com/products/epos-now/reviews/epos-now-review-7612552" rel="noopener noreferrer" target="_blank">Epos Now review</a>
                   </p>
                 </div>
               </div>
@@ -1144,7 +1144,7 @@ export default function BestPizzaPOSSystems() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1160,7 +1160,7 @@ export default function BestPizzaPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1168,7 +1168,7 @@ export default function BestPizzaPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1238,9 +1238,9 @@ export default function BestPizzaPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1256,9 +1256,9 @@ export default function BestPizzaPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1404,7 +1404,7 @@ export default function BestPizzaPOSSystems() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

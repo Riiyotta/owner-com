@@ -39,7 +39,7 @@ export default function GiveYourRestaurantThe() {
                           </g>
                         </g>
                       </g>
-                      <mask id="__lottie_element_1115_1" maskType="alpha">
+                      <mask id="__lottie_element_1115_1" mask-type="alpha">
                         <use href="#__lottie_element_1115" />
                       </mask>
                     </defs>

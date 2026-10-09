@@ -16,15 +16,31 @@ npm run build
 - `public/`: **1534** real file(s), 232.3 MB (images, fonts, video, SVG). Nothing points outside the project.
 - `clone-manifest.json`: route → page → component map, every still, every dropped file.
 
-## Animation
+## Animation and behaviour (updated 2026-10-09)
 
-- **Canvas / Rive areas: 2 still(s) captured** (4 canvas(es) drew nothing and are an empty, correctly sized box). The 0 `.riv` file(s) are **not** included: a remix cannot recolour or redraw a Rive file and would ship the original mascot on every generated site. Replace each still with an image slot, CSS or GSAP.
-- **Scroll-driven motion is not reproduced.** The clone keeps one reveal-on-scroll observer only. Rebuild them with CSS or GSAP in the remix.
-- **Scroll-reveal: 90 element(s)** that started hidden or offset and animated in are marked `data-reveal`; one IntersectionObserver (`src/lib/usePageChrome.js`) fades them up (off under reduced motion).
-- **30960 element(s) forced visible.** These started hidden/offset on the original and were still hidden/offset when this clone was captured — the scroll-triggered animation that reveals them on the original did not fire the same way during capture. Rather than ship them permanently invisible, their hiding style was stripped so they render plainly (no animation, but visible). Rebuild the real scroll-in motion in the remix.
-- **Not reproduced**: GSAP timelines / ScrollTrigger pins and scrubs (pin wrappers are removed, content flows normally), Lenis smooth scroll, accordions, tabs, carousels and other script behaviour (only the state the page was in after load is captured), forms (submit is prevented), third-party frames (replaced by an empty box of the same size), shadow-DOM content.
-- **No analytics or trackers**: none are in `src/` or `public/`.
-- **No external links**: links to other sites (and to pages that were not captured) keep their element and styling but have no `href`; links between cloned pages go through the router. `--keep-external-links` keeps them.
+The builder captured the DOM but dropped every script. The original's own behaviour scripts (`index-new.js`, `homepage.js`, `owner-animations.js`, the inline rotating-text / highlight-text scripts and the Webflow IX chunks, all in the evidence mirror) are now ported into `src/lib/interactions/`. They run per route (`pageScripts.json` limits page-specific scripts to the routes that loaded them on the original) and are torn down on navigation. Dependencies are the original's own versions: `gsap` 3.15.0 and `smooothy` 0.0.35.
+
+- **Reproduced:**
+  - nav dropdowns and the mobile menu
+  - accordions / FAQs
+  - hero rotating text
+  - testimonial slider
+  - logo / review marquees
+  - stat odometers
+  - board modals
+  - feature tabs
+  - star canvases and star-rating fill
+  - CTA / timeline scroll scrubs
+  - highlight text
+  - Bunny video player, playing local MP4s from `public/_videos/`
+- **Not reproduced:** anything that needs a network service:
+  - Google Places search (homepage field, `/demo`)
+  - the careers jobs list (Ashby API)
+  - the `/demo` form's final step
+  - cookie consent, analytics
+- **Forms:** submission is prevented everywhere.
+- **Links:** external links are outbound. Links to the 5 pages that 404 on the live site point at the live URLs, as broken as on the original.
+- **No trackers:** none are in `src/` or `public/`.
 
 ## Checks run by the builder
 
@@ -32,7 +48,7 @@ npm run build
 |---|---|
 | Every `src` / `url()` the code points at exists in `public/` | PASS (1981 image reference(s), 1981 resolved) |
 | No tracker host in code or `public/` | PASS |
-| No external hyperlink in `src/` | PASS (1601 link(s) to other sites or uncaptured pages lost their target) |
+| External links | Restored 2026-10-09 (1,599 hrefs back from the snapshots); the builder had removed them. |
 | No placeholder boxes from the level-2 scaffold | PASS |
 | Vite build + every route loads offline | PASS: vite build ok; 144 route(s) loaded: 0 console/network error(s), 0 outside host(s), 0 empty page(s) |
 | Parity vs the original page, per section (gate 80%) | PASS: average 93.9% over 6 route(s) |

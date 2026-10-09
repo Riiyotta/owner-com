@@ -340,7 +340,7 @@ export default function S10BestPOSSystems() {
                     {"As of publishing, Square has a "}
                     <strong>4.7 out of 5-star</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -349,13 +349,13 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“I like that Square POS does all the things you look for or want all in one system. It doesn't just take payments, it also has a loyalty program, email & text marketing, I can take orders in-person or online which created an app just for my business” "}</em>
                     {"— Briana S., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776555" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                   <p>
                     ‍
                     <em>{"“The Square POS is by far the easiest POS we have used (we have been through 3 others in the past). Both the front end and the back end are intuitive, and adding and editing products is a breeze. Also, the integrations with accounting software (we use Xero) and other solutions are great. The support is also 2nd to none (there's always a human available at the end of the phone).” "}</em>
                     {"— Daniel N., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776532" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -363,12 +363,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“The downside to Square POS is that since it tries to be a jack of all trades, since it does cover well so many different businesses, industries, that would all operate a little different, sometimes it does get a bit confusing when setting up the first time, but Square has great customer support…” "}</em>
                     {"— Briana S., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776555" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Some of the integration with online syncing was tricky at first, but those issues have been worked out over time, and Square is very receptive to feedback.” "}</em>
                     {"— Deklan R., "}
-                    <a target="_blank">Square POS G2 review</a>
+                    <a href="https://www.g2.com/products/square-point-of-sale/reviews/square-point-of-sale-review-10776601" rel="noopener noreferrer" target="_blank">Square POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -419,7 +419,7 @@ export default function S10BestPOSSystems() {
                     {"As of publishing, Lightspeed has a "}
                     <strong>4.5 out of 5-star</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -428,12 +428,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“Easy to use, easy to set up, abundantly integrated with additional services.” "}</em>
                     {"— Sandstone G., "}
-                    <a target="_blank">Lightspeed POS G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-7700431" rel="noopener noreferrer" target="_blank">Lightspeed POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Lightspeed Pos is a good system. I would recommend it to anyone. There is an item of note. Lightspeed gift cards need to provide a gift card receipt and have the ability to provide a printed balance to our guests. It doesn't do any of these as of right now. Not a significant issue, but it does need to be addressed.” "}</em>
                     {"— Tony V., "}
-                    <a target="_blank">Lightspeed POS G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-5310348" rel="noopener noreferrer" target="_blank">Lightspeed POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -441,12 +441,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“You can't enter new products on the fly, to do this you need to sign into the back end and sometimes there's a lag before it appears in the menu. Also, since it's a bit more complex than other POS systems the learning curve is a bit high for some users. So it requires a little more training than the average POS system.” "}</em>
                     {"— Astrid Y., "}
-                    <a target="_blank">Lightspeed POS G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-5132204" rel="noopener noreferrer" target="_blank">Lightspeed POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Light speed was lacking some integrations with outside services like open table.” "}</em>
                     {"— Emmanuel G., "}
-                    <a target="_blank">Lightspeed POS G2 review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-7028691" rel="noopener noreferrer" target="_blank">Lightspeed POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -508,9 +508,9 @@ export default function S10BestPOSSystems() {
                   </h3>
                   <p>
                     {"As of publishing, Owner has a "}
-                    <a target="_blank">4.6/5 rating on Capterra</a>
+                    <a href="https://www.capterra.ca/software/1039701/owner" rel="noopener noreferrer" target="_blank">4.6/5 rating on Capterra</a>
                     {" and a "}
-                    <a>4.8/5 rating on G2</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews">4.8/5 rating on G2</a>
                     .
                   </p>
                   <p>
@@ -571,7 +571,7 @@ export default function S10BestPOSSystems() {
                   </h3>
                   <p>
                     {"As of publishing, Shopify POS has a 4.4 out of 5-star rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/shopify-shopify-pos/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -580,12 +580,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“Exceptional platform, even for beginners. It has different themes that help you to create a professional store online.” "}</em>
                     {"— Jamie Jesurun H., "}
-                    <a target="_blank">Shopify POS G2 review</a>
+                    <a href="https://www.g2.com/products/shopify-shopify-pos/reviews/shopify-pos-review-10690170" rel="noopener noreferrer" target="_blank">Shopify POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“ From the moment I integrated Shopify POS into my store, I experienced nothing but seamless transactions and efficient inventory management. The user-friendly interface made it easy for my team to learn and adapt, ensuring minimal downtime during the transition phase.” "}</em>
                     {"— Amit K., "}
-                    <a target="_blank">Shopify POS G2 review</a>
+                    <a href="https://www.g2.com/products/shopify-shopify-pos/reviews/shopify-pos-review-9306285" rel="noopener noreferrer" target="_blank">Shopify POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -593,12 +593,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“My biggest gripe is the lack of support for subscription items on Shopify POS. This was a promised \"coming soon\" feature in summer 2023, but was pushed back until all mention of it was removed…People want our subscriptions and we'd like to sign them up on the spot, not wait for them to visit our website.”  "}</em>
                     {"— Lauren C., "}
-                    <a target="_blank">Shopify POS G2 review</a>
+                    <a href="https://www.g2.com/products/shopify-shopify-pos/reviews/shopify-pos-review-7478046" rel="noopener noreferrer" target="_blank">Shopify POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“While Shopify POS has many strengths, some users have reported limitations in its customization options compared to other POS systems.” "}</em>
                     {"— Josel J., "}
-                    <a target="_blank">Shopify POS G2 review</a>
+                    <a href="https://www.g2.com/products/shopify-shopify-pos/reviews/shopify-pos-review-9535422" rel="noopener noreferrer" target="_blank">Shopify POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -655,7 +655,7 @@ export default function S10BestPOSSystems() {
                     {"As of publishing, Toast has a "}
                     <strong>4 out of 5-star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -664,12 +664,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“We also love their hardware. It seems Toast has really thought hard about how the POS and KDS systems work. We just installed a new KDS screen this week, and it was actually a joy to mount and get up and running. We had it ready to go in less than 30 minutes. It was just so easy.” "}</em>
                     {"— Craig W., "}
-                    <a target="_blank">Toast POS G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10071680" rel="noopener noreferrer" target="_blank">Toast POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Great POS system and easy to use. Ease of adding new items and making changes as needed quickly.” "}</em>
                     {"—Dawnielle L., "}
-                    <a target="_blank">Toast POS G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-9619025" rel="noopener noreferrer" target="_blank">Toast POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -677,12 +677,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“It's very robust, so it takes some time and dedication to really maximize the POS, but the same is true for most good Systems. Managing modifiers can be tedious at times.” — "}</em>
                     {"Daniel C., "}
-                    <a target="_blank">Toast POS G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10006399" rel="noopener noreferrer" target="_blank">Toast POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Customer service team members are not as knowledgeable as they could be and at times have provided information that contradicts others.” "}</em>
                     {"— Matthew W., "}
-                    <a target="_blank">Toast POS G2 review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-7471987" rel="noopener noreferrer" target="_blank">Toast POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -732,7 +732,7 @@ export default function S10BestPOSSystems() {
                     As of publishing, Revel has a
                     <strong>{" 4 out of 5-star "}</strong>
                     {"rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -742,12 +742,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“Configurable layouts and ease of access for training and operations.” "}</em>
                     {"— Verified User in Food & Beverages, "}
-                    <a target="_blank">Revel POS G2 review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-10051773" rel="noopener noreferrer" target="_blank">Revel POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“It is easy to use and the touchscreen is smooth and well organized. It helps you to deal with inventory. You can also use multiple cashier account.” "}</em>
                     {"— Verified User in Hospitality, "}
-                    <a target="_blank">Revel POS G2 review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-10006577" rel="noopener noreferrer" target="_blank">Revel POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -755,12 +755,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“There is no customer service any longer. They did good for about 3 years of the 10. Now it is completely nonexistent. All they must want is the \"set up\" sales. That must be where they are making the most profit.” "}</em>
                     {"— Bethany A., "}
-                    <a target="_blank">Revel POS G2 review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-9832762" rel="noopener noreferrer" target="_blank">Revel POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“Wish there was a report writer so I can create custom reports that fit my specific needs.” "}</em>
                     {"— Ken K., "}
-                    <a target="_blank">Revel POS G2 review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-7862808" rel="noopener noreferrer" target="_blank">Revel POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -810,7 +810,7 @@ export default function S10BestPOSSystems() {
                     {"As of publishing, Lavu has a "}
                     <strong>4 out of 5-star rating</strong>
                     {" on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lavu/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -819,13 +819,13 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"Lavu's price point was better for us, especially since the payment processing functions are not available in our country -- the other companies didn't offer any price adjustment for this. Also, Lavu is made for restaurants specifically, and offers integrated inventory management as well as add-on accounting integration.” "}</em>
                     {"— Jessica C., "}
-                    <a target="_blank">Lavu POS G2 reviews</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-8200902" rel="noopener noreferrer" target="_blank">Lavu POS G2 reviews</a>
                   </p>
                   <p>
                     <em>{"“The Lavu POS system is very intuitive and easy to use - even for the basic users. Ordering has never been easier, whether you're picking up your food, getting it delivered or dining in. The experience so far has been nothing short of amazing with support for reports, user rights, discounts and even some nice extras like comments and action logs.” —"}</em>
                     {" Murtaza I."}
                     <em>{", "}</em>
-                    <a target="_blank">Lavu POS G2 review</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-6653970" rel="noopener noreferrer" target="_blank">Lavu POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -833,14 +833,14 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“My main complaint is about customer service and billing, and the lack of updates.” "}</em>
                     {"— John D., "}
-                    <a target="_blank">Lavu POS G2 review</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-8276667" rel="noopener noreferrer" target="_blank">Lavu POS G2 review</a>
                   </p>
                   <p>
                     ‍
                     <em>{"“It would be nice if there was some documentation regarding API's, I know nothing about APIs's so the present guide is insufficient to integrate Lavu with your app even though they have a bunch of apps ready to integrate like Quickbooks, Xero, Menu Drive.” —"}</em>
                     {" Murtaza I."}
                     <em>{", "}</em>
-                    <a target="_blank">Lavu POS G2 review</a>
+                    <a href="https://www.g2.com/products/lavu/reviews/lavu-review-6653970" rel="noopener noreferrer" target="_blank">Lavu POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -901,7 +901,7 @@ export default function S10BestPOSSystems() {
                     {"As of publishing, SumUp has a "}
                     <strong>3.5 out of 5-star</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/sumup/reviews?source=search" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -911,12 +911,12 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“POS functionality and speed. Friendly interface.” "}</em>
                     {"— Verified User in Information Technology and Services, "}
-                    <a target="_blank">SumUp POS G2 review</a>
+                    <a href="https://www.g2.com/products/sumup/reviews/sumup-review-7968171" rel="noopener noreferrer" target="_blank">SumUp POS G2 review</a>
                   </p>
                   <p>
                     <em>{"“It is easy, practical and have no hidden costs.” "}</em>
                     {"— Johan M., "}
-                    <a target="_blank">SumUp POS G2 review</a>
+                    <a href="https://www.g2.com/products/sumup/reviews/sumup-review-4756033" rel="noopener noreferrer" target="_blank">SumUp POS G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don’t like: "}</strong>
@@ -924,13 +924,13 @@ export default function S10BestPOSSystems() {
                   <p>
                     <em>{"“Struggling to get signal using 3G connection. Hard to get support.” "}</em>
                     {"— Verified User in Museums and Institutions, "}
-                    <a target="_blank">SumUp POS G2 review</a>
+                    <a href="https://www.g2.com/products/sumup/reviews/sumup-review-3233004" rel="noopener noreferrer" target="_blank">SumUp POS G2 review</a>
                     ]
                   </p>
                   <p>
                     <em>{"“It doesn't connect very well. Difficult to find connection. Hard to find support.” "}</em>
                     {"— Verified User in Museums and Institutions, "}
-                    <a target="_blank">SumUp POS G2 review</a>
+                    <a href="https://www.g2.com/products/sumup/reviews/sumup-review-3210366" rel="noopener noreferrer" target="_blank">SumUp POS G2 review</a>
                   </p>
                 </div>
               </div>
@@ -1220,7 +1220,7 @@ export default function S10BestPOSSystems() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1236,7 +1236,7 @@ export default function S10BestPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1244,7 +1244,7 @@ export default function S10BestPOSSystems() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1314,9 +1314,9 @@ export default function S10BestPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1332,9 +1332,9 @@ export default function S10BestPOSSystems() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1480,7 +1480,7 @@ export default function S10BestPOSSystems() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

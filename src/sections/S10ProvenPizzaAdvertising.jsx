@@ -57,7 +57,7 @@ export default function S10ProvenPizzaAdvertising() {
               </p>
               <p>
                 {"And we’ve seen established pizzerias go from breaking even on DoorDash orders to bringing in "}
-                <a>$24,000 per month</a>
+                <A href="/case-studies">$24,000 per month</A>
                 {" in direct orders through their website."}
               </p>
               <p>In this guide, I’m going to break down the 10 most effective pizza advertising ideas that we’ve seen used over the last two years — ideas that are the most likely to be effective as you seek to scale over the next 12 months and beyond.</p>
@@ -69,9 +69,9 @@ export default function S10ProvenPizzaAdvertising() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -133,9 +133,9 @@ export default function S10ProvenPizzaAdvertising() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -243,12 +243,12 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>Once you’ve chosen your photo, it is a good idea to add some text. You can improve your visual impact with a short call for attention included in your image.</p>
                   <p>
                     Make sure your text is brief. If you add text that covers more than
-                    <a>{" 20%"}</a>
+                    <a href="https://instapage.com/blog/facebook-20-text-rule">{" 20%"}</a>
                     {" of the image surface, your ad may have reduced reach (or may not run at all). "}
                   </p>
                   <p>
                     To add text, use a free program like
-                    <a>{" Canva"}</a>
+                    <a href="https://instapage.com/blog/facebook-20-text-rule">{" Canva"}</a>
                     . It will let you add text in a large variety of fonts and colors.
                   </p>
                   <figure style={{ "maxWidth": "1366pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -329,7 +329,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>Then “Create Spreadsheet Row”, and sign in to Google Sheets when prompted.</p>
                   <p>
                     For exact details on what your spreadsheet should look like for this to work, check out
-                    <a>{" these instructions"}</a>
+                    <a href="https://zapier.com/help/create/format/work-with-google-sheets-in-zaps#how-setup-your-google-spreadsheet-work-zapier">{" these instructions"}</a>
                     {". Once your spreadsheet is set up, refresh your browser. "}
                   </p>
                   <p>Zapier will populate your fields based on your spreadsheet.</p>
@@ -368,7 +368,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>Maybe give them a little consolation prize, like a coupon for free breadsticks or a discount on a pizza!</p>
                   <p>{"Beyond just the immediate benefits of this chatbot contest, getting used to chatbots may help you out in the future. This is one of those pizza advertising ideas that isn't going anywhere soon!"}</p>
                   <p>
-                    <a>56% of customers say</a>
+                    <a href="https://medium.com/marketing-and-entrepreneurship/facebook-messenger-chatbot-marketing-the-definitive-guide-2018-e839e2888e62">56% of customers say</a>
                     {" they prefer to use messages instead of phone calls. And as chatbots grow more sophisticated, that number will continue to grow."}
                   </p>
                   <p>{"Some big pizza chains are already experimenting with taking orders through chatbot. "}</p>
@@ -380,9 +380,9 @@ export default function S10ProvenPizzaAdvertising() {
                         </div>
                         <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                       </div>
-                      <a data-button-instance="" className="btn w-inline-block">
+                      <A href="/demo" data-button-instance="" className="btn w-inline-block">
                         <div data-button-text="" className="btn-text">Get a free demo</div>
-                      </a>
+                      </A>
                     </div>
                     <div className="blog-content_cta-visual">
                       <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -428,7 +428,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>When you upload your contact lists, Facebook will match that contact information to active Facebook accounts.</p>
                   <p>
                     {"Not every person who has given you their email address will be Facebook users. But since about "}
-                    <a>70% of US adults use the platform</a>
+                    <a href="https://www.pewresearch.org/fact-tank/2021/06/01/facts-about-americans-and-facebook/">70% of US adults use the platform</a>
                     , most will have an account.
                   </p>
                 </div>
@@ -480,12 +480,12 @@ export default function S10ProvenPizzaAdvertising() {
                 <p>Retargeting is simply sending ads to people who have already visited your website. It’s expensive to get someone to your website the first time, but it’s pretty cheap and much more effective to get them back a second time.</p>
                 <p>
                   {"Only "}
-                  <a>2% of shoppers</a>
+                  <a href="http://adroll.com/learn-more/retargeting">2% of shoppers</a>
                   {" make a purchase on their first visit to a website. That means 98% visit your site and leave without buying anything!"}
                 </p>
                 <p>
                   {"But retargeted website visitors are "}
-                  <a>70% more likely to become paying customers</a>
+                  <a href="http://www.softwareadvice.com/resources/5-lessons-learned-site-retargeting/">70% more likely to become paying customers</a>
                   {" than those who aren’t retargeted."}
                 </p>
                 <figure style={{ "maxWidth": "707pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -518,7 +518,7 @@ export default function S10ProvenPizzaAdvertising() {
                     {"That’s the number of people who left your website after visiting only one page, and it can be "}
                     <em>high</em>
                     {" — an average of 41% to"}
-                    <a>{" 55%"}</a>
+                    <a href="https://www.gorocketfuel.com/the-rocket-blog/whats-the-average-bounce-rate-in-google-analytics/">{" 55%"}</a>
                     {" of your website traffic. Very often, those people navigated to your website on accident. "}
                   </p>
                   <figure style={{ "maxWidth": "697pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -565,7 +565,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>Retarget cart abandoners with a coupon to encourage them to think again. Create a sense of urgency by giving it a time limit, like 24 hours.</p>
                   <p>
                     And of course, you can retarget people who have made a purchase. Your existing customers will be responsible for
-                    <a>{" 65%"}</a>
+                    <a href="https://smallbiztrends.com/2016/10/customer-retention-statistics.html">{" 65%"}</a>
                     {" of your restaurant’s sales, so don’t neglect them!"}
                   </p>
                 </div>
@@ -618,7 +618,7 @@ export default function S10ProvenPizzaAdvertising() {
                   </figure>
                   <p>
                     Images are responsible for a huge
-                    <a>{" 75 - 90%"}</a>
+                    <a href="https://karolakarlson.com/facebook-ad-ab-testing-rules/">{" 75 - 90%"}</a>
                     {" of ad performance, so this is definitely something you should test!"}
                   </p>
                   <p>{"You could also experiment with different headlines or calls-to action. "}</p>
@@ -633,9 +633,9 @@ export default function S10ProvenPizzaAdvertising() {
                         </div>
                         <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                       </div>
-                      <a data-button-instance="" className="btn w-inline-block">
+                      <A href="/demo" data-button-instance="" className="btn w-inline-block">
                         <div data-button-text="" className="btn-text">Get a free demo</div>
-                      </a>
+                      </A>
                     </div>
                     <div className="blog-content_cta-visual">
                       <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -647,7 +647,7 @@ export default function S10ProvenPizzaAdvertising() {
                 <h2>8. Sponsor Instagram Stories</h2>
                 <p>
                   {"Did you know that pizza is the "}
-                  <a>most Instagrammed food</a>
+                  <a href="https://www.telegraph.co.uk/travel/food-and-wine-holidays/The-most-Instagrammed-foods-around-the-world/">most Instagrammed food</a>
                   {" in the world?"}
                 </p>
                 <p>Instagram is THE go-to social media channel for restaurants in general, but it’s especially powerful for pizzerias.</p>
@@ -690,7 +690,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>Tweak your settings until you find the best way to make your pictures pop.</p>
                   <p>
                     Another content tip —  don’t neglect video! Videos do really well on Instagram, r
-                    <a>eceiving 38% more engagement</a>
+                    <a href="https://mention.com/en/reports/instagram/engagement/#1">eceiving 38% more engagement</a>
                     {" than images and over double the comments. "}
                   </p>
                   <p>You don’t need to do long, complicated videos. Just a few seconds of a pizza coming out of the oven or a beer being poured into a glass can get you an engagement boost.</p>
@@ -703,14 +703,14 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>{"There is more to Instagram tags than just hashtags (although those are important). There are also user tags and location tags, and you’ll want to use all three for organic growth. "}</p>
                   <p>
                     {"Tagging your restaurant’s location can result in "}
-                    <a>79% higher engagement</a>
+                    <a href="https://www.fourthsource.com/social-media/6-important-things-remember-using-instagram-business-20699">79% higher engagement</a>
                     {" on Instagram, so you should tag it every single time you post something. "}
                   </p>
                   <p>You also want to tag users whenever possible, but only if it’s relevant. Tagging 5 random people on a photo is spammy and won’t get you the growth you’re looking for.</p>
                   <p>But you could take some photos of customers enjoying a pizza at your restaurant. Ask them if they’d share their Instagram profile names with you.</p>
                   <p>
                     {"Then when you post the photo, you can tag the users, increasing the likelihood that they’ll engage with you on that photo and in the future. Plus, photos with faces get "}
-                    <a>{"38% more likes "}</a>
+                    <a href="https://sproutsocial.com/insights/instagram-stats/">{"38% more likes "}</a>
                     than photos without them!
                   </p>
                   <p>You can also repost user-generated content. You should get permission from the original poster before you use their images, and always give photo credit.</p>
@@ -724,7 +724,7 @@ export default function S10ProvenPizzaAdvertising() {
                     {"It builds a brand’s authenticity "}
                     <em>{"and "}</em>
                     increases engagement by as much as
-                    <a>{" 6.9x"}</a>
+                    <a href="https://www.slideshare.net/kleinerperkins/internet-trends-2017-report">{" 6.9x"}</a>
                     .
                   </p>
                 </div>
@@ -734,7 +734,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>{"You can add up to 30 hashtags on each image or video, and up to 10 on each Instagram story. "}</p>
                   <p>
                     But you don’t need to include that many. Opinions differ on the “optimal” number of hashtags, but some studies say 9 to
-                    <a>{" 11"}</a>
+                    <a href="https://sproutsocial.com/insights/instagram-hashtags/">{" 11"}</a>
                     {" is the sweet spot."}
                   </p>
                   <p>{"So what hashtags should you use? "}</p>
@@ -853,7 +853,7 @@ export default function S10ProvenPizzaAdvertising() {
                 </p>
                 <p>
                   {"Here’s an example from "}
-                  <a>Deen’s Cheesesteak and Pizza</a>
+                  <a href="https://www.deenshouston.com/">Deen’s Cheesesteak and Pizza</a>
                   {" in Houston, Texas."}
                 </p>
                 <figure style={{ "maxWidth": "1446pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -880,7 +880,7 @@ export default function S10ProvenPizzaAdvertising() {
                 <p>Direct mail may seem old fashioned, but as more and more marketing moves online, offline advertising methods like direct mail are making a major comeback.</p>
                 <p>
                   {"The volume of direct mail has "}
-                  <a>decreased about 30% since 2006</a>
+                  <a href="https://www.themailshark.com/resources/articles/is-direct-mail-dead/">decreased about 30% since 2006</a>
                   {", which means there’s a lot less competition for independent pizzerias looking to attract local customers. "}
                 </p>
                 <figure className="w-richtext-align-center w-richtext-figure-type-image">
@@ -898,7 +898,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <p>{"Reaching the right audience is the first important part of your direct mail campaign. "}</p>
                   <p>
                     {"Your “house list”, or the people you already have a relationship with, will be one of your audiences. House lists have "}
-                    <a>an average 9% response rate</a>
+                    <a href="https://www.themailshark.com/resources/articles/is-direct-mail-dead/">an average 9% response rate</a>
                     , which beats out most digital marketing methods.
                   </p>
                   <figure style={{ "maxWidth": "1100pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -908,7 +908,7 @@ export default function S10ProvenPizzaAdvertising() {
                   </figure>
                   <p>
                     {"New, potential customers will be the other part of your audience. The direct mail response rate for these “prospects” "}
-                    <a>is currently 5%</a>
+                    <a href="https://www.themailshark.com/resources/articles/is-direct-mail-dead/">is currently 5%</a>
                     {" — the highest ever reported by the Data & Marketing Association. "}
                   </p>
                   <p>Given you likely have a fixed range in terms of your delivery radius, you’ll only be sending direct mail to people within the delivery area you service.</p>
@@ -987,9 +987,9 @@ export default function S10ProvenPizzaAdvertising() {
                         </div>
                         <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                       </div>
-                      <a data-button-instance="" className="btn w-inline-block">
+                      <A href="/demo" data-button-instance="" className="btn w-inline-block">
                         <div data-button-text="" className="btn-text">Get a free demo</div>
-                      </a>
+                      </A>
                     </div>
                     <div className="blog-content_cta-visual">
                       <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1018,7 +1018,7 @@ export default function S10ProvenPizzaAdvertising() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1034,7 +1034,7 @@ export default function S10ProvenPizzaAdvertising() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1042,7 +1042,7 @@ export default function S10ProvenPizzaAdvertising() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1113,9 +1113,9 @@ export default function S10ProvenPizzaAdvertising() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1249,7 +1249,7 @@ export default function S10ProvenPizzaAdvertising() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

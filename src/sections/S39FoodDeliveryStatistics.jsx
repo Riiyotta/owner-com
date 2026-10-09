@@ -47,35 +47,35 @@ export default function S39FoodDeliveryStatistics() {
                   {"- Online food delivery is booming and shows no signs of slowing down — it’s expected to grow from "}
                   <strong>$3.7 billion in 2023 to $90.3 billion by 2030</strong>
                   . (
-                  <a>Global Newswire</a>
+                  <a href="https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html">Global Newswire</a>
                   )
                 </p>
                 <p>
                   {"- According to our data, a "}
                   <strong>delivery fee of around $4</strong>
                   {" is the sweet spot to keep customers happy and drive sales. ("}
-                  <a>Owner</a>
+                  <a href="https://www.owner.com/blog/restaurants-delivery-fee">Owner</a>
                   )
                 </p>
                 <p>
                   {"- Customers ordering through the restaurant spend "}
                   <strong>35% more</strong>
                   {" per transaction than those who order with third-party apps — consider giving customers promotions when they order directly to encourage them further. ("}
-                  <a>Paytronix</a>
+                  <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">Paytronix</a>
                   )
                 </p>
                 <p>
                   {"- Since "}
                   <strong>6 p.m.</strong>
                   {" is a popular time for food delivery, think about sending email promotion blasts around that time. ("}
-                  <a>DoorDash</a>
+                  <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                   )
                 </p>
                 <p>
                   {"- Gen Z is a major player in shaping online food delivery trends — "}
                   <strong>69% order delivery</strong>
                   {" — more than any other generation. ("}
-                  <a>PYMNTS</a>
+                  <a href="https://www.pymnts.com/news/delivery/2023/gen-z-4x-more-likely-to-use-food-delivery-services-than-boomers/">PYMNTS</a>
                   )
                 </p>
               </div>
@@ -103,7 +103,7 @@ export default function S39FoodDeliveryStatistics() {
                   {" for your customers to order from. Plus, a mobile-friendly website design is a must to help increase your sales. "}
                 </p>
                 <p>
-                  <a>Ottavio’s Italian Restaurant</a>
+                  <A href="/case-studies">Ottavio’s Italian Restaurant</A>
                   {" used Owner.com to set up its own branded mobile app and commission-free "}
                   <A href="/online-ordering">online ordering</A>
                   . This resulted in $24,000 a month in orders — food delivery can do a lot for your restaurant.
@@ -123,52 +123,52 @@ export default function S39FoodDeliveryStatistics() {
                     {"Food delivery services are expected to grow from $3.7 billion in 2023 to "}
                     <strong>$90.3 billion by 2030</strong>
                     . This is at a Compound Annual Growth Rate (CAGR) of 13.4%. (
-                    <a>Global Newswire</a>
+                    <a href="https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html">Global Newswire</a>
                     )
                   </li>
                   <li>
                     In 2023, the number of online food delivery users worldwide surpassed 1.6 billion, a 12% increase from the previous year. (
-                    <a>Market.US</a>
+                    <a href="https://market.us/report/online-food-delivery-market/">Market.US</a>
                     )
                   </li>
                   <li>
                     {"Experts predict that "}
                     <strong>2.5 billion individuals worldwide</strong>
                     {" will receive food delivery services by 2027. ("}
-                    <a>Market.US</a>
+                    <a href="https://market.us/report/online-food-delivery-market/">Market.US</a>
                     )
                   </li>
                   <li>
                     {"Revenue from food delivery services could reach about "}
                     <strong>$85 billion</strong>
                     {" by the end of 2024. ("}
-                    <a>Statista</a>
+                    <a href="https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/">Statista</a>
                     {")   "}
                   </li>
                   <li>
                     {"Online ordering represented "}
                     <strong>27% of all orders</strong>
                     {" (online and in-store for restaurants and convenience stores) in 2023. ("}
-                    <a>Paytronix</a>
+                    <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">Paytronix</a>
                     )
                   </li>
                   <li>
                     As of the beginning of 2023, an average of $36.20 is spent on each food delivery order. (
-                    <a>PYMNTS</a>
+                    <a href="https://www.pymnts.com/news/delivery/2023/restaurant-customers-spend-twice-delivery-pickup/">PYMNTS</a>
                     )
                   </li>
                   <li>
                     Experts anticipate
                     <strong>{" mobile apps"}</strong>
                     {" to be the most targeted channel type for online food delivery due to their ease of use, accessibility and real-time order tracking. ("}
-                    <a>Global Newswire</a>
+                    <a href="https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html">Global Newswire</a>
                     )
                   </li>
                   <li>
                     {"Independent pizzerias earn $19.78 billion per year, or around "}
                     <strong>42.1%</strong>
                     {" of total pizza sales. Chain restaurants with 10+ locations earn $27.21 billion, or around 57.9% of total pizza sales. ("}
-                    <a>PMQ Pizza</a>
+                    <a href="https://www.pmq.com/pizza-power-report-2023/">PMQ Pizza</a>
                     )
                   </li>
                 </ol>
@@ -183,21 +183,21 @@ export default function S39FoodDeliveryStatistics() {
                 <ol start="8" role="list">
                   <li>
                     {"By the end of 2024, the online food delivery sector could see a 30% increase in the use of sustainable packaging and environmentally conscious "}
-                    <a>delivery alternatives</a>
+                    <A href="/delivery">delivery alternatives</A>
                     . (
-                    <a>Market.US</a>
+                    <a href="https://market.us/report/online-food-delivery-market/">Market.US</a>
                     )
                   </li>
                   <li>
                     Total spending for food away from home (dining in, ordering and takeout) was an average of $3,639 annually per household. (
-                    <a>Bureau of Labor Statistics</a>
+                    <a href="https://www.bls.gov/news.release/cesan.nr0.htm">Bureau of Labor Statistics</a>
                     {") "}
                   </li>
                   <li>
                     {"As of January 2024, DoorDash is the leading online food delivery app with a market share of "}
                     <strong>66%</strong>
                     . The second highest is Uber Eats at 23%. (
-                    <a>Statista</a>
+                    <a href="https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/">Statista</a>
                     )
                   </li>
                 </ol>
@@ -241,58 +241,58 @@ export default function S39FoodDeliveryStatistics() {
                 <ol start="11" role="list">
                   <li>
                     Customers prefer a $4 delivery fee, which is the best price for driving restaurant sales. (
-                    <a>Owner</a>
+                    <a href="https://www.owner.com/blog/restaurants-delivery-fee">Owner</a>
                     {") "}
                   </li>
                   <li>
                     {"Orders placed straight from restaurant websites are preferred by "}
                     <strong>40%</strong>
                     {" of customers. ("}
-                    <a>Deloitte</a>
+                    <a href="https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html">Deloitte</a>
                     )
                   </li>
                   <li>
                     In 2023, 68% of U.S. customers said they prefer ordering from local or independent restaurants via online delivery platforms. (
-                    <a>Market.US</a>
+                    <a href="https://market.us/report/online-food-delivery-market/">Market.US</a>
                     )
                   </li>
                   <li>
                     <strong>50%</strong>
                     {" of diners say that they have ordered food from a delivery service, including through a restaurant website, DoorDash and Uber Eats. ("}
-                    <a>Square</a>
+                    <a href="https://www.workwithsquare.com/rs/424-IAB-218/images/square_restaurant_dining_report_2024.pdf">Square</a>
                     )
                   </li>
                   <li>
                     {"In the past month, "}
                     <strong>77%</strong>
                     {" of consumers ordered food delivery,  and 43% of consumers reported placing the same order at least once per week. ("}
-                    <a>DoorDash</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                     )
                   </li>
                   <li>
                     <strong>{"55% "}</strong>
                     of customers pick restaurants that they visit often when ordering food delivery. (
-                    <a>DoorDash</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                     )
                   </li>
                   <li>
                     {"In 2023, 13% of customers said they preferred using third-party applications or websites, while "}
                     <strong>40%</strong>
                     {" of customers chose to place their orders through the restaurant's website. ("}
-                    <a>Deloitte</a>
+                    <a href="https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html">Deloitte</a>
                     )
                   </li>
                   <li>
                     <strong>37%</strong>
                     {" of dine-in guests said that cheaper options and increased promotions and discounts would encourage them to visit restaurants more frequently. ("}
-                    <a>Deloitte</a>
+                    <a href="https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html">Deloitte</a>
                     )
                   </li>
                   <li>
                     {"Customers love using mobile — those who use online ordering mobile apps have a "}
                     <strong>45% higher customer lifetime value</strong>
                     {" than those of online apps, and they account for 34% of digital orders. ("}
-                    <a>Paytronix</a>
+                    <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">Paytronix</a>
                     )
                   </li>
                 </ol>
@@ -310,14 +310,14 @@ export default function S39FoodDeliveryStatistics() {
                     {"Customers who order delivery spend "}
                     <strong>20% more</strong>
                     {" than those who order takeout. ("}
-                    <a>Paytronix</a>
+                    <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">Paytronix</a>
                     )
                   </li>
                   <li>
                     {"Those who order directly through the restaurant order "}
                     <strong>35% more</strong>
                     {" per transaction than those who order with third-party apps. ("}
-                    <a>Paytronix</a>
+                    <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">Paytronix</a>
                     )
                   </li>
                 </ol>
@@ -336,7 +336,7 @@ export default function S39FoodDeliveryStatistics() {
                 </h2>
                 <p>
                   {"Delivery apps? They're not going anywhere. But let's be real: Those fees can sting — "}
-                  <a>DoorDash charges up to 30% commission</a>
+                  <A href="/blog/third-party-vs-direct-ordering">DoorDash charges up to 30% commission</A>
                   {" per order, yikes! The good news is that they can be a great way to get your restaurant out there and attract new customers."}
                 </p>
                 <p>{"Curious about how big delivery apps are right now? Check out these stats below — they'll give you the full picture!"}</p>
@@ -344,28 +344,28 @@ export default function S39FoodDeliveryStatistics() {
                   <li>
                     <strong>35%</strong>
                     {" of consumers are ordering more food compared to 2022. ("}
-                    <a>DoorDash</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                     )
                   </li>
                   <li>
                     {"DoorDash was the "}
                     <strong>most downloaded app</strong>
                     {" for food delivery and takeout in 2023 (over 21 million). ("}
-                    <a>Statista</a>
+                    <a href="https://www.statista.com/statistics/1369528/food-delivery-app-downloads-united-states/">Statista</a>
                     )
                   </li>
                   <li>
                     {"In 2023, Uber Eats generated "}
                     <strong>$12.1 billion</strong>
                     {" in revenue. ("}
-                    <a>Business of Apps</a>
+                    <a href="https://www.businessofapps.com/data/uber-eats-statistics/">Business of Apps</a>
                     )
                   </li>
                   <li>
                     {"According to data from DoorDash, "}
                     <strong>Friday at 6 p.m.</strong>
                     {" is the most popular time to order food. ("}
-                    <a>DoorDash</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                     )
                   </li>
                 </ol>
@@ -381,14 +381,14 @@ export default function S39FoodDeliveryStatistics() {
                 <ol start="26" role="list">
                   <li>
                     In January 2024 alone, the Uber Eats app received over 1.5 million downloads. (
-                    <a>Statista</a>
+                    <a href="https://www.statista.com/statistics/1457101/ubereats-monthly-app-downloads-united-states/">Statista</a>
                     )
                   </li>
                   <li>
                     {"At the end of Q4 in 2023, DoorDash received "}
                     <strong>574 million orders</strong>
                     {" (up 23% from last year) and $2.3 million in revenue. ("}
-                    <a>DoorDash</a>
+                    <a href="https://s22.q4cdn.com/280253921/files/doc_financials/2023/q4/DASH-Q4-23-Earnings-Press-Release.pdf">DoorDash</a>
                     )
                   </li>
                 </ol>
@@ -399,12 +399,12 @@ export default function S39FoodDeliveryStatistics() {
                 </h2>
                 <p>
                   {"Dine-in or delivery? It's an age-old question. But based on the latest data, food delivery is coming out on top, especially for the Gen Zers — they order delivery more than any other generation. On top of that, "}
-                  <a>1 in 4</a>
+                  <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">1 in 4</a>
                   {" Gen Zers use a restaurant’s social media pages when choosing a new place for delivery or takeout. "}
                 </p>
                 <p>
                   {"It’s safe to say that Gen Zers are major players in "}
-                  <a>shaping consumer habits</a>
+                  <a href="https://www.emarketer.com/insights/generation-z-facts/">shaping consumer habits</a>
                   {" (i.e., where and how people choose to eat). Basically, Gen Z holds the key to future "}
                   <A href="/blog/food-trends" target="_blank">food trends</A>
                   {", so your restaurant's social media game has to be on point. Attract that crowd and get them drooling over your menu — they'll be ordering in no time."}
@@ -424,32 +424,32 @@ export default function S39FoodDeliveryStatistics() {
                     {"Food delivery is more popular than dining out — "}
                     <strong>77%</strong>
                     {" of customers ordered delivery while 61% dined in. ("}
-                    <a>DoorDash</a>
+                    <a href="https://get.doordash.com/en-us/blog/food-delivery-statistics">DoorDash</a>
                     )
                   </li>
                   <li>
                     {"The average person orders delivery "}
                     <strong>4.5 times per month</strong>
                     {" while dining out occurs only three times per month. ("}
-                    <a>US. Foods</a>
+                    <a href="https://www.usfoods.com/our-services/business-trends/american-dining-out-habits-2023.html">US. Foods</a>
                     )
                   </li>
                   <li>
                     <strong>75%</strong>
                     {" of consumers predict they will scale back on dining in person and order delivery through a third-person delivery service or app. ("}
-                    <a>Square</a>
+                    <a href="https://squareup.com/us/en/the-bottom-line/series/foc/future-of-restaurants">Square</a>
                     )
                   </li>
                   <li>
                     <strong>69%</strong>
                     {" of Gen Zers use food delivery apps, more than any other generation and four times more than Boomers. ("}
-                    <a>PYMNTS</a>
+                    <a href="https://www.pymnts.com/news/delivery/2023/gen-z-4x-more-likely-to-use-food-delivery-services-than-boomers/">PYMNTS</a>
                     )
                   </li>
                   <li>
                     <strong>Over half</strong>
                     {" of customers prefer ordering delivery to going to the restaurant in person. ("}
-                    <a>US. Foods</a>
+                    <a href="https://www.usfoods.com/our-services/business-trends/american-dining-out-habits-2023.html">US. Foods</a>
                     )
                   </li>
                 </ol>
@@ -474,7 +474,7 @@ export default function S39FoodDeliveryStatistics() {
                 <ol start="33" role="list">
                   <li>
                     {"According to "}
-                    <a>DoorDash</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">DoorDash</a>
                     {", "}
                     <strong>{"french fries are the most ordered item, "}</strong>
                     {"followed by: "}
@@ -489,7 +489,7 @@ export default function S39FoodDeliveryStatistics() {
                     {"Customers like it spicy — over "}
                     <strong>53 million items</strong>
                     {" were ordered with added spice. ("}
-                    <a>Grubhub</a>
+                    <a href="https://get.grubhub.com/blog/2023-grubhub-delivered/">Grubhub</a>
                     )
                   </li>
                 </ol>
@@ -498,7 +498,7 @@ export default function S39FoodDeliveryStatistics() {
                     {" The "}
                     <strong>top spicy orders</strong>
                     {" made on "}
-                    <a>Grubhub</a>
+                    <a href="https://get.grubhub.com/blog/2023-grubhub-delivered/">Grubhub</a>
                     {" include:"}
                     <ol role="list">
                       <li>{"Spicy potato soft tacos "}</li>
@@ -512,7 +512,7 @@ export default function S39FoodDeliveryStatistics() {
                     The
                     <strong>{" top three cuisines"}</strong>
                     {" ordered on "}
-                    <a>Grubhub</a>
+                    <a href="https://get.grubhub.com/blog/2023-grubhub-delivered/">Grubhub</a>
                     {" include:"}
                     <ol role="list">
                       <li>{"American "}</li>
@@ -523,7 +523,7 @@ export default function S39FoodDeliveryStatistics() {
                   <li>
                     <strong>Burrito bowls</strong>
                     {" are the top trending order on "}
-                    <a>{"Grubhub "}</a>
+                    <a href="https://get.grubhub.com/blog/2023-grubhub-delivered/">{"Grubhub "}</a>
                     {"followed by: "}
                     <ol role="list">
                       <li>Hash browns</li>
@@ -539,7 +539,7 @@ export default function S39FoodDeliveryStatistics() {
                     are
                     <strong></strong>
                     {"the most ordered food item on "}
-                    <a>Uber Eats</a>
+                    <a href="https://www.uber.com/newsroom/2023-uber-eats-cravings-report/">Uber Eats</a>
                     ,
                     <strong></strong>
                     followed by:
@@ -553,7 +553,7 @@ export default function S39FoodDeliveryStatistics() {
                   <li>
                     <strong>{"\"No onions\" "}</strong>
                     {"is the most popular delivery request on "}
-                    <a>Uber Eats</a>
+                    <a href="https://www.uber.com/newsroom/2023-uber-eats-cravings-report/">Uber Eats</a>
                     ,
                     <strong></strong>
                     followed by:
@@ -597,107 +597,107 @@ export default function S39FoodDeliveryStatistics() {
                 <ul role="list">
                   <li>
                     {"Global Newswire. (2024, January 25). Online Food Delivery Services Market to Reach US$ 90.3 Billion by 2030, Persistence Market Research. "}
-                    <a>https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html</a>
+                    <a href="https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html">https://www.globenewswire.com/en/news-release/2024/01/25/2817022/0/en/Online-Food-Delivery-Services-Market-to-Reach-US-90-3-Billion-by-2030-Persistence-Market-Research.html</a>
                     {" (Accessed April 2024) "}
                   </li>
                   <li>
                     {"Market.US. (2024, March). Global Online Food Delivery Market By Product Type. "}
-                    <a>https://market.us/report/online-food-delivery-market/</a>
+                    <a href="https://market.us/report/online-food-delivery-market/">https://market.us/report/online-food-delivery-market/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Statista. Market share of leading online meal delivery companies in the United States as of January 2024. (2024, January 11). "}
-                    <a>https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/</a>
+                    <a href="https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/">https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Paytronix. Online Ordering Report 2024. (2023, June 2).  "}
-                    <a>https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf</a>
+                    <a href="https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf?utm_medium=email&_hsenc=p2ANqtz-9D_75MTguQVg9syqFdUYZL7s1S4WQPvUliQ-5hEojAO1iTSAed-V0WicDEkenEVp0A8ZKaa8Eq1tRfl2hOCCzF9TZT9w&_hsmi=300663047&utm_content=300663047&utm_source=hs_automation">https://39641841.fs1.hubspotusercontent-na1.net/hubfs/39641841/Form%20Resources/Online%20Ordering%20Report%202024.pdf</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"PYMNTS. Restaurant Customers Spend Twice as Much on Delivery Food Than Pickup. (2023, August 29). "}
-                    <a>https://www.pymnts.com/news/delivery/2023/restaurant-customers-spend-twice-delivery-pickup/</a>
+                    <a href="https://www.pymnts.com/news/delivery/2023/restaurant-customers-spend-twice-delivery-pickup/">https://www.pymnts.com/news/delivery/2023/restaurant-customers-spend-twice-delivery-pickup/</a>
                     {" (Accessed April 2024)  "}
                   </li>
                   <li>
                     {"Bureau of Labor Statistics. Consumer Expenditures. (2023, September 8). "}
-                    <a>https://www.bls.gov/news.release/cesan.nr0.htm</a>
+                    <a href="https://www.bls.gov/news.release/cesan.nr0.htm">https://www.bls.gov/news.release/cesan.nr0.htm</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Statista. Market share of leading online meal delivery companies in the United States as of January 2024. (2024, January 11). "}
-                    <a>https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/</a>
+                    <a href="https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/">https://www.statista.com/statistics/1235724/market-share-us-food-delivery-companies/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Owner. Delivery Fees: Here's How Much To Charge (based on data). (2024, April 8). "}
-                    <a>/blog/restaurants-delivery-fee</a>
+                    <a href="https://www.owner.com/blog/restaurants-delivery-fee">/blog/restaurants-delivery-fee</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Deloitte. The future of restaurants. (2023, June 24). "}
-                    <a>https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html</a>
+                    <a href="https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html">https://www2.deloitte.com/us/en/pages/consumer-business/articles/future-of-restaurants-study.html</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Square. 2024 Dining Report: What Consumers Want From Restaurants in 2024 and Beyond. (2024, January 4). "}
-                    <a>https://www.workwithsquare.com/rs/424-IAB-218/images/square_restaurant_dining_report_2024.pdf</a>
+                    <a href="https://www.workwithsquare.com/rs/424-IAB-218/images/square_restaurant_dining_report_2024.pdf">https://www.workwithsquare.com/rs/424-IAB-218/images/square_restaurant_dining_report_2024.pdf</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"DoorDash. Restaurant Online Ordering Trends. (2023, August 8). "}
-                    <a>https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf</a>
+                    <a href="https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf">https://assets.ctfassets.net/trvmqu12jq2l/5fTVhyjeP5pNS29PrXNaA5/5abf1cac979159aeaf9615b7b8e8d2e4/2023_Restaurant_Online_Ordering_EN-US.pdf</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Statista. Number of downloads of leading online food delivery and takeout apps in the United States in 2023. (2024, March 4). "}
-                    <a>https://www.statista.com/statistics/1369528/food-delivery-app-downloads-united-states/</a>
+                    <a href="https://www.statista.com/statistics/1369528/food-delivery-app-downloads-united-states/">https://www.statista.com/statistics/1369528/food-delivery-app-downloads-united-states/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Business of Apps. Uber Eats Revenue and Usage Statistics (2024). (2024, April 10). "}
-                    <a>https://www.businessofapps.com/data/uber-eats-statistics/</a>
+                    <a href="https://www.businessofapps.com/data/uber-eats-statistics/">https://www.businessofapps.com/data/uber-eats-statistics/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Statista. Monthly app downloads of Uber Eats in the United States from January 2020 to January 2024. (2024, March 18). "}
-                    <a>https://www.statista.com/statistics/1457101/ubereats-monthly-app-downloads-united-states/</a>
+                    <a href="https://www.statista.com/statistics/1457101/ubereats-monthly-app-downloads-united-states/">https://www.statista.com/statistics/1457101/ubereats-monthly-app-downloads-united-states/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"DoorDash. DoorDash Releases Fourth Quarter and Full Year 2023 Financial Results. (2024, February 15). "}
-                    <a>https://s22.q4cdn.com/280253921/files/doc_financials/2023/q4/DASH-Q4-23-Earnings-Press-Release.pdf</a>
+                    <a href="https://s22.q4cdn.com/280253921/files/doc_financials/2023/q4/DASH-Q4-23-Earnings-Press-Release.pdf">https://s22.q4cdn.com/280253921/files/doc_financials/2023/q4/DASH-Q4-23-Earnings-Press-Release.pdf</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"DoorDash. 42 Food Delivery Statistics Restaurants Need to Know in 2023. (2023, October 10). "}
-                    <a>https://get.doordash.com/en-us/blog/food-delivery-statistics</a>
+                    <a href="https://get.doordash.com/en-us/blog/food-delivery-statistics">https://get.doordash.com/en-us/blog/food-delivery-statistics</a>
                     {" (Accessed April 2024) "}
                   </li>
                   <li>
                     {"US. Foods. The Diner Dispatch: 2023 American Dining Habits. (2023, July 17). "}
-                    <a>https://www.usfoods.com/our-services/business-trends/american-dining-out-habits-2023.html</a>
+                    <a href="https://www.usfoods.com/our-services/business-trends/american-dining-out-habits-2023.html">https://www.usfoods.com/our-services/business-trends/american-dining-out-habits-2023.html</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Square. The Future of Restaurants Report: 2024 Edition. (2024, January 31). "}
-                    <a>https://squareup.com/us/en/the-bottom-line/series/foc/future-of-restaurants</a>
+                    <a href="https://squareup.com/us/en/the-bottom-line/series/foc/future-of-restaurants">https://squareup.com/us/en/the-bottom-line/series/foc/future-of-restaurants</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"PYMNTS. (2023, April 19). Gen Z 4x More Likely to Use Food Delivery Services Than Boomers. "}
-                    <a>https://www.pymnts.com/news/delivery/2023/gen-z-4x-more-likely-to-use-food-delivery-services-than-boomers/</a>
+                    <a href="https://www.pymnts.com/news/delivery/2023/gen-z-4x-more-likely-to-use-food-delivery-services-than-boomers/">https://www.pymnts.com/news/delivery/2023/gen-z-4x-more-likely-to-use-food-delivery-services-than-boomers/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Grubhub. Top dining trends: Insights from 2023 Grubhub data. (2023). "}
-                    <a>https://get.grubhub.com/blog/2023-grubhub-delivered/</a>
+                    <a href="https://get.grubhub.com/blog/2023-grubhub-delivered/">https://get.grubhub.com/blog/2023-grubhub-delivered/</a>
                     {" (Accessed April 2024)"}
                   </li>
                   <li>
                     {"Uber Eats. The 2023 Uber Eats Cravings Report. (2023, October 19). "}
-                    <a>https://www.uber.com/newsroom/2023-uber-eats-cravings-report/</a>
+                    <a href="https://www.uber.com/newsroom/2023-uber-eats-cravings-report/">https://www.uber.com/newsroom/2023-uber-eats-cravings-report/</a>
                     {" (Accessed April 2024)"}
                   </li>
                 </ul>
@@ -723,7 +723,7 @@ export default function S39FoodDeliveryStatistics() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -739,7 +739,7 @@ export default function S39FoodDeliveryStatistics() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -747,7 +747,7 @@ export default function S39FoodDeliveryStatistics() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -766,7 +766,7 @@ export default function S39FoodDeliveryStatistics() {
                   </svg>
                   <p className="body-m">Title</p>
                 </div>
-                <a data-button-instance="" className="btn w-inline-block">
+                <a href="http://www.google.com" data-button-instance="" className="btn w-inline-block">
                   <div data-button-text="" className="btn-text">Button Label</div>
                 </a>
               </div>
@@ -817,9 +817,9 @@ export default function S39FoodDeliveryStatistics() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -835,9 +835,9 @@ export default function S39FoodDeliveryStatistics() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -959,7 +959,7 @@ export default function S39FoodDeliveryStatistics() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

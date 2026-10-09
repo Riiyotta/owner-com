@@ -25,7 +25,7 @@ export default function ThePOSBuiltTo() {
           </div>
           <div className="product-v_hero-intro">
             <div className="product-v_video">
-              <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+              <div data-player-src="/_videos/6f6c646d-8c99-4cdf-853d-a3a725308a8e.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                 <div data-player-before="" className="bunny-player__before"></div>
                 <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                 <div data-poster-url="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/6a1d6069e205aa2e95384565_ashleys-cafe-pos-short-comp_poster.0000000.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" className="bunny-player__placeholder w-background-video w-background-video-atom">

@@ -32,7 +32,7 @@ export default function ProtectTheFutureOf() {
           <div className="career-hero_visual">
             <div className="career-hero_visual-inner">
               <div className="career-hero_visual-box cc-1">
-                <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+                <div data-player-src="/_videos/5ea5ce11-4910-4e6d-87db-d28f4f0d2d62.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                   <div data-player-before="" className="bunny-player__before"></div>
                   <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                   <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67bcf345ebc3730d14fb4f00_Cynthia%20Trim%20v2-poster-00001.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">
@@ -86,7 +86,7 @@ export default function ProtectTheFutureOf() {
                 <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f804d_about_3.avif" loading="lazy" alt="Four smiling employees in a kitchen, one woman holding a bowl of salad and three men wearing matching black shirts with 'Owner' logos." className="img-cover" />
               </div>
               <div className="career-hero_visual-box cc-4">
-                <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+                <div data-player-src="/_videos/ff0844e2-42dd-478b-b585-08ee196e5eb0.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
                   <div data-player-before="" className="bunny-player__before"></div>
                   <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
                   <div data-poster-url="/_ext/cdn.prod.website-files.com/66643a14df53b71d1ed72d08/67aa323817479f6374c5e8af_careers-rob-loop-poster-00001.jpg" data-autoplay="true" data-loop="true" data-wf-ignore="true" video-preview="" className="bunny-player__placeholder w-background-video w-background-video-atom">

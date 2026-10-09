@@ -51,7 +51,7 @@ export default function S21BestPizzaWebsites() {
             <div fs-richtext-element="rich-text" fs-toc-element="contents" fs-toc-offsettop="5.625em" className="text-rich-text max-width-full w-richtext">
               <p>
                 {"As a pizzeria owner, it may come as no surprise to you that research shows "}
-                <a>pizza to be the most frequently ordered</a>
+                <a href="https://www.statista.com/statistics/1414293/most-ordered-fast-food-us/">pizza to be the most frequently ordered</a>
                 {" fast food in the United States. Which is great news for your bottom line!"}
               </p>
               <p>But with so much competition to attract new and returning customers, how can you make your restaurant stand out? The answer is creating one of the best pizza websites available. To do that, you’ll need:</p>
@@ -105,14 +105,14 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a>Brooklyn Pizza</a>
+                  <a href="https://brooklynpizzerianj.com/">Brooklyn Pizza</a>
                   {" bypassed traditional advertising with "}
                   <strong>Search Engine Optimization (SEO)</strong>
                   {", boosting their website's ranking in Google searches. This strategic move makes it easier for new customers to discover their site, leaving competitors in the dust."}
                 </p>
                 <p>
                   {"Since researchers have found that "}
-                  <a target="_blank">pizza is the most searched-for food</a>
+                  <a href="https://www.moneybeach.co.uk/the-boardwalk/the-worlds-favourite-takeouts/" rel="noopener noreferrer" target="_blank">pizza is the most searched-for food</a>
                   {" in worldwide online searches, prioritizing your pizzeria’s SEO is a win-win."}
                 </p>
                 <p>
@@ -159,7 +159,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">{"Jet's Pizza"}</a>
+                  <a href="https://www.jetspizza.com/" rel="noopener noreferrer" target="_blank">{"Jet's Pizza"}</a>
                   {" might be famous for their deep-dish goodness, but their website proves they also understand the power of digital storytelling. As they reveal, they don't just sell pizza. They celebrate a culinary tradition.  "}
                 </p>
                 <p>
@@ -201,7 +201,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">{"Dino's Tomato Pie"}</a>
+                  <a href="https://www.dinostomatopie.com/" rel="noopener noreferrer" target="_blank">{"Dino's Tomato Pie"}</a>
                   {" takes a bold and unconventional approach that works. With dancing square pizza gifs, tongue-in-cheek billing as “The second-best pizzeria in Seattle,” and lots of brightly colored fonts, there’s a lot to take in. The old-school layout, with their "}
                   <strong>retro Netscape vibe,</strong>
                   {" is an instant conversation starter, sparking curiosity and making guests feel like they’re in on the joke."}
@@ -240,7 +240,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Union Pizza Co.</a>
+                  <a href="https://unionpizzacompany.com/" rel="noopener noreferrer" target="_blank">Union Pizza Co.</a>
                   {" wastes no time grabbing your attention with their website. They do so with mouthwatering visuals, build trust with social proof and make ordering a breeze. "}
                 </p>
                 <p>
@@ -277,7 +277,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"The owners of "}
-                  <a target="_blank">BASIC Bar/Pizza</a>
+                  <a href="https://www.barbasic.com/" rel="noopener noreferrer" target="_blank">BASIC Bar/Pizza</a>
                   {" in San Diego have created a user-friendly website experience that reflects their brand identity — clean, simple and focused on good food and good times. "}
                 </p>
                 <p>
@@ -317,7 +317,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Punxsy Pizza</a>
+                  <a href="https://punxsypizza.com/" rel="noopener noreferrer" target="_blank">Punxsy Pizza</a>
                   {" wants to do more than just sell pizzas. They're dedicated to building loyal customers. Their website reflects this focus, cleverly incentivizing visitors to sign up for their rewards program."}
                 </p>
                 <p>
@@ -354,7 +354,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Hell Pizza</a>
+                  <a href="https://hellpizza.nz/" rel="noopener noreferrer" target="_blank">Hell Pizza</a>
                   {" understands that value is a major consideration for pizza lovers. They use strategic incentives and transparent pricing to make ordering from them a financially savvy choice. "}
                 </p>
                 <p>
@@ -404,14 +404,14 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Ottavio’s Italian Restaurant</a>
+                  <a href="https://ottavioslakeside.com/" rel="noopener noreferrer" target="_blank">Ottavio’s Italian Restaurant</a>
                   {" isn't just another pizzeria with a website. They understand the power of a first impression, which is critical for converting website visitors into paying customers. "}
                 </p>
                 <p>
                   {"Their site greets you with a "}
                   <strong>high-quality photo</strong>
                   {" of their delicious food, strategically placed \"above the fold\" — the part of the screen you see without scrolling. According to "}
-                  <a>researchers at Nielsen</a>
+                  <a href="https://www.nngroup.com/articles/scrolling-and-attention/">researchers at Nielsen</a>
                   , website visitors spend 57% of their visit on the content located at the top of the homepage.
                 </p>
                 <p>
@@ -421,7 +421,7 @@ export default function S21BestPizzaWebsites() {
                 </p>
                 <p>
                   {"They clearly let their website visitors know they use “our family’s recipes from Italy brought to Lakeside.” Learning that their recipes come from the old country makes it easy for guests to understand that "}
-                  <a>Ottavio’s staff are experts</a>
+                  <A href="/case-studies">Ottavio’s staff are experts</A>
                   {" at what they do. The inclusion of “Best Italian Food in Lakeside” provides an added "}
                   <strong>quick</strong>
                   {" "}
@@ -453,7 +453,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Razza</a>
+                  <a href="https://razzanj.com/" rel="noopener noreferrer" target="_blank">Razza</a>
                   {", a New Jersey pizzeria celebrated for their wood-fired pizza artistry, isn't just about delicious pizzas. Their website employs strategic SEO methods to ensure hungry pizza enthusiasts can discover their culinary creations. "}
                 </p>
                 <p>
@@ -498,7 +498,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"The "}
-                  <a target="_blank">Lou Malnati’s</a>
+                  <a href="https://deenshouston.com/" rel="noopener noreferrer" target="_blank">Lou Malnati’s</a>
                   {" website prioritizes both building desire for their food and making the ordering process smooth. "}
                   <strong>High-quality photos</strong>
                   {" showcasing their deep-dish pizzas in all their cheesy glory greet visitors.  "}
@@ -532,7 +532,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Deen’s</a>
+                  <a href="https://deenshouston.com/" rel="noopener noreferrer" target="_blank">Deen’s</a>
                   {" is a Houston staple that specializes in both cheesesteaks and pizza. Their website is bright and colorful, filled with almost "}
                   <strong>40 images featured on their homepage</strong>
                   {" alone."}
@@ -578,9 +578,9 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"When new "}
-                  <a target="_blank">CEO Mike Burns</a>
+                  <a href="https://www.restaurantdive.com/news/andpizza-names-ceo-mike-burns-changes-loyalty-and-operations/710303/" rel="noopener noreferrer" target="_blank">CEO Mike Burns</a>
                   {" took over "}
-                  <a target="_blank">{"&pizza"}</a>
+                  <a href="https://andpizza.com/" rel="noopener noreferrer" target="_blank">{"&pizza"}</a>
                   {" in early 2024, he ushered in a new "}
                   <strong>simplified website design</strong>
                   {" that forces visitors to look at large close-up photos of some of the company’s most popular and unique items. The remaining pages on their site are informative and engaging but limited in number."}
@@ -611,7 +611,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"With the popularity of a major pizza chain like "}
-                  <a target="_blank">{"Domino's"}</a>
+                  <a href="https://www.dominos.com/en/" rel="noopener noreferrer" target="_blank">{"Domino's"}</a>
                   {", it’s no surprise that they prioritize online ordering. Their website is built to make ordering your favorite pizza a breeze. From the moment you land on the homepage, clear calls to action and a "}
                   <strong>user-friendly interface</strong>
                   {" guide you towards your purchase."}
@@ -691,7 +691,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"The "}
-                  <a target="_blank">Metro Pizza</a>
+                  <a href="https://www.pizzeriamozza.com/" rel="noopener noreferrer" target="_blank">Metro Pizza</a>
                   {" website uses enticing food photos to whet the appetite and encourage online guests to place an order. High-quality photos reveal the variety and freshness of their pizzas. "}
                 </p>
                 <p>{"The benefit of using those images is amplified by their use of alt text. Alternative text, commonly referred to as “alt text,” is a brief description added to images that appears when the image can't load or for screen readers used by visually impaired visitors. "}</p>
@@ -729,7 +729,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">Pizzeria Mozza</a>
+                  <a href="https://www.pizzeriamozza.com/" rel="noopener noreferrer" target="_blank">Pizzeria Mozza</a>
                   {"'s website is an "}
                   <strong>extension of its brand identity</strong>
                   {". Clean lines, a minimalist aesthetic and a focus on high-quality food photography featured in a "}
@@ -773,7 +773,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"With almost 200 restaurants worldwide, "}
-                  <a target="_blank">California Pizza Kitchen</a>
+                  <a href="https://www.cpk.com/" rel="noopener noreferrer" target="_blank">California Pizza Kitchen</a>
                   {" (typically referred to as CPK) goes beyond just showcasing their menu on their website. When you click to open the site menu, you’ll discover multiple methods and suggestions for making a purchase."}
                 </p>
                 <p>
@@ -810,7 +810,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">{"Paulie Gee's Short North"}</a>
+                  <a href="https://pauliegee.com/restaurant/paulie-gees-short-north/" rel="noopener noreferrer" target="_blank">{"Paulie Gee's Short North"}</a>
                   {" in Columbus, Ohio, isn't your average pizzeria. Because they feature pizzas with unique flavor combinations, many of them are presented with "}
                   <strong>a touch of humor and a focus on the delicious ingredients</strong>
                   {". My favorite names were “Hellified Porkpie White” and “FIG-get About It.” "}
@@ -844,7 +844,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   ‍
-                  <a target="_blank">{"Uno Pizzeria & Grill"}</a>
+                  <a href="https://www.unos.com/" rel="noopener noreferrer" target="_blank">{"Uno Pizzeria & Grill"}</a>
                   {"’s website focuses on the food and making it easy for customers to access it. The "}
                   <strong>menu buttons at the top of the page</strong>
                   {" offer access to the restaurant’s menu, "}
@@ -885,7 +885,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"The "}
-                  <a target="_blank">Home Slice Pizza</a>
+                  <a href="https://homeslicepizza.com/" rel="noopener noreferrer" target="_blank">Home Slice Pizza</a>
                   {" website bursts with personality and "}
                   <strong>quirky charm</strong>
                   {", making it a delightful online experience that stands out. Above the fold, you’ll find a video taken outside of the pizzeria with kooky local characters and families enjoying their delicious pies. "}
@@ -924,7 +924,7 @@ export default function S21BestPizzaWebsites() {
                 </div>
                 <p>
                   {"Considered one of the originators of the New Haven-style pizza, "}
-                  <a target="_blank">Frank Pepe</a>
+                  <a href="https://pepespizzeria.com/" rel="noopener noreferrer" target="_blank">Frank Pepe</a>
                   {"’s uses a website steeped in their history. Black-and-white photos, both on the homepage and on their “Why We Make Pizza” page, show us Frank in his chef whites working in the pizzeria he lovingly created, adding a "}
                   <strong>sense of authenticity as a local legend</strong>
                   {".  "}
@@ -971,7 +971,7 @@ export default function S21BestPizzaWebsites() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -987,7 +987,7 @@ export default function S21BestPizzaWebsites() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -995,7 +995,7 @@ export default function S21BestPizzaWebsites() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1065,9 +1065,9 @@ export default function S21BestPizzaWebsites() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1083,9 +1083,9 @@ export default function S21BestPizzaWebsites() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1255,7 +1255,7 @@ export default function S21BestPizzaWebsites() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

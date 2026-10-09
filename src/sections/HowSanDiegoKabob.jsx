@@ -48,7 +48,7 @@ export default function HowSanDiegoKabob() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/363848de-81a4-4bbe-b94c-fdb8084f6183.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3e010945e66967e574e_69f4f320f4d48923e82ed972_69b9330c8b70142e4e5f8875_Screenshot%2525202025-02-28%252520at%2525206.54.58%2525E2%252580%2525AFPM.png.avif" className="bunny-player__placeholder" />

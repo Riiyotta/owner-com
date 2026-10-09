@@ -48,7 +48,7 @@ export default function HowKarvGreekKouzina() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/40c15d03-e88f-4238-abd8-b69255042832.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69f4f3dc99fb2bd60b1651b8_69f4f2f6c34b09ee4b3f1dbb_69c9bccc3fcd87f9495fade9_karv.jpg.avif" className="bunny-player__placeholder" />

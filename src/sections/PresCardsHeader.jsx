@@ -9,7 +9,7 @@ export default function PresCardsHeader() {
       <div className="press_cards-collection-wrap w-dyn-list">
         <div role="list" className="press_cards-collection-list w-dyn-items">
           <div role="listitem" className="press_cards-collection-item w-dyn-item">
-            <a target="_blank" className="press_collection-link is-big w-inline-block">
+            <a href="https://www.forbes.com/sites/stephenpastis/2025/05/13/this-tech-startup-is-using-ai-to-help-local-restaurants/" rel="noopener noreferrer" target="_blank" className="press_collection-link is-big w-inline-block">
               <div className="press_visual is-big">
                 <img loading="lazy" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes.png" alt="" sizes="100vw" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes-p-500.png 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes-p-800.png 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes-p-1080.png 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f89ae_ig-forbes.png 1400w" className="img-cover" />
                 <div className="press_img-overlay">

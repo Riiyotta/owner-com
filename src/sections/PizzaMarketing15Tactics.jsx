@@ -54,9 +54,9 @@ export default function PizzaMarketing15Tactics() {
             <div fs-richtext-element="rich-text" fs-toc-element="contents" fs-toc-offsettop="5.625em" className="text-rich-text max-width-full w-richtext">
               <p>
                 {"With the pizza industry worth over "}
-                <a>$160 billion</a>
+                <a href="https://aaronallen.com/blog/pizza-industry">$160 billion</a>
                 {" and takeout and delivery as "}
-                <a>top choices for most customers</a>
+                <a href="https://www.ibisworld.com/united-states/market-research-reports/pizza-restaurants-industry/">top choices for most customers</a>
                 , standing out in this competitive market calls for a strategy that truly understands the pizzeria business.
               </p>
               <p>A great pizza marketing plan doesn’t just focus on bringing in new customers. It also helps keep them coming back. This plan is made especially for pizza shops, looking at how people buy, profit margins, and what makes pizza so popular.</p>
@@ -182,7 +182,7 @@ export default function PizzaMarketing15Tactics() {
                     {"I also recommend starting with pages for your most popular items. For example, our friends at "}
                     <A href="/case-studies/metro-pizza">Metro Pizza</A>
                     {" use our website builder, which shows their most popular items on the "}
-                    <a>menu page</a>
+                    <a href="https://metropizza.com/menu/greenvalley">menu page</a>
                     .
                   </p>
                 </div>
@@ -260,7 +260,7 @@ export default function PizzaMarketing15Tactics() {
                   </p>
                   <p>
                     {"Take my friends at "}
-                    <a>Ottavio’s Italian Restaurant</a>
+                    <A href="/case-studies">Ottavio’s Italian Restaurant</A>
                     {", for example. They had some online presence, bringing in about $12k monthly through DoorDash—but with zero profit. But after switching to Owner.com, they fully replaced those DoorDash sales within a month and kept growing. "}
                   </p>
                   <p>Now, Ottavio’s online orders average 6% monthly growth, accounting for 50% of total sales and setting the business up for 36% growth this year.</p>
@@ -294,7 +294,7 @@ export default function PizzaMarketing15Tactics() {
                   <p>Every pizzeria should be sending re-engagement texts and emails to its customers. With the right marketing, you can take a $20 order and turn it into a $80 per month regular.</p>
                   <p>
                     {"This is a big part of why "}
-                    <a>Ottavio’s Italian Restaurant</a>
+                    <A href="/case-studies">Ottavio’s Italian Restaurant</A>
                     {" went from doing $12,000 per month in DoorDash orders to $24,000 per month on Owner.com. Once they had the customer data from all those new orders, they were able to turn them into regulars using "}
                     <A href="/blog/email-marketing-for-restaurants">email marketing</A>
                     {". "}
@@ -342,7 +342,7 @@ export default function PizzaMarketing15Tactics() {
                   <p>Another tip for pizzerias is to let customers personalize their orders. This can increase the total order size. It also makes the experience better by letting customers pick exactly what they want.</p>
                   <p>
                     {"For example, when you click on one of "}
-                    <a>Metro Pizza’s</a>
+                    <a href="https://metropizza.com/menu/greenvalley?item=cheese-pizza-lg-Ip3b">Metro Pizza’s</a>
                     {" popular menu items, you can customize the crust, cheese and add your favorite toppings. "}
                   </p>
                   <p>{"That’s the kind of flexibility customers love—and it keeps them coming back for more! This leads me to the next section—how to get customers to make repeat purchases.  "}</p>
@@ -434,7 +434,7 @@ export default function PizzaMarketing15Tactics() {
                 <p>{"Remember, marketing for a pizza restaurant is unique—strategies like upselling, loyalty programs and group discounts pair really well with what a pizzeria offers. If you want to increase your profits, be sure to keep these 15 tactics in mind.  "}</p>
                 <p>
                   {"If you’d like to see everything our platform can do for your pizzeria, "}
-                  <a>schedule a free demo</a>
+                  <A href="/demo">schedule a free demo</A>
                   {" with Owner today."}
                 </p>
                 <p>‍</p>
@@ -459,7 +459,7 @@ export default function PizzaMarketing15Tactics() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -475,7 +475,7 @@ export default function PizzaMarketing15Tactics() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -483,7 +483,7 @@ export default function PizzaMarketing15Tactics() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -553,9 +553,9 @@ export default function PizzaMarketing15Tactics() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -571,9 +571,9 @@ export default function PizzaMarketing15Tactics() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/668966e7763b960460802d28_653031e2a28f6f61dddcbaf1_pizza-marketing-strategy.jpeg" loading="lazy" alt="" className="img-cover" />
@@ -692,7 +692,7 @@ export default function PizzaMarketing15Tactics() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

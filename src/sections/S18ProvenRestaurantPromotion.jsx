@@ -121,7 +121,7 @@ export default function S18ProvenRestaurantPromotion() {
                 </h2>
                 <p>
                   {"You can add a lot of revenue to your bottom line by partnering with third-party apps to help with your restaurant promotion, like DoorDash. These apps have millions of users — that’s a lot of eyeballs (and hungry stomachs) you can tap into. Some smart ways to partner with an "}
-                  <a target="_blank">app like DoorDash</a>
+                  <A href="/delivery" target="_blank">app like DoorDash</A>
                   {", Uber Eats, or GrubHub and attract new customers include: "}
                 </p>
                 <ul role="list">
@@ -151,9 +151,9 @@ export default function S18ProvenRestaurantPromotion() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -166,7 +166,7 @@ export default function S18ProvenRestaurantPromotion() {
                 </h2>
                 <p>
                   {"Promoting to your existing customers is just as important as promoting to get new customers, if not more. This is because getting a new customer can cost up to "}
-                  <a target="_blank">five times more</a>
+                  <a href="https://www.gloriafood.com/restaurant-customer-retention-rate" rel="noopener noreferrer" target="_blank">five times more</a>
                   {" than keeping an existing one. So, do you want to know a cool trick to keep your current customers coming back for more? Personalized discounts based on their past orders. "}
                 </p>
                 <p>{"Think about it like this: You know how sometimes you get a special deal for being a loyal customer? Well, we can do the same for your restaurant. By looking at what your customers love to order, you can tailor discounts just for them, making them feel extra special — and boosting your sales in return. "}</p>
@@ -174,7 +174,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>
                   <strong>{"Example: "}</strong>
                   {"Use data from your loyalty program to fuel upsells as "}
-                  <a target="_blank">Chipotle</a>
+                  <a href="https://www.pymnts.com/earnings/2024/chipotle-taps-targeted-upselling-as-restaurants-compete-to-personalize-the-experience/" rel="noopener noreferrer" target="_blank">Chipotle</a>
                   {" does — they recently have found a way to take their customers’ order history and turn that information into personalized upsell items at checkout. "}
                 </p>
               </div>
@@ -199,7 +199,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>{"We live in odd times when some people enjoy taking photos of their food - perhaps even more than eating it. Let your snap-happy foodies do some free restaurant promotion for you by encouraging them to share their images on Instagram. "}</p>
                 <p>
                   <strong>{"Example: "}</strong>
-                  <a target="_blank">White Castle’s Instagram page</a>
+                  <a href="https://www.instagram.com/whitecastle/" rel="noopener noreferrer" target="_blank">White Castle’s Instagram page</a>
                   {" is the perfect example of a brand that highlights user-generated content — they frequently repost customer photos and tag them, which is a prime opportunity to make them feel special and connected to your brand. Doing this can help you retain them and keep them spending.  "}
                 </p>
               </div>
@@ -236,7 +236,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>It’s a terrific restaurant promotion, as it’s only a short-term investment, and you get a brand new audience to try your food. You’ll also plant the seed to attract them through your restaurant doors later on.</p>
                 <p>
                   <strong>{"Example: "}</strong>
-                  <a target="_blank">Dos Gringos Mexican Kitchen</a>
+                  <a href="https://www.dosgringosmedia.com/" rel="noopener noreferrer" target="_blank">Dos Gringos Mexican Kitchen</a>
                   {" has food trucks as their pop-up idea so that they can service guests from virtually anywhere, which helps them acquire new customers and make more sales. "}
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function S18ProvenRestaurantPromotion() {
                 </p>
                 <p>
                   <strong>{"Example: "}</strong>
-                  <a target="_blank">Doo-Dah Diner</a>
+                  <a href="https://www.google.com/search?q=doo+dah+diner&oq=doo+dah+din&gs_lcrp=EgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wIYsQMYgAQyEAgBEC4YrwEYxwEYsQMYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABKgCALACAA&sourceid=chrome&ie=UTF-8" rel="noopener noreferrer" target="_blank">Doo-Dah Diner</a>
                   {" provides a solid example of what a GMB listing should look like — they include contact details, address, hours, a link to the menu and more to help customers find information a lot quicker.  "}
                 </p>
               </div>
@@ -263,12 +263,12 @@ export default function S18ProvenRestaurantPromotion() {
                 </h2>
                 <p>
                   {"Look, we get it. Reading people’s complaints about your restaurant isn’t high up on your daily to-do list. But even if it’s a trivial complaint, responding to their criticism in a meaningful and friendly way is a powerful restaurant promotion tool for your reputation. This is something that should be high priority, as "}
-                  <a target="_blank">53% of customers</a>
+                  <a href="https://www.searchenginejournal.com/online-review-statistics/329701/" rel="noopener noreferrer" target="_blank">53% of customers</a>
                   {" expect businesses to follow up on a bad review within one week. "}
                 </p>
                 <p>
                   {"Check out my helpful video on "}
-                  <a target="_blank">how to get more sales on Yelp</a>
+                  <a href="https://www.youtube.com/watch?v=SDDrocdOOmw&ab_channel=AdamGuild-Owner" rel="noopener noreferrer" target="_blank">how to get more sales on Yelp</a>
                   , which includes my top tips for how to respond. Returning customers will always be your best customers, so by looking after them, you will see familiar faces filling tables consistently every night and adding to your sales.
                 </p>
                 <p>
@@ -328,7 +328,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>Nearly impossible challenges are more spectacular and more likely to grab viral attention. To get customers to participate, pair these with a notable prize. Challenges that are accessible are more fun and more likely to create regulars. Offer smaller prizes most people are capable of winning.</p>
                 <p>
                   <strong>{"Example: "}</strong>
-                  <a target="_blank">Wintzell’s Oyster House</a>
+                  <a href="https://www.wintzellsoysterhouse.com/media/wintzells-fun-facts/" rel="noopener noreferrer" target="_blank">Wintzell’s Oyster House</a>
                   {" challenges their customers to an oyster-eating contest, where they have to eat the previous record holder’s amount of oysters in one hour (the record was 421 oysters in 2010!). Winners get a $25 check and get added to the list of oyster-eating champions."}
                 </p>
               </div>
@@ -367,13 +367,13 @@ export default function S18ProvenRestaurantPromotion() {
                 </ul>
                 <p>
                   {"It’s also effortless to run and doesn’t require heavy lifting. And while supporting a charity might not seem like a huge draw, "}
-                  <a target="_blank">75% of Americans</a>
+                  <a href="https://paygiv.org/corporate-giving/" rel="noopener noreferrer" target="_blank">75% of Americans</a>
                   {" say they consider a company’s charitable contributions when making a purchase."}
                 </p>
                 <p>
                   <strong>{"Example: "}</strong>
                   {"Consider running a "}
-                  <a target="_blank">holiday restaurant promotion</a>
+                  <a href="https://www.instagram.com/owner/p/C1-HnrTP3OF/" rel="noopener noreferrer" target="_blank">holiday restaurant promotion</a>
                   {" that drives sales and gives back. Etihad’s Indian restaurant ran a program on Martin Luther King Day that donated a meal to the hungry for every meal ordered at the restaurant — make sure this is a low-cost meal so you don’t dip too much into your revenue. "}
                 </p>
               </div>
@@ -405,7 +405,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>{"It doesn’t have to be complicated — you can do something simple as long as it captures attention. Just make sure it’s something unique, memorable, and bound to get social media abuzz with exposure for your restaurant. "}</p>
                 <p>
                   {"Talkin’ Tacos is a joint that does a great job of this — their "}
-                  <a target="_blank">TikTok videos</a>
+                  <a href="https://www.tiktok.com/@_talkintacos" rel="noopener noreferrer" target="_blank">TikTok videos</a>
                   {" have gotten millions of views for their posts highlighting their visually friendly food and cool kitchen processes. Consider capturing and posting similar moments for your restaurant to help with your promotion efforts!    "}
                 </p>
                 <p>
@@ -482,7 +482,7 @@ export default function S18ProvenRestaurantPromotion() {
                 <p>
                   <strong>{"Example: "}</strong>
                   {"The Presley offers a "}
-                  <a target="_blank">special menu for dogs</a>
+                  <a href="https://www.thepresleysd.com/dog-menu" rel="noopener noreferrer" target="_blank">special menu for dogs</a>
                   {", featuring a “Puppuccino”, different fresh meat options, and a “Presley Pawtner Bowl” that includes carrots, cauliflower, sweet potato, and spinach. They’re likely to draw in many pet-lover customers with this simple yet thoughtful addition.  "}
                   <strong></strong>
                 </p>
@@ -530,7 +530,7 @@ export default function S18ProvenRestaurantPromotion() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -546,7 +546,7 @@ export default function S18ProvenRestaurantPromotion() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -554,7 +554,7 @@ export default function S18ProvenRestaurantPromotion() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -625,9 +625,9 @@ export default function S18ProvenRestaurantPromotion() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -788,7 +788,7 @@ export default function S18ProvenRestaurantPromotion() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

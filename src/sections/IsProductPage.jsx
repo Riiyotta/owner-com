@@ -1,3 +1,4 @@
+import A from "../lib/A.jsx";
 // IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // is-product-page — the section's real markup, read from the rendered page (route /privacy-policy, section 2; shared by 134 routes).
 export default function IsProductPage() {
@@ -9,9 +10,9 @@ export default function IsProductPage() {
             <div className="u-mb-20">
               <h2 className="h3">The easiest way to grow your restaurant online</h2>
             </div>
-            <a data-button-instance="" className="btn w-inline-block">
+            <A href="/demo" data-button-instance="" className="btn w-inline-block">
               <div data-button-text="" className="btn-text">Get a free demo</div>
-            </a>
+            </A>
           </div>
         </div>
       </div>

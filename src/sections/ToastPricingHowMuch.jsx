@@ -54,7 +54,7 @@ export default function ToastPricingHowMuch() {
             </div>
             <div fs-richtext-element="rich-text" fs-toc-element="contents" fs-toc-offsettop="5.625em" className="text-rich-text max-width-full w-richtext">
               <p>
-                <a target="_blank">Toast</a>
+                <a href="https://pos.toasttab.com/pricing" rel="noopener noreferrer" target="_blank">Toast</a>
                 {" is a popular POS system that handles orders, processes payments, manages online ordering and even automates marketing."}
               </p>
               <p>For busy restaurant owners, a system like Toast can be a game-changer. It simplifies day-to-day operations, improves team coordination, and gives guests a smoother experience at the counter, table, or online.</p>
@@ -304,7 +304,7 @@ export default function ToastPricingHowMuch() {
                   </h3>
                   <p>
                     {"Below are some examples of positive things customers had to say about Toast, according to "}
-                    <a target="_blank">Trustpilot</a>
+                    <a href="https://www.trustpilot.com/review/toasttab.com" rel="noopener noreferrer" target="_blank">Trustpilot</a>
                     {": "}
                   </p>
                   <p>
@@ -353,7 +353,7 @@ export default function ToastPricingHowMuch() {
                   </h3>
                   <p>
                     {"Here’s what customers are having trouble with when it comes to Toast, according to "}
-                    <a>Capterra</a>
+                    <a href="https://www.capterra.com/p/136301/Toast-POS/reviews/">Capterra</a>
                     :
                   </p>
                   <p>
@@ -405,7 +405,7 @@ export default function ToastPricingHowMuch() {
                   </h3>
                   <p>
                     {"If you want a customizable POS system, "}
-                    <a target="_blank">Clover</a>
+                    <a href="https://www.clover.com/pos-systems" rel="noopener noreferrer" target="_blank">Clover</a>
                     {" could be a great choice for you. One thing I like about Clover is that it accepts more payment options than Toast. This can make things easier for both you and your customers."}
                   </p>
                   <div className="w-embed">
@@ -437,9 +437,9 @@ export default function ToastPricingHowMuch() {
                           <tr>
                             <td colSpan="2">
                               {" "}
-                              <a target="_blank" rel="noopener">Rating source</a>
+                              <a href="https://www.capterra.com/p/226864/Clover/" target="_blank" rel="noopener">Rating source</a>
                               {", "}
-                              <a target="_blank" rel="noopener">Pricing source</a>
+                              <a href="https://www.clover.com/pricing" target="_blank" rel="noopener">Pricing source</a>
                               {" "}
                             </td>
                           </tr>
@@ -457,7 +457,7 @@ export default function ToastPricingHowMuch() {
                   </h3>
                   <p>
                     {"Owner.com is a "}
-                    <a target="_blank">great alternative to Toast’s</a>
+                    <A href="/blog/toast-competitors" target="_blank">great alternative to Toast’s</A>
                     {" online ordering features and complements a Toast POS setup in general. While Toast only offers basic online ordering as an add-on, Owner uses data to give you the best practices "}
                     <em>automatically</em>
                     {". Our platform offers features like a robust "}
@@ -493,7 +493,7 @@ export default function ToastPricingHowMuch() {
                           <tr>
                             <td colSpan="2">
                               {" "}
-                              <a target="_blank" rel="noopener">Rating source</a>
+                              <a href="https://www.capterra.com/p/10002488/Owner/" target="_blank" rel="noopener">Rating source</a>
                               {" "}
                             </td>
                           </tr>
@@ -524,7 +524,7 @@ export default function ToastPricingHowMuch() {
                     <strong>{"Square "}</strong>
                   </h3>
                   <p>
-                    <a target="_blank">Square</a>
+                    <a href="https://squareup.com/us/en/point-of-sale/restaurants" rel="noopener noreferrer" target="_blank">Square</a>
                     {" is a solid POS choice, especially if your restaurant also has a retail store. It’s budget-friendly, easy to use and comes with a free plan that’s perfect for new restaurants just starting."}
                   </p>
                   <p>What I love about Square is that it offers a ton of features, even in the free version. These include online ordering and team management tools. You also get helpful integrations for payment processing and menu management. Last but not least, you get a personalized mobile app to keep things running smoothly.</p>
@@ -557,9 +557,9 @@ export default function ToastPricingHowMuch() {
                           <tr>
                             <td colSpan="2">
                               {" "}
-                              <a target="_blank" rel="noopener">Rating source</a>
+                              <a href="https://www.capterra.com/p/275800/Square-Online/" target="_blank" rel="noopener">Rating source</a>
                               {", "}
-                              <a target="_blank" rel="noopener">Pricing source</a>
+                              <a href="https://squareup.com/us/en/pricing" target="_blank" rel="noopener">Pricing source</a>
                               {" "}
                             </td>
                           </tr>
@@ -580,7 +580,7 @@ export default function ToastPricingHowMuch() {
                   </p>
                   <p>
                     {"Plus, Toast is not the only option out there. If you're aiming to ramp up direct online ordering, give Owner.com a try. Take a "}
-                    <a target="_blank">free demo</a>
+                    <A href="/demo" target="_blank">free demo</A>
                     {" to see firsthand how we help restaurants grow their sales and thrive."}
                   </p>
                 </div>
@@ -605,7 +605,7 @@ export default function ToastPricingHowMuch() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -621,7 +621,7 @@ export default function ToastPricingHowMuch() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -629,7 +629,7 @@ export default function ToastPricingHowMuch() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -699,9 +699,9 @@ export default function ToastPricingHowMuch() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -717,9 +717,9 @@ export default function ToastPricingHowMuch() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -841,7 +841,7 @@ export default function ToastPricingHowMuch() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

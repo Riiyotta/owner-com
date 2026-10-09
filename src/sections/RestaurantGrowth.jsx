@@ -85,9 +85,9 @@ export default function RestaurantGrowth() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -121,7 +121,7 @@ export default function RestaurantGrowth() {
                 <p>Every restaurant, location, cuisine, concept, etc. varies wildly, so there’s really only so much we can take away from this average, but it provides a good baseline in evaluating your restaurant’s past, current, and future growth.</p>
                 <p>
                   {"Here’s what the last year of growth has looked like for "}
-                  <a>SaMo’s Oaxaca</a>
+                  <a href="https://samosoaxaca.com/">SaMo’s Oaxaca</a>
                   , one of our restaurant partners in Santa Monica, California.
                 </p>
                 <figure style={{ "maxWidth": "1600pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -138,7 +138,7 @@ export default function RestaurantGrowth() {
                 <p>While this is, of course, a very successful year of growth for any restaurant, it falls within the standard range of what we expect to see when a restaurant is taking intentional measures to improve their marketing, drive direct orders, and build a stable base of regulars.</p>
                 <p>
                   {"This next example from our partner "}
-                  <a>Talkin’ Tacos</a>
+                  <a href="https://www.talkintacos.net/">Talkin’ Tacos</a>
                   {" is well outside the usual range of growth and shows what’s possible when things go well and the owners leverage growth into opening new locations."}
                 </p>
                 <figure style={{ "maxWidth": "1600pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
@@ -162,7 +162,7 @@ export default function RestaurantGrowth() {
                 <p>If you are struggling in any of these areas, making a change can result in month-over-month growth well over the 3-4% baseline.</p>
                 <p>
                   {"This is why improving in each of these areas is a standard part of the onboarding process we take "}
-                  <a target="_blank">new restaurant partners through here at Owner.com</a>
+                  <a href="https://www.g2.com/products/owner-com/reviews" rel="noopener noreferrer" target="_blank">new restaurant partners through here at Owner.com</a>
                   .
                 </p>
                 <p>Here’s that same restaurant, SaMo’s Oaxaca, but now we’re looking at the 6 months after the restaurant began using Owner.com to take direct, commission-free orders and run automated marketing campaigns.</p>
@@ -191,7 +191,7 @@ export default function RestaurantGrowth() {
                 </figure>
                 <p>
                   {"While both of these examples show exceptional early growth, we actually see an average growth of more than 50% during the 3-6 month period "}
-                  <a target="_blank">after restaurants begin using Owner.com</a>
+                  <a href="https://www.featuredcustomers.com/vendor/owner-com" rel="noopener noreferrer" target="_blank">after restaurants begin using Owner.com</a>
                   {" to:"}
                 </p>
                 <ul role="list">
@@ -225,9 +225,9 @@ export default function RestaurantGrowth() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -269,7 +269,7 @@ export default function RestaurantGrowth() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -285,7 +285,7 @@ export default function RestaurantGrowth() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -293,7 +293,7 @@ export default function RestaurantGrowth() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -326,7 +326,7 @@ export default function RestaurantGrowth() {
                   </svg>
                   <p className="body-m">Download our Restaurant Growth Handbook</p>
                 </div>
-                <a data-button-instance="" className="btn w-inline-block">
+                <a href="https://www.owner.com/downloads/restaurant-growth-checklist" data-button-instance="" className="btn w-inline-block">
                   <div data-button-text="" className="btn-text"></div>
                 </a>
               </div>
@@ -364,9 +364,9 @@ export default function RestaurantGrowth() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8647_653031ee27e8535deccc28a0_rg-thumb.jpeg" loading="lazy" alt="" className="img-cover" />
@@ -488,7 +488,7 @@ export default function RestaurantGrowth() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

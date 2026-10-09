@@ -28,7 +28,7 @@ export default function SDSummaryList() {
         <div className="text-rich-text_series-d w-richtext">
           <p>
             {"Before Owner, restaurants had two options: tools (\"build your own website!\") or consultants (\"I'll run your digital marketing!\"). Tools fail: they ask non-technical owners to make too many technical decisions. Consultants cost too much. Owner is an opinionated product that rejects customization. Every customer knows the tradeoff: give up control to get great performance. Because Owner runs every digital property, the agentic system can launch thousands of split tests and implement changes on its own. Restaurants on Owner grow online traffic by 40% on average within 30 days. Consumers on Owner websites are more than 2x as likely to place an order. And Owner is top-rated restaurant tech on "}
-            <a>G2, consistently rated #1 across several categories</a>
+            <a href="https://www.g2.com/products/owner-com/">G2, consistently rated #1 across several categories</a>
             . This opinionated, agentic system is why customers consistently switch to Owner from competing products.
           </p>
         </div>

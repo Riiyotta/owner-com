@@ -1,3 +1,4 @@
+import A from "../lib/A.jsx";
 // IA section(s): content.section-base (ia/ia.json, design-repo/sections/)
 // Contact Support — the section's real markup, read from the rendered page (route /support, section 2).
 export default function ContactSupport() {
@@ -49,7 +50,7 @@ export default function ContactSupport() {
                     <p className="body-m">Get a demo</p>
                   </div>
                   <div className="body-m">
-                    <a>{"See Owner in action ->"}</a>
+                    <A href="/demo">{"See Owner in action ->"}</A>
                   </div>
                 </div>
                 <div className="support_card-item-bottom-inner is-last">
@@ -79,7 +80,7 @@ export default function ContactSupport() {
                 </div>
               </div>
             </div>
-            <a data-button-instance="" target="_blank" className="btn w-inline-block">
+            <a href="https://help.owner.com/" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block">
               <div data-button-text="" className="btn-text">Explore Knowledge Base</div>
             </a>
           </div>

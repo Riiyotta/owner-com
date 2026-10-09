@@ -18,7 +18,7 @@ export default function SeeOurFreeGuides() {
               <div className="w-dyn-list">
                 <div role="list" className="w-dyn-items">
                   <div role="listitem" className="w-dyn-item">
-                    <a data-wf--guides-card--variant="big" className="gudies-card w-variant-e81bd491-09b9-c3ce-ac83-9bc2ff000427 w-inline-block">
+                    <a href="https://www.youtube.com/watch?v=MpbNrujsk3g" data-wf--guides-card--variant="big" className="gudies-card w-variant-e81bd491-09b9-c3ce-ac83-9bc2ff000427 w-inline-block">
                       <img data-transition="img-link" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69cdd227da5c1fd850f00c54_homepage-enga-photo-m.jpg" className="img-cover" />
                       <div className="gudies-card_inner">
                         <div className="h5">Interview: How To Build a $7M/year Restaurant Business</div>
@@ -66,7 +66,7 @@ export default function SeeOurFreeGuides() {
                 </div>
               </div>
             </div>
-            <a id="w-node-e776adae-5d66-0fba-bd9a-95e455df77af-55df77a2" target="_blank" className="guides-grid_link w-inline-block">
+            <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" id="w-node-e776adae-5d66-0fba-bd9a-95e455df77af-55df77a2" target="_blank" className="guides-grid_link w-inline-block">
               <div>
                 <div className="u-mb-4">
                   <div className="h5">Learn with Owner.com</div>

@@ -54,7 +54,7 @@ export default function S11BestRestaurantLoyalty() {
               <p>I’ll admit a nerdy secret: I love analyzing the loyalty programs that top restaurant brands build. National chains invest heavily in rewards, making them a useful reference for how programs are designed and used across the industry.</p>
               <p>
                 {"That focus makes sense. Loyalty members tend to visit restaurants they’re enrolled with at about "}
-                <a>twice the rate of non-members</a>
+                <a href="https://www.globenewswire.com/news-release/2025/06/12/3098421/0/en/Circana-Finds-Restaurant-Loyalty-Members-Visit-20-Brands-Annually-Same-as-Nonmembers.html">twice the rate of non-members</a>
                 {", even though they spread visits across many brands. "}
               </p>
               <p>In this post, I’ll highlight top restaurant loyalty program examples and what they do well, so you can model after them for your own program.</p>
@@ -66,9 +66,9 @@ export default function S11BestRestaurantLoyalty() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -139,7 +139,7 @@ export default function S11BestRestaurantLoyalty() {
                   {" Points-based"}
                 </p>
                 <p>
-                  <a>Ottavio’s Italian Restaurant</a>
+                  <a href="https://ottavioslakeside.com/">Ottavio’s Italian Restaurant</a>
                   {" uses a points-based system where customers earn points on every order, redeem them for free food and access exclusive discounts. "}
                 </p>
                 <p>
@@ -510,7 +510,7 @@ export default function S11BestRestaurantLoyalty() {
                 <p>Domino’s rewards customers with points for every order over $5, allowing them to earn free items every two orders. Their program focuses on member-only deals, bonus points and discounts during appreciation weeks. Customers can even earn points for tipping delivery drivers, rewarding behavior that benefits both staff and the restaurant.</p>
                 <p>
                   {"The program also encourages app downloads—Domino’s reports that "}
-                  <a>75.2% of online orders</a>
+                  <a href="https://investors.dominos.co.uk/system/files/press/dominos-interim-results-2023.pdf">75.2% of online orders</a>
                   {" happen through its app—making app-only rewards a key driver of engagement."}
                 </p>
                 <div className="w-embed">
@@ -636,7 +636,7 @@ export default function S11BestRestaurantLoyalty() {
                 <p>{"As a busy restaurant owner, you may see loyalty programs as a lower priority than, say, than other aspects of running your business. But their benefits make them incredibly impactful and worth taking off the back burner. "}</p>
                 <p>
                   {"And, repeat customers tend to spend more over time — often "}
-                  <a target="_blank">67% more</a>
+                  <a href="https://www.business.com/articles/returning-customers-spend-67-more-than-new-customers-keep-your-customers-coming-back-with-a-recurring-revenue-sales-model/" rel="noopener noreferrer" target="_blank">67% more</a>
                   {" than new customers. I’ll highlight below just how valuable these programs are to a restaurant’s bottom line. "}
                 </p>
                 <ul role="list">
@@ -682,7 +682,7 @@ export default function S11BestRestaurantLoyalty() {
                   </h3>
                   <p>
                     {"Loyalty programs work best when integrated into a restaurant’s mobile app because "}
-                    <a>67%</a>
+                    <a href="https://www.workwithsquare.com/rs/424-IAB-218/images/Square%20Future%20of%20Restaurantspdf.pdf">67%</a>
                     {" of consumers prefer to order directly from restaurant websites. "}
                   </p>
                   <p>Apps give frequent guests a convenient place to track and redeem rewards, while the program itself encourages new downloads, boosting reorder rates, average check size and overall customer value.</p>
@@ -693,12 +693,12 @@ export default function S11BestRestaurantLoyalty() {
                   </h3>
                   <p>
                     {"Giving new members a small number of free points helps them reach their first reward faster, leveraging the "}
-                    <a>Endowed Progress Effect</a>
+                    <a href="https://www.jstor.org/stable/10.1086/500480">Endowed Progress Effect</a>
                     {"—the tendency for people to work harder when they feel they’ve already made progress. "}
                   </p>
                   <p>
                     {"In a "}
-                    <a>classic study</a>
+                    <a href="https://www.brooketully.com/endowed-progress/">classic study</a>
                     , participants with partially completed punch cards purchased more car washes than those starting from zero. Starting guests just past the beginning encourages engagement and motivates them to keep earning points toward rewards.
                   </p>
                 </div>
@@ -815,7 +815,7 @@ export default function S11BestRestaurantLoyalty() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -831,7 +831,7 @@ export default function S11BestRestaurantLoyalty() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -839,7 +839,7 @@ export default function S11BestRestaurantLoyalty() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -910,9 +910,9 @@ export default function S11BestRestaurantLoyalty() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1064,7 +1064,7 @@ export default function S11BestRestaurantLoyalty() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

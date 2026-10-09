@@ -37,7 +37,7 @@ export default function TwoBigChangesHave() {
                 <br />
                 <br />
                 {"Local restaurants are the prime example, but the same trend affects every local business. Even though "}
-                <a>80%+</a>
+                <a href="https://www.census.gov/retail/ecommerce.html">80%+</a>
                 {" of purchases happen offline, consumers research online before buying in-store. This online shift was already happening before 2020, and it isn’t going to shift back. Local business owners are desperate for a solution, and Owner has proven to be that desperately needed solution. Thousands of local business owners now depend on it."}
               </p>
             </div>

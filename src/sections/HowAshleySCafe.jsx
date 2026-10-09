@@ -48,7 +48,7 @@ export default function HowAshleySCafe() {
             </ul>
           </div>
           <div className="cs-hero_video-wrap">
-            <div data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
+            <div data-player-src="/_videos/4c1b7ebd-c09d-4420-8eee-652e30c541fe.mp4" data-player-muted="false" className="bunny-player" data-player-fullscreen="false" data-player-activated="false" data-player-autoplay="false" data-bunny-player-init="" data-player-hover="idle" data-player-status="idle" data-player-update-size="cover" data-player-lazy="meta">
               <div data-player-before="" className="bunny-player__before"></div>
               <video preload="auto" width="1920" height="1080" playsInline className="bunny-player__video"></video>
               <img width="960" loading="lazy" alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d2463548ad661551784e6_Ashley-p-1080.jpg" sizes="(max-width: 767px) 100vw, 960px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d2463548ad661551784e6_Ashley-p-500.jpg 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d2463548ad661551784e6_Ashley-p-800.jpg 800w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d2463548ad661551784e6_Ashley-p-1080.jpg 1080w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/6a0d2463548ad661551784e6_Ashley.jpg 1200w" className="bunny-player__placeholder" />

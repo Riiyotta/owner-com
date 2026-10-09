@@ -188,11 +188,11 @@ export default function S10BestSquareAlternatives() {
                   </p>
                   <p>Owner.com is primarily focused on the online presence and marketing aspects for restaurants, rather than acting as a full-fledged POS system itself.</p>
                   <figure style={{ "maxWidth": "1600pxpx" }} className="w-richtext-align-fullwidth w-richtext-figure-type-image">
-                    <a target="_blank" className="w-inline-block">
+                    <A href="/demo" target="_blank" className="w-inline-block">
                       <div>
                         <img alt="" src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3d/69b9330c8b70142e4e5f8966_AD_4nXcpssV5vya7Cl6Fzh8c1hfzUNm_fyY-RRBfqpjeWsRITZoItjmUdRwppqZiJHJ3uZfG-qWx1Uib2dGg3XU8z1whCDhi_v52GDRgBS0infm-78yz-grYQ3oNIOOCb4QbLCyUE7Fxyg.png" loading="lazy" />
                       </div>
-                    </a>
+                    </A>
                   </figure>
                 </div>
                 <div id="real-customer-reviews-for-ownercom">
@@ -203,7 +203,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of publishing, Owner.com has a "}
                     <strong>4.8</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -218,7 +218,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>For our customers, they have always said how modern and up to date our apps and website is. They love that we can be on the same level as big chains.”—</em>
                     {"Sami H., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-11164774" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -229,7 +229,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>I understand that it is our job (as a small business) to take the best pictures of menu items then email them to a support team that gets them uploaded, but I feel Owner.com can use those pics and digitally enhance them using AI, and other software at their disposal.”—</em>
                     {"Paul S., "}
-                    <a target="_blank">Owner.com G2 review</a>
+                    <a href="https://www.g2.com/products/owner-com/reviews/owner-com-review-11228695" rel="noopener noreferrer" target="_blank">Owner.com G2 review</a>
                   </p>
                 </div>
               </div>
@@ -285,7 +285,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Shopify has a "}
                     <strong>4.4</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/shopify/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -297,7 +297,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>{"Now I love hearing the cha-ching sound multiple times a day because Shopify also offers marketing emails & my store [integrates] easily with all social media channel's shops. I get sales & ship every day thanks to Shopify.”—"}</em>
                     {"Taryn C., "}
-                    <a target="_blank">Shopify review</a>
+                    <a href="https://www.g2.com/products/shopify/reviews/shopify-review-11094424" rel="noopener noreferrer" target="_blank">Shopify review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -305,7 +305,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>{"“I'm not a big fan of their fee structures. Aside from order processing fees which can be up to 4%, there are other fees like built-in apps and themes you need to pay to access features you need”—"}</em>
                     {"Keyan S., "}
-                    <a target="_blank">Shopify review</a>
+                    <a href="https://www.g2.com/products/shopify/reviews/shopify-review-10946653" rel="noopener noreferrer" target="_blank">Shopify review</a>
                   </p>
                 </div>
               </div>
@@ -359,7 +359,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Lightspeed has a "}
                     <strong>4.3</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -368,7 +368,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Smart and [easy to] use software for all of our staff. No need to buy exclusive hardware, all hardware can be bought off the shelf and is easy to set up. Customer support is always available and we have a dedicated account manager who looks after our portfolio.”—</em>
                     {"Nathan R., "}
-                    <a target="_blank">Lightspeed review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-9736809" rel="noopener noreferrer" target="_blank">Lightspeed review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -382,7 +382,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>{"What's truly frustrating is that we've noticed a significant number of users in the forums grappling with the same issues, and it appears that the company is not adequately addressing these problems.”—"}</em>
                     {"Jordi Andrés G., "}
-                    <a target="_blank">Lightspeed review</a>
+                    <a href="https://www.g2.com/products/lightspeed-restaurant/reviews/lightspeed-restaurant-review-8597961" rel="noopener noreferrer" target="_blank">Lightspeed review</a>
                   </p>
                 </div>
               </div>
@@ -438,7 +438,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, SpotOn has a "}
                     <strong>4.3</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/spoton/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -450,7 +450,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>The back-of-house features are also user-friendly, making it easy to manage operations smoothly.”—</em>
                     {"Gabriela R., "}
-                    <a target="_blank">SpotOn review</a>
+                    <a href="https://www.g2.com/products/spoton/reviews/spoton-review-11082539" rel="noopener noreferrer" target="_blank">SpotOn review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -461,7 +461,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>Duplicate Teamwork profiles created when TM work at multiple locations causing clock in errors. Inability to update min wages in a streamlined fashion.”—</em>
                     {"Catherine S., "}
-                    <a target="_blank">SpotOn review</a>
+                    <a href="https://www.g2.com/products/spoton/reviews/spoton-review-10933132" rel="noopener noreferrer" target="_blank">SpotOn review</a>
                   </p>
                 </div>
               </div>
@@ -511,7 +511,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, TouchBistro has a "}
                     <strong>4.2</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -520,7 +520,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“I love how user-friendly and intuitive the TouchBistro platform is. It requires very little training, and I can often find what I need quickly by using the help function.”—</em>
                     {"Stephanie L., "}
-                    <a target="_blank">TouchBistro G2 review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-9571457" rel="noopener noreferrer" target="_blank">TouchBistro G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -528,7 +528,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“The customer service is horrible. The tablets [lose] and delete orders. Menu categorize randomly change so our steaks randomly started reporting as alcohol.”—</em>
                     {"Becky S., "}
-                    <a target="_blank">TouchBistro G2 review</a>
+                    <a href="https://www.g2.com/products/touchbistro-restaurant-pos/reviews/touchbistro-restaurant-pos-review-10548749" rel="noopener noreferrer" target="_blank">TouchBistro G2 review</a>
                   </p>
                 </div>
               </div>
@@ -583,7 +583,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Toast has a "}
                     <strong>4.2</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/toast/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -592,7 +592,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“We use Toast for all of our restaurant needs. This includes POS, Payroll, Marketing and Invoices/Inventory. The way the system integrates everything is so nice and we have so much information at our fingertips. Crucial for running in a low margin industry.”—</em>
                     {"Craig W., "}
-                    <a target="_blank">Toast review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-10071680" rel="noopener noreferrer" target="_blank">Toast review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -600,7 +600,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Toast hardware is terrible. We are always having issues with specifically our S1 handhelds. Sent at least 5-6 back on warranty replacement however now that we have just passed a year and I have 3 handhelds that have stopped working properly and they are just outside of the warranty period. It screams of planned obsolesce.”—</em>
                     {"Jed B., "}
-                    <a target="_blank">Toast review</a>
+                    <a href="https://www.g2.com/products/toast/reviews/toast-review-11232308" rel="noopener noreferrer" target="_blank">Toast review</a>
                   </p>
                 </div>
               </div>
@@ -656,7 +656,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Revel Systems has a "}
                     <strong>4.1</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -665,7 +665,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Mostly Good for a QSR. Easy POS front end. [Simple] design setup.””—</em>
                     {"Drew S., "}
-                    <a target="_blank">Revel Systems review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-4931942" rel="noopener noreferrer" target="_blank">Revel Systems review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -673,7 +673,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Pretty much everything else was horrible. Reporting was inaccurate, customer service was next to zero, adding products and modifiers was a nightmare. Getting issues resolved was also a nightmare--usually I was on the phone so long that I ended up figuring out a workaround or how to solve the issue myself before the Revel rep ever figured it out.”—</em>
                     {"Jeanne C., "}
-                    <a target="_blank">Revel Systems review</a>
+                    <a href="https://www.g2.com/products/revel-systems-revel-systems/reviews/revel-systems-review-4931942" rel="noopener noreferrer" target="_blank">Revel Systems review</a>
                   </p>
                 </div>
               </div>
@@ -724,7 +724,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Upserve has a "}
                     <strong>4.1</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/upserve-2019-05-21/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -733,7 +733,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Software is intuitive and easy to learn!”—</em>
                     {"Jack U., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/upserve-2019-05-21/reviews/upserve-review-6880081" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -741,7 +741,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>“Sometimes there are connection failures and payments have to be made again - especially the swipe function does not always work.”—</em>
                     {"Lara R., "}
-                    <a target="_blank">G2 review</a>
+                    <a href="https://www.g2.com/products/upserve-2019-05-21/reviews/upserve-review-4501554" rel="noopener noreferrer" target="_blank">G2 review</a>
                   </p>
                 </div>
               </div>
@@ -796,7 +796,7 @@ export default function S10BestSquareAlternatives() {
                     {"As of this writing, Clover has a "}
                     <strong>3.8</strong>
                     {" rating on "}
-                    <a target="_blank">G2</a>
+                    <a href="https://www.g2.com/products/clover/reviews" rel="noopener noreferrer" target="_blank">G2</a>
                     {". Here’s what customers are saying: "}
                   </p>
                   <p>
@@ -805,7 +805,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>{"“I appreciate the versatility that Clover provides for my clients. If you are a restaurant, retail store, service industry it's great for you. If you need to manage customers or clients or employees, there are tools for all!”—"}</em>
                     {"Jason W., "}
-                    <a target="_blank">Clover review</a>
+                    <a href="https://www.g2.com/products/clover/reviews/clover-review-8436230" rel="noopener noreferrer" target="_blank">Clover review</a>
                   </p>
                   <p>
                     <strong>{"Customers don't like: "}</strong>
@@ -813,7 +813,7 @@ export default function S10BestSquareAlternatives() {
                   <p>
                     <em>{"“If you don't have any prior experience with web architecture or security scans, the interface can be a little difficult to understand. More robust help files and better click-paths would be a huge help.”—"}</em>
                     {"Adam R., "}
-                    <a target="_blank">Clover review</a>
+                    <a href="https://www.g2.com/products/clover/reviews/clover-review-8436230" rel="noopener noreferrer" target="_blank">Clover review</a>
                   </p>
                 </div>
               </div>
@@ -836,12 +836,12 @@ export default function S10BestSquareAlternatives() {
                 <p>{"While Square is widely used, some restaurant owners find that its generalized approach can fall short for specialized needs. Common complaints often revolve around a lack of in-depth features for complex restaurant operations, as detailed by multiple users on the Square Seller Community. "}</p>
                 <p>
                   For instance, some users report issues with online ordering integration and the reliability of advanced restaurant-specific features like “Auto-86” and “busy mode,” as seen in a
-                  <a target="_blank">{" Square for Restaurant reviews"}</a>
+                  <a href="https://community.squareup.com/t5/Square-for-Restaurants/Square-for-Restaurant-reviews/td-p/717913" rel="noopener noreferrer" target="_blank">{" Square for Restaurant reviews"}</a>
                   {" thread."}
                 </p>
                 <p>
                   {"Other significant concerns include Square's payment processing policies, with some businesses experiencing withheld funds or abrupt account closures, as discussed "}
-                  <a target="_blank">on a Reddit thread</a>
+                  <a href="https://www.reddit.com/r/smallbusiness/comments/1kl99go/avoid_square_at_all_costs/" rel="noopener noreferrer" target="_blank">on a Reddit thread</a>
                   .
                 </p>
                 <p>Even though Square offers a simple POS solution, restaurants may look for other apps like Square that better address their unique needs.</p>
@@ -898,9 +898,9 @@ export default function S10BestSquareAlternatives() {
                       </div>
                       <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                     </div>
-                    <a data-button-instance="" className="btn w-inline-block">
+                    <A href="/demo" data-button-instance="" className="btn w-inline-block">
                       <div data-button-text="" className="btn-text">Get a free demo</div>
-                    </a>
+                    </A>
                   </div>
                   <div className="blog-content_cta-visual">
                     <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" sizes="(max-width: 524px) 100vw, 524px" srcSet="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing-p-500.avif 500w, /_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif 524w" alt="Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app." className="img-cover" />
@@ -1059,7 +1059,7 @@ export default function S10BestSquareAlternatives() {
                   <div className="body-s">Follow us</div>
                   <ul role="list" className="blog-author_social-list">
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.linkedin.com/in/adamharrisonguild/" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <g clipPath="url(#clip0_7845_2874)">
                             <path d="M24 12.2266C24 5.59915 18.6274 0.226562 12 0.226562C5.37258 0.226562 0 5.59915 0 12.2266C0 18.854 5.37258 24.2266 12 24.2266C18.6274 24.2266 24 18.854 24 12.2266Z" fill="#090A0B" />
@@ -1075,7 +1075,7 @@ export default function S10BestSquareAlternatives() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://www.youtube.com/@owner-com" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M19.7442 9.85032C19.6498 8.93879 19.4465 7.93113 18.6986 7.40158C18.1193 6.99093 17.3579 6.97575 16.647 6.97659C15.1444 6.97659 13.6409 6.97912 12.1383 6.97997C10.693 6.98165 9.24767 6.9825 7.80238 6.98418C7.19863 6.98418 6.61174 6.9378 6.05099 7.1992C5.5695 7.4235 5.19258 7.85018 4.96575 8.32492C4.65123 8.98517 4.58546 9.73311 4.54751 10.4633C4.47752 11.7931 4.48511 13.1263 4.56859 14.4552C4.63015 15.4249 4.78614 16.4967 5.53578 17.1147C6.20024 17.662 7.13791 17.689 7.99969 17.6898C10.7351 17.6924 13.4714 17.6949 16.2077 17.6966C16.5585 17.6974 16.9244 17.6907 17.282 17.6519C17.9852 17.576 18.6556 17.3745 19.1076 16.8533C19.5637 16.328 19.681 15.5969 19.7501 14.9046C19.9188 13.2249 19.9171 11.5292 19.7442 9.85032ZM10.5564 14.6913V9.98186L14.6342 12.3362L10.5564 14.6913Z" fill="white" />
@@ -1083,7 +1083,7 @@ export default function S10BestSquareAlternatives() {
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" className="blog-social_link w-inline-block">
+                      <a href="https://x.com/adamguild" rel="noopener noreferrer" target="_blank" className="blog-social_link w-inline-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 24 25" fill="none" className="icon_24">
                           <rect y="0.226562" width="24" height="24" rx="12" fill="#090A0B" />
                           <path d="M4.53448 5.47656L10.0687 12.8759L4.5 18.8921H5.75365L10.6295 13.6251L14.5687 18.8921H18.8341L12.9888 11.0765L18.1724 5.47656H16.9187L12.4288 10.3273L8.80073 5.47656H4.53531H4.53448ZM6.37752 6.3998H8.3366L16.9894 17.9689H15.0303L6.37752 6.3998Z" fill="white" />
@@ -1154,9 +1154,9 @@ export default function S10BestSquareAlternatives() {
                     </div>
                     <div className="body-m">Discover why our new partners increase online sales by an average of 270% in their first three months.</div>
                   </div>
-                  <a data-button-instance="" className="btn w-inline-block">
+                  <A href="/demo" data-button-instance="" className="btn w-inline-block">
                     <div data-button-text="" className="btn-text">Get a free demo</div>
-                  </a>
+                  </A>
                 </div>
                 <div className="blog-content_cta-visual">
                   <img src="/_ext/cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69c6d82d24bcb2f1a7579a3a_next-marketing.avif" loading="lazy" alt="" className="img-cover w-dyn-bind-empty" />
@@ -1302,7 +1302,7 @@ export default function S10BestSquareAlternatives() {
                     </div>
                   </div>
                 </div>
-                <a data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
+                <a href="https://grader.owner.com/?ref=blog" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block is-link is-green">
                   <div data-button-text="" className="btn-text">{"See your website's grade"}</div>
                 </a>
               </div>

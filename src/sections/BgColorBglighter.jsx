@@ -46,7 +46,7 @@ export default function BgColorBglighter() {
                           </g>
                         </g>
                       </g>
-                      <mask id="__lottie_element_3_1" maskType="alpha">
+                      <mask id="__lottie_element_3_1" mask-type="alpha">
                         <use href="#__lottie_element_3" />
                       </mask>
                       <g id="__lottie_element_31">
@@ -56,7 +56,7 @@ export default function BgColorBglighter() {
                           </g>
                         </g>
                       </g>
-                      <mask id="__lottie_element_31_1" maskType="alpha">
+                      <mask id="__lottie_element_31_1" mask-type="alpha">
                         <use href="#__lottie_element_31" />
                       </mask>
                       <clipPath id="__lottie_element_62">

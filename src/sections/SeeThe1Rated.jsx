@@ -42,7 +42,7 @@ export default function SeeThe1Rated() {
             </div>
           </div>
           <div className="demo_wrap-btn">
-            <a data-button-instance="" target="_blank" className="btn w-inline-block">
+            <a href="https://owner.partnerstack.com/?group=referralpartnerprogram" rel="noopener noreferrer" data-button-instance="" target="_blank" className="btn w-inline-block">
               <div data-button-text="" className="btn-text">Apply to be a partner</div>
             </a>
           </div>
