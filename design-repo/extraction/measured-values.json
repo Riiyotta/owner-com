@@ -10896,107 +10896,107 @@
   },
   "routeCoverage": {
     "capturedRoutes": 144,
-    "note": "Routes in `routes` are modelled. Routes below are NOT: they are linked from captured pages but have no modelled snapshot in this extraction, so they are explicitly out of scope. Generated pages must only link to modelled routes.",
+    "note": "Routes in `routes` are modelled. Routes below are NOT modelled; each status says why (redirect / 404-on-live / external-file / built-not-modelled). Generated pages must only link to modelled routes.",
     "excludedRoutes": [
       {
         "route": "/demo",
-        "status": "out-of-scope",
-        "reason": "a snapshot exists in the evidence mirror but the section extractor produced no sections for it (same demo-control header + layout as /pos-demo); left unmodelled rather than citing line ranges that were not measured."
+        "status": "built-not-modelled",
+        "reason": "built in the clone (src/pages/Demo.jsx, the live A/B variant overlay) on 2026-10-09; not modelled here: the section extractor found no sections and its one-off overlay has no measured citations."
       },
       {
         "route": "/blog/ottavios-pizza-marketing-case-study",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /case-studies (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/menu-description",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /online-menu (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/third-party-delivery-services",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/doordash-alternatives-for-restaurants",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/how-much-does-doordash-charge-restaurants",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /blog/third-party-vs-direct-ordering (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/case-studies/aburaya",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "404-on-live",
+        "reason": "returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original."
       },
       {
         "route": "/blog/restaurants-delivery-fee",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "404-on-live",
+        "reason": "returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original."
       },
       {
         "route": "/comparison/toast-vs-owner",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /blog/toast-competitors (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/demo-schedule",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /demo (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/ubereats-doordash-grubhub",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/restaurant-menu-design-templates",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /blog/how-to-make-a-menu (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/uber-eats-alternatives",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/blog/restaurant-industry",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "404-on-live",
+        "reason": "returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original."
       },
       {
         "route": "/downloads/restaurant-growth-checklist",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "404-on-live",
+        "reason": "returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original."
       },
       {
         "route": "/comparison/square-vs-owner",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /blog/square-pos-system-cost (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/comparison/clover-vs-owner",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /blog/toast-vs-clover (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/case-studies/the-modern-vegan",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "redirect",
+        "reason": "301/302 on the live site to /case-studies (checked 2026-10-09); the clone serves a client redirect (src/redirects.json)."
       },
       {
         "route": "/culture-deck",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "external-file",
+        "reason": "redirects on the live site to a file on another host (https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8267_0d0ae9f128bbd2b02cb4a65e4199c710_Owner-Culture-Deck.pdf); linked as an outbound link."
       },
       {
         "route": "/blog/97-best-burrito-captions-for-instagram",
-        "status": "out-of-scope",
-        "reason": "linked from captured pages but never snapshotted; not part of this extraction."
+        "status": "404-on-live",
+        "reason": "returns 404 on the live site (checked 2026-10-09); links to it stay outbound to the live URL, as broken as on the original."
       }
     ]
   }

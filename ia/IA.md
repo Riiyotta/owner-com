@@ -2,18 +2,18 @@
 
 Source: https://www.owner.com/ · website-builder crawl, 2026-10-06T09:06:08Z
 Status: **measured-from-mirror** · production approved: **false**
-144 routes · 25 templates · 67 unique sections
+145 routes · 26 templates · 69 unique sections
 
 > Generated from `ia.json` by `build.mjs`. Edit the JSON, not this file.
 
 ## Shape of the site
 
-The largest 3 templates (Blog pages, Case studies pages, Group) account for 107 of 144 routes (74%). The remaining 37 routes span 22 templates.
+The largest 3 templates (Blog pages, Case studies pages, Group) account for 107 of 145 routes (74%). The remaining 38 routes span 23 templates.
 
 | template | routes | share |
 |---|---:|---:|
 | Blog pages | 72 | 50% |
-| Case studies pages | 18 | 13% |
+| Case studies pages | 18 | 12% |
 | Group | 17 | 12% |
 | Group | 7 | 5% |
 | Blog category pages | 5 | 3% |
@@ -37,12 +37,15 @@ The largest 3 templates (Blog pages, Case studies pages, Group) account for 107 
 | Blog | 1 | 1% |
 | Support | 1 | 1% |
 | Reorders | 1 | 1% |
+| Demo request | 1 | 1% |
 
 ## Page chrome
 
 **140 routes carry chrome = `full`** — Home, Group, Group, How owner works, Group, Delivery, Pos, Mobile, Our story, Careers, Leadership, Press, Reviews, D, Case studies, Blog, Support, Case studies pages, Blog pages, Reorders, Blog category pages, Group.
 
 **4 routes carry chrome = `partial`** — Builders wanted, Partner request, Group.
+
+**1 routes carry chrome = `none`** — Demo request.
 
 ## Sections by reuse
 
@@ -118,10 +121,12 @@ component library or stays local to its page.
 | `showcase.section-s-d-gtm` | SHOWCASE | 1 | 1 | `src/sections/OwnerSGTMApproach.jsx` | Appears on 1 route. |
 | `support.eng-steps-faq` | SUPPORT | 1 | 1 | `src/sections/EngStepsFaq.jsx` | Appears on 1 route. |
 | `support.section-about-help` | SUPPORT | 1 | 1 | `src/sections/Section23.jsx` | Appears on 1 route. |
+| `hero.demo-variant-modal` | HERO | 1 | 1 | `src/sections/DemoVariantModal.jsx` | Appears on 1 route. |
+| `content.demo-hidden-control` | CONTENT | 1 | 1 | `src/sections/DemoHiddenControl.jsx` | Appears on 1 route (hidden). |
 
 **12 shared sections** appear in more than one template and belong in a component library.
 
-**55 single-use sections** appear in exactly one template. Building these
+**57 single-use sections** appear in exactly one template. Building these
 as "reusable" components up front would be speculative — keep them page-local
 until a second caller actually appears.
 
@@ -490,6 +495,15 @@ until a second caller actually appears.
 | 3 | CONTENT | `content.section-base` | shared ×18 |
 | 4 | SHELL | `shell.section-footer` | shared ×22 |
 
+### Demo request — `template.demo`
+
+1 route · `/demo` · chrome: **none**
+
+| # | category | section | |
+|---:|---|---|---|
+| 1 | CONTENT | `content.demo-hidden-control` | page-local |
+| 2 | HERO | `hero.demo-variant-modal` | page-local |
+
 ## Section reference
 
 ### SHELL
@@ -587,6 +601,10 @@ _Page-opening block: the main headline (h1) and first call to action._
 **`hero.section-s-d-hero`** — "section-s-d_hero" — a <section> block named by its CSS class; first heading: "An inside look at our $240M Series D.". Typically 750px tall at 1440px wide.
 
 · Appears on 1 route. · appears on 1 routes · implemented by `src/sections/AnInsideLookAt.jsx`
+
+**`hero.demo-variant-modal`** — "spz-1004-v1" demo request overlay — the A/B variant live on /demo (2026-10-09): blurred dashboard background, white card with step dots, "Get a demo" and the qualifying questions, then the demo form. Full-viewport; card docks to the bottom under 768px.
+
+· Appears on 1 route. · appears on 1 routes · implemented by `src/sections/DemoVariantModal.jsx`
 
 ### PROOF
 
@@ -735,6 +753,10 @@ _The substantive body of a page: articles, listings, resources and general secti
 **`content.team`** — "team" — a <section> block named by its id. Typically 1940px tall at 1440px wide.
 
 · Appears on 1 route. · appears on 1 routes · implemented by `src/sections/Team.jsx`
+
+**`content.demo-hidden-control`** — The control variant's left column (logo, headline, coverage cards, rating, testimonial), present in the /demo markup but display:none under the live A/B variant.
+
+· Appears on 1 route (hidden). · appears on 1 routes · implemented by `src/sections/DemoHiddenControl.jsx`
 
 ### CTA
 

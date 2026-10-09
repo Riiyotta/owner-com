@@ -5,9 +5,25 @@
     "status": "measured-from-mirror",
     "mirror": "website-builder crawl, 2026-10-06T09:06:08Z",
     "productionApproved": false,
-    "totalRoutes": 144,
-    "totalTemplates": 25,
-    "generatedBy": "website-builder: section names come from the page's own markup (data attributes, React component names, ids, classes, landmarks); categories are keyword heuristics"
+    "totalRoutes": 145,
+    "totalTemplates": 26,
+    "generatedBy": "website-builder: section names come from the page's own markup (data attributes, React component names, ids, classes, landmarks); categories are keyword heuristics",
+    "redirects": {
+      "/blog/ottavios-pizza-marketing-case-study": "/case-studies",
+      "/blog/menu-description": "/online-menu",
+      "/blog/third-party-delivery-services": "/delivery",
+      "/blog/doordash-alternatives-for-restaurants": "/delivery",
+      "/blog/how-much-does-doordash-charge-restaurants": "/blog/third-party-vs-direct-ordering",
+      "/comparison/toast-vs-owner": "/blog/toast-competitors",
+      "/blog/ubereats-doordash-grubhub": "/delivery",
+      "/blog/restaurant-menu-design-templates": "/blog/how-to-make-a-menu",
+      "/blog/uber-eats-alternatives": "/delivery",
+      "/comparison/square-vs-owner": "/blog/square-pos-system-cost",
+      "/comparison/clover-vs-owner": "/blog/toast-vs-clover",
+      "/case-studies/the-modern-vegan": "/case-studies",
+      "/demo-schedule": "/demo",
+      "/culture-deck": "https://cdn.prod.website-files.com/69b9330c8b70142e4e5f7d3c/69b9330c8b70142e4e5f8267_0d0ae9f128bbd2b02cb4a65e4199c710_Owner-Culture-Deck.pdf"
+    }
   },
   "categories": {
     "SHELL": "Site chrome: navigation, header, footer, announcement bars and other elements carried across pages.",
@@ -993,6 +1009,24 @@
         "src/sections/QuotesFromInvestors.jsx",
         "src/sections/WhatRestaurantOwnersSay.jsx"
       ]
+    },
+    "hero.demo-variant-modal": {
+      "category": "HERO",
+      "description": "\"spz-1004-v1\" demo request overlay — the A/B variant live on /demo (2026-10-09): blurred dashboard background, white card with step dots, \"Get a demo\" and the qualifying questions, then the demo form. Full-viewport; card docks to the bottom under 768px.",
+      "scope": "Appears on 1 route.",
+      "implementedBy": "src/sections/DemoVariantModal.jsx",
+      "implementedByAll": [
+        "src/sections/DemoVariantModal.jsx"
+      ]
+    },
+    "content.demo-hidden-control": {
+      "category": "CONTENT",
+      "description": "The control variant's left column (logo, headline, coverage cards, rating, testimonial), present in the /demo markup but display:none under the live A/B variant.",
+      "scope": "Appears on 1 route (hidden).",
+      "implementedBy": "src/sections/DemoHiddenControl.jsx",
+      "implementedByAll": [
+        "src/sections/DemoHiddenControl.jsx"
+      ]
     }
   },
   "templates": [
@@ -1550,6 +1584,21 @@
         "shell.section-footer"
       ],
       "generationEligible": true,
+      "evidenceOnly": false
+    },
+    {
+      "id": "template.demo",
+      "name": "Demo request",
+      "routeCount": 1,
+      "routes": [
+        "/demo"
+      ],
+      "chrome": "none",
+      "sections": [
+        "content.demo-hidden-control",
+        "hero.demo-variant-modal"
+      ],
+      "generationEligible": false,
       "evidenceOnly": false
     }
   ]
