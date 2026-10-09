@@ -6,3 +6,11 @@ design-repo.zip
 qa/parity/*.png
 recon/
 recon
+
+# Not part of the clone deliverable structure (kept locally only)
+README.md
+CLONE.md
+Browse.command
+clone-manifest.json
+qa/
+scripts/
