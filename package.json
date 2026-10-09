@@ -11,7 +11,6 @@
     "ia:build": "node ia/build.mjs",
     "verify": "python3 design-repo/extraction/verify_all.py",
     "drift": "python3 design-repo/extraction/prove_drift.py",
-    "ir:validate": "python3 ir/validate_ir.py",
     "mirror": "python3 recon/mirror/_serve.py",
     "browse": "vite --open"
   },
