@@ -123,3 +123,40 @@ export function homepageForms(env) {
 }
 
 export const reducedMotion = prefersReducedMotion;
+
+// Homepage IX2 PAGE_START event e-212 -> action list a-64 "grader-phone -> loop" (webflow.33d7b28c), loop: true.
+// IX2 plays action groups one after another; the first group is the initial state (useFirstGroupAsInitialState):
+//   init  .hp-phone_phone-load opacity 0
+//   g2    .hp-hero_phone-feed y -33%   delay .5s, 2s inOutCubic
+//   g3    feed y -54%                  delay 2s,  2s inOutCubic
+//   g4    feed opacity 0 + load opacity 1   delay 3s, 1s ease
+//   g5    feed y 0 (instant)
+//   g6    feed opacity 1 + load opacity 0   delay 1s, 1s ease
+// Live /: the feed holds, then steps up by ratio 33:54 with eased moves, load overlay at opacity 0 in between.
+export function graderPhone(env) {
+  if (!env.flags.has("ix3-33d7b28c")) return;
+  const load = document.querySelector(".hp-phone_phone-load");
+  const feed = document.querySelector(".hp-hero_phone-feed");
+  if (!load || !feed) return;
+  const ease = (t) => { // CSS "ease" via a cubic-bezier solve
+    const p1x = 0.25, p1y = 0.1, p2x = 0.25, p2y = 1;
+    const bx = (u) => 3 * p1x * u * (1 - u) ** 2 + 3 * p2x * u * u * (1 - u) + u ** 3;
+    const by = (u) => 3 * p1y * u * (1 - u) ** 2 + 3 * p2y * u * u * (1 - u) + u ** 3;
+    let lo = 0, hi = 1, u = t;
+    for (let i = 0; i < 20; i++) { u = (lo + hi) / 2; bx(u) < t ? (lo = u) : (hi = u); }
+    return by(u);
+  };
+  // The capture froze the feed mid-move (inline translate3d(0, -15.69%, 0)); IX2 starts from the element's own 0.
+  gsap.set(feed, { clearProps: "transform" });
+  gsap.set(feed, { x: 0, y: 0, yPercent: 0 });
+  const tl = gsap.timeline({ repeat: -1 });
+  tl.set(load, { opacity: 0 })
+    .to(feed, { yPercent: -33, duration: 2, ease: "power2.inOut" }, "+=0.5")
+    .to(feed, { yPercent: -54, duration: 2, ease: "power2.inOut" }, "+=2")
+    .to(feed, { opacity: 0, duration: 1, ease }, "+=3")
+    .to(load, { opacity: 1, duration: 1, ease }, "<")
+    .set(feed, { yPercent: 0 })
+    .to(feed, { opacity: 1, duration: 1, ease }, "+=1")
+    .to(load, { opacity: 0, duration: 1, ease }, "<");
+  env.add(() => { tl.kill(); gsap.set([feed, load], { clearProps: "transform,opacity" }); });
+}

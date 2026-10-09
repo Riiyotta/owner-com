@@ -11,10 +11,12 @@ import accordion from "./accordion.js";
 import rotatingText from "./rotatingText.js";
 import slider from "./slider.js";
 import video from "./video.js";
+import lottie from "./lottie.js";
 import marquee from "./marquee.js";
 import odometer from "./odometer.js";
 import ownerAnimations from "./ownerAnimations.js";
-import { ixCta, ixVision, highlightText, modal, noScrollbar, homepageForms } from "./pageMotion.js";
+import { ixCta, ixVision, highlightText, modal, noScrollbar, homepageForms, graderPhone } from "./pageMotion.js";
+import revealGroup from "./revealGroup.js";
 
 const modules = [
   ["bodyLock", bodyLock],
@@ -22,6 +24,7 @@ const modules = [
   ["accordion", accordion],
   ["rotatingText", rotatingText, "rotating-text"],
   ["video", video],
+  ["lottie", lottie],
   ["slider", slider],
   ["marquee", marquee],
   ["odometer", odometer],
@@ -32,6 +35,8 @@ const modules = [
   ["ixCta", ixCta],
   ["ixVision", ixVision],
   ["highlightText", highlightText],
+  ["revealGroup", revealGroup],
+  ["graderPhone", graderPhone],
 ];
 
 export function initInteractions(pathname = window.location.pathname) {
