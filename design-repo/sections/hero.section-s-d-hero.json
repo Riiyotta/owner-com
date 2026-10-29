@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/AnInsideLookAt.jsx:5-72"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:2544-2833"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -63,5 +67,24 @@
   "implementedBy": "src/sections/AnInsideLookAt.jsx",
   "implementedByAll": [
     "src/sections/AnInsideLookAt.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:AnInsideLookAt",
+    "component": "AnInsideLookAt",
+    "file": "src/sections/AnInsideLookAt.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      72
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-s-d-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

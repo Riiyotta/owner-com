@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/EveryTypeOfLocal.jsx:5-63"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:3411-3469"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -69,5 +73,24 @@
   "implementedBy": "src/sections/EveryTypeOfLocal.jsx",
   "implementedByAll": [
     "src/sections/EveryTypeOfLocal.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:EveryTypeOfLocal",
+    "component": "EveryTypeOfLocal",
+    "file": "src/sections/EveryTypeOfLocal.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      63
+    ]
+  },
+  "semantic": {
+    "id": "content.section-s-d-future",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

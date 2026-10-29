@@ -1,0 +1,93 @@
+{
+  "id": "content.demo-hidden-control",
+  "category": "CONTENT",
+  "label": "demo-hidden-control",
+  "tag": "main",
+  "purpose": "The control version of the /demo page (left column pitch, rating, testimonial, embedded form). Not rendered: the live A/B variant hides it (display:none).",
+  "purposeIsInferred": false,
+  "nameSource": "clone-source",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/sections/DemoHiddenControl.jsx:10-36"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 17
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 0,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [
+    "logo",
+    "avatar"
+  ],
+  "contentPolicy": "Measured copy names real people, restaurants and quotes. Generated pages must write new, clearly fictional names and quotes, and use placeholder avatars and logos.",
+  "implementedBy": "src/sections/DemoHiddenControl.jsx",
+  "implementedByAll": [
+    "src/sections/DemoHiddenControl.jsx"
+  ],
+  "source": {
+    "id": "jsx:DemoHiddenControl",
+    "component": "DemoHiddenControl",
+    "file": "src/sections/DemoHiddenControl.jsx",
+    "tag": "main",
+    "lines": [
+      10,
+      36
+    ]
+  },
+  "semantic": {
+    "id": "content.demo-hidden-control",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Hidden A/B control markup (display:none on the live page and in the clone): never rendered, so it is not retrievable page content.",
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "avatar.fictional-person",
+    "brand.placeholder-mark"
+  ],
+  "layout": {
+    "inFlow": false
+  }
+}

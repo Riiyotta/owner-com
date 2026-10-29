@@ -1,0 +1,91 @@
+{
+  "id": "hero.legal-header",
+  "category": "HERO",
+  "label": "legal-header",
+  "tag": "div",
+  "purpose": "Opens a legal document: its title and last-updated line.",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "hero.section-legal",
+    "instances": 7,
+    "routes": 7,
+    "measuredFrom": [
+      "src/sections/PrivacyPolicy.jsx:46-48",
+      "src/sections/WebsiteTerms.jsx:46-48",
+      "src/sections/Disclaimer.jsx:46-48",
+      "src/sections/RestaurantParticipationAgree.jsx:46-48",
+      "src/sections/PlatformTerms.jsx:46-48"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 152,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/PrivacyPolicy.jsx",
+  "implementedByAll": [
+    "src/sections/PrivacyPolicy.jsx",
+    "src/sections/WebsiteTerms.jsx",
+    "src/sections/Disclaimer.jsx",
+    "src/sections/RestaurantParticipationAgree.jsx",
+    "src/sections/PlatformTerms.jsx",
+    "src/sections/Accessibility.jsx",
+    "src/sections/CopyrightPolicy.jsx"
+  ],
+  "source": {
+    "id": "jsx:PrivacyPolicy#.u-mb-40",
+    "component": "PrivacyPolicy",
+    "file": "src/sections/PrivacyPolicy.jsx",
+    "tag": "div",
+    "lines": [
+      46,
+      48
+    ]
+  },
+  "semantic": {
+    "id": "hero.legal-header",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
+}

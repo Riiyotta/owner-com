@@ -1,0 +1,83 @@
+{
+  "id": "proof.reviews-wall-header",
+  "category": "PROOF",
+  "label": "reviews-wall-header",
+  "tag": "div",
+  "purpose": "Heading and intro of the /reviews review wall.",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "proof.section-reviews",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/sections/ActualReviewsFromRestaurant.jsx:8-19"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 15
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "canvas-animation",
+      "css-animation",
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 162,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/sections/ActualReviewsFromRestaurant.jsx",
+  "implementedByAll": [
+    "src/sections/ActualReviewsFromRestaurant.jsx"
+  ],
+  "source": {
+    "id": "jsx:ActualReviewsFromRestaurant#.reviews_header",
+    "component": "ActualReviewsFromRestaurant",
+    "file": "src/sections/ActualReviewsFromRestaurant.jsx",
+    "tag": "div",
+    "lines": [
+      8,
+      19
+    ]
+  },
+  "semantic": {
+    "id": "proof.reviews-wall-header",
+    "category": "PROOF"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
+}

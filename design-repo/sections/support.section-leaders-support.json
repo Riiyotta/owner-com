@@ -11,9 +11,14 @@
     "instances": 2,
     "routes": 2,
     "measuredFrom": [
+      "src/sections/WhatRestaurantOwnersSay.jsx:5-70",
+      "src/sections/QuotesFromInvestors.jsx:5-55"
+    ],
+    "reconMeasuredFrom": [
       "src/leadership/index.html:2853-2887",
       "src/pos/index.html:2691-2736"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -71,9 +76,31 @@
   "assetRoles": [
     "background"
   ],
-  "implementedBy": "src/sections/QuotesFromInvestors.jsx",
+  "implementedBy": "src/sections/WhatRestaurantOwnersSay.jsx",
   "implementedByAll": [
-    "src/sections/QuotesFromInvestors.jsx",
-    "src/sections/WhatRestaurantOwnersSay.jsx"
-  ]
+    "src/sections/WhatRestaurantOwnersSay.jsx",
+    "src/sections/QuotesFromInvestors.jsx"
+  ],
+  "source": {
+    "id": "jsx:WhatRestaurantOwnersSay",
+    "component": "WhatRestaurantOwnersSay",
+    "file": "src/sections/WhatRestaurantOwnersSay.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      70
+    ]
+  },
+  "semantic": {
+    "id": "support.section-leaders-support",
+    "category": "SUPPORT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

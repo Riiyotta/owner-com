@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/EngSectionEngHero.jsx:5-62"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:954-1009"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -72,5 +76,28 @@
   "implementedBy": "src/sections/EngSectionEngHero.jsx",
   "implementedByAll": [
     "src/sections/EngSectionEngHero.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:EngSectionEngHero",
+    "component": "EngSectionEngHero",
+    "file": "src/sections/EngSectionEngHero.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      62
+    ]
+  },
+  "semantic": {
+    "id": "hero.eng-section-eng-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

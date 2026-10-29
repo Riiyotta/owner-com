@@ -11,9 +11,13 @@
     "instances": 2,
     "routes": 2,
     "measuredFrom": [
+      "src/sections/DemoControlHeader.jsx:7-11"
+    ],
+    "reconMeasuredFrom": [
       "src/loyalty-programs-demo/index.html:354-358",
       "src/pos-demo/index.html:354-358"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -61,5 +65,27 @@
   "implementedBy": "src/sections/DemoControlHeader.jsx",
   "implementedByAll": [
     "src/sections/DemoControlHeader.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:DemoControlHeader",
+    "component": "DemoControlHeader",
+    "file": "src/sections/DemoControlHeader.jsx",
+    "tag": "header",
+    "lines": [
+      7,
+      11
+    ]
+  },
+  "semantic": {
+    "id": "shell.demo-control-header",
+    "category": "SHELL"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "brand.placeholder-mark"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

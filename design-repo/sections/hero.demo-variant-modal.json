@@ -1,0 +1,92 @@
+{
+  "id": "hero.demo-variant-modal",
+  "category": "HERO",
+  "label": "demo-variant-modal",
+  "tag": "section",
+  "purpose": "The visible /demo UI: a full-screen fixed overlay card with step dots, two qualifying questions and the demo request form.",
+  "purposeIsInferred": false,
+  "nameSource": "clone-source",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/sections/DemoVariantModal.jsx:50-194"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 15
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 2,
+        "maxWords": 6
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 7,
+        "maxWords": 88
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 900,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [
+    "logo",
+    "background"
+  ],
+  "implementedBy": "src/sections/DemoVariantModal.jsx",
+  "implementedByAll": [
+    "src/sections/DemoVariantModal.jsx"
+  ],
+  "source": {
+    "id": "jsx:DemoVariantModal",
+    "component": "DemoVariantModal",
+    "file": "src/sections/DemoVariantModal.jsx",
+    "tag": "section",
+    "lines": [
+      50,
+      194
+    ]
+  },
+  "semantic": {
+    "id": "hero.demo-variant-modal",
+    "category": "HERO"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Runtime full-screen overlay (position:fixed modal card with a multi-step demo form): interactive runtime UI, not retrievable page content.",
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "brand.placeholder-mark",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": false
+  }
+}

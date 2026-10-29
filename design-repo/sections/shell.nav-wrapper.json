@@ -11,12 +11,20 @@
     "instances": 141,
     "routes": 141,
     "measuredFrom": [
+      "src/sections/NavWrapper.jsx:7-412",
+      "src/sections/NavWrapper2.jsx:7-412",
+      "src/sections/NavWrapper3.jsx:7-412",
+      "src/sections/NavWrapper4.jsx:7-412",
+      "src/sections/NavWrapper5.jsx:7-412"
+    ],
+    "reconMeasuredFrom": [
       "src/index.html:1939-2411",
       "src/accessibility/index.html:1775-2247",
       "src/ai-phone-ordering/index.html:1714-2185",
       "src/automatic-marketing/index.html:1949-2421",
       "src/blog/index.html:1685-2157"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -77,12 +85,17 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/sections/NavWrapper2.jsx",
+  "implementedBy": "src/sections/NavWrapper.jsx",
   "implementedByAll": [
-    "src/sections/NavWrapper2.jsx",
-    "src/sections/NavWrapper37.jsx",
-    "src/sections/NavWrapper38.jsx",
     "src/sections/NavWrapper.jsx",
+    "src/sections/NavWrapper2.jsx",
+    "src/sections/NavWrapper3.jsx",
+    "src/sections/NavWrapper4.jsx",
+    "src/sections/NavWrapper5.jsx",
+    "src/sections/NavWrapper6.jsx",
+    "src/sections/NavWrapper7.jsx",
+    "src/sections/NavWrapper8.jsx",
+    "src/sections/NavWrapper9.jsx",
     "src/sections/NavWrapper10.jsx",
     "src/sections/NavWrapper11.jsx",
     "src/sections/NavWrapper12.jsx",
@@ -103,7 +116,6 @@
     "src/sections/NavWrapper27.jsx",
     "src/sections/NavWrapper28.jsx",
     "src/sections/NavWrapper29.jsx",
-    "src/sections/NavWrapper3.jsx",
     "src/sections/NavWrapper30.jsx",
     "src/sections/NavWrapper31.jsx",
     "src/sections/NavWrapper32.jsx",
@@ -111,11 +123,29 @@
     "src/sections/NavWrapper34.jsx",
     "src/sections/NavWrapper35.jsx",
     "src/sections/NavWrapper36.jsx",
-    "src/sections/NavWrapper4.jsx",
-    "src/sections/NavWrapper5.jsx",
-    "src/sections/NavWrapper6.jsx",
-    "src/sections/NavWrapper7.jsx",
-    "src/sections/NavWrapper8.jsx",
-    "src/sections/NavWrapper9.jsx"
-  ]
+    "src/sections/NavWrapper37.jsx",
+    "src/sections/NavWrapper38.jsx"
+  ],
+  "source": {
+    "id": "jsx:NavWrapper",
+    "component": "NavWrapper",
+    "file": "src/sections/NavWrapper.jsx",
+    "tag": "div",
+    "lines": [
+      7,
+      412
+    ]
+  },
+  "semantic": {
+    "id": "shell.nav-wrapper",
+    "category": "SHELL"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

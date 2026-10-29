@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/OwnerSGTMApproach.jsx:5-111"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:3470-3741"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -57,5 +61,24 @@
   "implementedBy": "src/sections/OwnerSGTMApproach.jsx",
   "implementedByAll": [
     "src/sections/OwnerSGTMApproach.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:OwnerSGTMApproach",
+    "component": "OwnerSGTMApproach",
+    "file": "src/sections/OwnerSGTMApproach.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      111
+    ]
+  },
+  "semantic": {
+    "id": "showcase.section-s-d-gtm",
+    "category": "SHOWCASE"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/CsIndexHead.jsx:5-52"
+    ],
+    "reconMeasuredFrom": [
       "src/case-studies/index.html:2161-2217"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -70,5 +74,26 @@
   "implementedBy": "src/sections/CsIndexHead.jsx",
   "implementedByAll": [
     "src/sections/CsIndexHead.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:CsIndexHead",
+    "component": "CsIndexHead",
+    "file": "src/sections/CsIndexHead.jsx",
+    "tag": "div",
+    "lines": [
+      5,
+      52
+    ]
+  },
+  "semantic": {
+    "id": "hero.cs-index-head",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "logo.placeholder-company"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

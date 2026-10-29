@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/ProtectTheFutureOf.jsx:7-147"
+    ],
+    "reconMeasuredFrom": [
       "src/careers/index.html:2396-2560"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -81,5 +85,28 @@
   "implementedBy": "src/sections/ProtectTheFutureOf.jsx",
   "implementedByAll": [
     "src/sections/ProtectTheFutureOf.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:ProtectTheFutureOf",
+    "component": "ProtectTheFutureOf",
+    "file": "src/sections/ProtectTheFutureOf.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      147
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-career-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

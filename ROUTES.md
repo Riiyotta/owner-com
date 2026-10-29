@@ -2,7 +2,7 @@
 
 Source: https://www.owner.com/
 
-144 captured route(s). Generated from `design-repo/extraction/measured-values.json` (the citation ledger, the single source of truth for each route's template): do not edit by hand. The evidence for each route is its snapshot under `recon/mirror/src/`.
+145 captured route(s). Generated from `design-repo/extraction/measured-values.json` (the citation ledger, the single source of truth for each route's template): do not edit by hand. The evidence for each route is its page component (`file` in the ledger, under `src/pages/`) and the section components it renders.
 
 | Route | Template |
 |---|---|
@@ -150,14 +150,14 @@ Source: https://www.owner.com/
 | `/blog/how-to-increase-restaurant-sales` | template.blog-2 |
 | `/blog/how-to-create-a-restaurant-marketing-plan` | template.blog-2 |
 | `/blog/toast-vs-square` | template.blog-2 |
+| `/demo` | template.demo |
 
 ## Excluded routes (20)
 
-Linked from captured pages but not modelled in the design-repo; the status says why (see `routeCoverage` in `design-repo/extraction/measured-values.json`). `/demo` is built in the clone; redirects are served as client redirects.
+Linked from captured pages but not modelled in the design-repo; the status says why (see `routeCoverage` in `design-repo/extraction/measured-values.json`). redirects are served as client redirects.
 
 | Route | Status | Detail |
 |---|---|---|
-| `/demo` | built-not-modelled | built in the clone (src/pages/Demo.jsx, the live A/B variant overlay) on 2026-10-09; not modelled here: the section extractor found no sections and its one-off overlay has no measured citations. |
 | `/blog/ottavios-pizza-marketing-case-study` | redirect | 301/302 on the live site to /case-studies (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
 | `/blog/menu-description` | redirect | 301/302 on the live site to /online-menu (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |
 | `/blog/third-party-delivery-services` | redirect | 301/302 on the live site to /delivery (checked 2026-10-09); the clone serves a client redirect (src/redirects.json). |

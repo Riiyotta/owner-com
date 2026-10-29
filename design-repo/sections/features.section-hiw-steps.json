@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/BgColorBglighter.jsx:7-589"
+    ],
+    "reconMeasuredFrom": [
       "src/how-owner-works/index.html:2420-3113"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -72,5 +76,27 @@
   "implementedBy": "src/sections/BgColorBglighter.jsx",
   "implementedByAll": [
     "src/sections/BgColorBglighter.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:BgColorBglighter",
+    "component": "BgColorBglighter",
+    "file": "src/sections/BgColorBglighter.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      589
+    ]
+  },
+  "semantic": {
+    "id": "features.section-hiw-steps",
+    "category": "FEATURES"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

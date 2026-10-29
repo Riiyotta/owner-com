@@ -1,0 +1,91 @@
+{
+  "policyId": "n0-saas-design-constraints-common",
+  "policyVersion": "0.1.0",
+  "commonIrVersion": "0.5",
+  "bindingType": "bound-to-common-policy",
+  "title": "Binding of the owner.com marketing design-repo to the N0 common SaaS design-constraint policy",
+  "classification": {
+    "productCategory": "saas",
+    "productDomain": "restaurant-online-ordering-and-marketing",
+    "marketModel": "vertical B2B SaaS: restaurants (independent operators) pay a monthly subscription (Flat / Flex plans) for websites, online ordering, POS, marketing automation and a reporting dashboard. Diners use the restaurants' branded sites and apps, but the marketing site's buyer is the restaurant owner.",
+    "isSaaS": true,
+    "surfaces": [
+      "marketing-site",
+      "demo-request",
+      "legal"
+    ],
+    "audiences": [
+      "independent restaurant owners and operators",
+      "multi-location restaurant groups",
+      "partners / agencies",
+      "job seekers",
+      "press and investors"
+    ],
+    "evidence": [
+      {
+        "ref": "src/sections/IsHero.jsx:50",
+        "claim": "pricing tiers sold as a subscription: 'Lower subscription with a small per-order fee'"
+      },
+      {
+        "ref": "src/sections/IsHero.jsx:55",
+        "claim": "plan price billed '/month'"
+      },
+      {
+        "ref": "src/sections/IsHero.jsx:80",
+        "claim": "second named tier 'Flat Rate'"
+      },
+      {
+        "ref": "src/sections/YourTopQuestionsAnswered.jsx:60",
+        "claim": "FAQ: Flat plan = monthly subscription, Flex plan = lower subscription + per-order fee"
+      },
+      {
+        "ref": "src/sections/NavWrapper.jsx:397",
+        "claim": "customer login goes to a hosted web app (dashboard.owner.com)"
+      },
+      {
+        "ref": "src/sections/YourRestaurantSNumbers.jsx:33",
+        "claim": "product = one dashboard of sales, SEO rankings, reviews and order sources"
+      },
+      {
+        "ref": "src/routes.js:27",
+        "claim": "B2B integrations page (/pos-integrations)"
+      },
+      {
+        "ref": "src/routes.js:25",
+        "claim": "reporting and analytics product page"
+      },
+      {
+        "ref": "src/sections/TrustedByOwners.jsx:35",
+        "claim": "audience is restaurant businesses ('a must-have for succeeding online as an independent restaurant')"
+      },
+      {
+        "ref": "src/sections/NavWrapper.jsx:401",
+        "claim": "sales-led conversion: 'Get a free demo' (template.demo, template.group-4)"
+      }
+    ],
+    "notConsumer": "Not a consumer app or a marketplace: there is no diner-facing account, no two-sided matching and no app-store download for diners on this site; the branded apps are a product the restaurant buys."
+  },
+  "generationRules": [
+    "PageSpecs declare mode clone | generation (schema/pagespec.schema.json). Generation pages may not contain owner.com identity, copy, claims, people, restaurant customers, source routes/URLs, live embeds or clone-only / blocked assets (schema/semantic_validate.py GENERATION_MODE_*; patterns in schema/source-identity.json built from the clone source; availability pinned in code).",
+    "Pages are composed only from the 26 templates and 80 section contracts; template node lists, compatibility rules and per-field word budgets are enforced (match_template, compatibility/graph.json).",
+    "Pricing / demo / conversion blocks keep their CTA or HERO classing; ratings, review counts, '#1 rated' marks and numeric growth claims are never fabricated or copied (GENERATION_MODE_CLAIM).",
+    "Style references are catalog tokens only (TOKEN_* rules in semantic_validate.py; tokens/llm/token-policy.json).",
+    "Runtime UI (the /demo overlay modal, hidden A/B control) is never retrievable content (PINNED_RETRIEVAL); no section may hold most of a page (extraction/wrapper_gate.py over measured heights)."
+  ],
+  "enforcedBy": [
+    "schema/pagespec.schema.json",
+    "schema/semantic_validate.py",
+    "schema/section-contract.schema.json",
+    "schema/source-identity.json",
+    "assets/asset-roles.json",
+    "compatibility/graph.json",
+    "tokens/llm/token-policy.json",
+    "extraction/wrapper_gate.py"
+  ],
+  "contentHashNote": "registry.manifest.json designPolicy.contentHash = sha256 over the files listed in enforcedBy (sorted by path; each contributes its path, a NUL byte, its bytes and a NUL byte). verify_all.py recomputes it. The text of the common policy n0-saas-design-constraints-common itself is not shipped in this repo and was not available to this build; the hash covers this repo's enforcing files, not the common policy document.",
+  "approval": {
+    "policyDecision": "bound-pending-architecture-review",
+    "architectureDecisionRecorded": false,
+    "note": "Classification (vertical B2B SaaS for restaurants) is an agent decision from the evidence above (agent attestation, not a human sign-off). A human architecture owner must ratify the binding."
+  }
+}

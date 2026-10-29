@@ -11,12 +11,16 @@
     "instances": 23,
     "routes": 23,
     "measuredFrom": [
+      "src/sections/TrustedByOwners.jsx:7-1335"
+    ],
+    "reconMeasuredFrom": [
       "src/index.html:9728-11403",
       "src/ai-phone-ordering/index.html:2387-4062",
       "src/automatic-marketing/index.html:2757-4432",
       "src/branded-apps/index.html:2521-4196",
       "src/ca/pricing/index.html:4705-6380"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -88,5 +92,29 @@
   "implementedBy": "src/sections/TrustedByOwners.jsx",
   "implementedByAll": [
     "src/sections/TrustedByOwners.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:TrustedByOwners",
+    "component": "TrustedByOwners",
+    "file": "src/sections/TrustedByOwners.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      1335
+    ]
+  },
+  "semantic": {
+    "id": "proof.section-testimonials",
+    "category": "PROOF"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "avatar.fictional-person",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

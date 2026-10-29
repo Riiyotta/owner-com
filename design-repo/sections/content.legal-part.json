@@ -1,0 +1,92 @@
+{
+  "id": "content.legal-part",
+  "category": "CONTENT",
+  "label": "legal-part",
+  "tag": "div",
+  "purpose": "One heading-bounded part of a legal document (split before each h2, or h3 where a document has no h2; a document with no headings is one part).",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "hero.section-legal",
+    "instances": 96,
+    "routes": 7,
+    "measuredFrom": [
+      "src/sections/PrivacyPolicy.jsx:50-101",
+      "src/sections/PrivacyPolicy.jsx:102-189",
+      "src/sections/PrivacyPolicy.jsx:190-206",
+      "src/sections/PrivacyPolicy.jsx:207-251",
+      "src/sections/PrivacyPolicy.jsx:252-341"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 15
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 46,
+        "maxWords": 476
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": false,
+    "maxPerPage": 26
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 5502,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/PrivacyPolicy.jsx",
+  "implementedByAll": [
+    "src/sections/PrivacyPolicy.jsx",
+    "src/sections/WebsiteTerms.jsx",
+    "src/sections/Disclaimer.jsx",
+    "src/sections/RestaurantParticipationAgree.jsx",
+    "src/sections/PlatformTerms.jsx",
+    "src/sections/Accessibility.jsx",
+    "src/sections/CopyrightPolicy.jsx"
+  ],
+  "source": {
+    "id": "jsx:PrivacyPolicy#.text-rich-text",
+    "component": "PrivacyPolicy",
+    "file": "src/sections/PrivacyPolicy.jsx",
+    "tag": "div",
+    "lines": [
+      50,
+      101
+    ]
+  },
+  "semantic": {
+    "id": "content.legal-part",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
+}

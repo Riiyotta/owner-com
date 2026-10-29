@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/HowOwnerPOSTurns.jsx:5-91"
+    ],
+    "reconMeasuredFrom": [
       "src/pos/index.html:2600-2690"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -72,5 +76,27 @@
   "implementedBy": "src/sections/HowOwnerPOSTurns.jsx",
   "implementedByAll": [
     "src/sections/HowOwnerPOSTurns.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:HowOwnerPOSTurns",
+    "component": "HowOwnerPOSTurns",
+    "file": "src/sections/HowOwnerPOSTurns.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      91
+    ]
+  },
+  "semantic": {
+    "id": "features.section-pos-steps",
+    "category": "FEATURES"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

@@ -11,11 +11,17 @@
     "instances": 4,
     "routes": 4,
     "measuredFrom": [
+      "src/sections/S3BeliefsThatGuide.jsx:5-82",
+      "src/sections/Top3ReasonsTo.jsx:5-82",
+      "src/sections/Top3ReasonsTo2.jsx:5-67"
+    ],
+    "reconMeasuredFrom": [
       "src/index.html:11404-11467",
       "src/ca/pricing/index.html:4641-4704",
       "src/pos/index.html:2737-2797",
       "src/pricing/index.html:4641-4704"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -71,10 +77,32 @@
     "content-image"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/sections/Top3ReasonsTo.jsx",
+  "implementedBy": "src/sections/S3BeliefsThatGuide.jsx",
   "implementedByAll": [
-    "src/sections/Top3ReasonsTo.jsx",
     "src/sections/S3BeliefsThatGuide.jsx",
+    "src/sections/Top3ReasonsTo.jsx",
     "src/sections/Top3ReasonsTo2.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:S3BeliefsThatGuide",
+    "component": "S3BeliefsThatGuide",
+    "file": "src/sections/S3BeliefsThatGuide.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      82
+    ]
+  },
+  "semantic": {
+    "id": "proof.section-beliefs",
+    "category": "PROOF"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

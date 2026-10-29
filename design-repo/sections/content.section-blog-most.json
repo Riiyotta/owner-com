@@ -11,12 +11,20 @@
     "instances": 6,
     "routes": 6,
     "measuredFrom": [
+      "src/sections/MostRecent.jsx:7-120",
+      "src/sections/IsCategoryPage.jsx:7-279",
+      "src/sections/IsCategoryPage2.jsx:7-410",
+      "src/sections/IsCategoryPage3.jsx:7-410",
+      "src/sections/IsCategoryPage4.jsx:7-151"
+    ],
+    "reconMeasuredFrom": [
       "src/blog/index.html:2312-2426",
       "src/blog-category/increase-sales/index.html:2067-2346",
       "src/blog-category/industry-trends-data/index.html:2043-2354",
       "src/blog-category/marketing-strategy/index.html:2142-2563",
       "src/blog-category/restaurant-software/index.html:2117-2538"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -84,13 +92,35 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/sections/IsCategoryPage.jsx",
+  "implementedBy": "src/sections/MostRecent.jsx",
   "implementedByAll": [
+    "src/sections/MostRecent.jsx",
     "src/sections/IsCategoryPage.jsx",
     "src/sections/IsCategoryPage2.jsx",
     "src/sections/IsCategoryPage3.jsx",
     "src/sections/IsCategoryPage4.jsx",
-    "src/sections/IsCategoryPage5.jsx",
-    "src/sections/MostRecent.jsx"
-  ]
+    "src/sections/IsCategoryPage5.jsx"
+  ],
+  "source": {
+    "id": "jsx:MostRecent",
+    "component": "MostRecent",
+    "file": "src/sections/MostRecent.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      120
+    ]
+  },
+  "semantic": {
+    "id": "content.section-blog-most",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
   "rules": [
     {
@@ -16,73 +16,86 @@
       "severity": "error",
       "kind": "perPageLimits",
       "limits": {
-        "shell.nav-wrapper": 1,
-        "hero.section-hp-hero": 1,
-        "proof.section-stories": 1,
-        "content.section-owner-stack": 1,
-        "proof.section-reviews": 1,
-        "content.section-restaurant": 1,
-        "proof.section-testimonials": 1,
-        "proof.section-beliefs": 1,
-        "content.section-guides": 1,
-        "cta.section-cta": 1,
-        "shell.section-footer": 1,
-        "hero.section-legal": 1,
-        "content.section-base": 5,
-        "support.form": 1,
-        "hero.section-center-hero": 1,
-        "features.section-hiw-steps": 1,
-        "hero.section-product-hero": 1,
-        "hero.section-product-v-hero": 1,
-        "features.section-pos-steps": 1,
-        "support.section-leaders-support": 1,
-        "hero.section-about-hero": 1,
+        "content.article-author": 1,
+        "content.article-chapter": 23,
+        "content.article-cover": 1,
+        "content.article-key-takeaways": 1,
+        "content.article-sidebar": 1,
+        "content.block": 9,
+        "content.cs-index-list": 1,
+        "content.demo-hidden-control": 1,
+        "content.eng-lp-figure-wall": 1,
+        "content.eng-maxwdith": 1,
+        "content.legal-nav": 1,
+        "content.legal-part": 26,
+        "content.pres-cards-header": 1,
+        "content.ps": 1,
+        "content.roles": 1,
+        "content.s-d-summary-list": 1,
+        "content.s-d-video-box": 1,
+        "content.s-d-wrap": 1,
+        "content.section-about-how": 1,
         "content.section-about-local": 1,
         "content.section-about-stats": 1,
-        "content.section-about-how": 1,
         "content.section-about-vision": 1,
-        "support.section-about-help": 1,
-        "hero.section-career-hero": 1,
-        "cta.section-career-cta": 1,
-        "content.roles": 1,
-        "hero.section-leadership-hero": 1,
-        "hero.eng-section-eng-hero": 1,
-        "content.section-eng-intro": 1,
-        "content.section-eng-row": 3,
-        "features.section-eng-steps": 1,
-        "content.eng-maxwdith": 1,
-        "support.eng-steps-faq": 1,
-        "content.block": 9,
-        "content.eng-lp-figure-wall": 1,
-        "shell.eng-lp-footer": 1,
-        "content.pres-cards-header": 1,
-        "proof.press-cards-wrap": 1,
-        "hero.section-reviews-hero": 1,
-        "hero.section-demo": 1,
-        "hero.section-s-d-hero": 1,
-        "content.s-d-video-box": 1,
-        "content.s-d-summary-list": 1,
-        "content.section-s-d-about": 1,
-        "content.section-s-d-why-now": 1,
-        "content.section-s-d-the-problem": 1,
-        "content.s-d-wrap": 1,
-        "content.section-s-d-future": 1,
-        "showcase.section-s-d-gtm": 1,
-        "content.section-s-d-competition": 1,
-        "content.team": 1,
-        "content.section-why-sticky": 1,
-        "content.ps": 1,
-        "hero.cs-index-head": 1,
-        "content.cs-index-list": 1,
-        "hero.section-blog-hero": 1,
+        "content.section-base": 5,
+        "content.section-blog-categories": 1,
         "content.section-blog-most": 1,
         "content.section-blog-topics": 1,
-        "content.section-blog-categories": 1,
-        "shell.demo-control-header": 1,
+        "content.section-eng-intro": 1,
+        "content.section-eng-row": 3,
+        "content.section-guides": 1,
+        "content.section-owner-stack": 1,
+        "content.section-restaurant": 1,
+        "content.section-s-d-about": 1,
+        "content.section-s-d-competition": 1,
+        "content.section-s-d-future": 1,
+        "content.section-s-d-the-problem": 1,
+        "content.section-s-d-why-now": 1,
+        "content.section-why-sticky": 1,
+        "content.team": 1,
+        "cta.section-career-cta": 1,
+        "cta.section-cta": 1,
+        "features.section-eng-steps": 1,
+        "features.section-hiw-steps": 1,
+        "features.section-pos-steps": 1,
+        "hero.article-header": 1,
+        "hero.cs-index-head": 1,
         "hero.demo-control-layout": 1,
+        "hero.demo-variant-modal": 1,
+        "hero.eng-section-eng-hero": 1,
+        "hero.legal-header": 1,
+        "hero.section-about-hero": 1,
+        "hero.section-blog-hero": 1,
+        "hero.section-career-hero": 1,
+        "hero.section-center-hero": 1,
         "hero.section-cs-hero": 1,
-        "hero.section-blog-content": 1,
-        "hero.section-resource": 1
+        "hero.section-demo": 1,
+        "hero.section-hp-hero": 1,
+        "hero.section-leadership-hero": 1,
+        "hero.section-product-hero": 1,
+        "hero.section-product-v-hero": 1,
+        "hero.section-resource": 1,
+        "hero.section-reviews-hero": 1,
+        "hero.section-s-d-hero": 1,
+        "proof.press-cards-wrap": 1,
+        "proof.reviews-wall-cards": 4,
+        "proof.reviews-wall-header": 1,
+        "proof.reviews-wall-photo": 3,
+        "proof.section-beliefs": 1,
+        "proof.section-reviews": 1,
+        "proof.section-stories": 1,
+        "proof.section-testimonials": 1,
+        "shell.demo-control-header": 1,
+        "shell.eng-lp-footer": 1,
+        "shell.nav-wrapper": 1,
+        "shell.section-footer": 1,
+        "showcase.section-s-d-gtm": 1,
+        "support.article-faq": 1,
+        "support.eng-steps-faq": 1,
+        "support.form": 1,
+        "support.section-about-help": 1,
+        "support.section-leaders-support": 1
       },
       "description": "No section appears more often on one page than it does in any measured template."
     },
@@ -91,8 +104,8 @@
       "severity": "error",
       "kind": "mustBeFirst",
       "sections": [
-        "shell.nav-wrapper",
-        "shell.demo-control-header"
+        "shell.demo-control-header",
+        "shell.nav-wrapper"
       ],
       "description": "Sections that opened every template they appear in must be the first node."
     },
@@ -101,8 +114,8 @@
       "severity": "error",
       "kind": "mustBeLast",
       "sections": [
-        "shell.section-footer",
-        "shell.eng-lp-footer"
+        "shell.eng-lp-footer",
+        "shell.section-footer"
       ],
       "description": "Sections that closed every template they appear in must be the last node."
     },
@@ -121,6 +134,14 @@
         [
           "proof.section-testimonials",
           "proof.section-beliefs"
+        ],
+        [
+          "content.legal-nav",
+          "content.legal-part"
+        ],
+        [
+          "content.legal-part",
+          "content.section-base"
         ],
         [
           "proof.section-reviews",
@@ -169,6 +190,18 @@
         [
           "content.section-base",
           "content.pres-cards-header"
+        ],
+        [
+          "proof.reviews-wall-header",
+          "proof.reviews-wall-cards"
+        ],
+        [
+          "proof.reviews-wall-cards",
+          "proof.reviews-wall-photo"
+        ],
+        [
+          "proof.reviews-wall-photo",
+          "proof.reviews-wall-cards"
         ],
         [
           "content.block",
@@ -232,6 +265,22 @@
         ],
         [
           "content.section-blog-categories",
+          "content.section-base"
+        ],
+        [
+          "content.article-cover",
+          "content.article-key-takeaways"
+        ],
+        [
+          "content.article-key-takeaways",
+          "content.article-chapter"
+        ],
+        [
+          "content.article-author",
+          "content.article-sidebar"
+        ],
+        [
+          "content.article-sidebar",
           "content.section-base"
         ],
         [

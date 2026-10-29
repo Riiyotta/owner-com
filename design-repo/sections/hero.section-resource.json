@@ -11,11 +11,18 @@
     "instances": 4,
     "routes": 4,
     "measuredFrom": [
+      "src/sections/HowAntoinetteIncreasedDirec.jsx:7-327",
+      "src/sections/S3GoogleBusinessProfile.jsx:7-323",
+      "src/sections/Section64.jsx:7-323",
+      "src/sections/GetTheCondensedVersion.jsx:7-327"
+    ],
+    "reconMeasuredFrom": [
       "src/downloads/pizza-marketing-checklist/index.html:2017-3618",
       "src/resources/google-business-profile-tps/index.html:2020-3685",
       "src/resources/menu-engineering/index.html:2020-3684",
       "src/resources/ottavios-case-study/index.html:2019-3685"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -80,11 +87,33 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/GetTheCondensedVersion.jsx",
+  "implementedBy": "src/sections/HowAntoinetteIncreasedDirec.jsx",
   "implementedByAll": [
-    "src/sections/GetTheCondensedVersion.jsx",
     "src/sections/HowAntoinetteIncreasedDirec.jsx",
     "src/sections/S3GoogleBusinessProfile.jsx",
-    "src/sections/Section64.jsx"
-  ]
+    "src/sections/Section64.jsx",
+    "src/sections/GetTheCondensedVersion.jsx"
+  ],
+  "source": {
+    "id": "jsx:HowAntoinetteIncreasedDirec",
+    "component": "HowAntoinetteIncreasedDirec",
+    "file": "src/sections/HowAntoinetteIncreasedDirec.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      327
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-resource",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

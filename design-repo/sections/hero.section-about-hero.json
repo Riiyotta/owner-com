@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/HelpingLocalBusinessOwners.jsx:5-110"
+    ],
+    "reconMeasuredFrom": [
       "src/our-story/index.html:2392-2530"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -73,5 +77,28 @@
   "implementedBy": "src/sections/HelpingLocalBusinessOwners.jsx",
   "implementedByAll": [
     "src/sections/HelpingLocalBusinessOwners.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:HelpingLocalBusinessOwners",
+    "component": "HelpingLocalBusinessOwners",
+    "file": "src/sections/HelpingLocalBusinessOwners.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      110
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-about-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

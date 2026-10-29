@@ -1,6 +1,7 @@
 {
-  "version": "0.1.0",
-  "note": "The curated, referenceable view: semantic, component and layout tokens only. Foundation tokens are deliberately not exposed.",
+  "version": "0.2.0",
+  "generatedBy": "extraction/build_token_catalog.py",
+  "note": "The curated, referenceable view: semantic, component and layout tokens plus the supported font families. Foundation tokens are deliberately not exposed. Derived from the token files; verify_all.py fails if this file differs from a fresh build.",
   "categories": {
     "color": [
       "surface.default",
@@ -40,9 +41,8 @@
       "button.fontSize",
       "button.fontWeight",
       "button.borderWidth",
-      "link.color",
-      "link.textDecoration",
-      "link.fontWeight",
+      "image.radius",
+      "image.objectFit",
       "input.background",
       "input.color",
       "input.radius",
@@ -50,8 +50,9 @@
       "input.paddingY",
       "input.paddingX",
       "input.fontSize",
-      "image.radius",
-      "image.objectFit",
+      "link.color",
+      "link.textDecoration",
+      "link.fontWeight",
       "nav.background",
       "nav.color",
       "nav.paddingY"
@@ -73,6 +74,78 @@
       "layout.sectionPaddingBottom.shell",
       "layout.gridGap.shell",
       "layout.sectionPaddingBottom.showcase"
+    ],
+    "fontFamily": [
+      "STKBureauSans"
+    ]
+  },
+  "pageSpecSlots": {
+    "surface": {
+      "category": "color",
+      "prefix": "surface."
+    },
+    "text": {
+      "category": "color",
+      "prefix": "text."
+    },
+    "accent": {
+      "category": "color",
+      "prefix": "accent."
+    },
+    "border": {
+      "category": "color",
+      "prefix": "border."
+    },
+    "typography": {
+      "category": "typography",
+      "prefix": "typography."
+    },
+    "radius": {
+      "category": "radius",
+      "prefix": "radius."
+    },
+    "elevation": {
+      "category": "elevation",
+      "prefix": "elevation."
+    },
+    "paddingTop": {
+      "category": "layout",
+      "prefix": "layout.sectionPaddingTop"
+    },
+    "paddingBottom": {
+      "category": "layout",
+      "prefix": "layout.sectionPaddingBottom"
+    },
+    "gap": {
+      "category": "layout",
+      "prefix": "layout.gridGap"
+    },
+    "fontFamily": {
+      "category": "fontFamily",
+      "prefix": ""
+    }
+  },
+  "themes": {
+    "light": [
+      "accent.primary",
+      "border.default",
+      "elevation.default",
+      "motion.duration.default",
+      "motion.easing.default",
+      "radius.control",
+      "radius.surface",
+      "surface.accent",
+      "surface.alt",
+      "surface.default",
+      "surface.inverse",
+      "text.accent",
+      "text.inverse",
+      "text.primary",
+      "text.secondary",
+      "typography.body",
+      "typography.display",
+      "typography.heading",
+      "typography.label"
     ]
   }
 }

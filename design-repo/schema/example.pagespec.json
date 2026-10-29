@@ -1,7 +1,9 @@
 {
-  "pageSpecVersion": "0.1.0",
+  "pageSpecVersion": "0.2.0",
+  "mode": "clone",
   "template": "template.blog-2",
   "route": "/blog/seo-for-restaurants",
+  "theme": "light",
   "nodes": [
     {
       "type": "shell.nav-wrapper",
@@ -94,152 +96,223 @@
       }
     },
     {
-      "type": "hero.section-blog-content",
+      "type": "hero.article-header",
       "content": {
         "heading": "SEO for Restaurants: The Complete Guide to Restaurant SEO (2026)",
-        "subheading": "Restaurant SEO FAQ",
-        "body": [
-          "Our best SEO tips for busy restaurant owners who want to get more traffic from Google.",
-          "When it comes to getting more customers, most restaurant owners focus on social media, ads, or flyers, but the most powerful tool is often overlooked: restaurant SEO. Ranking high in Google searches puts your restaurant in front of people who are already hungry and ready to order.",
-          "SEO doesn’t have to be complicated. Most guides are written for marketers, not busy restaurant owners, but with the right approach, even a small team can see real results.",
-          "In this post, I’ll cover everything you need to know about SEO for restaurants, reveal 4 big wins that can drive more orders, and show exactly how to put them into action.",
-          "Here are answers to some of the most common questions we hear from restaurant owners about SEO. These tips focus on local search, keywords, and website structure to help your restaurant get more visibility and orders.",
-          "Make sure your name, address, and phone number are accurate and consistent across Google and all other online directories. Add high-quality photos, keep your hours up to date, respond to reviews, and use relevant keywords in your business description. These steps help Google understand your restaurant and show it to local diners.",
-          "Focus on keywords that combine your cuisine, signature dishes, and location, like “best pasta in [City]” or “authentic Italian restaurant in [Neighborhood].” Include these in your homepage title, main headline, and menu pages to capture local search traffic.",
-          "Use text-based menus rather than PDFs or images so Google can read your content. Organize items by category (e.g., appetizers, entrees, desserts) and naturally incorporate your keywords into dish names and descriptions. Make sure each menu page is easy to navigate on mobile and includes clear calls to action, such as “Order Online” or “Reserve a Table.”",
-          "Hengam Stanfield is the co-founder of Mattenga's Pizzeria, a seven-location restaurant group in San Antonio, TX. A former electrical engineer turned restaurateur, she applies a data-driven mindset to operations and marketing. Her work has been featured in PMQ Pizza Magazine, INC., Food & Wine, and Martha Stewart Living. Mattenga's has been voted Best Pizza in San Antonio and named Pizzeria of the Year by Pizza Today.",
-          "Take back control of your margins, customer data, and online reputation."
-        ],
-        "ctas": [
-          {
-            "label": "Check your SEO score"
-          },
-          {
-            "label": "Get a free demo",
-            "href": "/demo"
-          },
-          {
-            "label": "Get a free demo",
-            "href": "/demo"
-          },
-          {
-            "label": "See your website's grade"
-          }
-        ],
-        "items": [
-          {
-            "title": "What is Restaurant SEO?",
-            "body": "Restaurant SEO is how you get your restaurant to the top of Google search results."
-          },
-          {
-            "title": "Do All Restaurants Need SEO?",
-            "body": "Some restaurants need more SEO than others. Let’s say your restaurant does a lot of takeout. This makes SEO essential because likely thousands of people in your area are searching for food online."
-          },
-          {
-            "title": "How Google Ranks Restaurants in Search Results",
-            "body": "Google decides which restaurants to rank (and in what order) based on three core factors: relevance, distance and prominence. Relevance is how well your restaurant website matches what someone is searching for."
-          },
-          {
-            "title": "How to do SEO for Restaurants (Step-by-Step Guide)",
-            "body": "You don't need to be an online marketing genius or SEO expert to get your restaurant website to rank well and drive traffic from customers. All you need is this handy guide which breaks it all down for you and the right tools. Let's dive in."
-          },
-          {
-            "title": "The Worst SEO Mistakes Your Restaurant Should Avoid",
-            "body": "Restaurant owners make these mistakes because no one told them they were wrong. That’s okay: you’re a restaurant owner. You didn’t study digital marketing!"
-          },
-          {
-            "title": "Advanced SEO Tips For Restaurants",
-            "body": "In this last section, we’ll give you SEO tips to supercharge your Google traffic even more. These advanced search engine optimization best practices will give your restaurant an even bigger competitive edge."
-          },
-          {
-            "title": "Start ASAP: SEO is your biggest opportunity",
-            "body": "Search engine optimization is the biggest opportunity for most restaurants."
-          }
-        ],
+        "body": []
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-cover",
+      "content": {
         "images": [
           {
-            "assetRole": "hero-image"
-          },
-          {
             "assetRole": "hero-image",
-            "alt": "Screenshot of a Google search for chicken and waffles chicago."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Bar graph compares new customer sources with Google leading as a top named source."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Screenshot of Google Search with an unfinished search — pizza in hudson y."
-          },
-          {
-            "assetRole": "avatar",
-            "alt": "Screenshot of a Google Maps restaurant marker highlights key information."
-          },
-          {
-            "assetRole": "avatar",
-            "alt": "Screenshot of a Google My Business restaurant menu."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Screenshots of 2 websites highlighting that Google rewards sites with online ordering."
-          },
-          {
-            "assetRole": "content-image",
-            "alt": "Smiling man wearing a hat and gray shirt holding a smartphone displaying a restaurant menu app."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Screenshot of a website directing orders through a different domain highlight offsite ordering as a mistake."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Screenshot of a website keeping orders on their site highlight the SEO benefits of direct ordering."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "SEO mistake: your site shouldn't take longer than 2 seconds to load."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Image highlights the stat that Americans spend 4.5 hours on their phone daily, checking it 144"
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Illustration of two sites showing how one links to the other."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Screenshots compare a photos of a pizza — one with alt text and one that uses"
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Illustration explains your homepage, about page, and menu page, plus what to include in each."
-          },
-          {
-            "assetRole": "hero-image",
-            "alt": "Full restaurant SEO checklist includes priority to-dos, mistakes to avoid, and advanced tips."
-          },
-          {
-            "assetRole": "avatar"
-          },
-          {
-            "assetRole": "icon"
-          },
-          {
-            "assetRole": "avatar"
-          },
-          {
-            "assetRole": "content-image",
-            "alt": "Ranked pizza restaurants list showing Pizza Club first with score 99, The Cheesy Crust second with"
-          },
-          {
-            "assetRole": "avatar"
+            "alt": "Restaurant SEO guide cover",
+            "src": "/_ext/cdn.prod.website-files.com/666eec3edcc552b5eecc7fcd/668966ecbd62250ed5efb13a_65cdd9ebce2cb290e2a61191_seo-for-restaurants.webp"
           }
         ]
       },
       "motion": {
-        "pattern": "css-transition",
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-key-takeaways",
+      "content": {
+        "heading": "Key takeaways",
+        "items": [
+          {
+            "title": "Google Search is the #1 most important source of new customers for restaurants."
+          },
+          {
+            "title": "It's easy to dramatically improve your restaurant’s SEO, even if you don't know how to code."
+          },
+          {
+            "title": "Follow the step-by-step guide to restaurant SEO"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "Start ASAP: SEO is your biggest opportunity",
+        "body": [
+          "Search engine optimization is the biggest opportunity for most restaurants.",
+          "We see restaurant owners constantly getting distracted with social media, but time and time again, we see that SEO is where the customers are.",
+          "Here’s the full checklist to help get you started."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "What is Restaurant SEO?",
+        "body": [
+          "Restaurant SEO is how you get your restaurant to the top of Google search results.",
+          "When someone searches \"chicken and waffles in Chicago,\" good restaurant SEO helps convince Google that your website should be at the top of the search rankings.",
+          "When done right, your restaurant website shows up first when locals search for nearby food or restaurants. Restaurant websites with strong SEO get more visibility, which drives more traffic and more sales — both offline and online. If you take online reservations, you’ll get more bookings; if you offer online ordering , you’ll see more direct online sales."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "Do All Restaurants Need SEO?",
+        "body": [
+          "Some restaurants need more SEO than others. Let’s say your restaurant does a lot of takeout. This makes SEO essential because likely thousands of people in your area are searching for food online.",
+          "For many restaurants, SEO is the most effective way to attract new customers . Social media like Instagram or Facebook may get attention, but the real revenue comes from search.",
+          "Here’s data from a restaurant using Owner.com showing where their new customers come from—a breakdown typical across most of our clients. Notice how Google drives far more traffic than any social platform."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "How Google Ranks Restaurants in Search Results",
+        "body": [
+          "Google decides which restaurants to rank (and in what order) based on three core factors: relevance, distance and prominence. Relevance is how well your restaurant website matches what someone is searching for.",
+          "Distance is how close your restaurant is to where the searcher (or the location they name) is.",
+          "Prominence is how well-known and trusted your restaurant is, built from your volume and quality of reviews, mentioned and links across the web."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "How to do SEO for Restaurants (Step-by-Step Guide)",
+        "body": [
+          "You don't need to be an online marketing genius or SEO expert to get your restaurant website to rank well and drive traffic from customers. All you need is this handy guide which breaks it all down for you and the right tools. Let's dive in.",
+          "There are hundreds of SEO tools on the market that can help you understand your SEO rankings, traffic and competitors when it comes to SEO. Most of them are expensive and complicated, so that's why we built our Restaurant Website Grader , a free tool that leverages AI to analyze your restaurant website's SEO keywords and compare it against your competitors. Not only that, but the tool also helps provide you with actionable recommendations to improve your restaurant SEO – all for free and ready within 2 minutes.",
+          "Keyword research for restaurants involves figuring out the exact words diners type into Google when they're looking for a restaurant like yours. These are the terms that people type into Google that relate to your food and location."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "The Worst SEO Mistakes Your Restaurant Should Avoid",
+        "body": [
+          "Restaurant owners make these mistakes because no one told them they were wrong. That’s okay: you’re a restaurant owner. You didn’t study digital marketing!",
+          "This advice applies to restaurants that do a lot of delivery. But any restaurant website will improve when you avoid these mistakes. I’ll explain why these are a problem, then show you how to fix them.",
+          "Many restaurants use online ordering platforms on a different website. For example, an “Order Online” button might send customers to DoorDash instead of keeping them on the restaurant’s website."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "Advanced SEO Tips For Restaurants",
+        "body": [
+          "In this last section, we’ll give you SEO tips to supercharge your Google traffic even more. These advanced search engine optimization best practices will give your restaurant an even bigger competitive edge.",
+          "But don’t let “advanced” fool you – while these take more effort, you can do a lot of these without ever talking to a developer. And I’ve identified the highest ROI tips for restaurant SEO to make sure you get the most from your effort.",
+          "A backlink is like a digital thumbs-up from one website to another. Every time another website links to your restaurant’s site, they’re saying, \"Hey, check this place out, it's great!\""
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-chapter",
+      "content": {
+        "heading": "Start ASAP: SEO is your biggest opportunity",
+        "body": [
+          "Search engine optimization is the biggest opportunity for most restaurants.",
+          "We see restaurant owners constantly getting distracted with social media, but time and time again, we see that SEO is where the customers are.",
+          "Here’s the full checklist to help get you started."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.article-faq",
+      "content": {
+        "heading": "Restaurant SEO FAQ",
+        "items": [
+          {
+            "title": "How do I optimize my Google Business Profile for local searches?"
+          },
+          {
+            "title": "What are the best keywords for a small Italian restaurant?"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-author",
+      "content": {
+        "body": [
+          "Hengam Stanfield is the co-founder of Mattenga's Pizzeria, a seven-location restaurant group in San Antonio, TX. A former electrical engineer turned restaurateur, she applies a data-driven mindset to operations and marketing. Her work has been featured in PMQ Pizza Magazine, INC., Food & Wine, and Martha Stewart Living. Mattenga's has been voted Best Pizza in San Antonio and named Pizzeria of the Year by Pizza Today."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.article-sidebar",
+      "content": {
+        "ctas": [
+          {
+            "label": "What is Restaurant SEO?",
+            "href": "#what-is-restaurant-seo"
+          },
+          {
+            "label": "Do All Restaurants Need SEO?",
+            "href": "#do-all-restaurants-need-seo"
+          },
+          {
+            "label": "How Google Ranks Restaurants in Search Results",
+            "href": "#how-google-ranks-restaurants-in-search-results"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
         "reducedMotionFallback": "disable-animation"
       }
     },

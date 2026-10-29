@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/EngMaxwdith.jsx:5-7"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:1156-1158"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -54,5 +58,24 @@
   "implementedBy": "src/sections/EngMaxwdith.jsx",
   "implementedByAll": [
     "src/sections/EngMaxwdith.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:EngMaxwdith",
+    "component": "EngMaxwdith",
+    "file": "src/sections/EngMaxwdith.jsx",
+    "tag": "div",
+    "lines": [
+      5,
+      7
+    ]
+  },
+  "semantic": {
+    "id": "content.eng-maxwdith",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

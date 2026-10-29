@@ -11,12 +11,20 @@
     "instances": 18,
     "routes": 18,
     "measuredFrom": [
+      "src/sections/HowTalkinTacosIncreased.jsx:5-144",
+      "src/sections/HowAshleySCafe.jsx:5-144",
+      "src/sections/HowKarvGreekKouzina.jsx:5-144",
+      "src/sections/HowMattengaSPizzeria.jsx:5-145",
+      "src/sections/HowSaffronGrewDirect.jsx:5-144"
+    ],
+    "reconMeasuredFrom": [
       "src/case-studies/ashleys-cafe/index.html:2182-2348",
       "src/case-studies/cyclo-noodles/index.html:2182-2348",
       "src/case-studies/doo-dah-diner/index.html:2182-2348",
       "src/case-studies/goi-cuon/index.html:2182-2348",
       "src/case-studies/gyro-concept/index.html:2182-2349"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -74,25 +82,48 @@
     "background",
     "video"
   ],
-  "implementedBy": "src/sections/HowAshleySCafe.jsx",
+  "implementedBy": "src/sections/HowTalkinTacosIncreased.jsx",
   "implementedByAll": [
+    "src/sections/HowTalkinTacosIncreased.jsx",
     "src/sections/HowAshleySCafe.jsx",
-    "src/sections/HowCycloNoodlesGrew.jsx",
-    "src/sections/HowDooDahDiner.jsx",
-    "src/sections/HowGoiCuonGrew.jsx",
-    "src/sections/HowGyroConceptGrew.jsx",
-    "src/sections/HowHillCrustPizzaSaved.jsx",
     "src/sections/HowKarvGreekKouzina.jsx",
     "src/sections/HowMattengaSPizzeria.jsx",
-    "src/sections/HowMetroPizzaIncreased.jsx",
-    "src/sections/HowRigATony.jsx",
     "src/sections/HowSaffronGrewDirect.jsx",
+    "src/sections/HowMetroPizzaIncreased.jsx",
+    "src/sections/HowCycloNoodlesGrew.jsx",
     "src/sections/HowSaludDrove10.jsx",
-    "src/sections/HowSamosOaxacaIncreased.jsx",
+    "src/sections/HowRigATony.jsx",
+    "src/sections/HowGyroConceptGrew.jsx",
+    "src/sections/HowDooDahDiner.jsx",
     "src/sections/HowSanDiegoKabob.jsx",
     "src/sections/HowSushiAddictsGrew.jsx",
     "src/sections/HowSushiMeRoll.jsx",
-    "src/sections/HowTalkinTacosIncreased.jsx",
-    "src/sections/HowTownshipLinePizza.jsx"
-  ]
+    "src/sections/HowGoiCuonGrew.jsx",
+    "src/sections/HowHillCrustPizzaSaved.jsx",
+    "src/sections/HowTownshipLinePizza.jsx",
+    "src/sections/HowSamosOaxacaIncreased.jsx"
+  ],
+  "source": {
+    "id": "jsx:HowTalkinTacosIncreased",
+    "component": "HowTalkinTacosIncreased",
+    "file": "src/sections/HowTalkinTacosIncreased.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      144
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-cs-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

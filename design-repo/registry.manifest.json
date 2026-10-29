@@ -1,11 +1,22 @@
 {
   "repositoryId": "owner-com-design-repo",
+  "category": "saas",
+  "productDomain": "restaurant-online-ordering-and-marketing",
+  "designPolicy": {
+    "ref": "policy/design-policy.json",
+    "policyId": "n0-saas-design-constraints-common",
+    "policyVersion": "0.1.0",
+    "commonIrVersion": "0.5",
+    "enforcementMode": "hard-and-soft",
+    "contentHash": "sha256:3650cc8595c22af96f5b8d62df746f6a93202a1a7bff91221ac7013f15f95f3f",
+    "contentHashScope": "sha256 over the files in policy/design-policy.json enforcedBy (recomputed by verify_all.py); not over the common policy document, which is not shipped here"
+  },
   "site": "owner-com",
   "status": "design-review-pending",
   "productionApproved": false,
-  "repositoryVersion": "0.1.0",
-  "pageSpecVersion": "0.1.0",
-  "allowlistVersion": "1",
+  "repositoryVersion": "0.2.0",
+  "pageSpecVersion": "0.2.0",
+  "allowlistVersion": "2",
   "versionFieldNote": "allowlistVersion is machine-checked (verify_all.py fails if it differs from tokens/llm/component-allowlist.json). repositoryVersion and pageSpecVersion are documentation-only markers; pageSpecVersion is additionally pinned as a const in the schema.",
   "defaultTheme": "light",
   "schemaValidatedThemes": [
@@ -17,14 +28,14 @@
   },
   "sourceProject": {
     "url": "https://www.owner.com/",
-    "framework": "Webflow+GSAP",
+    "sourceStack": "documentation only: original site Webflow + GSAP; clone is Vite + React (react-router) + the site's own CSS",
     "scrapedAt": "2026-10-06T09:06:08Z"
   },
-  "generatedBy": "website-builder (heuristic extraction; see README)",
+  "generatedBy": "website-builder heuristic extraction (2026-10-06), revised against the clone source by a design-repo revision agent (see CHANGELOG)",
   "counts": {
-    "sections": 67,
-    "templates": 25,
-    "routes": 144,
+    "sections": 80,
+    "templates": 26,
+    "routes": 145,
     "primitives": 16,
     "components": 257,
     "assets": 2063,
@@ -35,7 +46,9 @@
       "layout": 16
     },
     "themes": 1,
-    "rules": 7
+    "rules": 7,
+    "assetRoles": 24,
+    "generationExamples": 10
   },
   "entryPoints": {
     "tokenCatalog": "tokens/llm/token-catalog.json",
@@ -52,11 +65,36 @@
     "admission": "extraction/verify_all.py",
     "driftProof": "extraction/prove_drift.py",
     "measuredValues": "extraction/measured-values.json",
-    "defaultTheme": "tokens/themes/light.json"
+    "defaultTheme": "tokens/themes/light.json",
+    "sectionContractSchema": "schema/section-contract.schema.json",
+    "sourceIdentity": "schema/source-identity.json",
+    "wrapperGate": "extraction/wrapper_gate.py",
+    "wrapperGateWhitelist": "extraction/wrapper-gate-whitelist.json",
+    "measureSections": "extraction/measure_sections.mjs",
+    "buildSourceIdentity": "extraction/build_source_identity.py",
+    "buildTokenCatalog": "extraction/build_token_catalog.py",
+    "buildGenerationExamples": "extraction/build_generation_examples.py",
+    "generationExamples": "schema/examples/generated-home.pagespec.json",
+    "designPolicy": "policy/design-policy.json"
   },
   "routeCoverage": {
-    "captured": 144,
-    "excluded": 20,
+    "captured": 145,
+    "excluded": 19,
     "detail": "extraction/measured-values.json#routeCoverage"
+  },
+  "modes": {
+    "values": [
+      "clone",
+      "generation"
+    ],
+    "clone": "faithful reconstruction of owner.com; real copy and clone-only assets allowed as evidence",
+    "generation": "a new page for another brand; owner.com identity / content / clone-only and blocked assets rejected (schema/semantic_validate.py GENERATION_MODE_*)"
+  },
+  "approvalFlags": {
+    "designReviewed": false,
+    "legalContentSignOff": false,
+    "assetLicensingReviewed": false,
+    "policyArchitectureDecisionRecorded": false,
+    "note": "All false: nothing here was reviewed by a human. Agent attestations are labelled as such."
   }
 }

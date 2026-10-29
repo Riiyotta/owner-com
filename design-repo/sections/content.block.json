@@ -11,12 +11,20 @@
     "instances": 11,
     "routes": 2,
     "measuredFrom": [
+      "src/sections/MaxWidthFull.jsx:5-35",
+      "src/sections/OurVisionStretchesFar.jsx:5-79",
+      "src/sections/WhatYouNeedTo.jsx:5-14",
+      "src/sections/UMb64.jsx:5-27",
+      "src/sections/UMb642.jsx:5-35"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:1175-1204",
       "src/builders-wanted/index.html:3209-3285",
       "src/d/index.html:2834-2843",
       "src/d/index.html:3222-3246",
       "src/d/index.html:3247-3277"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -45,6 +53,7 @@
     }
   },
   "constraints": {
+    "onePerPage": false,
     "maxPerPage": 9
   },
   "motion": {
@@ -80,14 +89,37 @@
   "implementedByAll": [
     "src/sections/MaxWidthFull.jsx",
     "src/sections/OurVisionStretchesFar.jsx",
+    "src/sections/WhatYouNeedTo.jsx",
+    "src/sections/UMb64.jsx",
+    "src/sections/UMb642.jsx",
+    "src/sections/UMb643.jsx",
     "src/sections/UMb40.jsx",
     "src/sections/UMb402.jsx",
     "src/sections/UMb403.jsx",
     "src/sections/UMb404.jsx",
-    "src/sections/UMb64.jsx",
-    "src/sections/UMb642.jsx",
-    "src/sections/UMb643.jsx",
-    "src/sections/UMb644.jsx",
-    "src/sections/WhatYouNeedTo.jsx"
-  ]
+    "src/sections/UMb644.jsx"
+  ],
+  "source": {
+    "id": "jsx:MaxWidthFull",
+    "component": "MaxWidthFull",
+    "file": "src/sections/MaxWidthFull.jsx",
+    "tag": "div",
+    "lines": [
+      5,
+      35
+    ]
+  },
+  "semantic": {
+    "id": "content.block",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

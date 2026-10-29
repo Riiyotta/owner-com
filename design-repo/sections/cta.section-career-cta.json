@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/SeeIfOurValues.jsx:5-28"
+    ],
+    "reconMeasuredFrom": [
       "src/careers/index.html:4058-4077"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -79,5 +83,27 @@
   "implementedBy": "src/sections/SeeIfOurValues.jsx",
   "implementedByAll": [
     "src/sections/SeeIfOurValues.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:SeeIfOurValues",
+    "component": "SeeIfOurValues",
+    "file": "src/sections/SeeIfOurValues.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      28
+    ]
+  },
+  "semantic": {
+    "id": "cta.section-career-cta",
+    "category": "CTA"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

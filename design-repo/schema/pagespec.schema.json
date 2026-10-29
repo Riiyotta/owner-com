@@ -1,10 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "PageSpec",
-  "description": "A page composition. Styling is owned by section/component contracts; a PageSpec carries no style or token-override field.",
+  "description": "A page composition. Styling is owned by section/component contracts; a node may only choose catalog tokens for its `tokens` slots (no raw style values). `mode` is required: \"clone\" = faithful reconstruction of owner.com (real copy and clone-only assets allowed as evidence); \"generation\" = a new page for another brand built from this design repo (no owner.com identity, copy, people, customers, claims, URLs, embeds or clone-only / blocked assets; enforced by semantic_validate.py GENERATION_MODE_* rules).",
   "type": "object",
   "required": [
     "pageSpecVersion",
+    "mode",
     "template",
     "route",
     "nodes"
@@ -13,7 +14,14 @@
   "properties": {
     "pageSpecVersion": {
       "type": "string",
-      "const": "0.1.0"
+      "const": "0.2.0"
+    },
+    "mode": {
+      "type": "string",
+      "enum": [
+        "clone",
+        "generation"
+      ]
     },
     "template": {
       "type": "string",
@@ -42,11 +50,36 @@
         "template.blog-2",
         "template.reorders",
         "template.blog-category",
-        "template.group-5"
+        "template.group-5",
+        "template.demo"
       ]
     },
     "route": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^/"
+    },
+    "theme": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional; must be one of registry.manifest.json schemaValidatedThemes (TOKEN_THEME_UNKNOWN)."
+    },
+    "brand": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "description": "Generation mode: the fictional / operator brand the page is for.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "domain": {
+          "type": "string",
+          "pattern": "^([a-z0-9-]+\\.)+(example|invalid)$"
+        }
+      }
     },
     "nodes": {
       "type": "array",
@@ -60,19 +93,30 @@
     "assetRole": {
       "type": "string",
       "enum": [
-        "logo",
-        "customer-logo",
+        "animation",
+        "asset.operator-supplied",
         "avatar",
+        "avatar.fictional-person",
+        "background",
+        "brand.placeholder-mark",
+        "content-image",
+        "copy.original",
+        "customer-logo",
+        "font",
+        "font.operator-licensed",
+        "founder-contact-email",
+        "hero-image",
         "icon",
         "illustration",
-        "background",
-        "hero-image",
-        "content-image",
-        "animation",
-        "video",
-        "font",
+        "illustration.generated",
+        "link.placeholder-url",
         "live-embed",
-        "founder-contact-email"
+        "logo",
+        "logo.placeholder-company",
+        "product-screenshot",
+        "screenshot.placeholder",
+        "video",
+        "video.placeholder"
       ]
     },
     "motion": {
@@ -100,6 +144,221 @@
             "disable-animation",
             "instant-state"
           ]
+        }
+      }
+    },
+    "tokens": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optional per-node token choices. Every value must be a catalog token id of the slot's category (tokens/llm/token-catalog.json pageSpecSlots); raw values, unknown ids, unsupported fonts and invalid theme combinations are rejected by semantic_validate.py TOKEN_* rules.",
+      "properties": {
+        "surface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "accent": {
+          "type": "string",
+          "minLength": 1
+        },
+        "border": {
+          "type": "string",
+          "minLength": 1
+        },
+        "typography": {
+          "type": "string",
+          "minLength": 1
+        },
+        "radius": {
+          "type": "string",
+          "minLength": 1
+        },
+        "elevation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paddingTop": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paddingBottom": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gap": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fontFamily": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "content.content.article-author": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 66
+          }
+        }
+      }
+    },
+    "content.content.article-chapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 25
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 231,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 126
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 14,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
+              }
+            }
+          }
+        }
+      }
+    },
+    "content.content.article-cover": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "images"
+      ]
+    },
+    "content.content.article-key-takeaways": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 38
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading"
+      ]
+    },
+    "content.content.article-sidebar": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 23,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 25
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
+              }
+            }
+          }
         }
       }
     },
@@ -137,6 +396,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -173,8 +437,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -195,6 +459,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -203,6 +472,52 @@
       "required": [
         "body",
         "ctas"
+      ]
+    },
+    "content.content.demo-hidden-control": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 9
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 17
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading"
       ]
     },
     "content.content.eng-lp-figure-wall": {
@@ -225,6 +540,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -244,6 +564,55 @@
       "required": [
         "heading"
       ]
+    },
+    "content.content.legal-nav": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ctas": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
+              }
+            }
+          }
+        }
+      }
+    },
+    "content.content.legal-part": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 15
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 46,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 476
+          }
+        }
+      }
     },
     "content.content.pres-cards-header": {
       "type": "object",
@@ -284,6 +653,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -329,6 +703,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -379,8 +758,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -440,6 +819,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -507,6 +891,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -535,6 +924,10 @@
                 "type": "string",
                 "minLength": 1,
                 "maxWords": 7
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 0
               }
             }
           }
@@ -555,6 +948,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -658,8 +1056,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -702,6 +1100,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -729,8 +1132,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -773,6 +1176,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -818,8 +1226,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -840,6 +1248,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -876,8 +1289,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -898,6 +1311,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -971,6 +1389,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1006,8 +1429,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -1028,6 +1451,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1096,6 +1524,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1185,6 +1618,10 @@
                 "type": "string",
                 "minLength": 1,
                 "maxWords": 2
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 0
               }
             }
           }
@@ -1277,6 +1714,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1368,6 +1810,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1429,6 +1876,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1474,8 +1926,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -1496,6 +1948,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1533,8 +1990,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -1555,6 +2012,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1613,8 +2075,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -1635,6 +2097,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1679,6 +2146,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1687,6 +2159,34 @@
       "required": [
         "heading",
         "body"
+      ]
+    },
+    "content.hero.article-header": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 17
+        },
+        "subheading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 43
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        }
+      },
+      "required": [
+        "heading"
       ]
     },
     "content.hero.cs-index-head": {
@@ -1723,6 +2223,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1773,8 +2278,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -1817,6 +2322,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1828,6 +2338,52 @@
         "body",
         "ctas",
         "items"
+      ]
+    },
+    "content.hero.demo-variant-modal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 15
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 6
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 88
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading"
       ]
     },
     "content.hero.eng-section-eng-hero": {
@@ -1864,6 +2420,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1872,6 +2433,29 @@
       "required": [
         "heading",
         "body"
+      ]
+    },
+    "content.hero.legal-header": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        }
+      },
+      "required": [
+        "heading"
       ]
     },
     "content.hero.section-about-hero": {
@@ -1908,6 +2492,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -1916,102 +2505,6 @@
       "required": [
         "heading",
         "body"
-      ]
-    },
-    "content.hero.section-blog-content": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 17
-        },
-        "subheading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 8
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 30,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 93
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 7,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 8
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 24,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 25
-              },
-              "body": {
-                "type": "string",
-                "maxWords": 88
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 57,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body",
-        "ctas",
-        "items"
       ]
     },
     "content.hero.section-blog-hero": {
@@ -2048,6 +2541,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2093,8 +2591,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2115,6 +2613,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2161,8 +2664,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2208,6 +2711,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2253,8 +2761,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2275,6 +2783,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2321,8 +2834,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2343,6 +2856,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2388,48 +2906,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "heading",
-        "body"
-      ]
-    },
-    "content.hero.section-legal": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "heading": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 3
-        },
-        "body": {
-          "type": "array",
-          "maxItems": 30,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 97
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 24,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
+              },
+              "src": {
                 "type": "string",
                 "minLength": 1,
-                "maxWords": 15
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2475,8 +2956,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2497,6 +2978,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2543,8 +3029,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2565,6 +3051,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2611,8 +3102,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2633,6 +3124,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2677,6 +3173,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2753,6 +3254,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2761,6 +3267,75 @@
       "required": [
         "items"
       ]
+    },
+    "content.proof.reviews-wall-cards": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 18
+          }
+        }
+      }
+    },
+    "content.proof.reviews-wall-header": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 15
+          }
+        }
+      },
+      "required": [
+        "heading"
+      ]
+    },
+    "content.proof.reviews-wall-photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
+              }
+            }
+          }
+        }
+      }
     },
     "content.proof.section-beliefs": {
       "type": "object",
@@ -2796,6 +3371,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2840,6 +3420,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2884,6 +3469,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2929,8 +3519,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -2951,6 +3541,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -2982,6 +3577,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -3018,8 +3618,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -3060,8 +3660,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -3082,6 +3682,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -3118,8 +3723,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -3160,6 +3765,48 @@
       "required": [
         "items"
       ]
+    },
+    "content.support.article-faq": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 7
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 48
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 8,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 18
+              },
+              "body": {
+                "type": "string",
+                "maxWords": 145
+              }
+            }
+          }
+        }
+      }
     },
     "content.support.eng-steps-faq": {
       "type": "object",
@@ -3214,8 +3861,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -3257,8 +3904,8 @@
               },
               "href": {
                 "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+                "pattern": "^(/[^\\s]*|#[^\\s]*|https://([a-z0-9-]+\\.)+(example|invalid)(/[^\\s]*)?|mailto:[^@\\s]+@([a-z0-9-]+\\.)+(example|invalid))$",
+                "description": "Relative path, #anchor, or an absolute URL on a reserved .example / .invalid domain only: no page may link to the original site or any live third-party URL."
               }
             }
           }
@@ -3279,6 +3926,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -3323,6 +3975,11 @@
               "alt": {
                 "type": "string",
                 "maxWords": 16
+              },
+              "src": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Clone mode: a path under the clone public/ folder. Generation mode: an operator-supplied path or a placeholder URL on a reserved .example / .invalid domain (semantic_validate.py GENERATION_MODE_ASSET)."
               }
             }
           }
@@ -3345,10 +4002,18 @@
         "type": {
           "type": "string",
           "enum": [
+            "content.article-author",
+            "content.article-chapter",
+            "content.article-cover",
+            "content.article-key-takeaways",
+            "content.article-sidebar",
             "content.block",
             "content.cs-index-list",
+            "content.demo-hidden-control",
             "content.eng-lp-figure-wall",
             "content.eng-maxwdith",
+            "content.legal-nav",
+            "content.legal-part",
             "content.pres-cards-header",
             "content.ps",
             "content.roles",
@@ -3380,11 +4045,13 @@
             "features.section-eng-steps",
             "features.section-hiw-steps",
             "features.section-pos-steps",
+            "hero.article-header",
             "hero.cs-index-head",
             "hero.demo-control-layout",
+            "hero.demo-variant-modal",
             "hero.eng-section-eng-hero",
+            "hero.legal-header",
             "hero.section-about-hero",
-            "hero.section-blog-content",
             "hero.section-blog-hero",
             "hero.section-career-hero",
             "hero.section-center-hero",
@@ -3392,13 +4059,15 @@
             "hero.section-demo",
             "hero.section-hp-hero",
             "hero.section-leadership-hero",
-            "hero.section-legal",
             "hero.section-product-hero",
             "hero.section-product-v-hero",
             "hero.section-resource",
             "hero.section-reviews-hero",
             "hero.section-s-d-hero",
             "proof.press-cards-wrap",
+            "proof.reviews-wall-cards",
+            "proof.reviews-wall-header",
+            "proof.reviews-wall-photo",
             "proof.section-beliefs",
             "proof.section-reviews",
             "proof.section-stories",
@@ -3408,6 +4077,7 @@
             "shell.nav-wrapper",
             "shell.section-footer",
             "showcase.section-s-d-gtm",
+            "support.article-faq",
             "support.eng-steps-faq",
             "support.form",
             "support.section-about-help",
@@ -3419,9 +4089,111 @@
         },
         "motion": {
           "$ref": "#/definitions/motion"
+        },
+        "tokens": {
+          "$ref": "#/definitions/tokens"
+        },
+        "retrievalEligible": {
+          "type": "boolean",
+          "description": "Optional; must equal the section contract value (pinned in code). Runtime UI (modals, overlays, hidden A/B control) is never eligible."
         }
       },
       "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-author"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.article-author"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-chapter"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.article-chapter"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-cover"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.article-cover"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-key-takeaways"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.article-key-takeaways"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-sidebar"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.article-sidebar"
+              }
+            }
+          }
+        },
         {
           "if": {
             "properties": {
@@ -3464,6 +4236,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "content.demo-hidden-control"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.demo-hidden-control"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "content.eng-lp-figure-wall"
               }
             },
@@ -3494,6 +4285,44 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.content.eng-maxwdith"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.legal-nav"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.legal-nav"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.legal-part"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.legal-part"
               }
             }
           }
@@ -4091,6 +4920,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "hero.article-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.article-header"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "hero.cs-index-head"
               }
             },
@@ -4129,6 +4977,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "hero.demo-variant-modal"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.demo-variant-modal"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "hero.eng-section-eng-hero"
               }
             },
@@ -4148,6 +5015,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "hero.legal-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.hero.legal-header"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "hero.section-about-hero"
               }
             },
@@ -4159,25 +5045,6 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.hero.section-about-hero"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "hero.section-blog-content"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.section-blog-content"
               }
             }
           }
@@ -4319,25 +5186,6 @@
           "if": {
             "properties": {
               "type": {
-                "const": "hero.section-legal"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.section-legal"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
                 "const": "hero.section-product-hero"
               }
             },
@@ -4444,6 +5292,63 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.proof.press-cards-wrap"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.reviews-wall-cards"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.reviews-wall-cards"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.reviews-wall-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.reviews-wall-header"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "proof.reviews-wall-photo"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.proof.reviews-wall-photo"
               }
             }
           }
@@ -4615,6 +5520,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.showcase.section-s-d-gtm"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "support.article-faq"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.support.article-faq"
               }
             }
           }

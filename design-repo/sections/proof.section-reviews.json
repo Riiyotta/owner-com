@@ -8,15 +8,19 @@
   "nameSource": "class",
   "evidence": {
     "level": "measured",
-    "instances": 5,
-    "routes": 5,
+    "instances": 4,
+    "routes": 4,
     "measuredFrom": [
+      "src/sections/SeeWhyWeRe.jsx:5-928"
+    ],
+    "reconMeasuredFrom": [
       "src/index.html:7103-9376",
       "src/ca/pricing/index.html:2367-4640",
       "src/pricing/index.html:2367-4640",
       "src/reorders/index.html:2574-4847",
       "src/reviews/index.html:3141-5181"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -81,7 +85,30 @@
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
   "implementedBy": "src/sections/SeeWhyWeRe.jsx",
   "implementedByAll": [
-    "src/sections/SeeWhyWeRe.jsx",
-    "src/sections/ActualReviewsFromRestaurant.jsx"
-  ]
+    "src/sections/SeeWhyWeRe.jsx"
+  ],
+  "source": {
+    "id": "jsx:SeeWhyWeRe",
+    "component": "SeeWhyWeRe",
+    "file": "src/sections/SeeWhyWeRe.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      928
+    ]
+  },
+  "semantic": {
+    "id": "proof.section-reviews",
+    "category": "PROOF"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "avatar.fictional-person",
+    "illustration.generated",
+    "logo.placeholder-company"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

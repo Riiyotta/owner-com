@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/WhyWeBuild.jsx:5-981"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:4101-4956"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -73,5 +77,27 @@
   "implementedBy": "src/sections/WhyWeBuild.jsx",
   "implementedByAll": [
     "src/sections/WhyWeBuild.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:WhyWeBuild",
+    "component": "WhyWeBuild",
+    "file": "src/sections/WhyWeBuild.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      981
+    ]
+  },
+  "semantic": {
+    "id": "content.section-why-sticky",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

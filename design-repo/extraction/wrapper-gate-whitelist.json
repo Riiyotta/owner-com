@@ -1,0 +1,21 @@
+{
+  "$description": "Reviewed exceptions for extraction/wrapper_gate.py. Entry shape: {template, section, rule: HERO_HEIGHT | PAGE_SHARE, maxHeightPx (above every measured height it covers), justification (30+ chars), reviewedBy}. These entries are agent attestation, not a human sign-off; a human design reviewer should confirm or replace them. Stale or over-cap entries fail the gate.",
+  "entries": [
+    {
+      "template": "template.blog-2",
+      "section": "content.article-chapter",
+      "rule": "PAGE_SHARE",
+      "maxHeightPx": 20500,
+      "justification": "The article body is already split into heading-bounded chapters (before every h2). Two posts (/blog/website-builders-for-restaurants 65%, /blog/pos-reporting 68%) put one h2 over a ranked list of h3 entries (12 and 6 entries); that chapter is one semantic unit (one listicle under one heading). Splitting it further at h3 would model list items, not page sections.",
+      "reviewedBy": "design-repo revision agent (agent attestation, not a human sign-off)"
+    },
+    {
+      "template": "template.case-studies",
+      "section": "content.cs-index-list",
+      "rule": "PAGE_SHARE",
+      "maxHeightPx": 8000,
+      "justification": "/case-studies is an index page: hero.cs-index-head (index header) + content.cs-index-list (the card grid of 18 case studies) + content.section-base. The grid is the index-grid unit R6 prescribes for index pages; its 79% share comes from the number of cards, not from a wrapper holding unrelated content.",
+      "reviewedBy": "design-repo revision agent (agent attestation, not a human sign-off)"
+    }
+  ]
+}

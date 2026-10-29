@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/EngLpFooter.jsx:7-37"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:3286-3933"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -63,5 +67,24 @@
   "implementedBy": "src/sections/EngLpFooter.jsx",
   "implementedByAll": [
     "src/sections/EngLpFooter.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:EngLpFooter",
+    "component": "EngLpFooter",
+    "file": "src/sections/EngLpFooter.jsx",
+    "tag": "div",
+    "lines": [
+      7,
+      37
+    ]
+  },
+  "semantic": {
+    "id": "shell.eng-lp-footer",
+    "category": "SHELL"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

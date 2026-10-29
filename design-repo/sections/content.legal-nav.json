@@ -1,0 +1,86 @@
+{
+  "id": "content.legal-nav",
+  "category": "CONTENT",
+  "label": "legal-nav",
+  "tag": "ul",
+  "purpose": "Side navigation between the legal documents (aside, takes no page height of its own).",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "hero.section-legal",
+    "instances": 7,
+    "routes": 7,
+    "measuredFrom": [
+      "src/sections/PrivacyPolicy.jsx:12-43",
+      "src/sections/WebsiteTerms.jsx:12-43",
+      "src/sections/Disclaimer.jsx:12-43",
+      "src/sections/RestaurantParticipationAgree.jsx:12-43",
+      "src/sections/PlatformTerms.jsx:12-43"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 6,
+        "maxWords": 2
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 205,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/PrivacyPolicy.jsx",
+  "implementedByAll": [
+    "src/sections/PrivacyPolicy.jsx",
+    "src/sections/WebsiteTerms.jsx",
+    "src/sections/Disclaimer.jsx",
+    "src/sections/RestaurantParticipationAgree.jsx",
+    "src/sections/PlatformTerms.jsx",
+    "src/sections/Accessibility.jsx",
+    "src/sections/CopyrightPolicy.jsx"
+  ],
+  "source": {
+    "id": "jsx:PrivacyPolicy#.legal-nav",
+    "component": "PrivacyPolicy",
+    "file": "src/sections/PrivacyPolicy.jsx",
+    "tag": "ul",
+    "lines": [
+      12,
+      43
+    ]
+  },
+  "semantic": {
+    "id": "content.legal-nav",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": false
+  }
+}

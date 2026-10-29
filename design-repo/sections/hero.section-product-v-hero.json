@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/ThePOSBuiltTo.jsx:7-174"
+    ],
+    "reconMeasuredFrom": [
       "src/pos/index.html:2402-2599"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -81,5 +85,29 @@
   "implementedBy": "src/sections/ThePOSBuiltTo.jsx",
   "implementedByAll": [
     "src/sections/ThePOSBuiltTo.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:ThePOSBuiltTo",
+    "component": "ThePOSBuiltTo",
+    "file": "src/sections/ThePOSBuiltTo.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      174
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-product-v-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "avatar.fictional-person",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

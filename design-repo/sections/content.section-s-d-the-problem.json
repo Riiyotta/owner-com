@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/TechnologyHasBeenWeaponized.jsx:5-76"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:3152-3221"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -70,5 +74,27 @@
   "implementedBy": "src/sections/TechnologyHasBeenWeaponized.jsx",
   "implementedByAll": [
     "src/sections/TechnologyHasBeenWeaponized.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:TechnologyHasBeenWeaponized",
+    "component": "TechnologyHasBeenWeaponized",
+    "file": "src/sections/TechnologyHasBeenWeaponized.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      76
+    ]
+  },
+  "semantic": {
+    "id": "content.section-s-d-the-problem",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

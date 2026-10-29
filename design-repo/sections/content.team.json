@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/Team.jsx:5-259"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:3840-4100"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -75,5 +79,27 @@
   "implementedBy": "src/sections/Team.jsx",
   "implementedByAll": [
     "src/sections/Team.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:Team",
+    "component": "Team",
+    "file": "src/sections/Team.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      259
+    ]
+  },
+  "semantic": {
+    "id": "content.team",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

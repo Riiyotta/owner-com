@@ -11,12 +11,20 @@
     "instances": 20,
     "routes": 20,
     "measuredFrom": [
+      "src/sections/RestaurantWebsitesBuiltFor.jsx:7-132",
+      "src/sections/GetMoreGoogleTraffic.jsx:7-132",
+      "src/sections/AnOnlineMenuThat.jsx:7-132",
+      "src/sections/WeLlGrowYour.jsx:7-132",
+      "src/sections/BetterRestaurantListingsBe.jsx:7-132"
+    ],
+    "reconMeasuredFrom": [
       "src/ai-phone-ordering/index.html:2186-2212",
       "src/automatic-marketing/index.html:2422-2580",
       "src/branded-apps/index.html:2187-2345",
       "src/catering/index.html:2421-2579",
       "src/delivery/index.html:2186-2344"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -88,27 +96,51 @@
     "logo",
     "video"
   ],
-  "implementedBy": "src/sections/AIThatAnswersEvery.jsx",
+  "implementedBy": "src/sections/RestaurantWebsitesBuiltFor.jsx",
   "implementedByAll": [
-    "src/sections/AIThatAnswersEvery.jsx",
-    "src/sections/AlwaysKnowHowYour.jsx",
-    "src/sections/AnOnlineMenuThat.jsx",
-    "src/sections/BetterRestaurantListingsBe.jsx",
-    "src/sections/EmailSMSMarketingThat.jsx",
-    "src/sections/GetABeautifulMobile.jsx",
+    "src/sections/RestaurantWebsitesBuiltFor.jsx",
     "src/sections/GetMoreGoogleTraffic.jsx",
-    "src/sections/MoneyMakingMarketingReady.jsx",
+    "src/sections/AnOnlineMenuThat.jsx",
+    "src/sections/WeLlGrowYour.jsx",
+    "src/sections/BetterRestaurantListingsBe.jsx",
+    "src/sections/YourOnlineOrderingShould.jsx",
     "src/sections/MoreRevenueOnEvery.jsx",
+    "src/sections/ProfitableDeliveryAndA.jsx",
+    "src/sections/TakeCateringOrdersDirectly.jsx",
+    "src/sections/AIThatAnswersEvery.jsx",
+    "src/sections/GetABeautifulMobile.jsx",
+    "src/sections/MoneyMakingMarketingReady.jsx",
+    "src/sections/PushNotificationMarketingBu.jsx",
     "src/sections/OfferARewardsProgram.jsx",
+    "src/sections/RunYourRestaurantFrom.jsx",
+    "src/sections/AlwaysKnowHowYour.jsx",
     "src/sections/OnlinePhoneAndIn.jsx",
     "src/sections/OwnerWorksGreatWith.jsx",
-    "src/sections/ProfitableDeliveryAndA.jsx",
-    "src/sections/PushNotificationMarketingBu.jsx",
-    "src/sections/RestaurantWebsitesBuiltFor.jsx",
-    "src/sections/RunYourRestaurantFrom.jsx",
-    "src/sections/TakeCateringOrdersDirectly.jsx",
-    "src/sections/TurnFirstTimeGuests.jsx",
-    "src/sections/WeLlGrowYour.jsx",
-    "src/sections/YourOnlineOrderingShould.jsx"
-  ]
+    "src/sections/EmailSMSMarketingThat.jsx",
+    "src/sections/TurnFirstTimeGuests.jsx"
+  ],
+  "source": {
+    "id": "jsx:RestaurantWebsitesBuiltFor",
+    "component": "RestaurantWebsitesBuiltFor",
+    "file": "src/sections/RestaurantWebsitesBuiltFor.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      132
+    ]
+  },
+  "semantic": {
+    "id": "hero.section-product-hero",
+    "category": "HERO"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "brand.placeholder-mark",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

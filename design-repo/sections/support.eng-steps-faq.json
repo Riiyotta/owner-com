@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/EngStepsFaq.jsx:5-24"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:1159-1174"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -58,5 +62,24 @@
   "implementedBy": "src/sections/EngStepsFaq.jsx",
   "implementedByAll": [
     "src/sections/EngStepsFaq.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:EngStepsFaq",
+    "component": "EngStepsFaq",
+    "file": "src/sections/EngStepsFaq.jsx",
+    "tag": "div",
+    "lines": [
+      5,
+      24
+    ]
+  },
+  "semantic": {
+    "id": "support.eng-steps-faq",
+    "category": "SUPPORT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

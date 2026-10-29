@@ -1,0 +1,119 @@
+{
+  "id": "support.article-faq",
+  "category": "SUPPORT",
+  "label": "article-faq",
+  "tag": "div",
+  "purpose": "An article FAQ: heading, optional intro and an accordion of questions with answers.",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "hero.section-blog-content",
+    "instances": 28,
+    "routes": 28,
+    "measuredFrom": [
+      "src/sections/SEOForRestaurantsThe.jsx:713-801",
+      "src/sections/HowToBuildA.jsx:521-681",
+      "src/sections/RestaurantMarketingStrategie.jsx:868-1072",
+      "src/sections/S7BestRestaurantOnline.jsx:965-1060",
+      "src/sections/S9BestPOSSystems.jsx:840-914"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 48
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 8,
+        "titleMaxWords": 18,
+        "bodyMaxWords": 145
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 869,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/SEOForRestaurantsThe.jsx",
+  "implementedByAll": [
+    "src/sections/SEOForRestaurantsThe.jsx",
+    "src/sections/HowToBuildA.jsx",
+    "src/sections/RestaurantMarketingStrategie.jsx",
+    "src/sections/S7BestRestaurantOnline.jsx",
+    "src/sections/S9BestPOSSystems.jsx",
+    "src/sections/S11BestRestaurantLoyalty.jsx",
+    "src/sections/BestRestaurantWebsites2026.jsx",
+    "src/sections/S10CreativeRestaurantMenu.jsx",
+    "src/sections/RestaurantWebsiteDesign6.jsx",
+    "src/sections/TheUltimateGuideTo.jsx",
+    "src/sections/SMSMarketingForRestaurants.jsx",
+    "src/sections/YourGuideToBoost.jsx",
+    "src/sections/AverageRestaurantProfitMarg.jsx",
+    "src/sections/HowToCreateOnline.jsx",
+    "src/sections/S9BestPOSSystems2.jsx",
+    "src/sections/S12BestRestaurantManagement.jsx",
+    "src/sections/S10BestPOSSystems.jsx",
+    "src/sections/HowMuchDoesA.jsx",
+    "src/sections/S10BestSquareAlternatives.jsx",
+    "src/sections/S9BestRestaurantCRMs.jsx",
+    "src/sections/RestaurantTechStackGuide.jsx",
+    "src/sections/MenuEngineeringHowTo.jsx",
+    "src/sections/NewDataWhyGuests.jsx",
+    "src/sections/RestaurantPOSSystemMeaning.jsx",
+    "src/sections/ToastVsCloverA.jsx",
+    "src/sections/HowToIncreaseRestaurant.jsx",
+    "src/sections/RestaurantMarketingPlanA.jsx",
+    "src/sections/ToastVsSquareA.jsx"
+  ],
+  "source": {
+    "id": "jsx:SEOForRestaurantsThe#.section-base-wrap",
+    "component": "SEOForRestaurantsThe",
+    "file": "src/sections/SEOForRestaurantsThe.jsx",
+    "tag": "div",
+    "lines": [
+      713,
+      801
+    ]
+  },
+  "semantic": {
+    "id": "support.article-faq",
+    "category": "SUPPORT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
+}

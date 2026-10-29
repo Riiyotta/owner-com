@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/OwnerHasTwoClear.jsx:5-102"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:3742-3839"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -69,5 +73,24 @@
   "implementedBy": "src/sections/OwnerHasTwoClear.jsx",
   "implementedByAll": [
     "src/sections/OwnerHasTwoClear.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:OwnerHasTwoClear",
+    "component": "OwnerHasTwoClear",
+    "file": "src/sections/OwnerHasTwoClear.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      102
+    ]
+  },
+  "semantic": {
+    "id": "content.section-s-d-competition",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

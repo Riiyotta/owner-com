@@ -11,9 +11,14 @@
     "instances": 2,
     "routes": 2,
     "measuredFrom": [
+      "src/sections/Form.jsx:7-293",
+      "src/sections/Form2.jsx:7-293"
+    ],
+    "reconMeasuredFrom": [
       "src/ca/pricing/index.html:6636-8185",
       "src/pricing/index.html:6618-8167"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -71,5 +76,24 @@
   "implementedByAll": [
     "src/sections/Form.jsx",
     "src/sections/Form2.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:Form",
+    "component": "Form",
+    "file": "src/sections/Form.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      293
+    ]
+  },
+  "semantic": {
+    "id": "support.form",
+    "category": "SUPPORT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

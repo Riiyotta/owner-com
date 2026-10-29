@@ -1,9 +1,22 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "families": [
+    "article",
+    "case-study",
+    "company",
+    "conversion",
+    "editorial-index",
+    "home",
+    "legal",
+    "pricing",
+    "product",
+    "support"
+  ],
   "templates": [
     {
       "id": "template.home",
       "name": "Home",
+      "family": "home",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -68,12 +81,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.group",
-      "name": "Group",
+      "name": "Legal document",
+      "family": "legal",
       "routeCount": 7,
       "chrome": "full",
       "routes": [
@@ -92,9 +106,20 @@
           "repeatable": false
         },
         {
-          "section": "hero.section-legal",
+          "section": "hero.legal-header",
           "required": true,
           "repeatable": false
+        },
+        {
+          "section": "content.legal-nav",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-part",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 26
         },
         {
           "section": "content.section-base",
@@ -109,12 +134,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.group-2",
-      "name": "Group",
+      "name": "Pricing",
+      "family": "pricing",
       "routeCount": 2,
       "chrome": "full",
       "routes": [
@@ -170,12 +196,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.how-owner-works",
-      "name": "How owner works",
+      "name": "How it works",
+      "family": "product",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -210,12 +237,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.group-3",
-      "name": "Group",
+      "name": "Product feature page",
+      "family": "product",
       "routeCount": 17,
       "chrome": "full",
       "routes": [
@@ -272,12 +300,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.delivery",
-      "name": "Delivery",
+      "name": "Product feature page (delivery)",
+      "family": "product",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -323,12 +352,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.pos",
-      "name": "Pos",
+      "name": "Product feature page (POS)",
+      "family": "product",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -378,12 +408,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.mobile",
-      "name": "Mobile",
+      "name": "Product feature page (owner app)",
+      "family": "product",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -423,12 +454,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.our-story",
-      "name": "Our story",
+      "name": "Company story",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -483,12 +515,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.careers",
       "name": "Careers",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -539,12 +572,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.leadership",
       "name": "Leadership",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -586,12 +620,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.builders-wanted",
-      "name": "Builders wanted",
+      "name": "Engineering recruiting landing page",
+      "family": "company",
       "routeCount": 1,
       "chrome": "partial",
       "routes": [
@@ -657,12 +692,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.press",
       "name": "Press",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -702,12 +738,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.reviews",
-      "name": "Reviews",
+      "name": "Customer reviews",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -725,7 +762,42 @@
           "repeatable": false
         },
         {
-          "section": "proof.section-reviews",
+          "section": "proof.reviews-wall-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-photo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-photo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-photo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.reviews-wall-cards",
           "required": true,
           "repeatable": false
         },
@@ -742,12 +814,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.partner-request",
-      "name": "Partner request",
+      "name": "Partner request form",
+      "family": "conversion",
       "routeCount": 1,
       "chrome": "partial",
       "routes": [
@@ -767,12 +840,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.d",
-      "name": "D",
+      "name": "Funding memo",
+      "family": "company",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -879,12 +953,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.case-studies",
-      "name": "Case studies",
+      "name": "Case study index",
+      "family": "editorial-index",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -919,12 +994,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.blog",
-      "name": "Blog",
+      "name": "Blog index",
+      "family": "editorial-index",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -969,12 +1045,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.support",
       "name": "Support",
+      "family": "support",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -1000,12 +1077,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.group-4",
-      "name": "Group",
+      "name": "Product demo request",
+      "family": "conversion",
       "routeCount": 2,
       "chrome": "partial",
       "routes": [
@@ -1026,23 +1104,35 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.case-studies-2",
-      "name": "Case studies pages",
+      "name": "Case study",
+      "family": "case-study",
       "routeCount": 18,
       "chrome": "full",
-      "routePattern": "/case-studies/{slug}/",
       "routes": [
         "/case-studies/talkin-tacos",
         "/case-studies/ashleys-cafe",
         "/case-studies/karv-greek-kouzina",
         "/case-studies/mattengas-pizzeria",
-        "/case-studies/saffron"
+        "/case-studies/saffron",
+        "/case-studies/metro-pizza",
+        "/case-studies/cyclo-noodles",
+        "/case-studies/salud",
+        "/case-studies/rig-a-tonys",
+        "/case-studies/gyro-concept",
+        "/case-studies/doo-dah-diner",
+        "/case-studies/san-diego-kabob-shack",
+        "/case-studies/sushi-addicts",
+        "/case-studies/sushi-me-rollin",
+        "/case-studies/goi-cuon",
+        "/case-studies/hillcrust-pizza",
+        "/case-studies/township-line-pizza",
+        "/case-studies/samos-oaxaca"
       ],
-      "routesTruncated": true,
       "nodes": [
         {
           "section": "shell.nav-wrapper",
@@ -1068,23 +1158,89 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.blog-2",
-      "name": "Blog pages",
+      "name": "Blog article",
+      "family": "article",
       "routeCount": 72,
       "chrome": "full",
-      "routePattern": "/blog/{slug}/",
       "routes": [
         "/blog/seo-for-restaurants",
         "/blog/how-to-create-a-restaurant-website",
         "/blog/restaurant-marketing",
         "/blog/email-marketing-for-restaurants",
-        "/blog/mobile-app-for-restaurants"
+        "/blog/mobile-app-for-restaurants",
+        "/blog/online-ordering-system-for-restaurants",
+        "/blog/local-seo-for-restaurants",
+        "/blog/website-builders-for-restaurants",
+        "/blog/restaurant-mobile-app",
+        "/blog/restaurant-promotion-ideas",
+        "/blog/restaurant-costs",
+        "/blog/best-pos-system-for-restaurants",
+        "/blog/197-best-pizzeria-slogans-you-can-use-for-free-2019",
+        "/blog/restaurant-loyalty-programs",
+        "/blog/97-best-pizza-captions-for-instagram",
+        "/blog/best-restaurant-websites",
+        "/blog/best-pizza-websites",
+        "/blog/restaurant-trends",
+        "/blog/restaurant-menu-examples",
+        "/blog/restaurant-failure-rate",
+        "/blog/catering-marketing",
+        "/blog/food-delivery-statistics",
+        "/blog/restaurant-website-design",
+        "/blog/how-to-make-a-menu",
+        "/blog/restaurant-description",
+        "/blog/social-media-for-restaurants",
+        "/blog/restaurant-business-plan",
+        "/blog/menu-pricing",
+        "/blog/how-to-increase-average-check-size",
+        "/blog/digital-marketing-for-restaurants",
+        "/blog/sms-marketing-for-restaurants",
+        "/blog/instagram-for-restaurants",
+        "/blog/restaurant-customer-retention",
+        "/blog/restaurant-analytics",
+        "/blog/average-restaurant-profit-margin",
+        "/blog/restaurant-marketing-tools",
+        "/blog/toast-competitors",
+        "/blog/restaurant-accounting",
+        "/blog/restaurant-growth",
+        "/blog/pizza-advertising-ideas",
+        "/blog/how-to-create-online-ordering-restaurant",
+        "/blog/cafe-pos",
+        "/blog/catering-delivery-apps",
+        "/blog/restaurant-management-software",
+        "/blog/best-pos-for-small-business",
+        "/blog/restaurant-pos-system-cost",
+        "/blog/pizza-pos-system",
+        "/blog/square-alternatives",
+        "/blog/best-restaurant-crms",
+        "/blog/restaurant-tech-stack",
+        "/blog/menu-engineering",
+        "/blog/restaurant-growth-secrets-guides",
+        "/blog/restaurant-branding-more-direct-orders",
+        "/blog/food-cost-percentage",
+        "/blog/food-trends",
+        "/blog/third-party-vs-direct-ordering",
+        "/blog/restaurant-prime-cost",
+        "/blog/mobile-marketing-for-restaurants",
+        "/blog/best-apps-for-restaurant-owners",
+        "/blog/pos-restaurant-meaning",
+        "/blog/square-pos-system-cost",
+        "/blog/toast-pricing",
+        "/blog/pizza-marketing-strategy",
+        "/blog/97-best-burger-captions-for-instagram",
+        "/blog/97-best-restaurant-captions-for-instagram",
+        "/blog/pos-reporting",
+        "/blog/toast-vs-clover",
+        "/blog/97-best-taco-captions-for-instagram",
+        "/blog/restaurant-marketing-ideas",
+        "/blog/how-to-increase-restaurant-sales",
+        "/blog/how-to-create-a-restaurant-marketing-plan",
+        "/blog/toast-vs-square"
       ],
-      "routesTruncated": true,
       "nodes": [
         {
           "section": "shell.nav-wrapper",
@@ -1092,7 +1248,38 @@
           "repeatable": false
         },
         {
-          "section": "hero.section-blog-content",
+          "section": "hero.article-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-cover",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-key-takeaways",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-chapter",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 23
+        },
+        {
+          "section": "support.article-faq",
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-author",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-sidebar",
           "required": true,
           "repeatable": false
         },
@@ -1109,12 +1296,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.reorders",
-      "name": "Reorders",
+      "name": "Product feature page (reorders)",
+      "family": "product",
       "routeCount": 1,
       "chrome": "full",
       "routes": [
@@ -1165,12 +1353,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.blog-category",
-      "name": "Blog category pages",
+      "name": "Blog category",
+      "family": "editorial-index",
       "routeCount": 5,
       "chrome": "full",
       "routes": [
@@ -1209,12 +1398,13 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     },
     {
       "id": "template.group-5",
-      "name": "Group",
+      "name": "Resource / guide page",
+      "family": "article",
       "routeCount": 4,
       "chrome": "full",
       "routes": [
@@ -1247,7 +1437,33 @@
       ],
       "evidence": {
         "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
+      }
+    },
+    {
+      "id": "template.demo",
+      "name": "Demo request (A/B overlay)",
+      "family": "conversion",
+      "routeCount": 1,
+      "chrome": "none",
+      "routes": [
+        "/demo"
+      ],
+      "nodes": [
+        {
+          "section": "content.demo-hidden-control",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.demo-variant-modal",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "nodes derived from the ledger: every route of this template was measured; a node is optional when at least one route omits it, repeatable with maxCount = the most consecutive instances seen"
       }
     }
   ]

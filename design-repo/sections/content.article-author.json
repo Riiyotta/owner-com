@@ -1,0 +1,156 @@
+{
+  "id": "content.article-author",
+  "category": "CONTENT",
+  "label": "article-author",
+  "tag": "div",
+  "purpose": "Author bio box at the end of the article.",
+  "purposeIsInferred": false,
+  "nameSource": "decomposition",
+  "evidence": {
+    "level": "measured",
+    "decomposedFrom": "hero.section-blog-content",
+    "instances": 72,
+    "routes": 72,
+    "measuredFrom": [
+      "src/sections/SEOForRestaurantsThe.jsx:802-855",
+      "src/sections/HowToBuildA.jsx:682-735",
+      "src/sections/RestaurantMarketingStrategie.jsx:1073-1126",
+      "src/sections/RestaurantEmailMarketing8.jsx:570-623",
+      "src/sections/HowToCreateA.jsx:449-502"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 66
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 254,
+      "columns": 1
+    },
+    "changes": [],
+    "mobileNote": "not re-measured at 390px after the decomposition; the parent block stacks to one column on mobile"
+  },
+  "assetRoles": [
+    "avatar"
+  ],
+  "contentPolicy": "Measured copy names real people, restaurants and quotes. Generated pages must write new, clearly fictional names and quotes, and use placeholder avatars and logos.",
+  "implementedBy": "src/sections/SEOForRestaurantsThe.jsx",
+  "implementedByAll": [
+    "src/sections/SEOForRestaurantsThe.jsx",
+    "src/sections/HowToBuildA.jsx",
+    "src/sections/RestaurantMarketingStrategie.jsx",
+    "src/sections/RestaurantEmailMarketing8.jsx",
+    "src/sections/HowToCreateA.jsx",
+    "src/sections/S7BestRestaurantOnline.jsx",
+    "src/sections/LocalSEOForRestaurants.jsx",
+    "src/sections/S6BestRestaurantWebsite.jsx",
+    "src/sections/S93OfRestaurantGuests.jsx",
+    "src/sections/S18ProvenRestaurantPromotion.jsx",
+    "src/sections/RestaurantCostsBreakdownSp.jsx",
+    "src/sections/S9BestPOSSystems.jsx",
+    "src/sections/S197BestPizzeriaSlogans.jsx",
+    "src/sections/S11BestRestaurantLoyalty.jsx",
+    "src/sections/S97BestPizzaCaptions.jsx",
+    "src/sections/BestRestaurantWebsites2026.jsx",
+    "src/sections/S21BestPizzaWebsites.jsx",
+    "src/sections/TheTop6Changes.jsx",
+    "src/sections/S10CreativeRestaurantMenu.jsx",
+    "src/sections/TheRealRestaurantFailure.jsx",
+    "src/sections/TheDirectCateringPlaybook.jsx",
+    "src/sections/S39FoodDeliveryStatistics.jsx",
+    "src/sections/RestaurantWebsiteDesign6.jsx",
+    "src/sections/HowToMakeA.jsx",
+    "src/sections/HowToWriteA.jsx",
+    "src/sections/TheUltimateGuideTo.jsx",
+    "src/sections/HowToCreateA2.jsx",
+    "src/sections/RestaurantMenuPricingUse.jsx",
+    "src/sections/S13EffectiveWaysTo.jsx",
+    "src/sections/DigitalMarketingForRestaura.jsx",
+    "src/sections/SMSMarketingForRestaurants.jsx",
+    "src/sections/YourGuideToBoost.jsx",
+    "src/sections/RestaurantCustomerRetention.jsx",
+    "src/sections/RestaurantAnalyticsEasyWay.jsx",
+    "src/sections/AverageRestaurantProfitMarg.jsx",
+    "src/sections/S15RestaurantMarketingTools.jsx",
+    "src/sections/S9PopularToastCompetitors.jsx",
+    "src/sections/RestaurantAccountingTrackY.jsx",
+    "src/sections/RestaurantGrowth.jsx",
+    "src/sections/S10ProvenPizzaAdvertising.jsx",
+    "src/sections/HowToCreateOnline.jsx",
+    "src/sections/S9BestPOSSystems2.jsx",
+    "src/sections/The10BestCatering.jsx",
+    "src/sections/S12BestRestaurantManagement.jsx",
+    "src/sections/S10BestPOSSystems.jsx",
+    "src/sections/HowMuchDoesA.jsx",
+    "src/sections/BestPizzaPOSSystems.jsx",
+    "src/sections/S10BestSquareAlternatives.jsx",
+    "src/sections/S9BestRestaurantCRMs.jsx",
+    "src/sections/RestaurantTechStackGuide.jsx",
+    "src/sections/MenuEngineeringHowTo.jsx",
+    "src/sections/BuildYourRestaurantGrowth.jsx",
+    "src/sections/RestaurantBrandingAQuick.jsx",
+    "src/sections/HowToCalculateAverage.jsx",
+    "src/sections/HereAreTheFood.jsx",
+    "src/sections/NewDataWhyGuests.jsx",
+    "src/sections/RestaurantPrimeCostHow.jsx",
+    "src/sections/MobileMarketingForRestauran.jsx",
+    "src/sections/S13BestAppsFor.jsx",
+    "src/sections/RestaurantPOSSystemMeaning.jsx",
+    "src/sections/SquarePOSSystemCost.jsx",
+    "src/sections/ToastPricingHowMuch.jsx",
+    "src/sections/PizzaMarketing15Tactics.jsx",
+    "src/sections/S107BestBurgerCaptions.jsx",
+    "src/sections/The97BestRestaurant.jsx",
+    "src/sections/WhatIsPOSReporting.jsx",
+    "src/sections/ToastVsCloverA.jsx",
+    "src/sections/S103BestTacoCaptions.jsx",
+    "src/sections/S28ProvenRestaurantMarketing.jsx",
+    "src/sections/HowToIncreaseRestaurant.jsx",
+    "src/sections/RestaurantMarketingPlanA.jsx",
+    "src/sections/ToastVsSquareA.jsx"
+  ],
+  "source": {
+    "id": "jsx:SEOForRestaurantsThe#.blog-author_wrap",
+    "component": "SEOForRestaurantsThe",
+    "file": "src/sections/SEOForRestaurantsThe.jsx",
+    "tag": "div",
+    "lines": [
+      802,
+      855
+    ]
+  },
+  "semantic": {
+    "id": "content.article-author",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "avatar.fictional-person"
+  ],
+  "layout": {
+    "inFlow": true
+  }
+}

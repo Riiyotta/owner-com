@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "rawValuesAllowed": false,
   "rawValueRestrictions": {
     "color": "forbidden",
@@ -8,13 +8,27 @@
     "elevation": "forbidden",
     "motion": "forbidden",
     "component": "forbidden",
-    "layout": "forbidden"
+    "layout": "forbidden",
+    "fontFamily": "forbidden"
   },
+  "pageSpecField": "nodes[].tokens (optional, closed): every slot holds a catalog token id of the category tokens/llm/token-catalog.json pageSpecSlots names; page-level `theme` must be a schema-validated theme from registry.manifest.json.",
+  "rules": {
+    "TOKEN_UNKNOWN": "a slot value that is not a token id in the catalog",
+    "TOKEN_RAW_COLOR": "a raw colour (hex, rgb(a), hsl(a), named CSS colour function) instead of a token id",
+    "TOKEN_ARBITRARY_SPACING": "a raw length (px, rem, em, %, vh, vw, bare number) in a spacing slot (paddingTop / paddingBottom / gap) or any slot",
+    "TOKEN_UNSUPPORTED_FONT": "a fontFamily that is not in catalog.categories.fontFamily",
+    "TOKEN_SLOT_MISMATCH": "a catalog token of the wrong category / prefix for its slot (e.g. a layout token as `surface`)",
+    "TOKEN_THEME_UNKNOWN": "a page theme that is not one of registry.manifest.json schemaValidatedThemes",
+    "TOKEN_THEME_UNRESOLVED": "a colour / typography / radius / elevation token the declared theme file does not resolve",
+    "TOKEN_INVALID_COMBINATION": "a node whose text and surface tokens resolve (in the declared theme) to a contrast ratio below 3:1, e.g. text.inverse on surface.default"
+  },
+  "minContrastRatio": 3.0,
   "overrides": {
-    "perInstance": "none",
-    "note": "PageSpec has no per-instance style or token-override field; styling is owned entirely by section and component contracts. Nothing to validate or mutate at the PageSpec layer; drift is tested at the catalog/policy layer instead."
+    "perInstance": "tokens slots only",
+    "note": "A node may pick catalog tokens for its slots; it can never carry raw values or style objects (the schema rejects `style`)."
   },
   "enforcement": {
-    "catalogPolicyParity": "machine-checked by extraction/verify_all.py"
+    "catalogPolicyParity": "machine-checked by extraction/verify_all.py (policy keys == catalog categories; catalog == fresh build from the token files)",
+    "pageSpec": "schema/semantic_validate.py TOKEN_* rules; adversarial suite covers each"
   }
 }

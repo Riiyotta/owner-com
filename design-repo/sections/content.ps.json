@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/Ps.jsx:5-48"
+    ],
+    "reconMeasuredFrom": [
       "src/d/index.html:4957-5001"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -70,5 +74,27 @@
   "implementedBy": "src/sections/Ps.jsx",
   "implementedByAll": [
     "src/sections/Ps.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:Ps",
+    "component": "Ps",
+    "file": "src/sections/Ps.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      48
+    ]
+  },
+  "semantic": {
+    "id": "content.ps",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

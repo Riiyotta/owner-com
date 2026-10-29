@@ -11,10 +11,16 @@
     "instances": 3,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/Section27.jsx:5-42",
+      "src/sections/MeetYulianaVasquez.jsx:5-38",
+      "src/sections/Section29.jsx:5-271"
+    ],
+    "reconMeasuredFrom": [
       "src/builders-wanted/index.html:1048-1076",
       "src/builders-wanted/index.html:1077-1112",
       "src/builders-wanted/index.html:2901-3208"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -46,6 +52,7 @@
     }
   },
   "constraints": {
+    "onePerPage": false,
     "maxPerPage": 3
   },
   "motion": {
@@ -76,10 +83,32 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/MeetYulianaVasquez.jsx",
+  "implementedBy": "src/sections/Section27.jsx",
   "implementedByAll": [
-    "src/sections/MeetYulianaVasquez.jsx",
     "src/sections/Section27.jsx",
+    "src/sections/MeetYulianaVasquez.jsx",
     "src/sections/Section29.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:Section27",
+    "component": "Section27",
+    "file": "src/sections/Section27.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      42
+    ]
+  },
+  "semantic": {
+    "id": "content.section-eng-row",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

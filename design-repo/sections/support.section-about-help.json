@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/Section23.jsx:7-62"
+    ],
+    "reconMeasuredFrom": [
       "src/our-story/index.html:4068-4123"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -78,5 +82,28 @@
   "implementedBy": "src/sections/Section23.jsx",
   "implementedByAll": [
     "src/sections/Section23.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:Section23",
+    "component": "Section23",
+    "file": "src/sections/Section23.jsx",
+    "tag": "section",
+    "lines": [
+      7,
+      62
+    ]
+  },
+  "semantic": {
+    "id": "support.section-about-help",
+    "category": "SUPPORT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [
+    "asset.operator-supplied",
+    "illustration.generated",
+    "video.placeholder"
+  ],
+  "layout": {
+    "inFlow": true
+  }
 }

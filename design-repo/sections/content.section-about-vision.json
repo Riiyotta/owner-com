@@ -11,8 +11,12 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
+      "src/sections/OurLongTermVision.jsx:5-62"
+    ],
+    "reconMeasuredFrom": [
       "src/our-story/index.html:4007-4067"
-    ]
+    ],
+    "reconNote": "recon/mirror/src/ rendered-HTML snapshot ranges from the original crawl; recon/ is not part of this package (gitignored), so these are historical and not re-checked."
   },
   "content": {
     "additionalProperties": false,
@@ -60,5 +64,24 @@
   "implementedBy": "src/sections/OurLongTermVision.jsx",
   "implementedByAll": [
     "src/sections/OurLongTermVision.jsx"
-  ]
+  ],
+  "source": {
+    "id": "jsx:OurLongTermVision",
+    "component": "OurLongTermVision",
+    "file": "src/sections/OurLongTermVision.jsx",
+    "tag": "section",
+    "lines": [
+      5,
+      62
+    ]
+  },
+  "semantic": {
+    "id": "content.section-about-vision",
+    "category": "CONTENT"
+  },
+  "retrievalEligible": true,
+  "generatedAssetRoles": [],
+  "layout": {
+    "inFlow": true
+  }
 }

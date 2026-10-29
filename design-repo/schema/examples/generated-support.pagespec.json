@@ -1,0 +1,150 @@
+{
+  "pageSpecVersion": "0.2.0",
+  "mode": "generation",
+  "template": "template.support",
+  "route": "/support-sample",
+  "theme": "light",
+  "brand": {
+    "name": "Quillfern",
+    "domain": "quillfern.example"
+  },
+  "nodes": [
+    {
+      "type": "shell.nav-wrapper",
+      "content": {
+        "body": [
+          "Quillfern keeps volunteer gardeners in step: shared bed maps, rota reminders by text",
+          "Members trade shifts in two taps while coordinators watch frost alerts and rain"
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/nav-wrapper.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-base",
+      "content": {
+        "heading": "Watering rotas that never double book a bed",
+        "subheading": "Built with garden committees in Leeds, Lyon",
+        "body": [
+          "Members trade shifts in two taps while coordinators watch frost alerts and rain gauges from one tidy board.",
+          "Allotment groups move their paper sign up sheets over in an afternoon and keep every plot history in one place."
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "items": [
+          {
+            "title": "Rota swaps",
+            "body": "Gardeners hand off a watering shift without a long group chat."
+          },
+          {
+            "title": "Frost watch",
+            "body": "A gentle nudge goes out when the overnight forecast dips toward zero."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "avatar.fictional-person",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-base.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-base",
+      "content": {
+        "heading": "Seed swaps, tool sheds and harvest days in one calendar",
+        "subheading": "Built with garden committees in Leeds, Lyon",
+        "body": [
+          "Allotment groups move their paper sign up sheets over in an afternoon and keep every plot history in one place.",
+          "Volunteers log what they planted, what they picked and which hose leaks, so next spring starts with notes instead of guesses."
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "items": [
+          {
+            "title": "Frost watch",
+            "body": "A gentle nudge goes out when the overnight forecast dips toward zero."
+          },
+          {
+            "title": "Harvest log",
+            "body": "Weigh the pumpkins, note the variety, compare with last autumn."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "avatar.fictional-person",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-base.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.section-footer",
+      "content": {
+        "body": [
+          "Volunteers log what they planted, what they",
+          "Quillfern keeps volunteer gardeners in step: shared"
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

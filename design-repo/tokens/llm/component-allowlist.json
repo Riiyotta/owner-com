@@ -1,10 +1,18 @@
 {
-  "version": "1",
+  "version": "2",
   "sections": [
+    "content.article-author",
+    "content.article-chapter",
+    "content.article-cover",
+    "content.article-key-takeaways",
+    "content.article-sidebar",
     "content.block",
     "content.cs-index-list",
+    "content.demo-hidden-control",
     "content.eng-lp-figure-wall",
     "content.eng-maxwdith",
+    "content.legal-nav",
+    "content.legal-part",
     "content.pres-cards-header",
     "content.ps",
     "content.roles",
@@ -36,11 +44,13 @@
     "features.section-eng-steps",
     "features.section-hiw-steps",
     "features.section-pos-steps",
+    "hero.article-header",
     "hero.cs-index-head",
     "hero.demo-control-layout",
+    "hero.demo-variant-modal",
     "hero.eng-section-eng-hero",
+    "hero.legal-header",
     "hero.section-about-hero",
-    "hero.section-blog-content",
     "hero.section-blog-hero",
     "hero.section-career-hero",
     "hero.section-center-hero",
@@ -48,13 +58,15 @@
     "hero.section-demo",
     "hero.section-hp-hero",
     "hero.section-leadership-hero",
-    "hero.section-legal",
     "hero.section-product-hero",
     "hero.section-product-v-hero",
     "hero.section-resource",
     "hero.section-reviews-hero",
     "hero.section-s-d-hero",
     "proof.press-cards-wrap",
+    "proof.reviews-wall-cards",
+    "proof.reviews-wall-header",
+    "proof.reviews-wall-photo",
     "proof.section-beliefs",
     "proof.section-reviews",
     "proof.section-stories",
@@ -64,6 +76,7 @@
     "shell.nav-wrapper",
     "shell.section-footer",
     "showcase.section-s-d-gtm",
+    "support.article-faq",
     "support.eng-steps-faq",
     "support.form",
     "support.section-about-help",
@@ -347,14 +360,35 @@
     "video"
   ],
   "nodeProperties": [
-    "type",
     "content",
-    "motion"
+    "motion",
+    "retrievalEligible",
+    "tokens",
+    "type"
   ],
   "contentFields": {
-    "content.block": [
-      "heading",
+    "content.article-author": [
+      "body"
+    ],
+    "content.article-chapter": [
       "body",
+      "heading",
+      "images"
+    ],
+    "content.article-cover": [
+      "images"
+    ],
+    "content.article-key-takeaways": [
+      "heading",
+      "items"
+    ],
+    "content.article-sidebar": [
+      "body",
+      "ctas"
+    ],
+    "content.block": [
+      "body",
+      "heading",
       "images"
     ],
     "content.cs-index-list": [
@@ -362,28 +396,40 @@
       "ctas",
       "images"
     ],
+    "content.demo-hidden-control": [
+      "body",
+      "ctas",
+      "heading"
+    ],
     "content.eng-lp-figure-wall": [
       "images"
     ],
     "content.eng-maxwdith": [
       "heading"
     ],
-    "content.pres-cards-header": [
-      "heading",
-      "subheading",
+    "content.legal-nav": [
+      "ctas"
+    ],
+    "content.legal-part": [
       "body",
-      "images"
+      "heading"
+    ],
+    "content.pres-cards-header": [
+      "body",
+      "heading",
+      "images",
+      "subheading"
     ],
     "content.ps": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "content.roles": [
-      "heading",
-      "subheading",
       "body",
-      "ctas"
+      "ctas",
+      "heading",
+      "subheading"
     ],
     "content.s-d-summary-list": [
       "body"
@@ -393,119 +439,119 @@
       "images"
     ],
     "content.s-d-wrap": [
-      "heading",
-      "body"
+      "body",
+      "heading"
     ],
     "content.section-about-how": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "content.section-about-local": [
-      "items",
-      "images"
+      "images",
+      "items"
     ],
     "content.section-about-stats": [
+      "body",
       "heading",
-      "subheading",
-      "body"
+      "subheading"
     ],
     "content.section-about-vision": [
-      "heading",
-      "body"
+      "body",
+      "heading"
     ],
     "content.section-base": [
-      "heading",
-      "subheading",
       "body",
       "ctas",
+      "heading",
+      "images",
       "items",
-      "images"
+      "subheading"
     ],
     "content.section-blog-categories": [
       "ctas",
-      "items",
-      "images"
+      "images",
+      "items"
     ],
     "content.section-blog-most": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "content.section-blog-topics": [
-      "heading",
       "ctas",
+      "heading",
       "images"
     ],
     "content.section-eng-intro": [
-      "heading",
-      "body"
+      "body",
+      "heading"
     ],
     "content.section-eng-row": [
-      "heading",
-      "subheading",
       "body",
-      "images"
+      "heading",
+      "images",
+      "subheading"
     ],
     "content.section-guides": [
-      "heading",
       "ctas",
+      "heading",
       "images"
     ],
     "content.section-owner-stack": [
-      "heading",
-      "body"
+      "body",
+      "heading"
     ],
     "content.section-restaurant": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "content.section-s-d-about": [
-      "heading",
       "body",
+      "heading",
       "items"
     ],
     "content.section-s-d-competition": [
-      "heading",
       "body",
+      "heading",
       "items"
     ],
     "content.section-s-d-future": [
-      "heading",
       "body",
+      "heading",
       "items"
     ],
     "content.section-s-d-the-problem": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "content.section-s-d-why-now": [
-      "heading",
       "body",
+      "heading",
       "items"
     ],
     "content.section-why-sticky": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "content.team": [
       "body",
-      "items",
-      "images"
+      "images",
+      "items"
     ],
     "cta.section-career-cta": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "cta.section-cta": [
-      "heading",
       "ctas",
+      "heading",
       "images"
     ],
     "features.section-eng-steps": [
@@ -517,134 +563,145 @@
       "images"
     ],
     "features.section-pos-steps": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
-    "hero.cs-index-head": [
-      "heading",
+    "hero.article-header": [
       "body",
+      "heading",
+      "subheading"
+    ],
+    "hero.cs-index-head": [
+      "body",
+      "heading",
       "images"
     ],
     "hero.demo-control-layout": [
-      "heading",
-      "subheading",
       "body",
       "ctas",
+      "heading",
+      "images",
       "items",
-      "images"
+      "subheading"
+    ],
+    "hero.demo-variant-modal": [
+      "body",
+      "ctas",
+      "heading"
     ],
     "hero.eng-section-eng-hero": [
-      "heading",
       "body",
+      "heading",
       "images"
+    ],
+    "hero.legal-header": [
+      "body",
+      "heading"
     ],
     "hero.section-about-hero": [
-      "heading",
       "body",
-      "images"
-    ],
-    "hero.section-blog-content": [
       "heading",
-      "subheading",
-      "body",
-      "ctas",
-      "items",
       "images"
     ],
     "hero.section-blog-hero": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "hero.section-career-hero": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-center-hero": [
-      "heading",
       "body",
-      "ctas"
+      "ctas",
+      "heading"
     ],
     "hero.section-cs-hero": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "hero.section-demo": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-hp-hero": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-leadership-hero": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
-    "hero.section-legal": [
-      "heading",
-      "body",
-      "items"
-    ],
     "hero.section-product-hero": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-product-v-hero": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-resource": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "hero.section-reviews-hero": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "hero.section-s-d-hero": [
-      "heading",
-      "body"
+      "body",
+      "heading"
     ],
     "proof.press-cards-wrap": [
-      "items",
+      "images",
+      "items"
+    ],
+    "proof.reviews-wall-cards": [
+      "body"
+    ],
+    "proof.reviews-wall-header": [
+      "body",
+      "heading"
+    ],
+    "proof.reviews-wall-photo": [
       "images"
     ],
     "proof.section-beliefs": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "proof.section-reviews": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "proof.section-stories": [
-      "heading",
       "body",
+      "heading",
       "images"
     ],
     "proof.section-testimonials": [
-      "heading",
       "body",
       "ctas",
+      "heading",
       "images"
     ],
     "shell.demo-control-header": [
@@ -666,13 +723,18 @@
     "showcase.section-s-d-gtm": [
       "items"
     ],
+    "support.article-faq": [
+      "body",
+      "heading",
+      "items"
+    ],
     "support.eng-steps-faq": [
       "body"
     ],
     "support.form": [
-      "heading",
       "body",
-      "ctas"
+      "ctas",
+      "heading"
     ],
     "support.section-about-help": [
       "body",
@@ -680,9 +742,13 @@
       "images"
     ],
     "support.section-leaders-support": [
-      "heading",
       "body",
+      "heading",
       "images"
     ]
-  }
+  },
+  "retrievalIneligible": [
+    "content.demo-hidden-control",
+    "hero.demo-variant-modal"
+  ]
 }

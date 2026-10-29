@@ -1,0 +1,284 @@
+{
+  "pageSpecVersion": "0.2.0",
+  "mode": "generation",
+  "template": "template.home",
+  "route": "/home-sample",
+  "theme": "light",
+  "brand": {
+    "name": "Quillfern",
+    "domain": "quillfern.example"
+  },
+  "nodes": [
+    {
+      "type": "shell.nav-wrapper",
+      "content": {
+        "body": [
+          "Quillfern keeps volunteer gardeners in step: shared bed maps, rota reminders by text",
+          "Members trade shifts in two taps while coordinators watch frost alerts and rain"
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/nav-wrapper.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.section-hp-hero",
+      "content": {
+        "heading": "Watering rotas that never double book a bed",
+        "body": [
+          "Members trade shifts in two taps while coordinators watch",
+          "Allotment groups move their paper sign up sheets over"
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-hp-hero.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      },
+      "tokens": {
+        "surface": "surface.default",
+        "text": "text.primary",
+        "typography": "typography.display",
+        "paddingTop": "layout.sectionPaddingTop"
+      }
+    },
+    {
+      "type": "proof.section-stories",
+      "content": {
+        "heading": "Seed swaps, tool sheds and",
+        "body": [
+          "Allotment groups move their paper",
+          "Volunteers log what they planted,"
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-stories.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-owner-stack",
+      "content": {
+        "heading": "Every gardener sees which beds need help this week",
+        "body": [
+          "Volunteers log what they planted, what they picked and which hose",
+          "Quillfern keeps volunteer gardeners in step: shared bed maps, rota reminders"
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "proof.section-reviews",
+      "content": {
+        "heading": "Quiet tools for loud tomato seasons",
+        "body": [
+          "Quillfern keeps volunteer gardeners in step: shared bed maps, rota reminders by text and a calendar the shed committee can actually",
+          "Members trade shifts in two taps while coordinators watch frost alerts and rain gauges from one tidy board."
+        ],
+        "images": [
+          {
+            "assetRole": "avatar.fictional-person",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-reviews.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-restaurant",
+      "content": {
+        "heading": "Plan the compost turn before the first frost",
+        "body": [
+          "Members trade shifts in two taps while coordinators watch frost alerts and rain gauges from one tidy board.",
+          "Allotment groups move their paper sign up sheets over in an afternoon and keep every plot history in one"
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-restaurant.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "proof.section-testimonials",
+      "content": {
+        "heading": "Plot schedules your",
+        "body": [
+          "Allotment groups move their paper",
+          "Volunteers log what they planted,"
+        ],
+        "ctas": [
+          {
+            "label": "Book a",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "avatar.fictional-person",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-testimonials.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "proof.section-beliefs",
+      "content": {
+        "heading": "Watering rotas that never double book a",
+        "body": [
+          "Volunteers log what they planted, what they picked and which hose leaks, so next spring starts with notes instead of guesses.",
+          "Quillfern keeps volunteer gardeners in step: shared bed maps, rota reminders by text and a calendar the shed committee can actually edit."
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-beliefs.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.section-guides",
+      "content": {
+        "heading": "Seed swaps, tool sheds and harvest days in",
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-guides.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "cta.section-cta",
+      "content": {
+        "heading": "Every gardener sees which beds need help this",
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration.generated",
+            "alt": "Illustrated raised beds under a striped awning",
+            "src": "https://assets.quillfern.example/section-cta.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      },
+      "tokens": {
+        "surface": "surface.default",
+        "text": "text.primary",
+        "typography": "typography.display",
+        "paddingTop": "layout.sectionPaddingTop"
+      }
+    },
+    {
+      "type": "shell.section-footer",
+      "content": {
+        "body": [
+          "Allotment groups move their paper sign up",
+          "Volunteers log what they planted, what they"
+        ],
+        "ctas": [
+          {
+            "label": "Book a plot tour",
+            "href": "/tour"
+          },
+          {
+            "label": "See plans",
+            "href": "/plans"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}
